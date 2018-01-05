@@ -1,3 +1,5 @@
+package java;
+
 public class a {
     private String name;
 
