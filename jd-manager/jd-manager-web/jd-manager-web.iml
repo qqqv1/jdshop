@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
-    <facet type="Spring" name="Spring">
-      <configuration />
-    </facet>
     <facet type="web" name="Web">
       <configuration>
         <descriptors>
@@ -13,9 +10,13 @@
           <root url="file://$MODULE_DIR$/src/main/webapp" relative="/" />
         </webroots>
         <sourceRoots>
+          <root url="file://$MODULE_DIR$/src/main/java" />
           <root url="file://$MODULE_DIR$/src/main/resources" />
         </sourceRoots>
       </configuration>
+    </facet>
+    <facet type="Spring" name="Spring">
+      <configuration />
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
@@ -25,13 +26,10 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
-<<<<<<< HEAD
       <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
-=======
->>>>>>> 2c6911a4793dee7f764e2964283715bd8e4d5a87
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="1.7" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="jd-manager-service" />
     <orderEntry type="module" module-name="jd-manager-dao" />
@@ -64,5 +62,8 @@
     <orderEntry type="library" name="Maven: com.alibaba:druid:1.0.29" level="project" />
     <orderEntry type="library" name="Maven: org.mybatis:mybatis:3.4.4" level="project" />
     <orderEntry type="library" name="Maven: org.mybatis:mybatis-spring:1.3.1" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.21" level="project" />
+    <orderEntry type="library" name="Maven: ch.qos.logback:logback-core:1.1.1" level="project" />
+    <orderEntry type="library" name="Maven: ch.qos.logback:logback-classic:1.1.1" level="project" />
   </component>
 </module>
