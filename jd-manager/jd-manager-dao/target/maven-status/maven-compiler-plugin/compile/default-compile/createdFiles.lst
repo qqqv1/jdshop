@@ -1,0 +1,5 @@
+com\zhou\jdshop\dao\OrdersMapper.class
+com\zhou\jdshop\dao\ProductMapper.class
+com\zhou\jdshop\dao\OrderitemMapper.class
+com\zhou\jdshop\dao\CategoryMapper.class
+com\zhou\jdshop\dao\UserMapper.class
