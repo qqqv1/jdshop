@@ -21,9 +21,9 @@
     <link href="css/bootstrap-table.css" rel="stylesheet">
     <link href="css/font-awesome.css?v=4.4.0" rel="stylesheet">
     <!-- Data Tables -->
-    <link href="css/dataTables.bootstrap.css" rel="stylesheet">
+    <%--<link href="css/dataTables.bootstrap.css" rel="stylesheet">--%>
     <!-- Sweet Alert -->
-    <%--<link href="css/sweetalert.css" rel="stylesheet">--%>
+    <link href="css/sweetalert.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/style.css?v=4.1.0" rel="stylesheet">
     <%--<link type="text/css" rel="stylesheet" href="css/laydate.css">
@@ -59,27 +59,27 @@
 <script src="js/bootstrap-table.min.js"></script>
 <script src="js/bootstrap-table-zh-CN.js"></script>
 
-<script src="js/jquery.jeditable.js"></script>
+<%--<script src="js/jquery.jeditable.js"></script>
 <!-- Data Tables -->
 <!-- 页面 分页 -->
-<%--<script src="js/jquery.dataTables.js"></script>--%>
-<script src="js/dataTables.bootstrap.js"></script>
+<script src="js/jquery.dataTables.js"></script>
+<script src="js/dataTables.bootstrap.js"></script>--%>
 <!-- 自定义js -->
 <script src="js/content.js?v=1.0.0"></script>
 <!-- Page-Level Scripts -->
 
 <!-- Sweet alert -->
-<%--<script src="js/sweetalert.min.js"></script>--%>
+<script src="js/sweetalert.min.js"></script>
 
 <script>
     $(function () {
         $("#productListDg").bootstrapTable({
-            url: 'products',
-            pagination: true,
+            url:'products',
+            pagination:true,
             columns: [[
-                {field: 'id', title: '商品编号'},
-                {field: 'title', title: '商品标题'},
-                {field: 'decr', title: '商品详情'}
+                {field: 'pid', title: '商品编号'},
+                {field: 'pname', title: '商品标题'},
+                {field: 'pdesc', title: '商品详情'}
             ]]
         })
     })

@@ -77,9 +77,9 @@
             url:'products',
             pagination:true,
             columns: [[
-                {field: 'id', title: '商品编号'},
-                {field: 'title', title: '商品标题'},
-                {field: 'decr', title: '商品详情'}
+                {field: 'pid', title: '商品编号'},
+                {field: 'pname', title: '商品标题'},
+                {field: 'pdesc', title: '商品详情'}
             ]]
         })
     })

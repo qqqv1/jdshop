@@ -22,7 +22,7 @@ public class ProductServiceImpl implements ProductService {
     public List<Product> listProducts() {
         List<Product> list=null;
         try {
-            list = productDao.listProducts();
+            list = productDao.selectByExample(null);
         }catch (Exception e){
             logger.error(e.getMessage(),e);
             e.printStackTrace();

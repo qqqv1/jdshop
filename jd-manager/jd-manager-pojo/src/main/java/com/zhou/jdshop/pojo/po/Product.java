@@ -3,85 +3,103 @@ package com.zhou.jdshop.pojo.po;
 import java.util.Date;
 
 public class Product {
-    private Integer id;
-    private String code;
-    private Date createTime;
-    private String model;
-    private String note;
-    private String picUrl;
-    private Integer point;
-    private Long stock;
-    private String title;
+    private String pid;
 
-    public Integer getId() {
-        return id;
+    private String pname;
+
+    private Double marketPrice;
+
+    private Double shopPrice;
+
+    private String pimage;
+
+    private Date pdate;
+
+    private Integer isHot;
+
+    private String pdesc;
+
+    private Integer pflag;
+
+    private String cid;
+
+    public String getPid() {
+        return pid;
     }
 
-    public void setId(Integer id) {
-        this.id = id;
+    public void setPid(String pid) {
+        this.pid = pid == null ? null : pid.trim();
     }
 
-    public String getCode() {
-        return code;
+    public String getPname() {
+        return pname;
     }
 
-    public void setCode(String code) {
-        this.code = code;
+    public void setPname(String pname) {
+        this.pname = pname == null ? null : pname.trim();
     }
 
-    public Date getCreateTime() {
-        return createTime;
+    public Double getMarketPrice() {
+        return marketPrice;
     }
 
-    public void setCreateTime(Date createTime) {
-        this.createTime = createTime;
+    public void setMarketPrice(Double marketPrice) {
+        this.marketPrice = marketPrice;
     }
 
-    public String getModel() {
-        return model;
+    public Double getShopPrice() {
+        return shopPrice;
     }
 
-    public void setModel(String model) {
-        this.model = model;
+    public void setShopPrice(Double shopPrice) {
+        this.shopPrice = shopPrice;
     }
 
-    public String getNote() {
-        return note;
+    public String getPimage() {
+        return pimage;
     }
 
-    public void setNote(String note) {
-        this.note = note;
+    public void setPimage(String pimage) {
+        this.pimage = pimage == null ? null : pimage.trim();
     }
 
-    public String getPicUrl() {
-        return picUrl;
+    public Date getPdate() {
+        return pdate;
     }
 
-    public void setPicUrl(String picUrl) {
-        this.picUrl = picUrl;
+    public void setPdate(Date pdate) {
+        this.pdate = pdate;
     }
 
-    public Integer getPoint() {
-        return point;
+    public Integer getIsHot() {
+        return isHot;
     }
 
-    public void setPoint(Integer point) {
-        this.point = point;
+    public void setIsHot(Integer isHot) {
+        this.isHot = isHot;
     }
 
-    public Long getStock() {
-        return stock;
+    public String getPdesc() {
+        return pdesc;
     }
 
-    public void setStock(Long stock) {
-        this.stock = stock;
+    public void setPdesc(String pdesc) {
+        this.pdesc = pdesc == null ? null : pdesc.trim();
     }
 
-    public String getTitle() {
-        return title;
+    public Integer getPflag() {
+        return pflag;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
+    public void setPflag(Integer pflag) {
+        this.pflag = pflag;
+    }
+
+    public String getCid() {
+        return cid;
+    }
+
+    public void setCid(String cid) {
+        this.cid = cid == null ? null : cid.trim();
     }
 }

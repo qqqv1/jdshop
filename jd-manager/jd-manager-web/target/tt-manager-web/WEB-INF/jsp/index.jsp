@@ -30,7 +30,7 @@
                         <a data-toggle="dropdown" class="dropdown-toggle" href="index">
                             <span class="clear">
                                 <span class="block m-t-xs" style="font-size:20px;">
-                                    <strong class="font-bold">中意家园网上商城</strong>
+                                    <strong class="font-bold">购物街</strong>
                                 </span>
                             </span>
                         </a>
