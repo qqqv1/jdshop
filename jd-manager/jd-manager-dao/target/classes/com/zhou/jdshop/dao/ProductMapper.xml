@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zhou.jdshop.dao.ProductMapper" >
+    <sql id="Base_Column_List">
+        id,price,create_time,model,decr,pic_url,point,stock,title
+    </sql>
+    <select id="listProducts" resultType="com.zhou.jdshop.pojo.po.Product">
+        select
+        <include refid="Base_Column_List"/>
+        from t_product
+    </select>
+</mapper>
