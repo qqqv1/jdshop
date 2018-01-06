@@ -62,7 +62,7 @@
 <script src="js/jquery.jeditable.js"></script>
 <!-- Data Tables -->
 <!-- 页面 分页 -->
-<%--<script src="js/jquery.dataTables.js"></script>--%>
+<script src="js/jquery.dataTables.js"></script>
 <script src="js/dataTables.bootstrap.js"></script>
 <!-- 自定义js -->
 <script src="js/content.js?v=1.0.0"></script>
