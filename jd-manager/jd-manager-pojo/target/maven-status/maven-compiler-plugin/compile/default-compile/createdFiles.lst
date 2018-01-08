@@ -6,6 +6,7 @@ com\zhou\jdshop\pojo\po\OrdersExample.class
 com\zhou\jdshop\pojo\po\OrdersExample$Criterion.class
 com\zhou\jdshop\pojo\po\OrderitemExample.class
 com\zhou\jdshop\pojo\po\ProductExample.class
+com\zhou\jdshop\pojo\vo\OrdersCustom.class
 com\zhou\jdshop\pojo\po\Product.class
 com\zhou\jdshop\pojo\po\OrdersExample$GeneratedCriteria.class
 com\zhou\jdshop\pojo\po\UserExample.class

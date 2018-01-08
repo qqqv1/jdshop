@@ -39,6 +39,7 @@
                         admin
                     </div>
                 </li>
+                <%--商品--%>
                 <li class="line dk"></li>
                 <li class="hidden-folded padder m-t m-b-sm text-muted text-xs">
                     <span class="ng-scope">商品管理</span>
@@ -58,6 +59,31 @@
                     </li>
                 </ul>
                 </li>
+
+                <%--订单--%>
+                <li class="line dk"></li>
+                <li class="hidden-folded padder m-t m-b-sm text-muted text-xs">
+                    <span class="ng-scope">订单管理</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-cogs"></i>
+                        <span class="nav-label">订单细则</span>
+                        <span class="fa arrow"></span>
+                    </a>
+                    <ul class="nav nav-second-level">
+                        <li>
+                            <a class="J_menuItem" href="order-list">订单总览</a>
+                        </li>
+                    </ul>
+                    <ul class="nav nav-second-level">
+                        <li>
+                            <a class="J_menuItem" href="order-add">增加订单</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <%--用户--%>
             </ul>
         </div>
     </nav>

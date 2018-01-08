@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhou.jdshop.dao.OrdersCustomMapper">
+  <resultMap id="BaseResultMap" type="com.zhou.jdshop.pojo.po.Orders">
+    <id column="oid" jdbcType="VARCHAR" property="oid" />
+    <result column="ordertime" jdbcType="TIMESTAMP" property="ordertime" />
+    <result column="total" jdbcType="DOUBLE" property="total" />
+    <result column="state" jdbcType="INTEGER" property="state" />
+    <result column="address" jdbcType="VARCHAR" property="address" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="telephone" jdbcType="VARCHAR" property="telephone" />
+    <result column="uid" jdbcType="VARCHAR" property="uid" />
+  </resultMap>
+
+
+  <sql id="Base_Column_List">
+    o.oid, o.ordertime, o.total,o.state,  o.address, o.name, o.telephone,
+    oi.itemid,oi.count,oi.subtotal,
+    p.pname,
+    CASE
+ o.state
+        WHEN 0 THEN '已删除'
+        WHEN 1 THEN '未支付'
+	    	WHEN 2 THEN '已支付,未发货'
+		    WHEN 3 THEN '已支付,并发货'
+		    WHEN 4 THEN '已完成'
+	    	ELSE '未知' END as status
+  </sql>
+
+  <select id="selectByExample" resultType="com.zhou.jdshop.pojo.vo.OrdersCustom">
+
+    select
+    <include refid="Base_Column_List" />
+    from orders o left join orderitem oi on o.oid=oi.oid
+    LEFT JOIN product p on oi.pid=p.pid
+    order by o.oid
+
+  </select>
+
+</mapper>
