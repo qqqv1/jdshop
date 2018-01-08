@@ -15,7 +15,7 @@ import java.util.List;
 @Controller
 public class ProductAction {
 
-    private Logger logger= LoggerFactory.getLogger(this.getClass());;
+    private Logger logger= LoggerFactory.getLogger(this.getClass());
 
     @Autowired
     private ProductService productService;
@@ -33,4 +33,28 @@ public class ProductAction {
         return list;
     }
 
+    @ResponseBody
+    @RequestMapping("/addproduct")
+    public int saveProduct(Product product){
+        int i = 0;
+        try {
+            i = productService.saveProduct(product);
+        } catch (Exception e) {
+            logger.error(e.getMessage(), e);
+            e.printStackTrace();
+        }
+        return i;
+    }
+
+    @ResponseBody
+    @RequestMapping("/editproduct")
+    public int editProduct(){
+        return 0;
+    }
+
+    @ResponseBody
+    @RequestMapping("/deleteproduct")
+    public int deleteProduct(){
+        return 0;
+    }
 }

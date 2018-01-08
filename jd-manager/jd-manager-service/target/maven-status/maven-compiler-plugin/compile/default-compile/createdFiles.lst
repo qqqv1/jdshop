@@ -1,2 +1,3 @@
 com\zhou\jdshop\service\impl\OrderServiceImpl.class
 com\zhou\jdshop\service\impl\ProductServiceImpl.class
+com\zhou\jdshop\service\impl\CategoryServiceImpl.class

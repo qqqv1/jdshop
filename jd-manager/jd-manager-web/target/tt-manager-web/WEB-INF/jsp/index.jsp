@@ -52,6 +52,9 @@
                 </a>
                 <ul class="nav nav-second-level">
                     <li>
+                        <a class="J_menuItem" href="product-add">产品添加</a>
+                    </li>
+                    <li>
                         <a class="J_menuItem" href="product-list">产品专区</a>
                     </li>
                 </ul>
@@ -125,6 +128,5 @@
     });
 </script>
 <!-- 第三方插件 -->
-<script src="js/plugins/pace/pace.min.js"></script>
 </body>
 </html>

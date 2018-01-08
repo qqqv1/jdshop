@@ -23,6 +23,8 @@ public class Product {
 
     private String cid;
 
+    private Integer quantity;
+
     public String getPid() {
         return pid;
     }
@@ -101,5 +103,13 @@ public class Product {
 
     public void setCid(String cid) {
         this.cid = cid == null ? null : cid.trim();
+    }
+
+    public Integer getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(Integer quantity) {
+        this.quantity = quantity;
     }
 }
