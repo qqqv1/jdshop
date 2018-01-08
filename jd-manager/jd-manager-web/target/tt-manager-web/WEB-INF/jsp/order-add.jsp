@@ -135,12 +135,15 @@
                             </div>
                         </div>
                         <div class="form-group">
+<<<<<<< HEAD
                             <label class="col-sm-3 control-label"><span style="color:red;" >*</span>商品数量：</label>
                             <div class="col-sm-8" >
                                 <input type="text" name="count"  placeholder=" 请输入商品数量" value="" maxlength="20" id="count" class="form-control">
                             </div>
                         </div>
                         <div class="form-group">
+=======
+>>>>>>> 899a68154a86e72a76f8f359df945566a398f9d1
                             <label class="col-sm-3 control-label"><span style="color:red;" >*</span>商品总价：</label>
                             <div class="col-sm-8" >
                                 <input type="text" name="subtotal"  placeholder=" 请输入商品总价" value="" id="subtotal" maxlength="20" class="form-control">
@@ -151,7 +154,11 @@
                         <div class="form-group">
                             <label class="col-sm-3 control-label"><span style="color:red;" >*</span>买家：</label>
                             <div class="col-sm-8" >
+<<<<<<< HEAD
                                 <input type="text" name="name"  placeholder=" 请输入买家名" value="" id="name" maxlength="20" class="form-control">
+=======
+                                <input type="text" name="name"  placeholder=" 请输入用户名" value="" id="name" maxlength="20" class="form-control">
+>>>>>>> 899a68154a86e72a76f8f359df945566a398f9d1
                             </div>
                         </div>
                         <div class="form-group">
@@ -162,7 +169,11 @@
                         </div>
 
                         <div class="form-group">
+<<<<<<< HEAD
                             <label class="col-sm-3 control-label"><span style="color:red;" >*</span>地址：</label>
+=======
+                            <label class="col-sm-3 control-label">地址：</label>
+>>>>>>> 899a68154a86e72a76f8f359df945566a398f9d1
                             <div class="col-sm-8">
                                 <div >
                                     <style type="text/css">

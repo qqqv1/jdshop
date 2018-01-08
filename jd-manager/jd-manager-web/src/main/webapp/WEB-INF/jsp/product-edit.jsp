@@ -11,7 +11,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> - 基本表单</title>
+    <title> - 产品修改</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <link rel="shortcut icon" href="favicon.ico">
@@ -37,43 +37,7 @@
     <link type="text/css" rel="stylesheet" href="css/laydate1.css">
 
     <link href="css/sweetalert.css" rel="stylesheet">
-
-
     <link rel="stylesheet" href="themes/default/default.css" />
-    <script charset="utf-8" src="kindeditor-min.js"></script>
-    <script charset="utf-8" src="lang/zh_CN.js"></script>
-    <script>
-        KindEditor.ready(function(K) {
-            K.create('#content1', {
-                pasteType : 0
-            });
-            K.create('#content2', {
-                pasteType : 1
-            });
-            K.create('#content3', {
-                pasteType : 2
-            });
-        });
-    </script>
-    <script>
-        KindEditor.ready(function(K) {
-            var editor = K.editor({
-                allowFileManager : true
-            });
-            K('#image1').click(function() {
-                editor.loadPlugin('image', function() {
-                    editor.plugin.imageDialog({
-                        imageUrl : K('#url1').val(),
-                        clickFn : function(url, title, width, height, border, align) {
-                            K('#url1').val(url);
-                            editor.hideDialog();
-                        }
-                    });
-                });
-            })
-        });
-    </script>
-
 </head>
 <body class="gray-bg">
 <div style="display: none;">
@@ -84,100 +48,72 @@
         <div class="col-sm-12">
             <div class="ibox float-e-margins">
                 <div class="ibox-title">
-                    <h5>商品修改</h5>
+                    <h5>产品修改</h5>
                 </div>
                 <div class="ibox-content">
-                    <form class="form-horizontal"  action="/editproduct"  method="post">
+                    <form class="form-horizontal" id="product" action="#">
                         <div class="form-group">
-                            <input type="hidden" name="pid" value="p116">
+                            <input type="hidden" id="pid" name="pid">
                             <label class="col-sm-3 control-label"></label>
                             <div class="col-sm-8" style="color: red;font-size: 15px">
-
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="col-sm-3 control-label"><span style="color:red;">*</span>商品名称：</label>
                             <div class="col-sm-8">
-                                <input id="pname" name="pname" value="iPhone 8" type="text" placeholder=" 请输入商品名称" class="form-control">
+                                <input id="pname" name="pname" type="text" placeholder=" 请输入商品名称" class="form-control">
                                 <span class="help-block m-b-none"></span>
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="col-sm-3 control-label"><span style="color:red;">*</span>商品售价：</label>
                             <div class="col-sm-8">
-                                <input id="marketPrice" name="marketPrice" value="6888.0" type="text" placeholder=" 请输入商品售价"  onkeyup="value=value.replace(/[^\d.]/g,'')"  onblur="value=value.replace(/[^\d.]/g,'') "  class="form-control">
+                                <input id="marketPrice" name="marketPrice" type="text" placeholder=" 请输入商品售价"  onkeyup="value=value.replace(/[^\d.]/g,'')"  onblur="value=value.replace(/[^\d.]/g,'') "  class="form-control">
                                 <span class="help-block m-b-none"></span>
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="col-sm-3 control-label"><span style="color:red;">*</span>商品供货价：</label>
                             <div class="col-sm-8">
-                                <input id="shopPrice" name="shopPrice" value="6888.0" type="text" placeholder=" 请输入商品供货价"  onkeyup="value=value.replace(/[^\d.]/g,'')"  onblur="value=value.replace(/[^\d.]/g,'') "  class="form-control">
+                                <input id="shopPrice" name="shopPrice" type="text" placeholder=" 请输入商品供货价"  onkeyup="value=value.replace(/[^\d.]/g,'')"  onblur="value=value.replace(/[^\d.]/g,'') "  class="form-control">
                                 <span class="help-block m-b-none"></span>
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="col-sm-3 control-label"><span style="color:red;">*</span>库存：</label>
                             <div class="col-sm-8">
-                                <input id="quantity" name="quantity" value="99" type="text" placeholder=" 请输入商品库存" class="form-control" onkeyup="value=value.replace(/[^\d]/g,'')"  onblur="value=value.replace(/[^\d]/g,'') " >
+                                <input id="quantity" name="quantity" type="text" placeholder=" 请输入商品库存" class="form-control" onkeyup="value=value.replace(/[^\d]/g,'')"  onblur="value=value.replace(/[^\d]/g,'') " >
                                 <span class="help-block m-b-none"></span>
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="col-sm-3 control-label"><span style="color:red;">*</span>类别：</label>
                             <div class="col-sm-8">
-                                <select name="cid" style="width: 100%;" class="form-control">
-                                    <option selected="" value="114">红酒</option>
-                                    <option selected="" value="113">鹿茸</option>
-                                    <option selected="" value="112">书房四宝</option>
-                                    <option selected="" value="111">发卡</option>
-                                    <option selected="" value="110">戒指</option>
-                                    <option selected="" value="109">啤酒</option>
-                                    <option selected="" value="108">白酒</option>
-                                    <option selected="" value="107">桌子</option>
-                                    <option selected="" value="106">窗帘</option>
-                                    <option selected="" value="105">电脑</option>
-                                    <option selected="" value="104">手机</option>
-                                    <option selected="" value="103">包</option>
-                                    <option selected="" value="102">羽绒服</option>
-                                    <option selected="" value="101">裤子</option>
-                                    <option selected="" value="100">鞋子</option>
-                                    <option selected="" value="99">口腔用品</option>
-                                    <option selected="" value="98">化妆品</option>
-                                    <option selected="" value="97">厨房电器</option>
-                                    <option selected="" value="96">文玩</option>
-                                    <option selected="" value="95">家用电器</option>
-                                    <option selected="" value="94">家纺</option>
-                                    <option selected="" value="93">配饰</option>
-                                    <option selected="" value="92">矿泉水</option>
-                                    <option selected="" value="91">滋补品</option>
-
-                                </select>
+                                <select id="cid" name="cid" style="width: 100%;" class="form-control"></select>
                                 <span class="help-block m-b-none"></span>
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="col-sm-3 control-label"><span style="color:red;">*</span>是否热门：</label>
+                            <label class="col-sm-3 control-label"><span style="color:red;"></span>是否热门：</label>
                             <div class="col-sm-8">
                                 <select id="isHot" name="isHot" style="width: 100%;" class="form-control">
                                     <option selected="" value="1">是</option>
-                                    <option selected="" value="2">否</option>
-
+                                    <option selected="" value="0">否</option>
                                 </select>
                                 <span class="help-block m-b-none"></span>
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="col-sm-3 control-label"><span style="color:red;">*</span>图片：</label>
+                            <label class="col-sm-3 control-label"><span style="color:red;"></span>图片：</label>
                             <div class="col-sm-8">
-                                <input type="file" id="image" name="image" value="选择图片" />
+                                <input type="file" id="pimage" name="pimage" value="选择图片" />
                                 <span class="help-block m-b-none"></span>
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="col-sm-3 control-label"><span style="color:red;">*</span>商品描述：</label>
+                            <label class="col-sm-3 control-label"><span style="color:red;"></span>商品描述：</label>
                             <div class="col-sm-8">
-                                <textarea name="pdesc" style="width:700px;height:200px;visibility:hidden;"></textarea>
+                                <script id="pdesc" name="pdesc" type="text/plain"></script>
                                 <span class="help-block m-b-none"></span>
                             </div>
                         </div>
@@ -192,5 +128,120 @@
         </div>
     </div>
 </div>
+<!-- 全局js -->
+<script src="js/jquery.min.js?v=2.1.4"></script>
+<script src="js/bootstrap.min.js?v=3.3.6"></script>
+<!-- 自定义js -->
+<script src="js/content.js?v=1.0.0"></script>
+<!-- Sweet alert -->
+<script src="js/sweetalert.min.js"></script>
+<!-- iCheck -->
+<script src="js/icheck.min.js"></script>
+<!-- jQuery Validation plugin javascript-->
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/messages_zh.min.js"></script>
+
+<script src="js/form-validate-demo.js"></script>
+<!-- 百度富文本编辑器 -->
+<!-- 配置文件 -->
+<script src="ueditor/ueditor.config.js"></script>
+<!-- 编辑器源码文件 -->
+<script src="ueditor/ueditor.all.js"></script>
+<script>
+    UE.getEditor('pdesc');
+</script>
+<script>
+    $(document).ready(function(){
+        $("#submit").click(function(){
+            var pname = $("#pname").val();
+            var marketPrice = $("#marketPrice").val();
+            var shopPrice = $("#shopPrice").val();
+            var quantity=$("#quantity").val();
+            var cid = $("#cid").val();
+            if(!pname){
+                alert("请输入商品名称");
+                return false;
+            }else if(!marketPrice){
+                alert("请输入商品售价");
+                return false;
+            }else if(!shopPrice){
+                alert("请输入商品供货价");
+                return false;
+            }else if(!quantity){
+                alert("请输入商品库存");
+                return false;
+            }else if(!cid){
+                alert("请输入商品分类");
+                return false;
+            }
+            var data = $('#product').serialize();
+            //序列化获得表单数据，结果为：user_id=12&user_name=John&user_age=20
+            var submitData = decodeURIComponent(data, true);
+            //submitData是解码后的表单数据，结果同上
+            $.ajax({
+                url: 'editproduct',
+                type: 'POST',
+                data: submitData,
+                dataType: "json",
+                success: function (result) {
+                    //请求成功时
+                    if(result> 0){
+                        alert("修改商品成功！");
+                        location.href='product-list';
+                    }else{
+                        alert("修改商品失败！")
+                        return false;
+                    }
+                },
+                error: function () {
+                    //请求失败时
+                    alert("error");
+                    return false;
+                }
+            })
+            return true;
+        });
+    });
+    $(document).ready(function () {
+        $('.i-checks').iCheck({
+            checkboxClass: 'icheckbox_square-green',
+            radioClass: 'iradio_square-green',
+        });
+    });
+    $(function() {
+        //获取下拉列表
+        $.ajax({
+            url: "productCats",//写你自己的方法，返回map，我返回的map包含了两个属性：data：集合，total：集合记录数量，所以后边会有data.data的写法。。。
+            // 接受数据格式
+            dataType: "json",
+            // 回调函数，接受服务器端返回给客户端的值，即result值
+            success: function (data) {
+                //alert(data.data);
+                $.each(data, function (i,items) {
+                    $('#cid').append("<option value=" + items.cid + ">" + items.cname + "</option>");
+                });
+                $('#cid').selectpicker('refresh');
+            },
+            error: function (data) {
+                alert("查询失败" + data);
+            }
+        })
+        $.ajax({
+            url:"product/${param.pid}",
+            dataType:"json",
+            success:function(data){
+                $("#pid").val(data.pid);
+                $("#pname").val(data.pname);
+                $("#marketPrice").val(data.marketPrice);
+                $("#shopPrice").val(data.shopPrice);
+                $("#quantity").val(data.quantity);
+                $("#cid").val(data.cid);
+                $("#isHot").val(data.isHot);
+                $("#pimage").val(data.pimage);
+                $("#pdesc").val(data.pdesc);
+            }
+        })
+    })
+</script>
 </body>
 </html>

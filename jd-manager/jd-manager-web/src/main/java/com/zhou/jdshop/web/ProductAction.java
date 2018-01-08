@@ -6,9 +6,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -34,6 +32,12 @@ public class ProductAction {
     }
 
     @ResponseBody
+    @RequestMapping(value = "/product/{pid}", method = RequestMethod.GET)
+    public Product getItemById(@PathVariable("pid") String pid) {
+        return productService.getProductById(pid);
+    }
+
+    @ResponseBody
     @RequestMapping("/addproduct")
     public int saveProduct(Product product){
         int i = 0;
@@ -48,13 +52,27 @@ public class ProductAction {
 
     @ResponseBody
     @RequestMapping("/editproduct")
-    public int editProduct(){
-        return 0;
+    public int editProduct(Product product){
+        int i = 0;
+        try {
+            i = productService.editProduct(product);
+        } catch (Exception e) {
+            logger.error(e.getMessage(), e);
+            e.printStackTrace();
+        }
+        return i;
     }
 
     @ResponseBody
     @RequestMapping("/deleteproduct")
-    public int deleteProduct(){
-        return 0;
+    public int deleteProduct(@RequestParam("pids[]") List<String> pids){
+        int i = 0;
+        try {
+            i = productService.deleteProduct(pids);
+        } catch (Exception e) {
+            logger.error(e.getMessage(), e);
+            e.printStackTrace();
+        }
+        return i;
     }
 }
