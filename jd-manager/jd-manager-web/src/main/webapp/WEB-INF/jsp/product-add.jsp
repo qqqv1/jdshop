@@ -154,7 +154,7 @@
     $(function () {
         //获取下拉列表
         $.ajax({
-            url: "productCats",//写你自己的方法，返回map，我返回的map包含了两个属性：data：集合，total：集合记录数量，所以后边会有data.data的写法。。。
+            url: "productCats",//写你自己的方法
             // 接受数据格式
             dataType: "json",
             // 回调函数，接受服务器端返回给客户端的值，即result值
@@ -169,6 +169,10 @@
                 alert("查询失败" + data);
             }
         })
+        $('.i-checks').iCheck({
+            checkboxClass: 'icheckbox_square-green',
+            radioClass: 'iradio_square-green',
+        });
     })
     $(function() {
         $("#submit").click(function () {
@@ -220,10 +224,6 @@
                 }
             })
             return true;
-        });
-        $('.i-checks').iCheck({
-            checkboxClass: 'icheckbox_square-green',
-            radioClass: 'iradio_square-green',
         });
     })
 </script>
