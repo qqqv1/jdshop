@@ -148,10 +148,48 @@
 <!-- 编辑器源码文件 -->
 <script src="ueditor/ueditor.all.js"></script>
 <script>
-    UE.getEditor('pdesc');
-</script>
-<script>
-    $(document).ready(function(){
+    $(function(){
+        var ue=UE.getEditor('pdesc');
+        $('.i-checks').iCheck({
+            checkboxClass: 'icheckbox_square-green',
+            radioClass: 'iradio_square-green',
+        });
+        //获取下拉列表
+        $.ajax({
+            url: "productCats",//写你自己的方法，返回map，我返回的map包含了两个属性：data：集合，total：集合记录数量，所以后边会有data.data的写法。。。
+            // 接受数据格式
+            dataType: "json",
+            // 回调函数，接受服务器端返回给客户端的值，即result值
+            success: function (data) {
+                //alert(data.data);
+                $.each(data, function (i,items) {
+                    $('#cid').append("<option value=" + items.cid + ">" + items.cname + "</option>");
+                });
+                $('#cid').selectpicker('refresh');
+            },
+            error: function (data) {
+                alert("查询失败" + data);
+            }
+        })
+        $.ajax({
+            url:"product/${param.pid}",
+            dataType:"json",
+            success:function(data){
+                $("#pid").val(data.pid);
+                $("#pname").val(data.pname);
+                $("#marketPrice").val(data.marketPrice);
+                $("#shopPrice").val(data.shopPrice);
+                $("#quantity").val(data.quantity);
+                $("#cid").val(data.cid);
+                $("#isHot").val(data.isHot);
+                $("#pimage").val(data.pimage);
+                ue.ready(function(){
+                    ue.setContent(data.pdesc);
+                })
+            }
+        })
+    })
+    $(function(){
         $("#submit").click(function(){
             var pname = $("#pname").val();
             var marketPrice = $("#marketPrice").val();
@@ -188,6 +226,7 @@
                     if(result> 0){
                         alert("修改商品成功！");
                         location.href='product-list';
+                        return true;
                     }else{
                         alert("修改商品失败！")
                         return false;
@@ -201,46 +240,6 @@
             })
             return true;
         });
-    });
-    $(document).ready(function () {
-        $('.i-checks').iCheck({
-            checkboxClass: 'icheckbox_square-green',
-            radioClass: 'iradio_square-green',
-        });
-    });
-    $(function() {
-        //获取下拉列表
-        $.ajax({
-            url: "productCats",//写你自己的方法，返回map，我返回的map包含了两个属性：data：集合，total：集合记录数量，所以后边会有data.data的写法。。。
-            // 接受数据格式
-            dataType: "json",
-            // 回调函数，接受服务器端返回给客户端的值，即result值
-            success: function (data) {
-                //alert(data.data);
-                $.each(data, function (i,items) {
-                    $('#cid').append("<option value=" + items.cid + ">" + items.cname + "</option>");
-                });
-                $('#cid').selectpicker('refresh');
-            },
-            error: function (data) {
-                alert("查询失败" + data);
-            }
-        })
-        $.ajax({
-            url:"product/${param.pid}",
-            dataType:"json",
-            success:function(data){
-                $("#pid").val(data.pid);
-                $("#pname").val(data.pname);
-                $("#marketPrice").val(data.marketPrice);
-                $("#shopPrice").val(data.shopPrice);
-                $("#quantity").val(data.quantity);
-                $("#cid").val(data.cid);
-                $("#isHot").val(data.isHot);
-                $("#pimage").val(data.pimage);
-                $("#pdesc").val(data.pdesc);
-            }
-        })
     })
 </script>
 </body>

@@ -71,6 +71,7 @@ public class ProductServiceImpl implements ProductService {
         return i;
     }
 
+    @Transactional
     @Override
     public int editProduct(Product product) {
         int i = 0;

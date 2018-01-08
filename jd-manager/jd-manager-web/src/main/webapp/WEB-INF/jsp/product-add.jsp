@@ -151,64 +151,8 @@
     UE.getEditor('pdesc');
 </script>
 <script>
-    $(document).ready(function(){
-        $("#submit").click(function(){
-            var pname = $("#pname").val();
-            var marketPrice = $("#marketPrice").val();
-            var shopPrice = $("#shopPrice").val();
-            var quantity=$("#quantity").val();
-            var cid = $("#cid").val();
-            if(!pname){
-                alert("请输入商品名称");
-                return false;
-            }else if(!marketPrice){
-                alert("请输入商品售价");
-                return false;
-            }else if(!shopPrice){
-                alert("请输入商品供货价");
-                return false;
-            }else if(!quantity){
-                alert("请输入商品库存");
-                return false;
-            }else if(!cid){
-                alert("请输入商品分类");
-                return false;
-            }
-            var data = $('#product').serialize();
-            //序列化获得表单数据，结果为：user_id=12&user_name=John&user_age=20
-            var submitData = decodeURIComponent(data, true);
-            //submitData是解码后的表单数据，结果同上
-            $.ajax({
-                url: 'addproduct',
-                type: 'POST',
-                data: submitData,
-                dataType: "json",
-                success: function (result) {
-                    //请求成功时
-                    if(result> 0){
-                        alert("新增商品成功！");
-                        location.href='product-list';
-                    }else{
-                        alert("新增商品失败！")
-                        return false;
-                    }
-                },
-                error: function () {
-                    //请求失败时
-                    alert("error");
-                    return false;
-                }
-            })
-            return true;
-        });
-    });
-    $(document).ready(function () {
-        $('.i-checks').iCheck({
-            checkboxClass: 'icheckbox_square-green',
-            radioClass: 'iradio_square-green',
-        });
-    });
-    $(function() {//获取下拉列表
+    $(function () {
+        //获取下拉列表
         $.ajax({
             url: "productCats",//写你自己的方法，返回map，我返回的map包含了两个属性：data：集合，total：集合记录数量，所以后边会有data.data的写法。。。
             // 接受数据格式
@@ -225,6 +169,62 @@
                 alert("查询失败" + data);
             }
         })
+    })
+    $(function() {
+        $("#submit").click(function () {
+            var pname = $("#pname").val();
+            var marketPrice = $("#marketPrice").val();
+            var shopPrice = $("#shopPrice").val();
+            var quantity = $("#quantity").val();
+            var cid = $("#cid").val();
+            if (!pname) {
+                alert("请输入商品名称");
+                return false;
+            } else if (!marketPrice) {
+                alert("请输入商品售价");
+                return false;
+            } else if (!shopPrice) {
+                alert("请输入商品供货价");
+                return false;
+            } else if (!quantity) {
+                alert("请输入商品库存");
+                return false;
+            } else if (!cid) {
+                alert("请输入商品分类");
+                return false;
+            }
+            var data = $('#product').serialize();
+            //序列化获得表单数据，结果为：user_id=12&user_name=John&user_age=20
+            var submitData = decodeURIComponent(data, true);
+            //submitData是解码后的表单数据，结果同上
+            $.ajax({
+                url: 'addproduct',
+                type: 'POST',
+                data: submitData,
+                dataType: "json",
+                success: function (result) {
+                    //请求成功时
+                    if (result > 0) {
+                        alert("新增商品成功！");
+                        location.href = 'product-list';
+                        return true;
+                    } else {
+                        alert("新增商品失败！")
+                        return false;
+                    }
+                },
+                error: function () {
+                    //请求失败时
+                    alert("error");
+                    return false;
+                }
+            })
+            return true;
+        });
+        $('.i-checks').iCheck({
+            checkboxClass: 'icheckbox_square-green',
+            radioClass: 'iradio_square-green',
+        });
     })
 </script>
 </body>
