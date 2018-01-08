@@ -39,7 +39,7 @@
                 <div class="ibox-title">
                     <h5>商品管理</h5>
                     <div class="ibox-tools">
-                        <a href="product-edit">
+                        <a href="product-add">
                             <button type="button" class="btn btn-default btn-xs">添加</button>
                         </a>
                     </div>
