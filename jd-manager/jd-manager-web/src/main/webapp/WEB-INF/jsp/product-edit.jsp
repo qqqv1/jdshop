@@ -51,7 +51,7 @@
                     <h5>产品修改</h5>
                 </div>
                 <div class="ibox-content">
-                    <form class="form-horizontal" id="product" action="#">
+                    <form class="form-horizontal" id="product" action="javascript:void(0)">
                         <div class="form-group">
                             <input type="hidden" id="pid" name="pid">
                             <label class="col-sm-3 control-label"></label>
@@ -213,12 +213,13 @@
                 return false;
             }
             var data = $('#product').serialize();
-            //序列化获得表单数据，结果为：user_id=12&user_name=John&user_age=20
+            //序列化获得表单数据
             var submitData = decodeURIComponent(data, true);
             //submitData是解码后的表单数据，结果同上
             $.ajax({
                 url: 'editproduct',
                 type: 'POST',
+                cache:false,
                 data: submitData,
                 dataType: "json",
                 success: function (result) {

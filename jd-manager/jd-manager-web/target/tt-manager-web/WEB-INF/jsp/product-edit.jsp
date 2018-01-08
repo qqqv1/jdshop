@@ -51,7 +51,7 @@
                     <h5>产品修改</h5>
                 </div>
                 <div class="ibox-content">
-                    <form class="form-horizontal" id="product" action="">
+                    <form class="form-horizontal" id="product" action="javascript:void(0)">
                         <div class="form-group">
                             <input type="hidden" id="pid" name="pid">
                             <label class="col-sm-3 control-label"></label>
@@ -156,7 +156,7 @@
         });
         //获取下拉列表
         $.ajax({
-            url: "productCats",//写你自己的方法，返回map，我返回的map包含了两个属性：data：集合，total：集合记录数量，所以后边会有data.data的写法。。。
+            url: "productCats",//写你自己的方法
             // 接受数据格式
             dataType: "json",
             // 回调函数，接受服务器端返回给客户端的值，即result值
@@ -213,12 +213,13 @@
                 return false;
             }
             var data = $('#product').serialize();
-            //序列化获得表单数据，结果为：user_id=12&user_name=John&user_age=20
+            //序列化获得表单数据
             var submitData = decodeURIComponent(data, true);
             //submitData是解码后的表单数据，结果同上
             $.ajax({
                 url: 'editproduct',
                 type: 'POST',
+                cache:false,
                 data: submitData,
                 dataType: "json",
                 success: function (result) {

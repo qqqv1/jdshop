@@ -48,13 +48,7 @@
                     <h5>产品添加</h5>
                 </div>
                 <div class="ibox-content">
-                    <form class="form-horizontal" id="product" action="#">
-                        <div class="form-group">
-                            <label class="col-sm-3 control-label"></label>
-                            <div class="col-sm-8" style="color: red;font-size: 15px">
-
-                            </div>
-                        </div>
+                    <form class="form-horizontal" id="product" action="javascript:void(0)">
                         <div class="form-group">
                             <label class="col-sm-3 control-label"><span style="color:red;">*</span>商品名称：</label>
                             <div class="col-sm-8">
@@ -154,7 +148,7 @@
     $(function () {
         //获取下拉列表
         $.ajax({
-            url: "productCats",//写你自己的方法，返回map，我返回的map包含了两个属性：data：集合，total：集合记录数量，所以后边会有data.data的写法。。。
+            url: "productCats",//写你自己的方法
             // 接受数据格式
             dataType: "json",
             // 回调函数，接受服务器端返回给客户端的值，即result值
@@ -168,6 +162,10 @@
             error: function (data) {
                 alert("查询失败" + data);
             }
+        })
+        $('.i-checks').iCheck({
+            checkboxClass: 'icheckbox_square-green',
+            radioClass: 'iradio_square-green',
         })
     })
     $(function() {
@@ -220,10 +218,6 @@
                 }
             })
             return true;
-        });
-        $('.i-checks').iCheck({
-            checkboxClass: 'icheckbox_square-green',
-            radioClass: 'iradio_square-green',
         });
     })
 </script>

@@ -12,7 +12,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="renderer" content="webkit">
-    <title> 后台管理系统</title>
+    <title>- 产品专区</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
 
@@ -37,23 +37,22 @@
         <div class="col-sm-12">
             <div class="ibox float-e-margins">
                 <div class="ibox-title">
-                    <h5>商品管理</h5>
+                    <h5>产品专区</h5>
                 </div>
             </div>
-                <div class="ibox-content">
-                    <div id="toolbar" class="btn-group">
-                        <button id="add" type="button" class="btn btn-default" onclick="add();">
-                            <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>新增
-                        </button>
-                        <button id="edit" type="button" class="btn btn-default" onclick="edit();">
-                            <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>修改
-                        </button>
-                        <button id="delete" type="button" class="btn btn-default" onclick="del();">
-                            <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>删除
-                        </button>
-                    </div>
-                    <table class="table table-striped table-bordered table-hover dataTables-example" id="productListDg"></table>
+            <div class="ibox-content">
+                <div id="toolbar" class="btn-group">
+                    <button id="add" type="button" class="btn btn-default" onclick="add();">
+                        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>新增
+                    </button>
+                    <button id="edit" type="button" class="btn btn-default" onclick="edit();">
+                        <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>修改
+                    </button>
+                    <button id="delete" type="button" class="btn btn-default" onclick="del();">
+                        <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>删除
+                    </button>
                 </div>
+                <table class="table table-striped table-bordered table-hover dataTables-example" id="productListDg"></table>
             </div>
         </div>
     </div>
