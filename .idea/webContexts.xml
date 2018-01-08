@@ -4,6 +4,7 @@
     <option name="state">
       <map>
         <entry key="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/index.jsp" value="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp" />
+        <entry key="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/order-list.jsp" value="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp" />
         <entry key="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/product-add.jsp" value="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp" />
         <entry key="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/product-edit.jsp" value="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp" />
         <entry key="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/product-list.jsp" value="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp" />
