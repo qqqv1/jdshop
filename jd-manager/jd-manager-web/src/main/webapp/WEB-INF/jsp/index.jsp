@@ -76,7 +76,7 @@
                             <a class="J_menuItem" href="order-list">订单总览</a>
                         </li>
                     </ul>
-                    <ul class="nav nav-second-level">
+                    <<%--ul class="nav nav-second-level">
                         <li>
                             <a class="J_menuItem" href="order-add">订单增加</a>
                         </li>
@@ -85,7 +85,7 @@
                         <li>
                             <a class="J_menuItem" href="order-edit">订单编辑</a>
                         </li>
-                    </ul>
+                    </ul>--%>
                 </li>
 
                 <%--用户--%>

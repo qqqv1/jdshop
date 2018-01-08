@@ -3,7 +3,8 @@
   User: Administrator
   Date: 2018/1/6
   Time: 8:46
-  To change this template use File | Settings | File Templates.
+  To change this template use File | Se
+  ttings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
@@ -39,7 +40,7 @@
                 <div class="ibox-title">
                     <h5>订单管理</h5>
                     <div class="ibox-tools">
-                        <a href="product-edit">
+                        <a href="order-add">
                             <button type="button" class="btn btn-default btn-xs">添加</button>
                         </a>
                     </div>

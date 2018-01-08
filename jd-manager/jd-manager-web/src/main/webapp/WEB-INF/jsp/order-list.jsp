@@ -41,12 +41,59 @@
                     <h5>订单管理</h5>
                     <div class="ibox-tools">
                         <a href="order-add">
-                            <button type="button" class="btn btn-default btn-xs">添加</button>
                         </a>
                     </div>
                 </div>
                 </div>
+
+
+
                 <div class="ibox-content">
+
+                    <div id="toolbar">
+                        <div style="padding: 5px; background-color: #fff;">
+
+                            <div class="ibox-tools" style="margin-top: 0px;float: left;">
+                                <form action="admin_huiyuanmeirishouzhilog_list.action" method="post" role="form" class="form-inline">
+                                    <input type="hidden" name="" value="">
+                                    <div class="form-group" style="padding-right: 5px;padding-left: 5px;">
+                                        <div class="col-sm-10" style="margin-bottom: 5px; margin-top:5px;padding-right: 0px;padding-left: 0px;">
+                                            <input name="oid" placeholder="订单编号" style="height: 29px;width: 120px;" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="form-group" style="padding-right: 5px;padding-left: 5px;">
+                                        <div class="col-sm-10" style="margin-bottom: 5px; margin-top:5px;padding-right: 0px;padding-left: 0px;">
+                                            <input name="oid" placeholder="订单编号" style="height: 29px;width: 120px;" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="checkbox m-l m-r-xs" style="margin-left: 0px; ">
+                                        <button class="btn btn-white" type="submit">查询</button>
+                                    </div>
+                                </form>
+                            </div>
+
+
+
+
+
+                           <%-- <label>订单状态：</label>
+                            <select id="status" name="status" class="easyui-combobox" >
+                                <option value="0">全部</option>
+                                <option value="1">正常</option>
+                                <option value="2">下架</option>
+                            </select>--%>
+                            <!--http://www.cnblogs.com/wisdomoon/p/3330856.html-->
+                            <!--注意：要加上type="button",默认行为是submit-->
+                            <%--<button onclick="searchForm()" type="button" class="easyui-linkbutton">搜索</button>--%>
+
+                           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                            <button onclick="edit()" class="btn btn-white" >编辑</button>
+                            <button onclick="remove()" class="btn btn-white" >删除</button>
+                            <button onclick="down()" class="btn btn-white" >下架</button>
+                            <button onclick="up()" class="btn btn-white" >上架</button>
+                        </div>
+                    </div>
+
                     <table class="table table-striped table-bordered table-hover dataTables-example" id="orderListDg"></table>
                 </div>
             </div>
@@ -75,9 +122,11 @@
 <script>
     $(function () {
         $("#orderListDg").bootstrapTable({
+            toolbar:'#toolbar',
             url:'orders',
             pagination:true,
             columns: [[
+                {field: 'ck', checkbox: true},
                 {field: 'oid', title: '订单编号'},
                 {field: 'count', title: '商品数量'},
                 {field: 'pname', title: '商品名'},
