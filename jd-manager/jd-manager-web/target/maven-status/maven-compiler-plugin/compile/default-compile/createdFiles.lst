@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 com\zhou\jdshop\web\CategoryAction.class
-=======
-com\zhou\jdshop\web\OrderAction.class
->>>>>>> 7e3d1a715bac4f299793bdc3ed3054ab83456fc4
 com\zhou\jdshop\web\ProductAction.class
+com\zhou\jdshop\web\OrderAction.class
 com\zhou\jdshop\web\ManagerIndexAction.class

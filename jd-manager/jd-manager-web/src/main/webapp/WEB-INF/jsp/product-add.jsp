@@ -11,7 +11,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> - 基本表单</title>
+    <title> - 产品新增</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <link rel="shortcut icon" href="favicon.ico">
@@ -37,8 +37,6 @@
     <link type="text/css" rel="stylesheet" href="css/laydate1.css">
 
     <link href="css/sweetalert.css" rel="stylesheet">
-
-
     <link rel="stylesheet" href="themes/default/default.css" />
 </head>
 <body class="gray-bg">
@@ -50,7 +48,7 @@
                     <h5>产品添加</h5>
                 </div>
                 <div class="ibox-content">
-                    <form class="form-horizontal" id="product" action="">
+                    <form class="form-horizontal" id="product" action="#">
                         <div class="form-group">
                             <label class="col-sm-3 control-label"></label>
                             <div class="col-sm-8" style="color: red;font-size: 15px">
@@ -108,14 +106,14 @@
                         <div class="form-group">
                             <label class="col-sm-3 control-label"><span style="color:red;"></span>图片：</label>
                             <div class="col-sm-8">
-                                <input type="file" id="image" name="image" value="选择图片" />
+                                <input type="file" id="pimage" name="pimage" value="选择图片" />
                                 <span class="help-block m-b-none"></span>
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="col-sm-3 control-label"><span style="color:red;"></span>商品描述：</label>
                             <div class="col-sm-8">
-                                <script id="container" name="pdesc" type="text/plain"></script>
+                                <script id="pdesc" name="pdesc" type="text/plain"></script>
                                 <span class="help-block m-b-none"></span>
                             </div>
                         </div>
@@ -150,7 +148,7 @@
 <!-- 编辑器源码文件 -->
 <script src="ueditor/ueditor.all.js"></script>
 <script>
-    UE.getEditor('container');
+    UE.getEditor('pdesc');
 </script>
 <script>
     $(document).ready(function(){
@@ -177,7 +175,7 @@
                 return false;
             }
             var data = $('#product').serialize();
-            //序列化获得表单数据
+            //序列化获得表单数据，结果为：user_id=12&user_name=John&user_age=20
             var submitData = decodeURIComponent(data, true);
             //submitData是解码后的表单数据，结果同上
             $.ajax({
@@ -190,9 +188,8 @@
                     if(result> 0){
                         alert("新增商品成功！");
                         location.href='product-list';
-                    }
-                    else{
-                        alert("新增商品失败！");
+                    }else{
+                        alert("新增商品失败！")
                         return false;
                     }
                 },
@@ -211,7 +208,7 @@
             radioClass: 'iradio_square-green',
         });
     });
-    $(function() {//获取下拉学校列表
+    $(function() {//获取下拉列表
         $.ajax({
             url: "productCats",//写你自己的方法，返回map，我返回的map包含了两个属性：data：集合，total：集合记录数量，所以后边会有data.data的写法。。。
             // 接受数据格式

@@ -73,7 +73,12 @@
                     </a>
                     <ul class="nav nav-second-level">
                         <li>
-                            <a class="J_menuItem" href="order-list">订单专区</a>
+                            <a class="J_menuItem" href="order-list">订单总览</a>
+                        </li>
+                    </ul>
+                    <ul class="nav nav-second-level">
+                        <li>
+                            <a class="J_menuItem" href="order-add">增加订单</a>
                         </li>
                     </ul>
                 </li>
