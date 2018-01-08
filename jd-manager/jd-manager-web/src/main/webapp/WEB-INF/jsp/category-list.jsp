@@ -1,8 +1,8 @@
 <%--
   Created by IntelliJ IDEA.
   User: Administrator
-  Date: 2018/1/6
-  Time: 8:46
+  Date: 2018/1/8
+  Time: 18:48
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -12,7 +12,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="renderer" content="webkit">
-    <title>- 产品专区</title>
+    <title> - 规格参数</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
 
@@ -37,7 +37,7 @@
         <div class="col-sm-12">
             <div class="ibox float-e-margins">
                 <div class="ibox-title">
-                    <h5>产品专区</h5>
+                    <h5>规格参数</h5>
                 </div>
             </div>
             <div class="ibox-content">
@@ -52,7 +52,7 @@
                         <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>删除
                     </button>
                 </div>
-                <table class="table table-striped table-bordered table-hover dataTables-example" id="productListDg"></table>
+                <table class="table table-striped table-bordered table-hover dataTables-example" id="categoryListDg"></table>
             </div>
         </div>
     </div>
@@ -82,57 +82,29 @@
 </script>
 <script>
     $(function () {
-        $("#productListDg").bootstrapTable({
+        $("#categoryListDg").bootstrapTable({
             toolbar:"#toolbar",
-            url:'products',
+            url:'productCats',
             pagination:true,
             search: true,
             clickToSelect: true,
             columns: [[
                 {checkbox : true,align : 'center'},
-                {field: 'pid', title: '商品编号',sortable : true},
-                {field: 'pname', title: '商品标题',sortable : true},
-                {field: 'pdesc', title: '商品详情',sortable : true},
-                {field: 'marketPrice', title: '价格',sortable : true},
-                {field: 'shopPrice', title: '商品卖点',sortable : true},
-//                {field: 'cid', title: '分类名称'},
-                {
-                    field: 'created', title: '创建时间', formatter: function (v, r, i) {
-                        return moment(v).format('L');
-                    },sortable : true
-                },
-                {field:'isHot',title:'是否热门',sortable : true},
-                {
-                    field: 'pflag', title: '商品状态', formatter: function (v, r, i) {
-                        switch (v) {
-                            case 1:
-                                return '正常';
-                                break;
-                            case 2:
-                                return '下架';
-                                break;
-                            case 3:
-                                return '删除';
-                                break;
-                            default:
-                                return '未知';
-                                break;
-                        }
-                    },sortable : true
-                }
+                {field: 'cid', title: '分类编号',sortable : true},
+                {field: 'cname', title: '分类名称',sortable : true}
             ]]
         })
     })
     function add(){
-        location.href='product-add';
+        location.href='category-add';
     }
     function del() {
-        var pids=[];
-        var $table=$("#productListDg");
+        var cids=[];
+        var $table=$("#categoryListDg");
         var selRow = $table.bootstrapTable('getSelections');
         if(selRow!=null){
             for (var i = 0; i < selRow.length; i++) {
-                pids.push(selRow[i].pid)
+                cids.push(selRow[i].cid)
             }
             var flag=confirm('此操作不可逆，确认删除吗？')
             if(flag==true) {
@@ -141,8 +113,8 @@
                     cache: false,
                     async: true,
                     dataType: "json",
-                    url: "deleteproduct",
-                    data: {"pids": pids},
+                    url: "deleteCat",
+                    data: {"cids": cids},
                     success: function (data) {
                         if (data > 0) {
                             $table.bootstrapTable('refresh');
@@ -158,15 +130,15 @@
         }
     }
     function edit() {
-        var $table=$("#productListDg");
+        var $table=$("#categoryListDg");
         var selRow = $table.bootstrapTable('getSelections');
         if(selRow!=null){
             if(selRow.length>1) {
                 alert('请只选取一行要编辑的数据行！');
                 return false;
             }
-            pid=selRow[0].pid;
-            location.href='product-edit?pid='+pid;
+            cid=selRow[0].cid;
+            location.href='category-edit?cid='+cid;
         }else{
             alert('请选取要编辑的数据行！');
             return false;

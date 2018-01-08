@@ -52,10 +52,16 @@
                 </a>
                 <ul class="nav nav-second-level">
                     <li>
-                        <a class="J_menuItem" href="product-add">产品添加</a>
+                        <a class="J_menuItem" href="product-add">产品新增</a>
                     </li>
                     <li>
                         <a class="J_menuItem" href="product-list">产品专区</a>
+                    </li>
+                    <li>
+                        <a class="J_menuItem" href="category-add">参数新增</a>
+                    </li>
+                    <li>
+                        <a class="J_menuItem" href="category-list">规格参数</a>
                     </li>
                 </ul>
                 </li>
@@ -76,7 +82,7 @@
                             <a class="J_menuItem" href="order-list">订单总览</a>
                         </li>
                     </ul>
-                    <<%--ul class="nav nav-second-level">
+                    <%--ul class="nav nav-second-level">
                         <li>
                             <a class="J_menuItem" href="order-add">订单增加</a>
                         </li>

@@ -243,6 +243,66 @@ public class CategoryExample {
             addCriterion("cname not between", value1, value2, "cname");
             return (Criteria) this;
         }
+
+        public Criteria andCflagIsNull() {
+            addCriterion("cflag is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andCflagIsNotNull() {
+            addCriterion("cflag is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andCflagEqualTo(Integer value) {
+            addCriterion("cflag =", value, "cflag");
+            return (Criteria) this;
+        }
+
+        public Criteria andCflagNotEqualTo(Integer value) {
+            addCriterion("cflag <>", value, "cflag");
+            return (Criteria) this;
+        }
+
+        public Criteria andCflagGreaterThan(Integer value) {
+            addCriterion("cflag >", value, "cflag");
+            return (Criteria) this;
+        }
+
+        public Criteria andCflagGreaterThanOrEqualTo(Integer value) {
+            addCriterion("cflag >=", value, "cflag");
+            return (Criteria) this;
+        }
+
+        public Criteria andCflagLessThan(Integer value) {
+            addCriterion("cflag <", value, "cflag");
+            return (Criteria) this;
+        }
+
+        public Criteria andCflagLessThanOrEqualTo(Integer value) {
+            addCriterion("cflag <=", value, "cflag");
+            return (Criteria) this;
+        }
+
+        public Criteria andCflagIn(List<Integer> values) {
+            addCriterion("cflag in", values, "cflag");
+            return (Criteria) this;
+        }
+
+        public Criteria andCflagNotIn(List<Integer> values) {
+            addCriterion("cflag not in", values, "cflag");
+            return (Criteria) this;
+        }
+
+        public Criteria andCflagBetween(Integer value1, Integer value2) {
+            addCriterion("cflag between", value1, value2, "cflag");
+            return (Criteria) this;
+        }
+
+        public Criteria andCflagNotBetween(Integer value1, Integer value2) {
+            addCriterion("cflag not between", value1, value2, "cflag");
+            return (Criteria) this;
+        }
     }
 
     public static class Criteria extends GeneratedCriteria {

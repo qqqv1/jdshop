@@ -48,13 +48,7 @@
                     <h5>产品添加</h5>
                 </div>
                 <div class="ibox-content">
-                    <form class="form-horizontal" id="product" action="#">
-                        <div class="form-group">
-                            <label class="col-sm-3 control-label"></label>
-                            <div class="col-sm-8" style="color: red;font-size: 15px">
-
-                            </div>
-                        </div>
+                    <form class="form-horizontal" id="product" action="javascript:void(0)">
                         <div class="form-group">
                             <label class="col-sm-3 control-label"><span style="color:red;">*</span>商品名称：</label>
                             <div class="col-sm-8">
@@ -172,7 +166,11 @@
         $('.i-checks').iCheck({
             checkboxClass: 'icheckbox_square-green',
             radioClass: 'iradio_square-green',
+<<<<<<< HEAD
         });
+=======
+        })
+>>>>>>> 766c0703db613872804f3b8d80f4a1b43c755133
     })
     $(function() {
         $("#submit").click(function () {
