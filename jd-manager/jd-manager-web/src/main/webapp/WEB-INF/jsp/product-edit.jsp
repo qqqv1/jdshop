@@ -51,13 +51,15 @@
                     <h5>产品修改</h5>
                 </div>
                 <div class="ibox-content">
-                    <form class="form-horizontal" id="product" action="#">
+                    <form class="form-horizontal" id="product" action="javascript:void(0)">
+
                         <div class="form-group">
                             <input type="hidden" id="pid" name="pid">
                             <label class="col-sm-3 control-label"></label>
                             <div class="col-sm-8" style="color: red;font-size: 15px">
                             </div>
                         </div>
+
                         <div class="form-group">
                             <label class="col-sm-3 control-label"><span style="color:red;">*</span>商品名称：</label>
                             <div class="col-sm-8">
@@ -221,6 +223,7 @@
                 type: 'POST',
                 data: submitData,
                 dataType: "json",
+                cache:false,
                 success: function (result) {
                     //请求成功时
                     if(result> 0){

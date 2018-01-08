@@ -39,67 +39,24 @@
             <div class="ibox float-e-margins">
                 <div class="ibox-title">
                     <h5>订单管理</h5>
-                    <div class="ibox-tools">
-                        <a href="order-add">
-                        </a>
                     </div>
                 </div>
-                </div>
-
-
-
                 <div class="ibox-content">
-
                     <div id="toolbar">
-                        <div style="padding: 5px; background-color: #fff;">
+                        <button id="edit" type="button" class="btn btn-default" onclick="edit();">
+                            <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>修改
+                        </button>
+                        <button id="delete" type="button" class="btn btn-default" onclick="del();">
+                            <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>删除
+                        </button>
 
-                            <div class="ibox-tools" style="margin-top: 0px;float: left;">
-                                <form action="admin_huiyuanmeirishouzhilog_list.action" method="post" role="form" class="form-inline">
-                                    <input type="hidden" name="" value="">
-                                    <div class="form-group" style="padding-right: 5px;padding-left: 5px;">
-                                        <div class="col-sm-10" style="margin-bottom: 5px; margin-top:5px;padding-right: 0px;padding-left: 0px;">
-                                            <input name="oid" placeholder="订单编号" style="height: 29px;width: 120px;" class="form-control">
-                                        </div>
-                                    </div>
-                                    <div class="form-group" style="padding-right: 5px;padding-left: 5px;">
-                                        <div class="col-sm-10" style="margin-bottom: 5px; margin-top:5px;padding-right: 0px;padding-left: 0px;">
-                                            <input name="oid" placeholder="订单编号" style="height: 29px;width: 120px;" class="form-control">
-                                        </div>
-                                    </div>
-                                    <div class="checkbox m-l m-r-xs" style="margin-left: 0px; ">
-                                        <button class="btn btn-white" type="submit">查询</button>
-                                    </div>
-                                </form>
-                            </div>
-
-
-
-
-
-                           <%-- <label>订单状态：</label>
-                            <select id="status" name="status" class="easyui-combobox" >
-                                <option value="0">全部</option>
-                                <option value="1">正常</option>
-                                <option value="2">下架</option>
-                            </select>--%>
-                            <!--http://www.cnblogs.com/wisdomoon/p/3330856.html-->
-                            <!--注意：要加上type="button",默认行为是submit-->
-                            <%--<button onclick="searchForm()" type="button" class="easyui-linkbutton">搜索</button>--%>
-
-                           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                            <button onclick="edit()" class="btn btn-white" >编辑</button>
-                            <button onclick="remove()" class="btn btn-white" >删除</button>
-                            <button onclick="down()" class="btn btn-white" >下架</button>
-                            <button onclick="up()" class="btn btn-white" >上架</button>
-                        </div>
                     </div>
-
                     <table class="table table-striped table-bordered table-hover dataTables-example" id="orderListDg"></table>
                 </div>
             </div>
         </div>
     </div>
-
+</div>
 
 <!-- 全局js -->
 <script src="js/jquery.min.js?v=2.1.4"></script>
@@ -118,25 +75,85 @@
 
 <!-- Sweet alert -->
 <script src="js/sweetalert.min.js"></script>
-
+<script src="moment/moment-with-locales.js"></script>
+<script>
+    moment.locale();
+</script>
 <script>
     $(function () {
         $("#orderListDg").bootstrapTable({
+           //自适应查询，查询记录所有字段
+            search: true,
             toolbar:'#toolbar',
             url:'orders',
+
+            clickToSelect: true,
             pagination:true,
             columns: [[
                 {field: 'ck', checkbox: true},
-                {field: 'oid', title: '订单编号'},
+                {field: 'itemid', title: '订单详情编号'},
+                {field: 'pname', title: '商品名',sortable:true},
                 {field: 'count', title: '商品数量'},
-                {field: 'pname', title: '商品名'},
+
                 {field: 'subtotal', title: '合计'},
                 {field: 'status', title: '订单状态'},
                 {field: 'name', title: '买家'},
-                {field: 'telephone', title: '手机'}
+                {field: 'telephone', title: '手机'},
+                {field:'address',title:'地址'},
+                {field: 'ordertime', title: '订单时间', formatter: function (v, r, i) {
+                    return moment(v).format('L');
+                },sortable : true
+                }
             ]]
         })
     })
+
+    function del() {
+        var itemids=[];
+        var $table=$("#orderListDg");
+        var selRow = $table.bootstrapTable('getSelections');
+        if(selRow!=null){
+            for (var i = 0; i < selRow.length; i++) {
+                itemids.push(selRow[i].itemid)
+            }
+            var flag=confirm('此操作不可逆，确认删除吗？')
+            if(flag==true) {
+                $.ajax({
+//                    type:"POST",
+                    cache: false,
+                    async: true,
+                    dataType: "json",
+                    url: "deleteOrders",
+                    data: {"itemids[]": itemid},
+                    success: function (data) {
+                        if (data > 0) {
+                            $table.bootstrapTable('refresh');
+                        }
+                    }
+                });
+            }else{
+                return false;
+            }
+        }else{
+            alert('请选取要删除的数据行！');
+            return false;
+        }
+    }
+    function edit() {
+        var $table=$("#orderListDg");
+        var selRow = $table.bootstrapTable('getSelections');
+        if(selRow!=null){
+            if(selRow.length>1) {
+                alert('请每次只选中一行数据！');
+                return false;
+            }
+            itemid=selRow[0].itemid;
+            location.href='order-edit?itemid='+itemid;
+        }else{
+            alert('请选取要编辑的数据行！');
+            return false;
+        }
+    }
 </script>
 </body>
 </html>

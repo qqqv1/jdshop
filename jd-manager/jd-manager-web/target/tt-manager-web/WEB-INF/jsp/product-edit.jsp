@@ -51,13 +51,15 @@
                     <h5>产品修改</h5>
                 </div>
                 <div class="ibox-content">
-                    <form class="form-horizontal" id="product" action="">
+                    <form class="form-horizontal" id="product" action="javascript:void(0)">
+
                         <div class="form-group">
                             <input type="hidden" id="pid" name="pid">
                             <label class="col-sm-3 control-label"></label>
                             <div class="col-sm-8" style="color: red;font-size: 15px">
                             </div>
                         </div>
+
                         <div class="form-group">
                             <label class="col-sm-3 control-label"><span style="color:red;">*</span>商品名称：</label>
                             <div class="col-sm-8">
@@ -156,7 +158,7 @@
         });
         //获取下拉列表
         $.ajax({
-            url: "productCats",//写你自己的方法，返回map，我返回的map包含了两个属性：data：集合，total：集合记录数量，所以后边会有data.data的写法。。。
+            url: "productCats",//写你自己的方法
             // 接受数据格式
             dataType: "json",
             // 回调函数，接受服务器端返回给客户端的值，即result值
@@ -221,6 +223,7 @@
                 type: 'POST',
                 data: submitData,
                 dataType: "json",
+                cache:false,
                 success: function (result) {
                     //请求成功时
                     if(result> 0){
