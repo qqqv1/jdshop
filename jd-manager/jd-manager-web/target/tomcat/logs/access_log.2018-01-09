@@ -562,3 +562,13 @@
 0:0:0:0:0:0:0:1 - - [09/Jan/2018:12:02:45 +0800] "GET /jdshop/category-list HTTP/1.1" 200 4774 http-bio-8081-exec-9 12
 0:0:0:0:0:0:0:1 - - [09/Jan/2018:12:02:46 +0800] "GET /jdshop/productCats?order=asc&limit=10&offset=0 HTTP/1.1" 200 502 http-bio-8081-exec-9 24
 0:0:0:0:0:0:0:1 - - [09/Jan/2018:12:02:46 +0800] "GET /jdshop/css/bootstrap.min.css.map HTTP/1.1" 404 949 http-bio-8081-exec-9 14
+0:0:0:0:0:0:0:1 - - [09/Jan/2018:12:33:32 +0800] "GET /jdshop/ HTTP/1.1" 200 5735 http-bio-8081-exec-7 237
+0:0:0:0:0:0:0:1 - - [09/Jan/2018:12:33:32 +0800] "GET /jdshop/welcome.html HTTP/1.1" 200 942 http-bio-8081-exec-7 5
+0:0:0:0:0:0:0:1 - - [09/Jan/2018:12:33:32 +0800] "GET /jdshop/js/theme/default/layer.css?v=3.1.1 HTTP/1.1" 404 949 http-bio-8081-exec-7 3
+0:0:0:0:0:0:0:1 - - [09/Jan/2018:12:33:32 +0800] "GET /jdshop/fonts/fontawesome-webfont.woff2?v=4.4.0 HTTP/1.1" 404 949 http-bio-8081-exec-7 2
+0:0:0:0:0:0:0:1 - - [09/Jan/2018:12:33:32 +0800] "GET /jdshop/fonts/fontawesome-webfont.woff?v=4.4.0 HTTP/1.1" 404 949 http-bio-8081-exec-7 3
+0:0:0:0:0:0:0:1 - - [09/Jan/2018:12:33:32 +0800] "GET /jdshop/css/bootstrap.min.css.map HTTP/1.1" 404 949 http-bio-8081-exec-10 55
+0:0:0:0:0:0:0:1 - - [09/Jan/2018:12:33:32 +0800] "GET /jdshop/css/images/calendar_nextmonth.gif HTTP/1.1" 404 949 http-bio-8081-exec-7 2
+0:0:0:0:0:0:0:1 - - [09/Jan/2018:12:33:32 +0800] "GET /jdshop/css/images/calendar_prevmonth.gif HTTP/1.1" 404 949 http-bio-8081-exec-10 13
+0:0:0:0:0:0:0:1 - - [09/Jan/2018:12:33:32 +0800] "GET /jdshop/css/images/calendar_prevyear.gif HTTP/1.1" 404 949 http-bio-8081-exec-10 6
+0:0:0:0:0:0:0:1 - - [09/Jan/2018:12:33:32 +0800] "GET /jdshop/css/images/calendar_nextyear.gif HTTP/1.1" 404 949 http-bio-8081-exec-4 2
