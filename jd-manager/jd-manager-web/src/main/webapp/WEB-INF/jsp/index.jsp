@@ -55,13 +55,13 @@
                         <a class="J_menuItem" href="product-add">产品新增</a>
                     </li>
                     <li>
-                        <a class="J_menuItem" href="product-list">产品专区</a>
+                        <a class="J_menuItem" href="product-list">产品列表</a>
                     </li>
                     <li>
-                        <a class="J_menuItem" href="category-add">参数新增</a>
+                        <a class="J_menuItem" href="category-add">分类新增</a>
                     </li>
                     <li>
-                        <a class="J_menuItem" href="category-list">规格参数</a>
+                        <a class="J_menuItem" href="category-list">分类列表</a>
                     </li>
                 </ul>
                 </li>
