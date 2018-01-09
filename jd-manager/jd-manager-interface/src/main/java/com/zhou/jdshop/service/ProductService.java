@@ -1,11 +1,14 @@
 package com.zhou.jdshop.service;
 
 import com.zhou.jdshop.pojo.po.Product;
+import com.zhou.jdshop.pojo.vo.ProductCustom;
 
 import java.util.List;
 
 public interface ProductService {
-    List<Product> listProducts();
+//    List<Product> listProducts();
+
+    List<ProductCustom> listProducts();
 
     int saveProduct(Product product);
 

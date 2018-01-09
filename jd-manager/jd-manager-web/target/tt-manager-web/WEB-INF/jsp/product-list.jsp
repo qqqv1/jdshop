@@ -12,7 +12,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="renderer" content="webkit">
-    <title>- 产品专区</title>
+    <title>- 产品列表</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
 
@@ -37,7 +37,7 @@
         <div class="col-sm-12">
             <div class="ibox float-e-margins">
                 <div class="ibox-title">
-                    <h5>产品专区</h5>
+                    <h5>产品列表</h5>
                 </div>
             </div>
             <div class="ibox-content">
@@ -95,13 +95,26 @@
                 {field: 'pdesc', title: '商品详情',sortable : true},
                 {field: 'marketPrice', title: '价格',sortable : true},
                 {field: 'shopPrice', title: '商品卖点',sortable : true},
-//                {field: 'cid', title: '分类名称'},
+                {field: 'cname', title: '分类名称'},
                 {
                     field: 'created', title: '创建时间', formatter: function (v, r, i) {
                         return moment(v).format('L');
                     },sortable : true
                 },
-                {field:'isHot',title:'是否热门',sortable : true},
+                {
+                    field:'isHot',title:'是否热门', formatter: function (v, r, i) {
+                        switch (v) {
+                            case 0:
+                                return '否';
+                                break;
+                            case 1:
+                                return '是';
+                                break;
+                            default:
+                                return '未知';
+                                break;
+                        }
+                },sortable : true},
                 {
                     field: 'pflag', title: '商品状态', formatter: function (v, r, i) {
                         switch (v) {

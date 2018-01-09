@@ -12,7 +12,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="renderer" content="webkit">
-    <title> - 规格参数</title>
+    <title> - 分类列表</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
 
@@ -37,7 +37,11 @@
         <div class="col-sm-12">
             <div class="ibox float-e-margins">
                 <div class="ibox-title">
+<<<<<<< HEAD
                     <h5>规格参数</h5>
+=======
+                    <h5>分类列表</h5>
+>>>>>>> 986ba4fb356a832239379560407e2e90dae63cde
                 </div>
             </div>
             <div class="ibox-content">

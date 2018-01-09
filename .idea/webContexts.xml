@@ -6,18 +6,9 @@
         <entry key="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/category-add.jsp" value="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp" />
         <entry key="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/category-edit.jsp" value="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp" />
         <entry key="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/category-list.jsp" value="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp" />
-        <entry key="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/category.jsp" value="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp" />
-        <entry key="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/index.jsp" value="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp" />
-<<<<<<< HEAD
-        <entry key="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/order-edit.jsp" value="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp" />
-=======
-        <entry key="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/order-add.jsp" value="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp" />
->>>>>>> 766c0703db613872804f3b8d80f4a1b43c755133
-        <entry key="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/order-list.jsp" value="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp" />
         <entry key="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/product-add.jsp" value="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp" />
         <entry key="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/product-edit.jsp" value="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp" />
         <entry key="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/product-list.jsp" value="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp" />
-        <entry key="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/welcome.jsp" value="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp" />
       </map>
     </option>
   </component>
