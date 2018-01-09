@@ -58,12 +58,17 @@ public class OrderAction {
     }
 
 
+    /**
+     * 修改订单
+     * @param
+     * @return
+     */
     @ResponseBody
     @RequestMapping("/editOrdersCustom")
-    public int editOrdersCustom(OrdersCustom OrdersCustom){
+    public int editOrdersCustom(Orders orders,String oid,String itemid, Integer count,Double subtotal){
         int i = 0;
         try {
-            i = orderService.editOrder(OrdersCustom);
+            i = orderService.editOrder(orders,oid,itemid,count,subtotal);
         } catch (Exception e) {
             logger.error(e.getMessage(), e);
             e.printStackTrace();

@@ -96,7 +96,31 @@
                 {field: 'count', title: '商品数量'},
 
                 {field: 'subtotal', title: '合计'},
-                {field: 'status', title: '订单状态'},
+//                {field: 'state', title: '订单状态'},
+                {
+                    field: 'state', title: '订单状态', formatter: function (v, r, i) {
+                    switch (v) {
+                        case 0:
+                            return '已删除';
+                            break;
+                        case 1:
+                            return '未支付';
+                            break;
+                        case 2:
+                            return '已支付，未发货';
+                            break;
+                        case 3:
+                            return '已支付，已发货';
+                            break;
+                        case 4:
+                            return '已完成';
+                            break;
+                        default:
+                            return '未知';
+                            break;
+                    }
+                },sortable : true
+                },
                 {field: 'name', title: '买家'},
                 {field: 'telephone', title: '手机'},
                 {field:'address',title:'地址'},
@@ -124,7 +148,7 @@
                     async: true,
                     dataType: "json",
                     url: "deleteOrders",
-                    data: {"itemids[]": itemid},
+                    data: {"itemids[]": itemids},
                     success: function (data) {
                         if (data > 0) {
                             $table.bootstrapTable('refresh');

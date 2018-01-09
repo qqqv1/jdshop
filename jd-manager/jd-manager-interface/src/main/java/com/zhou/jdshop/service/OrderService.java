@@ -32,8 +32,8 @@ public interface OrderService {
 
     /**
      * 修改订单
-     * @param ordersCustom
+     * @param
      * @return
      */
-    int editOrder(OrdersCustom ordersCustom);
+    int editOrder(Orders orders,String oid,String itemid, Integer count,Double subtotal);
 }

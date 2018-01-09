@@ -74,7 +74,7 @@
                 </li>
                 <li>
                     <a href="#">
-                        <i class="fa fa-cogs"></i>
+                        <i class="glyphicon glyphicon-paperclip"></i>
                         <span class="nav-label">订单细则</span>
                         <span class="fa arrow"></span>
                     </a>

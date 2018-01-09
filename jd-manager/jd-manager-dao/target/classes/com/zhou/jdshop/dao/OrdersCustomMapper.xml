@@ -26,16 +26,17 @@
     oi.count,
     oi.subtotal,
 
-    p.pname,
-    CASE
-    o.state
-    WHEN 0 THEN '已删除'
-    WHEN 1 THEN '未支付'
-	WHEN 2 THEN '已支付,未发货'
-	WHEN 3 THEN '已支付,并发货'
-	WHEN 4 THEN '已完成'
-	ELSE '未知' END as status
+    p.pname
+
   </sql>
+  <!--CASE-->
+  <!--o.state-->
+  <!--WHEN 0 THEN '已删除'-->
+  <!--WHEN 1 THEN '未支付'-->
+  <!--WHEN 2 THEN '已支付,未发货'-->
+  <!--WHEN 3 THEN '已支付,并发货'-->
+  <!--WHEN 4 THEN '已完成'-->
+  <!--ELSE '未知' END as status-->
 
   <select id="selectByExample" resultType="com.zhou.jdshop.pojo.vo.OrdersCustom">
 
@@ -43,7 +44,7 @@
     <include refid="Base_Column_List" />
     from orders o left join orderitem oi on o.oid=oi.oid
     LEFT JOIN product p on oi.pid=p.pid
-    order by o.oid DESC
+    order by o.oid
 
   </select>
 

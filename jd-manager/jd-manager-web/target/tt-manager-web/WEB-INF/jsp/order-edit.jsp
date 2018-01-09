@@ -7,6 +7,7 @@
 
 <!--_meta 作为公共模版分离出去-->
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -109,6 +110,7 @@
 </head>
 <body class="gray-bg">
 <script src="js/jquery-1.7.2.min_1.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath }/My97DatePicker/WdatePicker.js"></script>
 
 <div class="wrapper wrapper-content animated fadeInRight">
     <div class="row">
@@ -118,9 +120,16 @@
                     <h5>订单添加</h5>
                 </div>
                 <div class="ibox-content">
-                    <form class="form-horizontal" id="Order" action="/addOrders"  method="post">
+                    <form class="form-horizontal" id="Order" action="javascript:void(0)"  method="post">
                         <div class="form-group">
                             <input type="hidden" id="itemid" name="itemid">
+                            <label class="col-sm-3 control-label"></label>
+                            <div class="col-sm-8" style="color: red;font-size: 15px">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="hidden" id="oid" name="oid">
                             <label class="col-sm-3 control-label"></label>
                             <div class="col-sm-8" style="color: red;font-size: 15px">
                             </div>
@@ -131,7 +140,7 @@
                         <div class="form-group">
                             <label class="col-sm-3 control-label"><span style="color:red;" >*</span>商品名：</label>
                             <div class="col-sm-8" >
-                                <input type="text" name="pname"  placeholder=" 请输入商品名称" value="" maxlength="20" id="pname" class="form-control">
+                                <input type="text" name="pname" disabled="disabled" placeholder=" 请输入商品名称" value="" maxlength="20" id="pname" class="form-control">
                             </div>
                         </div>
                         <div class="form-group">
@@ -151,9 +160,9 @@
                         <div class="form-group">
                             <label class="col-sm-3 control-label"><span style="color:red;"></span>订单状态：</label>
                             <div class="col-sm-8">
-                                <select id="status" name="status" style="width: 100%;" class="form-control">
+                                <select id="state" name="state" style="width: 100%;" class="form-control">
                                     <option selected="" value="0">已删除</option>
-                                    <option selected="" value="1">未付款</option>
+                                    <option selected="" value="1">未支付</option>
                                     <option selected="" value="2">已支付，未发货</option>
                                     <option selected="" value="3">已支付，已发货</option>
                                     <option selected="" value="4">已完成</option>
@@ -184,12 +193,25 @@
                             </div>
                         </div>
 
-                        <div class="form-group">
+                     <%--   <div class="form-group">
                             <label class="col-sm-3 control-label"><span style="color:red;" >*</span>创建时间：</label>
                             <div class="col-sm-8" >
                                 <input type="text" name="ordertime"  placeholder=" 请输入时间" value="" maxlength="20" id="ordertime" class="form-control">
+
                             </div>
-                        </div>
+                        </div>--%>
+
+
+
+                      <%--  <div class="form-group">
+                            <label class="col-sm-3 control-label"><span style="color:red;" >*</span>创建时间：</label>
+                            <div class="col-sm-8" >
+                                <input id="ordertime" type="text" name="ordertime" value="" onClick="WdatePicker()" />
+
+                            </div>
+                        </div>--%>
+
+
 
 
 
@@ -212,11 +234,12 @@
             url:"order/${param.itemid}",
             dataType:"json",
             success:function(data){
+                $("#oid").val(data.oid);
                 $("#itemid").val(data.itemid);
                 $("#pname").val(data.pname);
                 $("#count").val(data.count);
                 $("#subtotal").val(data.subtotal);
-                $("#status").val(data.status);
+                $("#state").val(data.state);
                 $("#name").val(data.name);
                 $("#telephone").val(data.telephone);
                 $("#address").val(data.address);
@@ -232,7 +255,7 @@
             var pname = $("#pname").val();
             var count = $("#count").val();
             var subtotal = $("#subtotal").val();
-            var status=$("#status").val();
+            var state=$("#state").val();
             var name = $("#name").val();
             if(!pname){
                 alert("请输入商品名称");
@@ -246,7 +269,7 @@
             }else if(!subtotal){
                 alert("请输入商品小记");
                 return false;
-            }else if(!status){
+            }else if(!state){
                 alert("请输入订单状态");
                 return false;
             }
