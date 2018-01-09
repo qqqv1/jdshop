@@ -5,7 +5,7 @@
   Time: 8:47
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -157,17 +157,17 @@
                 $.each(data, function (i,items) {
                     $('#cid').append("<option value=" + items.cid + ">" + items.cname + "</option>");
                 });
-                $('#cid').selectpicker('refresh');
+//                $('#cid').selectpicker('refresh');
             },
             error: function (data) {
                 alert("查询失败" + data);
             }
-        })
+        });
         $('.i-checks').iCheck({
             checkboxClass: 'icheckbox_square-green',
-            radioClass: 'iradio_square-green',
+            radioClass: 'iradio_square-green'
         })
-    })
+    });
     $(function() {
         $("#submit").click(function () {
             var pname = $("#pname").val();
@@ -208,7 +208,7 @@
                         location.href = 'product-list';
                         return true;
                     } else {
-                        alert("新增商品失败！")
+                        alert("新增商品失败！");
                         return false;
                     }
                 },
@@ -217,9 +217,9 @@
                     alert("error");
                     return false;
                 }
-            })
+            });
             return true;
-        });
+        })
     })
 </script>
 </body>

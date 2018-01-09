@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-D:\dfg666\GitHub\jdshop\jd-manager\jd-manager-interface\src\main\java\com\zhou\jdshop\service\ProductService.java
-D:\dfg666\GitHub\jdshop\jd-manager\jd-manager-interface\src\main\java\com\zhou\jdshop\service\CategoryService.java
-D:\dfg666\GitHub\jdshop\jd-manager\jd-manager-interface\src\main\java\com\zhou\jdshop\service\OrderService.java
-=======
 E:\IdeaProjects\jdshop\jd-manager\jd-manager-interface\src\main\java\com\zhou\jdshop\service\ProductService.java
 E:\IdeaProjects\jdshop\jd-manager\jd-manager-interface\src\main\java\com\zhou\jdshop\service\CategoryService.java
+E:\IdeaProjects\jdshop\jd-manager\jd-manager-interface\src\main\java\com\zhou\jdshop\service\UserService.java
 E:\IdeaProjects\jdshop\jd-manager\jd-manager-interface\src\main\java\com\zhou\jdshop\service\OrderService.java
->>>>>>> 986ba4fb356a832239379560407e2e90dae63cde

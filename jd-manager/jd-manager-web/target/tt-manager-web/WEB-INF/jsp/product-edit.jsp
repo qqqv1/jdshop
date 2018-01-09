@@ -5,8 +5,12 @@
   Time: 8:47
   To change this template use File | Settings | File Templates.
 --%>
+<<<<<<< HEAD
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
+=======
+<%@ page contentType="text/html;charset=UTF-8" %>
+>>>>>>> 986ba4fb356a832239379560407e2e90dae63cde
 <!DOCTYPE html>
 <html>
 <head>
@@ -41,9 +45,6 @@
     <link rel="stylesheet" href="themes/default/default.css" />
 </head>
 <body class="gray-bg">
-<div style="display: none;">
-    <textarea name="hh"></textarea>
-</div>
 <div class="wrapper wrapper-content animated fadeInRight">
     <div class="row">
         <div class="col-sm-12">
@@ -53,7 +54,10 @@
                 </div>
                 <div class="ibox-content">
                     <form class="form-horizontal" id="product" action="javascript:void(0)">
+<<<<<<< HEAD
 
+=======
+>>>>>>> 986ba4fb356a832239379560407e2e90dae63cde
                         <div class="form-group">
                             <input type="hidden" id="pid" name="pid">
                             <label class="col-sm-3 control-label"></label>
@@ -123,6 +127,7 @@
                         <div class="form-group">
                             <div class="col-sm-offset-3 col-sm-8">
                                 <button id="submit" class="btn btn-sm btn-info" type="submit">确认保存</button>
+                                <button class="btn btn-sm btn-info" type="button" onclick="history.back()" >返回</button>
                             </div>
                         </div>
                     </form>
@@ -155,7 +160,7 @@
         var ue=UE.getEditor('pdesc');
         $('.i-checks').iCheck({
             checkboxClass: 'icheckbox_square-green',
-            radioClass: 'iradio_square-green',
+            radioClass: 'iradio_square-green'
         });
         //获取下拉列表
         $.ajax({
@@ -168,12 +173,12 @@
                 $.each(data, function (i,items) {
                     $('#cid').append("<option value=" + items.cid + ">" + items.cname + "</option>");
                 });
-                $('#cid').selectpicker('refresh');
+//                $('#cid').selectpicker('refresh');
             },
             error: function (data) {
                 alert("查询失败" + data);
             }
-        })
+        });
         $.ajax({
             url:"product/${param.pid}",
             dataType:"json",
@@ -191,7 +196,7 @@
                 })
             }
         })
-    })
+    });
     $(function(){
         $("#submit").click(function(){
             var pname = $("#pname").val();
@@ -222,7 +227,6 @@
             $.ajax({
                 url: 'editproduct',
                 type: 'POST',
-                cache:false,
                 data: submitData,
                 dataType: "json",
                 cache:false,
@@ -233,7 +237,7 @@
                         location.href='product-list';
                         return true;
                     }else{
-                        alert("修改商品失败！")
+                        alert("修改商品失败！");
                         return false;
                     }
                 },
@@ -242,7 +246,7 @@
                     alert("error");
                     return false;
                 }
-            })
+            });
             return true;
         });
     })

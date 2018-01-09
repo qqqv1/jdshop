@@ -58,17 +58,10 @@
                         <a class="J_menuItem" href="product-list">产品列表</a>
                     </li>
                     <li>
-<<<<<<< HEAD
-                        <a class="J_menuItem" href="category-add">参数新增</a>
-                    </li>
-                    <li>
-                        <a class="J_menuItem" href="category-list">规格参数</a>
-=======
                         <a class="J_menuItem" href="category-add">分类新增</a>
                     </li>
                     <li>
                         <a class="J_menuItem" href="category-list">分类列表</a>
->>>>>>> 986ba4fb356a832239379560407e2e90dae63cde
                     </li>
                 </ul>
                 </li>
@@ -80,7 +73,7 @@
                 </li>
                 <li>
                     <a href="#">
-                        <i class="fa fa-cogs"></i>
+                        <i class="glyphicon glyphicon-paperclip"></i>
                         <span class="nav-label">订单细则</span>
                         <span class="fa arrow"></span>
                     </a>
@@ -119,7 +112,7 @@
                         <a class="dropdown-toggle count-info" data-toggle="" href="loginout.action" title="退出">
                             admin  <i class="fa fa-power-off"></i> <span class="label label-warning"></span>
                         </a>
-                        <ul class="dropdown-menu dropdown-messages" style="width: 100px;padding: 0px;">
+                        <ul class="dropdown-menu dropdown-messages" style="width: 100px;padding: 0;">
                         </ul>
                     </li>
                 </ul>
@@ -136,7 +129,7 @@
 <script src="js/bootstrap.min.js?v=3.3.6"></script>
 <script src="js/jquery.metisMenu.js"></script>
 <script src="js/jquery.slimscroll.min.js"></script>
-<script src="js/layer.min.js"></script>
+<script src="js/layer.js"></script>
 
 <!-- 自定义js -->
 <script src="js/hAdmin.js?v=4.1.0"></script>
@@ -145,7 +138,7 @@
     $(document).ready(function(){
         var usersession=$("#usersession").val();
         var dlsession=$("#dlsession").val();
-        if(usersession==null|dlsession==null){
+        if(usersession===null|| dlsession===null){
             window.location.href="login.jsp";
         }
     });
