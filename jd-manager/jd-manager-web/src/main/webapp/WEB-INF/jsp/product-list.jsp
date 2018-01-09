@@ -5,7 +5,7 @@
   Time: 8:46
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -93,15 +93,29 @@
                 {field: 'pid', title: '商品编号',sortable : true},
                 {field: 'pname', title: '商品标题',sortable : true},
                 {field: 'pdesc', title: '商品详情',sortable : true},
-                {field: 'marketPrice', title: '价格',sortable : true},
-                {field: 'shopPrice', title: '商品卖点',sortable : true},
-//                {field: 'cid', title: '分类名称'},
+                {field: 'marketPrice', title: '商品售价',sortable : true},
+                {field: 'shopPrice', title: '商品供货价',sortable : true},
+                {field: 'cname', title: '分类名称',sortable : true},
                 {
                     field: 'created', title: '创建时间', formatter: function (v, r, i) {
                         return moment(v).format('L');
                     },sortable : true
                 },
-                {field:'isHot',title:'是否热门',sortable : true},
+                {
+                    field:'isHot',title:'是否热门', formatter: function (v, r, i) {
+                        switch (v) {
+                            case 0:
+                                return '否';
+                                break;
+                            case 1:
+                                return '是';
+                                break;
+                            default:
+                                return '未知';
+                                break;
+                        }
+                    },sortable : true
+                },
                 {
                     field: 'pflag', title: '商品状态', formatter: function (v, r, i) {
                         switch (v) {
@@ -122,7 +136,7 @@
                 }
             ]]
         })
-    })
+    });
     function add(){
         location.href='product-add';
     }
@@ -130,38 +144,37 @@
         var pids=[];
         var $table=$("#productListDg");
         var selRow = $table.bootstrapTable('getSelections');
-        if(selRow!=null){
+        if (selRow.length > 0) {
+            alert('请选取要删除的数据行！');
+            return false;
+        }
+        var flag = confirm('此操作不可逆，确认删除吗？');
+        if (flag === true) {
             for (var i = 0; i < selRow.length; i++) {
                 pids.push(selRow[i].pid)
             }
-            var flag=confirm('此操作不可逆，确认删除吗？')
-            if(flag==true) {
-                $.ajax({
+            $.ajax({
 //                    type:"POST",
-                    cache: false,
-                    async: true,
-                    dataType: "json",
-                    url: "deleteproduct",
-                    data: {"pids": pids},
-                    success: function (data) {
-                        if (data > 0) {
-                            $table.bootstrapTable('refresh');
-                        }
+                cache: false,
+                async: true,
+                dataType: "json",
+                url: "deleteproduct",
+                data: {"pids": pids},
+                success: function (data) {
+                    if (data > 0) {
+                        $table.bootstrapTable('refresh');
                     }
-                });
-            }else{
-                return false;
-            }
-        }else{
-            alert('请选取要删除的数据行！');
+                }
+            });
+        } else {
             return false;
         }
     }
     function edit() {
         var $table=$("#productListDg");
         var selRow = $table.bootstrapTable('getSelections');
-        if(selRow!=null){
-            if(selRow.length>1) {
+        if(selRow.length > 0){
+            if(selRow.length > 1) {
                 alert('请只选取一行要编辑的数据行！');
                 return false;
             }

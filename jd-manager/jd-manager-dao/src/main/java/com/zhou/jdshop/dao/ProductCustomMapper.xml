@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhou.jdshop.dao.ProductCustomMapper">
+    <resultMap id="BaseResultMap" type="com.zhou.jdshop.pojo.vo.ProductCustom">
+        <id column="pid" jdbcType="VARCHAR" property="pid" />
+        <result column="pname" jdbcType="VARCHAR" property="pname" />
+        <result column="market_price" jdbcType="DOUBLE" property="marketPrice" />
+        <result column="shop_price" jdbcType="DOUBLE" property="shopPrice" />
+        <result column="pimage" jdbcType="VARCHAR" property="pimage" />
+        <result column="pdate" jdbcType="DATE" property="pdate" />
+        <result column="is_hot" jdbcType="INTEGER" property="isHot" />
+        <result column="pdesc" jdbcType="VARCHAR" property="pdesc" />
+        <result column="pflag" jdbcType="INTEGER" property="pflag" />
+        <result column="cid" jdbcType="VARCHAR" property="cid" />
+        <result column="quantity" jdbcType="INTEGER" property="quantity" />
+        <result column="cname" jdbcType="VARCHAR" property="cname" />
+    </resultMap>
+    <sql id="Base_Column_List">
+        pid, pname, market_price, shop_price, pimage, pdate, is_hot, pdesc, pflag, p.cid, quantity, cname
+    </sql>
+    <select id="listProducts" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List" />
+        from product p
+        left join category c on p.cid = c.cid
+        where pflag!= 3
+    </select>
+</mapper>

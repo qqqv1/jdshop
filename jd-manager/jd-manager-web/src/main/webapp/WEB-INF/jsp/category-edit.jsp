@@ -5,7 +5,7 @@
   Time: 18:58
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -90,7 +90,7 @@
     $(function(){
         $('.i-checks').iCheck({
             checkboxClass: 'icheckbox_square-green',
-            radioClass: 'iradio_square-green',
+            radioClass: 'iradio_square-green'
         });
         $.ajax({
             url:"category/${param.cid}",
@@ -100,7 +100,7 @@
                 $("#cname").val(data.cname);
             }
         })
-    })
+    });
     $(function(){
         $("#submit").click(function(){
             var cname = $("#cname").val();
@@ -124,7 +124,7 @@
                         location.href='category-list';
                         return true;
                     }else{
-                        alert("修改分类失败！")
+                        alert("修改分类失败！");
                         return false;
                     }
                 },
@@ -133,7 +133,7 @@
                     alert("error");
                     return false;
                 }
-            })
+            });
             return true;
         });
     })

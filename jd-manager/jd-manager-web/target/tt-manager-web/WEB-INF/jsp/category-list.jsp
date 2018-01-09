@@ -12,7 +12,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="renderer" content="webkit">
-    <title> - 规格参数</title>
+    <title> - 分类列表</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
 
@@ -37,7 +37,7 @@
         <div class="col-sm-12">
             <div class="ibox float-e-margins">
                 <div class="ibox-title">
-                    <h5>商品管理</h5>
+                    <h5>分类列表</h5>
                 </div>
             </div>
             <div class="ibox-content">
@@ -91,7 +91,7 @@
             columns: [[
                 {checkbox : true,align : 'center'},
                 {field: 'cid', title: '分类编号',sortable : true},
-                {field: 'cname', title: '商品标题',sortable : true}
+                {field: 'cname', title: '分类名称',sortable : true}
             ]]
         })
     })

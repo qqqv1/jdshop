@@ -1,6 +1,7 @@
 package com.zhou.jdshop.web;
 
 import com.zhou.jdshop.pojo.po.Product;
+import com.zhou.jdshop.pojo.vo.ProductCustom;
 import com.zhou.jdshop.service.ProductService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -18,10 +19,22 @@ public class ProductAction {
     @Autowired
     private ProductService productService;
 
+//    @ResponseBody
+//    @RequestMapping(value = "/products",method = RequestMethod.GET)
+//    public List<Product> listProducts(){
+//        List<Product> list=null;
+//        try {
+//            list = productService.listProducts();
+//        }catch (Exception e){
+//            logger.error(e.getMessage(),e);
+//            e.printStackTrace();
+//        }
+//        return list;
+//    }
     @ResponseBody
     @RequestMapping(value = "/products",method = RequestMethod.GET)
-    public List<Product> listProducts(){
-        List<Product> list=null;
+    public List<ProductCustom> listProducts(){
+        List<ProductCustom> list=null;
         try {
             list = productService.listProducts();
         }catch (Exception e){

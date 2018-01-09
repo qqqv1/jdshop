@@ -20,6 +20,10 @@ public class CategoryServiceImpl implements CategoryService {
     @Autowired
     private CategoryMapper categoryDao;
 
+    /**
+     * 查询全部分类
+     * @return 状态不为删除的分类集
+     */
     @Override
     public List<Category> listCats() {
         List<Category> list = null;
@@ -34,6 +38,11 @@ public class CategoryServiceImpl implements CategoryService {
         return list;
     }
 
+    /**
+     * 根据id查询单个分类
+     * @param cid 选中分类的id
+     * @return 对应id的分类
+     */
     @Override
     public Category getCategoryById(String cid) {
         Category category=new Category();
@@ -50,6 +59,11 @@ public class CategoryServiceImpl implements CategoryService {
         return category;
     }
 
+    /**
+     * 新增分类
+     * @param category 要插入的分类
+     * @return 若成功则返回值大于0
+     */
     @Transactional
     @Override
     public int saveCategory(Category category) {
@@ -66,6 +80,11 @@ public class CategoryServiceImpl implements CategoryService {
         return i;
     }
 
+    /**
+     * 新增分类
+     * @param category 要更新的分类信息
+     * @return 若成功则返回值大于0
+     */
     @Transactional
     @Override
     public int editCategory(Category category) {
@@ -82,6 +101,11 @@ public class CategoryServiceImpl implements CategoryService {
         return i;
     }
 
+    /**
+     * 批量删除分类
+     * @param cids 被选中分类的id集
+     * @return 若逻辑删除成功则返回值大于0
+     */
     @Override
     public int deleteCategory(List<String> cids) {
         int i = 0;
