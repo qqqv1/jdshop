@@ -15,6 +15,7 @@
     <link href="css/font-awesome.min.css?v=4.4.0" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/style.css?v=4.1.0" rel="stylesheet">
+    <link href="css/default/layer.css" rel="stylesheet">
 </head>
 <body class="fixed-sidebar full-height-layout gray-bg" style="overflow:hidden">
 <input style="display: none" id="usersession" value="1">
@@ -112,7 +113,7 @@
                         <a class="dropdown-toggle count-info" data-toggle="" href="loginout.action" title="退出">
                             admin  <i class="fa fa-power-off"></i> <span class="label label-warning"></span>
                         </a>
-                        <ul class="dropdown-menu dropdown-messages" style="width: 100px;padding: 0px;">
+                        <ul class="dropdown-menu dropdown-messages" style="width: 100px;padding: 0;">
                         </ul>
                     </li>
                 </ul>
@@ -129,7 +130,7 @@
 <script src="js/bootstrap.min.js?v=3.3.6"></script>
 <script src="js/jquery.metisMenu.js"></script>
 <script src="js/jquery.slimscroll.min.js"></script>
-<script src="js/layer.min.js"></script>
+<script src="js/layer.js"></script>
 
 <!-- 自定义js -->
 <script src="js/hAdmin.js?v=4.1.0"></script>
@@ -138,7 +139,7 @@
     $(document).ready(function(){
         var usersession=$("#usersession").val();
         var dlsession=$("#dlsession").val();
-        if(usersession==null|dlsession==null){
+        if(usersession===null|| dlsession===null){
             window.location.href="login.jsp";
         }
     });

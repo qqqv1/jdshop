@@ -118,6 +118,7 @@
                         <div class="form-group">
                             <div class="col-sm-offset-3 col-sm-8">
                                 <button id="submit" class="btn btn-sm btn-info" type="submit">确认保存</button>
+                                <button class="btn btn-sm btn-info" type="button" onclick="history.back()" >返回</button>
                             </div>
                         </div>
                     </form>
@@ -163,7 +164,7 @@
                 $.each(data, function (i,items) {
                     $('#cid').append("<option value=" + items.cid + ">" + items.cname + "</option>");
                 });
-                $('#cid').selectpicker('refresh');
+//                $('#cid').selectpicker('refresh');
             },
             error: function (data) {
                 alert("查询失败" + data);
