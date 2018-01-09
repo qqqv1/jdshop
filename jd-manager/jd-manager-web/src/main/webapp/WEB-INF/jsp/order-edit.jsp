@@ -182,7 +182,7 @@
                         <div class="form-group">
                             <label class="col-sm-3 control-label"><span style="color:red;" >*</span>手机号：</label>
                             <div class="col-sm-8" >
-                                <input type="text" name="telephone"  placeholder=" 请输入手机号" value="" maxlength="20" id="telephone" class="form-control">
+                                <input type="text" name="telephone"  placeholder=" 请输入手机号" value="" onkeyup="value=value.replace(/[^\d.]/g,'')"  onblur="value=value.replace(/[^\d.]/g,'') " maxlength="20" id="telephone" class="form-control">
                             </div>
                         </div>
 

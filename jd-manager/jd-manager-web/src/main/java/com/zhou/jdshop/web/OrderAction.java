@@ -38,6 +38,11 @@ public class OrderAction {
         return list;
     }
 
+    /**
+     * 删除订单
+     * @param oids
+     * @return
+     */
     @ResponseBody
     @RequestMapping("/deleteOrders")
     public int deleteProduct(@RequestParam("itemids[]") List<String> oids){
