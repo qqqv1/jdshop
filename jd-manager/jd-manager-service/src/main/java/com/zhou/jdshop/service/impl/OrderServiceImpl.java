@@ -1,7 +1,10 @@
 package com.zhou.jdshop.service.impl;
 
+import com.zhou.jdshop.dao.OrderitemMapper;
 import com.zhou.jdshop.dao.OrdersCustomMapper;
 import com.zhou.jdshop.dao.OrdersMapper;
+import com.zhou.jdshop.pojo.po.Orderitem;
+import com.zhou.jdshop.pojo.po.OrderitemExample;
 import com.zhou.jdshop.pojo.po.Orders;
 import com.zhou.jdshop.pojo.po.OrdersExample;
 import com.zhou.jdshop.pojo.vo.OrdersCustom;
@@ -11,7 +14,9 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
+import java.util.Date;
 import java.util.List;
 
 @Service
@@ -23,6 +28,9 @@ public class OrderServiceImpl implements OrderService{
 
     @Autowired
     private OrdersCustomMapper ordersCustomDao;
+
+    @Autowired
+    private OrderitemMapper orderitemDao;
 
     /**
      * 查询所有订单
@@ -80,8 +88,36 @@ public class OrderServiceImpl implements OrderService{
         return ordersCustom;
     }
 
+    /**
+     * 修改订单
+     * @param
+     * @return
+     */
+    @Transactional
     @Override
-    public int editOrder(OrdersCustom ordersCustom) {
-        return 0;
+    public int editOrder(Orders orders,String oid,String itemid, Integer count,Double subtotal) {
+        int i = 0;
+        try {
+            //存放2张表,订单表和订单详情表
+            //orders
+            OrdersExample example = new OrdersExample();
+            OrdersExample.Criteria criteria = example.createCriteria();
+            criteria.andOidEqualTo(oid);
+            i=ordersDao.updateByExampleSelective(orders,example);
+
+            //ordersitem
+            Orderitem orderItem = new Orderitem();
+            orderItem.setCount(count);
+            orderItem.setSubtotal(subtotal);
+            OrderitemExample example1 = new OrderitemExample();
+            OrderitemExample.Criteria criteria1 = example1.createCriteria();
+            criteria1.andItemidEqualTo(itemid);
+            i += orderitemDao.updateByExampleSelective(orderItem,example1);
+            //
+        } catch (Exception e) {
+            logger.error(e.getMessage(), e);
+            e.printStackTrace();
+        }
+        return i;
     }
 }

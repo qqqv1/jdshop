@@ -166,11 +166,7 @@
         $('.i-checks').iCheck({
             checkboxClass: 'icheckbox_square-green',
             radioClass: 'iradio_square-green',
-<<<<<<< HEAD
-        });
-=======
         })
->>>>>>> 766c0703db613872804f3b8d80f4a1b43c755133
     })
     $(function() {
         $("#submit").click(function () {

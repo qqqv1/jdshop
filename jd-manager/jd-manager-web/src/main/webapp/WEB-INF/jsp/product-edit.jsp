@@ -6,6 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -52,10 +53,7 @@
                 </div>
                 <div class="ibox-content">
                     <form class="form-horizontal" id="product" action="javascript:void(0)">
-<<<<<<< HEAD
 
-=======
->>>>>>> 766c0703db613872804f3b8d80f4a1b43c755133
                         <div class="form-group">
                             <input type="hidden" id="pid" name="pid">
                             <label class="col-sm-3 control-label"></label>

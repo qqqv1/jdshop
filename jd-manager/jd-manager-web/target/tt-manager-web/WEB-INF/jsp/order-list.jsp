@@ -39,7 +39,6 @@
             <div class="ibox float-e-margins">
                 <div class="ibox-title">
                     <h5>订单管理</h5>
-<<<<<<< HEAD
                     </div>
                 </div>
                 <div class="ibox-content">
@@ -52,69 +51,12 @@
                         </button>
 
                     </div>
-=======
-                    <div class="ibox-tools">
-                        <a href="order-add">
-                        </a>
-                    </div>
-                </div>
-                </div>
-
-
-
-                <div class="ibox-content">
-
-                    <div id="toolbar">
-                        <div style="padding: 5px; background-color: #fff;">
-
-                            <div class="ibox-tools" style="margin-top: 0px;float: left;">
-                                <form action="admin_huiyuanmeirishouzhilog_list.action" method="post" role="form" class="form-inline">
-                                    <input type="hidden" name="" value="">
-                                    <div class="form-group" style="padding-right: 5px;padding-left: 5px;">
-                                        <div class="col-sm-10" style="margin-bottom: 5px; margin-top:5px;padding-right: 0px;padding-left: 0px;">
-                                            <input name="oid" placeholder="订单编号" style="height: 29px;width: 120px;" class="form-control">
-                                        </div>
-                                    </div>
-                                    <div class="form-group" style="padding-right: 5px;padding-left: 5px;">
-                                        <div class="col-sm-10" style="margin-bottom: 5px; margin-top:5px;padding-right: 0px;padding-left: 0px;">
-                                            <input name="oid" placeholder="订单编号" style="height: 29px;width: 120px;" class="form-control">
-                                        </div>
-                                    </div>
-                                    <div class="checkbox m-l m-r-xs" style="margin-left: 0px; ">
-                                        <button class="btn btn-white" type="submit">查询</button>
-                                    </div>
-                                </form>
-                            </div>
-
-
-
-
-
-                           <%-- <label>订单状态：</label>
-                            <select id="status" name="status" class="easyui-combobox" >
-                                <option value="0">全部</option>
-                                <option value="1">正常</option>
-                                <option value="2">下架</option>
-                            </select>--%>
-                            <!--http://www.cnblogs.com/wisdomoon/p/3330856.html-->
-                            <!--注意：要加上type="button",默认行为是submit-->
-                            <%--<button onclick="searchForm()" type="button" class="easyui-linkbutton">搜索</button>--%>
-
-                           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                            <button onclick="edit()" class="btn btn-white" >编辑</button>
-                            <button onclick="remove()" class="btn btn-white" >删除</button>
-                            <button onclick="down()" class="btn btn-white" >下架</button>
-                            <button onclick="up()" class="btn btn-white" >上架</button>
-                        </div>
-                    </div>
-
->>>>>>> 766c0703db613872804f3b8d80f4a1b43c755133
                     <table class="table table-striped table-bordered table-hover dataTables-example" id="orderListDg"></table>
                 </div>
             </div>
         </div>
     </div>
-
+</div>
 
 <!-- 全局js -->
 <script src="js/jquery.min.js?v=2.1.4"></script>
@@ -140,11 +82,8 @@
 <script>
     $(function () {
         $("#orderListDg").bootstrapTable({
-<<<<<<< HEAD
            //自适应查询，查询记录所有字段
             search: true,
-=======
->>>>>>> 766c0703db613872804f3b8d80f4a1b43c755133
             toolbar:'#toolbar',
             url:'orders',
 
@@ -152,16 +91,36 @@
             pagination:true,
             columns: [[
                 {field: 'ck', checkbox: true},
-<<<<<<< HEAD
                 {field: 'itemid', title: '订单详情编号'},
                 {field: 'pname', title: '商品名',sortable:true},
-=======
-                {field: 'oid', title: '订单编号'},
->>>>>>> 766c0703db613872804f3b8d80f4a1b43c755133
                 {field: 'count', title: '商品数量'},
 
                 {field: 'subtotal', title: '合计'},
-                {field: 'status', title: '订单状态'},
+//                {field: 'state', title: '订单状态'},
+                {
+                    field: 'state', title: '订单状态', formatter: function (v, r, i) {
+                    switch (v) {
+                        case 0:
+                            return '已删除';
+                            break;
+                        case 1:
+                            return '未支付';
+                            break;
+                        case 2:
+                            return '已支付，未发货';
+                            break;
+                        case 3:
+                            return '已支付，已发货';
+                            break;
+                        case 4:
+                            return '已完成';
+                            break;
+                        default:
+                            return '未知';
+                            break;
+                    }
+                },sortable : true
+                },
                 {field: 'name', title: '买家'},
                 {field: 'telephone', title: '手机'},
                 {field:'address',title:'地址'},
@@ -189,7 +148,7 @@
                     async: true,
                     dataType: "json",
                     url: "deleteOrders",
-                    data: {"itemids[]": itemid},
+                    data: {"itemids[]": itemids},
                     success: function (data) {
                         if (data > 0) {
                             $table.bootstrapTable('refresh');
