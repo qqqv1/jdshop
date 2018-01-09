@@ -17,8 +17,8 @@
     <link href="css/style.css?v=4.1.0" rel="stylesheet">
 </head>
 <body class="fixed-sidebar full-height-layout gray-bg" style="overflow:hidden">
-<input style="display: none" id="usersession" value="1">
-<input style="display: none" id="dlsession" value="">
+<%--<input style="display: none" id="usersession" value="1">--%>
+<%--<input style="display: none" id="dlsession" value="">--%>
 <div id="wrapper">
     <nav class="navbar-default navbar-static-side" role="navigation">
         <div class="nav-close"><i class="fa fa-times-circle"></i>
@@ -135,13 +135,13 @@
 <script src="js/hAdmin.js?v=4.1.0"></script>
 <script type="text/javascript" src="js/index.js"></script>
 <script type="text/javascript">
-    $(document).ready(function(){
-        var usersession=$("#usersession").val();
-        var dlsession=$("#dlsession").val();
-        if(usersession===null|| dlsession===null){
-            window.location.href="login.jsp";
-        }
-    });
+//    $(document).ready(function(){
+//        var usersession=$("#usersession").val();
+//        var dlsession=$("#dlsession").val();
+//        if(usersession===null|| dlsession===null){
+//            window.location.href="login.jsp";
+//        }
+//    });
 </script>
 <!-- 第三方插件 -->
 </body>
