@@ -14,17 +14,27 @@
 
 
   <sql id="Base_Column_List">
-    o.oid, o.ordertime, o.total,o.state,  o.address, o.name, o.telephone,
-    oi.itemid,oi.count,oi.subtotal,
+    o.oid,
+    o.ordertime,
+    o.total,
+    o.state,
+    o.address,
+    o.name,
+    o.telephone,
+
+    oi.itemid,
+    oi.count,
+    oi.subtotal,
+
     p.pname,
     CASE
- o.state
-        WHEN 0 THEN '已删除'
-        WHEN 1 THEN '未支付'
-	    	WHEN 2 THEN '已支付,未发货'
-		    WHEN 3 THEN '已支付,并发货'
-		    WHEN 4 THEN '已完成'
-	    	ELSE '未知' END as status
+    o.state
+    WHEN 0 THEN '已删除'
+    WHEN 1 THEN '未支付'
+	WHEN 2 THEN '已支付,未发货'
+	WHEN 3 THEN '已支付,并发货'
+	WHEN 4 THEN '已完成'
+	ELSE '未知' END as status
   </sql>
 
   <select id="selectByExample" resultType="com.zhou.jdshop.pojo.vo.OrdersCustom">
@@ -33,8 +43,20 @@
     <include refid="Base_Column_List" />
     from orders o left join orderitem oi on o.oid=oi.oid
     LEFT JOIN product p on oi.pid=p.pid
-    order by o.oid
+    order by o.oid DESC
 
   </select>
+
+
+    <select id="selectOrderById" resultType="com.zhou.jdshop.pojo.vo.OrdersCustom">
+
+        select
+        <include refid="Base_Column_List" />
+        from orderitem oi left join orders o on oi.oid=o.oid
+        LEFT JOIN product p on oi.pid=p.pid
+
+        WHERE oi.itemid=#{itemid}
+
+    </select>
 
 </mapper>

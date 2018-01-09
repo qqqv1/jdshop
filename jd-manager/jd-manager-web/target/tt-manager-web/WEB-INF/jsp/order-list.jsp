@@ -39,6 +39,20 @@
             <div class="ibox float-e-margins">
                 <div class="ibox-title">
                     <h5>订单管理</h5>
+<<<<<<< HEAD
+                    </div>
+                </div>
+                <div class="ibox-content">
+                    <div id="toolbar">
+                        <button id="edit" type="button" class="btn btn-default" onclick="edit();">
+                            <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>修改
+                        </button>
+                        <button id="delete" type="button" class="btn btn-default" onclick="del();">
+                            <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>删除
+                        </button>
+
+                    </div>
+=======
                     <div class="ibox-tools">
                         <a href="order-add">
                         </a>
@@ -94,6 +108,7 @@
                         </div>
                     </div>
 
+>>>>>>> 766c0703db613872804f3b8d80f4a1b43c755133
                     <table class="table table-striped table-bordered table-hover dataTables-example" id="orderListDg"></table>
                 </div>
             </div>
@@ -118,25 +133,92 @@
 
 <!-- Sweet alert -->
 <script src="js/sweetalert.min.js"></script>
-
+<script src="moment/moment-with-locales.js"></script>
+<script>
+    moment.locale();
+</script>
 <script>
     $(function () {
         $("#orderListDg").bootstrapTable({
+<<<<<<< HEAD
+           //自适应查询，查询记录所有字段
+            search: true,
+=======
+>>>>>>> 766c0703db613872804f3b8d80f4a1b43c755133
             toolbar:'#toolbar',
             url:'orders',
+
+            clickToSelect: true,
             pagination:true,
             columns: [[
                 {field: 'ck', checkbox: true},
+<<<<<<< HEAD
+                {field: 'itemid', title: '订单详情编号'},
+                {field: 'pname', title: '商品名',sortable:true},
+=======
                 {field: 'oid', title: '订单编号'},
+>>>>>>> 766c0703db613872804f3b8d80f4a1b43c755133
                 {field: 'count', title: '商品数量'},
-                {field: 'pname', title: '商品名'},
+
                 {field: 'subtotal', title: '合计'},
                 {field: 'status', title: '订单状态'},
                 {field: 'name', title: '买家'},
-                {field: 'telephone', title: '手机'}
+                {field: 'telephone', title: '手机'},
+                {field:'address',title:'地址'},
+                {field: 'ordertime', title: '订单时间', formatter: function (v, r, i) {
+                    return moment(v).format('L');
+                },sortable : true
+                }
             ]]
         })
     })
+
+    function del() {
+        var itemids=[];
+        var $table=$("#orderListDg");
+        var selRow = $table.bootstrapTable('getSelections');
+        if(selRow!=null){
+            for (var i = 0; i < selRow.length; i++) {
+                itemids.push(selRow[i].itemid)
+            }
+            var flag=confirm('此操作不可逆，确认删除吗？')
+            if(flag==true) {
+                $.ajax({
+//                    type:"POST",
+                    cache: false,
+                    async: true,
+                    dataType: "json",
+                    url: "deleteOrders",
+                    data: {"itemids[]": itemid},
+                    success: function (data) {
+                        if (data > 0) {
+                            $table.bootstrapTable('refresh');
+                        }
+                    }
+                });
+            }else{
+                return false;
+            }
+        }else{
+            alert('请选取要删除的数据行！');
+            return false;
+        }
+    }
+    function edit() {
+        var $table=$("#orderListDg");
+        var selRow = $table.bootstrapTable('getSelections');
+        if(selRow!=null){
+            if(selRow.length>1) {
+                alert('请每次只选中一行数据！');
+                return false;
+            }
+            itemid=selRow[0].itemid;
+            location.href='order-edit?itemid='+itemid;
+        }else{
+            alert('请选取要编辑的数据行！');
+            return false;
+        }
+    }
 </script>
 </body>
 </html>

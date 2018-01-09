@@ -200,6 +200,7 @@
                 type: 'POST',
                 data: submitData,
                 dataType: "json",
+                cache:false,
                 success: function (result) {
                     //请求成功时
                     if (result > 0) {

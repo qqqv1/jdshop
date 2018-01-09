@@ -118,14 +118,14 @@
                     <h5>订单添加</h5>
                 </div>
                 <div class="ibox-content">
-                    <form class="form-horizontal" id="form1" action="/addOrders"  method="post">
-                        <input type="hidden" name="user.id" value="">
+                    <form class="form-horizontal" id="Order" action="/addOrders"  method="post">
                         <div class="form-group">
+                            <input type="hidden" id="itemid" name="itemid">
                             <label class="col-sm-3 control-label"></label>
                             <div class="col-sm-8" style="color: red;font-size: 15px">
-
                             </div>
                         </div>
+
 
                         <%--这里要2级联动--%>
                         <div class="form-group">
@@ -140,12 +140,28 @@
                                 <input type="text" name="count"  placeholder=" 请输入商品数量" value="" maxlength="20" id="count" class="form-control">
                             </div>
                         </div>
+
                         <div class="form-group">
-                            <label class="col-sm-3 control-label"><span style="color:red;" >*</span>商品总价：</label>
+                            <label class="col-sm-3 control-label"><span style="color:red;" >*</span>合计：</label>
                             <div class="col-sm-8" >
-                                <input type="text" name="subtotal"  placeholder=" 请输入商品总价" value="" id="subtotal" maxlength="20" class="form-control">
+                                <input type="text" name="subtotal"  placeholder=" 请输入商品名称" value="" maxlength="20" id="subtotal" class="form-control">
                             </div>
                         </div>
+
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label"><span style="color:red;"></span>订单状态：</label>
+                            <div class="col-sm-8">
+                                <select id="status" name="status" style="width: 100%;" class="form-control">
+                                    <option selected="" value="0">已删除</option>
+                                    <option selected="" value="1">未付款</option>
+                                    <option selected="" value="2">已支付，未发货</option>
+                                    <option selected="" value="3">已支付，已发货</option>
+                                    <option selected="" value="4">已完成</option>
+                                </select>
+                                <span class="help-block m-b-none"></span>
+                            </div>
+                        </div>
+
 
 
                         <div class="form-group">
@@ -163,90 +179,15 @@
 
                         <div class="form-group">
                             <label class="col-sm-3 control-label"><span style="color:red;" >*</span>地址：</label>
-                            <div class="col-sm-8">
-                                <div >
-                                    <style type="text/css">
+                            <div class="col-sm-8" >
+                                <input type="text" name="address"  placeholder=" 请输入地址" value="" maxlength="20" id="address" class="form-control">
+                            </div>
+                        </div>
 
-
-
-                                        /* m_zlxg */
-
-                                        .m_zlxg{ width:140px; height:35px; line-height:35px;cursor:pointer;float:left;margin:0 10px 0 0;display:inline;background:url(images/zlxg2.jpg) no-repeat;}
-
-                                        .m_zlxg p{ width:100px; padding-left:10px; overflow:hidden; line-height:35px; color:#333333; font-size:14px; font-family:"微软雅黑";text-overflow:ellipsis; white-space:nowrap;}
-
-                                        .m_zlxg2{ position:absolute; top:32px; border:1px solid #ded3c1;background:#fff; width:129px !important; display:none; max-height:224px;-height:224px; overflow-x:hidden; overflow-y:auto;white-space:nowrap;    z-index: 999999; list-style:none; padding:0;}
-                                        .m_zlxg2 ul{ padding:0;}
-                                        .m_zlxg2 li{list-style:none;line-height:28px;white-space:nowrap; padding-left:10px;font-family:"微软雅黑";color:#333333; font-size:12px; padding:0; text-align:center;}
-
-                                        .m_zlxg2 li:hover{ color:#7a5a21;}
-
-                                    </style>
-                                    <div id="sjld" style="">
-
-                                        <div class="m_zlxg" id="shenfen" style="margin-left:0;">
-
-                                            <p title="">选择省份</p>
-
-                                            <div class="m_zlxg2">
-
-                                                <ul></ul>
-
-                                            </div>
-
-                                        </div>
-
-                                        <div class="m_zlxg" id="chengshi">
-
-                                            <p title="">选择城市</p>
-
-                                            <div class="m_zlxg2">
-
-                                                <ul></ul>
-
-                                            </div>
-
-                                        </div>
-
-                                        <div class="m_zlxg" id="quyu">
-
-                                            <p title="">选择区域</p>
-
-                                            <div class="m_zlxg2">
-
-                                                <ul></ul>
-
-                                            </div>
-
-                                        </div>
-
-                                        <input id="sfdq_num" type="hidden" value="" />
-
-                                        <input id="csdq_num" type="hidden" value="" />
-
-                                        <input id="sfdq_tj" type="hidden" value="" />
-
-                                        <input id="csdq_tj" type="hidden" value="" />
-
-                                        <input id="qydq_tj" type="hidden" value="" />
-
-                                    </div>
-                                    <script type="text/javascript" src="js/address.js"></script>
-                                    <script type="text/javascript">
-
-                                        $(function(){
-
-
-
-                                            $("#sjld").sjld("#shenfen","#chengshi","#quyu");
-
-
-
-                                        });
-
-                                    </script>
-                                </div>
-                                <span class="help-block m-b-none"></span>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label"><span style="color:red;" >*</span>创建时间：</label>
+                            <div class="col-sm-8" >
+                                <input type="text" name="ordertime"  placeholder=" 请输入时间" value="" maxlength="20" id="ordertime" class="form-control">
                             </div>
                         </div>
 
@@ -266,30 +207,79 @@
     </div>
 </div>
 <script>
-    $(document).ready(function () {
-        $('.i-checks').iCheck({
-            checkboxClass: 'icheckbox_square-green',
-            radioClass: 'iradio_square-green',
-        });
+    $(function () {
+        $.ajax({
+            url:"order/${param.itemid}",
+            dataType:"json",
+            success:function(data){
+                $("#itemid").val(data.itemid);
+                $("#pname").val(data.pname);
+                $("#count").val(data.count);
+                $("#subtotal").val(data.subtotal);
+                $("#status").val(data.status);
+                $("#name").val(data.name);
+                $("#telephone").val(data.telephone);
+                $("#address").val(data.address);
+                $("#ordertime").val(data.ordertime);
+                ue.ready(function(){
+                    ue.setContent(data.pdesc);
+                })
+            }
+        })
     });
-</script>
-<script type="text/javascript">
-    $(document).ready(function(){
+    $(function(){
         $("#submit").click(function(){
-            var huiyuanid = $("#huiyuanid").val();
-            var username = $("#username").val();
-            var xm = $("#xm").val();
-            if(!username){
-                alert("请输入用户名");
+            var pname = $("#pname").val();
+            var count = $("#count").val();
+            var subtotal = $("#subtotal").val();
+            var status=$("#status").val();
+            var name = $("#name").val();
+            if(!pname){
+                alert("请输入商品名称");
+                return false;
+            }else if(!name){
+                alert("请输入买家名");
+                return false;
+            }else if(!count){
+                alert("请输入商品数量");
+                return false;
+            }else if(!subtotal){
+                alert("请输入商品小记");
+                return false;
+            }else if(!status){
+                alert("请输入订单状态");
                 return false;
             }
-            if(!xm){
-                alert("请输入姓名");
-                return false;
-            }
+            var data = $('#Order').serialize();
+            //序列化获得表单数据，结果为：user_id=12&user_name=John&user_age=20
+            var submitData = decodeURIComponent(data, true);
+            //submitData是解码后的表单数据，结果同上
+            $.ajax({
+                url: 'editOrdersCustom',
+                type: 'POST',
+                data: submitData,
+                dataType: "json",
+                cache:false,
+                success: function (result) {
+                    //请求成功时
+                    if(result> 0){
+                        alert("修改商品成功！");
+                        location.href='order-list';
+                        return true;
+                    }else{
+                        alert("修改商品失败！");
+                        return false;
+                    }
+                },
+                error: function () {
+                    //请求失败时
+                    alert("error");
+                    return false;
+                }
+            });
             return true;
-        });
-    });
+        })
+    })
 </script>
 </body>
 </html>

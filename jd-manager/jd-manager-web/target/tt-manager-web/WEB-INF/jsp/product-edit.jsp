@@ -52,12 +52,17 @@
                 </div>
                 <div class="ibox-content">
                     <form class="form-horizontal" id="product" action="javascript:void(0)">
+<<<<<<< HEAD
+
+=======
+>>>>>>> 766c0703db613872804f3b8d80f4a1b43c755133
                         <div class="form-group">
                             <input type="hidden" id="pid" name="pid">
                             <label class="col-sm-3 control-label"></label>
                             <div class="col-sm-8" style="color: red;font-size: 15px">
                             </div>
                         </div>
+
                         <div class="form-group">
                             <label class="col-sm-3 control-label"><span style="color:red;">*</span>商品名称：</label>
                             <div class="col-sm-8">
@@ -222,6 +227,7 @@
                 cache:false,
                 data: submitData,
                 dataType: "json",
+                cache:false,
                 success: function (result) {
                     //请求成功时
                     if(result> 0){
