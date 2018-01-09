@@ -54,10 +54,7 @@
                 </div>
                 <div class="ibox-content">
                     <form class="form-horizontal" id="product" action="javascript:void(0)">
-<<<<<<< HEAD
 
-=======
->>>>>>> 986ba4fb356a832239379560407e2e90dae63cde
                         <div class="form-group">
                             <input type="hidden" id="pid" name="pid">
                             <label class="col-sm-3 control-label"></label>

@@ -146,14 +146,14 @@
                         <div class="form-group">
                             <label class="col-sm-3 control-label"><span style="color:red;" >*</span>商品数量：</label>
                             <div class="col-sm-8" >
-                                <input type="text" name="count"  placeholder=" 请输入商品数量" value="" maxlength="20" id="count" class="form-control">
+                                <input type="text" name="count"  placeholder=" 请输入商品数量" value="" onkeyup="value=value.replace(/[^\d.]/g,'')"  onblur="value=value.replace(/[^\d.]/g,'') " maxlength="20" id="count" class="form-control">
                             </div>
                         </div>
 
                         <div class="form-group">
                             <label class="col-sm-3 control-label"><span style="color:red;" >*</span>合计：</label>
                             <div class="col-sm-8" >
-                                <input type="text" name="subtotal"  placeholder=" 请输入商品名称" value="" maxlength="20" id="subtotal" class="form-control">
+                                <input type="text" name="subtotal"  placeholder=" 请输入商品名称" value="" onkeyup="value=value.replace(/[^\d.]/g,'')"  onblur="value=value.replace(/[^\d.]/g,'') " maxlength="20" id="subtotal" class="form-control">
                             </div>
                         </div>
 

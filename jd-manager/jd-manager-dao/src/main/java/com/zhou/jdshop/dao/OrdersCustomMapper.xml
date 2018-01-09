@@ -43,7 +43,9 @@
     select
     <include refid="Base_Column_List" />
     from orders o left join orderitem oi on o.oid=oi.oid
+
     LEFT JOIN product p on oi.pid=p.pid
+    where o.state!=0
     order by o.oid
 
   </select>
@@ -56,7 +58,7 @@
         from orderitem oi left join orders o on oi.oid=o.oid
         LEFT JOIN product p on oi.pid=p.pid
 
-        WHERE oi.itemid=#{itemid}
+        WHERE oi.itemid=#{itemid} AND   o.state!=0
 
     </select>
 

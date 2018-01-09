@@ -5,7 +5,7 @@
   Time: 18:48
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -37,11 +37,7 @@
         <div class="col-sm-12">
             <div class="ibox float-e-margins">
                 <div class="ibox-title">
-<<<<<<< HEAD
-                    <h5>规格参数</h5>
-=======
                     <h5>分类列表</h5>
->>>>>>> 986ba4fb356a832239379560407e2e90dae63cde
                 </div>
             </div>
             <div class="ibox-content">
@@ -98,7 +94,7 @@
                 {field: 'cname', title: '分类名称',sortable : true}
             ]]
         })
-    })
+    });
     function add(){
         location.href='category-add';
     }
@@ -106,16 +102,17 @@
         var cids=[];
         var $table=$("#categoryListDg");
         var selRow = $table.bootstrapTable('getSelections');
-        if(selRow!=null){
+        if(selRow.length>0){
+            console.log(selRow);
             for (var i = 0; i < selRow.length; i++) {
                 cids.push(selRow[i].cid)
             }
-            var flag=confirm('此操作不可逆，确认删除吗？')
-            if(flag==true) {
+            var flag=confirm('此操作不可逆，确认删除吗？');
+            if(flag===true) {
                 $.ajax({
 //                    type:"POST",
                     cache: false,
-                    async: true,
+                    async: false,
                     dataType: "json",
                     url: "deleteCat",
                     data: {"cids": cids},
@@ -136,7 +133,7 @@
     function edit() {
         var $table=$("#categoryListDg");
         var selRow = $table.bootstrapTable('getSelections');
-        if(selRow!=null){
+        if(selRow.length > 0){
             if(selRow.length>1) {
                 alert('请只选取一行要编辑的数据行！');
                 return false;
