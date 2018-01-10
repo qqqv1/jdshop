@@ -48,85 +48,81 @@
                     <h5>用户添加</h5>
                 </div>
                 <div class="ibox-content">
-                    <form class="form-horizontal" id="product" action="#">
-                        <div class="form-group">
-                            <label class="col-sm-3 control-label"></label>
-                            <div class="col-sm-8" style="color: red;font-size: 15px">
-
-                            </div>
-                        </div>
+                    <form class="form-horizontal" id="user" action="javascript:void(0)">
                         <div class="form-group">
                             <label class="col-sm-3 control-label"><span style="color:red;">*</span>用户名：</label>
                             <div class="col-sm-8">
-                                <input id="pname" name="pname" value="" type="text" placeholder=" 请输入用户名称"
-                                       class="form-control">
+                                <input id="username" name="username" value="" type="text" placeholder=" 请输入用户名" class="form-control">
                                 <span class="help-block m-b-none"></span>
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="col-sm-3 control-label"><span style="color:red;">*</span>密码：</label>
                             <div class="col-sm-8">
-                                <input id="marketPrice" name="marketPrice" value="" type="text" placeholder=" 请输入商品售价"
-                                       onkeyup="value=value.replace(/[^\d.]/g,'')"
-                                       onblur="value=value.replace(/[^\d.]/g,'') " class="form-control">
+                                <input id="password" name="password" value="" type="password" placeholder=" 请输入密码" class="form-control">
                                 <span class="help-block m-b-none"></span>
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="col-sm-3 control-label"><span style="color:red;">*</span>真实姓名：</label>
+                            <label class="col-sm-3 control-label"><span style="color:red;">*</span>确认密码：</label>
                             <div class="col-sm-8">
-                                <input id="shopPrice" name="shopPrice" value="" type="text" placeholder=" 请输入真是姓名"
-                                       onkeyup="value=value.replace(/[^\d.]/g,'')"
-                                       onblur="value=value.replace(/[^\d.]/g,'') " class="form-control">
+                                <input id="re_password" name="re_password" value="" type="password" placeholder=" 请再次输入密码" class="form-control">
                                 <span class="help-block m-b-none"></span>
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="col-sm-3 control-label"><span style="color:red;">*</span>邮件：</label>
+                            <label class="col-sm-3 control-label"><span style="color:red;"></span>真实姓名：</label>
                             <div class="col-sm-8">
-                                <input id="quantity" name="quantity" value="" type="text" placeholder=" 请输入邮箱名"
-                                       class="form-control" onkeyup="value=value.replace(/[^\d]/g,'')"
-                                       onblur="value=value.replace(/[^\d]/g,'') ">
-                                <span class="help-block m-b-none"></span>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label class="col-sm-3 control-label"><span style="color:red;">*</span>电话：</label>
-                            <div class="col-sm-8">
-                                <select id="cid" name="cid" style="width: 100%;" class="form-control selectpicker">
-
-                                </select>
+                                <input id="name" name="name" value="" type="text" placeholder=" 请输入真实姓名" class="form-control">
                                 <span class="help-block m-b-none"></span>
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="col-sm-3 control-label"><span style="color:red;"></span>性别：</label>
                             <div class="col-sm-8">
-                                <select id="isHot" name="isHot" style="width: 100%;" class="form-control">
+                                <select id="sex" name="sex" style="width: 100%;" class="form-control">
                                     <option selected="" value="1">男</option>
                                     <option selected="" value="0">女</option>
-
                                 </select>
                                 <span class="help-block m-b-none"></span>
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="col-sm-3 control-label"><span style="color:red;"></span>图片：</label>
+                            <label class="col-sm-3 control-label"><span style="color:red;"></span>邮件：</label>
                             <div class="col-sm-8">
-                                <input type="file" id="pimage" name="pimage" value="选择图片"/>
+                                <input id="email" name="email" value="" type="text" placeholder=" 请输入邮箱" class="form-control" >
                                 <span class="help-block m-b-none"></span>
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="col-sm-3 control-label"><span style="color:red;"></span>商品描述：</label>
+                            <label class="col-sm-3 control-label"><span style="color:red;"></span>电话：</label>
                             <div class="col-sm-8">
-                                <script id="pdesc" name="pdesc" type="text/plain"></script>
+                                <input id="telephone" name="telephone" value="" type="text" placeholder=" 请输入电话" class="form-control" >
                                 <span class="help-block m-b-none"></span>
                             </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label"><span style="color:red;"></span>生日：</label>
+                            <div class="col-sm-8">
+                                <input id="birthday" name="birthday" value="" type="date" placeholder=" 请输入生日箱" class="form-control" >
+                                <span class="help-block m-b-none"></span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">账户状态：</label>
+                            <span class="spanwitch" style="float: left;margin-left: 15px;">
+                                <div class="onoffswitch">
+                                    <input class="onoffswitch-checkbox" id="state" type="checkbox" name="state" value="1">
+                                    <label class="onoffswitch-label" for="state">
+                                        <span class="onoffswitch-inner"></span>
+                                        <span class="onoffswitch-switch"></span>
+                                    </label>
+                                </div>
+                            </span>
                         </div>
                         <div class="form-group">
                             <div class="col-sm-offset-3 col-sm-8">
-                                <button id="submit" class="btn btn-sm btn-info" type="button">确认保存</button>
+                                <button id="submit" class="btn btn-sm btn-info" type="submit">确认保存</button>
                             </div>
                         </div>
                     </form>
@@ -149,54 +145,37 @@
 <script src="js/messages_zh.min.js"></script>
 
 <script src="js/form-validate-demo.js"></script>
-<!-- 百度富文本编辑器 -->
-<!-- 配置文件 -->
-<script src="ueditor/ueditor.config.js"></script>
-<!-- 编辑器源码文件 -->
-<script src="ueditor/ueditor.all.js"></script>
 <script>
-    UE.getEditor('pdesc');
-</script>
-<script>
-    $(document).ready(function () {
+    $(function () {
         $("#submit").click(function () {
-            var pname = $("#pname").val();
-            var marketPrice = $("#marketPrice").val();
-            var shopPrice = $("#shopPrice").val();
-            var quantity = $("#quantity").val();
-            var cid = $("#cid").val();
-            if (!pname) {
-                alert("请输入商品名称");
+            var username = $("#username").val();
+            var password = $("#password").val();
+            if (!username) {
+                alert("请输入用户名");
                 return false;
-            } else if (!marketPrice) {
-                alert("请输入商品售价");
+            } else if (!password) {
+                alert("请输入密码");
                 return false;
-            } else if (!shopPrice) {
-                alert("请输入商品供货价");
-                return false;
-            } else if (!quantity) {
-                alert("请输入商品库存");
-                return false;
-            } else if (!cid) {
-                alert("请输入商品分类");
+            } else if (!re_password) {
+                alert("请再次输入密码");
                 return false;
             }
-            var data = $('#product').serialize();
+            var data = $('#user').serialize();
             //序列化获得表单数据，结果为：user_id=12&user_name=John&user_age=20
             var submitData = decodeURIComponent(data, true);
             //submitData是解码后的表单数据，结果同上
             $.ajax({
-                url: 'addproduct',
+                url: 'addUser',
                 type: 'POST',
                 data: submitData,
                 dataType: "json",
                 success: function (result) {
                     //请求成功时
                     if (result > 0) {
-                        alert("新增商品成功！");
-                        location.href = 'product-list';
+                        alert("注册成功！");
+                        location.href = 'userManage';
                     } else {
-                        alert("新增商品失败！")
+                        alert("注册失败！")
                         return false;
                     }
                 },
@@ -209,29 +188,11 @@
             return true;
         });
     });
-    $(document).ready(function () {
+    $(function () {
         $('.i-checks').iCheck({
             checkboxClass: 'icheckbox_square-green',
             radioClass: 'iradio_square-green',
         });
-    });
-    $(function () {//获取下拉列表
-        $.ajax({
-            url: "productCats",//写你自己的方法，返回map，我返回的map包含了两个属性：data：集合，total：集合记录数量，所以后边会有data.data的写法。。。
-            // 接受数据格式
-            dataType: "json",
-            // 回调函数，接受服务器端返回给客户端的值，即result值
-            success: function (data) {
-                //alert(data.data);
-                $.each(data, function (i, items) {
-                    $('#cid').append("<option value=" + items.cid + ">" + items.cname + "</option>");
-                });
-                $('#cid').selectpicker('refresh');
-            },
-            error: function (data) {
-                alert("查询失败" + data);
-            }
-        })
     })
 </script>
 </body>

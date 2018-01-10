@@ -10,8 +10,12 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
+import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
+import java.util.UUID;
 
 @Service
 public class UserServiceImpl implements UserService {
@@ -23,9 +27,89 @@ public class UserServiceImpl implements UserService {
     @Autowired
     private UserCustomMapper userCustomDao;
 
+    @Override
+    public List<User> listUsers() {
+        List<User> list = new ArrayList<>();
+        try {
+            UserExample example=new UserExample();
+            UserExample.Criteria criteria = example.createCriteria();
+            criteria.andStateNotEqualTo(0);
+            list=usermapper.selectByExample(example);
+        } catch (Exception e) {
+            logger.error(e.getMessage(), e);
+            e.printStackTrace();
+        }
+        return list;
+    }
+
+    @Override
+    public User getUserById(String uid) {
+        User user=new User();
+        try {
+            UserExample example=new UserExample();
+            UserExample.Criteria criteria = example.createCriteria();
+            criteria.andUidEqualTo(uid);
+            criteria.andStateNotEqualTo(0);
+            user = usermapper.selectByExample(example).get(0);
+        }catch (Exception e){
+            logger.error(e.getMessage(),e);
+            e.printStackTrace();
+        }
+        return user;
+    }
+
+    @Transactional
+    @Override
+    public int saveProduct(User user) {
+        int i = 0;
+        try {
+            String uid = UUID.randomUUID().toString().replaceAll("-","");
+            user.setUid(uid);
+            user.setState(1);
+            i = usermapper.insert(user);
+        } catch (Exception e) {
+            logger.error(e.getMessage(), e);
+            e.printStackTrace();
+        }
+        return i;
+    }
+
+    @Transactional
+    @Override
+    public int editUser(User user) {
+        int i = 0;
+        try {
+            UserExample example=new UserExample();
+            UserExample.Criteria criteria = example.createCriteria();
+            criteria.andUidEqualTo(user.getUid());
+            i = usermapper.updateByExampleSelective(user,example);
+        } catch (Exception e) {
+            logger.error(e.getMessage(), e);
+            e.printStackTrace();
+        }
+        return i;
+    }
+
+    @Override
+    public int updateUser(List<String> uids, Integer state) {
+        int i = 0;
+        try {
+             User user =new User();
+            user.setState(state);
+            UserExample example=new UserExample();
+            UserExample.Criteria criteria = example.createCriteria();
+            criteria.andUidIn(uids);
+            i = usermapper.updateByExampleSelective(user,example);
+        } catch (Exception e) {
+            logger.error(e.getMessage(), e);
+            e.printStackTrace();
+        }
+        return i;
+    }
+
     /*
-      * 根据用户查询用户数量
-      */
+              * 根据用户查询用户数量
+              */
     public int countByExample(UserExample example) {
         int cbe = 0;
         try {

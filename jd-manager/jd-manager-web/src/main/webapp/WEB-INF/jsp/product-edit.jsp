@@ -54,17 +54,12 @@
                 </div>
                 <div class="ibox-content">
                     <form class="form-horizontal" id="product" action="javascript:void(0)">
-<<<<<<< HEAD
-
-=======
->>>>>>> 986ba4fb356a832239379560407e2e90dae63cde
                         <div class="form-group">
                             <input type="hidden" id="pid" name="pid">
                             <label class="col-sm-3 control-label"></label>
                             <div class="col-sm-8" style="color: red;font-size: 15px">
                             </div>
                         </div>
-
                         <div class="form-group">
                             <label class="col-sm-3 control-label"><span style="color:red;">*</span>商品名称：</label>
                             <div class="col-sm-8">
@@ -113,7 +108,7 @@
                         <div class="form-group">
                             <label class="col-sm-3 control-label"><span style="color:red;"></span>图片：</label>
                             <div class="col-sm-8">
-                                <input type="file" id="pimage" name="pimage" value="选择图片" />
+                                <input type="file" id="pimage" name="pimage" value="选择图片" class="form-control"/>
                                 <span class="help-block m-b-none"></span>
                             </div>
                         </div>

@@ -10,7 +10,9 @@
         <entry key="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/product-add.jsp" value="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp" />
         <entry key="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/product-edit.jsp" value="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp" />
         <entry key="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/product-list.jsp" value="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp" />
+        <entry key="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/userAdd.jsp" value="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp" />
         <entry key="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/userManage.jsp" value="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp" />
+        <entry key="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/userUpdate.jsp" value="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp" />
         <entry key="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/welcome.jsp" value="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp" />
       </map>
     </option>

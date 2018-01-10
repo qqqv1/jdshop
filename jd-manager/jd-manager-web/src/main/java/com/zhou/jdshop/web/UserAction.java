@@ -8,9 +8,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpSession;
 import java.util.List;
@@ -22,6 +20,65 @@ public class UserAction {
 
     @Autowired
     private UserService us;
+
+    @ResponseBody
+    @RequestMapping(value = "/users",method = RequestMethod.GET)
+    public List<User> listUsers() {
+
+        List<User> list=null;
+        try {
+            list = us.listUsers();
+        }catch (Exception e){
+            logger.error(e.getMessage(),e);
+            e.printStackTrace();
+        }
+        return list;
+    }
+
+    @ResponseBody
+    @RequestMapping(value = "/user/{uid}", method = RequestMethod.GET)
+    public User getItemById(@PathVariable("uid") String uid) {
+        return us.getUserById(uid);
+    }
+
+    @ResponseBody
+    @RequestMapping("/addUser")
+    public int saveProduct(User user){
+        int i = 0;
+        try {
+            i = us.saveProduct(user);
+        } catch (Exception e) {
+            logger.error(e.getMessage(), e);
+            e.printStackTrace();
+        }
+        return i;
+    }
+
+    @ResponseBody
+    @RequestMapping("/editUser")
+    public int editProduct(User user){
+        int i = 0;
+        try {
+            i = us.editUser(user);
+        } catch (Exception e) {
+            logger.error(e.getMessage(), e);
+            e.printStackTrace();
+        }
+        return i;
+    }
+
+    @ResponseBody
+    @RequestMapping("/updateUser")
+    public int deleteProduct(@RequestParam("uids[]") List<String> uids, @RequestParam("state") Integer state){
+        int i = 0;
+        try {
+            i = us.updateUser(uids,state);
+        } catch (Exception e) {
+            logger.error(e.getMessage(), e);
+            e.printStackTrace();
+        }
+        return i;
+    }
 
     /*
      * 根据用户查询用户数量
@@ -39,7 +96,7 @@ public class UserAction {
         }
 
         return cbe;
-}
+    }
 
     /*
      * 根据用户删除用户
@@ -217,6 +274,7 @@ public class UserAction {
 
         return ubp;
     }
+
     @ResponseBody
     @RequestMapping("/userLogin")
     public int userLogin(HttpSession session, String username, String password){
@@ -224,6 +282,17 @@ public class UserAction {
         User user= us.findUserByUsernameAndPassword(username,password);
         session.setAttribute("sessionUser",user);
         if(user!=null){
+            flag=1;
+        }
+        return flag;
+    }
+
+    @ResponseBody
+    @RequestMapping("/logout")
+    public int logout(HttpSession session){
+        int flag=0;
+        session.removeAttribute("sessionUser");
+        if (session.getAttribute("sessionUser")==null){
             flag=1;
         }
         return flag;

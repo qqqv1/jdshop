@@ -30,4 +30,14 @@ public interface UserService {
     int updateByPrimaryKey(User record);
 
     User findUserByUsernameAndPassword(String username, String password);
+
+    List<User> listUsers();
+
+    User getUserById(String uid);
+
+    int saveProduct(User user);
+
+    int editUser(User user);
+
+    int updateUser(List<String> uids, Integer state);
 }

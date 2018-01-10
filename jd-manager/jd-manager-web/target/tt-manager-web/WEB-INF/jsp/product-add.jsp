@@ -100,7 +100,7 @@
                         <div class="form-group">
                             <label class="col-sm-3 control-label"><span style="color:red;"></span>图片：</label>
                             <div class="col-sm-8">
-                                <input type="file" id="pimage" name="pimage" value="选择图片" />
+                                <input type="file" id="pimage" name="pimage" value="选择图片" class="form-control"/>
                                 <span class="help-block m-b-none"></span>
                             </div>
                         </div>

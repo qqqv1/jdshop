@@ -138,8 +138,10 @@
 
                 <ul class="nav navbar-top-links navbar-right">
                     <li class="dropdown">
-                        <a class="dropdown-toggle count-info" data-toggle="" href="loginout.action" title="退出">
+                        <a class="dropdown-toggle count-info" data-toggle="" >
+                            <button class="btn btn-default" onclick="logout()" title="退出">
                             admin  <i class="fa fa-power-off"></i> <span class="label label-warning"></span>
+                            </button>
                         </a>
                         <ul class="dropdown-menu dropdown-messages" style="width: 100px;padding: 0;">
                         </ul>
@@ -148,7 +150,7 @@
             </nav>
         </div>
         <div class="row J_mainContent" id="content-main">
-            <iframe id="J_iframe" width="100%" height="100%" src="welcome.html" frameborder="0" data-id="welcome" seamless></iframe>
+            <iframe id="J_iframe" width="100%" height="100%" src="welcome" frameborder="0" data-id="welcome" seamless></iframe>
         </div>
     </div>
 </div>
@@ -164,7 +166,20 @@
 <script src="js/hAdmin.js?v=4.1.0"></script>
 <script type="text/javascript" src="js/index.js"></script>
 <script type="text/javascript">
-
+    function logout() {
+        $.ajax({
+            url:'logout',
+            dataType: "json",
+            cache: "false",
+            success: function (data) {
+                if (data > 0) {
+                    location.href = "login";
+                } else {
+                    $("#sp").html("登出失败！");
+                }
+            }
+        })
+    }
 </script>
 <!-- 第三方插件 -->
 </body>
