@@ -64,7 +64,7 @@
                         <div class="form-group">
                             <label class="col-sm-3 control-label"><span style="color:red;">*</span>密码：</label>
                             <div class="col-sm-8">
-                                <input id="password" name="password" value="" type="text" placeholder=" 请输入密码" class="form-control">
+                                <input id="password" name="password" value="" type="password" placeholder=" 请输入密码" class="form-control">
                                 <span class="help-block m-b-none"></span>
                             </div>
                         </div>
@@ -160,7 +160,11 @@
                 $("#username").val(data.username);
                 $("#password").val(data.password);
                 $("#name").val(data.name);
-                $("#sex").val(data.sex);
+                if(data.sex==='男') {
+                    $("#sex").val(1);
+                }else{
+                    $("#sex").val(0);
+                }
                 $("#email").val(data.email);
                 $("#telephone").val(data.telephone);
                 $("#birthday").val(data.birthday);
