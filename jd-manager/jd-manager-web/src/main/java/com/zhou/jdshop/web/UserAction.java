@@ -218,11 +218,14 @@ public class UserAction {
         return ubp;
     }
     @ResponseBody
-    @RequestMapping(value = "/userLogin",method = RequestMethod.POST)
-
-    public String userLogin(HttpSession session, String username, String password){
+    @RequestMapping("/userLogin")
+    public int userLogin(HttpSession session, String username, String password){
+        int flag=0;
         User user= us.findUserByUsernameAndPassword(username,password);
         session.setAttribute("sessionUser",user);
-        return "index";
+        if(user!=null){
+            flag=1;
+        }
+        return flag;
     }
 }

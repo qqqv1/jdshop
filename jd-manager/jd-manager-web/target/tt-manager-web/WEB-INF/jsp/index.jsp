@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
          pageEncoding="UTF-8" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,8 +18,11 @@
     <link href="css/style.css?v=4.1.0" rel="stylesheet">
 </head>
 <body class="fixed-sidebar full-height-layout gray-bg" style="overflow:hidden">
-<%--<input style="display: none" id="usersession" value="1">--%>
-<%--<input style="display: none" id="dlsession" value="">--%>
+<c:if test="${empty sessionUser}">
+    <script>
+        window.location.href="login";
+    </script>
+</c:if>
 <div id="wrapper">
     <nav class="navbar-default navbar-static-side" role="navigation">
         <div class="nav-close"><i class="fa fa-times-circle"></i>
@@ -38,6 +42,31 @@
                     <div class="logo-element">
                         admin
                     </div>
+                </li>
+                <li class="hidden-folded padder m-t m-b-sm text-muted text-xs">
+                    <span class="ng-scope">会员管理</span>
+                </li>
+                <li>
+                    <a class="J_menuItem" href="welcome.html">
+                        <i class="fa fa-home"></i>
+                        <span class="nav-label">主页</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="fa fa-group"></i>
+                        <span class="nav-label">会员管理</span>
+                        <span class="fa arrow"></span>
+                    </a>
+                    <ul class="nav nav-second-level">
+                        <li>
+                            <a class="J_menuItem" href="userAdd">会员注册</a>
+                        </li>
+                        <li>
+                            <a class="J_menuItem" href="userManage">会员列表</a>
+                        </li>
+                    </ul>
                 </li>
                 <%--商品--%>
                 <li class="line dk"></li>
@@ -135,13 +164,7 @@
 <script src="js/hAdmin.js?v=4.1.0"></script>
 <script type="text/javascript" src="js/index.js"></script>
 <script type="text/javascript">
-//    $(document).ready(function(){
-//        var usersession=$("#usersession").val();
-//        var dlsession=$("#dlsession").val();
-//        if(usersession===null|| dlsession===null){
-//            window.location.href="login.jsp";
-//        }
-//    });
+
 </script>
 <!-- 第三方插件 -->
 </body>
