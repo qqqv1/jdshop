@@ -77,11 +77,11 @@ public class ProductAction {
     }
 
     @ResponseBody
-    @RequestMapping("/deleteproduct")
-    public int deleteProduct(@RequestParam("pids[]") List<String> pids){
+    @RequestMapping("/updateproduct")
+    public int deleteProduct(@RequestParam("pids[]") List<String> pids,@RequestParam("pflag") Integer pflag){
         int i = 0;
         try {
-            i = productService.deleteProduct(pids);
+            i = productService.updateProduct(pids,pflag);
         } catch (Exception e) {
             logger.error(e.getMessage(), e);
             e.printStackTrace();

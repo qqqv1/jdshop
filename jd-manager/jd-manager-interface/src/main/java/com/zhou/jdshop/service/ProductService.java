@@ -12,7 +12,7 @@ public interface ProductService {
 
     int saveProduct(Product product);
 
-    int deleteProduct(List<String> pids);
+    int updateProduct(List<String> pids,Integer pflag);
 
     Product getProductById(String pid);
 

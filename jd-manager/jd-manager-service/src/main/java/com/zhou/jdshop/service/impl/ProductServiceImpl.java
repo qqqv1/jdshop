@@ -127,11 +127,11 @@ public class ProductServiceImpl implements ProductService {
      * @return 若逻辑删除成功则返回值大于0
      */
     @Override
-    public int deleteProduct(List<String> pids) {
+    public int updateProduct(List<String> pids,Integer pflag) {
         int i = 0;
         try {
             Product product =new Product();
-            product.setPflag(3);
+            product.setPflag(pflag);
             ProductExample example=new ProductExample();
             ProductExample.Criteria criteria = example.createCriteria();
             criteria.andPidIn(pids);
