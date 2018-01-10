@@ -175,7 +175,7 @@
                 if (data > 0) {
                     location.href = "login";
                 } else {
-                    $("#sp").html("登出失败！");
+                    return false;
                 }
             }
         })
