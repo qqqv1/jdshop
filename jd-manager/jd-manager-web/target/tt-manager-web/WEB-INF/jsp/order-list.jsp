@@ -125,7 +125,7 @@
                 {field: 'telephone', title: '手机'},
                 {field:'address',title:'地址'},
                 {field: 'ordertime', title: '订单时间', formatter: function (v, r, i) {
-                    return moment(v).format('L');
+                    return moment(v).format('YYYY-MM-DD');
                 },sortable : true
                 }
             ]]

@@ -42,7 +42,7 @@
 
     select
     <include refid="Base_Column_List" />
-    from orders o left join orderitem oi on o.oid=oi.oid
+    from orderitem oi  left join orders o on o.oid=oi.oid
 
     LEFT JOIN product p on oi.pid=p.pid
     where o.state!=0
