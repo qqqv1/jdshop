@@ -73,6 +73,9 @@
             });
         }
 
+        function sub2() {
+            window.location.href='userAdd';
+        }
         $(function () {
             //点击图片更换验证码
             $("#Verify").click(function () {
@@ -102,6 +105,7 @@
                      style="cursor:hand;height: 30px;float: right;margin-top: -45px;" alt="看不清，换一张"/>
                 <input type="hidden" name="" id="v" value="8395">
                 <button class="btn btn-success btn-block" onclick="sub1()">登录</button>
+                <button class="btn btn-success btn-block" onclick="sub2()">注册</button>
             </form>
         </div>
     </div>
