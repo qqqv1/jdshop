@@ -257,6 +257,8 @@
             var subtotal = $("#subtotal").val();
             var state=$("#state").val();
             var name = $("#name").val();
+            var telephone = $("#telephone").val();
+            var address = $("#address").val();
             if(!pname){
                 alert("请输入商品名称");
                 return false;
@@ -267,10 +269,16 @@
                 alert("请输入商品数量");
                 return false;
             }else if(!subtotal){
-                alert("请输入商品小记");
+                alert("请输入商品合记");
                 return false;
             }else if(!state){
                 alert("请输入订单状态");
+                return false;
+            }else if(!telephone){
+                alert("请输入手机号码");
+                return false;
+            }else if(!address){
+                alert("请输入地址");
                 return false;
             }
             var data = $('#Order').serialize();

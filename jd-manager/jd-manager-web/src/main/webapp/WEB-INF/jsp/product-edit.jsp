@@ -56,9 +56,9 @@
                     <form class="form-horizontal" id="product" action="javascript:void(0)">
 
                         <div class="form-group">
+                            <div class="col-sm-8" style="color: red;font-size: 15px">
                             <input type="hidden" id="pid" name="pid">
                             <label class="col-sm-3 control-label"></label>
-                            <div class="col-sm-8" style="color: red;font-size: 15px">
                             </div>
                         </div>
 
