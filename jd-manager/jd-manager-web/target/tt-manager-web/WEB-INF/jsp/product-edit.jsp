@@ -54,14 +54,12 @@
                 </div>
                 <div class="ibox-content">
                     <form class="form-horizontal" id="product" action="javascript:void(0)">
-
                         <div class="form-group">
                             <input type="hidden" id="pid" name="pid">
                             <label class="col-sm-3 control-label"></label>
                             <div class="col-sm-8" style="color: red;font-size: 15px">
                             </div>
                         </div>
-
                         <div class="form-group">
                             <label class="col-sm-3 control-label"><span style="color:red;">*</span>商品名称：</label>
                             <div class="col-sm-8">
@@ -110,7 +108,7 @@
                         <div class="form-group">
                             <label class="col-sm-3 control-label"><span style="color:red;"></span>图片：</label>
                             <div class="col-sm-8">
-                                <input type="file" id="pimage" name="pimage" value="选择图片" />
+                                <input type="file" id="pimage" name="pimage" value="选择图片" class="form-control"/>
                                 <span class="help-block m-b-none"></span>
                             </div>
                         </div>
@@ -124,6 +122,7 @@
                         <div class="form-group">
                             <div class="col-sm-offset-3 col-sm-8">
                                 <button id="submit" class="btn btn-sm btn-info" type="submit">确认保存</button>
+                                <button class="btn btn-sm btn-info" type="button" onclick="history.back()" >返回</button>
                             </div>
                         </div>
                     </form>
@@ -169,7 +168,7 @@
                 $.each(data, function (i,items) {
                     $('#cid').append("<option value=" + items.cid + ">" + items.cname + "</option>");
                 });
-                $('#cid').selectpicker('refresh');
+//                $('#cid').selectpicker('refresh');
             },
             error: function (data) {
                 alert("查询失败" + data);

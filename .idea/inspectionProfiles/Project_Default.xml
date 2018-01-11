@@ -1,0 +1,22 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="8">
+            <item index="0" class="java.lang.String" itemvalue="seamless" />
+            <item index="1" class="java.lang.String" itemvalue="region" />
+            <item index="2" class="java.lang.String" itemvalue="fit" />
+            <item index="3" class="java.lang.String" itemvalue="name" />
+            <item index="4" class="java.lang.String" itemvalue="count" />
+            <item index="5" class="java.lang.String" itemvalue="zindex" />
+            <item index="6" class="java.lang.String" itemvalue="opacity" />
+            <item index="7" class="java.lang.String" itemvalue="color" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+  </profile>
+</component>

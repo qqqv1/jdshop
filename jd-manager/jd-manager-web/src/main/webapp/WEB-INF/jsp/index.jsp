@@ -17,8 +17,6 @@
     <link href="css/style.css?v=4.1.0" rel="stylesheet">
 </head>
 <body class="fixed-sidebar full-height-layout gray-bg" style="overflow:hidden">
-<input style="display: none" id="usersession" value="1">
-<input style="display: none" id="dlsession" value="">
 <div id="wrapper">
     <nav class="navbar-default navbar-static-side" role="navigation">
         <div class="nav-close"><i class="fa fa-times-circle"></i>
@@ -38,6 +36,31 @@
                     <div class="logo-element">
                         admin
                     </div>
+                </li>
+                <li class="hidden-folded padder m-t m-b-sm text-muted text-xs">
+                    <span class="ng-scope">会员管理</span>
+                </li>
+                <li>
+                    <a class="J_menuItem" href="welcome.html">
+                        <i class="fa fa-home"></i>
+                        <span class="nav-label">主页</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="fa fa-group"></i>
+                        <span class="nav-label">会员管理</span>
+                        <span class="fa arrow"></span>
+                    </a>
+                    <ul class="nav nav-second-level">
+                        <li>
+                            <a class="J_menuItem" href="userAdd">会员注册</a>
+                        </li>
+                        <li>
+                            <a class="J_menuItem" href="userManage">会员列表</a>
+                        </li>
+                    </ul>
                 </li>
                 <%--商品--%>
                 <li class="line dk"></li>
@@ -109,17 +132,19 @@
 
                 <ul class="nav navbar-top-links navbar-right">
                     <li class="dropdown">
-                        <a class="dropdown-toggle count-info" data-toggle="" href="loginout.action" title="退出">
+                        <a class="dropdown-toggle count-info" data-toggle="" >
+                            <button class="btn btn-default" onclick="logout()" title="退出">
                             admin  <i class="fa fa-power-off"></i> <span class="label label-warning"></span>
+                            </button>
                         </a>
-                        <ul class="dropdown-menu dropdown-messages" style="width: 100px;padding: 0px;">
+                        <ul class="dropdown-menu dropdown-messages" style="width: 100px;padding: 0;">
                         </ul>
                     </li>
                 </ul>
             </nav>
         </div>
         <div class="row J_mainContent" id="content-main">
-            <iframe id="J_iframe" width="100%" height="100%" src="welcome.html" frameborder="0" data-id="welcome" seamless></iframe>
+            <iframe id="J_iframe" width="100%" height="100%" src="welcome" frameborder="0" data-id="welcome" seamless></iframe>
         </div>
     </div>
 </div>
@@ -129,19 +154,26 @@
 <script src="js/bootstrap.min.js?v=3.3.6"></script>
 <script src="js/jquery.metisMenu.js"></script>
 <script src="js/jquery.slimscroll.min.js"></script>
-<script src="js/layer.min.js"></script>
+<script src="js/layer.js"></script>
 
 <!-- 自定义js -->
 <script src="js/hAdmin.js?v=4.1.0"></script>
 <script type="text/javascript" src="js/index.js"></script>
 <script type="text/javascript">
-    $(document).ready(function(){
-        var usersession=$("#usersession").val();
-        var dlsession=$("#dlsession").val();
-        if(usersession==null|dlsession==null){
-            window.location.href="login.jsp";
-        }
-    });
+    function logout() {
+        $.ajax({
+            url:'logout',
+            dataType: "json",
+            cache: "false",
+            success: function (data) {
+                if (data > 0) {
+                    location.href = "login";
+                } else {
+                    return false;
+                }
+            }
+        })
+    }
 </script>
 <!-- 第三方插件 -->
 </body>

@@ -51,6 +51,12 @@
                     <button id="delete" type="button" class="btn btn-default" onclick="del();">
                         <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>删除
                     </button>
+                    <button id="up" type="button" class="btn btn-default" onclick="up();">
+                        <span class="glyphicon glyphicon-arrow-up" aria-hidden="true"></span>上架
+                    </button>
+                    <button id="down" type="button" class="btn btn-default" onclick="down();">
+                        <span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span>下架
+                    </button>
                 </div>
                 <table class="table table-striped table-bordered table-hover dataTables-example" id="productListDg"></table>
             </div>
@@ -144,7 +150,7 @@
         var pids=[];
         var $table=$("#productListDg");
         var selRow = $table.bootstrapTable('getSelections');
-        if (selRow.length > 0) {
+        if (selRow.length < 1) {
             alert('请选取要删除的数据行！');
             return false;
         }
@@ -158,8 +164,68 @@
                 cache: false,
                 async: true,
                 dataType: "json",
-                url: "deleteproduct",
-                data: {"pids": pids},
+                url: "updateproduct",
+                data: {"pids": pids,"pflag":3},
+                success: function (data) {
+                    if (data > 0) {
+                        $table.bootstrapTable('refresh');
+                    }
+                }
+            });
+        } else {
+            return false;
+        }
+    }
+    function up() {
+        var pids=[];
+        var $table=$("#productListDg");
+        var selRow = $table.bootstrapTable('getSelections');
+        if (selRow.length < 1) {
+            alert('请选取要上架的数据行！');
+            return false;
+        }
+        var flag = confirm('确认上架吗？');
+        if (flag === true) {
+            for (var i = 0; i < selRow.length; i++) {
+                pids.push(selRow[i].pid)
+            }
+            $.ajax({
+//                    type:"POST",
+                cache: false,
+                async: true,
+                dataType: "json",
+                url: "updateproduct",
+                data: {"pids": pids,"pflag":1},
+                success: function (data) {
+                    if (data > 0) {
+                        $table.bootstrapTable('refresh');
+                    }
+                }
+            });
+        } else {
+            return false;
+        }
+    }
+    function down() {
+        var pids=[];
+        var $table=$("#productListDg");
+        var selRow = $table.bootstrapTable('getSelections');
+        if (selRow.length  < 1) {
+            alert('请选取要下架的数据行！');
+            return false;
+        }
+        var flag = confirm('确认下架吗？');
+        if (flag === true) {
+            for (var i = 0; i < selRow.length; i++) {
+                pids.push(selRow[i].pid)
+            }
+            $.ajax({
+//                    type:"POST",
+                cache: false,
+                async: true,
+                dataType: "json",
+                url: "updateproduct",
+                data: {"pids": pids,"pflag":2},
                 success: function (data) {
                     if (data > 0) {
                         $table.bootstrapTable('refresh');

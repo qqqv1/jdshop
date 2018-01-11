@@ -100,7 +100,7 @@
                         <div class="form-group">
                             <label class="col-sm-3 control-label"><span style="color:red;"></span>图片：</label>
                             <div class="col-sm-8">
-                                <input type="file" id="pimage" name="pimage" value="选择图片" />
+                                <input type="file" id="pimage" name="pimage" value="选择图片" class="form-control"/>
                                 <span class="help-block m-b-none"></span>
                             </div>
                         </div>
@@ -157,7 +157,7 @@
                 $.each(data, function (i,items) {
                     $('#cid').append("<option value=" + items.cid + ">" + items.cname + "</option>");
                 });
-                $('#cid').selectpicker('refresh');
+//                $('#cid').selectpicker('refresh');
             },
             error: function (data) {
                 alert("查询失败" + data);
