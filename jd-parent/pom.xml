@@ -11,6 +11,7 @@
     <modules>
         <module>../jd-common</module>
         <module>../jd-manager</module>
+        <module>../jd-portal-web</module>
     </modules>
 
     <properties>
