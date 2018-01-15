@@ -1,270 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a062aa53-3bc9-4631-bc04-4d5a5d265469" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/My97DatePicker/WdatePicker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/My97DatePicker/calendar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/My97DatePicker/lang/en.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/My97DatePicker/lang/zh-cn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/My97DatePicker/lang/zh-tw.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/My97DatePicker/skin/WdatePicker.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/My97DatePicker/skin/datePicker.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/My97DatePicker/skin/default/datepicker.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/My97DatePicker/skin/default/img.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/My97DatePicker/skin/whyGreen/bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/My97DatePicker/skin/whyGreen/datepicker.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/My97DatePicker/skin/whyGreen/img.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/auto-height.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/colorpicker.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/custom-plugin.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/custom-theme.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/default.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/dialog.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/dynamic-load.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/file-dialog.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/file-manager.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/filter-mode.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/image-dialog.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/index - 副本.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/index.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/jquery-ui.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/jquery-ui/css/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/jquery-ui/css/smoothness/images/ui-bg_flat_75_ffffff_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/jquery-ui/css/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/jquery-ui/css/smoothness/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/jquery-ui/css/smoothness/images/ui-bg_glass_75_dadada_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/jquery-ui/css/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/jquery-ui/css/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/jquery-ui/css/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/jquery-ui/css/smoothness/images/ui-icons_222222_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/jquery-ui/css/smoothness/images/ui-icons_2e83ff_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/jquery-ui/css/smoothness/images/ui-icons_454545_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/jquery-ui/css/smoothness/images/ui-icons_888888_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/jquery-ui/css/smoothness/images/ui-icons_cd0a0a_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/jquery-ui/css/smoothness/jquery-ui-1.9.2.custom.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/jquery-ui/css/smoothness/jquery-ui-1.9.2.custom.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/jquery-ui/js/jquery-ui-1.9.2.custom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/jquery-ui/js/jquery-ui-1.9.2.custom.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/jquery.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/multi-image-dialog.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/multi-language.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/newline.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/node.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/paste-type.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/qqstyle.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/readonly.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/simple.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/uploadbutton.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/url-type.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/word-count.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/jsp/README.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/jsp/demo.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/jsp/file_manager_json.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/jsp/lib/commons-fileupload-1.2.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/jsp/lib/commons-io-1.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/jsp/lib/json_simple-1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/jsp/upload_json.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/lang/ar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/lang/en.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/lang/ko.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/lang/zh_CN.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/lang/zh_TW.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/anchor/anchor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/autoheight/autoheight.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/baidumap/baidumap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/baidumap/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/baidumap/map.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/clearhtml/clearhtml.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/code/code.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/code/prettify.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/code/prettify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/emoticons.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/0.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/1.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/10.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/100.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/101.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/102.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/103.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/104.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/105.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/106.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/107.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/108.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/109.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/11.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/110.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/111.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/112.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/113.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/114.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/115.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/116.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/117.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/118.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/119.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/12.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/120.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/121.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/122.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/123.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/124.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/125.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/126.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/127.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/128.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/129.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/13.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/130.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/131.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/132.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/133.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/134.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/14.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/15.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/16.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/17.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/18.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/19.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/20.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/21.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/22.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/23.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/24.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/25.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/26.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/27.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/28.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/29.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/3.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/30.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/31.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/32.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/33.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/34.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/35.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/36.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/37.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/38.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/39.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/4.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/40.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/41.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/42.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/43.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/44.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/45.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/46.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/47.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/48.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/49.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/5.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/50.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/51.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/52.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/53.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/54.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/55.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/56.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/57.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/58.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/59.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/6.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/60.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/61.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/62.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/63.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/64.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/65.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/66.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/67.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/68.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/69.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/7.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/70.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/71.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/72.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/73.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/74.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/75.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/76.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/77.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/78.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/79.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/8.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/80.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/81.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/82.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/83.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/84.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/85.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/86.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/87.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/88.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/89.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/9.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/90.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/91.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/92.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/93.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/94.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/95.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/96.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/97.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/98.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/99.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/static.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/filemanager/filemanager.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/filemanager/images/file-16.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/filemanager/images/file-64.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/filemanager/images/folder-16.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/filemanager/images/folder-64.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/filemanager/images/go-up.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/flash/flash.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/image/image.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/image/images/align_left.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/image/images/align_right.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/image/images/align_top.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/image/images/refresh.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/insertfile/insertfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/lineheight/lineheight.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/link/link.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/map/map.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/map/map.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/media/media.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/multiimage/images/image.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/multiimage/images/select-files-en.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/multiimage/images/select-files-zh_CN.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/multiimage/images/swfupload.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/multiimage/multiimage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/pagebreak/pagebreak.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/plainpaste/plainpaste.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/preview/preview.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/quickformat/quickformat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/table/table.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/template/html/1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/template/html/2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/template/html/3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/template/template.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/wordpaste/wordpaste.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/webContexts.xml" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/category-add.jsp" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/category-add.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/category-edit.jsp" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/category-edit.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/category-list.jsp" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/category-list.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/index.jsp" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/login.jsp" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/product-add.jsp" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/product-add.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/product-edit.jsp" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/product-edit.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/product-list.jsp" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/product-list.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/userAdd.jsp" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/userAdd.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/userManage.jsp" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/userManage.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/userUpdate.jsp" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/userUpdate.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/welcome.jsp" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/welcome.jsp" />
-    </list>
+    <list default="true" id="a062aa53-3bc9-4631-bc04-4d5a5d265469" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/jd-parent/target/" />
     <ignored path="$PROJECT_DIR$/jd-common/target/" />
     <ignored path="$PROJECT_DIR$/jd-manager/target/" />
@@ -354,7 +91,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="56" />
     <option name="y" value="28" />
     <option name="width" value="1346" />
@@ -576,15 +313,15 @@
       <workItem from="1515080061518" duration="1736000" />
       <workItem from="1515082016130" duration="2674000" />
       <workItem from="1515114773761" duration="187000" />
-      <workItem from="1516005720297" duration="2388000" />
+      <workItem from="1516005720297" duration="2442000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7864000" />
+    <option name="totallyTimeSpent" value="7918000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -600,10 +337,10 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23352435" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23352435" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32974428" sideWeight="0.49713466" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.49713466" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2496112" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
