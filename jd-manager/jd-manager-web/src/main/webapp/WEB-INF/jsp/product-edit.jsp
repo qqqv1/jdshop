@@ -5,12 +5,9 @@
   Time: 8:47
   To change this template use File | Settings | File Templates.
 --%>
-<<<<<<< HEAD
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
-=======
 <%@ page contentType="text/html;charset=UTF-8" %>
->>>>>>> 986ba4fb356a832239379560407e2e90dae63cde
 <!DOCTYPE html>
 <html>
 <head>

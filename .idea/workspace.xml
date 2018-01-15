@@ -1,20 +1,270 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="a062aa53-3bc9-4631-bc04-4d5a5d265469" name="Default" comment="" />
-=======
-<<<<<<< HEAD
-    <list default="true" id="a062aa53-3bc9-4631-bc04-4d5a5d265469" name="Default" comment="" />
-=======
     <list default="true" id="a062aa53-3bc9-4631-bc04-4d5a5d265469" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-dao/src/main/a.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/My97DatePicker/WdatePicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/My97DatePicker/calendar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/My97DatePicker/lang/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/My97DatePicker/lang/zh-cn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/My97DatePicker/lang/zh-tw.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/My97DatePicker/skin/WdatePicker.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/My97DatePicker/skin/datePicker.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/My97DatePicker/skin/default/datepicker.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/My97DatePicker/skin/default/img.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/My97DatePicker/skin/whyGreen/bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/My97DatePicker/skin/whyGreen/datepicker.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/My97DatePicker/skin/whyGreen/img.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/auto-height.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/colorpicker.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/custom-plugin.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/custom-theme.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/default.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/dialog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/dynamic-load.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/file-dialog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/file-manager.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/filter-mode.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/image-dialog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/index - 副本.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/jquery-ui.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/jquery-ui/css/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/jquery-ui/css/smoothness/images/ui-bg_flat_75_ffffff_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/jquery-ui/css/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/jquery-ui/css/smoothness/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/jquery-ui/css/smoothness/images/ui-bg_glass_75_dadada_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/jquery-ui/css/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/jquery-ui/css/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/jquery-ui/css/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/jquery-ui/css/smoothness/images/ui-icons_222222_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/jquery-ui/css/smoothness/images/ui-icons_2e83ff_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/jquery-ui/css/smoothness/images/ui-icons_454545_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/jquery-ui/css/smoothness/images/ui-icons_888888_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/jquery-ui/css/smoothness/images/ui-icons_cd0a0a_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/jquery-ui/css/smoothness/jquery-ui-1.9.2.custom.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/jquery-ui/css/smoothness/jquery-ui-1.9.2.custom.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/jquery-ui/js/jquery-ui-1.9.2.custom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/jquery-ui/js/jquery-ui-1.9.2.custom.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/jquery.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/multi-image-dialog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/multi-language.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/newline.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/node.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/paste-type.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/qqstyle.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/readonly.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/simple.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/uploadbutton.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/url-type.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/examples/word-count.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/jsp/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/jsp/demo.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/jsp/file_manager_json.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/jsp/lib/commons-fileupload-1.2.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/jsp/lib/commons-io-1.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/jsp/lib/json_simple-1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/jsp/upload_json.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/lang/ar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/lang/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/lang/ko.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/lang/zh_CN.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/lang/zh_TW.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/anchor/anchor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/autoheight/autoheight.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/baidumap/baidumap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/baidumap/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/baidumap/map.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/clearhtml/clearhtml.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/code/code.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/code/prettify.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/code/prettify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/emoticons.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/10.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/100.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/101.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/102.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/103.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/104.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/105.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/106.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/107.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/108.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/109.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/11.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/110.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/111.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/112.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/113.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/114.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/115.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/116.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/117.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/118.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/119.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/12.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/120.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/121.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/122.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/123.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/124.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/125.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/126.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/127.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/128.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/129.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/13.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/130.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/131.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/132.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/133.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/134.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/14.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/15.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/16.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/17.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/18.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/19.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/20.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/21.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/22.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/23.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/24.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/25.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/26.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/27.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/28.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/29.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/30.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/31.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/32.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/33.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/34.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/35.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/36.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/37.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/38.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/39.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/40.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/41.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/42.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/43.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/44.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/45.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/46.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/47.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/48.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/49.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/50.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/51.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/52.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/53.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/54.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/55.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/56.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/57.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/58.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/59.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/6.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/60.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/61.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/62.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/63.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/64.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/65.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/66.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/67.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/68.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/69.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/7.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/70.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/71.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/72.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/73.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/74.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/75.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/76.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/77.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/78.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/79.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/8.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/80.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/81.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/82.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/83.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/84.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/85.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/86.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/87.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/88.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/89.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/9.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/90.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/91.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/92.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/93.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/94.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/95.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/96.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/97.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/98.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/99.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/emoticons/images/static.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/filemanager/filemanager.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/filemanager/images/file-16.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/filemanager/images/file-64.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/filemanager/images/folder-16.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/filemanager/images/folder-64.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/filemanager/images/go-up.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/flash/flash.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/image/image.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/image/images/align_left.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/image/images/align_right.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/image/images/align_top.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/image/images/refresh.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/insertfile/insertfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/lineheight/lineheight.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/link/link.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/map/map.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/map/map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/media/media.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/multiimage/images/image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/multiimage/images/select-files-en.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/multiimage/images/select-files-zh_CN.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/multiimage/images/swfupload.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/multiimage/multiimage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/pagebreak/pagebreak.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/plainpaste/plainpaste.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/preview/preview.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/quickformat/quickformat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/table/table.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/template/html/1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/template/html/2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/template/html/3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/template/template.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/plugins/wordpaste/wordpaste.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/webContexts.xml" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/jd-manager-dao.iml" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-dao/jd-manager-dao.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/category-add.jsp" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/category-add.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/category-edit.jsp" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/category-edit.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/category-list.jsp" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/category-list.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/index.jsp" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/login.jsp" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/product-add.jsp" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/product-add.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/product-edit.jsp" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/product-edit.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/product-list.jsp" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/product-list.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/userAdd.jsp" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/userAdd.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/userManage.jsp" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/userManage.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/userUpdate.jsp" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/userUpdate.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/welcome.jsp" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/welcome.jsp" />
     </list>
->>>>>>> 7cd8fc080aea34d97c91408406d3b304cdf31590
->>>>>>> 62bef0f4815d1679ad8f34c4c2152ba0430a70bf
     <ignored path="$PROJECT_DIR$/jd-parent/target/" />
     <ignored path="$PROJECT_DIR$/jd-common/target/" />
     <ignored path="$PROJECT_DIR$/jd-manager/target/" />
@@ -31,52 +281,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-<<<<<<< HEAD
-      <file leaf-file-name="jd-manager-dao.iml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-dao/jd-manager-dao.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-=======
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jd-parent/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="38" lean-forward="false" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
->>>>>>> 7cd8fc080aea34d97c91408406d3b304cdf31590
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< HEAD
-    </leaf>
-=======
-      <file leaf-file-name="a.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-dao/src/main/a.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-              <folding>
-                <element signature="e#71#72#0" expanded="true" />
-                <element signature="e#98#99#0" expanded="true" />
-                <element signature="e#138#139#0" expanded="true" />
-                <element signature="e#170#171#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
->>>>>>> 7cd8fc080aea34d97c91408406d3b304cdf31590
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>..</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -99,8 +317,21 @@
         <option value="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/resources/spring/spring-dao.xml" />
         <option value="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/resources/spring/spring-service.xml" />
-        <option value="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/resources/spring/spring-mvc.xml" />
         <option value="$PROJECT_DIR$/jd-manager/jd-manager-dao/src/main/a.java" />
+        <option value="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/search.jsp" />
+        <option value="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/resources/spring/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/welcome.jsp" />
+        <option value="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/login.jsp" />
+        <option value="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/category-list.jsp" />
+        <option value="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/product-add.jsp" />
+        <option value="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/category-edit.jsp" />
+        <option value="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/category-add.jsp" />
+        <option value="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/product-edit.jsp" />
+        <option value="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/product-list.jsp" />
+        <option value="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/userAdd.jsp" />
+        <option value="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/userManage.jsp" />
+        <option value="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/userUpdate.jsp" />
       </list>
     </option>
   </component>
@@ -123,19 +354,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-<<<<<<< HEAD
-    <option name="x" value="34" />
-    <option name="y" value="35" />
-=======
-<<<<<<< HEAD
-    <option name="x" value="10" />
-    <option name="y" value="20" />
-=======
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="56" />
     <option name="y" value="28" />
->>>>>>> 7cd8fc080aea34d97c91408406d3b304cdf31590
->>>>>>> 62bef0f4815d1679ad8f34c4c2152ba0430a70bf
     <option name="width" value="1346" />
     <option name="height" value="689" />
   </component>
@@ -157,69 +378,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
-<<<<<<< HEAD
-              <item name="jd-common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
-=======
->>>>>>> 7cd8fc080aea34d97c91408406d3b304cdf31590
               <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="jd-manager-dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="jd-manager-dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="jd-manager-dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="jd-manager-interface" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="jd-manager-interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="jd-manager-interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
-=======
->>>>>>> 7cd8fc080aea34d97c91408406d3b304cdf31590
-              <item name="jd-manager-pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="jd-manager-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
@@ -238,21 +402,49 @@
               <item name="jd-manager-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-=======
             </path>
             <path>
               <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jd-parent" type="462c0819:PsiDirectoryNode" />
->>>>>>> 7cd8fc080aea34d97c91408406d3b304cdf31590
+              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -266,7 +458,13 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/jd-parent/pom.xml" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\jdshop\jd-manager\jd-manager-web\src\main\webapp\WEB-INF\jsp" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\jdshop\jd-manager\jd-manager-web\src\main\webapp\home" />
+      <recent name="E:\IdeaProjects\jdshop\jd-manager\jd-manager-web\src\main\webapp\home\css" />
+      <recent name="E:\IdeaProjects\jdshop\jd-manager\jd-manager-web\src\main\webapp\css" />
       <recent name="D:\IdeaProjects\jdshop\jd-manager\jd-manager-web\src\main\resources" />
     </key>
   </component>
@@ -378,60 +576,34 @@
       <workItem from="1515080061518" duration="1736000" />
       <workItem from="1515082016130" duration="2674000" />
       <workItem from="1515114773761" duration="187000" />
+      <workItem from="1516005720297" duration="2388000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="5476000" />
+    <option name="totallyTimeSpent" value="7864000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="34" y="35" width="1346" height="689" extended-state="0" />
-=======
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="4652000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="10" y="20" width="1346" height="688" extended-state="0" />
-=======
-    <option name="totallyTimeSpent" value="5139000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="56" y="28" width="1346" height="689" extended-state="0" />
-    <editor active="true" />
->>>>>>> 7cd8fc080aea34d97c91408406d3b304cdf31590
->>>>>>> 62bef0f4815d1679ad8f34c4c2152ba0430a70bf
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32792792" sideWeight="0.5062208" order="7" side_tool="true" content_ui="tabs" />
-=======
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32768363" sideWeight="0.5062208" order="7" side_tool="true" content_ui="tabs" />
->>>>>>> 7cd8fc080aea34d97c91408406d3b304cdf31590
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24261275" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32974428" sideWeight="0.5028653" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2234957" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2496112" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-=======
-<<<<<<< HEAD
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2527216" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23352435" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-=======
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2496112" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
->>>>>>> 62bef0f4815d1679ad8f34c4c2152ba0430a70bf
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
->>>>>>> 7cd8fc080aea34d97c91408406d3b304cdf31590
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32974428" sideWeight="0.49713466" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2496112" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -439,35 +611,11 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32851985" sideWeight="0.5062208" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24261275" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2496112" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32851985" sideWeight="0.49377915" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2496112" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -484,201 +632,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-<<<<<<< HEAD
-=======
-    <entry file="file://$PROJECT_DIR$/jd-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
->>>>>>> 7cd8fc080aea34d97c91408406d3b304cdf31590
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-web/jd-manager-web.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-=======
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-pojo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-interface/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
->>>>>>> 7cd8fc080aea34d97c91408406d3b304cdf31590
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-dao/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-<<<<<<< HEAD
-          <folding />
-=======
->>>>>>> 7cd8fc080aea34d97c91408406d3b304cdf31590
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="51" column="17" lean-forward="true" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
-<<<<<<< HEAD
-          <folding />
-=======
->>>>>>> 7cd8fc080aea34d97c91408406d3b304cdf31590
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/resources/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="39" lean-forward="false" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="25" column="26" lean-forward="false" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/resources/spring/spring-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/resources/spring/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="28" column="12" lean-forward="false" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/resources/mybatis/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-<<<<<<< HEAD
-          <folding />
-=======
->>>>>>> 7cd8fc080aea34d97c91408406d3b304cdf31590
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/resources/spring/spring-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="58" lean-forward="true" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-parent/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="-5271">
-          <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="31" />
-=======
-        <state relative-caret-position="300">
-          <caret line="12" column="38" lean-forward="false" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
->>>>>>> 7cd8fc080aea34d97c91408406d3b304cdf31590
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-parent/jd-parent.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-<<<<<<< HEAD
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-interface/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-pojo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-pojo/jd-manager-pojo.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-dao/jd-manager-dao.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-=======
->>>>>>> 7cd8fc080aea34d97c91408406d3b304cdf31590
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-common/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-web/jd-manager-web.iml" />
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-service/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-pojo/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-interface/pom.xml" />
     <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-dao/pom.xml" />
     <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-web/pom.xml" />
     <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/resources/db.properties" />
@@ -770,13 +723,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/resources/spring/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="28" column="12" lean-forward="false" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/resources/mybatis/mybatis-config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -813,16 +759,188 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-dao/src/main/a.java">
+    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-dao/src/main/a.java" />
+    <entry file="file://E:/ideaworkspace/jdshop/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-          <folding>
-            <element signature="e#71#72#0" expanded="true" />
-            <element signature="e#98#99#0" expanded="true" />
-            <element signature="e#138#139#0" expanded="true" />
-            <element signature="e#170#171#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/css/admin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/css/demo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/home/css/amazeui.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/home/basic/js/quick_links.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/home/css/skin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/search.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2143">
+          <caret line="515" column="50" lean-forward="false" selection-start-line="515" selection-start-column="50" selection-end-line="515" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/resources/spring/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/java/com/zhou/jdshop/web/ManagerIndexAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/order-edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-399">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="103" column="26" lean-forward="true" selection-start-line="103" selection-start-column="26" selection-end-line="103" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-63">
+          <caret line="160" column="36" lean-forward="false" selection-start-line="160" selection-start-column="36" selection-end-line="160" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/category-edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="87" column="48" lean-forward="false" selection-start-line="87" selection-start-column="48" selection-end-line="87" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/category-add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="82" column="48" lean-forward="false" selection-start-line="82" selection-start-column="48" selection-end-line="82" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/category-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-859">
+          <caret line="78" column="13" lean-forward="false" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/product-add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="125" column="19" lean-forward="true" selection-start-line="125" selection-start-column="19" selection-end-line="125" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/product-edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="148" column="46" lean-forward="false" selection-start-line="148" selection-start-column="46" selection-end-line="148" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/product-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-403">
+          <caret line="69" column="13" lean-forward="false" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/userAdd.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="133" column="0" lean-forward="false" selection-start-line="133" selection-start-column="0" selection-end-line="146" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/userManage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="77" column="13" lean-forward="false" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/welcome.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/userUpdate.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1184">
+          <caret line="151" column="21" lean-forward="true" selection-start-line="151" selection-start-column="21" selection-end-line="151" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/order-add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="280" column="0" lean-forward="false" selection-start-line="280" selection-start-column="0" selection-end-line="280" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
