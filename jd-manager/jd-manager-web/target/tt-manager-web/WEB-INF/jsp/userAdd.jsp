@@ -37,7 +37,7 @@
     <link type="text/css" rel="stylesheet" href="css/laydate1.css">
 
     <link href="css/sweetalert.css" rel="stylesheet">
-    <link rel="stylesheet" href="themes/default/default.css"/>
+    <link rel="stylesheet" href="themes/default/default.css" />
 </head>
 <body class="gray-bg">
 <div class="wrapper wrapper-content animated fadeInRight">

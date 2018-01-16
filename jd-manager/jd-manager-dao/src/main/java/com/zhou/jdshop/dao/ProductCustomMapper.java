@@ -7,4 +7,6 @@ import java.util.List;
 public interface ProductCustomMapper {
 
     List<ProductCustom> listProducts();
+
+    List<ProductCustom> productList(int offset);
 }

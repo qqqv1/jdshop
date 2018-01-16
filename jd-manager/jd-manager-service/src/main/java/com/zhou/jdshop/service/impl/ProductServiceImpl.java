@@ -142,4 +142,32 @@ public class ProductServiceImpl implements ProductService {
         }
         return i;
     }
+
+    @Override
+    public int total() {
+        int total=0;
+        try {
+            ProductExample example=new ProductExample();
+            ProductExample.Criteria criteria = example.createCriteria();
+            criteria.andPflagNotEqualTo(3);
+            total=productDao.countByExample(example);
+        } catch (Exception e) {
+            logger.error(e.getMessage(), e);
+            e.printStackTrace();
+        }
+        return total;
+    }
+
+    @Override
+    public List<ProductCustom> productList(int page) {
+        List<ProductCustom> list=new ArrayList<>();
+        try {
+            int offset=(page-1)*12;
+            list=productCustomDao.productList(offset);
+        } catch (Exception e) {
+            logger.error(e.getMessage(), e);
+            e.printStackTrace();
+        }
+        return list;
+    }
 }

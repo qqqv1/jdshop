@@ -17,4 +17,8 @@ public interface ProductService {
     Product getProductById(String pid);
 
     int editProduct(Product product);
+
+    int total();
+
+    List<ProductCustom> productList(int page);
 }
