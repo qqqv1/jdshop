@@ -44,5 +44,5 @@
     <mvc:resources mapping="/basic/**" location="/basic/"/>
     <mvc:resources mapping="/AmazeUI-2.4.2/**" location="/AmazeUI-2.4.2/"/>
     <mvc:resources mapping="/products/**" location="/products/"/>
-
+    <mvc:resources mapping="/moment/**" location="/moment/"/>
 </beans>
