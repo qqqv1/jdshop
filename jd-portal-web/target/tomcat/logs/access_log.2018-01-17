@@ -1,0 +1,6 @@
+0:0:0:0:0:0:0:1 - - [17/Jan/2018:10:36:48 +0800] "GET /jdshop HTTP/1.1" 302 - http-bio-8081-exec-5 0
+0:0:0:0:0:0:0:1 - - [17/Jan/2018:10:36:50 +0800] "GET /jdshop/ HTTP/1.1" 200 57 http-bio-8081-exec-7 1847
+0:0:0:0:0:0:0:1 - - [17/Jan/2018:10:36:50 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8081-exec-8 0
+0:0:0:0:0:0:0:1 - - [17/Jan/2018:10:36:58 +0800] "GET /jdshop/search HTTP/1.1" 200 19244 http-bio-8081-exec-10 155
+0:0:0:0:0:0:0:1 - - [17/Jan/2018:10:37:00 +0800] "POST /jdshop/productList HTTP/1.1" 200 4185 http-bio-8081-exec-10 806
+0:0:0:0:0:0:0:1 - - [17/Jan/2018:10:37:00 +0800] "GET /jdshop/pageTotal HTTP/1.1" 200 11 http-bio-8081-exec-1 795
