@@ -83,7 +83,7 @@ body, button, input, select, textarea {
 .amount-sum em {line-height: 50px;padding: 0px 5px;}
 
 .price-sum .price { color: #F40;font-weight: 400; font-size: 18px; line-height: 48px;font-family: Arial;vertical-align: middle;margin-right:15px;}
-.btn-area{width:80px;background:#F40;text-decoration: none; text-align: center;}
+.btn-area{width:80px;background:#F40;text-decoration: none; text-align: center;margin-left: 10px}
 .submit-btn {line-height:48px;font-family: "Lantinghei SC","Microsoft Yahei";font-size:16px;color: #fff;}
 
 
@@ -106,7 +106,7 @@ body, button, input, select, textarea {
 .td.td-amount .sl input.text_box{border:1px solid #ddd;}
 /*布局 */
 .cart-table-th .th-item .td-inner {padding-left:0px;}  	
-.th.th-item,.td.td-item,.td.td-info{width:50%;}
+.th.th-item,.td.td-item,.td.td-info{width:30%;}
 .th.th-item{margin-right:-40px;}
 /*价格*/
 .th.th-price,.td.td-price,.th.th-amount,.td.td-amount{position:static;width:15%;text-align: center;}
@@ -132,9 +132,9 @@ body, button, input, select, textarea {
 .td.td-info .item-props{position: static;text-align:center;padding-top:17px;margin-top:0 ;} 
 .item-props.item-props-can{height:100px;border: 1px dashed transparent;}	
  /*价格*/
-.th.th-price,.td.td-price,.th.th-sum,.td.td-sum{width:10%;text-align: center;}  	
+.th.th-price,.td.td-price,.th.th-sum,.td.td-sum{width:20%;text-align: center;}
 /*操作*/
-.th.th-amount,.td.td-amount,.th.th-op,.td.td-op{display:block;width:15%;text-align: center;}   
+.th.th-amount,.td.td-amount,.th.th-op,.td.td-op{display:block;width:25%;text-align: center;}
 .td-op{margin-top: 20px;}	
 .td-op a {position: static;width: 100%;} 
 .td-op .btn-fav{display: block;} 

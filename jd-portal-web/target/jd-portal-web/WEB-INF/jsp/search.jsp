@@ -628,7 +628,7 @@
                 $.each(data,function (i,v) {
                     $li=$('<li></li>');
                     $div=$('<div class="i-pic limit"></div>');
-                    $img=$('<img src="'+v.pimage+'" /> '+
+                    $img=$('<img src="images/imgsearch1.jpg" /> '+
                         '                        <p class="title fl">'+v.pname+'</p>\n' +
                         '                        <p class="price fl">\n' +
                         '                        <b>¥</b>\n' +
