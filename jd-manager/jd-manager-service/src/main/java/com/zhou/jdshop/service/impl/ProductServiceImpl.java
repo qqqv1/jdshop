@@ -144,13 +144,10 @@ public class ProductServiceImpl implements ProductService {
     }
 
     @Override
-    public int total() {
+    public int total(String cname) {
         int total=0;
         try {
-            ProductExample example=new ProductExample();
-            ProductExample.Criteria criteria = example.createCriteria();
-            criteria.andPflagNotEqualTo(3);
-            total=productDao.countByExample(example);
+            total=productCustomDao.total(cname);
         } catch (Exception e) {
             logger.error(e.getMessage(), e);
             e.printStackTrace();
@@ -159,11 +156,11 @@ public class ProductServiceImpl implements ProductService {
     }
 
     @Override
-    public List<ProductCustom> productList(int page) {
+    public List<ProductCustom> productList(Integer page,String cname) {
         List<ProductCustom> list=new ArrayList<>();
         try {
             int offset=(page-1)*12;
-            list=productCustomDao.productList(offset);
+            list=productCustomDao.productList(offset,cname);
         } catch (Exception e) {
             logger.error(e.getMessage(), e);
             e.printStackTrace();
