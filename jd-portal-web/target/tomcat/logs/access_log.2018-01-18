@@ -1,0 +1,17 @@
+0:0:0:0:0:0:0:1 - - [18/Jan/2018:13:08:35 +0800] "GET /jdshop HTTP/1.1" 302 - http-bio-8081-exec-1 0
+0:0:0:0:0:0:0:1 - - [18/Jan/2018:13:08:37 +0800] "GET /jdshop/ HTTP/1.1" 200 57 http-bio-8081-exec-7 2467
+0:0:0:0:0:0:0:1 - - [18/Jan/2018:13:08:45 +0800] "GET /jdshop/product-portal-info HTTP/1.1" 200 67759 http-bio-8081-exec-9 1089
+0:0:0:0:0:0:0:1 - - [18/Jan/2018:13:08:45 +0800] "GET /jdshop/css/style.css HTTP/1.1" 304 - http-bio-8081-exec-9 104
+0:0:0:0:0:0:0:1 - - [18/Jan/2018:13:08:51 +0800] "GET /jdshop/product HTTP/1.1" 200 1271 http-bio-8081-exec-7 284
+0:0:0:0:0:0:0:1 - - [18/Jan/2018:13:08:51 +0800] "GET /jdshop/css/cartstyle.css HTTP/1.1" 200 7296 http-bio-8081-exec-5 28
+0:0:0:0:0:0:0:1 - - [18/Jan/2018:13:08:51 +0800] "GET /jdshop/js/jquery.js HTTP/1.1" 200 96561 http-bio-8081-exec-8 36
+0:0:0:0:0:0:0:1 - - [18/Jan/2018:13:09:04 +0800] "GET /jdshop/shopcart HTTP/1.1" 200 9340 http-bio-8081-exec-4 535
+0:0:0:0:0:0:0:1 - - [18/Jan/2018:13:09:04 +0800] "GET /jdshop/images/kouhong.jpg_80x80.jpg HTTP/1.1" 200 6986 http-bio-8081-exec-4 29
+0:0:0:0:0:0:0:1 - - [18/Jan/2018:13:09:12 +0800] "GET /jdshop/shopcart2 HTTP/1.1" 200 9246 http-bio-8081-exec-10 245
+0:0:0:0:0:0:0:1 - - [18/Jan/2018:13:09:18 +0800] "GET /jdshop/addProductToCart?pid=1&count=1 HTTP/1.1" 200 10774 http-bio-8081-exec-6 616
+0:0:0:0:0:0:0:1 - - [18/Jan/2018:13:09:23 +0800] "GET /jdshop/addProductToCart?pid=2&count=1 HTTP/1.1" 200 12194 http-bio-8081-exec-7 27
+0:0:0:0:0:0:0:1 - - [18/Jan/2018:13:09:41 +0800] "GET /jdshop/deleteProductFromCart?pid=2 HTTP/1.1" 200 10774 http-bio-8081-exec-8 16
+0:0:0:0:0:0:0:1 - - [18/Jan/2018:13:09:51 +0800] "GET /jdshop/product HTTP/1.1" 200 1271 http-bio-8081-exec-3 4
+0:0:0:0:0:0:0:1 - - [18/Jan/2018:13:09:52 +0800] "GET /jdshop/addProductToCart?pid=2&count=1 HTTP/1.1" 200 12194 http-bio-8081-exec-1 32
+0:0:0:0:0:0:0:1 - - [18/Jan/2018:13:10:11 +0800] "GET /jdshop/product HTTP/1.1" 200 1271 http-bio-8081-exec-9 8
+0:0:0:0:0:0:0:1 - - [18/Jan/2018:13:10:14 +0800] "GET /jdshop/addProductToCart?pid=1&count=1 HTTP/1.1" 200 12194 http-bio-8081-exec-5 35
