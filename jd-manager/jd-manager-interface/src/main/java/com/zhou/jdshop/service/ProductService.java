@@ -18,7 +18,7 @@ public interface ProductService {
 
     int editProduct(Product product);
 
-    int total(String cname);
+    int total(String cname,String pname);
 
-    List<ProductCustom> productList(Integer page,String cname);
+    List<ProductCustom> productList(Integer page,String cname,String pname);
 }

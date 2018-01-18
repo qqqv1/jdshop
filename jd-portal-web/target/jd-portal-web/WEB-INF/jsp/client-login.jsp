@@ -17,12 +17,17 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="renderer" content="webkit">
     <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <style type="text/css">
+        #form div label i:before{
+            line-height: inherit;
+        }
+    </style>
 
-    <link rel="stylesheet" href="AmazeUI-2.4.2/assets/css/amazeui.css" />
-    <link href="css/dlstyle.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="AmazeUI-2.4.2/assets/css/amazeui.css" type="text/css"/>
+    <link rel="stylesheet" href="css/dlstyle.css" type="text/css">
 </head>
 <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
-<script>
+<script type="text/javascript">
     $(function(){
         $("#submit").click(function () {
             var uname = $("#username").val();
@@ -131,7 +136,4 @@
     </div>
 </div>
 </body>
-<script>
-
-</script>
 </html>

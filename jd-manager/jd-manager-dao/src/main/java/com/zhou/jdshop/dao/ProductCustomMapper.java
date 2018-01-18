@@ -9,7 +9,7 @@ public interface ProductCustomMapper {
 
     List<ProductCustom> listProducts();
 
-    List<ProductCustom> productList(@Param("offset") Integer offset,@Param("cname") String cname);
+    List<ProductCustom> productList(@Param("offset") Integer offset,@Param("cname") String cname,@Param("pname") String pname);
 
-    int total(@Param("cname") String cname);
+    int total(@Param("cname") String cname,@Param("pname") String pname);
 }

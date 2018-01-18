@@ -17,26 +17,30 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="renderer" content="webkit">
     <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <style type="text/css">
+        .am-tab-panel form div label i:before{
+            line-height: inherit;
+        }
+    </style>
 
-    <link rel="stylesheet" href="AmazeUI-2.4.2/assets/css/amazeui.min.css" />
-    <link href="css/dlstyle.css" rel="stylesheet" type="text/css">
-    <script src="AmazeUI-2.4.2/assets/js/jquery.min.js"></script>
-    <script src="AmazeUI-2.4.2/assets/js/amazeui.min.js"></script>
+    <link rel="stylesheet" href="AmazeUI-2.4.2/assets/css/amazeui.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/dlstyle.css" type="text/css">
 
+    <script type="text/javascript" src="AmazeUI-2.4.2/assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="AmazeUI-2.4.2/assets/js/amazeui.min.js"></script>
 </head>
 
 <body>
 
-<div class="login-boxtitle">
-    <a href="home/demo.html"><img alt="" src="images/logobig.png" /></a>
-</div>
+    <div class="login-boxtitle">
+        <a href="index"><img alt="" src="images/logobig.png" /></a>
+    </div>
 
-<div class="res-banner">
+    <div class="res-banner">
     <div class="res-main">
         <div class="login-banner-bg"><span></span><img src="images/big.jpg" /></div>
         <div class="login-box">
-
-            <div class="am-tabs" id="doc-my-tabs">
+            <div class="am-tabs" data-am-tabs>
                 <ul class="am-tabs-nav am-nav am-nav-tabs am-nav-justify">
                     <li class="am-active"><a href="">邮箱注册</a></li>
                     <li><a href="">手机号注册</a></li>
@@ -104,13 +108,10 @@
 
                         <hr>
                     </div>
-
-
-                </div>
                 </div>
             </div>
-
         </div>
+    </div>
     </div>
 
     <div class="footer ">
@@ -135,15 +136,9 @@
             </p>
         </div>
     </div>
-
-</body>
-
-</html>
 <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
-<script>
+<script type="text/javascript">
     $(function() {
-
-
         $("#sub1").click(function(){
             alert("sub11111111111111111111");
             var uname = $("#email").val();
@@ -163,9 +158,9 @@
                     }
                 },
                 error: function (XMLHttpRequest, textStatus, errorThrown) {
-                            alert(XMLHttpRequest.status);
-                            alert(XMLHttpRequest.readyState);
-                            alert(textStatus);
+                    alert(XMLHttpRequest.status);
+                    alert(XMLHttpRequest.readyState);
+                    alert(textStatus);
                 }
             });
         });
@@ -189,9 +184,9 @@
                     }
                 },
                 error: function (XMLHttpRequest, textStatus, errorThrown) {
-                            alert(XMLHttpRequest.status);
-                            alert(XMLHttpRequest.readyState);
-                            alert(textStatus);
+                    alert(XMLHttpRequest.status);
+                    alert(XMLHttpRequest.readyState);
+                    alert(textStatus);
                 }
             });
         });
@@ -199,3 +194,7 @@
 
     });
 </script>
+</body>
+</html>
+
+

@@ -22,10 +22,10 @@ public class ProductPortalAction {
 
     @ResponseBody
     @RequestMapping("pageTotal")
-    public int total(@RequestParam("cname") String cname){
+    public int total(@RequestParam("cname") String cname,@RequestParam String pname){
         int total=0;
         try{
-            total=productService.total(cname);
+            total=productService.total(cname,pname);
         }catch(Exception e){
             logger.error(e.getMessage(),e);
             e.printStackTrace();
@@ -35,13 +35,13 @@ public class ProductPortalAction {
 
     @ResponseBody
     @RequestMapping("productList")
-    public List<ProductCustom> productList(@RequestParam("page") int page,@RequestParam("cname") String cname){
+    public List<ProductCustom> productList(@RequestParam("page") int page,@RequestParam("cname") String cname,@RequestParam("pname") String pname){
         List<ProductCustom> list=null;
         try{
             if(page>0) {
-                list = productService.productList(page,cname);
+                list = productService.productList(page,cname,pname);
             }else {
-                list = productService.productList(1,cname);
+                list = productService.productList(1,cname,pname);
             }
         }catch(Exception e){
             logger.error(e.getMessage(),e);

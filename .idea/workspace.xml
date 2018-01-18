@@ -2,8 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a062aa53-3bc9-4631-bc04-4d5a5d265469" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/top.jsp" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/tomcat/work/Tomcat/localhost/jdshop/org/apache/jsp/WEB_002dINF/jsp/client_002dinformation_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/tomcat/work/Tomcat/localhost/jdshop/org/apache/jsp/WEB_002dINF/jsp/client_002dinformation_jsp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/tomcat/work/Tomcat/localhost/jdshop/org/apache/jsp/WEB_002dINF/jsp/client_002dlogin_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/tomcat/work/Tomcat/localhost/jdshop/org/apache/jsp/WEB_002dINF/jsp/client_002dlogin_jsp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/tomcat/work/Tomcat/localhost/jdshop/org/apache/jsp/WEB_002dINF/jsp/index_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/tomcat/work/Tomcat/localhost/jdshop/org/apache/jsp/WEB_002dINF/jsp/index_jsp.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-common/target/jd-common-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/jd-common/target/jd-common-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/classes/com/zhou/jdshop/dao/ProductCustomMapper.class" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/classes/com/zhou/jdshop/dao/ProductCustomMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/jd-manager-dao-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/jd-manager-dao-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-interface/target/classes/com/zhou/jdshop/service/ProductService.class" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-interface/target/classes/com/zhou/jdshop/service/ProductService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-interface/target/jd-manager-interface-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-interface/target/jd-manager-interface-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/jd-manager-pojo-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/jd-manager-pojo-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-service/target/classes/com/zhou/jdshop/service/impl/ProductServiceImpl.class" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-service/target/classes/com/zhou/jdshop/service/impl/ProductServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-service/target/jd-manager-service-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-service/target/jd-manager-service-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/tt-manager-web.war" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/tt-manager-web.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/tt-manager-web/WEB-INF/lib/jd-common-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/tt-manager-web/WEB-INF/lib/jd-common-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/tt-manager-web/WEB-INF/lib/jd-manager-dao-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/tt-manager-web/WEB-INF/lib/jd-manager-dao-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/tt-manager-web/WEB-INF/lib/jd-manager-interface-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/tt-manager-web/WEB-INF/lib/jd-manager-interface-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/tt-manager-web/WEB-INF/lib/jd-manager-pojo-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/tt-manager-web/WEB-INF/lib/jd-manager-pojo-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/tt-manager-web/WEB-INF/lib/jd-manager-service-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/tt-manager-web/WEB-INF/lib/jd-manager-service-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-portal-web/target/classes/com/zhou/jdshop/web/ProductPortalAction.class" afterPath="$PROJECT_DIR$/jd-portal-web/target/classes/com/zhou/jdshop/web/ProductPortalAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web.war" afterPath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/classes/com/zhou/jdshop/web/ProductPortalAction.class" afterPath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/classes/com/zhou/jdshop/web/ProductPortalAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/lib/jd-common-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/lib/jd-common-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/lib/jd-manager-dao-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/lib/jd-manager-dao-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/lib/jd-manager-interface-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/lib/jd-manager-interface-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/lib/jd-manager-pojo-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/lib/jd-manager-pojo-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/lib/jd-manager-service-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/lib/jd-manager-service-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/webContexts.xml" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-common/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/jd-common/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/src/main/java/com/zhou/jdshop/dao/ProductCustomMapper.java" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-dao/src/main/java/com/zhou/jdshop/dao/ProductCustomMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/src/main/java/com/zhou/jdshop/dao/ProductCustomMapper.xml" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-dao/src/main/java/com/zhou/jdshop/dao/ProductCustomMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/classes/com/zhou/jdshop/dao/ProductCustomMapper.xml" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/classes/com/zhou/jdshop/dao/ProductCustomMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-interface/src/main/java/com/zhou/jdshop/service/ProductService.java" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-interface/src/main/java/com/zhou/jdshop/service/ProductService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-interface/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-interface/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-service/src/main/java/com/zhou/jdshop/service/impl/ProductServiceImpl.java" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-service/src/main/java/com/zhou/jdshop/service/impl/ProductServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-service/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-service/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-portal-web/src/main/java/com/zhou/jdshop/web/ProductPortalAction.java" afterPath="$PROJECT_DIR$/jd-portal-web/src/main/java/com/zhou/jdshop/web/ProductPortalAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/client-information.jsp" afterPath="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/client-information.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/client-login.jsp" afterPath="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/client-login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/client-register.jsp" afterPath="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/client-register.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/index.jsp" afterPath="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/product-portal-info.jsp" afterPath="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/product-portal-info.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/product-portal-list.jsp" afterPath="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/product-portal-list.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/jsp/client-information.jsp" afterPath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/jsp/client-information.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/jsp/client-login.jsp" afterPath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/jsp/client-login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/jsp/client-register.jsp" afterPath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/jsp/client-register.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/jsp/index.jsp" afterPath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/jsp/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/jsp/product-portal-info.jsp" afterPath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/jsp/product-portal-info.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/jsp/product-portal-list.jsp" afterPath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/jsp/product-portal-list.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-portal-web/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/jd-portal-web/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-portal-web/target/tomcat/logs/access_log.2018-01-18" afterPath="$PROJECT_DIR$/jd-portal-web/target/tomcat/logs/access_log.2018-01-18" />
     </list>
     <ignored path="$PROJECT_DIR$/jd-parent/target/" />
     <ignored path="$PROJECT_DIR$/jd-common/target/" />
@@ -28,9 +84,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Jsp File" />
         <option value="FxmlFile" />
         <option value="HTML File" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -45,6 +101,8 @@
       <find>margin-left: 10px;</find>
       <find>clearfixLeft</find>
       <find>../</find>
+      <find>am-tabs</find>
+      <find>doc-my-tabs</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -58,11 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/resources/spring/spring-dao.xml" />
-        <option value="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/resources/spring/spring-service.xml" />
-        <option value="$PROJECT_DIR$/jd-manager/jd-manager-dao/src/main/a.java" />
-        <option value="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/search.jsp" />
         <option value="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/resources/spring/spring-mvc.xml" />
         <option value="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/welcome.jsp" />
         <option value="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/login.jsp" />
@@ -86,11 +139,6 @@
         <option value="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/java/com/zhou/jdshop/web/OrderAction.java" />
         <option value="$PROJECT_DIR$/jd-portal-web/src/main/java/com/zhou/jdshop/web/CategoryPortalAction.java" />
         <option value="$PROJECT_DIR$/jd-portal-web/src/main/webapp/js/script.js" />
-        <option value="$PROJECT_DIR$/jd-manager/jd-manager-interface/src/main/java/com/zhou/jdshop/service/ProductService.java" />
-        <option value="$PROJECT_DIR$/jd-manager/jd-manager-service/src/main/java/com/zhou/jdshop/service/impl/ProductServiceImpl.java" />
-        <option value="$PROJECT_DIR$/jd-manager/jd-manager-dao/src/main/java/com/zhou/jdshop/dao/ProductCustomMapper.java" />
-        <option value="$PROJECT_DIR$/jd-manager/jd-manager-dao/src/main/java/com/zhou/jdshop/dao/ProductCustomMapper.xml" />
-        <option value="$PROJECT_DIR$/jd-portal-web/src/main/java/com/zhou/jdshop/web/ProductPortalAction.java" />
         <option value="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/search.jsp" />
         <option value="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/product_info.jsp" />
         <option value="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/product-info.jsp" />
@@ -99,8 +147,6 @@
         <option value="$PROJECT_DIR$/jd-portal-web/src/main/webapp/js/list.js" />
         <option value="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/product-portal-info.html" />
         <option value="$PROJECT_DIR$/jd-portal-web/src/main/webapp/css/style.css" />
-        <option value="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/product-portal-info.jsp" />
-        <option value="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/product-portal-list.jsp" />
         <option value="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/jsp/shopcart.jsp" />
         <option value="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/shopcart2.jsp" />
         <option value="$PROJECT_DIR$/jd-manager/jd-manager-dao/src/main/java/com/zhou/jdshop/dao/UserCustomMapper.java" />
@@ -108,6 +154,18 @@
         <option value="$PROJECT_DIR$/jd-manager/jd-manager-service/src/main/java/com/zhou/jdshop/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/jd-manager/jd-manager-interface/src/main/java/com/zhou/jdshop/service/UserService.java" />
         <option value="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/java/com/zhou/jdshop/web/UserAction.java" />
+        <option value="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/client-information.jsp" />
+        <option value="$PROJECT_DIR$/jd-portal-web/src/main/webapp/css/dlstyle.css" />
+        <option value="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/client-register.jsp" />
+        <option value="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/client-login.jsp" />
+        <option value="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/product-portal-info.jsp" />
+        <option value="$PROJECT_DIR$/jd-manager/jd-manager-interface/src/main/java/com/zhou/jdshop/service/ProductService.java" />
+        <option value="$PROJECT_DIR$/jd-manager/jd-manager-service/src/main/java/com/zhou/jdshop/service/impl/ProductServiceImpl.java" />
+        <option value="$PROJECT_DIR$/jd-manager/jd-manager-dao/src/main/java/com/zhou/jdshop/dao/ProductCustomMapper.java" />
+        <option value="$PROJECT_DIR$/jd-manager/jd-manager-dao/src/main/java/com/zhou/jdshop/dao/ProductCustomMapper.xml" />
+        <option value="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/top.jsp" />
+        <option value="$PROJECT_DIR$/jd-portal-web/src/main/java/com/zhou/jdshop/web/ProductPortalAction.java" />
+        <option value="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/product-portal-list.jsp" />
         <option value="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/index.jsp" />
       </list>
     </option>
@@ -132,7 +190,26 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="jd-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="jd-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="jd-portal-web Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="jd-portal-web Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -163,6 +240,89 @@
       <pane id="ProjectPane">
         <subPane>
           <expand>
+            <path>
+              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-manager-dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-manager-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-manager-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-manager-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-manager-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-manager-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-manager-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-manager-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-manager-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-manager-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jd-parent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jd-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
             <path>
               <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="jd-portal-web" type="462c0819:PsiDirectoryNode" />
@@ -371,7 +531,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61872000" />
+    <option name="totallyTimeSpent" value="70138000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
@@ -383,14 +543,14 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5114613" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2234957" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2234957" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32974428" sideWeight="0.48853868" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24426934" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24426934" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.49713466" order="1" side_tool="false" content_ui="tabs" />
@@ -448,44 +608,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/resources/spring/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/resources/spring/spring-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/resources/mybatis/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/ProductExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1748">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-common/src/main/java/com/zhou/jdshop/dto/Result.java" />
-    <entry file="file://$PROJECT_DIR$/jd-common/src/main/java/com/zhou/jdshop/dto/Page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.2.8.RELEASE/spring-webmvc-4.2.8.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerMapping.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -565,14 +687,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-dao/src/main/java/com/zhou/jdshop/dao/ProductCustomMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="893">
@@ -581,48 +695,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-service/src/main/java/com/zhou/jdshop/service/impl/ProductServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="170" column="0" lean-forward="true" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/java/com/zhou/jdshop/web/IndexAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-dao/src/main/java/com/zhou/jdshop/dao/ProductCustomMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="66" lean-forward="false" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
-          <folding>
-            <marker date="1516192269818" expanded="true" signature="1373:1517" ph="select from product" />
-            <marker date="1516192269818" expanded="true" signature="1597:1741" ph="select from product" />
-            <marker date="1516192269818" expanded="true" signature="1597:1876" ph="select from product" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/vo/ProductCustom.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-interface/src/main/java/com/zhou/jdshop/service/ProductService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="12" column="37" lean-forward="false" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -682,20 +758,6 @@
         <state relative-caret-position="-141">
           <caret line="397" column="15" lean-forward="false" selection-start-line="397" selection-start-column="15" selection-end-line="397" selection-end-column="15" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/product-portal-list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="683" column="28" lean-forward="false" selection-start-line="683" selection-start-column="28" selection-end-line="683" selection-end-column="28" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#li#1;n#div#6;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1516251469467" expanded="true" signature="26613:26620" ph="«" />
-            <marker date="1516251469467" expanded="true" signature="27095:27102" ph="»" />
-            <marker date="1516251469467" expanded="true" signature="28016:28029" ph="..." />
-            <marker date="1516251469467" expanded="true" signature="28068:28094" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -789,14 +851,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/client-information.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5073">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/java/com/zhou/jdshop/web/UserPortalAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1387">
@@ -813,14 +867,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/java/com/zhou/jdshop/web/ProductPortalAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="27" column="46" lean-forward="false" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/java/com/zhou/jdshop/web/CategoryPortalAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -829,48 +875,160 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/product-portal-info.jsp">
+    <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/java/com/zhou/jdshop/web/OrderPortalAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="250" column="70" lean-forward="false" selection-start-line="250" selection-start-column="70" selection-end-line="250" selection-end-column="70" />
+        <state relative-caret-position="-861">
+          <caret line="77" column="9" lean-forward="true" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/client-information.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1191">
+          <caret line="77" column="8" lean-forward="false" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/AmazeUI-2.4.2/assets/js/amazeui.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="6" column="14774" lean-forward="false" selection-start-line="6" selection-start-column="14767" selection-end-line="6" selection-end-column="14774" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/css/dlstyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/AmazeUI-2.4.2/assets/js/amazeui.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="14207" column="13" lean-forward="true" selection-start-line="14207" selection-start-column="13" selection-end-line="14207" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/client-login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="82" column="32" lean-forward="true" selection-start-line="82" selection-start-column="32" selection-end-line="82" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/client-register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="78" column="37" lean-forward="true" selection-start-line="78" selection-start-column="37" selection-end-line="78" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/order.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
+        <state relative-caret-position="-1976">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/product-portal-info.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="26" column="27" lean-forward="true" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+          <folding>
+            <element signature="n#style#0;n#i#1;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-service/src/main/java/com/zhou/jdshop/service/impl/ProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="149" column="37" lean-forward="false" selection-start-line="149" selection-start-column="37" selection-end-line="149" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-dao/src/main/java/com/zhou/jdshop/dao/ProductCustomMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="11" column="125" lean-forward="false" selection-start-line="11" selection-start-column="125" selection-end-line="11" selection-end-column="125" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-dao/src/main/java/com/zhou/jdshop/dao/ProductCustomMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="50" column="47" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="50" selection-end-column="47" />
+          <folding>
+            <marker date="1516276152831" expanded="true" signature="1373:1517" ph="select from product" />
+            <marker date="1516276152831" expanded="true" signature="1597:1741" ph="select from product" />
+            <marker date="1516276152831" expanded="true" signature="1597:1924" ph="select from product" />
+            <marker date="1516276152831" expanded="true" signature="1989:2261" ph="select count... product" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-interface/src/main/java/com/zhou/jdshop/service/ProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="22" column="24" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/java/com/zhou/jdshop/web/ProductPortalAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="41" column="42" lean-forward="false" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/top.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="52" column="83" lean-forward="false" selection-start-line="52" selection-start-column="83" selection-end-line="52" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/product-portal-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="613" column="52" lean-forward="false" selection-start-line="613" selection-start-column="52" selection-end-line="613" selection-end-column="52" />
+          <folding>
+            <marker date="1516278104060" expanded="true" signature="25086:25093" ph="«" />
+            <marker date="1516278104060" expanded="true" signature="25568:25575" ph="»" />
+            <marker date="1516278104060" expanded="true" signature="26548:26561" ph="..." />
+            <marker date="1516278104060" expanded="true" signature="26600:26626" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/java/com/zhou/jdshop/web/IndexAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="2338" column="14" lean-forward="true" selection-start-line="2338" selection-start-column="14" selection-end-line="2338" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#i#1;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#a#0;n#span#0;n#div#0;n#div#2;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#a#0;n#span#0;n#div#0;n#div#0;n#div#4;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#a#0;n#span#0;n#div#0;n#div#0;n#div#5;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#a#0;n#span#0;n#div#0;n#div#0;n#div#6;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#a#0;n#span#0;n#div#0;n#div#0;n#div#7;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#a#0;n#span#0;n#div#0;n#div#0;n#div#8;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#a#0;n#span#0;n#div#0;n#div#0;n#div#9;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#a#0;n#span#0;n#div#0;n#div#0;n#div#10;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#a#0;n#span#0;n#div#0;n#div#0;n#div#11;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#a#0;n#span#0;n#div#0;n#div#0;n#div#12;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#a#0;n#span#0;n#div#0;n#div#0;n#div#13;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#1;n#div#6;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/java/com/zhou/jdshop/web/OrderPortalAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-861">
-          <caret line="77" column="9" lean-forward="true" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
+        <state relative-caret-position="19">
+          <caret line="24" column="33" lean-forward="false" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
           <folding />
         </state>
       </provider>

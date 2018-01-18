@@ -288,7 +288,7 @@
 
 </body>
 <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
-<script>
+<script type="text/javascript">
     $(function(){
         $.ajax({
 

@@ -35,6 +35,7 @@
         <if test="cname!=null and cname!='全部' and cname!=''">
             and cname =#{cname}
         </if>
+        and pname like concat('%',#{pname},'%')
         limit #{offset},12
     </select>
 
@@ -47,5 +48,6 @@
         <if test="cname!=null and cname!='全部' and cname!=''">
             and cname =#{cname}
         </if>
+        and pname like concat('%',#{pname},'%')
     </select>
 </mapper>
