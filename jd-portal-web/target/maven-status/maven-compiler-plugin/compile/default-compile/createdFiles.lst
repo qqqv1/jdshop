@@ -1,3 +1,4 @@
 com\zhou\jdshop\web\IndexAction.class
+com\zhou\jdshop\web\CategoryPortalAction.class
 com\zhou\jdshop\web\OrderPortalAction.class
 com\zhou\jdshop\web\ProductPortalAction.class

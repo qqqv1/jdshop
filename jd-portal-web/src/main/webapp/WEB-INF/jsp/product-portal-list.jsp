@@ -63,7 +63,7 @@
 
     <div class="search-bar pr">
         <a name="index_none_header_sysc" href="#"></a>
-        <form>
+        <form action="javascript:void(0)">
             <input id="searchInput" name="index_none_header_sysc" type="text" placeholder="搜索" autocomplete="off">
             <input id="ai-topsearch" class="submit am-btn"  value="搜索" index="1" type="submit">
         </form>
@@ -97,15 +97,14 @@
                 <div class="theme-popover">
                     <div class="searchAbout">
                         <span class="font-pale">相关搜索：</span>
-                        <a title="坚果" href="#">坚果</a>
+                        <%--<a title="坚果" href="#">坚果</a>
                         <a title="瓜子" href="#">瓜子</a>
-                        <a title="鸡腿" href="#">豆干</a>
-
+                        <a title="鸡腿" href="#">豆干</a>--%>
                     </div>
                     <ul class="select">
                         <p class="title font-normal">
-                            <span class="fl">松子</span>
-                            <span class="total fl">搜索到<strong class="num">997</strong>件相关商品</span>
+                            <%--<span class="fl" id="searchName"></span>--%>
+                            <span class="total fl">搜索到<strong class="num" id="searchNum">0</strong>件相关商品</span>
                         </p>
                         <div class="clear"></div>
                         <li class="select-result">
@@ -136,11 +135,11 @@
                             <dl id="select2">
                                 <dt class="am-badge am-round">种类</dt>
                                 <div class="dd-conent">
-                                    <dd class="select-all selected"><a href="#">全部</a></dd>
+                                    <%--<dd class="select-all selected"><a href="#">全部</a></dd>
                                     <dd><a href="#">东北松子</a></dd>
                                     <dd><a href="#">巴西松子</a></dd>
                                     <dd><a href="#">夏威夷果</a></dd>
-                                    <dd><a href="#">松子</a></dd>
+                                    <dd><a href="#">松子</a></dd>--%>
                                 </div>
                             </dl>
                         </li>
@@ -424,6 +423,8 @@
     </div>
 
 </div>
+</div>
+
 
 <!--引导 -->
 <div class="navCir">
@@ -432,7 +433,6 @@
     <li><a href="shopcart"><i class="am-icon-shopping-basket"></i>购物车</a></li>
     <li><a href="person/index"><i class="am-icon-user"></i>我的</a></li>
 </div>
-
 <!--菜单 -->
 <div class=tip>
     <div id="sidebar">
@@ -595,47 +595,109 @@
 <script>
     window.jQuery || document.write('<script src="basic/js/jquery-1.9.min.js"><\/script>');
     $(function () {
-        // 分页展示商品
+        displayCategory();
+        pagination('');
+        displayProduct(1,'');
+//        $('#searchName').html($('#searchInput').text());
+        $(".select-result dl p").on('click',function () {
+            pagination('');
+            displayProduct(1,'');
+        });
+    });
+    // 查询全部分类
+    function displayCategory() {
+        $.ajax({
+            url:'categoryList',
+            dataType:'json',
+            success:function (categorys) {
+                $div=$('#select2 .dd-conent');
+                $div.empty();
+                $div.append('<dd class="select-all selected"><a href="javascript:void(0)">全部</a></dd>');
+                $.each(categorys,function (i,category) {
+                    $dd=$('<dd><a href="javascript:void(0)">'+category.cname+'</a></dd>');
+                    $div.append($dd);
+                })
+                $("#select2 dd").click(function() {
+                    $(this).addClass("selected").siblings().removeClass("selected");
+                    if ($(this).hasClass("select-all")) {
+                        $("#selectB").remove();
+                    } else {
+                        var copyThisB = $(this).clone();
+                        if ($("#selectB").length > 0) {
+                            $("#selectB a").html($(this).text());
+                        } else {
+                            $(".select-result dl").append(copyThisB.attr("id", "selectB"));
+                            $("#selectB a").on('click',function () {
+                                pagination('');
+                                displayProduct(1,'');
+                            });
+                        }
+                    }
+                    pagination($(this).text());
+                    displayProduct(1,$(this).text());
+                });
+            }
+        });
+    }
+    // 分页展示商品
+    function pagination(cname) {
         $.ajax({
             url:'pageTotal',
+            data:{'cname':cname},
+            type:'POST',
             dataType:'json',
-            success:function(pageTotal){
+            success:function(total){
+                var pageTotal=1;
+                if(total % 12 === 0) {
+                    pageTotal = total / 12;
+                }else{
+                    pageTotal = total / 12 +1;
+                }
+                $('#searchNum').html(total);
                 $('#page').empty();
-                $('#page').append('<li><a href="javascript:void(0)" onclick="DisplayProduct(1)">&laquo;</a></li>');
+                $('#page').append('<li><a href="javascript:void(0)" id="first">&laquo;</a></li>');
                 for(var i = 1;i <= pageTotal;i++){
                     $li=$('<li>');
                     $a=$('<a href="javascript:void(0)">'+i+'</a>');
                     $a.on('click',function(){
-                        DisplayProduct(this.innerHTML);
-                    })
+                        displayProduct($(this).text(),cname);
+                    });
                     $li.append($a);
                     $('#page').append($li);
                 }
-                $('#page').append('<li><a href="javascript:void(0)" onclick="DisplayProduct('+pageTotal+')">&raquo;</a></li>')
+                $('#page').append('<li><a href="javascript:void(0)" id="last">&raquo;</a></li>');
+                $('#first').on('click',function () {
+                    displayProduct(1,cname);
+                });
+                $('#last').on('click',function () {
+                    displayProduct(pageTotal,cname);
+                });
             }
-        })
-        DisplayProduct(1);
-    })
+        });
+    }
     // 查询商品
-    function DisplayProduct(page){
-        $('#product').empty();
+    function displayProduct(page,cname){
         $.ajax({
             url:'productList',
-            data:{'page':page},
+            data:{'page':page,'cname':cname},
             type:'POST',
             dataType:'json',
-            success:function (data) {
-                $.each(data,function (i,v) {
-                    $li=$('<li></li>');
-                    $div=$('<div class="i-pic limit"></div>');
-                    $img=$('<img src="images/imgsearch1.jpg" /> '+
-                        '                        <p class="title fl">'+v.pname+'</p>\n' +
+            success:function (products) {
+                $('#product').empty();
+                $.each(products,function (i,product) {
+                    $li=$('<li>');
+                    $li.on('click',function () {
+                       window.location.href='product-portal-info?pid='+product.pid;
+                    });
+                    $div=$('<div class="i-pic limit">');
+                    $img=$('<div style="padding: 35px"><img src="'+product.pimage+'" style="width: 148px;height: 148px"/></div>'+
+                        '                        <p class="title fl">'+product.pname+'</p>\n' +
                         '                        <p class="price fl">\n' +
                         '                        <b>¥</b>\n' +
-                        '                        <strong>'+v.shopPrice+'</strong>\n' +
+                        '                        <strong>'+product.shopPrice+'</strong>\n' +
                         '                        </p>\n' +
                         '                        <p class="number fl">\n' +
-                        '                        销量<span>'+v.quantity+'</span>\n' +
+                        '                        销量<span>'+product.quantity+'</span>\n' +
                         '                        </p>');
                     $div.append($img);
                     $li.append($div);
@@ -648,7 +710,6 @@
 <script type="text/javascript" src="basic/js/quick_links.js"></script>
 
 <div class="theme-popover-mask"></div>
-
 </body>
 
 </html>

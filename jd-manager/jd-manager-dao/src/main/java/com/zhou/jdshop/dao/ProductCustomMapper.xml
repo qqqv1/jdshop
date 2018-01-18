@@ -32,6 +32,20 @@
         from product p
         left join category c on p.cid = c.cid
         where pflag!= 3
+        <if test="cname!=null and cname!='全部' and cname!=''">
+            and cname =#{cname}
+        </if>
         limit #{offset},12
+    </select>
+
+    <select id="total" resultType="int">
+        select
+        count(1)
+        from product p
+        left join category c on p.cid = c.cid
+        where pflag!= 3
+        <if test="cname!=null and cname!='全部' and cname!=''">
+            and cname =#{cname}
+        </if>
     </select>
 </mapper>
