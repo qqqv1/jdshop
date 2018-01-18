@@ -1,11 +1,4 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Administrator
-  Date: 2018/1/18
-  Time: 9:48
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
@@ -31,8 +24,6 @@
 </head>
 
 <body>
-
-
 <!--顶部导航条 -->
 <div class="am-container header">
     <ul class="message-l">
@@ -245,7 +236,7 @@
                         <div class="theme-popover">
                             <div class="theme-span"></div>
                             <div class="theme-poptit">
-                                <a href="javascript:void(0)" title="关闭" class="close">×</a>
+                                <a href="javascript:;" title="关闭" class="close">×</a>
                             </div>
                             <div class="theme-popbod dform">
                                 <form class="theme-signin" name="loginform" action="" method="post">
@@ -271,80 +262,83 @@
                                         </div>
                                         <div class="theme-options">
                                             <div class="cart-title number">数量</div>
-                                            <input id="min" class="am-btn am-btn-default" name="" type="button" value="-" />
-                                            <input id="text_box" name="" type="text" value="1" style="width:30px;" />
-                                            <input id="add" class="am-btn am-btn-default" name="" type="button" value="+" />
-                                            <span id="stock" class="tb-hidden">库存<span class="stock">1000</span>件</span>
-                                        </div>
-                                        <div class="clear"></div>
-                                        <div class="btn-op">
-                                            <div class="btn am-btn am-btn-warning">确认</div>
-                                            <div class="btn close am-btn am-btn-warning">取消</div>
-                                        </div>
-                                    </div>
+                    <%--<dd>--%>
+                        <input id="min" class="am-btn am-btn-default" name="" type="button" value="-" />
+                        <input id="text_box" name="" type="text" value="1" style="width:30px;" />
+                        <input id="add" class="am-btn am-btn-default" name="" type="button" value="+" />
+                        <span id="Stock2" class="tb-hidden">库存<span class="stock">1000</span>件</span>
+                    <%--</dd>--%>
 
-                                    <div class="theme-signin-right">
-                                        <div class="img-info">
-                                            <img src="images/songzi.jpg" />
-                                        </div>
-                                        <div class="text-info">
-                                            <span class="J_Price price-now">¥39.00</span>
-                                            <span id="stock2" class="tb-hidden">库存<span class="stock">1000</span>件</span>
-                                        </div>
-                                    </div>
-
-                                </form>
-                            </div>
-                        </div>
-                    </dd>
-                </dl>
-                <div class="clear"></div>
-                <!--活动	-->
-                <div class="shopPromotion gold">
-                    <div class="hot">
-                        <dt class="tb-metatit">店铺优惠</dt>
-                        <div class="gold-list">
-                            <p>购物满2件打8折，满3件7折<span>点击领券<i class="am-icon-sort-down"></i></span></p>
-                        </div>
-                    </div>
-                    <div class="clear"></div>
-                    <div class="coupon">
-                        <dt class="tb-metatit">优惠券</dt>
-                        <div class="gold-list">
-                            <ul>
-                                <li>125减5</li>
-                                <li>198减10</li>
-                                <li>298减20</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
             </div>
+            <div class="clear"></div>
 
-            <div class="pay">
-                <div class="pay-opt">
-                    <a href="home.html"><span class="am-icon-home am-icon-fw">首页</span></a>
-                    <a><span class="am-icon-heart am-icon-fw">收藏</span></a>
-
-                </div>
-                <li>
-                    <div class="clearfix tb-btn tb-btn-buy theme-login">
-                        <a id="LikBuy" title="点此按钮到下一步确认购买信息" href="#">立即购买</a>
-                    </div>
-                </li>
-                <li>
-                    <div class="clearfix tb-btn tb-btn-basket theme-login">
-                        <a id="LikBasket" title="加入购物车" href="#"><i></i>加入购物车</a>
-                    </div>
-                </li>
+            <div class="btn-op">
+                <div class="btn am-btn am-btn-warning">确认</div>
+                <div class="btn close am-btn am-btn-warning">取消</div>
             </div>
-
+        </div>
+        <div class="theme-signin-right">
+            <div class="img-info">
+                <img src="images/songzi.jpg" />
+            </div>
+            <div class="text-info">
+                <span class="J_Price price-now">¥39.00</span>
+                <span id="Stock" class="tb-hidden">库存<span class="stock">1000</span>件</span>
+            </div>
         </div>
 
-        <div class="clear"></div>
+        </form>
+    </div>
+</div>
+
+</dd>
+</dl>
+<div class="clear"></div>
+<!--活动	-->
+<div class="shopPromotion gold">
+    <div class="hot">
+        <dt class="tb-metatit">店铺优惠</dt>
+        <div class="gold-list">
+            <p>购物满2件打8折，满3件7折<span>点击领券<i class="am-icon-sort-down"></i></span></p>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div class="coupon">
+        <dt class="tb-metatit">优惠券</dt>
+        <div class="gold-list">
+            <ul>
+                <li>125减5</li>
+                <li>198减10</li>
+                <li>298减20</li>
+            </ul>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="pay">
+    <div class="pay-opt">
+        <a href="home.html"><span class="am-icon-home am-icon-fw">首页</span></a>
+        <a><span class="am-icon-heart am-icon-fw">收藏</span></a>
 
     </div>
+    <li>
+        <div class="clearfix tb-btn tb-btn-buy theme-login">
+            <a id="LikBuy" title="点此按钮到下一步确认购买信息" href="#">立即购买</a>
+        </div>
+    </li>
+    <li>
+        <div class="clearfix tb-btn tb-btn-basket theme-login">
+            <a id="LikBasket" title="加入购物车" href="#"><i></i>加入购物车</a>
+        </div>
+    </li>
+</div>
 
+</div>
+
+<div class="clear"></div>
+
+</div>
     <!--优惠套装-->
     <div class="match">
         <div class="match-title">优惠套装</div>
@@ -1332,7 +1326,5 @@
         </div>
     </div>
 </div>
-
 </body>
-
 </html>
