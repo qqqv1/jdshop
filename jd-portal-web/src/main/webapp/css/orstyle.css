@@ -92,7 +92,7 @@ vertical-align: top;margin-top: 5px;margin-left: -24px;color: #b5b5b5;font-size:
 /*布局*/
 .td-price, .td-number{margin-top: 23px;}
 .th-item,.td-item{width:67%;overflow: hidden;}
-.th-price,.td-price{position:static;width:10%;text-align: center;}
+.th-price,.td-price{position:static;width:20%;text-align: center;}
 .th-number,.td-number{position:static;width:8%;text-align: center;}
 .th-operation,.td-operation{position:static;width:15%;text-align: center;}
 .th-amount,.th-status,.th-change{display: none;}
@@ -123,7 +123,7 @@ ul.td-changeorder {width:20%}
 .th-price,.td-price{width:10%}
 .th-number,.td-number{width:5%}
 .th-operation,.td-operation{width:15%}
-.th-amount,.th-status,.th-change{display:block;width:10%}
+.th-amount,.th-status,.th-change{display:block;width:20%}
 
 
 /*右侧操作定位*/
