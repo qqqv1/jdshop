@@ -7,27 +7,22 @@ import org.apache.ibatis.annotations.Param;
 import java.util.List;
 
 public interface UserService {
-    int countByExample(UserExample example);
 
-    int deleteByExample(UserExample example);
+    int insertUser(User user);
 
-    int deleteByPrimaryKey(String uid);
+    int insertGUIDUser(User user);
 
-    int insert(User record);
+    int updateByUser(User user);
 
-    int insertSelective(User record);
+    List<User> selectByDim(User user);
 
-    List<User> selectByExample(UserExample example);
+    int deleteByUser(User user);
 
-    User selectByPrimaryKey(String uid);
+    List<User> selectAll();
 
-    int updateByExampleSelective(@Param("record") User record, @Param("example") UserExample example);
+    int updateUserByState(List<String> uids, Integer state);
 
-    int updateByExample(@Param("record") User record, @Param("example") UserExample example);
-
-    int updateByPrimaryKeySelective(User record);
-
-    int updateByPrimaryKey(User record);
+    User findByUsername(String username);
 
     User findUserByUsernameAndPassword(String username, String password);
 

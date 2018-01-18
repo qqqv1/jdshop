@@ -41,6 +41,7 @@
         </div>
         <div class="topMessage favorite">
             <div class="menu-hd"><a href="#" target="_top"><i class="am-icon-heart am-icon-fw"></i><span>收藏夹</span></a></div>
+        </div>
     </ul>
 </div>
 
@@ -395,7 +396,7 @@
 
             <div class="price-sum">
                 <span class="txt">合计:</span>
-                <strong class="price">${cart.total }&nbsp;&nbsp;¥<em id="J_Total"></em></strong>
+                <strong class="price">&nbsp;&nbsp;¥<em id="J_Total">${cart.total }</em></strong>
             </div>
 
             <div class="btn-area">
