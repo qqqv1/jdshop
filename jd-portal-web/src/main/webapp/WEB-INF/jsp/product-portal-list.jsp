@@ -682,7 +682,6 @@
             data:{'page':page,'cname':cname},
             type:'POST',
             dataType:'json',
-<<<<<<< HEAD:jd-portal-web/src/main/webapp/WEB-INF/jsp/product-portal-list.jsp
             success:function (products) {
                 $('#product').empty();
                 $.each(products,function (i,product) {
@@ -693,14 +692,6 @@
                     $div=$('<div class="i-pic limit">');
                     $img=$('<div style="padding: 35px"><img src="'+product.pimage+'" style="width: 148px;height: 148px"/></div>'+
                         '                        <p class="title fl">'+product.pname+'</p>\n' +
-=======
-            success:function (data) {
-                $.each(data,function (i,v) {
-                    $li=$('<li></li>');
-                    $div=$('<div class="i-pic limit"></div>');
-                    $img=$('<img src="images/imgsearch1.jpg" /> '+
-                        '                        <p class="title fl">'+v.pname+'</p>\n' +
->>>>>>> a0a661069bab0287447c01dadf6160f9fcfbd4df:jd-portal-web/src/main/webapp/WEB-INF/jsp/search.jsp
                         '                        <p class="price fl">\n' +
                         '                        <b>¥</b>\n' +
                         '                        <strong>'+product.shopPrice+'</strong>\n' +
