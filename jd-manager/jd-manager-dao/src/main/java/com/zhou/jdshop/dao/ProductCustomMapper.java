@@ -12,4 +12,6 @@ public interface ProductCustomMapper {
     List<ProductCustom> productList(@Param("offset") Integer offset,@Param("cname") String cname,@Param("pname") String pname);
 
     int total(@Param("cname") String cname,@Param("pname") String pname);
+
+    ProductCustom selectProductById(String pid);
 }

@@ -21,4 +21,6 @@ public interface ProductService {
     int total(String cname,String pname);
 
     List<ProductCustom> productList(Integer page,String cname,String pname);
+
+    ProductCustom findProductById(String pid);
 }

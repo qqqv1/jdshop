@@ -6,6 +6,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -50,4 +51,16 @@ public class ProductPortalAction {
         return list;
     }
 
+    @ResponseBody
+    @RequestMapping("product")
+    public ProductCustom findProductById(@RequestParam("pid") String pid){
+        ProductCustom productCustom=null;
+        try{
+            productCustom = productService.findProductById(pid);
+        }catch(Exception e){
+            logger.error(e.getMessage(),e);
+            e.printStackTrace();
+        }
+        return productCustom;
+    }
 }

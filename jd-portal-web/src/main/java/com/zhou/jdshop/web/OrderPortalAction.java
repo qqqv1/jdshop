@@ -14,7 +14,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpSession;
 import java.util.Map;
@@ -81,8 +80,8 @@ public class OrderPortalAction {
 
             }else{
                 /**
-             * 第一个购买该商品
-             */
+                 * 第一个购买该商品
+                 */
                 item.setCount(count);//购买数量
                 item.setProduct(p);//商品
                 item.setSubTotal(count*p.getShopPrice());//小计
@@ -111,7 +110,7 @@ public class OrderPortalAction {
 
         }
         //重定向到cart.jsp
-        return "shopcart";
+        return "redirect:shopcart";
     }
 
 
@@ -152,7 +151,7 @@ public class OrderPortalAction {
 
         }
         //重定向到购物车界面
-        return "shopcart";
+        return "redirect:shopcart";
     }
 
     @RequestMapping(value="/addProductOneToCart",method = RequestMethod.POST)
