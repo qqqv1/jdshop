@@ -23,6 +23,7 @@
         <entry key="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/product-portal-list.jsp" value="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp" />
         <entry key="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/proudct-portal-list.jsp" value="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp" />
         <entry key="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/search.jsp" value="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp" />
+        <entry key="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/shopcart.jsp" value="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp" />
       </map>
     </option>
   </component>

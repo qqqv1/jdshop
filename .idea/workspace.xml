@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="a062aa53-3bc9-4631-bc04-4d5a5d265469" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
+=======
+    <list default="true" id="a062aa53-3bc9-4631-bc04-4d5a5d265469" name="Default" comment="" />
+>>>>>>> 6deeb39e838d193a4f1230355ff43e361b830281
     <ignored path="$PROJECT_DIR$/jd-parent/target/" />
     <ignored path="$PROJECT_DIR$/jd-common/target/" />
     <ignored path="$PROJECT_DIR$/jd-manager/target/" />
@@ -22,26 +26,104 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file leaf-file-name="top.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/top.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="94">
               <caret line="40" column="10" lean-forward="true" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
               <folding />
+=======
+      <file leaf-file-name="shopcart.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/shopcart.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="459" column="84" lean-forward="false" selection-start-line="459" selection-start-column="84" selection-end-line="459" selection-end-column="84" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#td#1;n#tr#1;n#table#0;n#div#1;n#div#0;n#tr#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#1;n#td#4;n#tr#1;n#table#0;n#div#1;n#div#0;n#tr#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#14502#18994#0#JSP" expanded="false" />
+                <element signature="e#19099#19618#0#JSP" expanded="false" />
+              </folding>
+>>>>>>> 6deeb39e838d193a4f1230355ff43e361b830281
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="shopcart.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/shopcart.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="8721">
               <caret line="459" column="84" lean-forward="false" selection-start-line="459" selection-start-column="84" selection-end-line="459" selection-end-column="84" />
+=======
+      <file leaf-file-name="product-portal-info.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/product-portal-info.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="747">
+              <caret line="1288" column="15" lean-forward="true" selection-start-line="1288" selection-start-column="15" selection-end-line="1288" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="product2.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/product2.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+>>>>>>> 6deeb39e838d193a4f1230355ff43e361b830281
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+=======
+      <file leaf-file-name="OrderPortalAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/java/com/zhou/jdshop/web/OrderPortalAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="40" column="64" lean-forward="false" selection-start-line="40" selection-start-column="64" selection-end-line="40" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="product-portal-list.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/product-portal-list.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="930">
+              <caret line="670" column="0" lean-forward="false" selection-start-line="670" selection-start-column="0" selection-end-line="670" selection-end-column="0" />
+              <folding>
+                <marker date="1516351417903" expanded="false" signature="20214:20227" ph="..." />
+                <marker date="1516351417903" expanded="true" signature="25079:25086" ph="«" />
+                <marker date="1516351417903" expanded="true" signature="25561:25568" ph="»" />
+                <marker date="1516351417903" expanded="true" signature="26541:26554" ph="..." />
+                <marker date="1516351417903" expanded="true" signature="26593:26619" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+>>>>>>> 6deeb39e838d193a4f1230355ff43e361b830281
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -64,13 +146,14 @@
       <find>#</find>
       <find>margin-left: 10px;</find>
       <find>clearfixLeft</find>
+      <find>../</find>
       <find>am-tabs</find>
       <find>doc-my-tabs</find>
       <find>theme-signin</find>
       <find>theme-po</find>
       <find>theme-option</find>
       <find>getSel</find>
-      <find>../</find>
+      <find>LikBasket</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -84,6 +167,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/category-list.jsp" />
+        <option value="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/product-add.jsp" />
+        <option value="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/category-edit.jsp" />
+        <option value="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/category-add.jsp" />
         <option value="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/product-edit.jsp" />
         <option value="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/product-list.jsp" />
         <option value="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/userAdd.jsp" />
@@ -114,27 +202,22 @@
         <option value="$PROJECT_DIR$/jd-manager/jd-manager-service/src/main/java/com/zhou/jdshop/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/jd-manager/jd-manager-interface/src/main/java/com/zhou/jdshop/service/UserService.java" />
         <option value="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/java/com/zhou/jdshop/web/UserAction.java" />
+        <option value="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/client-information.jsp" />
         <option value="$PROJECT_DIR$/jd-portal-web/src/main/webapp/css/dlstyle.css" />
+        <option value="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/client-register.jsp" />
+        <option value="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/client-login.jsp" />
+        <option value="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/top.jsp" />
+        <option value="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/index.jsp" />
         <option value="$PROJECT_DIR$/jd-manager/jd-manager-interface/src/main/java/com/zhou/jdshop/service/ProductService.java" />
         <option value="$PROJECT_DIR$/jd-manager/jd-manager-dao/src/main/java/com/zhou/jdshop/dao/ProductCustomMapper.java" />
         <option value="$PROJECT_DIR$/jd-manager/jd-manager-service/src/main/java/com/zhou/jdshop/service/impl/ProductServiceImpl.java" />
         <option value="$PROJECT_DIR$/jd-manager/jd-manager-dao/src/main/java/com/zhou/jdshop/dao/ProductCustomMapper.xml" />
         <option value="$PROJECT_DIR$/jd-portal-web/src/main/java/com/zhou/jdshop/web/ProductPortalAction.java" />
-        <option value="$PROJECT_DIR$/jd-portal-web/src/main/java/com/zhou/jdshop/web/OrderPortalAction.java" />
-        <option value="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/top.jsp" />
-        <option value="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/guide.jsp" />
-        <option value="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/bottom.jsp" />
-        <option value="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/pay.jsp" />
-        <option value="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/order.jsp" />
-        <option value="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/client-register.jsp" />
-        <option value="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/banner.jsp" />
-        <option value="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/product-portal-list.jsp" />
-        <option value="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/index.jsp" />
-        <option value="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/client-login.jsp" />
-        <option value="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/sort.jsp" />
-        <option value="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/shopcart.jsp" />
-        <option value="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/client-information.jsp" />
         <option value="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/product-portal-info.jsp" />
+        <option value="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/product-portal-list.jsp" />
+        <option value="$PROJECT_DIR$/jd-portal-web/src/main/java/com/zhou/jdshop/web/OrderPortalAction.java" />
+        <option value="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/product.jsp" />
+        <option value="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/shopcart.jsp" />
       </list>
     </option>
   </component>
@@ -161,7 +244,21 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="jd-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="jd-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="jd-portal-web Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="jd-portal-web Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
@@ -179,8 +276,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="8" />
+    <option name="y" value="2" />
     <option name="width" value="1346" />
     <option name="height" value="689" />
   </component>
@@ -202,11 +299,64 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-manager-pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-manager-pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-manager-pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-manager-pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-manager-pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-manager-pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="vo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="jd-portal-web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -219,6 +369,36 @@
               <item name="jd-portal-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jd-portal-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jd-portal-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jd-portal-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jd-portal-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
@@ -226,14 +406,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jd-portal-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
@@ -264,38 +436,34 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="last_opened_file_path" value="E:/github/git/cmd/git.exe" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\IdeaProjects\jdshop\jd-portal-web\src\main\java\com\zhou\jdshop\web" />
-      <recent name="E:\IdeaProjects\jdshop\jd-portal-web\src\main\webapp\WEB-INF\jsp" />
-      <recent name="E:\IdeaProjects\jdshop\jd-portal-web\src\main\webapp" />
-      <recent name="E:\IdeaProjects\jdshop\jd-portal-web\src\main\webapp\WEB-INF" />
-      <recent name="E:\IdeaProjects\jdshop\jd-portal-web\src\main\resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.zhou.jdshop.web" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\IdeaProjects\jdshop\jd-portal-web\src\main\webapp" />
       <recent name="E:\IdeaProjects\jdshop\jd-portal-web\src\main\webapp\WEB-INF\jsp" />
       <recent name="E:\IdeaProjects\jdshop\jd-manager\jd-manager-web\src\main\webapp\WEB-INF\jsp" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zhou.jdshop.web" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\dfg666\GitHub\jdshop\jd-portal-web\src\main\webapp\WEB-INF\jsp" />
+      <recent name="E:\IdeaProjects\jdshop\jd-portal-web\src\main\java\com\zhou\jdshop\web" />
+      <recent name="E:\IdeaProjects\jdshop\jd-portal-web\src\main\webapp\WEB-INF\jsp" />
+      <recent name="E:\IdeaProjects\jdshop\jd-portal-web\src\main\webapp" />
+      <recent name="E:\IdeaProjects\jdshop\jd-portal-web\src\main\webapp\WEB-INF" />
     </key>
   </component>
   <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
@@ -312,7 +480,27 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/jd-common/target/maven-archiver/pom.properties</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/jd-manager/jd-manager-dao/src/main/java/com/zhou/jdshop/dao/ProductCustomMapper.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/jd-manager/jd-manager-dao/src/main/java/com/zhou/jdshop/dao/ProductCustomMapper.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/jd-manager/jd-manager-dao/target/classes/com/zhou/jdshop/dao/ProductCustomMapper.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/jd-manager/jd-manager-dao/target/classes/com/zhou/jdshop/dao/ProductCustomMapper.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/jd-manager/jd-manager-dao/target/maven-archiver/pom.properties</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/jd-manager/jd-manager-interface/src/main/java/com/zhou/jdshop/service/ProductService.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/jd-manager/jd-manager-interface/target/classes/com/zhou/jdshop/service/ProductService.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/jd-manager/jd-manager-interface/target/maven-archiver/pom.properties</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/maven-archiver/pom.properties</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/jd-manager/jd-manager-service/src/main/java/com/zhou/jdshop/service/impl/ProductServiceImpl.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/jd-manager/jd-manager-service/target/classes/com/zhou/jdshop/service/impl/ProductServiceImpl.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/jd-manager/jd-manager-service/target/maven-archiver/pom.properties</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/jd-portal-web/src/main/java/com/zhou/jdshop/web/OrderPortalAction.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/jd-portal-web/src/main/java/com/zhou/jdshop/web/ProductPortalAction.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/product-portal-info.jsp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/product-portal-list.jsp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/jd-portal-web/target/classes/com/zhou/jdshop/web/ProductPortalAction.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/classes/com/zhou/jdshop/web/ProductPortalAction.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/jsp/product-portal-info.jsp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/jsp/product-portal-list.jsp</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -327,6 +515,14 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="true" />
           <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/jsp/product.jsp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/jd-portal-web/target/tomcat/conf/logging.properties</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/jd-portal-web/target/tomcat/conf/tomcat-users.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/jd-portal-web/target/tomcat/conf/web.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/jd-portal-web/target/tomcat/work/Tomcat/localhost/jdshop/org/apache/jsp/WEB_002dINF/jsp/product_002dportal_002dinfo_jsp.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/jd-portal-web/target/tomcat/work/Tomcat/localhost/jdshop/org/apache/jsp/WEB_002dINF/jsp/product_002dportal_002dinfo_jsp.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/jd-portal-web/target/tomcat/work/Tomcat/localhost/jdshop/org/apache/jsp/WEB_002dINF/jsp/product_002dportal_002dlist_jsp.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/jd-portal-web/target/tomcat/work/Tomcat/localhost/jdshop/org/apache/jsp/WEB_002dINF/jsp/top_jsp.class</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Restored" />
@@ -525,30 +721,33 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="91414000" />
+=======
+    <option name="totallyTimeSpent" value="86004000" />
+>>>>>>> 6deeb39e838d193a4f1230355ff43e361b830281
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998326" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5028653" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22492836" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24629879" sideWeight="0.491404" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.49713466" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283082" sideWeight="0.508596" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18532526" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6968174" sideWeight="0.491404" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998326" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998326" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.247851" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24810892" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2496112" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24886535" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -597,11 +796,26 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="12" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/vo/ProductCustom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5/structural.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="31" column="18" lean-forward="false" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/js/jquery.flexslider.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-684">
@@ -616,7 +830,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="66" column="16" lean-forward="true" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -633,6 +846,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-141">
           <caret line="397" column="15" lean-forward="false" selection-start-line="397" selection-start-column="15" selection-end-line="397" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/pay.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="336" column="0" lean-forward="false" selection-start-line="336" selection-start-column="0" selection-end-line="336" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -654,7 +875,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="24" column="93" lean-forward="true" selection-start-line="24" selection-start-column="93" selection-end-line="24" selection-end-column="93" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -662,9 +882,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="607">
           <caret line="44" column="11" lean-forward="false" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="11" />
-          <folding>
-            <marker date="1516264802355" expanded="true" signature="340:410" ph="select * fro... user" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -672,7 +889,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -713,6 +929,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/client-information.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1191">
+          <caret line="77" column="8" lean-forward="false" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/AmazeUI-2.4.2/assets/js/amazeui.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
@@ -735,10 +959,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/client-login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="82" column="32" lean-forward="true" selection-start-line="82" selection-start-column="32" selection-end-line="82" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/client-register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="78" column="37" lean-forward="true" selection-start-line="78" selection-start-column="37" selection-end-line="78" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/order.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1976">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/java/com/zhou/jdshop/web/IndexAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="24" column="33" lean-forward="false" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -762,29 +1016,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
           <caret line="171" column="54" lean-forward="true" selection-start-line="171" selection-start-column="54" selection-end-line="171" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.IntelliJIdea2017.2/system/extResources/b36fadae_mybatis-3-mapper.dtd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="240" column="0" lean-forward="false" selection-start-line="240" selection-start-column="0" selection-end-line="241" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/.IntelliJIdea2017.2/system/extResources/b36fadae_mybatis-3-mapper.dtd" />
     <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-dao/src/main/java/com/zhou/jdshop/dao/ProductCustomMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="58" column="23" lean-forward="false" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
-          <folding>
-            <marker date="1516324498085" expanded="true" signature="1373:1517" ph="select from product" />
-            <marker date="1516324498085" expanded="true" signature="1597:1741" ph="select from product" />
-            <marker date="1516324498085" expanded="true" signature="1597:1924" ph="select from product" />
-            <marker date="1516324498085" expanded="true" signature="1989:2261" ph="select count... product" />
-            <marker date="1516324498085" expanded="true" signature="2347:2499" ph="select from product" />
-            <marker date="1516324498085" expanded="true" signature="2347:2514" ph="select from product" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -808,16 +1047,6 @@
         <state relative-caret-position="282">
           <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="28" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/java/com/zhou/jdshop/web/OrderPortalAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="36" column="26" lean-forward="false" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -847,12 +1076,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="15" column="48" lean-forward="false" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/shopcart2.jsp" />
     <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/product2.jsp" />
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/product-list.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="773">
@@ -901,37 +1130,56 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/order.jsp">
+=======
+    <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/top.jsp">
+>>>>>>> 6deeb39e838d193a4f1230355ff43e361b830281
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="60" column="44" lean-forward="false" selection-start-line="60" selection-start-column="44" selection-end-line="60" selection-end-column="44" />
+        <state relative-caret-position="346">
+          <caret line="52" column="83" lean-forward="false" selection-start-line="52" selection-start-column="83" selection-end-line="52" selection-end-column="83" />
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/product-portal-list.jsp">
+=======
+    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/product-list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="34" column="40" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="40" />
+        <state relative-caret-position="773">
+          <caret line="93" column="22" lean-forward="false" selection-start-line="93" selection-start-column="12" selection-end-line="93" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/gongju/bookstrap-table-src/bootstrap-table.js" />
+    <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/shopcart.jsp">
+>>>>>>> 6deeb39e838d193a4f1230355ff43e361b830281
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="459" column="84" lean-forward="false" selection-start-line="459" selection-start-column="84" selection-end-line="459" selection-end-column="84" />
           <folding>
-            <marker date="1516352769514" expanded="true" signature="18098:18105" ph="«" />
-            <marker date="1516352769514" expanded="true" signature="18580:18587" ph="»" />
-            <marker date="1516352769514" expanded="true" signature="19560:19573" ph="..." />
-            <marker date="1516352769514" expanded="true" signature="19612:19638" ph="..." />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#td#1;n#tr#1;n#table#0;n#div#1;n#div#0;n#tr#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#1;n#td#4;n#tr#1;n#table#0;n#div#1;n#div#0;n#tr#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#14502#18994#0#JSP" expanded="false" />
+            <element signature="e#19099#19618#0#JSP" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/sort.jsp">
+    <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/product-portal-info.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-          <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-          <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        <state relative-caret-position="747">
+          <caret line="1288" column="15" lean-forward="true" selection-start-line="1288" selection-start-column="15" selection-end-line="1288" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/client-information.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -946,27 +1194,57 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="60" column="20" lean-forward="true" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
+=======
+    <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/product2.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+>>>>>>> 6deeb39e838d193a4f1230355ff43e361b830281
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/client-login.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1329">
           <caret line="70" column="18" lean-forward="false" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="18" />
           <folding />
+=======
+    <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/java/com/zhou/jdshop/web/OrderPortalAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="40" column="64" lean-forward="false" selection-start-line="40" selection-start-column="64" selection-end-line="40" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+>>>>>>> 6deeb39e838d193a4f1230355ff43e361b830281
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/product-portal-info.jsp">
+    <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/product-portal-list.jsp">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="773">
           <caret line="268" column="21" lean-forward="true" selection-start-line="268" selection-start-column="21" selection-end-line="268" selection-end-column="21" />
+=======
+        <state relative-caret-position="930">
+          <caret line="670" column="0" lean-forward="false" selection-start-line="670" selection-start-column="0" selection-end-line="670" selection-end-column="0" />
+>>>>>>> 6deeb39e838d193a4f1230355ff43e361b830281
           <folding>
-            <element signature="n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#div#1;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#dd#0;n#dl#1;n#div#1;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1516351417903" expanded="false" signature="20214:20227" ph="..." />
+            <marker date="1516351417903" expanded="true" signature="25079:25086" ph="«" />
+            <marker date="1516351417903" expanded="true" signature="25561:25568" ph="»" />
+            <marker date="1516351417903" expanded="true" signature="26541:26554" ph="..." />
+            <marker date="1516351417903" expanded="true" signature="26593:26619" ph="..." />
           </folding>
         </state>
       </provider>

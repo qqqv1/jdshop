@@ -4,6 +4,7 @@ import com.zhou.jdshop.pojo.po.Product;
 
 import com.zhou.jdshop.pojo.vo.Cart;
 import com.zhou.jdshop.pojo.vo.CartItem;
+import com.zhou.jdshop.pojo.vo.CartOne;
 import com.zhou.jdshop.service.OrderService;
 import com.zhou.jdshop.service.ProductService;
 import org.slf4j.Logger;
@@ -11,7 +12,9 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpSession;
 import java.util.Map;
@@ -150,5 +153,104 @@ public class OrderPortalAction {
         }
         //重定向到购物车界面
         return "redirect:shopcart";
+    }
+
+    @RequestMapping(value="/addProductOneToCart",method = RequestMethod.POST)
+    @ResponseBody
+    public CartOne addProductOneToCart(@RequestParam("pid") String pid, HttpSession session){
+
+        CartOne cartOne = new CartOne();
+        try{
+//            System.out.println(pid+" ");
+
+
+
+            //取出购物车
+            Cart cart = (Cart) session.getAttribute("cart");
+
+            if(cart!=null){
+                //取出map
+                Map<String, CartItem> map = cart.getItems();
+                if(map.containsKey(pid)){
+                    CartItem cartItem = map.get(pid);
+
+                    System.out.println(cartItem.getCount());
+                    cartItem.setCount(cartItem.getCount()+1);
+                    System.out.println(cartItem.getCount());
+
+                    cartItem.setSubTotal(Math.round((cartItem.getSubTotal()+cartItem.getProduct().getShopPrice())*10)/10);
+                    System.out.println(cartItem.getSubTotal());
+
+                    cartOne.setSubTotal(cartItem.getSubTotal());
+
+                    //重新计算总计
+                    cart.setTotal(Math.round((cart.getTotal()+cartItem.getProduct().getShopPrice())*10)/10);
+
+                    cartOne.setTotal(cart.getTotal());
+
+                    System.out.println(cart.getTotal());
+                }
+            }
+            session.setAttribute("cart", cart);
+
+
+
+        }catch (Exception e){
+            logger.error(e.getMessage(),e);
+            e.printStackTrace();
+
+        }
+        //重定向到购物车界面
+        return cartOne;
+    }
+
+    @RequestMapping(value="/reduceProductFromCart",method = RequestMethod.POST)
+    @ResponseBody
+    public CartOne reduceProductFromCart(@RequestParam("pid") String pid, HttpSession session){
+
+        CartOne cartOne = new CartOne();
+        try{
+//            System.out.println(pid+" ");
+
+
+
+            //取出购物车
+            Cart cart = (Cart) session.getAttribute("cart");
+
+            if(cart!=null){
+                //取出map
+                Map<String, CartItem> map = cart.getItems();
+                if(map.containsKey(pid)){
+                    CartItem cartItem = map.get(pid);
+//                if(cartItem.getCount()!=0){
+
+                    cartItem.setCount(cartItem.getCount()-1);
+                    //重新计算小记
+                    cartItem.setSubTotal(Math.round((cartItem.getSubTotal()-cartItem.getProduct().getShopPrice())*10)/10);
+                    System.out.println(cartItem.getSubTotal());
+
+                    cartOne.setSubTotal((cartItem.getSubTotal())*100/100);
+
+                    //重新计算总计
+                    cart.setTotal(Math.round((cart.getTotal()-cartItem.getProduct().getShopPrice())*10)/10);
+
+                    cartOne.setTotal(cart.getTotal()*100/100);
+
+                    System.out.println(cart.getTotal());
+                    }
+
+                }
+//            }
+            session.setAttribute("cart", cart);
+
+
+
+        }catch (Exception e){
+            logger.error(e.getMessage(),e);
+            e.printStackTrace();
+
+        }
+        //重定向到购物车界面
+        return cartOne;
     }
 }

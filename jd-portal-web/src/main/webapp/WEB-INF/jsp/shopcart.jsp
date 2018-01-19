@@ -12,6 +12,7 @@
     <link href="basic/css/demo.css" rel="stylesheet" type="text/css" />
     <link href="css/cartstyle.css" rel="stylesheet" type="text/css" />
     <link href="css/optstyle.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap.min.css?v=3.3.6" rel="stylesheet">
 
     <script type="text/javascript" src="js/jquery.js"></script>
 
@@ -19,7 +20,48 @@
 
 <body>
 
-<jsp:include page="top.jsp"/>
+<!--顶部导航条 -->
+<div class="am-container header">
+    <ul class="message-l">
+        <div class="topMessage">
+            <div class="menu-hd">
+                <a href="#" target="_top" class="h">亲，请登录</a>
+                <a href="#" target="_top">免费注册</a>
+            </div>
+        </div>
+    </ul>
+    <ul class="message-r">
+        <div class="topMessage home">
+            <div class="menu-hd"><a href="#" target="_top" class="h">商城首页</a></div>
+        </div>
+        <div class="topMessage my-shangcheng">
+            <div class="menu-hd MyShangcheng"><a href="#" target="_top"><i class="am-icon-user am-icon-fw"></i>个人中心</a></div>
+        </div>
+        <div class="topMessage mini-cart">
+            <div class="menu-hd"><a id="mc-menu-hd" href="#" target="_top"><i class="am-icon-shopping-cart  am-icon-fw"></i><span>购物车</span><strong id="J_MiniCartNum" class="h">0</strong></a></div>
+        </div>
+        <div class="topMessage favorite">
+            <div class="menu-hd"><a href="#" target="_top"><i class="am-icon-heart am-icon-fw"></i><span>收藏夹</span></a></div>
+        </div>
+    </ul>
+</div>
+
+<!--悬浮搜索框-->
+
+<div class="nav white">
+    <div class="logo"><img src="images/logo.png" /></div>
+    <div class="logoBig">
+        <li><img src="images/logobig.png" /></li>
+    </div>
+
+    <%--<div class="search-bar pr">
+        <a name="index_none_header_sysc" href="#"></a>
+        <form>
+            <input id="searchInput" name="index_none_header_sysc" type="text" placeholder="搜索" autocomplete="off">
+            <input id="ai-topsearch" class="submit am-btn" value="搜索" index="1" type="submit">
+        </form>
+    </div>--%>
+</div>
 
 <div class="clear"></div>
 
@@ -88,7 +130,7 @@
                        </table>--%>
 
 
-                       <table width="100%" border="0" cellspacing="0">
+                       <table width="100%" border="0" cellspacing="0" id="cart" class="table table-striped table-hover">
                                 <c:forEach items="${cart.items }" var="entry">
                                     <tr></tr>
                                     <tr>
@@ -99,9 +141,9 @@
                                         <td width="17%">${entry.value.product.shopPrice}</td>
                                         <td width="25%">
                                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                            <input class="min am-btn" name="" type="button" value="-" />
-                                            <input class="text_box" name="" type="text" value="${entry.value.count }" style="width:30px;" />
-                                            <input class="add am-btn" name="" type="button" value="+" />
+                                            <input class="min am-btn" name="" type="button" value="-" onclick="reduce(${entry.value.product.pid},this)" />
+                                            <input class="text_box" name="" type="text" id="count" value="${entry.value.count }" style="width:30px;" />
+                                            <input class="add am-btn" name="" type="button" value="+" onclick="add(${entry.value.product.pid },this)" />
                                         </td>
                                         <%--<td width="10%">1</td>--%>
                                         <td width="12%">${entry.value.subTotal }元</td>
@@ -357,7 +399,8 @@
 
             <div class="price-sum">
                 <span class="txt">合计:</span>
-                <strong class="price">${cart.total }&nbsp;&nbsp;¥<em id="J_Total"></em></strong>
+                <strong class="price" >&nbsp;&nbsp;¥</strong>
+                <strong class="price" id="price">${cart.total }<em id="J_Total"></em></strong>
             </div>
 
             <div class="btn-area">
@@ -379,75 +422,32 @@
 
     </div>
 
-    <jsp:include page="bottom.jsp"/>
-
-</div>
-
-<!--操作页面，下面这段代码根本没有在页面显示出来-->
-
-<div class="theme-popover-mask"></div>
-
-<div class="theme-popover">
-    <div class="theme-span"></div>
-    <div class="theme-poptit h-title">
-        <a href="javascript:;" title="关闭" class="close">×</a>
+    <div class="footer">
+        <div class="footer-hd">
+            <p>
+                <a href="#">恒望科技</a>
+                <b>|</b>
+                <a href="#">商城首页</a>
+                <b>|</b>
+                <a href="#">支付宝</a>
+                <b>|</b>
+                <a href="#">物流</a>
+            </p>
+        </div>
+        <div class="footer-bd">
+            <p>
+                <a href="#">关于恒望</a>
+                <a href="#">合作伙伴</a>
+                <a href="#">联系我们</a>
+                <a href="#">网站地图</a>
+                <em>© 2015-2025 Hengwang.com 版权所有. 更多模板 <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></em>
+            </p>
+        </div>
     </div>
-    <div class="theme-popbod dform">
-        <form class="theme-signin" name="loginform" action="" method="post">
 
-            <div class="theme-signin-left">
-
-                <li class="theme-options">
-                    <div class="cart-title">颜色：</div>
-                    <ul>
-                        <li class="sku-line selected">12#川南玛瑙<i></i></li>
-                        <li class="sku-line">10#蜜橘色+17#樱花粉<i></i></li>
-                    </ul>
-                </li>
-                <li class="theme-options">
-                    <div class="cart-title">包装：</div>
-                    <ul>
-                        <li class="sku-line selected">包装：裸装<i></i></li>
-                        <li class="sku-line">两支手袋装（送彩带）<i></i></li>
-                    </ul>
-                </li>
-                <div class="theme-options">
-                    <div class="cart-title number">数量</div>
-                    <dd>
-                        <input class="min am-btn am-btn-default" name="" type="button" value="-" />
-                        <input class="text_box" name="" type="text" value="1" style="width:30px;" />
-                        <input class="add am-btn am-btn-default" name="" type="button" value="+" />
-                        <span  class="tb-hidden">库存<span class="stock">1000</span>件</span>
-                    </dd>
-
-                </div>
-                <div class="clear"></div>
-                <div class="btn-op">
-                    <div class="btn am-btn am-btn-warning">确认</div>
-                    <div class="btn close am-btn am-btn-warning">取消</div>
-                </div>
-
-            </div>
-            <div class="theme-signin-right">
-                <div class="img-info">
-                    <img src="images/kouhong.jpg_80x80.jpg" />
-                </div>
-                <div class="text-info">
-                    <span class="J_Price price-now">¥39.00</span>
-                    <span id="Stock" class="tb-hidden">库存<span class="stock">1000</span>件</span>
-                </div>
-            </div>
-
-        </form>
-    </div>
 </div>
-<!--引导 -->
-<div class="navCir">
-    <li><a href="index"><i class="am-icon-home "></i>首页</a></li>
-    <li><a href="sort"><i class="am-icon-list"></i>分类</a></li>
-    <li class="active"><a href="shopcart"><i class="am-icon-shopping-basket"></i>购物车</a></li>
-    <li><a href="client-information"><i class="am-icon-user"></i>我的</a></li>
-</div>
+
+
 
 <script>
 
@@ -457,9 +457,63 @@
     }
 
     function goonShopping(){
-        window.location.href="${pageContext.request.contextPath}/product-protal-list";
+        window.location.href="${pageContext.request.contextPath}/product-portal-list";
 
     }
+
+    function reduce(pid,elm){
+        var rows1=elm.parentNode.parentNode.rowIndex;
+
+        if(parseInt($('#cart tr:eq('+rows1+') td:eq(4) ').find('input[class*=text_box]').val())!=0){
+            $.ajax({
+                url:"reduceProductFromCart",
+                data:{'pid':pid},
+                type:'post',
+                success:function (data) {
+//                debugger;
+//                $('#subtotal').val(11);
+                    console.log(data);
+//                $('#subtotal').text(data.subTotal);
+//                $('#price').text(data.total);
+
+                    var rows=elm.parentNode.parentNode.rowIndex;
+//                td:eq(5)
+                    /*$('#cart tr:eq('+rows+') td:eq(5) ').html((data.subTotal).toFixed(1));
+                    $('#price').text((data.total).toFixed(1));*/
+                    $('#cart tr:eq('+rows+') td:eq(5) ').html((data.subTotal).toFixed(1));
+                    $('#price').text((data.total).toFixed(1));
+
+
+                }
+            });
+        }
+    }
+
+    function add(pid,elm){
+//        console.log(pid)
+
+
+        $.ajax({
+            url:"addProductOneToCart",
+            data:{'pid':pid},
+            type:'post',
+            success:function (data) {
+//                debugger;
+//                $('#subtotal').val(11);
+                console.log(data);
+//                $('#subtotal').text(data.subTotal);
+//                $('#price').text(data.total);
+                var rows=elm.parentNode.parentNode.rowIndex;
+//                td:eq(5)
+                /*$('#cart tr:eq('+rows+') td:eq(5) ').html((data.subTotal).toFixed(1));
+                $('#price').text((data.total).toFixed(1));*/
+                $('#cart tr:eq('+rows+') td:eq(5) ').html((data.subTotal).toFixed(1));
+                $('#price').text((data.total).toFixed(1));
+            }
+
+        });
+    }
+
 
 
 </script>
