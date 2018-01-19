@@ -150,3 +150,15 @@
 0:0:0:0:0:0:0:1 - - [19/Jan/2018:17:24:55 +0800] "GET /jdshop/addProductToCart?pid=1&count=1 HTTP/1.1" 302 - http-bio-8081-exec-7 1065
 0:0:0:0:0:0:0:1 - - [19/Jan/2018:17:24:55 +0800] "GET /jdshop/shopcart HTTP/1.1" 200 10982 http-bio-8081-exec-7 737
 0:0:0:0:0:0:0:1 - - [19/Jan/2018:17:25:02 +0800] "POST /jdshop/product HTTP/1.1" 200 287 http-bio-8081-exec-8 24
+0:0:0:0:0:0:0:1 - - [19/Jan/2018:17:43:17 +0800] "GET /jdshop/shopcart HTTP/1.1" 200 10982 http-bio-8081-exec-10 9
+0:0:0:0:0:0:0:1 - - [19/Jan/2018:17:43:19 +0800] "GET /jdshop/shopcart HTTP/1.1" 200 10982 http-bio-8081-exec-10 20
+0:0:0:0:0:0:0:1 - - [19/Jan/2018:17:43:40 +0800] "GET /jdshop/index HTTP/1.1" 200 127863 http-bio-8081-exec-6 105
+0:0:0:0:0:0:0:1 - - [19/Jan/2018:17:43:41 +0800] "GET /jdshop/basic/js/jquery.min.map HTTP/1.1" 404 949 http-bio-8081-exec-6 12
+0:0:0:0:0:0:0:1 - - [19/Jan/2018:17:53:33 +0800] "GET /jdshop/product-portal-list?pname= HTTP/1.1" 200 21555 http-bio-8081-exec-4 51
+0:0:0:0:0:0:0:1 - - [19/Jan/2018:17:53:34 +0800] "POST /jdshop/pageTotal HTTP/1.1" 200 12 http-bio-8081-exec-4 98
+0:0:0:0:0:0:0:1 - - [19/Jan/2018:17:53:34 +0800] "POST /jdshop/productList HTTP/1.1" 200 4185 http-bio-8081-exec-8 106
+0:0:0:0:0:0:0:1 - - [19/Jan/2018:17:53:34 +0800] "GET /jdshop/categoryList HTTP/1.1" 200 654 http-bio-8081-exec-9 107
+0:0:0:0:0:0:0:1 - - [19/Jan/2018:17:53:42 +0800] "POST /jdshop/productList HTTP/1.1" 200 812 http-bio-8081-exec-2 34
+0:0:0:0:0:0:0:1 - - [19/Jan/2018:17:53:43 +0800] "POST /jdshop/productList HTTP/1.1" 200 4185 http-bio-8081-exec-2 40
+0:0:0:0:0:0:0:1 - - [19/Jan/2018:17:54:34 +0800] "GET /jdshop/index HTTP/1.1" 200 127863 http-bio-8081-exec-1 17
+0:0:0:0:0:0:0:1 - - [19/Jan/2018:17:54:35 +0800] "GET /jdshop/basic/js/jquery.min.map HTTP/1.1" 404 949 http-bio-8081-exec-1 4
