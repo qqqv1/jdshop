@@ -1,61 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a062aa53-3bc9-4631-bc04-4d5a5d265469" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/vo/CartOne.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/shopcart2.jsp" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-common/target/jd-common-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/jd-common/target/jd-common-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/jd-manager-dao-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/jd-manager-dao-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-interface/target/jd-manager-interface-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-interface/target/jd-manager-interface-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/jd-manager-pojo-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/jd-manager-pojo-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-service/target/jd-manager-service-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-service/target/jd-manager-service-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/tt-manager-web.war" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/tt-manager-web.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/tt-manager-web/WEB-INF/lib/jd-common-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/tt-manager-web/WEB-INF/lib/jd-common-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/tt-manager-web/WEB-INF/lib/jd-manager-dao-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/tt-manager-web/WEB-INF/lib/jd-manager-dao-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/tt-manager-web/WEB-INF/lib/jd-manager-interface-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/tt-manager-web/WEB-INF/lib/jd-manager-interface-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/tt-manager-web/WEB-INF/lib/jd-manager-pojo-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/tt-manager-web/WEB-INF/lib/jd-manager-pojo-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/tt-manager-web/WEB-INF/lib/jd-manager-service-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/tt-manager-web/WEB-INF/lib/jd-manager-service-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-portal-web/target/classes/com/zhou/jdshop/web/OrderPortalAction.class" afterPath="$PROJECT_DIR$/jd-portal-web/target/classes/com/zhou/jdshop/web/OrderPortalAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web.war" afterPath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/classes/com/zhou/jdshop/web/OrderPortalAction.class" afterPath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/classes/com/zhou/jdshop/web/OrderPortalAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/lib/jd-common-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/lib/jd-common-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/lib/jd-manager-dao-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/lib/jd-manager-dao-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/lib/jd-manager-interface-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/lib/jd-manager-interface-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/lib/jd-manager-pojo-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/lib/jd-manager-pojo-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/lib/jd-manager-service-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/lib/jd-manager-service-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-portal-web/target/tomcat/work/Tomcat/localhost/jdshop/org/apache/jsp/WEB_002dINF/jsp/index_jsp.class" afterPath="$PROJECT_DIR$/jd-portal-web/target/tomcat/work/Tomcat/localhost/jdshop/org/apache/jsp/WEB_002dINF/jsp/index_jsp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/webContexts.xml" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/jd-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/jd-manager-dao.iml" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-dao/jd-manager-dao.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-interface/jd-manager-interface.iml" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-interface/jd-manager-interface.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/jd-manager-pojo.iml" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/jd-manager-pojo.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-service/jd-manager-service.iml" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-service/jd-manager-service.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/jd-manager-web.iml" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/jd-manager-web.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager.iml" afterPath="$PROJECT_DIR$/jd-manager/jd-manager.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-portal-web/jd-portal-web.iml" afterPath="$PROJECT_DIR$/jd-portal-web/jd-portal-web.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-portal-web/src/main/java/com/zhou/jdshop/web/OrderPortalAction.java" afterPath="$PROJECT_DIR$/jd-portal-web/src/main/java/com/zhou/jdshop/web/OrderPortalAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/product.jsp" afterPath="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/product.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/shopcart.jsp" afterPath="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/shopcart.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/jsp/index.jsp" afterPath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/jsp/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/jsp/product-portal-list.jsp" afterPath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/jsp/product-portal-list.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/jsp/shopcart.jsp" afterPath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/jsp/shopcart.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/jsp/shopcart2.jsp" afterPath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/jsp/shopcart2.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-portal-web/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/jd-portal-web/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-portal-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/jd-portal-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-portal-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/jd-portal-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-portal-web/target/tomcat/logs/access_log.2018-01-18" afterPath="$PROJECT_DIR$/jd-portal-web/target/tomcat/logs/access_log.2018-01-18" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-portal-web/target/tomcat/work/Tomcat/localhost/jdshop/org/apache/jsp/WEB_002dINF/jsp/index_jsp.java" afterPath="$PROJECT_DIR$/jd-portal-web/target/tomcat/work/Tomcat/localhost/jdshop/org/apache/jsp/WEB_002dINF/jsp/index_jsp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-portal-web/target/tomcat/work/Tomcat/localhost/jdshop/org/apache/jsp/WEB_002dINF/jsp/product_002dportal_002dlist_jsp.java" afterPath="$PROJECT_DIR$/jd-portal-web/target/tomcat/work/Tomcat/localhost/jdshop/org/apache/jsp/WEB_002dINF/jsp/product_002dportal_002dlist_jsp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-portal-web/target/tomcat/work/Tomcat/localhost/jdshop/org/apache/jsp/WEB_002dINF/jsp/top_jsp.java" afterPath="$PROJECT_DIR$/jd-portal-web/target/tomcat/work/Tomcat/localhost/jdshop/org/apache/jsp/WEB_002dINF/jsp/top_jsp.java" />
-    </list>
+    <list default="true" id="a062aa53-3bc9-4631-bc04-4d5a5d265469" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/jd-parent/target/" />
     <ignored path="$PROJECT_DIR$/jd-common/target/" />
     <ignored path="$PROJECT_DIR$/jd-manager/target/" />
@@ -718,12 +664,12 @@
       <workItem from="1516149627573" duration="14356000" />
       <workItem from="1516236021196" duration="13537000" />
       <workItem from="1516322833664" duration="16556000" />
-      <workItem from="1516344032031" duration="6805000" />
+      <workItem from="1516344032031" duration="6919000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97933000" />
+    <option name="totallyTimeSpent" value="98047000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
