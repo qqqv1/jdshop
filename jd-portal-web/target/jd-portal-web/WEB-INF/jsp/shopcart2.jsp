@@ -41,7 +41,6 @@
         </div>
         <div class="topMessage favorite">
             <div class="menu-hd"><a href="#" target="_top"><i class="am-icon-heart am-icon-fw"></i><span>收藏夹</span></a></div>
-        </div>
     </ul>
 </div>
 
@@ -74,19 +73,19 @@
 
                     </div>
                 </div>
-                <div class="th th-item" >
+                <div class="th th-item" style="width: 30%">
                     <div class="td-inner" >商品信息</div>
                 </div>
-                <div class="th th-price">
+                <div class="th th-price" style="width: 20%">
                     <div class="td-inner">单价</div>
                 </div>
-                <div class="th th-amount">
+                <div class="th th-amount" style="width: 25%">
                     <div class="td-inner">数量</div>
                 </div>
-                <div class="th th-sum">
+                <div class="th th-sum" style="width: 15%">
                     <div class="td-inner">金额</div>
                 </div>
-                <div class="th th-op">
+                <div class="th th-op" style="width: 10%">
                     <div class="td-inner">操作</div>
                 </div>
             </div>
@@ -132,20 +131,22 @@
                        <table width="100%" border="0" cellspacing="0">
                                 <c:forEach items="${cart.items }" var="entry">
                                     <tr></tr>
-                                    <tr>
+                                    <tr id="${entry.value.product.pid }">
                                         <td></td>
-                                        <td width="20%"><img style="width:60px;height:60px;" alt="" src="${entry.value.product.pimage}"></td>
-                                        <td width="34%">${entry.value.product.pname }</td>
+                                        <td width="15%"><img style="width:60px;height:60px;" alt="" src="${entry.value.product.pimage}"></td>
+                                        <td width="23%">${entry.value.product.pname }</td>
 
-                                        <td width="10%">${entry.value.product.shopPrice}</td>
-                                        <td width="16%">
+                                        <td width="17%">${entry.value.product.shopPrice}</td>
+                                        <td width="25%">
                                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                                ${entry.value.count }
+                                            <input class="min am-btn" name="" type="button" value="-" onclick="reduce(${entry.value.product.pid })" />
+                                            <input class="text_box" name="" readonly="readonly" type="text" value="${entry.value.count }" style="width:30px;" />
+                                            <input class="add am-btn" name="" type="button" value="+" onclick="add(${entry.value.product.pid })" />
                                         </td>
                                         <%--<td width="10%">1</td>--%>
-                                        <td width="10%">${entry.value.subTotal }元</td>
+                                        <td width="12%">${entry.value.subTotal }元</td>
 
-                                        <td width="10%">&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <td width="8%">&nbsp;&nbsp;&nbsp;&nbsp;
                                             <a href="javascript:deleteProductFromCart(${entry.value.product.pid })" data-point-url="#" class="delete">
                                                 删除</a></td>
                                     </tr>
@@ -396,7 +397,7 @@
 
             <div class="price-sum">
                 <span class="txt">合计:</span>
-                <strong class="price">&nbsp;&nbsp;¥<em id="J_Total">${cart.total }</em></strong>
+                <strong class="price" id="price">&nbsp;&nbsp;¥&nbsp;&nbsp${cart.total }<em id="J_Total"></em></strong>
             </div>
 
             <div class="btn-area">
@@ -519,6 +520,25 @@
     function goonShopping(){
         window.location.href="${pageContext.request.contextPath}/product";
 
+    }
+
+    function reduce(pid){
+        console.log(pid)
+
+        $.ajax({
+            url:"reduceProductFromCart",
+            data:{'pid':pid},
+            type:'post',
+        });
+    }
+
+    function add(pid){
+        console.log(pid)
+        $.ajax({
+            url:"addProductOneToCart",
+            data:{'pid':pid},
+            type:'post',
+        });
     }
 
 

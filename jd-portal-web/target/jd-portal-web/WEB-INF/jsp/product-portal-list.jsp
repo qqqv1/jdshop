@@ -609,9 +609,9 @@
             success:function(total){
                 var pageTotal=1;
                 if(total % 12 === 0) {
-                    pageTotal = total / 12;
+                    pageTotal = parseInt(total / 12);
                 }else{
-                    pageTotal = total / 12 +1;
+                    pageTotal = parseInt(total / 12) +1;
                 }
                 $('#searchNum').html(total);
                 $('#page').empty();
@@ -637,7 +637,7 @@
     }
     // 查询商品
     function displayProduct(page,cname){
-        var $pname=$('searchInput').val();
+        var $pname=$('#searchInput').val();
         $.ajax({
             url:'productList',
             data:{'page':page,'cname':cname,'pname':$pname},

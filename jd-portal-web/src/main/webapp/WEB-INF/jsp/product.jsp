@@ -31,14 +31,14 @@
     $(function(){
 
         $("#count").click(function(){
-            location.href="${pageContext.request.contextPath}/addProductToCart?pid="+1+"&count="+1;
+            location.href="${pageContext.request.contextPath}/addProductToCart?pid="+5+"&count="+1;
         });
     });
 
     $(function(){
 
         $("#count2").click(function(){
-            location.href="${pageContext.request.contextPath}/addProductToCart?pid="+2+"&count="+1;
+            location.href="${pageContext.request.contextPath}/addProductToCart?pid="+6+"&count="+1;
         });
     });
 
