@@ -167,4 +167,16 @@ public class ProductServiceImpl implements ProductService {
         }
         return list;
     }
+
+    @Override
+    public ProductCustom findProductById(String pid) {
+        ProductCustom productCustom=new ProductCustom();
+        try{
+            productCustom = productCustomDao.selectProductById(pid);
+        }catch(Exception e){
+            logger.error(e.getMessage(),e);
+            e.printStackTrace();
+        }
+        return productCustom;
+    }
 }

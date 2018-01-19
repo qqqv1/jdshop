@@ -41,6 +41,7 @@
         </div>
         <div class="topMessage favorite">
             <div class="menu-hd"><a href="#" target="_top"><i class="am-icon-heart am-icon-fw"></i><span>收藏夹</span></a></div>
+        </div>
     </ul>
 </div>
 
@@ -504,10 +505,10 @@
 </div>
 <!--引导 -->
 <div class="navCir">
-    <li><a href="home.html"><i class="am-icon-home "></i>首页</a></li>
-    <li><a href="sort.html"><i class="am-icon-list"></i>分类</a></li>
-    <li class="active"><a href="shopcart.html"><i class="am-icon-shopping-basket"></i>购物车</a></li>
-    <li><a href="person/index.html"><i class="am-icon-user"></i>我的</a></li>
+    <li><a href="index"><i class="am-icon-home "></i>首页</a></li>
+    <li><a href="sort"><i class="am-icon-list"></i>分类</a></li>
+    <li class="active"><a href="shopcart"><i class="am-icon-shopping-basket"></i>购物车</a></li>
+    <li><a href="client-information"><i class="am-icon-user"></i>我的</a></li>
 </div>
 
 <script>
