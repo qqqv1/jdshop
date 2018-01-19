@@ -44,7 +44,6 @@
             <div class="menu-hd"><a href="#" target="_top"><i class="am-icon-heart am-icon-fw"></i><span>收藏夹</span></a></div>
         </div>
     </ul>
-
 </div>
 
 <!--悬浮搜索框-->
@@ -55,7 +54,7 @@
         <li><img src="images/logobig.png" /></li>
     </div>
 
-<%--    <div class="search-bar pr">
+    <%--<div class="search-bar pr">
         <a name="index_none_header_sysc" href="#"></a>
         <form>
             <input id="searchInput" name="index_none_header_sysc" type="text" placeholder="搜索" autocomplete="off">
@@ -133,6 +132,7 @@
 
                        <table width="100%" border="0" cellspacing="0" id="cart" class="table table-striped table-hover">
                                 <c:forEach items="${cart.items }" var="entry">
+                                    <tr></tr>
                                     <tr>
                                         <td></td>
                                         <td width="15%"><img style="width:60px;height:60px;" alt="" src="${entry.value.product.pimage}"></td>
@@ -141,12 +141,12 @@
                                         <td width="17%">${entry.value.product.shopPrice}</td>
                                         <td width="25%">
                                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                            <input class="min am-btn" name="" type="button" value="-" onclick="reduce(${entry.value.product.pid},this)"/>
-                                            <input class="text_box" name="" id="count" type="text" value="${entry.value.count }" style="width:30px;" />
-                                            <input class="add am-btn" name="" type="button" value="+" onclick="add(${entry.value.product.pid },this)"/>
+                                            <input class="min am-btn" name="" type="button" value="-" onclick="reduce(${entry.value.product.pid},this)" />
+                                            <input class="text_box" name="" type="text" id="count" value="${entry.value.count }" style="width:30px;" />
+                                            <input class="add am-btn" name="" type="button" value="+" onclick="add(${entry.value.product.pid },this)" />
                                         </td>
                                         <%--<td width="10%">1</td>--%>
-                                        <td width="12%">${entry.value.subTotal }</td>
+                                        <td width="12%">${entry.value.subTotal }元</td>
 
                                         <td width="8%">&nbsp;&nbsp;&nbsp;&nbsp;
                                             <a href="javascript:deleteProductFromCart(${entry.value.product.pid })" data-point-url="#" class="delete">
@@ -457,7 +457,7 @@
     }
 
     function goonShopping(){
-        window.location.href="${pageContext.request.contextPath}/product";
+        window.location.href="${pageContext.request.contextPath}/product-portal-list";
 
     }
 
@@ -465,27 +465,27 @@
         var rows1=elm.parentNode.parentNode.rowIndex;
 
         if(parseInt($('#cart tr:eq('+rows1+') td:eq(4) ').find('input[class*=text_box]').val())!=0){
-        $.ajax({
-            url:"reduceProductFromCart",
-            data:{'pid':pid},
-            type:'post',
-            success:function (data) {
+            $.ajax({
+                url:"reduceProductFromCart",
+                data:{'pid':pid},
+                type:'post',
+                success:function (data) {
 //                debugger;
 //                $('#subtotal').val(11);
-                console.log(data);
+                    console.log(data);
 //                $('#subtotal').text(data.subTotal);
 //                $('#price').text(data.total);
 
-                var rows=elm.parentNode.parentNode.rowIndex;
+                    var rows=elm.parentNode.parentNode.rowIndex;
 //                td:eq(5)
-                /*$('#cart tr:eq('+rows+') td:eq(5) ').html((data.subTotal).toFixed(1));
-                $('#price').text((data.total).toFixed(1));*/
-                $('#cart tr:eq('+rows+') td:eq(5) ').html((data.subTotal).toFixed(1));
-                $('#price').text((data.total).toFixed(1));
+                    /*$('#cart tr:eq('+rows+') td:eq(5) ').html((data.subTotal).toFixed(1));
+                    $('#price').text((data.total).toFixed(1));*/
+                    $('#cart tr:eq('+rows+') td:eq(5) ').html((data.subTotal).toFixed(1));
+                    $('#price').text((data.total).toFixed(1));
 
 
-            }
-        });
+                }
+            });
         }
     }
 
@@ -513,6 +513,8 @@
 
         });
     }
+
+
 
 </script>
 </body>
