@@ -31,25 +31,10 @@
 <div class="listMain">
 
     <!--分类-->
-    <div class="nav-table">
-        <div class="long-title"><span class="all-goods">全部分类</span></div>
-        <div class="nav-cont">
-            <ul>
-                <li class="index"><a href="#">首页</a></li>
-                <li class="qc"><a href="#">闪购</a></li>
-                <li class="qc"><a href="#">限时抢</a></li>
-                <li class="qc"><a href="#">团购</a></li>
-                <li class="qc last"><a href="#">大包装</a></li>
-            </ul>
-            <div class="nav-extra">
-                <i class="am-icon-user-secret am-icon-md nav-user"></i><b></b>我的福利
-                <i class="am-icon-angle-right" style="padding-left: 10px;"></i>
-            </div>
-        </div>
-    </div>
+    <jsp:include page="banner.jsp"/>
     <ol class="am-breadcrumb am-breadcrumb-slash">
-        <li><a href="#">首页</a></li>
-        <li><a href="#">分类</a></li>
+        <li><a href="index">首页</a></li>
+        <li><a href="product-portal-list">分类</a></li>
         <li class="am-active">内容</li>
     </ol>
     <script type="text/javascript">
@@ -269,17 +254,17 @@
 
             <div class="pay">
                 <div class="pay-opt">
-                    <a href="home.html"><span class="am-icon-home am-icon-fw">首页</span></a>
+                    <a href="home"><span class="am-icon-home am-icon-fw">首页</span></a>
                     <a><span class="am-icon-heart am-icon-fw">收藏</span></a>
                 </div>
                 <li>
                     <div class="clearfix tb-btn tb-btn-buy theme-login">
-                        <a id="LikBuy" title="点此按钮到下一步确认购买信息" href="#">立即购买</a>
+                        <a id="LikBuy" title="点此按钮到下一步确认购买信息" href="javascript:void(0)">立即购买</a>
                     </div>
                 </li>
                 <li>
                     <div class="clearfix tb-btn tb-btn-basket theme-login">
-                        <a id="LikBasket" title="加入购物车" href="#"><i></i>加入购物车</a>
+                        <a id="LikBasket" title="加入购物车" href="javascript:void(0)"><i></i>加入购物车</a>
                     </div>
                 </li>
             </div>
@@ -1087,191 +1072,12 @@
 
             <div class="clear"></div>
 
-            <div class="footer">
-                <div class="footer-hd">
-                    <p>
-                        <a href="#">恒望科技</a>
-                        <b>|</b>
-                        <a href="#">商城首页</a>
-                        <b>|</b>
-                        <a href="#">支付宝</a>
-                        <b>|</b>
-                        <a href="#">物流</a>
-                    </p>
-                </div>
-                <div class="footer-bd">
-                    <p>
-                        <a href="#">关于恒望</a>
-                        <a href="#">合作伙伴</a>
-                        <a href="#">联系我们</a>
-                        <a href="#">网站地图</a>
-                        <em>© 2015-2025 Hengwang.com 版权所有. 更多模板 <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></em>
-                    </p>
-                </div>
-            </div>
+            <jsp:include page="bottom.jsp"/>
         </div>
     </div>
 </div>
 
-<!--菜单 -->
-<div class=tip>
-    <div id="sidebar">
-        <div id="wrap">
-            <div id="prof" class="item">
-                <a href="#">
-                    <span class="setting"></span>
-                </a>
-                <div class="ibar_login_box status_login">
-                    <div class="avatar_box">
-                        <p class="avatar_imgbox"><img src="images/no-img_mid_.jpg" /></p>
-                        <ul class="user_info">
-                            <li>用户名：sl1903</li>
-                            <li>级&nbsp;别：普通会员</li>
-                        </ul>
-                    </div>
-                    <div class="login_btnbox">
-                        <a href="#" class="login_order">我的订单</a>
-                        <a href="#" class="login_favorite">我的收藏</a>
-                    </div>
-                    <i class="icon_arrow_white"></i>
-                </div>
-
-            </div>
-            <div id="shopCart" class="item">
-                <a href="#">
-                    <span class="message"></span>
-                </a>
-                <p>
-                    购物车
-                </p>
-                <p class="cart_num">0</p>
-            </div>
-            <div id="asset" class="item">
-                <a href="#">
-                    <span class="view"></span>
-                </a>
-                <div class="mp_tooltip">
-                    我的资产
-                    <i class="icon_arrow_right_black"></i>
-                </div>
-            </div>
-
-            <div id="foot" class="item">
-                <a href="#">
-                    <span class="zuji"></span>
-                </a>
-                <div class="mp_tooltip">
-                    我的足迹
-                    <i class="icon_arrow_right_black"></i>
-                </div>
-            </div>
-
-            <div id="brand" class="item">
-                <a href="#">
-                    <span class="wdsc"><img src="images/wdsc.png" /></span>
-                </a>
-                <div class="mp_tooltip">
-                    我的收藏
-                    <i class="icon_arrow_right_black"></i>
-                </div>
-            </div>
-
-            <div id="broadcast" class="item">
-                <a href="#">
-                    <span class="chongzhi"><img src="images/chongzhi.png" /></span>
-                </a>
-                <div class="mp_tooltip">
-                    我要充值
-                    <i class="icon_arrow_right_black"></i>
-                </div>
-            </div>
-
-            <div class="quick_toggle">
-                <li class="qtitem">
-                    <a href="#"><span class="kfzx"></span></a>
-                    <div class="mp_tooltip">客服中心<i class="icon_arrow_right_black"></i></div>
-                </li>
-                <!--二维码 -->
-                <li class="qtitem">
-                    <a href="#none"><span class="mpbtn_qrcode"></span></a>
-                    <div class="mp_qrcode" style="display:none;"><img src="images/weixin_code_145.png" /><i class="icon_arrow_white"></i></div>
-                </li>
-                <li class="qtitem">
-                    <a href="#top" class="return_top"><span class="top"></span></a>
-                </li>
-            </div>
-
-            <!--回到顶部 -->
-            <div id="quick_links_pop" class="quick_links_pop hide"></div>
-
-        </div>
-
-    </div>
-    <div id="prof-content" class="nav-content">
-        <div class="nav-con-close">
-            <i class="am-icon-angle-right am-icon-fw"></i>
-        </div>
-        <div>
-            我
-        </div>
-    </div>
-    <div id="shopCart-content" class="nav-content">
-        <div class="nav-con-close">
-            <i class="am-icon-angle-right am-icon-fw"></i>
-        </div>
-        <div>
-            购物车
-        </div>
-    </div>
-    <div id="asset-content" class="nav-content">
-        <div class="nav-con-close">
-            <i class="am-icon-angle-right am-icon-fw"></i>
-        </div>
-        <div>
-            资产
-        </div>
-
-        <div class="ia-head-list">
-            <a href="#" target="_blank" class="pl">
-                <div class="num">0</div>
-                <div class="text">优惠券</div>
-            </a>
-            <a href="#" target="_blank" class="pl">
-                <div class="num">0</div>
-                <div class="text">红包</div>
-            </a>
-            <a href="#" target="_blank" class="pl money">
-                <div class="num">￥0</div>
-                <div class="text">余额</div>
-            </a>
-        </div>
-
-    </div>
-    <div id="foot-content" class="nav-content">
-        <div class="nav-con-close">
-            <i class="am-icon-angle-right am-icon-fw"></i>
-        </div>
-        <div>
-            足迹
-        </div>
-    </div>
-    <div id="brand-content" class="nav-content">
-        <div class="nav-con-close">
-            <i class="am-icon-angle-right am-icon-fw"></i>
-        </div>
-        <div>
-            收藏
-        </div>
-    </div>
-    <div id="broadcast-content" class="nav-content">
-        <div class="nav-con-close">
-            <i class="am-icon-angle-right am-icon-fw"></i>
-        </div>
-        <div>
-            充值
-        </div>
-    </div>
-</div>
+<jsp:include page="guide.jsp"/>
 <script>
     $(function () {
         if(${param.pid}){
