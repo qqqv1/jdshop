@@ -111,7 +111,7 @@ public class ShoppingCartPortalAction {
 
         }
         //重定向到cart.jsp
-        return "redirect:shopcart";
+        return "redirect:shoppingcart";
     }
 
 
@@ -152,7 +152,7 @@ public class ShoppingCartPortalAction {
 
         }
         //重定向到购物车界面
-        return "redirect:shopcart";
+        return "redirect:shoppingcart";
     }
 
     @RequestMapping(value="/addProductOneToCart",method = RequestMethod.POST)
@@ -200,7 +200,6 @@ public class ShoppingCartPortalAction {
             e.printStackTrace();
 
         }
-        //重定向到购物车界面
         return cartOne;
     }
 
@@ -250,7 +249,6 @@ public class ShoppingCartPortalAction {
             e.printStackTrace();
 
         }
-        //重定向到购物车界面
         return cartOne;
     }
 }
