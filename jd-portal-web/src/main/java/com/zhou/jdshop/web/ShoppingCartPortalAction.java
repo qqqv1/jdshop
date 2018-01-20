@@ -20,7 +20,7 @@ import javax.servlet.http.HttpSession;
 import java.util.Map;
 
 @Controller
-public class OrderPortalAction {
+public class ShoppingCartPortalAction {
 
 
     private Logger logger = LoggerFactory.getLogger(this.getClass());
