@@ -53,4 +53,10 @@
             window.location.href='product-portal-list?pname='+$('#searchInput').val();
         })
     })
+
+    $(function () {
+        $('#mc-menu-hd').on('click',function () {
+            window.location.href='${pageContext.request.contextPath}/shoppingcart';
+        })
+    })
 </script>

@@ -1,5 +1,5 @@
 com\zhou\jdshop\web\IndexAction.class
 com\zhou\jdshop\web\CategoryPortalAction.class
-com\zhou\jdshop\web\OrderPortalAction.class
+com\zhou\jdshop\web\ShoppingCartPortalAction.class
 com\zhou\jdshop\web\ProductPortalAction.class
 com\zhou\jdshop\web\UserPortalAction.class
