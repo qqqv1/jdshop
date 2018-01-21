@@ -31,6 +31,8 @@
 
 <body>
 
+<jsp:include page="top.jsp"/>
+
 <div class="center">
     <div class="col-main">
         <div class="main-wrap">
@@ -54,9 +56,11 @@
                     </ul>
                     <table class="table table-striped table-bordered table-hover dataTables-example" id="orderListDg"></table>
                 </div>
+            </div>
 
+            <jsp:include page="bottom.jsp"/>
+        </div>
     </div>
-
 </div>
         <!-- 全局js -->
         <script src="js/jquery.min.js"></script>
@@ -168,6 +172,7 @@
                 }
             }
         </script>
+
 </body>
 
 </html>

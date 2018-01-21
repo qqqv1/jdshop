@@ -7,12 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
     <title>购物车页面</title>
-
+    <link href="css/bootstrap.min.css?v=3.3.6" rel="stylesheet">
     <link href="AmazeUI-2.4.2/assets/css/amazeui.css" rel="stylesheet" type="text/css" />
     <link href="basic/css/demo.css" rel="stylesheet" type="text/css" />
+    <link href="css/seastyle.css" rel="stylesheet" type="text/css" />
     <link href="css/cartstyle.css" rel="stylesheet" type="text/css" />
     <link href="css/optstyle.css" rel="stylesheet" type="text/css" />
-    <link href="css/bootstrap.min.css?v=3.3.6" rel="stylesheet">
+
 
     <script type="text/javascript" src="js/jquery.js"></script>
 
@@ -20,7 +21,7 @@
 
 <body>
 
-<!--顶部导航条 -->
+<%--<!--顶部导航条 -->
 <div class="am-container header">
     <ul class="message-l">
         <div class="topMessage">
@@ -54,17 +55,17 @@
         <li><img src="images/logobig.png" /></li>
     </div>
 
-    <%--<div class="search-bar pr">
+    <div class="search-bar pr">
         <a name="index_none_header_sysc" href="#"></a>
         <form>
             <input id="searchInput" name="index_none_header_sysc" type="text" placeholder="搜索" autocomplete="off">
             <input id="ai-topsearch" class="submit am-btn" value="搜索" index="1" type="submit">
         </form>
-    </div>--%>
-</div>
+    </div>
+</div>--%>
+<jsp:include page="top.jsp"/>
 
 <div class="clear"></div>
-
 <!--购物车 -->
 <div class="concent">
     <div id="cartTable">
@@ -130,7 +131,7 @@
                        </table>--%>
 
 
-                       <table width="100%" border="0" cellspacing="0" id="cart" class="table table-striped table-hover">
+                       <table width="100%" border="0" cellspacing="0" id="cart" class="table table-striped" >
                                 <c:forEach items="${cart.items }" var="entry">
                                     <tr></tr>
                                     <tr>
@@ -422,45 +423,26 @@
 
     </div>
 
-    <div class="footer">
-        <div class="footer-hd">
-            <p>
-                <a href="#">恒望科技</a>
-                <b>|</b>
-                <a href="#">商城首页</a>
-                <b>|</b>
-                <a href="#">支付宝</a>
-                <b>|</b>
-                <a href="#">物流</a>
-            </p>
-        </div>
-        <div class="footer-bd">
-            <p>
-                <a href="#">关于恒望</a>
-                <a href="#">合作伙伴</a>
-                <a href="#">联系我们</a>
-                <a href="#">网站地图</a>
-                <em>© 2015-2025 Hengwang.com 版权所有. 更多模板 <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></em>
-            </p>
-        </div>
-    </div>
+    <jsp:include page="bottom.jsp"/>
 
 </div>
 
 
 
 <script>
+<%--根据ID删除商品--%>
 
     function deleteProductFromCart(pid){
         window.location.href="${pageContext.request.contextPath}/deleteProductFromCart?pid="+pid;
 
     }
-
+//    继续购物
     function goonShopping(){
         window.location.href="${pageContext.request.contextPath}/product-portal-list";
 
     }
 
+//    选中一种
     function reduce(pid,elm){
         var rows1=elm.parentNode.parentNode.rowIndex;
 

@@ -16,6 +16,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.util.Map;
 
@@ -38,7 +40,7 @@ public class OrderPortalAction {
      * @return
      */
     @RequestMapping("/addProductToCart")
-    public String addProductToCart(@RequestParam("pid") String pid, @RequestParam("count") int count,HttpSession session){
+    public String addProductToCart(@RequestParam("pid") String pid, @RequestParam("count") int count, HttpSession session, HttpServletResponse response){
 
         try{
             System.out.println(pid+" "+count);
@@ -101,6 +103,11 @@ public class OrderPortalAction {
              * 把购物车放到session里
              */
             session.setAttribute("cart", cart);
+            session.setMaxInactiveInterval(15*24*3600);
+
+            Cookie cookie=new Cookie("JSESSIONID",session.getId());
+            cookie.setMaxAge(15*24*3600);
+            response.addCookie(cookie);
 
 
 
@@ -122,7 +129,7 @@ public class OrderPortalAction {
      * @return
      */
     @RequestMapping("/deleteProductFromCart")
-    public String deleteProductFromCart(@RequestParam("pid") String pid,HttpSession session){
+    public String deleteProductFromCart(@RequestParam("pid") String pid,HttpSession session, HttpServletResponse response){
 
         try{
             System.out.println(pid+" ");
@@ -144,6 +151,12 @@ public class OrderPortalAction {
                 }
             }
             session.setAttribute("cart", cart);
+            session.setMaxInactiveInterval(15*24*3600);
+
+            Cookie cookie=new Cookie("JSESSIONID",session.getId());
+            cookie.setMaxAge(15*24*3600);
+            response.addCookie(cookie);
+
 
 
         }catch (Exception e){
@@ -157,7 +170,7 @@ public class OrderPortalAction {
 
     @RequestMapping(value="/addProductOneToCart",method = RequestMethod.POST)
     @ResponseBody
-    public CartOne addProductOneToCart(@RequestParam("pid") String pid, HttpSession session){
+    public CartOne addProductOneToCart(@RequestParam("pid") String pid, HttpSession session, HttpServletResponse response){
 
         CartOne cartOne = new CartOne();
         try{
@@ -192,6 +205,12 @@ public class OrderPortalAction {
                 }
             }
             session.setAttribute("cart", cart);
+            session.setMaxInactiveInterval(15*24*3600);
+
+            Cookie cookie=new Cookie("JSESSIONID",session.getId());
+            cookie.setMaxAge(15*24*3600);
+            response.addCookie(cookie);
+
 
 
 
@@ -206,7 +225,7 @@ public class OrderPortalAction {
 
     @RequestMapping(value="/reduceProductFromCart",method = RequestMethod.POST)
     @ResponseBody
-    public CartOne reduceProductFromCart(@RequestParam("pid") String pid, HttpSession session){
+    public CartOne reduceProductFromCart(@RequestParam("pid") String pid, HttpSession session, HttpServletResponse response){
 
         CartOne cartOne = new CartOne();
         try{
@@ -242,6 +261,13 @@ public class OrderPortalAction {
                 }
 //            }
             session.setAttribute("cart", cart);
+            session.setMaxInactiveInterval(15*24*3600);
+
+            Cookie cookie=new Cookie("JSESSIONID",session.getId());
+
+            cookie.setMaxAge(15*24*3600);
+            response.addCookie(cookie);
+
 
 
 

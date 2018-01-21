@@ -35,11 +35,11 @@
 <!--悬浮搜索框-->
 
 <div class="nav white">
-    <div class="logo"><img src="images/logo.png" /></div>
+    <div class="logo" style="width: 30%"><img src="images/logo.png" /></div>
     <div class="logoBig">
         <li><img src="images/logobig.png" /></li>
     </div>
-    <div class="search-bar pr">
+    <div class="search-bar pr" >
         <a name="index_none_header_sysc" href="#"></a>
         <form action="javascript:void(0)">
             <input id="searchInput" name="pname" type="text" placeholder="搜索" autocomplete="off">
