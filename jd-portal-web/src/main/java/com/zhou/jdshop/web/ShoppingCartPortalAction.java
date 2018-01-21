@@ -22,7 +22,7 @@ import javax.servlet.http.HttpSession;
 import java.util.Map;
 
 @Controller
-public class OrderPortalAction {
+public class ShoppingCartPortalAction {
 
 
     private Logger logger = LoggerFactory.getLogger(this.getClass());
@@ -118,7 +118,7 @@ public class OrderPortalAction {
 
         }
         //重定向到cart.jsp
-        return "redirect:shopcart";
+        return "redirect:shoppingcart";
     }
 
 
@@ -165,7 +165,7 @@ public class OrderPortalAction {
 
         }
         //重定向到购物车界面
-        return "redirect:shopcart";
+        return "redirect:shoppingcart";
     }
 
     @RequestMapping(value="/addProductOneToCart",method = RequestMethod.POST)
@@ -219,7 +219,6 @@ public class OrderPortalAction {
             e.printStackTrace();
 
         }
-        //重定向到购物车界面
         return cartOne;
     }
 
@@ -276,7 +275,6 @@ public class OrderPortalAction {
             e.printStackTrace();
 
         }
-        //重定向到购物车界面
         return cartOne;
     }
 }

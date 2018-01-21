@@ -2102,10 +2102,8 @@
 
         <div class="clear "></div>
     </div>
-
-
-
-    <jsp:include page="bottom.jsp"/>
+        <!--底部-->
+        <jsp:include page="bottom.jsp"/>
 
 </div>
 </div>
