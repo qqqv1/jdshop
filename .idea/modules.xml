@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/jd-common/jd-common.iml" filepath="$PROJECT_DIR$/jd-common/jd-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jd-lucene/jd-lucene.iml" filepath="$PROJECT_DIR$/jd-lucene/jd-lucene.iml" />
       <module fileurl="file://$PROJECT_DIR$/jd-manager/jd-manager.iml" filepath="$PROJECT_DIR$/jd-manager/jd-manager.iml" />
       <module fileurl="file://$PROJECT_DIR$/jd-manager/jd-manager-dao/jd-manager-dao.iml" filepath="$PROJECT_DIR$/jd-manager/jd-manager-dao/jd-manager-dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/jd-manager/jd-manager-interface/jd-manager-interface.iml" filepath="$PROJECT_DIR$/jd-manager/jd-manager-interface/jd-manager-interface.iml" />
