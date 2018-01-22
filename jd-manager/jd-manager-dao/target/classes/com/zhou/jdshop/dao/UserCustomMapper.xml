@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhou.jdshop.dao.UserCustomMapper">
+  <select id="selectByUsernameAndPassword" parameterType="com.zhou.jdshop.pojo.po.User" resultType="com.zhou.jdshop.pojo.po.User">
+    select * from user where username=#{username} and password=#{password};
+  </select>
+  <!-- 插入 -->
+  <insert id="insertUser">
+    insert into user(uid,username,password,name,email,telephone,birthday,sex,state,code)
+    VALUES(#{uid},#{username},#{password},#{name},#{email},#{telephone},#{birthday},#{sex},#{state},#{code})
+  </insert>
+
+  <!-- 模糊查询 -->
+  <select id="selectByDim" resultType="com.zhou.jdshop.pojo.po.User" parameterType="com.zhou.jdshop.pojo.po.User">
+    select * from user where
+    username like concat('%',#{username}, '%') and
+    name like concat('%',#{name}, '%') and
+    stats like concat('%',#{stats}, '%') and
+  </select>
+  <!--更改用户-->
+  <update id="updateBy">
+    update user SET
+    username = #{username},
+    password = #{password},
+    name = #{name},
+    email = #{email},
+    telephone = #{telephone},
+    birthday = #{birthday},
+    sex = #{sex},
+    state = #{state},
+    code = #{code}
+  </update>
+  <!--删除用户-->
+  <delete id="deleteByUser">
+    delete from user where uid = #{uid}
+  </delete>
+
+  <!--查询所有-->
+  <select id="selectAll" resultType="com.zhou.jdshop.pojo.po.User">
+    select * from user
+  </select>
+  <!---->
+  <select id="selectByUsername" parameterType="java.lang.String" resultType="com.zhou.jdshop.pojo.po.User">
+    select * from user where username=#{username};
+  </select>
+</mapper>
