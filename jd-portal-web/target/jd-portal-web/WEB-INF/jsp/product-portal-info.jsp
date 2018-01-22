@@ -183,7 +183,7 @@
                                 <a href="javascript:;" title="关闭" class="close">×</a>
                             </div>
                             <div class="theme-popbod dform">
-                                <form class="theme-signin" name="loginform" action="javascript:void(0)" method="post">
+                                <form class="theme-signin" name="param" id="param" action="javascript:void(0)" method="post">
                                     <div class="theme-signin-left">
                                         <div class="theme-options">
                                             <div class="cart-title">口味</div>
@@ -193,7 +193,9 @@
                                                 <li class="sku-line">炭烧<i></i></li>
                                                 <li class="sku-line">咸香<i></i></li>
                                             </ul>
+                                            <input type="hidden" name="param1" id="param1"/>
                                         </div>
+
                                         <div class="theme-options">
                                             <div class="cart-title">包装</div>
                                             <ul>
@@ -201,13 +203,15 @@
                                                 <li class="sku-line">礼盒双人份<i></i></li>
                                                 <li class="sku-line">全家福礼包<i></i></li>
                                             </ul>
+                                            <input type="hidden" name="param2" id="param2"/>
                                         </div>
+
                                         <div class="theme-options">
                                             <div class="cart-title number">数量</div>
                                             <input id="min" class="am-btn am-btn-default" name="" type="button" value="-" />
                                             <input id="text_box" name="" type="text" value="1" style="width:30px;" />
                                             <input id="add" class="am-btn am-btn-default" name="" type="button" value="+" />
-                                            <span id="Stock2" class="tb-hidden">库存<span class="stock">1000</span>件</span>
+                                            <span id="Stock" class="tb-hidden">库存<span class="stock">1000</span>件</span>
                                         </div>
                                         <div class="clear"></div>
                                         <div class="btn-op">
@@ -221,7 +225,7 @@
                                         </div>
                                         <div class="text-info">
                                             <span class="J_Price price-now">¥39.00</span>
-                                            <span id="Stock" class="tb-hidden">库存<span class="stock">1000</span>件</span>
+                                            <span id="Stock2" class="tb-hidden">库存<span class="stock">1000</span>件</span>
                                         </div>
                                     </div>
                                 </form>
@@ -1097,7 +1101,20 @@
 
             });
             $('#LikBasket').on('click',function () {
-                window.location.href='addProductToCart?pid=${param.pid}&count='+$('#text_box').val();
+                var p1=$('#param1').parent().find('ul>li');
+                p1.each(function () {
+                    if($(this).hasClass('selected')){
+                        $('#param1').val($(this).text());
+                    }
+                });
+                var p2=$('#param2').parent().find('ul>li');
+                p2.each(function () {
+                    if($(this).hasClass('selected')){
+                        $('#param2').val($(this).text());
+                    }
+                })
+                var data=$('#param').serialize();
+                window.location.href='addProductToCart?pid=${param.pid}&count='+$('#text_box').val()+'&'+data;
             });
         }
     })

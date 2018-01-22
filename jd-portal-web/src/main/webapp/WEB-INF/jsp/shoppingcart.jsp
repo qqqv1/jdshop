@@ -45,7 +45,7 @@
                     <div class="td-inner">数量</div>
                 </div>
                 <div class="th th-sum" style="width: 15%">
-                    <div class="td-inner">金额</div>
+                    <div class="td-inner">金额(元)</div>
                 </div>
                 <div class="th th-op" style="width: 10%">
                     <div class="td-inner">操作</div>
@@ -106,7 +106,7 @@
                                             <input class="add am-btn" name="" type="button" value="+" onclick="add(${entry.value.product.pid },this)" />
                                         </td>
                                         <%--<td width="10%">1</td>--%>
-                                        <td width="12%">${entry.value.subTotal }元</td>
+                                        <td width="12%">${entry.value.subTotal }</td>
 
                                         <td width="8%">&nbsp;&nbsp;&nbsp;&nbsp;
                                             <a href="javascript:deleteProductFromCart(${entry.value.product.pid })" data-point-url="#" class="delete">
