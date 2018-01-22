@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zhou.jdshop.dao.TbShippingAddressMapper" >
+  <resultMap id="BaseResultMap" type="com.zhou.jdshop.pojo.po.TbShippingAddress" >
+    <id column="aid" property="aid" jdbcType="BIGINT" />
+    <result column="shipping_addr" property="shippingAddr" jdbcType="VARCHAR" />
+    <result column="zip_code" property="zipCode" jdbcType="INTEGER" />
+    <result column="receiver_phone" property="receiverPhone" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Example_Where_Clause" >
+    <where >
+      <foreach collection="oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause" >
+    <where >
+      <foreach collection="example.oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List" >
+    aid, shipping_addr, zip_code, receiver_phone
+  </sql>
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.zhou.jdshop.pojo.po.TbShippingAddressExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from tb_shipping_address
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+    select 
+    <include refid="Base_Column_List" />
+    from tb_shipping_address
+    where aid = #{aid,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
+    delete from tb_shipping_address
+    where aid = #{aid,jdbcType=BIGINT}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.zhou.jdshop.pojo.po.TbShippingAddressExample" >
+    delete from tb_shipping_address
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.zhou.jdshop.pojo.po.TbShippingAddress" >
+    insert into tb_shipping_address (aid, shipping_addr, zip_code, 
+      receiver_phone)
+    values (#{aid,jdbcType=BIGINT}, #{shippingAddr,jdbcType=VARCHAR}, #{zipCode,jdbcType=INTEGER}, 
+      #{receiverPhone,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.zhou.jdshop.pojo.po.TbShippingAddress" >
+    insert into tb_shipping_address
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="aid != null" >
+        aid,
+      </if>
+      <if test="shippingAddr != null" >
+        shipping_addr,
+      </if>
+      <if test="zipCode != null" >
+        zip_code,
+      </if>
+      <if test="receiverPhone != null" >
+        receiver_phone,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="aid != null" >
+        #{aid,jdbcType=BIGINT},
+      </if>
+      <if test="shippingAddr != null" >
+        #{shippingAddr,jdbcType=VARCHAR},
+      </if>
+      <if test="zipCode != null" >
+        #{zipCode,jdbcType=INTEGER},
+      </if>
+      <if test="receiverPhone != null" >
+        #{receiverPhone,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.zhou.jdshop.pojo.po.TbShippingAddressExample" resultType="java.lang.Integer" >
+    select count(*) from tb_shipping_address
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map" >
+    update tb_shipping_address
+    <set >
+      <if test="record.aid != null" >
+        aid = #{record.aid,jdbcType=BIGINT},
+      </if>
+      <if test="record.shippingAddr != null" >
+        shipping_addr = #{record.shippingAddr,jdbcType=VARCHAR},
+      </if>
+      <if test="record.zipCode != null" >
+        zip_code = #{record.zipCode,jdbcType=INTEGER},
+      </if>
+      <if test="record.receiverPhone != null" >
+        receiver_phone = #{record.receiverPhone,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map" >
+    update tb_shipping_address
+    set aid = #{record.aid,jdbcType=BIGINT},
+      shipping_addr = #{record.shippingAddr,jdbcType=VARCHAR},
+      zip_code = #{record.zipCode,jdbcType=INTEGER},
+      receiver_phone = #{record.receiverPhone,jdbcType=VARCHAR}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.zhou.jdshop.pojo.po.TbShippingAddress" >
+    update tb_shipping_address
+    <set >
+      <if test="shippingAddr != null" >
+        shipping_addr = #{shippingAddr,jdbcType=VARCHAR},
+      </if>
+      <if test="zipCode != null" >
+        zip_code = #{zipCode,jdbcType=INTEGER},
+      </if>
+      <if test="receiverPhone != null" >
+        receiver_phone = #{receiverPhone,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where aid = #{aid,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.zhou.jdshop.pojo.po.TbShippingAddress" >
+    update tb_shipping_address
+    set shipping_addr = #{shippingAddr,jdbcType=VARCHAR},
+      zip_code = #{zipCode,jdbcType=INTEGER},
+      receiver_phone = #{receiverPhone,jdbcType=VARCHAR}
+    where aid = #{aid,jdbcType=BIGINT}
+  </update>
+</mapper>
