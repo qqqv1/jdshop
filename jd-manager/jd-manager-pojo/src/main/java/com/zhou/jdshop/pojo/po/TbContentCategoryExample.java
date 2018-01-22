@@ -425,52 +425,52 @@ public class TbContentCategoryExample {
             return (Criteria) this;
         }
 
-        public Criteria andIsParentEqualTo(Boolean value) {
+        public Criteria andIsParentEqualTo(Integer value) {
             addCriterion("is_parent =", value, "isParent");
             return (Criteria) this;
         }
 
-        public Criteria andIsParentNotEqualTo(Boolean value) {
+        public Criteria andIsParentNotEqualTo(Integer value) {
             addCriterion("is_parent <>", value, "isParent");
             return (Criteria) this;
         }
 
-        public Criteria andIsParentGreaterThan(Boolean value) {
+        public Criteria andIsParentGreaterThan(Integer value) {
             addCriterion("is_parent >", value, "isParent");
             return (Criteria) this;
         }
 
-        public Criteria andIsParentGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andIsParentGreaterThanOrEqualTo(Integer value) {
             addCriterion("is_parent >=", value, "isParent");
             return (Criteria) this;
         }
 
-        public Criteria andIsParentLessThan(Boolean value) {
+        public Criteria andIsParentLessThan(Integer value) {
             addCriterion("is_parent <", value, "isParent");
             return (Criteria) this;
         }
 
-        public Criteria andIsParentLessThanOrEqualTo(Boolean value) {
+        public Criteria andIsParentLessThanOrEqualTo(Integer value) {
             addCriterion("is_parent <=", value, "isParent");
             return (Criteria) this;
         }
 
-        public Criteria andIsParentIn(List<Boolean> values) {
+        public Criteria andIsParentIn(List<Integer> values) {
             addCriterion("is_parent in", values, "isParent");
             return (Criteria) this;
         }
 
-        public Criteria andIsParentNotIn(List<Boolean> values) {
+        public Criteria andIsParentNotIn(List<Integer> values) {
             addCriterion("is_parent not in", values, "isParent");
             return (Criteria) this;
         }
 
-        public Criteria andIsParentBetween(Boolean value1, Boolean value2) {
+        public Criteria andIsParentBetween(Integer value1, Integer value2) {
             addCriterion("is_parent between", value1, value2, "isParent");
             return (Criteria) this;
         }
 
-        public Criteria andIsParentNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andIsParentNotBetween(Integer value1, Integer value2) {
             addCriterion("is_parent not between", value1, value2, "isParent");
             return (Criteria) this;
         }

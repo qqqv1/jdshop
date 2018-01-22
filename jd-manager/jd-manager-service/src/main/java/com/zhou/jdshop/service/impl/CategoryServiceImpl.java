@@ -1,9 +1,13 @@
 package com.zhou.jdshop.service.impl;
 
 import com.zhou.jdshop.dao.CategoryMapper;
+import com.zhou.jdshop.dao.TbProductCatMapper;
 import com.zhou.jdshop.pojo.po.Category;
 import com.zhou.jdshop.pojo.po.CategoryExample;
+import com.zhou.jdshop.pojo.po.TbProductCat;
+import com.zhou.jdshop.pojo.po.TbProductCatExample;
 import com.zhou.jdshop.service.CategoryService;
+import com.zhou.jdshop.util.IDUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,18 +22,18 @@ public class CategoryServiceImpl implements CategoryService {
     private Logger logger= LoggerFactory.getLogger(this.getClass());
 
     @Autowired
-    private CategoryMapper categoryDao;
+    private TbProductCatMapper categoryDao;
 
     /**
      * 查询全部分类
      * @return 状态不为删除的分类集
      */
     @Override
-    public List<Category> listCats() {
-        List<Category> list = null;
+    public List<TbProductCat> listCats() {
+        List<TbProductCat> list = null;
         try {
-            CategoryExample example=new CategoryExample();
-            CategoryExample.Criteria criteria = example.createCriteria();
+            TbProductCatExample example=new TbProductCatExample();
+            TbProductCatExample.Criteria criteria = example.createCriteria();
             criteria.andCflagNotEqualTo(1);
             list = categoryDao.selectByExample(example);
         } catch (Exception e) {
@@ -44,11 +48,11 @@ public class CategoryServiceImpl implements CategoryService {
      * @return 对应id的分类
      */
     @Override
-    public Category getCategoryById(String cid) {
-        Category category=new Category();
+    public TbProductCat getCategoryById(Long cid) {
+        TbProductCat category=new TbProductCat();
         try {
-            CategoryExample example=new CategoryExample();
-            CategoryExample.Criteria criteria = example.createCriteria();
+            TbProductCatExample example=new TbProductCatExample();
+            TbProductCatExample.Criteria criteria = example.createCriteria();
             criteria.andCidEqualTo(cid);
             criteria.andCflagNotEqualTo(1);
             category = categoryDao.selectByExample(example).get(0);
@@ -66,10 +70,10 @@ public class CategoryServiceImpl implements CategoryService {
      */
     @Transactional
     @Override
-    public int saveCategory(Category category) {
+    public int saveCategory(TbProductCat category) {
         int i = 0;
         try {
-            String cid = UUID.randomUUID().toString().replaceAll("-","");
+            Long cid = IDUtils.getItemId();
             category.setCid(cid);
             category.setCflag(0);
             i = categoryDao.insert(category);
@@ -87,11 +91,11 @@ public class CategoryServiceImpl implements CategoryService {
      */
     @Transactional
     @Override
-    public int editCategory(Category category) {
+    public int editCategory(TbProductCat category) {
         int i = 0;
         try {
-            CategoryExample example=new CategoryExample();
-            CategoryExample.Criteria criteria = example.createCriteria();
+            TbProductCatExample example=new TbProductCatExample();
+            TbProductCatExample.Criteria criteria = example.createCriteria();
             criteria.andCidEqualTo(category.getCid());
             i = categoryDao.updateByExampleSelective(category,example);
         } catch (Exception e) {
@@ -107,13 +111,13 @@ public class CategoryServiceImpl implements CategoryService {
      * @return 若逻辑删除成功则返回值大于0
      */
     @Override
-    public int deleteCategory(List<String> cids) {
+    public int deleteCategory(List<Long> cids) {
         int i = 0;
         try {
-            Category category =new Category();
+            TbProductCat category =new TbProductCat();
             category.setCflag(1);
-            CategoryExample example=new CategoryExample();
-            CategoryExample.Criteria criteria = example.createCriteria();
+            TbProductCatExample example=new TbProductCatExample();
+            TbProductCatExample.Criteria criteria = example.createCriteria();
             criteria.andCidIn(cids);
             i = categoryDao.updateByExampleSelective(category,example);
         } catch (Exception e) {

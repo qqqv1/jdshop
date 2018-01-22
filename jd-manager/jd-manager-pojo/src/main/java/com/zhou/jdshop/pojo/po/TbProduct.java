@@ -21,7 +21,7 @@ public class TbProduct {
 
     private Integer psold;
 
-    private String pother;
+    private Integer pflag;
 
     private String pimage;
 
@@ -101,12 +101,12 @@ public class TbProduct {
         this.psold = psold;
     }
 
-    public String getPother() {
-        return pother;
+    public Integer getPflag() {
+        return pflag;
     }
 
-    public void setPother(String pother) {
-        this.pother = pother == null ? null : pother.trim();
+    public void setPflag(Integer pflag) {
+        this.pflag = pflag;
     }
 
     public String getPimage() {

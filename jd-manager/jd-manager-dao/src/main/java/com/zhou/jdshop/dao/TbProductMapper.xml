@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.zhou.jdshop.dao.TbProductMapper" >
   <resultMap id="BaseResultMap" type="com.zhou.jdshop.pojo.po.TbProduct" >
-    <result column="pid" property="pid" jdbcType="BIGINT" />
+    <id column="pid" property="pid" jdbcType="BIGINT" />
     <result column="pname" property="pname" jdbcType="VARCHAR" />
     <result column="cid" property="cid" jdbcType="BIGINT" />
     <result column="bid" property="bid" jdbcType="BIGINT" />
@@ -11,7 +11,7 @@
     <result column="shop_price" property="shopPrice" jdbcType="DOUBLE" />
     <result column="pstock" property="pstock" jdbcType="INTEGER" />
     <result column="psold" property="psold" jdbcType="INTEGER" />
-    <result column="pother" property="pother" jdbcType="VARCHAR" />
+    <result column="pflag" property="pflag" jdbcType="INTEGER" />
     <result column="pimage" property="pimage" jdbcType="VARCHAR" />
     <result column="created" property="created" jdbcType="TIMESTAMP" />
     <result column="updated" property="updated" jdbcType="TIMESTAMP" />
@@ -75,7 +75,7 @@
     </where>
   </sql>
   <sql id="Base_Column_List" >
-    pid, pname, cid, bid, pdesc, market_price, shop_price, pstock, psold, pother, pimage, 
+    pid, pname, cid, bid, pdesc, market_price, shop_price, pstock, psold, pflag, pimage, 
     created, updated
   </sql>
   <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.zhou.jdshop.pojo.po.TbProductExample" >
@@ -92,6 +92,16 @@
       order by ${orderByClause}
     </if>
   </select>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+    select 
+    <include refid="Base_Column_List" />
+    from tb_product
+    where pid = #{pid,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
+    delete from tb_product
+    where pid = #{pid,jdbcType=BIGINT}
+  </delete>
   <delete id="deleteByExample" parameterType="com.zhou.jdshop.pojo.po.TbProductExample" >
     delete from tb_product
     <if test="_parameter != null" >
@@ -102,12 +112,12 @@
     insert into tb_product (pid, pname, cid, 
       bid, pdesc, market_price, 
       shop_price, pstock, psold, 
-      pother, pimage, created, 
+      pflag, pimage, created, 
       updated)
     values (#{pid,jdbcType=BIGINT}, #{pname,jdbcType=VARCHAR}, #{cid,jdbcType=BIGINT}, 
       #{bid,jdbcType=BIGINT}, #{pdesc,jdbcType=VARCHAR}, #{marketPrice,jdbcType=DOUBLE}, 
       #{shopPrice,jdbcType=DOUBLE}, #{pstock,jdbcType=INTEGER}, #{psold,jdbcType=INTEGER}, 
-      #{pother,jdbcType=VARCHAR}, #{pimage,jdbcType=VARCHAR}, #{created,jdbcType=TIMESTAMP}, 
+      #{pflag,jdbcType=INTEGER}, #{pimage,jdbcType=VARCHAR}, #{created,jdbcType=TIMESTAMP},
       #{updated,jdbcType=TIMESTAMP})
   </insert>
   <insert id="insertSelective" parameterType="com.zhou.jdshop.pojo.po.TbProduct" >
@@ -140,8 +150,8 @@
       <if test="psold != null" >
         psold,
       </if>
-      <if test="pother != null" >
-        pother,
+      <if test="pflag != null" >
+        pflag,
       </if>
       <if test="pimage != null" >
         pimage,
@@ -181,8 +191,8 @@
       <if test="psold != null" >
         #{psold,jdbcType=INTEGER},
       </if>
-      <if test="pother != null" >
-        #{pother,jdbcType=VARCHAR},
+      <if test="pflag != null" >
+        #{pflag,jdbcType=INTEGER},
       </if>
       <if test="pimage != null" >
         #{pimage,jdbcType=VARCHAR},
@@ -231,8 +241,8 @@
       <if test="record.psold != null" >
         psold = #{record.psold,jdbcType=INTEGER},
       </if>
-      <if test="record.pother != null" >
-        pother = #{record.pother,jdbcType=VARCHAR},
+      <if test="record.pflag != null" >
+        pflag = #{record.pflag,jdbcType=INTEGER},
       </if>
       <if test="record.pimage != null" >
         pimage = #{record.pimage,jdbcType=VARCHAR},
@@ -259,12 +269,70 @@
       shop_price = #{record.shopPrice,jdbcType=DOUBLE},
       pstock = #{record.pstock,jdbcType=INTEGER},
       psold = #{record.psold,jdbcType=INTEGER},
-      pother = #{record.pother,jdbcType=VARCHAR},
+      pflag = #{record.pflag,jdbcType=INTEGER},
       pimage = #{record.pimage,jdbcType=VARCHAR},
       created = #{record.created,jdbcType=TIMESTAMP},
       updated = #{record.updated,jdbcType=TIMESTAMP}
     <if test="_parameter != null" >
       <include refid="Update_By_Example_Where_Clause" />
     </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.zhou.jdshop.pojo.po.TbProduct" >
+    update tb_product
+    <set >
+      <if test="pname != null" >
+        pname = #{pname,jdbcType=VARCHAR},
+      </if>
+      <if test="cid != null" >
+        cid = #{cid,jdbcType=BIGINT},
+      </if>
+      <if test="bid != null" >
+        bid = #{bid,jdbcType=BIGINT},
+      </if>
+      <if test="pdesc != null" >
+        pdesc = #{pdesc,jdbcType=VARCHAR},
+      </if>
+      <if test="marketPrice != null" >
+        market_price = #{marketPrice,jdbcType=DOUBLE},
+      </if>
+      <if test="shopPrice != null" >
+        shop_price = #{shopPrice,jdbcType=DOUBLE},
+      </if>
+      <if test="pstock != null" >
+        pstock = #{pstock,jdbcType=INTEGER},
+      </if>
+      <if test="psold != null" >
+        psold = #{psold,jdbcType=INTEGER},
+      </if>
+      <if test="pflag != null" >
+        pflag = #{pflag,jdbcType=INTEGER},
+      </if>
+      <if test="pimage != null" >
+        pimage = #{pimage,jdbcType=VARCHAR},
+      </if>
+      <if test="created != null" >
+        created = #{created,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updated != null" >
+        updated = #{updated,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where pid = #{pid,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.zhou.jdshop.pojo.po.TbProduct" >
+    update tb_product
+    set pname = #{pname,jdbcType=VARCHAR},
+      cid = #{cid,jdbcType=BIGINT},
+      bid = #{bid,jdbcType=BIGINT},
+      pdesc = #{pdesc,jdbcType=VARCHAR},
+      market_price = #{marketPrice,jdbcType=DOUBLE},
+      shop_price = #{shopPrice,jdbcType=DOUBLE},
+      pstock = #{pstock,jdbcType=INTEGER},
+      psold = #{psold,jdbcType=INTEGER},
+      pflag = #{pflag,jdbcType=INTEGER},
+      pimage = #{pimage,jdbcType=VARCHAR},
+      created = #{created,jdbcType=TIMESTAMP},
+      updated = #{updated,jdbcType=TIMESTAMP}
+    where pid = #{pid,jdbcType=BIGINT}
   </update>
 </mapper>

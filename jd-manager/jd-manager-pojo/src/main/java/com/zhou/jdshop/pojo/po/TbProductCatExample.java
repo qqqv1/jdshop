@@ -305,52 +305,52 @@ public class TbProductCatExample {
             return (Criteria) this;
         }
 
-        public Criteria andIsParentEqualTo(Boolean value) {
+        public Criteria andIsParentEqualTo(Integer value) {
             addCriterion("is_parent =", value, "isParent");
             return (Criteria) this;
         }
 
-        public Criteria andIsParentNotEqualTo(Boolean value) {
+        public Criteria andIsParentNotEqualTo(Integer value) {
             addCriterion("is_parent <>", value, "isParent");
             return (Criteria) this;
         }
 
-        public Criteria andIsParentGreaterThan(Boolean value) {
+        public Criteria andIsParentGreaterThan(Integer value) {
             addCriterion("is_parent >", value, "isParent");
             return (Criteria) this;
         }
 
-        public Criteria andIsParentGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andIsParentGreaterThanOrEqualTo(Integer value) {
             addCriterion("is_parent >=", value, "isParent");
             return (Criteria) this;
         }
 
-        public Criteria andIsParentLessThan(Boolean value) {
+        public Criteria andIsParentLessThan(Integer value) {
             addCriterion("is_parent <", value, "isParent");
             return (Criteria) this;
         }
 
-        public Criteria andIsParentLessThanOrEqualTo(Boolean value) {
+        public Criteria andIsParentLessThanOrEqualTo(Integer value) {
             addCriterion("is_parent <=", value, "isParent");
             return (Criteria) this;
         }
 
-        public Criteria andIsParentIn(List<Boolean> values) {
+        public Criteria andIsParentIn(List<Integer> values) {
             addCriterion("is_parent in", values, "isParent");
             return (Criteria) this;
         }
 
-        public Criteria andIsParentNotIn(List<Boolean> values) {
+        public Criteria andIsParentNotIn(List<Integer> values) {
             addCriterion("is_parent not in", values, "isParent");
             return (Criteria) this;
         }
 
-        public Criteria andIsParentBetween(Boolean value1, Boolean value2) {
+        public Criteria andIsParentBetween(Integer value1, Integer value2) {
             addCriterion("is_parent between", value1, value2, "isParent");
             return (Criteria) this;
         }
 
-        public Criteria andIsParentNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andIsParentNotBetween(Integer value1, Integer value2) {
             addCriterion("is_parent not between", value1, value2, "isParent");
             return (Criteria) this;
         }
@@ -415,63 +415,63 @@ public class TbProductCatExample {
             return (Criteria) this;
         }
 
-        public Criteria andStateIsNull() {
-            addCriterion("state is null");
+        public Criteria andCflagIsNull() {
+            addCriterion("cflag is null");
             return (Criteria) this;
         }
 
-        public Criteria andStateIsNotNull() {
-            addCriterion("state is not null");
+        public Criteria andCflagIsNotNull() {
+            addCriterion("cflag is not null");
             return (Criteria) this;
         }
 
-        public Criteria andStateEqualTo(Boolean value) {
-            addCriterion("state =", value, "state");
+        public Criteria andCflagEqualTo(Integer value) {
+            addCriterion("cflag =", value, "cflag");
             return (Criteria) this;
         }
 
-        public Criteria andStateNotEqualTo(Boolean value) {
-            addCriterion("state <>", value, "state");
+        public Criteria andCflagNotEqualTo(Integer value) {
+            addCriterion("cflag <>", value, "cflag");
             return (Criteria) this;
         }
 
-        public Criteria andStateGreaterThan(Boolean value) {
-            addCriterion("state >", value, "state");
+        public Criteria andCflagGreaterThan(Integer value) {
+            addCriterion("cflag >", value, "cflag");
             return (Criteria) this;
         }
 
-        public Criteria andStateGreaterThanOrEqualTo(Boolean value) {
-            addCriterion("state >=", value, "state");
+        public Criteria andCflagGreaterThanOrEqualTo(Integer value) {
+            addCriterion("cflag >=", value, "cflag");
             return (Criteria) this;
         }
 
-        public Criteria andStateLessThan(Boolean value) {
-            addCriterion("state <", value, "state");
+        public Criteria andCflagLessThan(Integer value) {
+            addCriterion("cflag <", value, "cflag");
             return (Criteria) this;
         }
 
-        public Criteria andStateLessThanOrEqualTo(Boolean value) {
-            addCriterion("state <=", value, "state");
+        public Criteria andCflagLessThanOrEqualTo(Integer value) {
+            addCriterion("cflag <=", value, "cflag");
             return (Criteria) this;
         }
 
-        public Criteria andStateIn(List<Boolean> values) {
-            addCriterion("state in", values, "state");
+        public Criteria andCflagIn(List<Integer> values) {
+            addCriterion("cflag in", values, "cflag");
             return (Criteria) this;
         }
 
-        public Criteria andStateNotIn(List<Boolean> values) {
-            addCriterion("state not in", values, "state");
+        public Criteria andCflagNotIn(List<Integer> values) {
+            addCriterion("cflag not in", values, "cflag");
             return (Criteria) this;
         }
 
-        public Criteria andStateBetween(Boolean value1, Boolean value2) {
-            addCriterion("state between", value1, value2, "state");
+        public Criteria andCflagBetween(Integer value1, Integer value2) {
+            addCriterion("cflag between", value1, value2, "cflag");
             return (Criteria) this;
         }
 
-        public Criteria andStateNotBetween(Boolean value1, Boolean value2) {
-            addCriterion("state not between", value1, value2, "state");
+        public Criteria andCflagNotBetween(Integer value1, Integer value2) {
+            addCriterion("cflag not between", value1, value2, "cflag");
             return (Criteria) this;
         }
 

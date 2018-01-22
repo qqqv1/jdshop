@@ -10,13 +10,21 @@ public interface TbProductMapper {
 
     int deleteByExample(TbProductExample example);
 
+    int deleteByPrimaryKey(Long pid);
+
     int insert(TbProduct record);
 
     int insertSelective(TbProduct record);
 
     List<TbProduct> selectByExample(TbProductExample example);
 
+    TbProduct selectByPrimaryKey(Long pid);
+
     int updateByExampleSelective(@Param("record") TbProduct record, @Param("example") TbProductExample example);
 
     int updateByExample(@Param("record") TbProduct record, @Param("example") TbProductExample example);
+
+    int updateByPrimaryKeySelective(TbProduct record);
+
+    int updateByPrimaryKey(TbProduct record);
 }

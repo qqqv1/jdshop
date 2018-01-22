@@ -1,11 +1,14 @@
 package com.zhou.jdshop.service.impl;
 
-import com.zhou.jdshop.dao.ProductCustomMapper;
-import com.zhou.jdshop.dao.ProductMapper;
+import com.zhou.jdshop.dao.TbProductCustomMapper;
+import com.zhou.jdshop.dao.TbProductMapper;
 import com.zhou.jdshop.pojo.po.Product;
 import com.zhou.jdshop.pojo.po.ProductExample;
-import com.zhou.jdshop.pojo.vo.ProductCustom;
+import com.zhou.jdshop.pojo.po.TbProduct;
+import com.zhou.jdshop.pojo.po.TbProductExample;
+import com.zhou.jdshop.pojo.vo.TbProductCustom;
 import com.zhou.jdshop.service.ProductService;
+import com.zhou.jdshop.util.IDUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.slf4j.Logger;
@@ -22,10 +25,10 @@ public class ProductServiceImpl implements ProductService {
     private Logger logger= LoggerFactory.getLogger(this.getClass());
 
     @Autowired
-    private ProductMapper productDao;
+    private TbProductMapper productDao;
 
     @Autowired
-    private ProductCustomMapper productCustomDao;
+    private TbProductCustomMapper productCustomDao;
 
     /**
      * 查询全部产品
@@ -46,8 +49,8 @@ public class ProductServiceImpl implements ProductService {
 //        return list;
 //    }
     @Override
-    public List<ProductCustom> listProducts() {
-        List<ProductCustom> list=new ArrayList<>();
+    public List<TbProductCustom> listProducts() {
+        List<TbProductCustom> list=new ArrayList<>();
         try {
             list = productCustomDao.listProducts();
         }catch (Exception e){
@@ -63,11 +66,11 @@ public class ProductServiceImpl implements ProductService {
      * @return 对应id的产品
      */
     @Override
-    public Product getProductById(String pid) {
-        Product product=new Product();
+    public TbProduct getProductById(Long pid) {
+        TbProduct product=new TbProduct();
         try {
-            ProductExample example=new ProductExample();
-            ProductExample.Criteria criteria = example.createCriteria();
+            TbProductExample example=new TbProductExample();
+            TbProductExample.Criteria criteria = example.createCriteria();
             criteria.andPidEqualTo(pid);
             criteria.andPflagNotEqualTo(3);
             product = productDao.selectByExample(example).get(0);
@@ -85,13 +88,13 @@ public class ProductServiceImpl implements ProductService {
      */
     @Transactional
     @Override
-    public int saveProduct(Product product) {
+    public int saveProduct(TbProduct product) {
         int i = 0;
         try {
-            String pid = UUID.randomUUID().toString().replaceAll("-","");
+            Long pid = IDUtils.getItemId();
             product.setPid(pid);
             product.setPflag(1);
-            product.setPdate(new Date());
+            product.setCreated(new Date());
             i = productDao.insert(product);
         } catch (Exception e) {
             logger.error(e.getMessage(), e);
@@ -107,11 +110,11 @@ public class ProductServiceImpl implements ProductService {
      */
     @Transactional
     @Override
-    public int editProduct(Product product) {
+    public int editProduct(TbProduct product) {
         int i = 0;
         try {
-            ProductExample example=new ProductExample();
-            ProductExample.Criteria criteria = example.createCriteria();
+            TbProductExample example=new TbProductExample();
+            TbProductExample.Criteria criteria = example.createCriteria();
             criteria.andPidEqualTo(product.getPid());
             i = productDao.updateByExampleSelective(product,example);
         } catch (Exception e) {
@@ -127,13 +130,13 @@ public class ProductServiceImpl implements ProductService {
      * @return 若逻辑删除成功则返回值大于0
      */
     @Override
-    public int updateProduct(List<String> pids,Integer pflag) {
+    public int updateProduct(List<Long> pids,Integer pflag) {
         int i = 0;
         try {
-            Product product =new Product();
+            TbProduct product =new TbProduct();
             product.setPflag(pflag);
-            ProductExample example=new ProductExample();
-            ProductExample.Criteria criteria = example.createCriteria();
+            TbProductExample example=new TbProductExample();
+            TbProductExample.Criteria criteria = example.createCriteria();
             criteria.andPidIn(pids);
             i = productDao.updateByExampleSelective(product,example);
         } catch (Exception e) {
@@ -156,8 +159,8 @@ public class ProductServiceImpl implements ProductService {
     }
 
     @Override
-    public List<ProductCustom> productList(Integer page,String cname,String pname) {
-        List<ProductCustom> list=new ArrayList<>();
+    public List<TbProductCustom> productList(Integer page, String cname, String pname) {
+        List<TbProductCustom> list=new ArrayList<>();
         try {
             int offset=(page-1)*12;
             list=productCustomDao.productList(offset,cname,pname);
@@ -169,8 +172,8 @@ public class ProductServiceImpl implements ProductService {
     }
 
     @Override
-    public ProductCustom findProductById(String pid) {
-        ProductCustom productCustom=new ProductCustom();
+    public TbProductCustom findProductById(Long pid) {
+        TbProductCustom productCustom =new TbProductCustom();
         try{
             productCustom = productCustomDao.selectProductById(pid);
         }catch(Exception e){

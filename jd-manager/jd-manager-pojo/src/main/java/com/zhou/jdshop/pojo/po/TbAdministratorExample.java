@@ -314,52 +314,52 @@ public class TbAdministratorExample {
             return (Criteria) this;
         }
 
-        public Criteria andAdminAuthorityEqualTo(Boolean value) {
+        public Criteria andAdminAuthorityEqualTo(Integer value) {
             addCriterion("admin_authority =", value, "adminAuthority");
             return (Criteria) this;
         }
 
-        public Criteria andAdminAuthorityNotEqualTo(Boolean value) {
+        public Criteria andAdminAuthorityNotEqualTo(Integer value) {
             addCriterion("admin_authority <>", value, "adminAuthority");
             return (Criteria) this;
         }
 
-        public Criteria andAdminAuthorityGreaterThan(Boolean value) {
+        public Criteria andAdminAuthorityGreaterThan(Integer value) {
             addCriterion("admin_authority >", value, "adminAuthority");
             return (Criteria) this;
         }
 
-        public Criteria andAdminAuthorityGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andAdminAuthorityGreaterThanOrEqualTo(Integer value) {
             addCriterion("admin_authority >=", value, "adminAuthority");
             return (Criteria) this;
         }
 
-        public Criteria andAdminAuthorityLessThan(Boolean value) {
+        public Criteria andAdminAuthorityLessThan(Integer value) {
             addCriterion("admin_authority <", value, "adminAuthority");
             return (Criteria) this;
         }
 
-        public Criteria andAdminAuthorityLessThanOrEqualTo(Boolean value) {
+        public Criteria andAdminAuthorityLessThanOrEqualTo(Integer value) {
             addCriterion("admin_authority <=", value, "adminAuthority");
             return (Criteria) this;
         }
 
-        public Criteria andAdminAuthorityIn(List<Boolean> values) {
+        public Criteria andAdminAuthorityIn(List<Integer> values) {
             addCriterion("admin_authority in", values, "adminAuthority");
             return (Criteria) this;
         }
 
-        public Criteria andAdminAuthorityNotIn(List<Boolean> values) {
+        public Criteria andAdminAuthorityNotIn(List<Integer> values) {
             addCriterion("admin_authority not in", values, "adminAuthority");
             return (Criteria) this;
         }
 
-        public Criteria andAdminAuthorityBetween(Boolean value1, Boolean value2) {
+        public Criteria andAdminAuthorityBetween(Integer value1, Integer value2) {
             addCriterion("admin_authority between", value1, value2, "adminAuthority");
             return (Criteria) this;
         }
 
-        public Criteria andAdminAuthorityNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andAdminAuthorityNotBetween(Integer value1, Integer value2) {
             addCriterion("admin_authority not between", value1, value2, "adminAuthority");
             return (Criteria) this;
         }

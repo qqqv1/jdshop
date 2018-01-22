@@ -19,9 +19,9 @@ public class TbLeaveWord {
 
     private String finalReply;
 
-    private Boolean whetherTop;
+    private Integer whetherTop;
 
-    private Boolean whetherElite;
+    private Integer whetherElite;
 
     private String boardName;
 
@@ -89,19 +89,19 @@ public class TbLeaveWord {
         this.finalReply = finalReply == null ? null : finalReply.trim();
     }
 
-    public Boolean getWhetherTop() {
+    public Integer getWhetherTop() {
         return whetherTop;
     }
 
-    public void setWhetherTop(Boolean whetherTop) {
+    public void setWhetherTop(Integer whetherTop) {
         this.whetherTop = whetherTop;
     }
 
-    public Boolean getWhetherElite() {
+    public Integer getWhetherElite() {
         return whetherElite;
     }
 
-    public void setWhetherElite(Boolean whetherElite) {
+    public void setWhetherElite(Integer whetherElite) {
         this.whetherElite = whetherElite;
     }
 

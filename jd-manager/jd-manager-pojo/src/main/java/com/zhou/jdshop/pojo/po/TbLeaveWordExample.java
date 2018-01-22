@@ -625,52 +625,52 @@ public class TbLeaveWordExample {
             return (Criteria) this;
         }
 
-        public Criteria andWhetherTopEqualTo(Boolean value) {
+        public Criteria andWhetherTopEqualTo(Integer value) {
             addCriterion("whether_top =", value, "whetherTop");
             return (Criteria) this;
         }
 
-        public Criteria andWhetherTopNotEqualTo(Boolean value) {
+        public Criteria andWhetherTopNotEqualTo(Integer value) {
             addCriterion("whether_top <>", value, "whetherTop");
             return (Criteria) this;
         }
 
-        public Criteria andWhetherTopGreaterThan(Boolean value) {
+        public Criteria andWhetherTopGreaterThan(Integer value) {
             addCriterion("whether_top >", value, "whetherTop");
             return (Criteria) this;
         }
 
-        public Criteria andWhetherTopGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andWhetherTopGreaterThanOrEqualTo(Integer value) {
             addCriterion("whether_top >=", value, "whetherTop");
             return (Criteria) this;
         }
 
-        public Criteria andWhetherTopLessThan(Boolean value) {
+        public Criteria andWhetherTopLessThan(Integer value) {
             addCriterion("whether_top <", value, "whetherTop");
             return (Criteria) this;
         }
 
-        public Criteria andWhetherTopLessThanOrEqualTo(Boolean value) {
+        public Criteria andWhetherTopLessThanOrEqualTo(Integer value) {
             addCriterion("whether_top <=", value, "whetherTop");
             return (Criteria) this;
         }
 
-        public Criteria andWhetherTopIn(List<Boolean> values) {
+        public Criteria andWhetherTopIn(List<Integer> values) {
             addCriterion("whether_top in", values, "whetherTop");
             return (Criteria) this;
         }
 
-        public Criteria andWhetherTopNotIn(List<Boolean> values) {
+        public Criteria andWhetherTopNotIn(List<Integer> values) {
             addCriterion("whether_top not in", values, "whetherTop");
             return (Criteria) this;
         }
 
-        public Criteria andWhetherTopBetween(Boolean value1, Boolean value2) {
+        public Criteria andWhetherTopBetween(Integer value1, Integer value2) {
             addCriterion("whether_top between", value1, value2, "whetherTop");
             return (Criteria) this;
         }
 
-        public Criteria andWhetherTopNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andWhetherTopNotBetween(Integer value1, Integer value2) {
             addCriterion("whether_top not between", value1, value2, "whetherTop");
             return (Criteria) this;
         }
@@ -685,52 +685,52 @@ public class TbLeaveWordExample {
             return (Criteria) this;
         }
 
-        public Criteria andWhetherEliteEqualTo(Boolean value) {
+        public Criteria andWhetherEliteEqualTo(Integer value) {
             addCriterion("whether_elite =", value, "whetherElite");
             return (Criteria) this;
         }
 
-        public Criteria andWhetherEliteNotEqualTo(Boolean value) {
+        public Criteria andWhetherEliteNotEqualTo(Integer value) {
             addCriterion("whether_elite <>", value, "whetherElite");
             return (Criteria) this;
         }
 
-        public Criteria andWhetherEliteGreaterThan(Boolean value) {
+        public Criteria andWhetherEliteGreaterThan(Integer value) {
             addCriterion("whether_elite >", value, "whetherElite");
             return (Criteria) this;
         }
 
-        public Criteria andWhetherEliteGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andWhetherEliteGreaterThanOrEqualTo(Integer value) {
             addCriterion("whether_elite >=", value, "whetherElite");
             return (Criteria) this;
         }
 
-        public Criteria andWhetherEliteLessThan(Boolean value) {
+        public Criteria andWhetherEliteLessThan(Integer value) {
             addCriterion("whether_elite <", value, "whetherElite");
             return (Criteria) this;
         }
 
-        public Criteria andWhetherEliteLessThanOrEqualTo(Boolean value) {
+        public Criteria andWhetherEliteLessThanOrEqualTo(Integer value) {
             addCriterion("whether_elite <=", value, "whetherElite");
             return (Criteria) this;
         }
 
-        public Criteria andWhetherEliteIn(List<Boolean> values) {
+        public Criteria andWhetherEliteIn(List<Integer> values) {
             addCriterion("whether_elite in", values, "whetherElite");
             return (Criteria) this;
         }
 
-        public Criteria andWhetherEliteNotIn(List<Boolean> values) {
+        public Criteria andWhetherEliteNotIn(List<Integer> values) {
             addCriterion("whether_elite not in", values, "whetherElite");
             return (Criteria) this;
         }
 
-        public Criteria andWhetherEliteBetween(Boolean value1, Boolean value2) {
+        public Criteria andWhetherEliteBetween(Integer value1, Integer value2) {
             addCriterion("whether_elite between", value1, value2, "whetherElite");
             return (Criteria) this;
         }
 
-        public Criteria andWhetherEliteNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andWhetherEliteNotBetween(Integer value1, Integer value2) {
             addCriterion("whether_elite not between", value1, value2, "whetherElite");
             return (Criteria) this;
         }

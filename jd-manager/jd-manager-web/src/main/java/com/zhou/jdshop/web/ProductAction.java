@@ -1,7 +1,7 @@
 package com.zhou.jdshop.web;
 
-import com.zhou.jdshop.pojo.po.Product;
-import com.zhou.jdshop.pojo.vo.ProductCustom;
+import com.zhou.jdshop.pojo.po.TbProduct;
+import com.zhou.jdshop.pojo.vo.TbProductCustom;
 import com.zhou.jdshop.service.ProductService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -33,8 +33,8 @@ public class ProductAction {
 //    }
     @ResponseBody
     @RequestMapping(value = "/products",method = RequestMethod.GET)
-    public List<ProductCustom> listProducts(){
-        List<ProductCustom> list=null;
+    public List<TbProductCustom> listProducts(){
+        List<TbProductCustom> list=null;
         try {
             list = productService.listProducts();
         }catch (Exception e){
@@ -46,13 +46,13 @@ public class ProductAction {
 
     @ResponseBody
     @RequestMapping(value = "/product/{pid}", method = RequestMethod.GET)
-    public Product getItemById(@PathVariable("pid") String pid) {
+    public TbProduct getItemById(@PathVariable("pid") Long pid) {
         return productService.getProductById(pid);
     }
 
     @ResponseBody
     @RequestMapping("/addproduct")
-    public int saveProduct(Product product){
+    public int saveProduct(TbProduct product){
         int i = 0;
         try {
             i = productService.saveProduct(product);
@@ -65,7 +65,7 @@ public class ProductAction {
 
     @ResponseBody
     @RequestMapping("/editproduct")
-    public int editProduct(Product product){
+    public int editProduct(TbProduct product){
         int i = 0;
         try {
             i = productService.editProduct(product);
@@ -78,7 +78,7 @@ public class ProductAction {
 
     @ResponseBody
     @RequestMapping("/updateproduct")
-    public int deleteProduct(@RequestParam("pids[]") List<String> pids,@RequestParam("pflag") Integer pflag){
+    public int deleteProduct(@RequestParam("pids[]") List<Long> pids,@RequestParam("pflag") Integer pflag){
         int i = 0;
         try {
             i = productService.updateProduct(pids,pflag);

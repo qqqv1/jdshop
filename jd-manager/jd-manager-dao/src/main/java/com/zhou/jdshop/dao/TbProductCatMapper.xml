@@ -5,9 +5,9 @@
     <id column="cid" property="cid" jdbcType="BIGINT" />
     <result column="parent_id" property="parentId" jdbcType="BIGINT" />
     <result column="cname" property="cname" jdbcType="VARCHAR" />
-    <result column="is_parent" property="isParent" jdbcType="BIT" />
+    <result column="is_parent" property="isParent" jdbcType="INTEGER" />
     <result column="sort_order" property="sortOrder" jdbcType="INTEGER" />
-    <result column="state" property="state" jdbcType="BIT" />
+    <result column="cflag" property="cflag" jdbcType="INTEGER" />
     <result column="created" property="created" jdbcType="TIMESTAMP" />
     <result column="updated" property="updated" jdbcType="TIMESTAMP" />
   </resultMap>
@@ -70,7 +70,7 @@
     </where>
   </sql>
   <sql id="Base_Column_List" >
-    cid, parent_id, cname, is_parent, sort_order, state, created, updated
+    cid, parent_id, cname, is_parent, sort_order, cflag, created, updated
   </sql>
   <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.zhou.jdshop.pojo.po.TbProductCatExample" >
     select
@@ -104,10 +104,10 @@
   </delete>
   <insert id="insert" parameterType="com.zhou.jdshop.pojo.po.TbProductCat" >
     insert into tb_product_cat (cid, parent_id, cname, 
-      is_parent, sort_order, state, 
+      is_parent, sort_order, cflag, 
       created, updated)
     values (#{cid,jdbcType=BIGINT}, #{parentId,jdbcType=BIGINT}, #{cname,jdbcType=VARCHAR}, 
-      #{isParent,jdbcType=BIT}, #{sortOrder,jdbcType=INTEGER}, #{state,jdbcType=BIT}, 
+      #{isParent,jdbcType=INTEGER}, #{sortOrder,jdbcType=INTEGER}, #{cflag,jdbcType=INTEGER},
       #{created,jdbcType=TIMESTAMP}, #{updated,jdbcType=TIMESTAMP})
   </insert>
   <insert id="insertSelective" parameterType="com.zhou.jdshop.pojo.po.TbProductCat" >
@@ -128,8 +128,8 @@
       <if test="sortOrder != null" >
         sort_order,
       </if>
-      <if test="state != null" >
-        state,
+      <if test="cflag != null" >
+        cflag,
       </if>
       <if test="created != null" >
         created,
@@ -149,13 +149,13 @@
         #{cname,jdbcType=VARCHAR},
       </if>
       <if test="isParent != null" >
-        #{isParent,jdbcType=BIT},
+        #{isParent,jdbcType=INTEGER},
       </if>
       <if test="sortOrder != null" >
         #{sortOrder,jdbcType=INTEGER},
       </if>
-      <if test="state != null" >
-        #{state,jdbcType=BIT},
+      <if test="cflag != null" >
+        #{cflag,jdbcType=INTEGER},
       </if>
       <if test="created != null" >
         #{created,jdbcType=TIMESTAMP},
@@ -184,13 +184,13 @@
         cname = #{record.cname,jdbcType=VARCHAR},
       </if>
       <if test="record.isParent != null" >
-        is_parent = #{record.isParent,jdbcType=BIT},
+        is_parent = #{record.isParent,jdbcType=INTEGER},
       </if>
       <if test="record.sortOrder != null" >
         sort_order = #{record.sortOrder,jdbcType=INTEGER},
       </if>
-      <if test="record.state != null" >
-        state = #{record.state,jdbcType=BIT},
+      <if test="record.cflag != null" >
+        cflag = #{record.cflag,jdbcType=INTEGER},
       </if>
       <if test="record.created != null" >
         created = #{record.created,jdbcType=TIMESTAMP},
@@ -208,9 +208,9 @@
     set cid = #{record.cid,jdbcType=BIGINT},
       parent_id = #{record.parentId,jdbcType=BIGINT},
       cname = #{record.cname,jdbcType=VARCHAR},
-      is_parent = #{record.isParent,jdbcType=BIT},
+      is_parent = #{record.isParent,jdbcType=INTEGER},
       sort_order = #{record.sortOrder,jdbcType=INTEGER},
-      state = #{record.state,jdbcType=BIT},
+      cflag = #{record.cflag,jdbcType=INTEGER},
       created = #{record.created,jdbcType=TIMESTAMP},
       updated = #{record.updated,jdbcType=TIMESTAMP}
     <if test="_parameter != null" >
@@ -227,13 +227,13 @@
         cname = #{cname,jdbcType=VARCHAR},
       </if>
       <if test="isParent != null" >
-        is_parent = #{isParent,jdbcType=BIT},
+        is_parent = #{isParent,jdbcType=INTEGER},
       </if>
       <if test="sortOrder != null" >
         sort_order = #{sortOrder,jdbcType=INTEGER},
       </if>
-      <if test="state != null" >
-        state = #{state,jdbcType=BIT},
+      <if test="cflag != null" >
+        cflag = #{cflag,jdbcType=INTEGER},
       </if>
       <if test="created != null" >
         created = #{created,jdbcType=TIMESTAMP},
@@ -248,9 +248,9 @@
     update tb_product_cat
     set parent_id = #{parentId,jdbcType=BIGINT},
       cname = #{cname,jdbcType=VARCHAR},
-      is_parent = #{isParent,jdbcType=BIT},
+      is_parent = #{isParent,jdbcType=INTEGER},
       sort_order = #{sortOrder,jdbcType=INTEGER},
-      state = #{state,jdbcType=BIT},
+      cflag = #{cflag,jdbcType=INTEGER},
       created = #{created,jdbcType=TIMESTAMP},
       updated = #{updated,jdbcType=TIMESTAMP}
     where cid = #{cid,jdbcType=BIGINT}

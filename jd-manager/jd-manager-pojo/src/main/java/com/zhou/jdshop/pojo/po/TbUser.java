@@ -11,7 +11,7 @@ public class TbUser {
 
     private String truename;
 
-    private Boolean sex;
+    private Integer sex;
 
     private Date birthday;
 
@@ -69,11 +69,11 @@ public class TbUser {
         this.truename = truename == null ? null : truename.trim();
     }
 
-    public Boolean getSex() {
+    public Integer getSex() {
         return sex;
     }
 
-    public void setSex(Boolean sex) {
+    public void setSex(Integer sex) {
         this.sex = sex;
     }
 
