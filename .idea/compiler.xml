@@ -10,6 +10,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="jd-common" />
+        <module name="jd-lucene" />
         <module name="jd-manager-dao" />
         <module name="jd-manager-interface" />
         <module name="jd-manager-pojo" />
@@ -20,6 +21,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="jd-common" target="1.7" />
+      <module name="jd-lucene" target="1.7" />
       <module name="jd-manager" target="1.7" />
       <module name="jd-manager-dao" target="1.7" />
       <module name="jd-manager-interface" target="1.7" />

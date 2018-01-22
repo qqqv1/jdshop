@@ -7,7 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
     <title>购物车页面</title>
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
 
+>>>>>>> origin/branch_zhou
+=======
+
+>>>>>>> 8ebdf16e5490927e96bf174dfcfdd5d4fb16e52b
     <link href="css/bootstrap.min.css?v=3.3.6" rel="stylesheet">
     <link href="AmazeUI-2.4.2/assets/css/amazeui.css" rel="stylesheet" type="text/css" />
     <link href="basic/css/demo.css" rel="stylesheet" type="text/css" />
@@ -15,16 +22,36 @@
     <link href="css/cartstyle.css" rel="stylesheet" type="text/css" />
     <link href="css/optstyle.css" rel="stylesheet" type="text/css" />
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+>>>>>>> origin/branch_zhou
+=======
+>>>>>>> 8ebdf16e5490927e96bf174dfcfdd5d4fb16e52b
     <script type="text/javascript" src="js/jquery.js"></script>
 
 </head>
 
 <body>
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+<jsp:include page="top.jsp"/>
+
+<div class="clear"></div>
+=======
+=======
+>>>>>>> 8ebdf16e5490927e96bf174dfcfdd5d4fb16e52b
 <jsp:include page="top.jsp"/>
 
 <div class="clear"></div>
 
+<<<<<<< HEAD
+>>>>>>> origin/branch_zhou
+=======
+>>>>>>> 8ebdf16e5490927e96bf174dfcfdd5d4fb16e52b
 <!--购物车 -->
 <div class="concent">
     <div id="cartTable">
@@ -45,7 +72,11 @@
                     <div class="td-inner">数量</div>
                 </div>
                 <div class="th th-sum" style="width: 15%">
+<<<<<<< HEAD
+                    <div class="td-inner">金额</div>
+=======
                     <div class="td-inner">金额(元)</div>
+>>>>>>> origin/branch_zhou
                 </div>
                 <div class="th th-op" style="width: 10%">
                     <div class="td-inner">操作</div>
@@ -90,7 +121,15 @@
                        </table>--%>
 
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+                       <table width="100%" border="0" cellspacing="0" id="cart" class="table table-striped" >
+=======
                        <table width="100%" border="0" cellspacing="0" id="cart" class="table table-striped table-hover">
+>>>>>>> origin/branch_zhou
+=======
+                       <table width="100%" border="0" cellspacing="0" id="cart" class="table table-striped table-hover">
+>>>>>>> 8ebdf16e5490927e96bf174dfcfdd5d4fb16e52b
                                 <c:forEach items="${cart.items }" var="entry">
                                     <tr></tr>
                                     <tr>
@@ -106,7 +145,11 @@
                                             <input class="add am-btn" name="" type="button" value="+" onclick="add(${entry.value.product.pid },this)" />
                                         </td>
                                         <%--<td width="10%">1</td>--%>
+<<<<<<< HEAD
+                                        <td width="12%">${entry.value.subTotal }元</td>
+=======
                                         <td width="12%">${entry.value.subTotal }</td>
+>>>>>>> origin/branch_zhou
 
                                         <td width="8%">&nbsp;&nbsp;&nbsp;&nbsp;
                                             <a href="javascript:deleteProductFromCart(${entry.value.product.pid })" data-point-url="#" class="delete">
@@ -382,6 +425,12 @@
 
     </div>
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <jsp:include page="bottom.jsp"/>
+=======
+=======
+>>>>>>> 8ebdf16e5490927e96bf174dfcfdd5d4fb16e52b
     <div class="footer">
         <div class="footer-hd">
             <p>
@@ -404,23 +453,49 @@
             </p>
         </div>
     </div>
+<<<<<<< HEAD
+>>>>>>> origin/branch_zhou
+=======
+>>>>>>> 8ebdf16e5490927e96bf174dfcfdd5d4fb16e52b
 
 </div>
 
 
 
 <script>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<%--根据ID删除商品--%>
+=======
+>>>>>>> origin/branch_zhou
+=======
+>>>>>>> 8ebdf16e5490927e96bf174dfcfdd5d4fb16e52b
 
     function deleteProductFromCart(pid){
         window.location.href="${pageContext.request.contextPath}/deleteProductFromCart?pid="+pid;
 
     }
+<<<<<<< HEAD
+<<<<<<< HEAD
+//    继续购物
+=======
 
+>>>>>>> origin/branch_zhou
+=======
+
+>>>>>>> 8ebdf16e5490927e96bf174dfcfdd5d4fb16e52b
     function goonShopping(){
         window.location.href="${pageContext.request.contextPath}/product-portal-list";
 
     }
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+//    选中一种
+=======
+>>>>>>> origin/branch_zhou
+=======
+>>>>>>> 8ebdf16e5490927e96bf174dfcfdd5d4fb16e52b
     function reduce(pid,elm){
         var rows1=elm.parentNode.parentNode.rowIndex;
 

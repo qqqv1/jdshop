@@ -36,6 +36,10 @@
     <orderEntry type="module" module-name="jd-manager-pojo" />
     <orderEntry type="module" module-name="jd-manager-interface" />
     <orderEntry type="module" module-name="jd-common" />
+    <orderEntry type="library" name="Maven: commons-net:commons-net:3.3" level="project" />
+    <orderEntry type="library" name="Maven: joda-time:joda-time:2.5" level="project" />
+    <orderEntry type="library" name="Maven: redis.clients:jedis:2.7.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.commons:commons-pool2:2.3" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-core:4.2.8.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: commons-logging:commons-logging:1.2" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-beans:4.2.8.RELEASE" level="project" />
@@ -52,7 +56,7 @@
     <orderEntry type="module-library">
       <library name="Maven: com.alibaba:jconsole:1.8.0">
         <CLASSES>
-          <root url="jar://C:/Program Files/Java/jdk1.7.0_79/lib/jconsole.jar!/" />
+          <root url="jar://D:/java_all/jdk1.7/lib/jconsole.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -61,7 +65,7 @@
     <orderEntry type="module-library">
       <library name="Maven: com.alibaba:tools:1.8.0">
         <CLASSES>
-          <root url="jar://C:/Program Files/Java/jdk1.7.0_79/lib/tools.jar!/" />
+          <root url="jar://D:/java_all/jdk1.7/lib/tools.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

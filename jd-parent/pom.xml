@@ -12,6 +12,7 @@
         <module>../jd-common</module>
         <module>../jd-manager</module>
         <module>../jd-portal-web</module>
+        <module>../jd-lucene</module>
     </modules>
 
     <properties>

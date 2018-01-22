@@ -10,6 +10,7 @@ com\zhou\jdshop\pojo\vo\CartOne.class
 com\zhou\jdshop\pojo\po\CategoryExample$Criteria.class
 com\zhou\jdshop\pojo\po\CategoryExample$Criterion.class
 com\zhou\jdshop\pojo\po\ProductExample$GeneratedCriteria.class
+com\zhou\jdshop\pojo\po\TbLunBo.class
 com\zhou\jdshop\pojo\po\Orderitem.class
 com\zhou\jdshop\pojo\po\ProductExample$Criterion.class
 com\zhou\jdshop\pojo\vo\CartItem.class
