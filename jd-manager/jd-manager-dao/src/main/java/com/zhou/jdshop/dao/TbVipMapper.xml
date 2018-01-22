@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zhou.jdshop.dao.TbVipMapper" >
+  <resultMap id="BaseResultMap" type="com.zhou.jdshop.pojo.po.TbVip" >
+    <result column="user_level" property="userLevel" jdbcType="INTEGER" />
+    <result column="user_discount" property="userDiscount" jdbcType="DOUBLE" />
+    <result column="up_limit" property="upLimit" jdbcType="INTEGER" />
+    <result column="down_limit" property="downLimit" jdbcType="INTEGER" />
+  </resultMap>
+  <sql id="Example_Where_Clause" >
+    <where >
+      <foreach collection="oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause" >
+    <where >
+      <foreach collection="example.oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List" >
+    user_level, user_discount, up_limit, down_limit
+  </sql>
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.zhou.jdshop.pojo.po.TbVipExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from tb_vip
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <delete id="deleteByExample" parameterType="com.zhou.jdshop.pojo.po.TbVipExample" >
+    delete from tb_vip
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.zhou.jdshop.pojo.po.TbVip" >
+    insert into tb_vip (user_level, user_discount, up_limit, 
+      down_limit)
+    values (#{userLevel,jdbcType=INTEGER}, #{userDiscount,jdbcType=DOUBLE}, #{upLimit,jdbcType=INTEGER}, 
+      #{downLimit,jdbcType=INTEGER})
+  </insert>
+  <insert id="insertSelective" parameterType="com.zhou.jdshop.pojo.po.TbVip" >
+    insert into tb_vip
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="userLevel != null" >
+        user_level,
+      </if>
+      <if test="userDiscount != null" >
+        user_discount,
+      </if>
+      <if test="upLimit != null" >
+        up_limit,
+      </if>
+      <if test="downLimit != null" >
+        down_limit,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="userLevel != null" >
+        #{userLevel,jdbcType=INTEGER},
+      </if>
+      <if test="userDiscount != null" >
+        #{userDiscount,jdbcType=DOUBLE},
+      </if>
+      <if test="upLimit != null" >
+        #{upLimit,jdbcType=INTEGER},
+      </if>
+      <if test="downLimit != null" >
+        #{downLimit,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.zhou.jdshop.pojo.po.TbVipExample" resultType="java.lang.Integer" >
+    select count(*) from tb_vip
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map" >
+    update tb_vip
+    <set >
+      <if test="record.userLevel != null" >
+        user_level = #{record.userLevel,jdbcType=INTEGER},
+      </if>
+      <if test="record.userDiscount != null" >
+        user_discount = #{record.userDiscount,jdbcType=DOUBLE},
+      </if>
+      <if test="record.upLimit != null" >
+        up_limit = #{record.upLimit,jdbcType=INTEGER},
+      </if>
+      <if test="record.downLimit != null" >
+        down_limit = #{record.downLimit,jdbcType=INTEGER},
+      </if>
+    </set>
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map" >
+    update tb_vip
+    set user_level = #{record.userLevel,jdbcType=INTEGER},
+      user_discount = #{record.userDiscount,jdbcType=DOUBLE},
+      up_limit = #{record.upLimit,jdbcType=INTEGER},
+      down_limit = #{record.downLimit,jdbcType=INTEGER}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+</mapper>

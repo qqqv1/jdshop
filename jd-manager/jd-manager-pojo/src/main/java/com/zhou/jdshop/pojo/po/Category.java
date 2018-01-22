@@ -5,8 +5,6 @@ public class Category {
 
     private String cname;
 
-    private Integer cflag;
-
     public String getCid() {
         return cid;
     }
@@ -21,13 +19,5 @@ public class Category {
 
     public void setCname(String cname) {
         this.cname = cname == null ? null : cname.trim();
-    }
-
-    public Integer getCflag() {
-        return cflag;
-    }
-
-    public void setCflag(Integer cflag) {
-        this.cflag = cflag;
     }
 }
