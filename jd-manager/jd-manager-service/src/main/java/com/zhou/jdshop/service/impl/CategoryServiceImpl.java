@@ -1,9 +1,6 @@
 package com.zhou.jdshop.service.impl;
 
-import com.zhou.jdshop.dao.CategoryMapper;
 import com.zhou.jdshop.dao.TbProductCatMapper;
-import com.zhou.jdshop.pojo.po.Category;
-import com.zhou.jdshop.pojo.po.CategoryExample;
 import com.zhou.jdshop.pojo.po.TbProductCat;
 import com.zhou.jdshop.pojo.po.TbProductCatExample;
 import com.zhou.jdshop.service.CategoryService;

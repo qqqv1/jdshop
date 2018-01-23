@@ -1,5 +1,5 @@
-com\zhou\jdshop\service\TbContentService.class
 com\zhou\jdshop\service\CategoryService.class
 com\zhou\jdshop\service\OrderService.class
-com\zhou\jdshop\service\UserService.class
 com\zhou\jdshop\service\ProductService.class
+com\zhou\jdshop\service\UserService.class
+com\zhou\jdshop\service\TbContentService.class

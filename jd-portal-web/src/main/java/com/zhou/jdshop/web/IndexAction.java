@@ -21,7 +21,9 @@ public class IndexAction {
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String index(Model model) {
         Long cid = PropKit.use("lunbo.properties").getLong("categoryId");
+        System.out.println("Action cid"+cid);
         List<TbContent> list = tbContentService.getContentListByCid(cid);
+        System.out.println("Action size"+list.size());
         model.addAttribute("adList",list);
         return "index";
     }

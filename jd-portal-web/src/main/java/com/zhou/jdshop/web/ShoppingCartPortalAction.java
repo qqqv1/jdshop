@@ -39,7 +39,7 @@ public class ShoppingCartPortalAction {
      * @return
      */
     @RequestMapping("/addProductToCart")
-    public String addProductToCart(@RequestParam("pid") String pid, @RequestParam("count") int count, HttpSession session, HttpServletResponse response){
+    public String addProductToCart(@RequestParam("pid") Long pid, @RequestParam("count") int count, HttpSession session, HttpServletResponse response){
 
         try{
             System.out.println(pid+" "+count);
@@ -59,7 +59,7 @@ public class ShoppingCartPortalAction {
             }
 
             //把购物项放到购物车里
-            Map<String, CartItem> map = cart.getItems();//获得购物项容器
+            Map<Long, CartItem> map = cart.getItems();//获得购物项容器
 
 
             /**
@@ -128,7 +128,7 @@ public class ShoppingCartPortalAction {
      * @return
      */
     @RequestMapping("/deleteProductFromCart")
-    public String deleteProductFromCart(@RequestParam("pid") String pid,HttpSession session, HttpServletResponse response){
+    public String deleteProductFromCart(@RequestParam("pid") Long pid,HttpSession session, HttpServletResponse response){
 
         try{
             System.out.println(pid+" ");
@@ -139,7 +139,7 @@ public class ShoppingCartPortalAction {
 
             if(cart!=null){
                 //取出map
-                Map<String, CartItem> map = cart.getItems();
+                Map<Long, CartItem> map = cart.getItems();
                 if(map.containsKey(pid)){
                     CartItem cartItem = map.get(pid);
                     map.remove(pid);//根据key把这个购物项对象删除
@@ -169,7 +169,7 @@ public class ShoppingCartPortalAction {
 
     @RequestMapping(value="/addProductOneToCart",method = RequestMethod.POST)
     @ResponseBody
-    public CartOne addProductOneToCart(@RequestParam("pid") String pid, HttpSession session, HttpServletResponse response){
+    public CartOne addProductOneToCart(@RequestParam("pid") Long pid, HttpSession session, HttpServletResponse response){
 
         CartOne cartOne = new CartOne();
         try{
@@ -182,7 +182,7 @@ public class ShoppingCartPortalAction {
 
             if(cart!=null){
                 //取出map
-                Map<String, CartItem> map = cart.getItems();
+                Map<Long, CartItem> map = cart.getItems();
                 if(map.containsKey(pid)){
                     CartItem cartItem = map.get(pid);
 
@@ -223,7 +223,7 @@ public class ShoppingCartPortalAction {
 
     @RequestMapping(value="/reduceProductFromCart",method = RequestMethod.POST)
     @ResponseBody
-    public CartOne reduceProductFromCart(@RequestParam("pid") String pid, HttpSession session, HttpServletResponse response){
+    public CartOne reduceProductFromCart(@RequestParam("pid") Long pid, HttpSession session, HttpServletResponse response){
 
         CartOne cartOne = new CartOne();
         try{
@@ -236,7 +236,7 @@ public class ShoppingCartPortalAction {
 
             if(cart!=null){
                 //取出map
-                Map<String, CartItem> map = cart.getItems();
+                Map<Long, CartItem> map = cart.getItems();
                 if(map.containsKey(pid)){
                     CartItem cartItem = map.get(pid);
 //                if(cartItem.getCount()!=0){

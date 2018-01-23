@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zhou.jdshop.dao.TbContentCustomMapper" >
+
+  <sql id="Base_Column_List" >
+    id, category_id, title, sub_title, title_desc, url, pic, pic2, created, updated
+  </sql>
+  <sql id="Blob_Column_List" >
+    content
+  </sql>
+
+
+
+  <select id="selectByCategoryId" resultType="com.zhou.jdshop.pojo.po.TbContent">
+    SELECT
+    <include refid="Base_Column_List" />
+    FROM tb_content
+    WHERE categoryId=#{categoryId}
+  </select>
+
+</mapper>

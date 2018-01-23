@@ -10,8 +10,8 @@
     <result column="replies" property="replies" jdbcType="INTEGER" />
     <result column="views" property="views" jdbcType="INTEGER" />
     <result column="final_reply" property="finalReply" jdbcType="VARCHAR" />
-    <result column="whether_top" property="whetherTop" jdbcType="BIT" />
-    <result column="whether_elite" property="whetherElite" jdbcType="BIT" />
+    <result column="whether_top" property="whetherTop" jdbcType="INTEGER" />
+    <result column="whether_elite" property="whetherElite" jdbcType="INTEGER" />
     <result column="board_name" property="boardName" jdbcType="VARCHAR" />
   </resultMap>
   <sql id="Example_Where_Clause" >
@@ -113,8 +113,8 @@
       whether_elite, board_name)
     values (#{leaveWordId,jdbcType=BIGINT}, #{uid,jdbcType=BIGINT}, #{caption,jdbcType=VARCHAR}, 
       #{content,jdbcType=VARCHAR}, #{time,jdbcType=TIMESTAMP}, #{replies,jdbcType=INTEGER}, 
-      #{views,jdbcType=INTEGER}, #{finalReply,jdbcType=VARCHAR}, #{whetherTop,jdbcType=BIT}, 
-      #{whetherElite,jdbcType=BIT}, #{boardName,jdbcType=VARCHAR})
+      #{views,jdbcType=INTEGER}, #{finalReply,jdbcType=VARCHAR}, #{whetherTop,jdbcType=INTEGER},
+      #{whetherElite,jdbcType=INTEGER}, #{boardName,jdbcType=VARCHAR})
   </insert>
   <insert id="insertSelective" parameterType="com.zhou.jdshop.pojo.po.TbLeaveWord" >
     insert into tb_leave_word
@@ -179,10 +179,10 @@
         #{finalReply,jdbcType=VARCHAR},
       </if>
       <if test="whetherTop != null" >
-        #{whetherTop,jdbcType=BIT},
+        #{whetherTop,jdbcType=INTEGER},
       </if>
       <if test="whetherElite != null" >
-        #{whetherElite,jdbcType=BIT},
+        #{whetherElite,jdbcType=INTEGER},
       </if>
       <if test="boardName != null" >
         #{boardName,jdbcType=VARCHAR},
@@ -223,10 +223,10 @@
         final_reply = #{record.finalReply,jdbcType=VARCHAR},
       </if>
       <if test="record.whetherTop != null" >
-        whether_top = #{record.whetherTop,jdbcType=BIT},
+        whether_top = #{record.whetherTop,jdbcType=INTEGER},
       </if>
       <if test="record.whetherElite != null" >
-        whether_elite = #{record.whetherElite,jdbcType=BIT},
+        whether_elite = #{record.whetherElite,jdbcType=INTEGER},
       </if>
       <if test="record.boardName != null" >
         board_name = #{record.boardName,jdbcType=VARCHAR},
@@ -246,8 +246,8 @@
       replies = #{record.replies,jdbcType=INTEGER},
       views = #{record.views,jdbcType=INTEGER},
       final_reply = #{record.finalReply,jdbcType=VARCHAR},
-      whether_top = #{record.whetherTop,jdbcType=BIT},
-      whether_elite = #{record.whetherElite,jdbcType=BIT},
+      whether_top = #{record.whetherTop,jdbcType=INTEGER},
+      whether_elite = #{record.whetherElite,jdbcType=INTEGER},
       board_name = #{record.boardName,jdbcType=VARCHAR}
     <if test="_parameter != null" >
       <include refid="Update_By_Example_Where_Clause" />
@@ -278,10 +278,10 @@
         final_reply = #{finalReply,jdbcType=VARCHAR},
       </if>
       <if test="whetherTop != null" >
-        whether_top = #{whetherTop,jdbcType=BIT},
+        whether_top = #{whetherTop,jdbcType=INTEGER},
       </if>
       <if test="whetherElite != null" >
-        whether_elite = #{whetherElite,jdbcType=BIT},
+        whether_elite = #{whetherElite,jdbcType=INTEGER},
       </if>
       <if test="boardName != null" >
         board_name = #{boardName,jdbcType=VARCHAR},
@@ -298,8 +298,8 @@
       replies = #{replies,jdbcType=INTEGER},
       views = #{views,jdbcType=INTEGER},
       final_reply = #{finalReply,jdbcType=VARCHAR},
-      whether_top = #{whetherTop,jdbcType=BIT},
-      whether_elite = #{whetherElite,jdbcType=BIT},
+      whether_top = #{whetherTop,jdbcType=INTEGER},
+      whether_elite = #{whetherElite,jdbcType=INTEGER},
       board_name = #{boardName,jdbcType=VARCHAR}
     where leave_word_id = #{leaveWordId,jdbcType=BIGINT}
   </update>
