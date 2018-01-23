@@ -2,8 +2,6 @@ package com.zhou.jdshop.service.impl;
 
 import com.zhou.jdshop.dao.TbProductCustomMapper;
 import com.zhou.jdshop.dao.TbProductMapper;
-import com.zhou.jdshop.pojo.po.Product;
-import com.zhou.jdshop.pojo.po.ProductExample;
 import com.zhou.jdshop.pojo.po.TbProduct;
 import com.zhou.jdshop.pojo.po.TbProductExample;
 import com.zhou.jdshop.pojo.vo.TbProductCustom;
@@ -73,7 +71,9 @@ public class ProductServiceImpl implements ProductService {
             TbProductExample.Criteria criteria = example.createCriteria();
             criteria.andPidEqualTo(pid);
             criteria.andPflagNotEqualTo(3);
-            product = productDao.selectByExample(example).get(0);
+//            product = productDao.selectByExample(example).get(0);
+//            product = productDao.selectByExample(example).get(0);
+            product = productDao.selectByPrimaryKey(pid);
         }catch (Exception e){
             logger.error(e.getMessage(),e);
             e.printStackTrace();

@@ -1,4 +1,8 @@
 com\zhou\jdshop\dao\TbOrderShippingMapper.class
+<<<<<<< HEAD
+com\zhou\jdshop\dao\TbUserMapper.class
+com\zhou\jdshop\dao\TbBoardMapper.class
+=======
 com\zhou\jdshop\dao\TbOrderMapper.class
 com\zhou\jdshop\dao\TbContentMapper.class
 com\zhou\jdshop\dao\TbProductCustomMapper.class
@@ -13,10 +17,25 @@ com\zhou\jdshop\dao\TbProductMapper.class
 com\zhou\jdshop\dao\TbLunBoMapper.class
 com\zhou\jdshop\dao\TbLeaveWordMapper.class
 com\zhou\jdshop\dao\TbNoticeMapper.class
+>>>>>>> origin/branch_zhou
 com\zhou\jdshop\dao\TbProductParamMapper.class
-com\zhou\jdshop\dao\TbAdministratorMapper.class
-com\zhou\jdshop\dao\TbUserMapper.class
-com\zhou\jdshop\dao\TbBrandMapper.class
+com\zhou\jdshop\dao\TbNoticeMapper.class
+com\zhou\jdshop\dao\TbShippingAddressMapper.class
+com\zhou\jdshop\dao\TbProductCustomMapper.class
+com\zhou\jdshop\dao\TbProductMapper.class
+com\zhou\jdshop\dao\TbNewMapper.class
 com\zhou\jdshop\dao\TbVipMapper.class
 com\zhou\jdshop\dao\TbContentCategoryMapper.class
+com\zhou\jdshop\dao\TbProductCatParamMapper.class
+com\zhou\jdshop\dao\UserMapper.class
+com\zhou\jdshop\dao\TbLeaveWordMapper.class
+com\zhou\jdshop\dao\OrdersCustomMapper.class
 com\zhou\jdshop\dao\TbProductCatMapper.class
+com\zhou\jdshop\dao\TbOrderMapper.class
+com\zhou\jdshop\dao\TbContentCustomMapper.class
+com\zhou\jdshop\dao\TbBrandMapper.class
+com\zhou\jdshop\dao\TbLunBoMapper.class
+com\zhou\jdshop\dao\TbContentMapper.class
+com\zhou\jdshop\dao\UserCustomMapper.class
+com\zhou\jdshop\dao\TbOrderItemMapper.class
+com\zhou\jdshop\dao\TbAdministratorMapper.class

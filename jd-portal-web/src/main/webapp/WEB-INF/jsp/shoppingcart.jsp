@@ -53,6 +53,51 @@
             <div class="bundle  bundle-last ">
                 <div class="clear"></div>
                 <div class="bundle-main">
+<<<<<<< HEAD
+
+
+
+
+
+                       <table width="100%" border="0" cellspacing="0" id="cart" class="table table-striped" >
+                       <%--<table width="100%" border="0" cellspacing="0" id="cart" class="table table-striped table-hover">--%>
+                                <c:forEach items="${cart.items }" var="entry">
+                                    <tr></tr>
+                                    <tr>
+                                        <td></td>
+                                        <td width="15%"><img style="width:60px;height:60px;" alt="" src="${entry.value.product.pimage}"></td>
+                                        <td width="23%">${entry.value.product.pname }</td>
+
+                                        <td width="17%">${entry.value.product.shopPrice}</td>
+                                        <td width="25%">
+                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                            <input class="min am-btn" name="" type="button" value="-" onclick="reduce(${entry.value.product.pid},this)" />
+                                            <input class="text_box" name="" type="text" id="count" value="${entry.value.count }" style="width:30px;" />
+                                            <input class="add am-btn" name="" type="button" value="+" onclick="add(${entry.value.product.pid },this)" />
+                                        </td>
+                                        <%--<td width="10%">1</td>--%>
+                                        <td width="12%">${entry.value.subTotal }元</td>
+
+                                        <td width="8%">&nbsp;&nbsp;&nbsp;&nbsp;
+                                            <%--<a href="javascript:deleteProductFromCart(${entry.value.product.pid })"  class="delete">--%>
+                                                <%--删除</a>--%>
+                                            <a  href="${pageContext.request.contextPath}/deleteProductFromCart?pid=${entry.value.product.pid}">
+                                                <%--onclick="deleteProductFromCart(${entry.value.product.pid})"--%>
+                                                删除</a>
+                                            <input type="hidden" value="${entry.value.product.pid}">
+                                        </td>
+                                        <%--data-point-url="#"--%>
+                                    </tr>
+
+                                </c:forEach>
+                            </table>
+
+
+
+
+
+
+=======
                     <table width="100%" border="0" cellspacing="0" id="cart" class="table table-striped" >
                         <%--<table width="100%" border="0" cellspacing="0" id="cart" class="table table-striped table-hover">--%>
                         <c:forEach items="${cart.items }" var="entry">
@@ -76,6 +121,7 @@
                             </tr>
                         </c:forEach>
                     </table>
+>>>>>>> origin/branch_zhou
                 </div>
             </div>
         </tr>
@@ -234,9 +280,33 @@
 
 <script>
 <%--根据ID删除商品--%>
+<<<<<<< HEAD
+
+/*$(function () {
+    $(".delete").each(function (){
+        var that =this;
+        $(this).on("click", function(){
+            var rows=that.parentNode.parentNode.rowIndex;
+            var pid=$('#cart tr:eq('+rows+') td:eq(6) input').val();
+            console.log(pid);
+            console.log(valueOf(pid))
+            window.location.href="${pageContext.request.contextPath}/deleteProductFromCart?pid="+pid;
+        });
+    })
+})*/
+
+
+   /* function deleteProductFromCart(pid){
+        console.log(pid)
+        window.location.href="${pageContext.request.contextPath}/deleteProductFromCart?pid="+pid;
+        console.log(123)
+
+    }*/
+=======
     function deleteProductFromCart(pid){
         window.location.href="${pageContext.request.contextPath}/deleteProductFromCart?pid="+pid;
     }
+>>>>>>> origin/branch_zhou
 //    继续购物
 
     function goonShopping(){

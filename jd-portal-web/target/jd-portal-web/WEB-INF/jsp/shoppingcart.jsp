@@ -83,11 +83,16 @@
                                         </td>
                                         <%--<td width="10%">1</td>--%>
                                         <td width="12%">${entry.value.subTotal }元</td>
-                                        <td width="12%">${entry.value.subTotal }</td>
 
                                         <td width="8%">&nbsp;&nbsp;&nbsp;&nbsp;
-                                            <a href="javascript:deleteProductFromCart(${entry.value.product.pid })" data-point-url="#" class="delete">
-                                                删除</a></td>
+                                            <%--<a href="javascript:deleteProductFromCart(${entry.value.product.pid })"  class="delete">--%>
+                                                <%--删除</a>--%>
+                                            <a  href="${pageContext.request.contextPath}/deleteProductFromCart?pid=${entry.value.product.pid}">
+                                                <%--onclick="deleteProductFromCart(${entry.value.product.pid})"--%>
+                                                删除</a>
+                                            <input type="hidden" value="${entry.value.product.pid}">
+                                        </td>
+                                        <%--data-point-url="#"--%>
                                     </tr>
 
                                 </c:forEach>
@@ -266,10 +271,26 @@
 <script>
 <%--根据ID删除商品--%>
 
-    function deleteProductFromCart(pid){
-        window.location.href="${pageContext.request.contextPath}/deleteProductFromCart?pid="+pid;
+/*$(function () {
+    $(".delete").each(function (){
+        var that =this;
+        $(this).on("click", function(){
+            var rows=that.parentNode.parentNode.rowIndex;
+            var pid=$('#cart tr:eq('+rows+') td:eq(6) input').val();
+            console.log(pid);
+            console.log(valueOf(pid))
+            window.location.href="${pageContext.request.contextPath}/deleteProductFromCart?pid="+pid;
+        });
+    })
+})*/
 
-    }
+
+   /* function deleteProductFromCart(pid){
+        console.log(pid)
+        window.location.href="${pageContext.request.contextPath}/deleteProductFromCart?pid="+pid;
+        console.log(123)
+
+    }*/
 //    继续购物
 
     function goonShopping(){

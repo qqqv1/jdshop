@@ -121,11 +121,19 @@
       integral, user_level, safety_problem, 
       answer, aid, state)
     values (#{uid,jdbcType=BIGINT}, #{uname,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR}, 
+<<<<<<< HEAD
+      #{truename,jdbcType=VARCHAR}, #{sex,jdbcType=INTEGER}, #{birthday,jdbcType=DATE}, #{email,jdbcType=VARCHAR},
+      #{telephone,jdbcType=VARCHAR}, #{institution,jdbcType=VARCHAR}, #{city,jdbcType=VARCHAR}, 
+      #{address,jdbcType=VARCHAR}, #{registTime,jdbcType=DATE}, #{integral,jdbcType=INTEGER}, 
+      #{userLevel,jdbcType=INTEGER}, #{safetyProblem,jdbcType=VARCHAR}, #{answer,jdbcType=VARCHAR}, 
+      #{aid,jdbcType=BIGINT})
+=======
       #{truename,jdbcType=VARCHAR}, #{sex,jdbcType=INTEGER}, #{birthday,jdbcType=DATE}, 
       #{email,jdbcType=VARCHAR}, #{telephone,jdbcType=VARCHAR}, #{institution,jdbcType=VARCHAR}, 
       #{city,jdbcType=VARCHAR}, #{address,jdbcType=VARCHAR}, #{registTime,jdbcType=DATE}, 
       #{integral,jdbcType=INTEGER}, #{userLevel,jdbcType=INTEGER}, #{safetyProblem,jdbcType=VARCHAR}, 
       #{answer,jdbcType=VARCHAR}, #{aid,jdbcType=BIGINT}, #{state,jdbcType=INTEGER})
+>>>>>>> origin/branch_zhou
   </insert>
   <insert id="insertSelective" parameterType="com.zhou.jdshop.pojo.po.TbUser" >
     insert into tb_user
