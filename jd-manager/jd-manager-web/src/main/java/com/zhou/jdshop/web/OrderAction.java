@@ -1,13 +1,11 @@
 package com.zhou.jdshop.web;
 
-import com.zhou.jdshop.pojo.po.Orders;
-import com.zhou.jdshop.pojo.po.Product;
+import com.zhou.jdshop.pojo.po.TbOrder;
 import com.zhou.jdshop.pojo.vo.OrdersCustom;
 import com.zhou.jdshop.service.OrderService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
@@ -27,8 +25,8 @@ public class OrderAction {
      */
     @ResponseBody
     @RequestMapping(value = "/orders",method = RequestMethod.GET)
-    public List<Orders> listOrders(){
-        List<Orders> list=null;
+    public List<TbOrder> listOrders(){
+        List<TbOrder> list=null;
         try {
             list = orderService.listOrders();
         }catch (Exception e){
@@ -70,7 +68,7 @@ public class OrderAction {
      */
     @ResponseBody
     @RequestMapping("/editOrdersCustom")
-    public int editOrdersCustom(Orders orders,String oid,String itemid, Integer count,Double subtotal){
+    public int editOrdersCustom(TbOrder orders,String oid,String itemid, Integer count,Double subtotal){
         int i = 0;
         try {
             i = orderService.editOrder(orders,oid,itemid,count,subtotal);

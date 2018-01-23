@@ -287,4 +287,5 @@
       code = #{code,jdbcType=VARCHAR}
     where uid = #{uid,jdbcType=VARCHAR}
   </update>
+
 </mapper>

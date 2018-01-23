@@ -1,7 +1,6 @@
 package com.zhou.jdshop.web;
 
-import com.zhou.jdshop.pojo.po.Product;
-
+import com.zhou.jdshop.pojo.po.TbProduct;
 import com.zhou.jdshop.pojo.vo.Cart;
 import com.zhou.jdshop.pojo.vo.CartItem;
 import com.zhou.jdshop.pojo.vo.CartOne;
@@ -46,7 +45,7 @@ public class ShoppingCartPortalAction {
             System.out.println(pid+" "+count);
 
             //根据pid去查找商品对象
-            Product p = productService.getProductById(pid);
+            TbProduct p = productService.getProductById(pid);
 
             //从Session里面取出购物车
             //购物车  有可能等于null

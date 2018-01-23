@@ -1,8 +1,8 @@
 package com.zhou.jdshop.pojo.vo;
 
-import com.zhou.jdshop.pojo.po.Product;
+import com.zhou.jdshop.pojo.po.TbProduct;
 
-public class ProductCustom extends Product {
+public class ProductCustom extends TbProduct {
     private String cname;
 
     public String getCname() {

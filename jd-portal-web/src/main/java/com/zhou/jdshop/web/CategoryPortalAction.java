@@ -1,6 +1,6 @@
 package com.zhou.jdshop.web;
 
-import com.zhou.jdshop.pojo.po.Category;
+import com.zhou.jdshop.pojo.po.TbProductCat;
 import com.zhou.jdshop.service.CategoryService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -16,13 +16,13 @@ public class CategoryPortalAction {
 
     private Logger logger= LoggerFactory.getLogger(this.getClass());
 
-    @Autowired
+  /*  @Autowired
     private CategoryService categoryService;
 
     @ResponseBody
     @RequestMapping("/categoryList")
-    public List<Category> categoryList(){
-        List<Category> list=null;
+    public List<TbProductCat> categoryList(){
+        List<TbProductCat> list=null;
         try {
             list=categoryService.listCats();
         }catch (Exception e){
@@ -30,5 +30,5 @@ public class CategoryPortalAction {
             e.printStackTrace();
         }
         return list;
-    }
+    }*/
 }

@@ -1,22 +1,14 @@
 package com.zhou.jdshop.pojo.vo;
 
-import com.zhou.jdshop.pojo.po.Orders;
+import com.zhou.jdshop.pojo.po.TbOrder;
 
-public class OrdersCustom extends Orders {
+public class OrdersCustom extends TbOrder {
     private String pname;
 
     private String itemid;
     private Integer count;
     private Double subtotal;
-    private String status;
 
-    public String getStatus() {
-        return status;
-    }
-
-    public void setStatus(String status) {
-        this.status = status;
-    }
 
     public String getItemid() {
         return itemid;

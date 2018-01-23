@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zhou.jdshop.dao.TbLeaveWordMapper" >
+  <resultMap id="BaseResultMap" type="com.zhou.jdshop.pojo.po.TbLeaveWord" >
+    <id column="leave_word_id" property="leaveWordId" jdbcType="BIGINT" />
+    <result column="uid" property="uid" jdbcType="BIGINT" />
+    <result column="caption" property="caption" jdbcType="VARCHAR" />
+    <result column="content" property="content" jdbcType="VARCHAR" />
+    <result column="time" property="time" jdbcType="TIMESTAMP" />
+    <result column="replies" property="replies" jdbcType="INTEGER" />
+    <result column="views" property="views" jdbcType="INTEGER" />
+    <result column="final_reply" property="finalReply" jdbcType="VARCHAR" />
+    <result column="whether_top" property="whetherTop" jdbcType="BIT" />
+    <result column="whether_elite" property="whetherElite" jdbcType="BIT" />
+    <result column="board_name" property="boardName" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Example_Where_Clause" >
+    <where >
+      <foreach collection="oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause" >
+    <where >
+      <foreach collection="example.oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List" >
+    leave_word_id, uid, caption, content, time, replies, views, final_reply, whether_top, 
+    whether_elite, board_name
+  </sql>
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.zhou.jdshop.pojo.po.TbLeaveWordExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from tb_leave_word
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+    select 
+    <include refid="Base_Column_List" />
+    from tb_leave_word
+    where leave_word_id = #{leaveWordId,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
+    delete from tb_leave_word
+    where leave_word_id = #{leaveWordId,jdbcType=BIGINT}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.zhou.jdshop.pojo.po.TbLeaveWordExample" >
+    delete from tb_leave_word
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.zhou.jdshop.pojo.po.TbLeaveWord" >
+    insert into tb_leave_word (leave_word_id, uid, caption, 
+      content, time, replies, 
+      views, final_reply, whether_top, 
+      whether_elite, board_name)
+    values (#{leaveWordId,jdbcType=BIGINT}, #{uid,jdbcType=BIGINT}, #{caption,jdbcType=VARCHAR}, 
+      #{content,jdbcType=VARCHAR}, #{time,jdbcType=TIMESTAMP}, #{replies,jdbcType=INTEGER}, 
+      #{views,jdbcType=INTEGER}, #{finalReply,jdbcType=VARCHAR}, #{whetherTop,jdbcType=BIT}, 
+      #{whetherElite,jdbcType=BIT}, #{boardName,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.zhou.jdshop.pojo.po.TbLeaveWord" >
+    insert into tb_leave_word
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="leaveWordId != null" >
+        leave_word_id,
+      </if>
+      <if test="uid != null" >
+        uid,
+      </if>
+      <if test="caption != null" >
+        caption,
+      </if>
+      <if test="content != null" >
+        content,
+      </if>
+      <if test="time != null" >
+        time,
+      </if>
+      <if test="replies != null" >
+        replies,
+      </if>
+      <if test="views != null" >
+        views,
+      </if>
+      <if test="finalReply != null" >
+        final_reply,
+      </if>
+      <if test="whetherTop != null" >
+        whether_top,
+      </if>
+      <if test="whetherElite != null" >
+        whether_elite,
+      </if>
+      <if test="boardName != null" >
+        board_name,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="leaveWordId != null" >
+        #{leaveWordId,jdbcType=BIGINT},
+      </if>
+      <if test="uid != null" >
+        #{uid,jdbcType=BIGINT},
+      </if>
+      <if test="caption != null" >
+        #{caption,jdbcType=VARCHAR},
+      </if>
+      <if test="content != null" >
+        #{content,jdbcType=VARCHAR},
+      </if>
+      <if test="time != null" >
+        #{time,jdbcType=TIMESTAMP},
+      </if>
+      <if test="replies != null" >
+        #{replies,jdbcType=INTEGER},
+      </if>
+      <if test="views != null" >
+        #{views,jdbcType=INTEGER},
+      </if>
+      <if test="finalReply != null" >
+        #{finalReply,jdbcType=VARCHAR},
+      </if>
+      <if test="whetherTop != null" >
+        #{whetherTop,jdbcType=BIT},
+      </if>
+      <if test="whetherElite != null" >
+        #{whetherElite,jdbcType=BIT},
+      </if>
+      <if test="boardName != null" >
+        #{boardName,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.zhou.jdshop.pojo.po.TbLeaveWordExample" resultType="java.lang.Integer" >
+    select count(*) from tb_leave_word
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map" >
+    update tb_leave_word
+    <set >
+      <if test="record.leaveWordId != null" >
+        leave_word_id = #{record.leaveWordId,jdbcType=BIGINT},
+      </if>
+      <if test="record.uid != null" >
+        uid = #{record.uid,jdbcType=BIGINT},
+      </if>
+      <if test="record.caption != null" >
+        caption = #{record.caption,jdbcType=VARCHAR},
+      </if>
+      <if test="record.content != null" >
+        content = #{record.content,jdbcType=VARCHAR},
+      </if>
+      <if test="record.time != null" >
+        time = #{record.time,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.replies != null" >
+        replies = #{record.replies,jdbcType=INTEGER},
+      </if>
+      <if test="record.views != null" >
+        views = #{record.views,jdbcType=INTEGER},
+      </if>
+      <if test="record.finalReply != null" >
+        final_reply = #{record.finalReply,jdbcType=VARCHAR},
+      </if>
+      <if test="record.whetherTop != null" >
+        whether_top = #{record.whetherTop,jdbcType=BIT},
+      </if>
+      <if test="record.whetherElite != null" >
+        whether_elite = #{record.whetherElite,jdbcType=BIT},
+      </if>
+      <if test="record.boardName != null" >
+        board_name = #{record.boardName,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map" >
+    update tb_leave_word
+    set leave_word_id = #{record.leaveWordId,jdbcType=BIGINT},
+      uid = #{record.uid,jdbcType=BIGINT},
+      caption = #{record.caption,jdbcType=VARCHAR},
+      content = #{record.content,jdbcType=VARCHAR},
+      time = #{record.time,jdbcType=TIMESTAMP},
+      replies = #{record.replies,jdbcType=INTEGER},
+      views = #{record.views,jdbcType=INTEGER},
+      final_reply = #{record.finalReply,jdbcType=VARCHAR},
+      whether_top = #{record.whetherTop,jdbcType=BIT},
+      whether_elite = #{record.whetherElite,jdbcType=BIT},
+      board_name = #{record.boardName,jdbcType=VARCHAR}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.zhou.jdshop.pojo.po.TbLeaveWord" >
+    update tb_leave_word
+    <set >
+      <if test="uid != null" >
+        uid = #{uid,jdbcType=BIGINT},
+      </if>
+      <if test="caption != null" >
+        caption = #{caption,jdbcType=VARCHAR},
+      </if>
+      <if test="content != null" >
+        content = #{content,jdbcType=VARCHAR},
+      </if>
+      <if test="time != null" >
+        time = #{time,jdbcType=TIMESTAMP},
+      </if>
+      <if test="replies != null" >
+        replies = #{replies,jdbcType=INTEGER},
+      </if>
+      <if test="views != null" >
+        views = #{views,jdbcType=INTEGER},
+      </if>
+      <if test="finalReply != null" >
+        final_reply = #{finalReply,jdbcType=VARCHAR},
+      </if>
+      <if test="whetherTop != null" >
+        whether_top = #{whetherTop,jdbcType=BIT},
+      </if>
+      <if test="whetherElite != null" >
+        whether_elite = #{whetherElite,jdbcType=BIT},
+      </if>
+      <if test="boardName != null" >
+        board_name = #{boardName,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where leave_word_id = #{leaveWordId,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.zhou.jdshop.pojo.po.TbLeaveWord" >
+    update tb_leave_word
+    set uid = #{uid,jdbcType=BIGINT},
+      caption = #{caption,jdbcType=VARCHAR},
+      content = #{content,jdbcType=VARCHAR},
+      time = #{time,jdbcType=TIMESTAMP},
+      replies = #{replies,jdbcType=INTEGER},
+      views = #{views,jdbcType=INTEGER},
+      final_reply = #{finalReply,jdbcType=VARCHAR},
+      whether_top = #{whetherTop,jdbcType=BIT},
+      whether_elite = #{whetherElite,jdbcType=BIT},
+      board_name = #{boardName,jdbcType=VARCHAR}
+    where leave_word_id = #{leaveWordId,jdbcType=BIGINT}
+  </update>
+</mapper>

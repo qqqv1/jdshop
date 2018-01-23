@@ -1,6 +1,6 @@
 package com.zhou.jdshop.web;
 
-import com.zhou.jdshop.pojo.po.Product;
+import com.zhou.jdshop.pojo.po.TbProduct;
 import com.zhou.jdshop.pojo.vo.ProductCustom;
 import com.zhou.jdshop.service.ProductService;
 import org.slf4j.Logger;
@@ -46,13 +46,13 @@ public class ProductAction {
 
     @ResponseBody
     @RequestMapping(value = "/product/{pid}", method = RequestMethod.GET)
-    public Product getItemById(@PathVariable("pid") String pid) {
+    public TbProduct getItemById(@PathVariable("pid") String pid) {
         return productService.getProductById(pid);
     }
 
     @ResponseBody
     @RequestMapping("/addproduct")
-    public int saveProduct(Product product){
+    public int saveProduct(TbProduct product){
         int i = 0;
         try {
             i = productService.saveProduct(product);
@@ -65,7 +65,7 @@ public class ProductAction {
 
     @ResponseBody
     @RequestMapping("/editproduct")
-    public int editProduct(Product product){
+    public int editProduct(TbProduct product){
         int i = 0;
         try {
             i = productService.editProduct(product);

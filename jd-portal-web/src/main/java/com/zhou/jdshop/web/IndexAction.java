@@ -1,8 +1,7 @@
 package com.zhou.jdshop.web;
 
-import com.zhou.jdshop.pojo.po.TbLunBo;
-import com.zhou.jdshop.service.TbLunBoService;
-import com.zhou.jdshop.util.Prop;
+import com.zhou.jdshop.pojo.po.TbContent;
+import com.zhou.jdshop.service.TbContentService;
 import com.zhou.jdshop.util.PropKit;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -15,13 +14,14 @@ import java.util.List;
 
 @Controller
 public class IndexAction {
+
     @Autowired
-    private TbLunBoService tbLunBoService;
+    private TbContentService tbContentService;
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String index(Model model) {
         Long cid = PropKit.use("lunbo.properties").getLong("categoryId");
-        List<TbLunBo> list = tbLunBoService.getContentListByCid(cid);
+        List<TbContent> list = tbContentService.getContentListByCid(cid);
         model.addAttribute("adList",list);
         return "index";
     }

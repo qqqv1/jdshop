@@ -1,6 +1,6 @@
 package com.zhou.jdshop.service;
 
-import com.zhou.jdshop.pojo.po.Product;
+import com.zhou.jdshop.pojo.po.TbProduct;
 import com.zhou.jdshop.pojo.vo.ProductCustom;
 
 import java.util.List;
@@ -10,13 +10,13 @@ public interface ProductService {
 
     List<ProductCustom> listProducts();
 
-    int saveProduct(Product product);
+    int saveProduct(TbProduct product);
 
     int updateProduct(List<String> pids,Integer pflag);
 
-    Product getProductById(String pid);
+    TbProduct getProductById(String pid);
 
-    int editProduct(Product product);
+    int editProduct(TbProduct product);
 
     int total(String cname,String pname);
 

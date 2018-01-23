@@ -2,6 +2,7 @@
   <dictionary name="Administrator">
     <words>
       <w>dlstyle</w>
+      <w>jedis</w>
     </words>
   </dictionary>
 </component>

@@ -1,16 +1,17 @@
 package com.zhou.jdshop.service;
 
-import com.zhou.jdshop.pojo.po.Category;
+import com.zhou.jdshop.pojo.po.TbProductCat;
+
 import java.util.List;
 
 public interface CategoryService {
-    List<Category> listCats();
+    List<TbProductCat> listCats();
 
-    Category getCategoryById(String cid);
+    TbProductCat getCategoryById(String cid);
 
-    int saveCategory(Category category);
+    int saveCategory(TbProductCat category);
 
-    int editCategory(Category category);
+    int editCategory(TbProductCat category);
 
     int deleteCategory(List<String> cids);
 }

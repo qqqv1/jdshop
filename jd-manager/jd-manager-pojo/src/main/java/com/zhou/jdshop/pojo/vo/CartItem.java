@@ -1,6 +1,6 @@
 package com.zhou.jdshop.pojo.vo;
 
-import com.zhou.jdshop.pojo.po.Product;
+import com.zhou.jdshop.pojo.po.TbProduct;
 
 /**
  * 购物项
@@ -9,7 +9,7 @@ public class CartItem {
     /**
      * 商品
      */
-    private Product product;
+    private TbProduct product;
     /**
      * 购买数量
      */
@@ -20,11 +20,11 @@ public class CartItem {
     private double subTotal;
 
 
-    public Product getProduct() {
+    public TbProduct getProduct() {
         return product;
     }
 
-    public void setProduct(Product product) {
+    public void setProduct(TbProduct product) {
         this.product = product;
     }
 
