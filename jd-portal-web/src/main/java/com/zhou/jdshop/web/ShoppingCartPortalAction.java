@@ -1,7 +1,5 @@
 package com.zhou.jdshop.web;
 
-import com.zhou.jdshop.pojo.po.Product;
-
 import com.zhou.jdshop.pojo.po.TbProduct;
 import com.zhou.jdshop.pojo.vo.Cart;
 import com.zhou.jdshop.pojo.vo.CartItem;

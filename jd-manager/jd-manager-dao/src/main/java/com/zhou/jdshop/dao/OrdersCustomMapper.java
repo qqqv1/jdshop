@@ -1,9 +1,7 @@
 package com.zhou.jdshop.dao;
 
-import com.zhou.jdshop.pojo.po.Orders;
-import com.zhou.jdshop.pojo.po.OrdersExample;
+import com.zhou.jdshop.pojo.po.TbOrder;
 import com.zhou.jdshop.pojo.vo.OrdersCustom;
-import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
@@ -13,7 +11,7 @@ public interface OrdersCustomMapper {
      * @param o
      * @return
      */
-    List<Orders> selectByExample(Object o);
+    List<TbOrder> selectByExample(Object o);
 
     /**
      * 根据itemi查订单

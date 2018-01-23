@@ -1,6 +1,5 @@
 package com.zhou.jdshop.pojo.vo;
 
-import com.zhou.jdshop.pojo.po.Product;
 import com.zhou.jdshop.pojo.po.TbProduct;
 
 /**
@@ -26,7 +25,7 @@ public class CartItem {
     }
 
     public void setTbProduct(TbProduct product) {
-        this.product = product;
+        this.product=product;
     }
 
     public int getCount() {

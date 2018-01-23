@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.zhou.jdshop.dao.OrdersCustomMapper">
-  <resultMap id="BaseResultMap" type="com.zhou.jdshop.pojo.po.Orders">
-    <id column="oid" jdbcType="VARCHAR" property="oid" />
-    <result column="ordertime" jdbcType="TIMESTAMP" property="ordertime" />
-    <result column="total" jdbcType="DOUBLE" property="total" />
-    <result column="state" jdbcType="INTEGER" property="state" />
-    <result column="address" jdbcType="VARCHAR" property="address" />
-    <result column="name" jdbcType="VARCHAR" property="name" />
-    <result column="telephone" jdbcType="VARCHAR" property="telephone" />
-    <result column="uid" jdbcType="VARCHAR" property="uid" />
-  </resultMap>
+
 
 
   <sql id="Base_Column_List">
@@ -42,7 +33,7 @@
 
     select
     <include refid="Base_Column_List" />
-    from orderitem oi  left join orders o on o.oid=oi.oid
+    from TbOrderItem oi  left join TbOrder o on o.oid=oi.oid
 
     LEFT JOIN product p on oi.pid=p.pid
     where o.state!=0
@@ -55,7 +46,7 @@
 
         select
         <include refid="Base_Column_List" />
-        from orderitem oi left join orders o on oi.oid=o.oid
+        from TbOrderItem oi left join TbOrder o on oi.oid=o.oid
         LEFT JOIN product p on oi.pid=p.pid
 
         WHERE oi.itemid=#{itemid} AND   o.state!=0

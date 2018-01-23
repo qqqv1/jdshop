@@ -1,9 +1,7 @@
 package com.zhou.jdshop.service;
 
-import com.zhou.jdshop.pojo.po.Orders;
-import com.zhou.jdshop.pojo.po.Product;
+import com.zhou.jdshop.pojo.po.TbOrder;
 import com.zhou.jdshop.pojo.vo.OrdersCustom;
-import org.springframework.core.annotation.Order;
 
 import java.util.List;
 
@@ -13,7 +11,7 @@ public interface OrderService {
      * 查询所有订单
      * @return
      */
-    List<Orders> listOrders();
+    List<TbOrder> listOrders();
 
     /**
      * 删除选中的订单
@@ -35,5 +33,5 @@ public interface OrderService {
      * @param
      * @return
      */
-    int editOrder(Orders orders,String oid,String itemid, Integer count,Double subtotal);
+    int editOrder(TbOrder orders,String oid,String itemid, Integer count,Double subtotal);
 }
