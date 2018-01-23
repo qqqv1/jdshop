@@ -41,7 +41,7 @@
                     <div class="td-inner">数量</div>
                 </div>
                 <div class="th th-sum" style="width: 15%">
-                    <div class="td-inner">金额</div>
+                    <div class="td-inner">金额(元)</div>
                 </div>
                 <div class="th th-op" style="width: 10%">
                     <div class="td-inner">操作</div>
@@ -53,75 +53,35 @@
             <div class="bundle  bundle-last ">
                 <div class="clear"></div>
                 <div class="bundle-main">
-<<<<<<< HEAD
-
-
-
-
-
-                       <table width="100%" border="0" cellspacing="0" id="cart" class="table table-striped" >
-                       <%--<table width="100%" border="0" cellspacing="0" id="cart" class="table table-striped table-hover">--%>
-                                <c:forEach items="${cart.items }" var="entry">
-                                    <tr></tr>
-                                    <tr>
-                                        <td></td>
-                                        <td width="15%"><img style="width:60px;height:60px;" alt="" src="${entry.value.product.pimage}"></td>
-                                        <td width="23%">${entry.value.product.pname }</td>
-
-                                        <td width="17%">${entry.value.product.shopPrice}</td>
-                                        <td width="25%">
-                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                            <input class="min am-btn" name="" type="button" value="-" onclick="reduce(${entry.value.product.pid},this)" />
-                                            <input class="text_box" name="" type="text" id="count" value="${entry.value.count }" style="width:30px;" />
-                                            <input class="add am-btn" name="" type="button" value="+" onclick="add(${entry.value.product.pid },this)" />
-                                        </td>
-                                        <%--<td width="10%">1</td>--%>
-                                        <td width="12%">${entry.value.subTotal }元</td>
-
-                                        <td width="8%">&nbsp;&nbsp;&nbsp;&nbsp;
-                                            <%--<a href="javascript:deleteProductFromCart(${entry.value.product.pid })"  class="delete">--%>
-                                                <%--删除</a>--%>
-                                            <a  href="${pageContext.request.contextPath}/deleteProductFromCart?pid=${entry.value.product.pid}">
-                                                <%--onclick="deleteProductFromCart(${entry.value.product.pid})"--%>
-                                                删除</a>
-                                            <input type="hidden" value="${entry.value.product.pid}">
-                                        </td>
-                                        <%--data-point-url="#"--%>
-                                    </tr>
-
-                                </c:forEach>
-                            </table>
-
-
-
-
-
-
-=======
-                    <table width="100%" border="0" cellspacing="0" id="cart" class="table table-striped" >
-                        <%--<table width="100%" border="0" cellspacing="0" id="cart" class="table table-striped table-hover">--%>
+                    <table width="100%" id="cart" class="table table-striped">
                         <c:forEach items="${cart.items }" var="entry">
                             <tr></tr>
                             <tr>
                                 <td></td>
-                                <td width="15%"><img style="width:60px;height:60px;" alt="" src="${entry.value.product.pimage}"></td>
+                                <td width="15%"><img style="width:60px;height:60px;" alt=""
+                                                     src="${entry.value.product.pimage}"></td>
                                 <td width="23%">${entry.value.product.pname }</td>
+
                                 <td width="17%">${entry.value.product.shopPrice}</td>
                                 <td width="25%">
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <input class="min am-btn" name="" type="button" value="-" onclick="reduce(${entry.value.product.pid},this)" />
-                                    <input class="text_box" name="" type="text" id="count" value="${entry.value.count }" style="width:30px;" />
-                                    <input class="add am-btn" name="" type="button" value="+" onclick="add(${entry.value.product.pid },this)" />
+                                    <input class="min am-btn" name="" type="button" value="-"
+                                           onclick="reduce(${entry.value.product.pid},this)"/>
+                                    <input class="text_box" name="" type="text" id="count" value="${entry.value.count }"
+                                           style="width:30px;"/>
+                                    <input class="add am-btn" name="" type="button" value="+"
+                                           onclick="add(${entry.value.product.pid },this)"/>
                                 </td>
-                                    <%--<td width="10%">1</td>--%>
-                                <td width="12%">${entry.value.subTotal }元</td>
+                                <td width="12%">${entry.value.subTotal }</td>
+
                                 <td width="8%">&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <a href="javascript:deleteProductFromCart(${entry.value.product.pid })" data-point-url="#" class="delete">删除</a>
+                                    <a href="${pageContext.request.contextPath}/deleteProductFromCart?pid=${entry.value.product.pid}">
+                                        删除</a>
+                                    <input type="hidden" value="${entry.value.product.pid}">
                                 </td>
                             </tr>
                         </c:forEach>
                     </table>
->>>>>>> origin/branch_zhou
                 </div>
             </div>
         </tr>
@@ -253,87 +213,27 @@
     </div>
 
     <jsp:include page="bottom.jsp"/>
-    <%--<div class="footer">
-        <div class="footer-hd">
-            <p>
-                <a href="#">恒望科技</a>
-                <b>|</b>
-                <a href="#">商城首页</a>
-                <b>|</b>
-                <a href="#">支付宝</a>
-                <b>|</b>
-                <a href="#">物流</a>
-            </p>
-        </div>
-        <div class="footer-bd">
-            <p>
-                <a href="#">关于恒望</a>
-                <a href="#">合作伙伴</a>
-                <a href="#">联系我们</a>
-                <a href="#">网站地图</a>
-                <em>© 2015-2025 Hengwang.com 版权所有. 更多模板 <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></em>
-            </p>
-        </div>
-    </div>--%>
 
 </div>
 
 <script>
-<%--根据ID删除商品--%>
-<<<<<<< HEAD
 
-/*$(function () {
-    $(".delete").each(function (){
-        var that =this;
-        $(this).on("click", function(){
-            var rows=that.parentNode.parentNode.rowIndex;
-            var pid=$('#cart tr:eq('+rows+') td:eq(6) input').val();
-            console.log(pid);
-            console.log(valueOf(pid))
-            window.location.href="${pageContext.request.contextPath}/deleteProductFromCart?pid="+pid;
-        });
-    })
-})*/
-
-
-   /* function deleteProductFromCart(pid){
-        console.log(pid)
-        window.location.href="${pageContext.request.contextPath}/deleteProductFromCart?pid="+pid;
-        console.log(123)
-
-    }*/
-=======
-    function deleteProductFromCart(pid){
-        window.location.href="${pageContext.request.contextPath}/deleteProductFromCart?pid="+pid;
-    }
->>>>>>> origin/branch_zhou
-//    继续购物
+    // 继续购物
 
     function goonShopping(){
-        <%--window.location.href="${pageContext.request.contextPath}/product-portal-list";--%>
-        window.location.href="${pageContext.request.contextPath}/product2";
+        window.location.href="${pageContext.request.contextPath}/product-portal-list";
     }
 
-//    选中一种
+    //    选中一种
     function reduce(pid,elm){
-        var rows1=elm.parentNode.parentNode.rowIndex;
-        if(parseInt($('#cart tr:eq('+rows1+') td:eq(4) ').find('input[class*=text_box]').val())!=0){
+        if($(elm.parentNode).find('#count').val()>0) {
             $.ajax({
                 url:"reduceProductFromCart",
                 data:{'pid':pid},
                 type:'post',
                 success:function (data) {
-//                debugger;
-//                $('#subtotal').val(11);
-                    console.log(data);
-//                $('#subtotal').text(data.subTotal);
-//                $('#price').text(data.total);
-
-                    var rows=elm.parentNode.parentNode.rowIndex;
-//                td:eq(5)
-                    /*$('#cart tr:eq('+rows+') td:eq(5) ').html((data.subTotal).toFixed(1));
-                    $('#price').text((data.total).toFixed(1));*/
-                    $('#cart tr:eq('+rows+') td:eq(5) ').html((data.subTotal).toFixed(1));
+                    var rows = elm.parentNode.parentNode.rowIndex;
+                    $('#cart').find('tr:eq(' + rows + ') td:eq(5) ').html((data.subTotal).toFixed(1));
                     $('#price').text((data.total).toFixed(1));
                 }
             });
@@ -341,22 +241,13 @@
     }
 
     function add(pid,elm){
-//        console.log(pid)
         $.ajax({
             url:"addProductOneToCart",
             data:{'pid':pid},
             type:'post',
             success:function (data) {
-//                debugger;
-//                $('#subtotal').val(11);
-                console.log(data);
-//                $('#subtotal').text(data.subTotal);
-//                $('#price').text(data.total);
                 var rows=elm.parentNode.parentNode.rowIndex;
-//                td:eq(5)
-                /*$('#cart tr:eq('+rows+') td:eq(5) ').html((data.subTotal).toFixed(1));
-                $('#price').text((data.total).toFixed(1));*/
-                $('#cart tr:eq('+rows+') td:eq(5) ').html((data.subTotal).toFixed(1));
+                $('#cart').find('tr:eq('+rows+') td:eq(5) ').html((data.subTotal).toFixed(1));
                 $('#price').text((data.total).toFixed(1));
             }
         });

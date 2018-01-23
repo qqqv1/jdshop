@@ -14,18 +14,14 @@
     <link href="css/cartstyle.css" rel="stylesheet" type="text/css" />
     <link href="css/optstyle.css" rel="stylesheet" type="text/css" />
 
-
     <script type="text/javascript" src="js/jquery.js"></script>
 
 </head>
 
 <body>
 
-
 <jsp:include page="top.jsp"/>
-
 <div class="clear"></div>
-
 
 <!--购物车 -->
 <div class="concent">
@@ -33,9 +29,7 @@
         <div class="cart-table-th">
             <div class="wp">
                 <div class="th th-chk">
-                    <div id="J_SelectAll1" class="select-all J_SelectAll">
-
-                    </div>
+                    <div id="J_SelectAll1" class="select-all J_SelectAll"></div>
                 </div>
                 <div class="th th-item" style="width: 30%">
                     <div class="td-inner" >商品信息</div>
@@ -57,57 +51,41 @@
 
         <tr class="item-list">
             <div class="bundle  bundle-last ">
-
                 <div class="clear"></div>
                 <div class="bundle-main">
+                    <table width="100%" id="cart" class="table table-striped">
+                        <c:forEach items="${cart.items }" var="entry">
+                            <tr></tr>
+                            <tr>
+                                <td></td>
+                                <td width="15%"><img style="width:60px;height:60px;" alt=""
+                                                     src="${entry.value.product.pimage}"></td>
+                                <td width="23%">${entry.value.product.pname }</td>
 
+                                <td width="17%">${entry.value.product.shopPrice}</td>
+                                <td width="25%">
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <input class="min am-btn" name="" type="button" value="-"
+                                           onclick="reduce(${entry.value.product.pid},this)"/>
+                                    <input class="text_box" name="" type="text" id="count" value="${entry.value.count }"
+                                           style="width:30px;"/>
+                                    <input class="add am-btn" name="" type="button" value="+"
+                                           onclick="add(${entry.value.product.pid },this)"/>
+                                </td>
+                                <td width="12%">${entry.value.subTotal }元</td>
 
-
-
-
-                       <table width="100%" border="0" cellspacing="0" id="cart" class="table table-striped" >
-                       <%--<table width="100%" border="0" cellspacing="0" id="cart" class="table table-striped table-hover">--%>
-                                <c:forEach items="${cart.items }" var="entry">
-                                    <tr></tr>
-                                    <tr>
-                                        <td></td>
-                                        <td width="15%"><img style="width:60px;height:60px;" alt="" src="${entry.value.product.pimage}"></td>
-                                        <td width="23%">${entry.value.product.pname }</td>
-
-                                        <td width="17%">${entry.value.product.shopPrice}</td>
-                                        <td width="25%">
-                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                            <input class="min am-btn" name="" type="button" value="-" onclick="reduce(${entry.value.product.pid},this)" />
-                                            <input class="text_box" name="" type="text" id="count" value="${entry.value.count }" style="width:30px;" />
-                                            <input class="add am-btn" name="" type="button" value="+" onclick="add(${entry.value.product.pid },this)" />
-                                        </td>
-                                        <%--<td width="10%">1</td>--%>
-                                        <td width="12%">${entry.value.subTotal }元</td>
-
-                                        <td width="8%">&nbsp;&nbsp;&nbsp;&nbsp;
-                                            <%--<a href="javascript:deleteProductFromCart(${entry.value.product.pid })"  class="delete">--%>
-                                                <%--删除</a>--%>
-                                            <a  href="${pageContext.request.contextPath}/deleteProductFromCart?pid=${entry.value.product.pid}">
-                                                <%--onclick="deleteProductFromCart(${entry.value.product.pid})"--%>
-                                                删除</a>
-                                            <input type="hidden" value="${entry.value.product.pid}">
-                                        </td>
-                                        <%--data-point-url="#"--%>
-                                    </tr>
-
-                                </c:forEach>
-                            </table>
-
-
-
-
-
-
+                                <td width="8%">&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <a href="${pageContext.request.contextPath}/deleteProductFromCart?pid=${entry.value.product.pid}">
+                                        删除</a>
+                                    <input type="hidden" value="${entry.value.product.pid}">
+                                </td>
+                            </tr>
+                        </c:forEach>
+                    </table>
                 </div>
             </div>
         </tr>
         <div class="clear"></div>
-
        <%-- <tr class="item-list">
             <div class="bundle  bundle-last ">
                 <div class="bundle-hd">
@@ -222,22 +200,16 @@
             </div>
 
             <div class="btn-area">
-                <a  id="J_Go1" class="submit-btn submit-btn-disabled" aria-label="请注意如果没有选择宝贝，将无法结算"
-                   onclick="goonShopping()">
+                <a  id="J_Go1" class="submit-btn submit-btn-disabled" aria-label="请注意如果没有选择宝贝，将无法结算" onclick="goonShopping()">
                     <span>继续购物</span></a>
             </div>
 
-
             <div class="btn-area">
-
                 <a href="pay.html" id="J_Go" class="submit-btn submit-btn-disabled" aria-label="请注意如果没有选择宝贝，将无法结算">
-                    <span>结&nbsp;算</span></a>
-
+                    <span>结&nbsp;算</span>
+                </a>
             </div>
-
-
         </div>
-
     </div>
 
     <jsp:include page="bottom.jsp"/>
@@ -266,43 +238,19 @@
 
 </div>
 
-
-
 <script>
-<%--根据ID删除商品--%>
 
-/*$(function () {
-    $(".delete").each(function (){
-        var that =this;
-        $(this).on("click", function(){
-            var rows=that.parentNode.parentNode.rowIndex;
-            var pid=$('#cart tr:eq('+rows+') td:eq(6) input').val();
-            console.log(pid);
-            console.log(valueOf(pid))
-            window.location.href="${pageContext.request.contextPath}/deleteProductFromCart?pid="+pid;
-        });
-    })
-})*/
-
-
-   /* function deleteProductFromCart(pid){
-        console.log(pid)
-        window.location.href="${pageContext.request.contextPath}/deleteProductFromCart?pid="+pid;
-        console.log(123)
-
-    }*/
-//    继续购物
+    // 继续购物
 
     function goonShopping(){
         <%--window.location.href="${pageContext.request.contextPath}/product-portal-list";--%>
         window.location.href="${pageContext.request.contextPath}/product2";
     }
 
-//    选中一种
+    //    选中一种
     function reduce(pid,elm){
         var rows1=elm.parentNode.parentNode.rowIndex;
-
-        if(parseInt($('#cart tr:eq('+rows1+') td:eq(4) ').find('input[class*=text_box]').val())!=0){
+        if(parseInt($('#cart').find('tr:eq('+rows1+') td:eq(4) ').find('input[class*=text_box]').val())!==0){
             $.ajax({
                 url:"reduceProductFromCart",
                 data:{'pid':pid},
@@ -318,10 +266,8 @@
 //                td:eq(5)
                     /*$('#cart tr:eq('+rows+') td:eq(5) ').html((data.subTotal).toFixed(1));
                     $('#price').text((data.total).toFixed(1));*/
-                    $('#cart tr:eq('+rows+') td:eq(5) ').html((data.subTotal).toFixed(1));
+                    $('#cart').find('tr:eq('+rows+') td:eq(5) ').html((data.subTotal).toFixed(1));
                     $('#price').text((data.total).toFixed(1));
-
-
                 }
             });
         }
@@ -329,8 +275,6 @@
 
     function add(pid,elm){
 //        console.log(pid)
-
-
         $.ajax({
             url:"addProductOneToCart",
             data:{'pid':pid},
@@ -345,16 +289,11 @@
 //                td:eq(5)
                 /*$('#cart tr:eq('+rows+') td:eq(5) ').html((data.subTotal).toFixed(1));
                 $('#price').text((data.total).toFixed(1));*/
-                $('#cart tr:eq('+rows+') td:eq(5) ').html((data.subTotal).toFixed(1));
+                $('#cart').find('tr:eq('+rows+') td:eq(5) ').html((data.subTotal).toFixed(1));
                 $('#price').text((data.total).toFixed(1));
             }
-
         });
     }
-
-
-
 </script>
 </body>
-
 </html>

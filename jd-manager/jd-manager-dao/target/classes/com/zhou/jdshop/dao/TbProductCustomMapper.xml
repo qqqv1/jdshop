@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.zhou.jdshop.dao.TbProductCustomMapper">
     <resultMap id="BaseResultMap" type="com.zhou.jdshop.pojo.vo.TbProductCustom">
-        <id column="pid" jdbcType="VARCHAR" property="pid" />
+        <id column="pid" jdbcType="BIGINT" property="pid" />
         <result column="pname" property="pname" jdbcType="VARCHAR" />
         <result column="cid" property="cid" jdbcType="BIGINT" />
         <result column="bid" property="bid" jdbcType="BIGINT" />
@@ -18,21 +18,21 @@
         <result column="cname" jdbcType="VARCHAR" property="cname" />
     </resultMap>
     <sql id="Base_Column_List">
-        pid, pname, market_price, shop_price, pimage, created, updated, pdesc, pflag, pstock, psold, p.cid, cname
+        pid, pname, market_price, shop_price, pimage, p.created, p.updated, pdesc, pflag, pstock, psold, p.cid, cname
     </sql>
     <select id="listProducts" resultMap="BaseResultMap">
         select
         <include refid="Base_Column_List" />
-        from product p
-        left join category c on p.cid = c.cid
+        from tb_product p
+        left join tb_product_cat c on p.cid = c.cid
         where pflag!= 3
     </select>
 
     <select id="productList" resultMap="BaseResultMap">
         select
         <include refid="Base_Column_List" />
-        from product p
-        left join category c on p.cid = c.cid
+        from tb_product p
+        left join tb_product_cat c on p.cid = c.cid
         where pflag!= 3
         <if test="cname!=null and cname!='全部' and cname!=''">
             and cname =#{cname}
@@ -44,8 +44,8 @@
     <select id="total" resultType="int">
         select
         count(1)
-        from product p
-        left join category c on p.cid = c.cid
+        from tb_product p
+        left join tb_product_cat c on p.cid = c.cid
         where pflag!= 3
         <if test="cname!=null and cname!='全部' and cname!=''">
             and cname =#{cname}
@@ -56,8 +56,8 @@
     <select id="selectProductById" resultMap="BaseResultMap">
         select
         <include refid="Base_Column_List" />
-        from product p
-        left join category c on p.cid = c.cid
+        from tb_product p
+        left join tb_product_cat c on p.cid = c.cid
         where pflag!= 3
         and pid=#{pid}
     </select>

@@ -5,12 +5,16 @@
       <w>cname</w>
       <w>dlstyle</w>
       <w>jdshop</w>
+      <w>ored</w>
       <w>pdesc</w>
       <w>pflag</w>
       <w>pimage</w>
       <w>pname</w>
       <w>psold</w>
       <w>pstock</w>
+      <w>regist</w>
+      <w>truename</w>
+      <w>uname</w>
       <w>zhou</w>
     </words>
   </dictionary>
