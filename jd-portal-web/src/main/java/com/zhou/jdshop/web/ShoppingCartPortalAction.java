@@ -2,6 +2,7 @@ package com.zhou.jdshop.web;
 
 import com.zhou.jdshop.pojo.po.Product;
 
+import com.zhou.jdshop.pojo.po.TbProduct;
 import com.zhou.jdshop.pojo.vo.Cart;
 import com.zhou.jdshop.pojo.vo.CartItem;
 import com.zhou.jdshop.pojo.vo.CartOne;
@@ -40,13 +41,13 @@ public class ShoppingCartPortalAction {
      * @return
      */
     @RequestMapping("/addProductToCart")
-    public String addProductToCart(@RequestParam("pid") String pid, @RequestParam("count") int count, HttpSession session, HttpServletResponse response){
+    public String addProductToCart(@RequestParam("pid") Long pid, @RequestParam("count") int count, HttpSession session, HttpServletResponse response){
 
         try{
             System.out.println(pid+" "+count);
 
             //根据pid去查找商品对象
-            Product p = productService.getProductById(pid);
+            TbProduct p = productService.getProductById(pid);
 
             //从Session里面取出购物车
             //购物车  有可能等于null
@@ -60,7 +61,7 @@ public class ShoppingCartPortalAction {
             }
 
             //把购物项放到购物车里
-            Map<String, CartItem> map = cart.getItems();//获得购物项容器
+            Map<Long, CartItem> map = cart.getItems();//获得购物项容器
 
 
             /**
@@ -86,7 +87,7 @@ public class ShoppingCartPortalAction {
                  * 第一个购买该商品
                  */
                 item.setCount(count);//购买数量
-                item.setProduct(p);//商品
+                item.setTbProduct(p);//商品
                 item.setSubTotal(count*p.getShopPrice());//小计
 
             }
@@ -129,7 +130,7 @@ public class ShoppingCartPortalAction {
      * @return
      */
     @RequestMapping("/deleteProductFromCart")
-    public String deleteProductFromCart(@RequestParam("pid") String pid,HttpSession session, HttpServletResponse response){
+    public String deleteProductFromCart(@RequestParam("pid") Long pid,HttpSession session, HttpServletResponse response){
 
         try{
             System.out.println(pid+" ");
@@ -140,7 +141,7 @@ public class ShoppingCartPortalAction {
 
             if(cart!=null){
                 //取出map
-                Map<String, CartItem> map = cart.getItems();
+                Map<Long, CartItem> map = cart.getItems();
                 if(map.containsKey(pid)){
                     CartItem cartItem = map.get(pid);
                     map.remove(pid);//根据key把这个购物项对象删除
@@ -170,7 +171,7 @@ public class ShoppingCartPortalAction {
 
     @RequestMapping(value="/addProductOneToCart",method = RequestMethod.POST)
     @ResponseBody
-    public CartOne addProductOneToCart(@RequestParam("pid") String pid, HttpSession session, HttpServletResponse response){
+    public CartOne addProductOneToCart(@RequestParam("pid") Long pid, HttpSession session, HttpServletResponse response){
 
         CartOne cartOne = new CartOne();
         try{
@@ -183,7 +184,7 @@ public class ShoppingCartPortalAction {
 
             if(cart!=null){
                 //取出map
-                Map<String, CartItem> map = cart.getItems();
+                Map<Long, CartItem> map = cart.getItems();
                 if(map.containsKey(pid)){
                     CartItem cartItem = map.get(pid);
 
@@ -191,13 +192,13 @@ public class ShoppingCartPortalAction {
                     cartItem.setCount(cartItem.getCount()+1);
                     System.out.println(cartItem.getCount());
 
-                    cartItem.setSubTotal(Math.round((cartItem.getSubTotal()+cartItem.getProduct().getShopPrice())*10)/10);
+                    cartItem.setSubTotal(Math.round((cartItem.getSubTotal()+cartItem.getTbProduct().getShopPrice())*10)/10);
                     System.out.println(cartItem.getSubTotal());
 
                     cartOne.setSubTotal(cartItem.getSubTotal());
 
                     //重新计算总计
-                    cart.setTotal(Math.round((cart.getTotal()+cartItem.getProduct().getShopPrice())*10)/10);
+                    cart.setTotal(Math.round((cart.getTotal()+cartItem.getTbProduct().getShopPrice())*10)/10);
 
                     cartOne.setTotal(cart.getTotal());
 
@@ -224,7 +225,7 @@ public class ShoppingCartPortalAction {
 
     @RequestMapping(value="/reduceProductFromCart",method = RequestMethod.POST)
     @ResponseBody
-    public CartOne reduceProductFromCart(@RequestParam("pid") String pid, HttpSession session, HttpServletResponse response){
+    public CartOne reduceProductFromCart(@RequestParam("pid") Long pid, HttpSession session, HttpServletResponse response){
 
         CartOne cartOne = new CartOne();
         try{
@@ -237,20 +238,20 @@ public class ShoppingCartPortalAction {
 
             if(cart!=null){
                 //取出map
-                Map<String, CartItem> map = cart.getItems();
+                Map<Long, CartItem> map = cart.getItems();
                 if(map.containsKey(pid)){
                     CartItem cartItem = map.get(pid);
 //                if(cartItem.getCount()!=0){
 
                     cartItem.setCount(cartItem.getCount()-1);
                     //重新计算小记
-                    cartItem.setSubTotal(Math.round((cartItem.getSubTotal()-cartItem.getProduct().getShopPrice())*10)/10);
+                    cartItem.setSubTotal(Math.round((cartItem.getSubTotal()-cartItem.getTbProduct().getShopPrice())*10)/10);
                     System.out.println(cartItem.getSubTotal());
 
                     cartOne.setSubTotal((cartItem.getSubTotal())*100/100);
 
                     //重新计算总计
-                    cart.setTotal(Math.round((cart.getTotal()-cartItem.getProduct().getShopPrice())*10)/10);
+                    cart.setTotal(Math.round((cart.getTotal()-cartItem.getTbProduct().getShopPrice())*10)/10);
 
                     cartOne.setTotal(cart.getTotal()*100/100);
 

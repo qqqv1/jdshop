@@ -52,7 +52,7 @@ public class ProductPortalAction {
 
     @ResponseBody
     @RequestMapping("product")
-    public TbProductCustom findProductById(@RequestParam("pid") String pid){
+    public TbProductCustom findProductById(@RequestParam("pid") Long pid){
         TbProductCustom tbProductCustom =null;
         try{
             tbProductCustom = productService.findProductById(pid);
