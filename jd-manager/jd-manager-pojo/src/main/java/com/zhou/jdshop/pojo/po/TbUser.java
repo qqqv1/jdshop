@@ -37,6 +37,8 @@ public class TbUser {
 
     private Long aid;
 
+    private Integer state;
+
     public Long getUid() {
         return uid;
     }
@@ -171,5 +173,13 @@ public class TbUser {
 
     public void setAid(Long aid) {
         this.aid = aid;
+    }
+
+    public Integer getState() {
+        return state;
+    }
+
+    public void setState(Integer state) {
+        this.state = state;
     }
 }

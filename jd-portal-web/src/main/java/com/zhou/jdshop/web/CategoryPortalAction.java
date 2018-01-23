@@ -16,7 +16,7 @@ public class CategoryPortalAction {
 
     private Logger logger= LoggerFactory.getLogger(this.getClass());
 
-  /*  @Autowired
+    @Autowired
     private CategoryService categoryService;
 
     @ResponseBody
@@ -30,5 +30,5 @@ public class CategoryPortalAction {
             e.printStackTrace();
         }
         return list;
-    }*/
+    }
 }

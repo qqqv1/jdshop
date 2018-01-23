@@ -25,7 +25,7 @@ public class CartItem {
     }
 
     public void setProduct(TbProduct product) {
-        this.product = product;
+        this.product=product;
     }
 
     public int getCount() {

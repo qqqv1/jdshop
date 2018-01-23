@@ -1,38 +1,36 @@
 package com.zhou.jdshop.service;
 
-import com.zhou.jdshop.pojo.po.User;
-import com.zhou.jdshop.pojo.po.UserExample;
-import org.apache.ibatis.annotations.Param;
+import com.zhou.jdshop.pojo.po.TbUser;
 
 import java.util.List;
 
 public interface UserService {
 
-    int insertUser(User user);
+    int insertUser(TbUser user);
 
-    int insertGUIDUser(User user);
+    int insertGUIDUser(TbUser user);
 
-    int updateByUser(User user);
+    int updateByUser(TbUser user);
 
-    List<User> selectByDim(User user);
+    List<TbUser> selectByDim(TbUser user);
 
-    int deleteByUser(User user);
+    int deleteByUser(TbUser user);
 
-    List<User> selectAll();
+    List<TbUser> selectAll();
 
-    int updateUserByState(List<String> uids, Integer state);
+    int updateUserByState(List<Long> uids, Integer state);
 
-    User findByUsername(String username);
+    TbUser findByUsername(String username);
 
-    User findUserByUsernameAndPassword(String username, String password);
+    TbUser findUserByUsernameAndPassword(String username, String password);
 
-    List<User> listUsers();
+    List<TbUser> listUsers();
 
-    User getUserById(String uid);
+    TbUser getUserById(Long uid);
 
-    int saveProduct(User user);
+    int saveProduct(TbUser user);
 
-    int editUser(User user);
+    int editUser(TbUser user);
 
-    int updateUser(List<String> uids, Integer state);
+    int updateUser(List<Long> uids, Integer state);
 }
