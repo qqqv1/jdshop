@@ -1,8 +1,17 @@
 <component name="ProjectDictionaryState">
   <dictionary name="Administrator">
     <words>
+      <w>cids</w>
+      <w>cname</w>
       <w>dlstyle</w>
-      <w>jedis</w>
+      <w>jdshop</w>
+      <w>pdesc</w>
+      <w>pflag</w>
+      <w>pimage</w>
+      <w>pname</w>
+      <w>psold</w>
+      <w>pstock</w>
+      <w>zhou</w>
     </words>
   </dictionary>
 </component>

@@ -13,7 +13,7 @@ public class TbContentCategory {
 
     private Integer sortOrder;
 
-    private Boolean isParent;
+    private Integer isParent;
 
     private Date created;
 
@@ -59,11 +59,11 @@ public class TbContentCategory {
         this.sortOrder = sortOrder;
     }
 
-    public Boolean getIsParent() {
+    public Integer getIsParent() {
         return isParent;
     }
 
-    public void setIsParent(Boolean isParent) {
+    public void setIsParent(Integer isParent) {
         this.isParent = isParent;
     }
 

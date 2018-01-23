@@ -1,5 +1,6 @@
 package com.zhou.jdshop.service;
 
+import com.zhou.jdshop.pojo.po.Category;
 import com.zhou.jdshop.pojo.po.TbProductCat;
 
 import java.util.List;
@@ -7,11 +8,11 @@ import java.util.List;
 public interface CategoryService {
     List<TbProductCat> listCats();
 
-    TbProductCat getCategoryById(String cid);
+    TbProductCat getCategoryById(Long cid);
 
     int saveCategory(TbProductCat category);
 
     int editCategory(TbProductCat category);
 
-    int deleteCategory(List<String> cids);
+    int deleteCategory(List<Long> cids);
 }

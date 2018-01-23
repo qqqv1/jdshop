@@ -7,7 +7,7 @@ public class TbAdministrator {
 
     private String adminPassword;
 
-    private Boolean adminAuthority;
+    private Integer adminAuthority;
 
     public Long getAdminId() {
         return adminId;
@@ -33,11 +33,11 @@ public class TbAdministrator {
         this.adminPassword = adminPassword == null ? null : adminPassword.trim();
     }
 
-    public Boolean getAdminAuthority() {
+    public Integer getAdminAuthority() {
         return adminAuthority;
     }
 
-    public void setAdminAuthority(Boolean adminAuthority) {
+    public void setAdminAuthority(Integer adminAuthority) {
         this.adminAuthority = adminAuthority;
     }
 }

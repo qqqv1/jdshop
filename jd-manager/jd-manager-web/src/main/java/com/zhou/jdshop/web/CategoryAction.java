@@ -1,5 +1,6 @@
 package com.zhou.jdshop.web;
 
+import com.zhou.jdshop.pojo.po.Category;
 import com.zhou.jdshop.pojo.po.TbProductCat;
 import com.zhou.jdshop.service.CategoryService;
 import org.slf4j.Logger;
@@ -33,7 +34,7 @@ public class CategoryAction {
 
     @ResponseBody
     @RequestMapping(value = "/category/{cid}", method = RequestMethod.GET)
-    public TbProductCat getCategoryById(@PathVariable("cid") String cid) {
+    public TbProductCat getCategoryById(@PathVariable("cid") Long cid) {
         return categoryService.getCategoryById(cid);
     }
 
@@ -65,7 +66,7 @@ public class CategoryAction {
 
     @ResponseBody
     @RequestMapping("/deleteCat")
-    public int deleteCategory(@RequestParam("cids[]") List<String> cids){
+    public int deleteCategory(@RequestParam("cids[]") List<Long> cids){
         int i = 0;
         try {
             i = categoryService.deleteCategory(cids);

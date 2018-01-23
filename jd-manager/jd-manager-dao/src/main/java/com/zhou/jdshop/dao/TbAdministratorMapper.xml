@@ -5,7 +5,7 @@
     <id column="admin_id" property="adminId" jdbcType="BIGINT" />
     <result column="admin_name" property="adminName" jdbcType="VARCHAR" />
     <result column="admin_password" property="adminPassword" jdbcType="VARCHAR" />
-    <result column="admin_authority" property="adminAuthority" jdbcType="BIT" />
+    <result column="admin_authority" property="adminAuthority" jdbcType="INTEGER" />
   </resultMap>
   <sql id="Example_Where_Clause" >
     <where >
@@ -102,7 +102,7 @@
     insert into tb_administrator (admin_id, admin_name, admin_password, 
       admin_authority)
     values (#{adminId,jdbcType=BIGINT}, #{adminName,jdbcType=VARCHAR}, #{adminPassword,jdbcType=VARCHAR}, 
-      #{adminAuthority,jdbcType=BIT})
+      #{adminAuthority,jdbcType=INTEGER})
   </insert>
   <insert id="insertSelective" parameterType="com.zhou.jdshop.pojo.po.TbAdministrator" >
     insert into tb_administrator
@@ -131,7 +131,7 @@
         #{adminPassword,jdbcType=VARCHAR},
       </if>
       <if test="adminAuthority != null" >
-        #{adminAuthority,jdbcType=BIT},
+        #{adminAuthority,jdbcType=INTEGER},
       </if>
     </trim>
   </insert>
@@ -154,7 +154,7 @@
         admin_password = #{record.adminPassword,jdbcType=VARCHAR},
       </if>
       <if test="record.adminAuthority != null" >
-        admin_authority = #{record.adminAuthority,jdbcType=BIT},
+        admin_authority = #{record.adminAuthority,jdbcType=INTEGER},
       </if>
     </set>
     <if test="_parameter != null" >
@@ -166,7 +166,7 @@
     set admin_id = #{record.adminId,jdbcType=BIGINT},
       admin_name = #{record.adminName,jdbcType=VARCHAR},
       admin_password = #{record.adminPassword,jdbcType=VARCHAR},
-      admin_authority = #{record.adminAuthority,jdbcType=BIT}
+      admin_authority = #{record.adminAuthority,jdbcType=INTEGER}
     <if test="_parameter != null" >
       <include refid="Update_By_Example_Where_Clause" />
     </if>
@@ -181,7 +181,7 @@
         admin_password = #{adminPassword,jdbcType=VARCHAR},
       </if>
       <if test="adminAuthority != null" >
-        admin_authority = #{adminAuthority,jdbcType=BIT},
+        admin_authority = #{adminAuthority,jdbcType=INTEGER},
       </if>
     </set>
     where admin_id = #{adminId,jdbcType=BIGINT}
@@ -190,7 +190,7 @@
     update tb_administrator
     set admin_name = #{adminName,jdbcType=VARCHAR},
       admin_password = #{adminPassword,jdbcType=VARCHAR},
-      admin_authority = #{adminAuthority,jdbcType=BIT}
+      admin_authority = #{adminAuthority,jdbcType=INTEGER}
     where admin_id = #{adminId,jdbcType=BIGINT}
   </update>
 </mapper>

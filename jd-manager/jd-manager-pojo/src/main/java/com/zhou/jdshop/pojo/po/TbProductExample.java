@@ -665,73 +665,63 @@ public class TbProductExample {
             return (Criteria) this;
         }
 
-        public Criteria andPotherIsNull() {
-            addCriterion("pother is null");
+        public Criteria andPflagIsNull() {
+            addCriterion("pflag is null");
             return (Criteria) this;
         }
 
-        public Criteria andPotherIsNotNull() {
-            addCriterion("pother is not null");
+        public Criteria andPflagIsNotNull() {
+            addCriterion("pflag is not null");
             return (Criteria) this;
         }
 
-        public Criteria andPotherEqualTo(String value) {
-            addCriterion("pother =", value, "pother");
+        public Criteria andPflagEqualTo(Integer value) {
+            addCriterion("pflag =", value, "pflag");
             return (Criteria) this;
         }
 
-        public Criteria andPotherNotEqualTo(String value) {
-            addCriterion("pother <>", value, "pother");
+        public Criteria andPflagNotEqualTo(Integer value) {
+            addCriterion("pflag <>", value, "pflag");
             return (Criteria) this;
         }
 
-        public Criteria andPotherGreaterThan(String value) {
-            addCriterion("pother >", value, "pother");
+        public Criteria andPflagGreaterThan(Integer value) {
+            addCriterion("pflag >", value, "pflag");
             return (Criteria) this;
         }
 
-        public Criteria andPotherGreaterThanOrEqualTo(String value) {
-            addCriterion("pother >=", value, "pother");
+        public Criteria andPflagGreaterThanOrEqualTo(Integer value) {
+            addCriterion("pflag >=", value, "pflag");
             return (Criteria) this;
         }
 
-        public Criteria andPotherLessThan(String value) {
-            addCriterion("pother <", value, "pother");
+        public Criteria andPflagLessThan(Integer value) {
+            addCriterion("pflag <", value, "pflag");
             return (Criteria) this;
         }
 
-        public Criteria andPotherLessThanOrEqualTo(String value) {
-            addCriterion("pother <=", value, "pother");
+        public Criteria andPflagLessThanOrEqualTo(Integer value) {
+            addCriterion("pflag <=", value, "pflag");
             return (Criteria) this;
         }
 
-        public Criteria andPotherLike(String value) {
-            addCriterion("pother like", value, "pother");
+        public Criteria andPflagIn(List<Integer> values) {
+            addCriterion("pflag in", values, "pflag");
             return (Criteria) this;
         }
 
-        public Criteria andPotherNotLike(String value) {
-            addCriterion("pother not like", value, "pother");
+        public Criteria andPflagNotIn(List<Integer> values) {
+            addCriterion("pflag not in", values, "pflag");
             return (Criteria) this;
         }
 
-        public Criteria andPotherIn(List<String> values) {
-            addCriterion("pother in", values, "pother");
+        public Criteria andPflagBetween(Integer value1, Integer value2) {
+            addCriterion("pflag between", value1, value2, "pflag");
             return (Criteria) this;
         }
 
-        public Criteria andPotherNotIn(List<String> values) {
-            addCriterion("pother not in", values, "pother");
-            return (Criteria) this;
-        }
-
-        public Criteria andPotherBetween(String value1, String value2) {
-            addCriterion("pother between", value1, value2, "pother");
-            return (Criteria) this;
-        }
-
-        public Criteria andPotherNotBetween(String value1, String value2) {
-            addCriterion("pother not between", value1, value2, "pother");
+        public Criteria andPflagNotBetween(Integer value1, Integer value2) {
+            addCriterion("pflag not between", value1, value2, "pflag");
             return (Criteria) this;
         }
 

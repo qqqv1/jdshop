@@ -9,11 +9,11 @@ public class TbProductCat {
 
     private String cname;
 
-    private Boolean isParent;
+    private Integer isParent;
 
     private Integer sortOrder;
 
-    private Boolean state;
+    private Integer cflag;
 
     private Date created;
 
@@ -43,11 +43,11 @@ public class TbProductCat {
         this.cname = cname == null ? null : cname.trim();
     }
 
-    public Boolean getIsParent() {
+    public Integer getIsParent() {
         return isParent;
     }
 
-    public void setIsParent(Boolean isParent) {
+    public void setIsParent(Integer isParent) {
         this.isParent = isParent;
     }
 
@@ -59,12 +59,12 @@ public class TbProductCat {
         this.sortOrder = sortOrder;
     }
 
-    public Boolean getState() {
-        return state;
+    public Integer getCflag() {
+        return cflag;
     }
 
-    public void setState(Boolean state) {
-        this.state = state;
+    public void setCflag(Integer cflag) {
+        this.cflag = cflag;
     }
 
     public Date getCreated() {
