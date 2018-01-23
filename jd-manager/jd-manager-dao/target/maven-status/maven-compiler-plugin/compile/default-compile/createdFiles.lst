@@ -11,8 +11,8 @@ com\zhou\jdshop\dao\TbProductCatParamMapper.class
 com\zhou\jdshop\dao\TbProductMapper.class
 com\zhou\jdshop\dao\OrdersMapper.class
 com\zhou\jdshop\dao\TbLunBoMapper.class
-com\zhou\jdshop\dao\TbVipMapper.class
 com\zhou\jdshop\dao\TbContentCategoryMapper.class
+com\zhou\jdshop\dao\TbVipMapper.class
 com\zhou\jdshop\dao\TbProductCatMapper.class
 com\zhou\jdshop\dao\TbContentMapper.class
 com\zhou\jdshop\dao\OrdersCustomMapper.class
