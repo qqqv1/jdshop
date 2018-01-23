@@ -1,9 +1,7 @@
 package com.zhou.jdshop.web;
 
-import com.zhou.jdshop.pojo.po.User;
-import com.zhou.jdshop.pojo.po.UserExample;
+import com.zhou.jdshop.pojo.po.TbUser;
 import com.zhou.jdshop.service.UserService;
-import org.apache.ibatis.annotations.Param;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,9 +21,9 @@ public class UserAction {
 
     @ResponseBody
     @RequestMapping(value = "/users",method = RequestMethod.GET)
-    public List<User> listUsers() {
+    public List<TbUser> listUsers() {
 
-        List<User> list=null;
+        List<TbUser> list=null;
         try {
             list = us.listUsers();
         }catch (Exception e){
@@ -37,13 +35,13 @@ public class UserAction {
 
     @ResponseBody
     @RequestMapping(value = "/user/{uid}", method = RequestMethod.GET)
-    public User getItemById(@PathVariable("uid") String uid) {
+    public TbUser getItemById(@PathVariable("uid") Long uid) {
         return us.getUserById(uid);
     }
 
     @ResponseBody
     @RequestMapping("/addUser")
-    public int saveProduct(User user){
+    public int saveProduct(TbUser user){
         int i = 0;
         try {
             i = us.saveProduct(user);
@@ -56,7 +54,7 @@ public class UserAction {
 
     @ResponseBody
     @RequestMapping("/editUser")
-    public int editProduct(User user){
+    public int editProduct(TbUser user){
         int i = 0;
         try {
             i = us.editUser(user);
@@ -69,7 +67,7 @@ public class UserAction {
 
     @ResponseBody
     @RequestMapping("/updateUser")
-    public int deleteProduct(@RequestParam("uids[]") List<String> uids, @RequestParam("state") Integer state){
+    public int deleteProduct(@RequestParam("uids[]") List<Long> uids, @RequestParam("state") Integer state){
         int i = 0;
         try {
             i = us.updateUser(uids,state);
@@ -84,7 +82,7 @@ public class UserAction {
     @RequestMapping("/userLogin")
     public int userLogin(HttpSession session, String username, String password){
         int flag=0;
-        User user= us.findUserByUsernameAndPassword(username,password);
+        TbUser user= us.findUserByUsernameAndPassword(username,password);
         session.setAttribute("sessionUser",user);
         if(user!=null){
             flag=1;

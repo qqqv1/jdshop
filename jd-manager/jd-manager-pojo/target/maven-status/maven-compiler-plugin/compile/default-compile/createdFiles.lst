@@ -26,7 +26,6 @@ com\zhou\jdshop\pojo\po\TbNotice.class
 com\zhou\jdshop\pojo\po\UserExample$GeneratedCriteria.class
 com\zhou\jdshop\pojo\po\TbShippingAddressExample$GeneratedCriteria.class
 com\zhou\jdshop\pojo\po\TbAdministratorExample$Criteria.class
-com\zhou\jdshop\pojo\vo\OrdersCustom.class
 com\zhou\jdshop\pojo\po\TbLeaveWordExample.class
 com\zhou\jdshop\pojo\po\TbNewExample$Criterion.class
 com\zhou\jdshop\pojo\po\TbNoticeExample.class
@@ -88,6 +87,7 @@ com\zhou\jdshop\pojo\po\TbContentExample.class
 com\zhou\jdshop\pojo\po\TbProductParamExample.class
 com\zhou\jdshop\pojo\po\TbProductCatParamExample$GeneratedCriteria.class
 com\zhou\jdshop\pojo\po\TbProductExample$Criteria.class
+com\zhou\jdshop\pojo\vo\TbOrdersCustom.class
 com\zhou\jdshop\pojo\po\TbShippingAddressExample.class
 com\zhou\jdshop\pojo\po\Orders.class
 com\zhou\jdshop\pojo\po\TbContentCategoryExample.class

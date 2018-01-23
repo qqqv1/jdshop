@@ -1,11 +1,13 @@
 package com.zhou.jdshop.service.impl;
 
-import com.zhou.jdshop.dao.UserCustomMapper;
-import com.zhou.jdshop.dao.UserMapper;
+import com.zhou.jdshop.dao.TbUserCustomMapper;
+import com.zhou.jdshop.dao.TbUserMapper;
+import com.zhou.jdshop.pojo.po.TbUser;
+import com.zhou.jdshop.pojo.po.TbUserExample;
 import com.zhou.jdshop.pojo.po.User;
 import com.zhou.jdshop.pojo.po.UserExample;
 import com.zhou.jdshop.service.UserService;
-import org.apache.ibatis.annotations.Param;
+import com.zhou.jdshop.util.IDUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,7 +15,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 import java.util.UUID;
 
@@ -22,17 +23,17 @@ public class UserServiceImpl implements UserService {
     private Logger logger= LoggerFactory.getLogger(this.getClass());
 
     @Autowired
-    private UserMapper userDao;
+    private TbUserMapper userDao;
 
     @Autowired
-    private UserCustomMapper userCustomDao;
+    private TbUserCustomMapper userCustomDao;
 
     @Override
-    public List<User> listUsers() {
-        List<User> list = new ArrayList<>();
+    public List<TbUser> listUsers() {
+        List<TbUser> list = new ArrayList<>();
         try {
-            UserExample example=new UserExample();
-            UserExample.Criteria criteria = example.createCriteria();
+            TbUserExample example=new TbUserExample();
+            TbUserExample.Criteria criteria = example.createCriteria();
             criteria.andStateNotEqualTo(0);
             list=userDao.selectByExample(example);
         } catch (Exception e) {
@@ -43,11 +44,11 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public User getUserById(String uid) {
-        User user=new User();
+    public TbUser getUserById(Long uid) {
+        TbUser user=new TbUser();
         try {
-            UserExample example=new UserExample();
-            UserExample.Criteria criteria = example.createCriteria();
+            TbUserExample example=new TbUserExample();
+            TbUserExample.Criteria criteria = example.createCriteria();
             criteria.andUidEqualTo(uid);
             criteria.andStateNotEqualTo(0);
             user = userDao.selectByExample(example).get(0);
@@ -60,10 +61,10 @@ public class UserServiceImpl implements UserService {
 
     @Transactional
     @Override
-    public int saveProduct(User user) {
+    public int saveProduct(TbUser user) {
         int i = 0;
         try {
-            String uid = UUID.randomUUID().toString().replaceAll("-","");
+            Long uid = IDUtils.getItemId();
             user.setUid(uid);
             user.setState(1);
             i = userDao.insert(user);
@@ -76,11 +77,11 @@ public class UserServiceImpl implements UserService {
 
     @Transactional
     @Override
-    public int editUser(User user) {
+    public int editUser(TbUser user) {
         int i = 0;
         try {
-            UserExample example=new UserExample();
-            UserExample.Criteria criteria = example.createCriteria();
+            TbUserExample example=new TbUserExample();
+            TbUserExample.Criteria criteria = example.createCriteria();
             criteria.andUidEqualTo(user.getUid());
             i = userDao.updateByExampleSelective(user,example);
         } catch (Exception e) {
@@ -91,13 +92,13 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public int updateUser(List<String> uids, Integer state) {
+    public int updateUser(List<Long> uids, Integer state) {
         int i = 0;
         try {
-             User user =new User();
+            TbUser user =new TbUser();
             user.setState(state);
-            UserExample example=new UserExample();
-            UserExample.Criteria criteria = example.createCriteria();
+            TbUserExample example=new TbUserExample();
+            TbUserExample.Criteria criteria = example.createCriteria();
             criteria.andUidIn(uids);
             i = userDao.updateByExampleSelective(user,example);
         } catch (Exception e) {
@@ -110,23 +111,21 @@ public class UserServiceImpl implements UserService {
     /*
      * 登陆
      */
-    public User findUserByUsernameAndPassword(String username,String password){
+    public TbUser findUserByUsernameAndPassword(String username,String password){
 
         return userCustomDao.selectByUsernameAndPassword(username,password);
     }
 
     @Override
-    public int insertUser(User user) {
+    public int insertUser(TbUser user) {
 
         return userCustomDao.insertUser(user);
     }
     @Override
-    public int insertGUIDUser(User user) {
-        UUID uuid = null;
+    public int insertGUIDUser(TbUser user) {
         try {
-            uuid = UUID.randomUUID();
-            System.err.println(uuid);
-            user.setUid(uuid.toString());
+            Long uid=IDUtils.getItemId();
+            user.setUid(uid);
         }catch (Exception e) {
             logger.error(e.getMessage(), e);
             e.printStackTrace();
@@ -135,32 +134,32 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public int updateByUser(User user) {
+    public int updateByUser(TbUser user) {
         return userCustomDao.updateByUser(user);
     }
 
     @Override
-    public List<User> selectByDim(User user) {
+    public List<TbUser> selectByDim(TbUser user) {
         return userCustomDao.selectByDim(user);
     }
 
     @Override
-    public int deleteByUser(User user) {
+    public int deleteByUser(TbUser user) {
         return userCustomDao.deleteByUser(user);
     }
 
     @Override
-    public List<User> selectAll() {
+    public List<TbUser> selectAll() {
         return userCustomDao.selectAll();
     }
 
-    public int updateUserByState(List<String> uids,Integer state) {
+    public int updateUserByState(List<Long> uids,Integer state) {
         int i = 0;
         try {
-            User user =new User();
+            TbUser user =new TbUser();
             user.setState(state);
-            UserExample example=new UserExample();
-            UserExample.Criteria criteria = example.createCriteria();
+            TbUserExample example=new TbUserExample();
+            TbUserExample.Criteria criteria = example.createCriteria();
             criteria.andUidIn(uids);
             i = userDao.updateByExampleSelective(user,example);
         } catch (Exception e) {
@@ -169,7 +168,7 @@ public class UserServiceImpl implements UserService {
         }
         return i;
     }
-    public User findByUsername(String username){
+    public TbUser findByUsername(String username){
         return userCustomDao.selectByUsername(username);
     }
 }

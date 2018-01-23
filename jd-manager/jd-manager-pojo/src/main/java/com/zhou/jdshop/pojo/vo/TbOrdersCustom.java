@@ -2,7 +2,7 @@ package com.zhou.jdshop.pojo.vo;
 
 import com.zhou.jdshop.pojo.po.TbOrder;
 
-public class OrdersCustom extends TbOrder {
+public class TbOrdersCustom extends TbOrder {
     private String pname;
 
     private String itemid;

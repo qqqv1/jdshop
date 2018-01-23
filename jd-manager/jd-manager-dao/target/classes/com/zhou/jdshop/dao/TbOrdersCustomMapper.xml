@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.zhou.jdshop.dao.OrdersCustomMapper">
+<mapper namespace="com.zhou.jdshop.dao.TbOrdersCustomMapper">
 
 
 
@@ -29,25 +29,25 @@
   <!--WHEN 4 THEN '已完成'-->
   <!--ELSE '未知' END as status-->
 
-  <select id="selectByExample" resultType="com.zhou.jdshop.pojo.vo.OrdersCustom">
+  <select id="selectByExample" resultType="com.zhou.jdshop.pojo.vo.TbOrdersCustom">
 
     select
     <include refid="Base_Column_List" />
-    from TbOrderItem oi  left join TbOrder o on o.oid=oi.oid
+    from tb_order_item oi  left join tb_order o on o.oid=oi.oid
 
-    LEFT JOIN product p on oi.pid=p.pid
+    LEFT JOIN tb_product p on oi.pid=p.pid
     where o.state!=0
     order by o.oid
 
   </select>
 
 
-    <select id="selectOrderById" resultType="com.zhou.jdshop.pojo.vo.OrdersCustom">
+    <select id="selectOrderById" resultType="com.zhou.jdshop.pojo.vo.TbOrdersCustom">
 
         select
         <include refid="Base_Column_List" />
-        from TbOrderItem oi left join TbOrder o on oi.oid=o.oid
-        LEFT JOIN product p on oi.pid=p.pid
+        from tb_order_item oi left join tb_order o on oi.oid=o.oid
+        LEFT JOIN tb_product p on oi.pid=p.pid
 
         WHERE oi.itemid=#{itemid} AND   o.state!=0
 

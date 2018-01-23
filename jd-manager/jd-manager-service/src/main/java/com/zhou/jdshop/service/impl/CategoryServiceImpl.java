@@ -1,9 +1,6 @@
 package com.zhou.jdshop.service.impl;
 
-import com.zhou.jdshop.dao.CategoryMapper;
 import com.zhou.jdshop.dao.TbProductCatMapper;
-import com.zhou.jdshop.pojo.po.Category;
-import com.zhou.jdshop.pojo.po.CategoryExample;
 import com.zhou.jdshop.pojo.po.TbProductCat;
 import com.zhou.jdshop.pojo.po.TbProductCatExample;
 import com.zhou.jdshop.service.CategoryService;
@@ -15,7 +12,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
-import java.util.UUID;
 
 @Service
 public class CategoryServiceImpl implements CategoryService {
@@ -76,6 +72,7 @@ public class CategoryServiceImpl implements CategoryService {
             Long cid = IDUtils.getItemId();
             category.setCid(cid);
             category.setCflag(0);
+            category.setParentId(0L);
             i = categoryDao.insert(category);
         } catch (Exception e) {
             logger.error(e.getMessage(), e);

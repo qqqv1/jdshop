@@ -85,7 +85,7 @@ public class ShoppingCartPortalAction {
                  * 第一个购买该商品
                  */
                 item.setCount(count);//购买数量
-                item.setTbProduct(p);//商品
+                item.setProduct(p);//商品
                 item.setSubTotal(count*p.getShopPrice());//小计
 
             }
@@ -190,13 +190,13 @@ public class ShoppingCartPortalAction {
                     cartItem.setCount(cartItem.getCount()+1);
                     System.out.println(cartItem.getCount());
 
-                    cartItem.setSubTotal(Math.round((cartItem.getSubTotal()+cartItem.getTbProduct().getShopPrice())*10)/10);
+                    cartItem.setSubTotal(Math.round((cartItem.getSubTotal()+cartItem.getProduct().getShopPrice())*10)/10);
                     System.out.println(cartItem.getSubTotal());
 
                     cartOne.setSubTotal(cartItem.getSubTotal());
 
                     //重新计算总计
-                    cart.setTotal(Math.round((cart.getTotal()+cartItem.getTbProduct().getShopPrice())*10)/10);
+                    cart.setTotal(Math.round((cart.getTotal()+cartItem.getProduct().getShopPrice())*10)/10);
 
                     cartOne.setTotal(cart.getTotal());
 
@@ -243,13 +243,13 @@ public class ShoppingCartPortalAction {
 
                     cartItem.setCount(cartItem.getCount()-1);
                     //重新计算小记
-                    cartItem.setSubTotal(Math.round((cartItem.getSubTotal()-cartItem.getTbProduct().getShopPrice())*10)/10);
+                    cartItem.setSubTotal(Math.round((cartItem.getSubTotal()-cartItem.getProduct().getShopPrice())*10)/10);
                     System.out.println(cartItem.getSubTotal());
 
                     cartOne.setSubTotal((cartItem.getSubTotal())*100/100);
 
                     //重新计算总计
-                    cart.setTotal(Math.round((cart.getTotal()-cartItem.getTbProduct().getShopPrice())*10)/10);
+                    cart.setTotal(Math.round((cart.getTotal()-cartItem.getProduct().getShopPrice())*10)/10);
 
                     cartOne.setTotal(cart.getTotal()*100/100);
 

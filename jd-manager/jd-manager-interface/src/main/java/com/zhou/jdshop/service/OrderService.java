@@ -1,7 +1,7 @@
 package com.zhou.jdshop.service;
 
 import com.zhou.jdshop.pojo.po.TbOrder;
-import com.zhou.jdshop.pojo.vo.OrdersCustom;
+import com.zhou.jdshop.pojo.vo.TbOrdersCustom;
 
 import java.util.List;
 
@@ -26,7 +26,7 @@ public interface OrderService {
      * @return
      */
 
-    OrdersCustom getOrderById(String itemid);
+    TbOrdersCustom getOrderById(String itemid);
 
     /**
      * 修改订单

@@ -1,11 +1,11 @@
 package com.zhou.jdshop.service.impl;
 
-import com.zhou.jdshop.dao.OrdersCustomMapper;
 import com.zhou.jdshop.dao.TbOrderItemMapper;
 import com.zhou.jdshop.dao.TbOrderMapper;
+import com.zhou.jdshop.dao.TbOrdersCustomMapper;
 import com.zhou.jdshop.pojo.po.TbOrder;
 import com.zhou.jdshop.pojo.po.TbOrderExample;
-import com.zhou.jdshop.pojo.vo.OrdersCustom;
+import com.zhou.jdshop.pojo.vo.TbOrdersCustom;
 import com.zhou.jdshop.service.OrderService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -23,7 +23,7 @@ public class OrderServiceImpl implements OrderService{
     private TbOrderMapper ordersDao;
 
     @Autowired
-    private OrdersCustomMapper ordersCustomDao;
+    private TbOrdersCustomMapper ordersCustomDao;
 
     @Autowired
     private TbOrderItemMapper orderitemDao;
@@ -72,8 +72,8 @@ public class OrderServiceImpl implements OrderService{
      * @return
      */
     @Override
-    public OrdersCustom getOrderById(String itemid) {
-        OrdersCustom ordersCustom = null;
+    public TbOrdersCustom getOrderById(String itemid) {
+        TbOrdersCustom ordersCustom = null;
         try {
             ordersCustom = ordersCustomDao.selectOrderById(itemid);
         }catch (Exception e){

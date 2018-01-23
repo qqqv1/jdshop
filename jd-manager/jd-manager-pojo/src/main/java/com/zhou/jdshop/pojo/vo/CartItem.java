@@ -20,11 +20,11 @@ public class CartItem {
     private double subTotal;
 
 
-    public TbProduct getTbProduct() {
+    public TbProduct getProduct() {
         return product;
     }
 
-    public void setTbProduct(TbProduct product) {
+    public void setProduct(TbProduct product) {
         this.product=product;
     }
 

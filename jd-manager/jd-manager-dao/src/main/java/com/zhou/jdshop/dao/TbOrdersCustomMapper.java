@@ -1,11 +1,11 @@
 package com.zhou.jdshop.dao;
 
 import com.zhou.jdshop.pojo.po.TbOrder;
-import com.zhou.jdshop.pojo.vo.OrdersCustom;
+import com.zhou.jdshop.pojo.vo.TbOrdersCustom;
 
 import java.util.List;
 
-public interface OrdersCustomMapper {
+public interface TbOrdersCustomMapper {
     /**
      * 查询所有订单
      * @param o
@@ -18,5 +18,5 @@ public interface OrdersCustomMapper {
      * @param itemid
      * @return
      */
-    OrdersCustom selectOrderById(String itemid);
+    TbOrdersCustom selectOrderById(String itemid);
 }

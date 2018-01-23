@@ -1,5 +1,6 @@
 package com.zhou.jdshop.web;
 
+import com.zhou.jdshop.pojo.po.TbUser;
 import com.zhou.jdshop.pojo.po.User;
 import com.zhou.jdshop.service.UserService;
 import org.slf4j.Logger;
@@ -31,7 +32,7 @@ public class UserPortalAction {
      */
     @ResponseBody
     @RequestMapping(value="/insertUserByEmail",method =RequestMethod.POST)
-    public int insertUserByEmail(User user){
+    public int insertUserByEmail(TbUser user){
         System.err.println(user.toString());
         int list = 0;
         try {
@@ -48,7 +49,7 @@ public class UserPortalAction {
      */
     @ResponseBody
     @RequestMapping(value="/insertUserByTelephone",method = RequestMethod.POST)
-    public int insertUserByTelephone(User user){
+    public int insertUserByTelephone(TbUser user){
         int list = 0;
         try {
             list = us.insertGUIDUser(user);
@@ -65,7 +66,7 @@ public class UserPortalAction {
     @RequestMapping(value ="/clientLogin",method = RequestMethod.POST)
     public int userUserLogin(HttpSession session, String username, String password){
         int flag=0;
-        User user= us.findUserByUsernameAndPassword(username,password);
+        TbUser user= us.findUserByUsernameAndPassword(username,password);
         if(user!=null){
             session.setAttribute("sessionUser",user);
             flag=1;
@@ -77,9 +78,9 @@ public class UserPortalAction {
      */
     @ResponseBody
     @RequestMapping("/findByUserName")
-    public int findByUserName(User user){
+    public int findByUserName(TbUser user){
         int flag=0;
-        User user1= us.findByUsername(user.getUsername());
+        TbUser user1= us.findByUsername(user.getUname());
         if(user1!=null){
             flag=1;
         }
@@ -91,12 +92,12 @@ public class UserPortalAction {
      */
     @ResponseBody
     @RequestMapping("/updateUserByInformation")
-    public int updateUserByInformation(HttpSession session,User user){
+    public int updateUserByInformation(HttpSession session,TbUser user){
         int i = 0;
-        User u = null;
+        TbUser u = null;
         try {
             i = us.updateByUser(user);
-            u = us.findByUsername(user.getUsername());
+            u = us.findByUsername(user.getUname());
             session.setAttribute("User",user);
         } catch (Exception e) {
             logger.error(e.getMessage(), e);

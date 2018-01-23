@@ -1,7 +1,7 @@
 package com.zhou.jdshop.web;
 
 import com.zhou.jdshop.pojo.po.TbOrder;
-import com.zhou.jdshop.pojo.vo.OrdersCustom;
+import com.zhou.jdshop.pojo.vo.TbOrdersCustom;
 import com.zhou.jdshop.service.OrderService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -56,7 +56,7 @@ public class OrderAction {
 
     @ResponseBody
     @RequestMapping("/order/{itemid}")
-    public OrdersCustom getItemById(@PathVariable("itemid") String itemid) {
+    public TbOrdersCustom getItemById(@PathVariable("itemid") String itemid) {
         return orderService.getOrderById(itemid);
     }
 
