@@ -45,9 +45,9 @@
                     <button id="add" type="button" class="btn btn-default" onclick="add();">
                         <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>新增
                     </button>
-                    <button id="edit" type="button" class="btn btn-default" onclick="edit();">
+                   <%-- <button id="edit" type="button" class="btn btn-default" onclick="edit();">
                         <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>修改
-                    </button>
+                    </button>--%>
                     <button id="delete" type="button" class="btn btn-default" onclick="del();">
                         <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>删除
                     </button>
@@ -102,25 +102,17 @@
                 {field: 'marketPrice', title: '商品售价',sortable : true},
                 {field: 'shopPrice', title: '商品供货价',sortable : true},
                 {field: 'cname', title: '分类名称',sortable : true},
+                {field: 'pstock', title: '库存',sortable : true},
+                {field: 'psold', title: '销量',sortable : true},
                 {
                     field: 'created', title: '创建时间', formatter: function (v, r, i) {
                         return moment(v).format('L');
                     },sortable : true
                 },
                 {
-                    field:'isHot',title:'是否热门', formatter: function (v, r, i) {
-                        switch (v) {
-                            case 0:
-                                return '否';
-                                break;
-                            case 1:
-                                return '是';
-                                break;
-                            default:
-                                return '未知';
-                                break;
-                        }
-                    },sortable : true
+                    field: 'updated', title: '创建时间', formatter: function (v, r, i) {
+                    return moment(v).format('L');
+                },sortable : true
                 },
                 {
                     field: 'pflag', title: '商品状态', formatter: function (v, r, i) {
@@ -138,8 +130,35 @@
                                 return '未知';
                                 break;
                         }
-                    },sortable : true
-                }
+                    },sortable : true},
+                {title:'操作',formatter: function actionFormatter(value, row, index) {
+                    return '<a class="btn btn-white btn-bitbucket" title="编辑" id="mod"><i class="fa fa fa-pencil fa-fw" aria-hidden="true"></i></a> ' +
+                        '<a class="btn btn-white btn-bitbucket" title="删除" id="delete"><i class="fa fa-trash-o fa-fw" aria-hidden="true"></i></a>';
+                },events:window.actionEvents = {
+                    'click #mod': function(e, value, row, index) {
+                        //修改操作
+                        location.href='product-edit?pid='+row.pid;
+                        return false;
+                    },
+                    'click #delete' : function(e, value, row, index) {
+                        //删除操作
+                        var $table=$("#productListDg");
+                        var pids=[];
+                        pids.push(row.pid);
+                        $.ajax({
+                            type:"POST",
+                            dataType: "json",
+                            url: "deleteCat",
+                            data: {"pids": pids},
+                            success: function (data) {
+                                if (data > 0) {
+                                    $table.bootstrapTable('refresh');
+                                }
+                            }
+                        });
+                        return false;
+                    }
+                },align : 'center'}
             ]]
         })
     });
@@ -244,7 +263,7 @@
                 alert('请只选取一行要编辑的数据行！');
                 return false;
             }
-            pid=selRow[0].pid;
+            var pid=selRow[0].pid;
             location.href='product-edit?pid='+pid;
         }else{
             alert('请选取要编辑的数据行！');

@@ -55,7 +55,6 @@
                 <div class="bundle-main">
                     <table width="100%" id="cart" class="table table-striped">
                         <c:forEach items="${cart.items }" var="entry">
-                            <tr></tr>
                             <tr>
                                 <td></td>
                                 <td width="15%"><img style="width:60px;height:60px;" alt=""
@@ -226,7 +225,7 @@
 
     //    选中一种
     function reduce(pid,elm){
-        if($(elm.parentNode).find('#count').val()>0) {
+        if($(elm.parentNode).find('#count').val()>1) {
             $.ajax({
                 url:"reduceProductFromCart",
                 data:{'pid':pid},

@@ -72,7 +72,6 @@ public class CategoryServiceImpl implements CategoryService {
             Long cid = IDUtils.getItemId();
             category.setCid(cid);
             category.setCflag(0);
-            category.setParentId(0L);
             i = categoryDao.insert(category);
         } catch (Exception e) {
             logger.error(e.getMessage(), e);

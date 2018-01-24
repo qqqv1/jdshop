@@ -10,7 +10,7 @@ public class ManagerIndexAction {
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String index() {
-        return "index";
+        return "login";
     }
 
     @RequestMapping(value = "/{page}",method = RequestMethod.GET)

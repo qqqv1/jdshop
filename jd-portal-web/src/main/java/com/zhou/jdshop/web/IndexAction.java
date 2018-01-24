@@ -9,6 +9,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.List;
 
@@ -19,17 +20,23 @@ public class IndexAction {
     private TbContentService tbContentService;
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
-    public String index(Model model) {
-        Long cid = PropKit.use("lunbo.properties").getLong("categoryId");
-        System.out.println("Action cid"+cid);
-        List<TbContent> list = tbContentService.getContentListByCid(cid);
-        System.out.println("Action size"+list.size());
-        model.addAttribute("adList",list);
+    public String index() {
         return "index";
     }
 
     @RequestMapping(value = "/{page}",method = RequestMethod.GET)
     public String page(@PathVariable("page") String page){
         return page;
+    }
+
+    @ResponseBody
+    @RequestMapping("/sildeshow")
+    public List<TbContent> sildeshow(){
+        List<TbContent> list =null;
+        Long cid = PropKit.use("lunbo.properties").getLong("categoryId");
+//        System.out.println("Action cid"+cid);
+        list=tbContentService.getContentListByCid(cid);
+//        System.out.println("Action size"+list.size());
+        return list;
     }
 }
