@@ -131,6 +131,8 @@ public class CategoryServiceImpl implements CategoryService {
             Long cid = IDUtils.getItemId();
             category.setCid(cid);
             category.setCflag(0);
+            category.setCreated(new Date());
+            category.setUpdated(new Date());
             i = categoryDao.insert(category);
         } catch (Exception e) {
             logger.error(e.getMessage(), e);
@@ -155,6 +157,7 @@ public class CategoryServiceImpl implements CategoryService {
             category.setParentId(0L);
             category.setIsParent(1);
             category.setCreated(new Date());
+            category.setUpdated(new Date());
             i = categoryDao.insert(category);
         } catch (Exception e) {
             logger.error(e.getMessage(), e);
@@ -178,6 +181,7 @@ public class CategoryServiceImpl implements CategoryService {
             category.setCflag(0);
             category.setIsParent(1);
             category.setCreated(new Date());
+            category.setUpdated(new Date());
             i = categoryDao.insert(category);
         } catch (Exception e) {
             logger.error(e.getMessage(), e);
@@ -201,6 +205,7 @@ public class CategoryServiceImpl implements CategoryService {
             category.setCflag(0);
             category.setIsParent(0);
             category.setCreated(new Date());
+            category.setUpdated(new Date());
             i = categoryDao.insert(category);
         } catch (Exception e) {
             logger.error(e.getMessage(), e);

@@ -98,7 +98,7 @@
                 },sortable : true
                 },
                 {
-                    field: 'updated', title: '创建时间', formatter: function (v, r, i) {
+                    field: 'updated', title: '更新时间', formatter: function (v, r, i) {
                     return moment(v).format('L');
                 },sortable : true
                 },
