@@ -15,4 +15,18 @@ public interface CategoryService {
     int editCategory(TbProductCat category);
 
     int deleteCategory(List<Long> cids);
+
+    List<TbProductCat> listCats1();
+
+    List<TbProductCat> listCats2();
+
+    List<TbProductCat> listCats3();
+
+    int editCat(TbProductCat category);
+
+    int saveCat1(TbProductCat category);
+
+    int saveCat2(TbProductCat category);
+
+    int saveCat3(TbProductCat category);
 }

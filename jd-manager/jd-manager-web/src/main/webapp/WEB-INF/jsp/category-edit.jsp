@@ -45,7 +45,7 @@
         <div class="col-sm-12">
             <div class="ibox float-e-margins">
                 <div class="ibox-title">
-                    <h5>分类修改</h5>
+                    <h5>一级分类修改</h5>
                 </div>
                 <div class="ibox-content">
                     <form class="form-horizontal" id="category" action="javascript:void(0)">
@@ -113,7 +113,7 @@
             var submitData = decodeURIComponent(data, true);
             //submitData是解码后的表单数据，结果同上
             $.ajax({
-                url: 'editCat',
+                url: 'editCategory',
                 type: 'POST',
                 data: submitData,
                 dataType: "json",
