@@ -104,10 +104,10 @@
                 </div>
                 <div class="search-content">
                     <div class="sort">
-                        <li class="first"><a title="综合">综合排序</a></li>
-                        <li><a title="销量">销量排序</a></li>
-                        <li><a title="价格">价格优先</a></li>
-                        <li class="big"><a title="评价" href="#">评价为主</a></li>
+                        <li class="first"><a title="综合" href="javascript:">综合排序</a></li>
+                        <li><a title="销量" href="javascript:">销量排序</a></li>
+                        <li><a title="价格" href="javascript:">价格优先</a></li>
+                        <li class="big"><a title="评价" href="javascript:">评价为主</a></li>
                     </div>
                     <div class="clear"></div>
 

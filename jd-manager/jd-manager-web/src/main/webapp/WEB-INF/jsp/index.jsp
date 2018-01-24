@@ -62,6 +62,21 @@
                         </li>
                     </ul>
                 </li>
+                <li>
+                    <a href="">
+                        <i class="fa fa-pencil-square-o"></i>
+                        <span class="nav-label">商品分类管理</span>
+                        <span class="fa arrow"></span>
+                    </a>
+                    <ul class="nav nav-second-level">
+                        <li>
+                            <a class="J_menuItem" href="category1-list">商品一级分类</a>
+                            <a class="J_menuItem" href="category2-list">商品二级分类</a>
+                            <a class="J_menuItem" href="category3-list">商品三级分类</a>
+
+                        </li>
+                    </ul>
+                </li>
                 <%--商品--%>
                 <li class="line dk"></li>
                 <li class="hidden-folded padder m-t m-b-sm text-muted text-xs">

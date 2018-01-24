@@ -45,9 +45,9 @@
                     <button id="add" type="button" class="btn btn-default" onclick="add();">
                         <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>新增
                     </button>
-                    <button id="edit" type="button" class="btn btn-default" onclick="edit();">
+                   <%-- <button id="edit" type="button" class="btn btn-default" onclick="edit();">
                         <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>修改
-                    </button>
+                    </button>--%>
                     <button id="delete" type="button" class="btn btn-default" onclick="del();">
                         <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>删除
                     </button>
@@ -91,7 +91,45 @@
             columns: [[
                 {checkbox : true,align : 'center'},
                 {field: 'cid', title: '分类编号',sortable : true},
-                {field: 'cname', title: '分类名称',sortable : true}
+                {field: 'cname', title: '分类名称',sortable : true},
+                {
+                    field: 'created', title: '创建时间', formatter: function (v, r, i) {
+                    return moment(v).format('L');
+                },sortable : true
+                },
+                {
+                    field: 'updated', title: '创建时间', formatter: function (v, r, i) {
+                    return moment(v).format('L');
+                },sortable : true
+                },
+                {title:'操作',formatter: function actionFormatter(value, row, index) {
+                    return '<a class="btn btn-white btn-bitbucket" title="编辑" id="mod"><i class="fa fa fa-pencil fa-fw" aria-hidden="true"></i></a> ' +
+                        '<a class="btn btn-white btn-bitbucket" title="删除" id="delete"><i class="fa fa-trash-o fa-fw" aria-hidden="true"></i></a>';
+                },events:window.actionEvents = {
+                    'click #mod': function(e, value, row, index) {
+                        //修改操作
+                        location.href='category-edit?cid='+row.cid;
+                        return false;
+                    },
+                    'click #delete' : function(e, value, row, index) {
+                        //删除操作
+                        var $table=$("#categoryListDg");
+                        var cids=[];
+                        cids.push(row.cid);
+                        $.ajax({
+                            type:"POST",
+                            dataType: "json",
+                            url: "deleteCat",
+                            data: {"cids": cids},
+                            success: function (data) {
+                                if (data > 0) {
+                                    $table.bootstrapTable('refresh');
+                                }
+                            }
+                        });
+                        return false;
+                    }
+                },align : 'center'}
             ]]
         })
     });

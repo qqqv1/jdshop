@@ -113,6 +113,7 @@ public class ProductServiceImpl implements ProductService {
     public int editProduct(TbProduct product) {
         int i = 0;
         try {
+            product.setUpdated(new Date());
             TbProductExample example=new TbProductExample();
             TbProductExample.Criteria criteria = example.createCriteria();
             criteria.andPidEqualTo(product.getPid());

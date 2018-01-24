@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 com\zhou\jdshop\service\impl\TbContentServiceImpl.class
 com\zhou\jdshop\service\impl\ProductIndexServiceImpl.class
 com\zhou\jdshop\service\impl\ProductServiceImpl.class
 com\zhou\jdshop\service\impl\TbLunBoServiceImpl.class
 com\zhou\jdshop\service\impl\CategoryServiceImpl.class
 com\zhou\jdshop\service\impl\UserServiceImpl.class
+=======
+com\zhou\jdshop\service\impl\UserServiceImpl.class
+com\zhou\jdshop\service\impl\ProductServiceImpl.class
+com\zhou\jdshop\service\impl\FileServiceImpl.class
+com\zhou\jdshop\service\impl\TbContentServiceImpl.class
+com\zhou\jdshop\service\impl\CategoryServiceImpl.class
+>>>>>>> origin/branch_zhou
 com\zhou\jdshop\service\impl\OrderServiceImpl.class
+com\zhou\jdshop\service\impl\TbLunBoServiceImpl.class

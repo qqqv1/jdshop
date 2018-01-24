@@ -81,31 +81,21 @@
                         <div class="form-group">
                             <label class="col-sm-3 control-label"><span style="color:red;">*</span>库存：</label>
                             <div class="col-sm-8">
-                                <input id="quantity" name="quantity" type="text" placeholder=" 请输入商品库存" class="form-control" onkeyup="value=value.replace(/[^\d]/g,'')"  onblur="value=value.replace(/[^\d]/g,'') " >
+                                <input id="pstock" name="pstock" type="text" placeholder=" 请输入商品库存" class="form-control" onkeyup="value=value.replace(/[^\d]/g,'')"  onblur="value=value.replace(/[^\d]/g,'') " >
                                 <span class="help-block m-b-none"></span>
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="col-sm-3 control-label"><span style="color:red;">*</span>类别：</label>
                             <div class="col-sm-8">
-                                <select id="cid" name="cid" style="width: 100%;" class="form-control"></select>
-                                <span class="help-block m-b-none"></span>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label class="col-sm-3 control-label"><span style="color:red;"></span>是否热门：</label>
-                            <div class="col-sm-8">
-                                <select id="isHot" name="isHot" style="width: 100%;" class="form-control">
-                                    <option selected="" value="1">是</option>
-                                    <option selected="" value="0">否</option>
-                                </select>
+                                <select id="cid" name="cid" style="width: 100%;font-size: 12px" class="form-control"></select>
                                 <span class="help-block m-b-none"></span>
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="col-sm-3 control-label"><span style="color:red;"></span>图片：</label>
                             <div class="col-sm-8">
-                                <input type="file" id="pimage" name="pimage" value="选择图片" class="form-control"/>
+                                <input type="file" id="pimage" name="pimage" value="选择图片"/>
                                 <span class="help-block m-b-none"></span>
                             </div>
                         </div>
@@ -149,7 +139,20 @@
 <script src="ueditor/ueditor.all.js"></script>
 <script>
     $(function(){
-        var ue=UE.getEditor('pdesc');
+        //实例化之前先删除容器
+        UE.delEditor('pdesc');
+        //实例化富文本编辑器
+        var ue=UE.getEditor('pdesc',{
+            serverUrl:'file/upload'
+        });
+        UE.Editor.prototype._bkGetActionUrl = UE.Editor.prototype.getActionUrl;
+        UE.Editor.prototype.getActionUrl = function(action) {
+            if (action === 'uploadimage') {
+                return '${pageContext.request.contextPath}/file/upload';
+            }else {
+                return this._bkGetActionUrl.call(this, action);
+            }
+        };
         $('.i-checks').iCheck({
             checkboxClass: 'icheckbox_square-green',
             radioClass: 'iradio_square-green'
@@ -179,9 +182,8 @@
                 $("#pname").val(data.pname);
                 $("#marketPrice").val(data.marketPrice);
                 $("#shopPrice").val(data.shopPrice);
-                $("#quantity").val(data.quantity);
+                $("#pstock").val(data.pstock);
                 $("#cid").val(data.cid);
-                $("#isHot").val(data.isHot);
                 $("#pimage").val(data.pimage);
                 ue.ready(function(){
                     ue.setContent(data.pdesc);
@@ -194,7 +196,7 @@
             var pname = $("#pname").val();
             var marketPrice = $("#marketPrice").val();
             var shopPrice = $("#shopPrice").val();
-            var quantity=$("#quantity").val();
+            var pstock=$("#pstock").val();
             var cid = $("#cid").val();
             if(!pname){
                 alert("请输入商品名称");
@@ -205,7 +207,7 @@
             }else if(!shopPrice){
                 alert("请输入商品供货价");
                 return false;
-            }else if(!quantity){
+            }else if(!pstock){
                 alert("请输入商品库存");
                 return false;
             }else if(!cid){

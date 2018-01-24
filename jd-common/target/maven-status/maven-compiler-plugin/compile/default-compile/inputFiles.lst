@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 D:\dfg666\GitHub\jdshop\jd-common\src\main\java\com\zhou\jdshop\util\CommonsUtils.java
 D:\dfg666\GitHub\jdshop\jd-common\src\main\java\com\zhou\jdshop\util\FtpUtils.java
 D:\dfg666\GitHub\jdshop\jd-common\src\main\java\com\zhou\jdshop\util\IDUtils.java
@@ -13,3 +14,19 @@ D:\dfg666\GitHub\jdshop\jd-common\src\main\java\com\zhou\jdshop\util\JsonUtils.j
 D:\dfg666\GitHub\jdshop\jd-common\src\main\java\com\zhou\jdshop\util\PathKit.java
 D:\dfg666\GitHub\jdshop\jd-common\src\main\java\com\zhou\jdshop\util\HashKit.java
 D:\dfg666\GitHub\jdshop\jd-common\src\main\java\com\zhou\jdshop\util\PropKit.java
+=======
+E:\IdeaProjects\jdshop\jd-common\src\main\java\com\zhou\jdshop\util\JsonUtils.java
+E:\IdeaProjects\jdshop\jd-common\src\main\java\com\zhou\jdshop\dto\Page.java
+E:\IdeaProjects\jdshop\jd-common\src\main\java\com\zhou\jdshop\util\PropKit.java
+E:\IdeaProjects\jdshop\jd-common\src\main\java\com\zhou\jdshop\util\Prop.java
+E:\IdeaProjects\jdshop\jd-common\src\main\java\com\zhou\jdshop\util\FtpUtils.java
+E:\IdeaProjects\jdshop\jd-common\src\main\java\com\zhou\jdshop\util\Const.java
+E:\IdeaProjects\jdshop\jd-common\src\main\java\com\zhou\jdshop\jedis\JedisClient.java
+E:\IdeaProjects\jdshop\jd-common\src\main\java\com\zhou\jdshop\jedis\JedisClientPool.java
+E:\IdeaProjects\jdshop\jd-common\src\main\java\com\zhou\jdshop\util\PathKit.java
+E:\IdeaProjects\jdshop\jd-common\src\main\java\com\zhou\jdshop\util\StrKit.java
+E:\IdeaProjects\jdshop\jd-common\src\main\java\com\zhou\jdshop\jedis\JedisClientCluster.java
+E:\IdeaProjects\jdshop\jd-common\src\main\java\com\zhou\jdshop\util\HashKit.java
+E:\IdeaProjects\jdshop\jd-common\src\main\java\com\zhou\jdshop\util\IDUtils.java
+E:\IdeaProjects\jdshop\jd-common\src\main\java\com\zhou\jdshop\util\CommonsUtils.java
+>>>>>>> origin/branch_zhou

@@ -42,7 +42,7 @@ public class ShoppingCartPortalAction {
     public String addProductToCart(@RequestParam("pid") Long pid, @RequestParam("count") int count, HttpSession session, HttpServletResponse response){
 
         try{
-            System.out.println(pid+" "+count);
+//            System.out.println(pid+" "+count);
 
             //根据pid去查找商品对象
             TbProduct p = productService.getProductById(pid);
@@ -61,12 +61,10 @@ public class ShoppingCartPortalAction {
             //把购物项放到购物车里
             Map<Long, CartItem> map = cart.getItems();//获得购物项容器
 
-
             /**
              * 创建购物项对象
              */
             CartItem item=new CartItem();//准备空的购物项
-
 
             /**
              * 如果不是第一次购买该商品
@@ -97,7 +95,6 @@ public class ShoppingCartPortalAction {
              */
             cart.setTotal(cart.getTotal()+count*p.getShopPrice());//变多~~~
 
-
             /**
              * 把购物车放到session里
              */
@@ -107,9 +104,6 @@ public class ShoppingCartPortalAction {
             Cookie cookie=new Cookie("JSESSIONID",session.getId());
             cookie.setMaxAge(15*24*3600);
             response.addCookie(cookie);
-
-
-
 
         }catch (Exception e){
             logger.error(e.getMessage(),e);
@@ -131,8 +125,7 @@ public class ShoppingCartPortalAction {
     public String deleteProductFromCart(@RequestParam("pid") Long pid,HttpSession session, HttpServletResponse response){
 
         try{
-            System.out.println(pid+" ");
-
+//            System.out.println(pid+" ");
 
             //取出购物车
             Cart cart = (Cart) session.getAttribute("cart");
@@ -175,8 +168,6 @@ public class ShoppingCartPortalAction {
         try{
 //            System.out.println(pid+" ");
 
-
-
             //取出购物车
             Cart cart = (Cart) session.getAttribute("cart");
 
@@ -186,12 +177,12 @@ public class ShoppingCartPortalAction {
                 if(map.containsKey(pid)){
                     CartItem cartItem = map.get(pid);
 
-                    System.out.println(cartItem.getCount());
+//                    System.out.println(cartItem.getCount());
                     cartItem.setCount(cartItem.getCount()+1);
-                    System.out.println(cartItem.getCount());
+//                    System.out.println(cartItem.getCount());
 
                     cartItem.setSubTotal(Math.round((cartItem.getSubTotal()+cartItem.getProduct().getShopPrice())*10)/10);
-                    System.out.println(cartItem.getSubTotal());
+//                    System.out.println(cartItem.getSubTotal());
 
                     cartOne.setSubTotal(cartItem.getSubTotal());
 
@@ -200,7 +191,7 @@ public class ShoppingCartPortalAction {
 
                     cartOne.setTotal(cart.getTotal());
 
-                    System.out.println(cart.getTotal());
+//                    System.out.println(cart.getTotal());
                 }
             }
             session.setAttribute("cart", cart);
@@ -209,9 +200,6 @@ public class ShoppingCartPortalAction {
             Cookie cookie=new Cookie("JSESSIONID",session.getId());
             cookie.setMaxAge(15*24*3600);
             response.addCookie(cookie);
-
-
-
 
         }catch (Exception e){
             logger.error(e.getMessage(),e);
@@ -229,8 +217,6 @@ public class ShoppingCartPortalAction {
         try{
 //            System.out.println(pid+" ");
 
-
-
             //取出购物车
             Cart cart = (Cart) session.getAttribute("cart");
 
@@ -244,7 +230,7 @@ public class ShoppingCartPortalAction {
                     cartItem.setCount(cartItem.getCount()-1);
                     //重新计算小记
                     cartItem.setSubTotal(Math.round((cartItem.getSubTotal()-cartItem.getProduct().getShopPrice())*10)/10);
-                    System.out.println(cartItem.getSubTotal());
+//                    System.out.println(cartItem.getSubTotal());
 
                     cartOne.setSubTotal((cartItem.getSubTotal())*100/100);
 
@@ -253,7 +239,7 @@ public class ShoppingCartPortalAction {
 
                     cartOne.setTotal(cart.getTotal()*100/100);
 
-                    System.out.println(cart.getTotal());
+//                    System.out.println(cart.getTotal());
                     }
 
                 }
@@ -265,9 +251,6 @@ public class ShoppingCartPortalAction {
 
             cookie.setMaxAge(15*24*3600);
             response.addCookie(cookie);
-
-
-
 
         }catch (Exception e){
             logger.error(e.getMessage(),e);

@@ -1,8 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -17,8 +14,6 @@
 
     <link href="css/hmstyle.css" rel="stylesheet" type="text/css"/>
     <link href="css/skin.css" rel="stylesheet" type="text/css" />
-    <script src="AmazeUI-2.4.2/assets/js/jquery.min.js"></script>
-    <script src="AmazeUI-2.4.2/assets/js/amazeui.min.js"></script>
 
 </head>
 
@@ -27,45 +22,15 @@
     <jsp:include page="top.jsp"/>
     <div class="clear"></div>
 </div>
-<div class="banner">
+<div class="banner" id="banner" >
 
     <!--轮播 -->
-    <div class="am-slider am-slider-default scoll" data-am-flexslider id="demo-slider-0">
-
-        <ul class="am-slides">
-          <%--  <li class="banner1"><a href="introduction.html"><img src="images/ad1.jpg" /></a></li>
-            <li class="banner2"><a><img src="images/ad2.jpg" /></a></li>
-            <li class="banner3"><a><img src="images/ad3.jpg" /></a></li>
-            <li class="banner4"><a><img src="images/ad4.jpg" /></a></li>
-                <li class="banner1"><a href="introduction.html"><img src="images/ad1.jpg" /></a></li>
-                <li class="banner2"><a><img src="images/ad2.jpg" /></a></li>
-                <li class="banner3"><a><img src="images/ad3.jpg" /></a></li>
-                <li class="banner4"><a><img src="images/ad4.jpg" /></a></li>
-                <li class="banner1"><a href="introduction.html"><img src="images/ad1.jpg" /></a></li>
-                <li class="banner2"><a><img src="images/ad2.jpg" /></a></li>
-                <li class="banner3"><a><img src="images/ad3.jpg" /></a></li>
-                <li class="banner4"><a><img src="images/ad4.jpg" /></a></li>--%>
-              <c:forEach items="${adList}" var="node" varStatus="status">
-                  <li>
-                      <%--href="${node.url}--%>
-                      <a name="sfbest_hp_hp_focus_${status.index}" class="fore_pic trackref"   target="_blank">
-                          <img id="lunbo_1" alt="${node.title}"	src="${node.pic}">
-                      </a>
-                  </li>
-              </c:forEach>
+    <div class="am-slider am-slider-default">
+        <ul class="am-slides" id="slider">
 
         </ul>
-      <%--  <ol>
-            <c:forEach items="${adList}" var="node" varStatus="status">
-                <li>
-                    <a name="sfbest_hp_hp_focus_${status.index}" class="fore_pic trackref" href="${node.url}" target="_blank">
-                        <img id="lunbo_1" alt="${node.title}"	src="${node.pic}">
-                    </a>
-                </li>
-            </c:forEach>
-        </ol>--%>
-
     </div>
+
     <div class="clear"></div>
 </div>
 <div class="shopNav">
@@ -623,28 +588,6 @@
             </div>
         </div>
 
-
-        <!--轮播-->
-
-        <script type="text/javascript">
-            (function() {
-                $('.am-slider').flexslider();
-            });
-            $(document).ready(function() {
-                $("li").hover(function() {
-                    $(".category-content .category-list li.first .menu-in").css("display", "none");
-                    $(".category-content .category-list li.first").removeClass("hover");
-                    $(this).addClass("hover");
-                    $(this).children("div.menu-in").css("display", "block")
-                }, function() {
-                    $(this).removeClass("hover")
-                    $(this).children("div.menu-in").css("display", "none")
-                });
-            })
-        </script>
-
-
-
         <!--小导航 -->
         <div class="am-g am-g-fixed smallnav">
             <div class="am-u-sm-3">
@@ -671,10 +614,10 @@
 
         <!--走马灯 -->
 
-        <div class="marqueen">
+        <div class="marqueen" style="background-color: snow">
             <div class="mod-vip">
                 <div class="m-baseinfo">
-                    <a href="person/index.html">
+                    <a href="client-information">
                         <img src="images/getAvatar.do.jpg">
                     </a>
                     <em>
@@ -2140,8 +2083,42 @@
 
 <jsp:include page="guide.jsp"/>
 
-<script src="basic/js/jquery-1.9.min.js "></script>
-<script type="text/javascript " src="basic/js/quick_links.js"></script>
+<script type="text/javascript" src="basic/js/jquery-1.9.min.js "></script>
+<script type="text/javascript" src="basic/js/quick_links.js"></script>
+<script src="AmazeUI-2.4.2/assets/js/jquery.min.js"></script>
+<script src="AmazeUI-2.4.2/assets/js/amazeui.min.js"></script>
+<script>
+
+    $(function () {
+        $.ajax({
+            url:'sildeshow',
+            dataType:'json',
+            success:function (data) {
+                $.each(data,function (i,v) {
+                    console.log(v);
+                    var $li=$('<li></li>');
+                    var $a=$('<a name="sfbest_hp_hp_focus_'+i+'" target="_blank"></a>');
+                    var $img=$('<img id="lunbo_1" alt="'+v.title+'" src="'+v.pic+'" />');
+                    $a.append($img);
+                    $li.append($a);
+                    $('#slider').append($li);
+                });
+                $('.am-slider').flexslider();
+            }
+        });
+        $("li").hover(function() {
+            $(".category-content .category-list li.first .menu-in").css("display", "none");
+            $(".category-content .category-list li.first").removeClass("hover");
+            $(this).addClass("hover");
+            $(this).children("div.menu-in").css("display", "block");
+        }, function() {
+            $(this).removeClass("hover");
+            $(this).children("div.menu-in").css("display", "none");
+        });
+    })
+
+</script>
+
 </body>
 
 </html>

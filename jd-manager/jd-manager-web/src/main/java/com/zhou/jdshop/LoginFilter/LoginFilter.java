@@ -15,11 +15,14 @@ public class LoginFilter implements Filter {
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
         HttpServletRequest req = (HttpServletRequest) servletRequest;
         HttpServletResponse res = (HttpServletResponse) servletResponse;
-
-        if (req.getSession().getAttribute("sessionUser") != null) {
+        if(req.getRequestURI().lastIndexOf("login") >= 0 ||
+                req.getRequestURI().lastIndexOf("userLogin") >= 0||
+                req.getRequestURI().lastIndexOf("userAdd") >= 0||
+                req.getRequestURI().lastIndexOf("addUser") >= 0||
+                req.getRequestURI().indexOf(".")>=0||
+                req.getSession().getAttribute("sessionUser") != null) {
             filterChain.doFilter(req, res);
-        }
-        else{
+        } else {
             req.getRequestDispatcher("login").forward(req, res);
         }
     }
