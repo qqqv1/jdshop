@@ -1,14 +1,7 @@
-<<<<<<< HEAD
 D:\dfg666\GitHub\jdshop\jd-manager\jd-manager-interface\src\main\java\com\zhou\jdshop\service\UserService.java
 D:\dfg666\GitHub\jdshop\jd-manager\jd-manager-interface\src\main\java\com\zhou\jdshop\service\OrderService.java
+D:\dfg666\GitHub\jdshop\jd-manager\jd-manager-interface\src\main\java\com\zhou\jdshop\service\ProductIndexService.java
+D:\dfg666\GitHub\jdshop\jd-manager\jd-manager-interface\src\main\java\com\zhou\jdshop\service\TbLunBoService.java
 D:\dfg666\GitHub\jdshop\jd-manager\jd-manager-interface\src\main\java\com\zhou\jdshop\service\ProductService.java
 D:\dfg666\GitHub\jdshop\jd-manager\jd-manager-interface\src\main\java\com\zhou\jdshop\service\TbContentService.java
 D:\dfg666\GitHub\jdshop\jd-manager\jd-manager-interface\src\main\java\com\zhou\jdshop\service\CategoryService.java
-=======
-E:\IdeaProjects\jdshop\jd-manager\jd-manager-interface\src\main\java\com\zhou\jdshop\service\ProductService.java
-E:\IdeaProjects\jdshop\jd-manager\jd-manager-interface\src\main\java\com\zhou\jdshop\service\CategoryService.java
-E:\IdeaProjects\jdshop\jd-manager\jd-manager-interface\src\main\java\com\zhou\jdshop\service\UserService.java
-E:\IdeaProjects\jdshop\jd-manager\jd-manager-interface\src\main\java\com\zhou\jdshop\service\OrderService.java
-E:\IdeaProjects\jdshop\jd-manager\jd-manager-interface\src\main\java\com\zhou\jdshop\service\TbContentService.java
-E:\IdeaProjects\jdshop\jd-manager\jd-manager-interface\src\main\java\com\zhou\jdshop\service\TbLunBoService.java
->>>>>>> origin/branch_zhou

@@ -10,5 +10,6 @@ com\zhou\jdshop\util\HashKit.class
 com\zhou\jdshop\util\StrKit.class
 com\zhou\jdshop\util\PropKit.class
 com\zhou\jdshop\util\PathKit.class
+com\zhou\jdshop\dto\MessageResult.class
 com\zhou\jdshop\util\FtpUtils.class
 com\zhou\jdshop\jedis\JedisClientPool.class

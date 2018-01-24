@@ -38,15 +38,15 @@ public class OrderAction {
 
     /**
      * 删除订单
-     * @param oids
+     * @param ids
      * @return
      */
     @ResponseBody
-    @RequestMapping("/deleteOrders")
-    public int deleteProduct(@RequestParam("itemids[]") List<String> oids){
+    @RequestMapping("/deleteOrderItems")
+    public int deleteProduct(@RequestParam("ids[]") List<String> ids){
         int i = 0;
         try {
-            i = orderService.deleteOrders(oids);
+            i = orderService.deleteOrderItems(ids);
         } catch (Exception e) {
             logger.error(e.getMessage(), e);
             e.printStackTrace();
@@ -55,9 +55,9 @@ public class OrderAction {
     }
 
     @ResponseBody
-    @RequestMapping("/order/{itemid}")
-    public TbOrdersCustom getItemById(@PathVariable("itemid") String itemid) {
-        return orderService.getOrderById(itemid);
+    @RequestMapping("/order/{id}")
+    public TbOrdersCustom getItemById(@PathVariable("id") String id) {
+        return orderService.getOrderById(id);
     }
 
 
@@ -68,10 +68,10 @@ public class OrderAction {
      */
     @ResponseBody
     @RequestMapping("/editOrdersCustom")
-    public int editOrdersCustom(TbOrder orders,String oid,String itemid, Integer count,Double subtotal){
+    public int editOrdersCustom(String title ,String id,String orderId, String num,String totalFee,String receiverName,String receiverMobile,String receiverAddress){
         int i = 0;
         try {
-            i = orderService.editOrder(orders,oid,itemid,count,subtotal);
+            i = orderService.editOrder(title,id,orderId,num,totalFee,receiverName,receiverMobile,receiverAddress);
         } catch (Exception e) {
             logger.error(e.getMessage(), e);
             e.printStackTrace();

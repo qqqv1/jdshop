@@ -5,17 +5,27 @@
 
 
   <sql id="Base_Column_List">
-    o.oid,
-    o.ordertime,
-    o.total,
-    o.state,
-    o.address,
-    o.name,
-    o.telephone,
+    o.order_id as orderId,
+    o.payment,
+    o.payment_type AS  paymentType,
+    o.post_fee AS  postFee,
+    o.status,
+    o.create_time AS createTime,
+    o.user_id AS userId,
+    o.buyer_message AS  buyerMessage,
+    o.buyer_nick AS buyerNick,
 
-    oi.itemid,
-    oi.count,
-    oi.subtotal,
+    oi.id,
+    oi.item_id AS  itemID,
+    oi.num,
+    oi.price,
+    oi.total_fee AS  totalFee,
+    oi.title,
+
+    os.receiver_mobile AS  receiverMobile,
+    os.receiver_name AS  receiverName,
+    os.receiver_phone AS  receiverPhone,
+    os.receiver_address AS  receiverAddress,
 
     p.pname
 
@@ -33,11 +43,12 @@
 
     select
     <include refid="Base_Column_List" />
-    from tb_order_item oi  left join tb_order o on o.oid=oi.oid
+    from tb_order_item oi  left join tb_order o on o.order_id=oi.order_id
 
-    LEFT JOIN tb_product p on oi.pid=p.pid
-    where o.state!=0
-    order by o.oid
+    LEFT JOIN tb_product p on oi.item_id=p.pid
+    LEFT  JOIN  tb_order_shipping os ON  os.order_id=o.order_id
+    where o.status!=0 AND  oi.title!=0
+    order by oi.id
 
   </select>
 
@@ -46,10 +57,13 @@
 
         select
         <include refid="Base_Column_List" />
-        from tb_order_item oi left join tb_order o on oi.oid=o.oid
-        LEFT JOIN tb_product p on oi.pid=p.pid
+      from tb_order_item oi  left join tb_order o on o.order_id=oi.order_id
 
-        WHERE oi.itemid=#{itemid} AND   o.state!=0
+      LEFT JOIN tb_product p on oi.item_id=p.pid
+      LEFT  JOIN  tb_order_shipping os ON  os.order_id=o.order_id
+      where  oi.id=#{id} AND o.status!=0 AND  oi.title!=0
+      order by oi.id
+
 
     </select>
 

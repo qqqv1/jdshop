@@ -91,25 +91,27 @@
             pagination:true,
             columns: [[
                 {field: 'ck', checkbox: true},
-                {field: 'itemid', title: '订单详情编号'},
+                {field: 'id', title: '订单详情编号',sortable:true},
                 {field: 'pname', title: '商品名',sortable:true},
-                {field: 'count', title: '商品数量'},
+                {field: 'num', title: '商品数量'},
 
-                {field: 'subtotal', title: '合计'},
+                {field: 'totalFee', title: '小计'},
 //                {field: 'state', title: '订单状态'},
                 {
-                    field: 'state', title: '订单状态', formatter: function (v, r, i) {
+                    field: 'title', title: '订单状态', formatter: function (v, r, i) {
+//                        console.log(v);
+//                        console.log(v.valueOf())
                     switch (v) {
-                        case 0:
+                        case '0':
                             return '已删除';
                             break;
-                        case 1:
+                        case '1':
                             return '未支付';
                             break;
-                        case 2:
+                        case '2':
                             return '已支付，未发货';
                             break;
-                        case 3:
+                        case '3':
                             return '已支付，已发货';
                             break;
                         case 4:
@@ -121,10 +123,10 @@
                     }
                 },sortable : true
                 },
-                {field: 'name', title: '买家'},
-                {field: 'telephone', title: '手机'},
-                {field:'address',title:'地址'},
-                {field: 'ordertime', title: '订单时间', formatter: function (v, r, i) {
+                {field: 'receiverName', title: '买家'},
+                {field: 'receiverMobile', title: '手机'},
+                {field:'receiverAddress',title:'地址'},
+                {field: 'createTime', title: '订单时间', formatter: function (v, r, i) {
                     return moment(v).format('YYYY-MM-DD');
                 },sortable : true
                 }
@@ -133,12 +135,12 @@
     })
 
     function del() {
-        var itemids=[];
+        var ids=[];
         var $table=$("#orderListDg");
         var selRow = $table.bootstrapTable('getSelections');
         if(selRow!=null){
             for (var i = 0; i < selRow.length; i++) {
-                itemids.push(selRow[i].itemid)
+                ids.push(selRow[i].id)
             }
             var flag=confirm('此操作不可逆，确认删除吗？')
             if(flag==true) {
@@ -147,8 +149,8 @@
                     cache: false,
                     async: true,
                     dataType: "json",
-                    url: "deleteOrders",
-                    data: {"itemids[]": itemids},
+                    url: "deleteOrderItems",
+                    data: {"ids[]": ids},
                     success: function (data) {
                         if (data > 0) {
                             $table.bootstrapTable('refresh');
@@ -171,8 +173,8 @@
                 alert('请每次只选中一行数据！');
                 return false;
             }
-            itemid=selRow[0].itemid;
-            location.href='order-edit?itemid='+itemid;
+            id=selRow[0].id;
+            location.href='order-edit?id='+id;
         }else{
             alert('请选取要编辑的数据行！');
             return false;

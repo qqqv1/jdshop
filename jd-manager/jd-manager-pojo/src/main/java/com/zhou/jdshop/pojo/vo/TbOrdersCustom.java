@@ -3,11 +3,18 @@ package com.zhou.jdshop.pojo.vo;
 import com.zhou.jdshop.pojo.po.TbOrder;
 
 public class TbOrdersCustom extends TbOrder {
-    private String pname;
+
 
     private String itemid;
-    private Integer count;
-    private Double subtotal;
+    private Integer num;
+    private Long price;
+    private Double totalFee;
+    private String receiverName;
+    private String pname;
+    private String id;
+    private String receiverAddress;
+    private String receiverMobile;
+    private String title;
 
 
     public String getItemid() {
@@ -18,20 +25,36 @@ public class TbOrdersCustom extends TbOrder {
         this.itemid = itemid;
     }
 
-    public Integer getCount() {
-        return count;
+    public Integer getNum() {
+        return num;
     }
 
-    public void setCount(Integer count) {
-        this.count = count;
+    public void setNum(Integer num) {
+        this.num = num;
     }
 
-    public Double getSubtotal() {
-        return subtotal;
+    public Long getPrice() {
+        return price;
     }
 
-    public void setSubtotal(Double subtotal) {
-        this.subtotal = subtotal;
+    public void setPrice(Long price) {
+        this.price = price;
+    }
+
+    public Double getTotalFee() {
+        return totalFee;
+    }
+
+    public void setTotalFee(Double totalFee) {
+        this.totalFee = totalFee;
+    }
+
+    public String getReceiverName() {
+        return receiverName;
+    }
+
+    public void setReceiverName(String receiverName) {
+        this.receiverName = receiverName;
     }
 
     public String getPname() {
@@ -42,5 +65,35 @@ public class TbOrdersCustom extends TbOrder {
         this.pname = pname;
     }
 
+    public String getId() {
+        return id;
+    }
 
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getReceiverAddress() {
+        return receiverAddress;
+    }
+
+    public void setReceiverAddress(String receiverAddress) {
+        this.receiverAddress = receiverAddress;
+    }
+
+    public String getReceiverMobile() {
+        return receiverMobile;
+    }
+
+    public void setReceiverMobile(String receiverMobile) {
+        this.receiverMobile = receiverMobile;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
 }

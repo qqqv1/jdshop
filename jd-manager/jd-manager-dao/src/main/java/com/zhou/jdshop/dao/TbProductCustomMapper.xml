@@ -2,27 +2,27 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.zhou.jdshop.dao.TbProductCustomMapper">
     <resultMap id="BaseResultMap" type="com.zhou.jdshop.pojo.vo.TbProductCustom">
-        <id column="pid" jdbcType="BIGINT" property="pid" />
-        <result column="pname" property="pname" jdbcType="VARCHAR" />
-        <result column="cid" property="cid" jdbcType="BIGINT" />
-        <result column="bid" property="bid" jdbcType="BIGINT" />
-        <result column="pdesc" property="pdesc" jdbcType="VARCHAR" />
-        <result column="market_price" property="marketPrice" jdbcType="DOUBLE" />
-        <result column="shop_price" property="shopPrice" jdbcType="DOUBLE" />
-        <result column="pstock" property="pstock" jdbcType="INTEGER" />
-        <result column="psold" property="psold" jdbcType="INTEGER" />
-        <result column="pflag" property="pflag" jdbcType="INTEGER" />
-        <result column="pimage" property="pimage" jdbcType="VARCHAR" />
-        <result column="created" property="created" jdbcType="TIMESTAMP" />
-        <result column="updated" property="updated" jdbcType="TIMESTAMP" />
-        <result column="cname" jdbcType="VARCHAR" property="cname" />
+        <id column="pid" jdbcType="BIGINT" property="pid"/>
+        <result column="pname" property="pname" jdbcType="VARCHAR"/>
+        <result column="cid" property="cid" jdbcType="BIGINT"/>
+        <result column="bid" property="bid" jdbcType="BIGINT"/>
+        <result column="pdesc" property="pdesc" jdbcType="VARCHAR"/>
+        <result column="market_price" property="marketPrice" jdbcType="DOUBLE"/>
+        <result column="shop_price" property="shopPrice" jdbcType="DOUBLE"/>
+        <result column="pstock" property="pstock" jdbcType="INTEGER"/>
+        <result column="psold" property="psold" jdbcType="INTEGER"/>
+        <result column="pflag" property="pflag" jdbcType="INTEGER"/>
+        <result column="pimage" property="pimage" jdbcType="VARCHAR"/>
+        <result column="created" property="created" jdbcType="TIMESTAMP"/>
+        <result column="updated" property="updated" jdbcType="TIMESTAMP"/>
+        <result column="cname" jdbcType="VARCHAR" property="cname"/>
     </resultMap>
     <sql id="Base_Column_List">
         pid, pname, market_price, shop_price, pimage, p.created, p.updated, pdesc, pflag, pstock, psold, p.cid, cname
     </sql>
     <select id="listProducts" resultMap="BaseResultMap">
         select
-        <include refid="Base_Column_List" />
+        <include refid="Base_Column_List"/>
         from tb_product p
         left join tb_product_cat c on p.cid = c.cid
         where pflag!= 3
@@ -30,7 +30,7 @@
 
     <select id="productList" resultMap="BaseResultMap">
         select
-        <include refid="Base_Column_List" />
+        <include refid="Base_Column_List"/>
         from tb_product p
         left join tb_product_cat c on p.cid = c.cid
         where pflag!= 3
@@ -55,10 +55,27 @@
 
     <select id="selectProductById" resultMap="BaseResultMap">
         select
-        <include refid="Base_Column_List" />
+        <include refid="Base_Column_List"/>
         from tb_product p
         left join tb_product_cat c on p.cid = c.cid
         where pflag!= 3
         and pid=#{pid}
+    </select>
+
+    <select id="getSearchProducts" resultType="com.zhou.jdshop.dto.TbSearchTbProductCustom">
+
+         SELECT
+    p.pname,
+    p.pdesc,
+    p.shop_price AS  price ,
+    p.pimage,
+    c.cname
+
+    FROM
+    tb_product p
+    LEFT JOIN tb_product_cat c ON p.cid = c.cid
+    WHERE
+    p.pflag != 0
+    order by p.pid desc
     </select>
 </mapper>

@@ -1,9 +1,3 @@
-<<<<<<< HEAD
 D:\dfg666\GitHub\jdshop\jd-lucene\src\main\java\com\zhou\jdshop\lucene\IBookDao.java
 D:\dfg666\GitHub\jdshop\jd-lucene\src\main\java\com\zhou\jdshop\lucene\Book.java
 D:\dfg666\GitHub\jdshop\jd-lucene\src\main\java\com\zhou\jdshop\lucene\BookDaoImpl.java
-=======
-E:\IdeaProjects\jdshop\jd-lucene\src\main\java\com\zhou\jdshop\lucene\Book.java
-E:\IdeaProjects\jdshop\jd-lucene\src\main\java\com\zhou\jdshop\lucene\IBookDao.java
-E:\IdeaProjects\jdshop\jd-lucene\src\main\java\com\zhou\jdshop\lucene\BookDaoImpl.java
->>>>>>> origin/branch_zhou
