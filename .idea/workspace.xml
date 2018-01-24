@@ -2,1176 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d262294-80cb-456d-94c0-5c70f4aa3cf5" name="Default" comment="1.1">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-common/target/classes/com/zhou/jdshop/dto/Page.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-common/target/classes/com/zhou/jdshop/jedis/JedisClient.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-common/target/classes/com/zhou/jdshop/jedis/JedisClientCluster.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-common/target/classes/com/zhou/jdshop/jedis/JedisClientPool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-common/target/classes/com/zhou/jdshop/util/CommonsUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-common/target/classes/com/zhou/jdshop/util/Const.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-common/target/classes/com/zhou/jdshop/util/FtpUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-common/target/classes/com/zhou/jdshop/util/HashKit.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-common/target/classes/com/zhou/jdshop/util/IDUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-common/target/classes/com/zhou/jdshop/util/JsonUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-common/target/classes/com/zhou/jdshop/util/PathKit.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-common/target/classes/com/zhou/jdshop/util/Prop.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-common/target/classes/com/zhou/jdshop/util/PropKit.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-common/target/classes/com/zhou/jdshop/util/StrKit.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-common/target/jd-common-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-common/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-lucene/target/classes/com/zhou/jdshop/lucene/Book.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-lucene/target/classes/com/zhou/jdshop/lucene/BookDaoImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-lucene/target/classes/com/zhou/jdshop/lucene/IBookDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-lucene/target/jd-lucene.war" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-lucene/target/jd-lucene/WEB-INF/classes/com/zhou/jdshop/lucene/Book.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-lucene/target/jd-lucene/WEB-INF/classes/com/zhou/jdshop/lucene/BookDaoImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-lucene/target/jd-lucene/WEB-INF/classes/com/zhou/jdshop/lucene/IBookDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-lucene/target/jd-lucene/WEB-INF/lib/lucene-analyzers-common-4.10.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-lucene/target/jd-lucene/WEB-INF/lib/lucene-core-4.10.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-lucene/target/jd-lucene/WEB-INF/lib/lucene-queries-4.10.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-lucene/target/jd-lucene/WEB-INF/lib/lucene-queryparser-4.10.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-lucene/target/jd-lucene/WEB-INF/lib/lucene-sandbox-4.10.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-lucene/target/jd-lucene/WEB-INF/lib/mysql-connector-java-5.1.40.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-lucene/target/jd-lucene/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-lucene/target/jd-lucene/index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-lucene/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-lucene/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-lucene/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/classes/com/zhou/jdshop/dao/TbAdministratorMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/classes/com/zhou/jdshop/dao/TbAdministratorMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/classes/com/zhou/jdshop/dao/TbBoardMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/classes/com/zhou/jdshop/dao/TbBoardMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/classes/com/zhou/jdshop/dao/TbBrandMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/classes/com/zhou/jdshop/dao/TbBrandMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/classes/com/zhou/jdshop/dao/TbContentCategoryMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/classes/com/zhou/jdshop/dao/TbContentCategoryMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/classes/com/zhou/jdshop/dao/TbContentCustomMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/classes/com/zhou/jdshop/dao/TbContentCustomMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/classes/com/zhou/jdshop/dao/TbContentMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/classes/com/zhou/jdshop/dao/TbContentMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/classes/com/zhou/jdshop/dao/TbLeaveWordMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/classes/com/zhou/jdshop/dao/TbLeaveWordMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/classes/com/zhou/jdshop/dao/TbLunBoMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/classes/com/zhou/jdshop/dao/TbNewMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/classes/com/zhou/jdshop/dao/TbNewMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/classes/com/zhou/jdshop/dao/TbNoticeMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/classes/com/zhou/jdshop/dao/TbNoticeMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/classes/com/zhou/jdshop/dao/TbOrderItemMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/classes/com/zhou/jdshop/dao/TbOrderItemMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/classes/com/zhou/jdshop/dao/TbOrderMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/classes/com/zhou/jdshop/dao/TbOrderMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/classes/com/zhou/jdshop/dao/TbOrderShippingMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/classes/com/zhou/jdshop/dao/TbOrderShippingMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/classes/com/zhou/jdshop/dao/TbOrdersCustomMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/classes/com/zhou/jdshop/dao/TbOrdersCustomMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/classes/com/zhou/jdshop/dao/TbProductCatMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/classes/com/zhou/jdshop/dao/TbProductCatMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/classes/com/zhou/jdshop/dao/TbProductCatParamMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/classes/com/zhou/jdshop/dao/TbProductCatParamMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/classes/com/zhou/jdshop/dao/TbProductCustomMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/classes/com/zhou/jdshop/dao/TbProductCustomMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/classes/com/zhou/jdshop/dao/TbProductMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/classes/com/zhou/jdshop/dao/TbProductMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/classes/com/zhou/jdshop/dao/TbProductParamMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/classes/com/zhou/jdshop/dao/TbProductParamMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/classes/com/zhou/jdshop/dao/TbShippingAddressMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/classes/com/zhou/jdshop/dao/TbShippingAddressMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/classes/com/zhou/jdshop/dao/TbUserCustomMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/classes/com/zhou/jdshop/dao/TbUserCustomMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/classes/com/zhou/jdshop/dao/TbUserMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/classes/com/zhou/jdshop/dao/TbUserMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/classes/com/zhou/jdshop/dao/TbVipMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/classes/com/zhou/jdshop/dao/TbVipMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/jd-manager-dao-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-interface/target/classes/com/zhou/jdshop/service/CategoryService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-interface/target/classes/com/zhou/jdshop/service/FileService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-interface/target/classes/com/zhou/jdshop/service/OrderService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-interface/target/classes/com/zhou/jdshop/service/ProductService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-interface/target/classes/com/zhou/jdshop/service/TbContentService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-interface/target/classes/com/zhou/jdshop/service/TbLunBoService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-interface/target/classes/com/zhou/jdshop/service/UserService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-interface/target/jd-manager-interface-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-interface/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-interface/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/Category.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/CategoryExample$Criteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/CategoryExample$Criterion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/CategoryExample$GeneratedCriteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/CategoryExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/Orderitem.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/OrderitemExample$Criteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/OrderitemExample$Criterion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/OrderitemExample$GeneratedCriteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/OrderitemExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/Orders.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/OrdersExample$Criteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/OrdersExample$Criterion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/OrdersExample$GeneratedCriteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/OrdersExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/Product.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/ProductExample$Criteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/ProductExample$Criterion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/ProductExample$GeneratedCriteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/ProductExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbAdministrator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbAdministratorExample$Criteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbAdministratorExample$Criterion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbAdministratorExample$GeneratedCriteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbAdministratorExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbBoard.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbBoardExample$Criteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbBoardExample$Criterion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbBoardExample$GeneratedCriteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbBoardExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbBrand.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbBrandExample$Criteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbBrandExample$Criterion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbBrandExample$GeneratedCriteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbBrandExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbContent.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbContentCategory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbContentCategoryExample$Criteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbContentCategoryExample$Criterion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbContentCategoryExample$GeneratedCriteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbContentCategoryExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbContentExample$Criteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbContentExample$Criterion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbContentExample$GeneratedCriteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbContentExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbLeaveWord.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbLeaveWordExample$Criteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbLeaveWordExample$Criterion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbLeaveWordExample$GeneratedCriteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbLeaveWordExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbLunBo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbNew.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbNewExample$Criteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbNewExample$Criterion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbNewExample$GeneratedCriteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbNewExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbNotice.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbNoticeExample$Criteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbNoticeExample$Criterion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbNoticeExample$GeneratedCriteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbNoticeExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbOrder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbOrderExample$Criteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbOrderExample$Criterion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbOrderExample$GeneratedCriteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbOrderExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbOrderItem.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbOrderItemExample$Criteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbOrderItemExample$Criterion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbOrderItemExample$GeneratedCriteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbOrderItemExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbOrderShipping.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbOrderShippingExample$Criteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbOrderShippingExample$Criterion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbOrderShippingExample$GeneratedCriteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbOrderShippingExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbProduct.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbProductCat.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbProductCatExample$Criteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbProductCatExample$Criterion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbProductCatExample$GeneratedCriteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbProductCatExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbProductCatParam.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbProductCatParamExample$Criteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbProductCatParamExample$Criterion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbProductCatParamExample$GeneratedCriteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbProductCatParamExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbProductExample$Criteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbProductExample$Criterion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbProductExample$GeneratedCriteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbProductExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbProductParam.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbProductParamExample$Criteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbProductParamExample$Criterion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbProductParamExample$GeneratedCriteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbProductParamExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbShippingAddress.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbShippingAddressExample$Criteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbShippingAddressExample$Criterion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbShippingAddressExample$GeneratedCriteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbShippingAddressExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbUser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbUserExample$Criteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbUserExample$Criterion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbUserExample$GeneratedCriteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbUserExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbVip.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbVipExample$Criteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbVipExample$Criterion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbVipExample$GeneratedCriteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/TbVipExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/User.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/UserExample$Criteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/UserExample$Criterion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/UserExample$GeneratedCriteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/po/UserExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/vo/Cart.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/vo/CartItem.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/vo/CartOne.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/vo/TbOrdersCustom.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/classes/com/zhou/jdshop/pojo/vo/TbProductCustom.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/jd-manager-pojo-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-service/target/classes/com/zhou/jdshop/service/impl/CategoryServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-service/target/classes/com/zhou/jdshop/service/impl/FileServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-service/target/classes/com/zhou/jdshop/service/impl/OrderServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-service/target/classes/com/zhou/jdshop/service/impl/ProductServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-service/target/classes/com/zhou/jdshop/service/impl/TbContentServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-service/target/classes/com/zhou/jdshop/service/impl/TbLunBoServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-service/target/classes/com/zhou/jdshop/service/impl/UserServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-service/target/jd-manager-service-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-service/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/classes/com/zhou/jdshop/LoginFilter/LoginFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/classes/com/zhou/jdshop/web/CategoryAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/classes/com/zhou/jdshop/web/FileAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/classes/com/zhou/jdshop/web/ManagerIndexAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/classes/com/zhou/jdshop/web/OrderAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/classes/com/zhou/jdshop/web/ProductAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/classes/com/zhou/jdshop/web/UserAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/classes/config.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/classes/db.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/classes/logback.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/classes/mybatis/mybatis-config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/classes/spring/spring-dao.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/classes/spring/spring-jedis.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/classes/spring/spring-mvc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/classes/spring/spring-service.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web.war" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/classes/com/zhou/jdshop/LoginFilter/LoginFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/classes/com/zhou/jdshop/web/CategoryAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/classes/com/zhou/jdshop/web/FileAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/classes/com/zhou/jdshop/web/ManagerIndexAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/classes/com/zhou/jdshop/web/OrderAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/classes/com/zhou/jdshop/web/ProductAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/classes/com/zhou/jdshop/web/UserAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/classes/config.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/classes/db.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/classes/logback.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/classes/mybatis/mybatis-config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/classes/spring/spring-dao.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/classes/spring/spring-jedis.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/classes/spring/spring-mvc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/classes/spring/spring-service.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/jsp/category-add.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/jsp/category-edit.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/jsp/category-list.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/jsp/category1-add.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/jsp/category1-edit.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/jsp/category1-list.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/jsp/category2-add.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/jsp/category2-edit.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/jsp/category2-list.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/jsp/category3-add.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/jsp/category3-edit.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/jsp/category3-list.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/jsp/index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/jsp/login.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/jsp/order-add.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/jsp/order-edit.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/jsp/order-list.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/jsp/product-add.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/jsp/product-edit.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/jsp/product-list.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/jsp/userAdd.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/jsp/userManage.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/jsp/userUpdate.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/jsp/welcome.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/lib/commons-codec-1.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/lib/commons-io-2.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/lib/commons-logging-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/lib/commons-net-3.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/lib/commons-pool2-2.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/lib/druid-1.0.29.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/lib/jackson-annotations-2.4.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/lib/jackson-core-2.4.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/lib/jackson-databind-2.4.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/lib/jd-common-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/lib/jd-manager-dao-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/lib/jd-manager-interface-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/lib/jd-manager-pojo-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/lib/jd-manager-service-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/lib/jedis-2.7.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/lib/joda-time-2.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/lib/json-20160212.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/lib/jstl-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/lib/logback-classic-1.1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/lib/logback-core-1.1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/lib/mybatis-3.4.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/lib/mybatis-spring-1.3.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/lib/mysql-connector-java-5.1.40.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/lib/slf4j-api-1.7.21.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/lib/spring-aop-4.2.8.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/lib/spring-beans-4.2.8.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/lib/spring-context-4.2.8.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/lib/spring-core-4.2.8.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/lib/spring-expression-4.2.8.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/lib/spring-jdbc-4.2.8.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/lib/spring-tx-4.2.8.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/lib/spring-web-4.2.8.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/lib/spring-webmvc-4.2.8.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/lib/ueditor-1.1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/css/animate.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/css/awesome-bootstrap-checkbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/css/blueimp-gallery-indicator.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/css/blueimp-gallery-video.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/css/blueimp-gallery.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/css/blueimp-gallery.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/css/bootstrap-colorpicker.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/css/bootstrap-rtl.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/css/bootstrap-table.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/css/chosen.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/css/clockpicker.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/css/cropper.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/css/custom.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/css/dataTables.bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/css/datepicker3.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/css/default.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/css/demo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/css/easyui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/css/font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/css/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/css/ion.rangeSlider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/css/ion.rangeSlider.skinFlat.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/css/jasny-bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/css/jquery.nouislider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/css/laydate.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/css/laydate1.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/css/login.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/css/sweetalert.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/css/switchery.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/css/webuploader-demo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/fonts/fontawesome-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/images/20171126150435_343.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/images/20171126150443_163.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/images/20171126150447_820.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/images/20171126160703_843.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/images/20171126160706_554.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/images/20171126160710_945.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/images/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/images/default.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/images/header-profile-skin-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/images/header-profile-skin-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/images/locked.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/images/login-background.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/images/securitycodeimageaction.action" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/images/shattered.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/images/user.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/images/zlxg2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/-jquery-1.8.3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/Chart.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/address.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/area.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/beautifyhtml.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/bootstrap-table-demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/bootstrap-table-mobile.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/bootstrap-table-zh-CN.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/bootstrap-table-zh-CN.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/bootstrap-table.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/bootstrap_table_test.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/bootstrap_table_test2.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/canvas-nest.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/chosen.jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/clockpicker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/content.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/dataTables.bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/echarts-demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/flot-demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/form-advanced-demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/form-validate-demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/hAdmin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/icheck.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/jquery-1.7.2.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/jquery-1.8.3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/jquery-ui-1.10.4.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/jquery-ui.custom.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/jquery.blueimp-gallery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/jquery.dataTables.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/jquery.easyui.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/jquery.fullcalendar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/jquery.jeditable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/jquery.metisMenu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/jquery.min.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/jquery.slimscroll.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/jquery.validate.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/kindeditor-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/kindeditor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/laydate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/laydate1.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/layer-demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/layer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/layer.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/messages_zh.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/morris-demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/peity-demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/photos.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/rickshaw-demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/sparkline-demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/sweetalert.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/table_base.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/theme/default/icon-ext.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/theme/default/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/theme/default/layer.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/theme/default/loading-0.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/theme/default/loading-1.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/theme/default/loading-2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/treeview-demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/webuploader-demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/js/zh_CN.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/moment/moment-with-locales.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/themes/common/anchor.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/themes/common/blank.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/themes/common/flash.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/themes/common/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/themes/common/media.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/themes/common/rm.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/themes/default/background.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/themes/default/default.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/themes/default/default.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/themes/qq/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/themes/qq/editor.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/themes/qq/qq.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/themes/simple/simple.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/anchor/anchor.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/attachment/attachment.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/attachment/attachment.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/attachment/attachment.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/attachment/fileTypeImages/icon_chm.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/attachment/fileTypeImages/icon_default.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/attachment/fileTypeImages/icon_doc.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/attachment/fileTypeImages/icon_exe.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/attachment/fileTypeImages/icon_jpg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/attachment/fileTypeImages/icon_mp3.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/attachment/fileTypeImages/icon_mv.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/attachment/fileTypeImages/icon_pdf.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/attachment/fileTypeImages/icon_ppt.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/attachment/fileTypeImages/icon_psd.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/attachment/fileTypeImages/icon_rar.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/attachment/fileTypeImages/icon_txt.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/attachment/fileTypeImages/icon_xls.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/attachment/images/alignicon.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/attachment/images/alignicon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/attachment/images/bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/attachment/images/file-icons.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/attachment/images/file-icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/attachment/images/icons.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/attachment/images/icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/attachment/images/image.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/attachment/images/progress.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/attachment/images/success.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/attachment/images/success.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/background/background.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/background/background.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/background/background.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/background/images/bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/background/images/success.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/charts/chart.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/charts/charts.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/charts/charts.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/charts/charts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/charts/images/charts0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/charts/images/charts1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/charts/images/charts2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/charts/images/charts3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/charts/images/charts4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/charts/images/charts5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/emotion/emotion.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/emotion/emotion.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/emotion/emotion.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/emotion/images/0.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/emotion/images/bface.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/emotion/images/cface.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/emotion/images/fface.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/emotion/images/jxface2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/emotion/images/neweditor-tab-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/emotion/images/tface.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/emotion/images/wface.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/emotion/images/yface.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/gmap/gmap.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/help/help.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/help/help.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/help/help.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/image/image.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/image/image.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/image/image.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/image/images/alignicon.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/image/images/bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/image/images/icons.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/image/images/icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/image/images/image.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/image/images/progress.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/image/images/success.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/image/images/success.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/insertframe/insertframe.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/internal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/link/link.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/map/map.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/map/show.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/music/music.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/music/music.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/music/music.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/preview/preview.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/scrawl/images/addimg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/scrawl/images/brush.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/scrawl/images/delimg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/scrawl/images/delimgH.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/scrawl/images/empty.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/scrawl/images/emptyH.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/scrawl/images/eraser.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/scrawl/images/redo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/scrawl/images/redoH.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/scrawl/images/scale.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/scrawl/images/scaleH.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/scrawl/images/size.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/scrawl/images/undo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/scrawl/images/undoH.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/scrawl/scrawl.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/scrawl/scrawl.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/scrawl/scrawl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/searchreplace/searchreplace.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/searchreplace/searchreplace.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/snapscreen/snapscreen.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/spechars/spechars.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/spechars/spechars.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/table/dragicon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/table/edittable.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/table/edittable.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/table/edittable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/table/edittd.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/table/edittip.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/template/config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/template/images/bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/template/images/pre0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/template/images/pre1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/template/images/pre2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/template/images/pre3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/template/images/pre4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/template/template.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/template/template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/template/template.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/video/images/bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/video/images/center_focus.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/video/images/file-icons.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/video/images/file-icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/video/images/icons.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/video/images/icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/video/images/image.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/video/images/left_focus.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/video/images/none_focus.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/video/images/progress.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/video/images/right_focus.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/video/images/success.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/video/images/success.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/video/video.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/video/video.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/video/video.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/webapp/webapp.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/wordimage/fClipboard_ueditor.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/wordimage/imageUploader.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/wordimage/tangram.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/wordimage/wordimage.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/dialogs/wordimage/wordimage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/jsp/upload/image/20180117/1516172319306054810.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/jsp/upload/image/20180118/1516237442095057230.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/jsp/upload/image/20180118/1516238082287019941.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/lang/en/en.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/lang/en/images/addimage.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/lang/en/images/alldeletebtnhoverskin.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/lang/en/images/alldeletebtnupskin.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/lang/en/images/background.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/lang/en/images/button.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/lang/en/images/copy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/lang/en/images/deletedisable.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/lang/en/images/deleteenable.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/lang/en/images/listbackground.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/lang/en/images/localimage.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/lang/en/images/music.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/lang/en/images/rotateleftdisable.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/lang/en/images/rotateleftenable.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/lang/en/images/rotaterightdisable.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/lang/en/images/rotaterightenable.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/lang/en/images/upload.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/lang/zh-cn/images/copy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/lang/zh-cn/images/localimage.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/lang/zh-cn/images/music.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/lang/zh-cn/images/upload.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/lang/zh-cn/zh-cn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/themes/default/css/ueditor.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/themes/default/css/ueditor.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/themes/default/dialogbase.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/themes/default/images/anchor.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/themes/default/images/arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/themes/default/images/arrow_down.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/themes/default/images/arrow_up.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/themes/default/images/button-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/themes/default/images/cancelbutton.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/themes/default/images/charts.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/themes/default/images/cursor_h.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/themes/default/images/cursor_h.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/themes/default/images/cursor_v.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/themes/default/images/cursor_v.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/themes/default/images/dialog-title-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/themes/default/images/filescan.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/themes/default/images/highlighted.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/themes/default/images/icons-all.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/themes/default/images/icons.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/themes/default/images/icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/themes/default/images/loaderror.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/themes/default/images/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/themes/default/images/lock.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/themes/default/images/neweditor-tab-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/themes/default/images/pagebreak.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/themes/default/images/scale.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/themes/default/images/sortable.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/themes/default/images/spacer.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/themes/default/images/sparator_v.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/themes/default/images/table-cell-align.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/themes/default/images/tangram-colorpicker.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/themes/default/images/toolbar_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/themes/default/images/unhighlighted.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/themes/default/images/upload.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/themes/default/images/videologo.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/themes/default/images/word.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/themes/default/images/wordpaste.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/themes/iframe.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/SyntaxHighlighter/shCore.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/SyntaxHighlighter/shCoreDefault.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/codemirror/codemirror.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/codemirror/codemirror.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/highcharts/adapters/mootools-adapter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/highcharts/adapters/mootools-adapter.src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/highcharts/adapters/prototype-adapter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/highcharts/adapters/prototype-adapter.src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/highcharts/adapters/standalone-framework.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/highcharts/adapters/standalone-framework.src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/highcharts/highcharts-more.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/highcharts/highcharts-more.src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/highcharts/highcharts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/highcharts/highcharts.src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/highcharts/modules/annotations.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/highcharts/modules/annotations.src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/highcharts/modules/canvas-tools.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/highcharts/modules/canvas-tools.src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/highcharts/modules/data.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/highcharts/modules/data.src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/highcharts/modules/drilldown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/highcharts/modules/drilldown.src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/highcharts/modules/exporting.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/highcharts/modules/exporting.src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/highcharts/modules/funnel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/highcharts/modules/funnel.src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/highcharts/modules/heatmap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/highcharts/modules/heatmap.src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/highcharts/modules/map.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/highcharts/modules/map.src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/highcharts/modules/no-data-to-display.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/highcharts/modules/no-data-to-display.src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/highcharts/themes/dark-blue.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/highcharts/themes/dark-green.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/highcharts/themes/gray.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/highcharts/themes/grid.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/highcharts/themes/skies.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/jquery-1.10.2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/jquery-1.10.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/jquery-1.10.2.min.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/snapscreen/UEditorSnapscreen.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/video-js/font/vjs.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/video-js/font/vjs.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/video-js/font/vjs.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/video-js/font/vjs.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/video-js/video-js.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/video-js/video-js.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/video-js/video-js.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/video-js/video.dev.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/video-js/video.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/webuploader/Uploader.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/webuploader/webuploader.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/webuploader/webuploader.custom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/webuploader/webuploader.custom.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/webuploader/webuploader.flashonly.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/webuploader/webuploader.flashonly.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/webuploader/webuploader.html5only.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/webuploader/webuploader.html5only.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/webuploader/webuploader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/webuploader/webuploader.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/webuploader/webuploader.withoutimage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/webuploader/webuploader.withoutimage.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/xss.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/zeroclipboard/ZeroClipboard.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/zeroclipboard/ZeroClipboard.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/third-party/zeroclipboard/ZeroClipboard.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/ueditor.all.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/ueditor.all.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/ueditor.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/ueditor.parse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/jd-manager-web/ueditor/ueditor.parse.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/test-classes/db-test.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/test-classes/spring/spring-dao-test.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/test-classes/spring/spring-jedis-test.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/test-classes/spring/spring-mvc-test.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/target/test-classes/spring/spring-service-test.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/classes/com/zhou/jdshop/web/CategoryPortalAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/classes/com/zhou/jdshop/web/IndexAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/classes/com/zhou/jdshop/web/ProductPortalAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/classes/com/zhou/jdshop/web/ShoppingCartPortalAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/classes/com/zhou/jdshop/web/UserPortalAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/classes/db.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/classes/logback.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/classes/lunbo.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/classes/mybatis/mybatis-config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/classes/spring/spring-dao.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/classes/spring/spring-jedis.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/classes/spring/spring-mvc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/classes/spring/spring-service.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web.war" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/AmazeUI-2.4.2/assets/css/admin.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/AmazeUI-2.4.2/assets/css/amazeui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/AmazeUI-2.4.2/assets/css/amazeui.flat.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/AmazeUI-2.4.2/assets/css/amazeui.flat.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/AmazeUI-2.4.2/assets/css/amazeui.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/AmazeUI-2.4.2/assets/css/app.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/AmazeUI-2.4.2/assets/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/AmazeUI-2.4.2/assets/i/app-icon72x72@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/AmazeUI-2.4.2/assets/i/examples/admin-chrome.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/AmazeUI-2.4.2/assets/i/examples/admin-firefox.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/AmazeUI-2.4.2/assets/i/examples/admin-ie.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/AmazeUI-2.4.2/assets/i/examples/admin-opera.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/AmazeUI-2.4.2/assets/i/examples/admin-safari.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/AmazeUI-2.4.2/assets/i/examples/adminPage.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/AmazeUI-2.4.2/assets/i/examples/blogPage.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/AmazeUI-2.4.2/assets/i/examples/landing.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/AmazeUI-2.4.2/assets/i/examples/landingPage.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/AmazeUI-2.4.2/assets/i/examples/loginPage.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/AmazeUI-2.4.2/assets/i/examples/sidebarPage.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/AmazeUI-2.4.2/assets/i/favicon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/AmazeUI-2.4.2/assets/i/startup-640x1096.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/AmazeUI-2.4.2/assets/js/amazeui.ie8polyfill.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/AmazeUI-2.4.2/assets/js/amazeui.ie8polyfill.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/AmazeUI-2.4.2/assets/js/amazeui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/AmazeUI-2.4.2/assets/js/amazeui.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/AmazeUI-2.4.2/assets/js/amazeui.widgets.helper.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/AmazeUI-2.4.2/assets/js/amazeui.widgets.helper.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/AmazeUI-2.4.2/assets/js/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/AmazeUI-2.4.2/assets/js/handlebars.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/AmazeUI-2.4.2/assets/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/classes/com/zhou/jdshop/web/CategoryPortalAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/classes/com/zhou/jdshop/web/IndexAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/classes/com/zhou/jdshop/web/ProductPortalAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/classes/com/zhou/jdshop/web/ShoppingCartPortalAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/classes/com/zhou/jdshop/web/UserPortalAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/classes/db.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/classes/logback.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/classes/lunbo.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/classes/mybatis/mybatis-config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/classes/spring/spring-dao.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/classes/spring/spring-jedis.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/classes/spring/spring-mvc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/classes/spring/spring-service.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/jsp/banner.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/jsp/bottom.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/jsp/client-information.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/jsp/client-login.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/jsp/client-register.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/jsp/guide.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/jsp/index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/jsp/order.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/jsp/pay.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/jsp/product-portal-info.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/jsp/product-portal-list.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/jsp/shoppingcart.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/jsp/sort.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/jsp/top.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/lib/commons-io-2.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/lib/commons-logging-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/lib/commons-net-3.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/lib/commons-pool2-2.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/lib/druid-1.0.29.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/lib/jackson-annotations-2.4.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/lib/jackson-core-2.4.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/lib/jackson-databind-2.4.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/lib/jd-common-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/lib/jd-manager-dao-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/lib/jd-manager-interface-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/lib/jd-manager-pojo-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/lib/jd-manager-service-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/lib/jedis-2.7.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/lib/joda-time-2.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/lib/jstl-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/lib/logback-classic-1.1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/lib/logback-core-1.1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/lib/mybatis-3.4.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/lib/mybatis-spring-1.3.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/lib/mysql-connector-java-5.1.40.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/lib/slf4j-api-1.7.21.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/lib/spring-aop-4.2.8.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/lib/spring-beans-4.2.8.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/lib/spring-context-4.2.8.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/lib/spring-core-4.2.8.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/lib/spring-expression-4.2.8.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/lib/spring-jdbc-4.2.8.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/lib/spring-tx-4.2.8.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/lib/spring-web-4.2.8.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/lib/spring-webmvc-4.2.8.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/basic/css/demo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/basic/images/chongzhi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/basic/images/ibar_sprites.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/basic/images/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/basic/images/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/basic/images/logobar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/basic/images/logobig.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/basic/images/no-img_mid_.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/basic/images/wdsc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/basic/images/weixin_code_145.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/basic/js/jquery-1.7.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/basic/js/jquery-1.9.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/basic/js/quick_links.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/css/addstyle.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/css/appstyle.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/css/bilstyle.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/css/blogstyle.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/css/blstyle.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/css/bootstrap-table.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/css/bostyle.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/css/cartstyle.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/css/cmstyle.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/css/colstyle.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/css/cpstyle.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/css/dlstyle.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/css/footstyle.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/css/hmstyle.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/css/infstyle.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/css/jsstyle.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/css/lostyle.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/css/newstyle.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/css/optstyle.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/css/orstyle.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/css/personal.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/css/refstyle.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/css/seastyle.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/css/skin.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/css/sortstyle.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/css/stepstyle.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/css/sustyle.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/css/systyle.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/-0-saturn_solar.jpg_220x220.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/0-item_pic.jpg_220x220.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/01_mid.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/01_small.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/02_mid.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/02_small.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/03_mid.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/03_small.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/1-item_pic.jpg_220x220.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/1_160x160.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/2016.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/3CoOkxrFOP.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/556.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/557.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/559.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/566.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/566fda5cN4b8a1675.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/62988.jpg_80x80.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/65.jpg_120x120xz.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/72h.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/88.jpg_120x120xz.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/T13iv.XiFdXXa94Hfd-32-32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/TB102.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/TB1SSK7JpXXXXXCXXXXXXXXXXXX-800-600.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/TB1_pic.jpg_200x200.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/TJ.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/TJ2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/YXARdXxj5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/act1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/act2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/act3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/activity.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/activity1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/activity2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/activity3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/ad1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/ad2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/ad3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/ad4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/ad5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/ad6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/ad7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/ad8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/addbg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/addicon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/addicon1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/addicon2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/advTip.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/bamboo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/bamboo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/big.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/blog01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/blog02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/blog03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/blog04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/blog05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/blog06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/blog07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/blog08.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/blog09.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/bonus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/browse1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/cake.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/cake.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/candy.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/candy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/cardbg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/checkbox.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/chocolate.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/chocolate.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/chongzhi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/clockbg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/combo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/comment.jpg_400x400.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/comment.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/cookies.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/cookies.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/coupon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/coupon2015.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/coupon20150805.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/couponli.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/cp.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/cp2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/day-to.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/extra.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/fish.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/fish.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/getAvatar.do.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/gift_intro_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/gift_stamp_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/gift_stamp_2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/gift_stamp_21.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/gift_stamp_3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/gift_stamp_31.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/header-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/header-bg1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/huismall.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/hwbn40x40.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/ibar_sprites.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/icon-sale.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/iconbig.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/iconfont-bad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/iconfont-badon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/iconfont-evaluate.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/iconfont-good.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/iconfont-middle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/iconsmall.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/iconsmall0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/iconsmall1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/iconsmall2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/iconsmall3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/image.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/imgsearch1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/index_ico_png32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/item-pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/kouhong.jpg_80x80.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/kuaidi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/list1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/listsmall1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/logo1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/logobig.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/logobig1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/logobig2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/mansmall.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/mask.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/meat.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/meat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/moneysmall.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/mygift_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/navce.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/navsmall.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/no-img_mid_.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/nut.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/nut.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/package.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/package.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/pay.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/peraddbg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/peraddress.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/peraddressbg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/receive.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/refund.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/return-process-cd.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/row1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/row2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/row3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/row4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/sale-t.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/sale-t_clock.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/sale1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/sale2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/sale3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/scoll1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/scoll2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/send.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/side.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/songzi.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/sys_item_selected.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/tea.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/tea.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/tj.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/tj1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/tj2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/tw1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/tw2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/tw3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/tw4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/tw5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/tw6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/tw7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/wallet.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/wangyin.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/wdsc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/weixin_code_145.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/weizhifu.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/zhifubao.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/images/图标.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/js/address.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/js/bootstrap-table-zh-CN.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/js/bootstrap-table.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/js/jquery-1.7.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/js/jquery.flexslider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/js/jquery.imagezoom.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/js/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/js/list.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/js/script.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/moment/moment-with-locales.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/products/1/556d64fcNf28f90d0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/products/1/c_0001.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/products/1/c_0002.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/products/1/c_0003.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/products/1/c_0004.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/products/1/c_0005.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/products/1/c_0006.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/products/1/c_0007.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/products/1/c_0008.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/products/1/c_0009.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/products/1/c_0010.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/products/1/c_0011.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/products/1/c_0012.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/products/1/c_0013.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/products/1/c_0014.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/products/1/c_0015.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/products/1/c_0016.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/products/1/c_0017.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/products/1/c_0018.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/products/1/c_0019.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/products/1/c_0020.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/products/1/c_0021.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/products/1/c_0022.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/products/1/c_0023.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/products/1/c_0024.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/products/1/c_0025.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/products/1/c_0026.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/products/1/c_0027.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/products/1/c_0028.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/products/1/c_0029.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/products/1/c_0030.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/products/1/c_0031.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/products/1/c_0032.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/products/1/c_0033.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/products/1/c_0034.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/products/1/c_0035.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/products/1/c_0036.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/products/1/c_0037.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/products/1/c_0038.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/products/1/c_0039.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/products/1/c_0040.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/products/1/c_0041.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/products/1/c_0042.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/products/1/c_0043.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/products/1/c_0044.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/products/1/c_0045.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/products/1/c_0046.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/products/1/c_0047.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/products/1/c_0048.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/products/1/c_0049.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/jd-portal-web/products/1/c_0050.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-portal-web/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-service/src/main/java/com/zhou/jdshop/service/impl/CategoryServiceImpl.java" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-service/src/main/java/com/zhou/jdshop/service/impl/CategoryServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/category1-list.jsp" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/category1-list.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/category2-list.jsp" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/category2-list.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/category3-list.jsp" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/category3-list.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/product-portal-list.jsp" afterPath="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/product-portal-list.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/jd-parent/target/" />
     <ignored path="$PROJECT_DIR$/jd-manager/target/" />
@@ -1202,7 +33,36 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1140">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="product-portal-list.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/product-portal-list.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="365" column="15" lean-forward="true" selection-start-line="365" selection-start-column="15" selection-end-line="365" selection-end-column="15" />
+              <folding>
+                <element signature="e#5195#12923#0#JSP" expanded="false" />
+                <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <marker date="1516799071998" expanded="true" signature="18165:18172" ph="«" />
+                <marker date="1516799071998" expanded="true" signature="18647:18654" ph="»" />
+                <marker date="1516799071998" expanded="true" signature="19627:19640" ph="..." />
+                <marker date="1516799071998" expanded="true" signature="19679:19705" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -1237,7 +97,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/jd-portal-web/src/main/java/com/zhou/jdshop/web/CategoryPortalAction.java" />
         <option value="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/java/com/zhou/jdshop/web/UserAction.java" />
         <option value="$PROJECT_DIR$/jd-manager/jd-manager-interface/src/main/java/com/zhou/jdshop/service/UserService.java" />
@@ -1288,6 +147,7 @@
         <option value="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/category2-list.jsp" />
         <option value="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/category1-list.jsp" />
         <option value="$PROJECT_DIR$/jd-manager/jd-manager-service/src/main/java/com/zhou/jdshop/service/impl/CategoryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/product-portal-list.jsp" />
       </list>
     </option>
   </component>
@@ -1316,31 +176,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="jd-manager-web Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="jd-manager-web Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="jd-manager-web Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="jd-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="jd-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -1377,65 +213,29 @@
           <expand>
             <path>
               <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-portal-web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="jd-manager-web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="jd-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-portal-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="jd-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-portal-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="jd-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="jd-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jdshop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="jd-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jdshop" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="jd-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-portal-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="jd-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-portal-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
@@ -1443,8 +243,7 @@
             </path>
             <path>
               <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="jd-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-portal-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
@@ -1613,7 +412,7 @@
       <workItem from="1516676182104" duration="28992000" />
       <workItem from="1516754282833" duration="9839000" />
       <workItem from="1516768349501" duration="22417000" />
-      <workItem from="1516794177351" duration="3819000" />
+      <workItem from="1516794177351" duration="4851000" />
     </task>
     <task id="LOCAL-00001" summary="1.1">
       <created>1515112940201</created>
@@ -1634,7 +433,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="197802000" />
+    <option name="totallyTimeSpent" value="198834000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -1647,6 +446,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1656,7 +456,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39973083" sideWeight="0.4133238" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23997134" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33109018" sideWeight="0.47707736" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33109018" sideWeight="0.47707736" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1733,21 +533,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jd-parent/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="101" column="31" lean-forward="false" selection-start-line="101" selection-start-column="31" selection-end-line="101" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="51" column="21" lean-forward="false" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/java/com/zhou/jdshop/web/ManagerIndexAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -2116,6 +901,30 @@
         <state relative-caret-position="19">
           <caret line="134" column="44" lean-forward="false" selection-start-line="134" selection-start-column="44" selection-end-line="134" selection-end-column="44" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1140">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/product-portal-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="365" column="15" lean-forward="true" selection-start-line="365" selection-start-column="15" selection-end-line="365" selection-end-column="15" />
+          <folding>
+            <element signature="e#5195#12923#0#JSP" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1516799071998" expanded="true" signature="18165:18172" ph="«" />
+            <marker date="1516799071998" expanded="true" signature="18647:18654" ph="»" />
+            <marker date="1516799071998" expanded="true" signature="19627:19640" ph="..." />
+            <marker date="1516799071998" expanded="true" signature="19679:19705" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
