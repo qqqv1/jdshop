@@ -1,4 +1,10 @@
 com\zhou\jdshop\web\ProductAction.class
+<<<<<<< HEAD
+com\zhou\jdshop\web\UserAction.class
+com\zhou\jdshop\web\ProductIndexAction.class
+com\zhou\jdshop\web\CategoryAction.class
+=======
+>>>>>>> origin/branch_zhou
 com\zhou\jdshop\web\ManagerIndexAction.class
 com\zhou\jdshop\web\CategoryAction.class
 com\zhou\jdshop\web\OrderAction.class

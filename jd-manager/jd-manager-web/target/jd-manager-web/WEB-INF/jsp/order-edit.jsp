@@ -121,15 +121,17 @@
                 </div>
                 <div class="ibox-content">
                     <form class="form-horizontal" id="Order" action="javascript:void(0)"  method="post">
+                        <%--商品详情ID--%>
                         <div class="form-group">
-                            <input type="hidden" id="itemid" name="itemid">
+                            <input type="hidden" id="id" name="id">
                             <label class="col-sm-3 control-label"></label>
                             <div class="col-sm-8" style="color: red;font-size: 15px">
                             </div>
                         </div>
 
+                            <%--订单ID--%>
                         <div class="form-group">
-                            <input type="hidden" id="oid" name="oid">
+                            <input type="hidden" id="orderId" name="orderId">
                             <label class="col-sm-3 control-label"></label>
                             <div class="col-sm-8" style="color: red;font-size: 15px">
                             </div>
@@ -146,21 +148,21 @@
                         <div class="form-group">
                             <label class="col-sm-3 control-label"><span style="color:red;" >*</span>商品数量：</label>
                             <div class="col-sm-8" >
-                                <input type="text" name="count"  placeholder=" 请输入商品数量" value="" onkeyup="value=value.replace(/[^\d.]/g,'')"  onblur="value=value.replace(/[^\d.]/g,'') " maxlength="20" id="count" class="form-control">
+                                <input type="text" name="num"  placeholder=" 请输入商品数量" value="" onkeyup="value=value.replace(/[^\d.]/g,'')"  onblur="value=value.replace(/[^\d.]/g,'') " maxlength="20" id="num" class="form-control">
                             </div>
                         </div>
 
                         <div class="form-group">
-                            <label class="col-sm-3 control-label"><span style="color:red;" >*</span>合计：</label>
+                            <label class="col-sm-3 control-label"><span style="color:red;" >*</span>小计：</label>
                             <div class="col-sm-8" >
-                                <input type="text" name="subtotal"  placeholder=" 请输入商品名称" value="" onkeyup="value=value.replace(/[^\d.]/g,'')"  onblur="value=value.replace(/[^\d.]/g,'') " maxlength="20" id="subtotal" class="form-control">
+                                <input type="text" name="totalFee"  placeholder=" 请输入商品小记" value="" onkeyup="value=value.replace(/[^\d.]/g,'')"  onblur="value=value.replace(/[^\d.]/g,'') " maxlength="20" id="totalFee" class="form-control">
                             </div>
                         </div>
 
                         <div class="form-group">
                             <label class="col-sm-3 control-label"><span style="color:red;"></span>订单状态：</label>
                             <div class="col-sm-8">
-                                <select id="state" name="state" style="width: 100%;" class="form-control">
+                                <select id="title" name="title" style="width: 100%;" class="form-control">
                                     <option selected="" value="0">已删除</option>
                                     <option selected="" value="1">未支付</option>
                                     <option selected="" value="2">已支付，未发货</option>
@@ -176,20 +178,20 @@
                         <div class="form-group">
                             <label class="col-sm-3 control-label"><span style="color:red;" >*</span>买家：</label>
                             <div class="col-sm-8" >
-                                <input type="text" name="name"  placeholder=" 请输入买家名" value="" id="name" maxlength="20" class="form-control">
+                                <input type="text" name="receiverName"  placeholder=" 请输入买家名" value="" id="receiverName" maxlength="20" class="form-control">
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="col-sm-3 control-label"><span style="color:red;" >*</span>手机号：</label>
                             <div class="col-sm-8" >
-                                <input type="text" name="telephone"  placeholder=" 请输入手机号" value="" onkeyup="value=value.replace(/[^\d.]/g,'')"  onblur="value=value.replace(/[^\d.]/g,'') " maxlength="20" id="telephone" class="form-control">
+                                <input type="text" name="receiverMobile"  placeholder=" 请输入手机号" value="" onkeyup="value=value.replace(/[^\d.]/g,'')"  onblur="value=value.replace(/[^\d.]/g,'') " maxlength="20" id="receiverMobile" class="form-control">
                             </div>
                         </div>
 
                         <div class="form-group">
                             <label class="col-sm-3 control-label"><span style="color:red;" >*</span>地址：</label>
                             <div class="col-sm-8" >
-                                <input type="text" name="address"  placeholder=" 请输入地址" value="" maxlength="20" id="address" class="form-control">
+                                <input type="text" name="receiverAddress"  placeholder=" 请输入地址" value="" maxlength="20" id="receiverAddress" class="form-control">
                             </div>
                         </div>
 
@@ -220,6 +222,7 @@
                         <div class="form-group">
                             <div class="col-sm-offset-3 col-sm-8">
                                 <button id="submit" class="btn btn-sm btn-info" type="submit">确认保存</button>
+                                <input type="button" name="button" value="返回" class="btn btn-sm btn-info" onclick="history.back();" />
                             </div>
                         </div>
                     </form>
@@ -231,19 +234,19 @@
 <script>
     $(function () {
         $.ajax({
-            url:"order/${param.itemid}",
+            url:"order/${param.id}",
             dataType:"json",
             success:function(data){
-                $("#oid").val(data.oid);
-                $("#itemid").val(data.itemid);
+                $("#orderId").val(data.orderId);
+                $("#id").val(data.id);
                 $("#pname").val(data.pname);
-                $("#count").val(data.count);
-                $("#subtotal").val(data.subtotal);
-                $("#state").val(data.state);
-                $("#name").val(data.name);
-                $("#telephone").val(data.telephone);
-                $("#address").val(data.address);
-                $("#ordertime").val(data.ordertime);
+                $("#num").val(data.num);
+                $("#totalFee").val(data.totalFee);
+                $("#title").val(data.title);
+                $("#receiverName").val(data.receiverName);
+                $("#receiverMobile").val(data.receiverMobile);
+                $("#receiverAddress").val(data.receiverAddress);
+//                $("#ordertime").val(data.ordertime);
                 ue.ready(function(){
                     ue.setContent(data.pdesc);
                 })
@@ -253,31 +256,31 @@
     $(function(){
         $("#submit").click(function(){
             var pname = $("#pname").val();
-            var count = $("#count").val();
-            var subtotal = $("#subtotal").val();
-            var state=$("#state").val();
-            var name = $("#name").val();
-            var telephone = $("#telephone").val();
-            var address = $("#address").val();
+            var num = $("#num").val();
+            var totalFee = $("#totalFee").val();
+            var title=$("#title").val();
+            var receiverName = $("#receiverName").val();
+            var receiverMobile = $("#receiverMobile").val();
+            var receiverAddress = $("#receiverAddress").val();
             if(!pname){
                 alert("请输入商品名称");
                 return false;
-            }else if(!name){
+            }else if(!receiverName){
                 alert("请输入买家名");
                 return false;
-            }else if(!count){
+            }else if(!num){
                 alert("请输入商品数量");
                 return false;
-            }else if(!subtotal){
-                alert("请输入商品合记");
+            }else if(!totalFee){
+                alert("请输入商品小记");
                 return false;
-            }else if(!state){
+            }else if(!title){
                 alert("请输入订单状态");
                 return false;
-            }else if(!telephone){
+            }else if(!receiverMobile){
                 alert("请输入手机号码");
                 return false;
-            }else if(!address){
+            }else if(!receiverAddress){
                 alert("请输入地址");
                 return false;
             }

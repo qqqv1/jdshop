@@ -2,9 +2,9 @@ package com.zhou.jdshop.service.impl;
 
 import com.zhou.jdshop.dao.TbOrderItemMapper;
 import com.zhou.jdshop.dao.TbOrderMapper;
+import com.zhou.jdshop.dao.TbOrderShippingMapper;
 import com.zhou.jdshop.dao.TbOrdersCustomMapper;
-import com.zhou.jdshop.pojo.po.TbOrder;
-import com.zhou.jdshop.pojo.po.TbOrderExample;
+import com.zhou.jdshop.pojo.po.*;
 import com.zhou.jdshop.pojo.vo.TbOrdersCustom;
 import com.zhou.jdshop.service.OrderService;
 import org.slf4j.Logger;
@@ -26,7 +26,10 @@ public class OrderServiceImpl implements OrderService{
     private TbOrdersCustomMapper ordersCustomDao;
 
     @Autowired
-    private TbOrderItemMapper orderitemDao;
+    private  TbOrderItemMapper tbOrderItemDao;
+
+    @Autowired
+    private TbOrderShippingMapper tbOrderShippingDao;
 
     /**
      * 查询所有订单
@@ -46,19 +49,26 @@ public class OrderServiceImpl implements OrderService{
 
     /**
      * 删除选中订单
-     * @param oids
+     * @param ids 选中的订单详情ID
      * @return
      */
     @Override
-    public int deleteOrders(List<String> oids) {
+    public int deleteOrderItems(List<String> ids) {
         int i = 0;
         try {
-            TbOrder order =new TbOrder();
-//            order.setState(0);
+            TbOrderItem tbOrderItem = new TbOrderItem();
+            tbOrderItem.setTitle("0");
+            TbOrderItemExample example = new TbOrderItemExample();
+            TbOrderItemExample.Criteria criteria = example.createCriteria();
+            criteria.andIdIn(ids);
+            i=tbOrderItemDao.updateByExampleSelective(tbOrderItem,example);
+
+         /*   TbOrder order =new TbOrder();
+            order.setStatus(0);
             TbOrderExample example = new TbOrderExample();
             TbOrderExample.Criteria criteria = example.createCriteria();
-//            criteria.andOidIn(oids);
-            i = ordersDao.updateByExampleSelective(order,example);
+//            criteria.andOidIn(ids);
+            i = ordersDao.updateByExampleSelective(order,example);*/
         } catch (Exception e) {
             logger.error(e.getMessage(), e);
             e.printStackTrace();
@@ -68,14 +78,14 @@ public class OrderServiceImpl implements OrderService{
 
     /**
      * 根据ID查询订单
-     * @param itemid
+     * @param id
      * @return
      */
     @Override
-    public TbOrdersCustom getOrderById(String itemid) {
+    public TbOrdersCustom getOrderById(String id) {
         TbOrdersCustom ordersCustom = null;
         try {
-            ordersCustom = ordersCustomDao.selectOrderById(itemid);
+            ordersCustom = ordersCustomDao.selectOrderById(id);
         }catch (Exception e){
             logger.error(e.getMessage(),e);
             e.printStackTrace();
@@ -90,25 +100,36 @@ public class OrderServiceImpl implements OrderService{
      */
     @Transactional
     @Override
-    public int editOrder(TbOrder orders,String oid,String itemid, Integer count,Double subtotal) {
+    public int editOrder(String title ,String id,String orderId, String num,String totalFee,String receiverName,String receiverMobile,String receiverAddress) {
         int i = 0;
         try {
-            //存放2张表,订单表和订单详情表
-            //orders
-            TbOrderExample example = new TbOrderExample();
+            //存放3张表,订单表和订单详情表和tb_order_shipping
+            //tb_orders
+           /* TbOrderExample example = new TbOrderExample();
             TbOrderExample.Criteria criteria = example.createCriteria();
-//            criteria.andOidEqualTo(oid);
-            i=ordersDao.updateByExampleSelective(orders,example);
+            criteria.andOrderIdEqualTo(orderId);
+            i=ordersDao.updateByExampleSelective(orders,example);*/
 
-            //ordersitem
-//            Orderitem orderItem = new Orderitem();
-//            orderItem.setCount(count);
-//            orderItem.setSubtotal(subtotal);
-//            OrderitemExample example1 = new OrderitemExample();
-//            OrderitemExample.Criteria criteria1 = example1.createCriteria();
-//            criteria1.andItemidEqualTo(itemid);
-//            i += orderitemDao.updateByExampleSelective(orderItem,example1);
-            //
+         //   tb_order_item
+            TbOrderItem tbOrderItem = new TbOrderItem();
+            tbOrderItem.setNum(Integer.parseInt(num));
+            tbOrderItem.setTotalFee(Long.parseLong(totalFee));
+            tbOrderItem.setTitle(title);
+            TbOrderItemExample example1 = new TbOrderItemExample();
+            TbOrderItemExample.Criteria criteria1 =example1.createCriteria();
+            criteria1.andIdEqualTo(id);
+            i+=tbOrderItemDao.updateByExampleSelective(tbOrderItem,example1);
+
+            //tb_order_shipping
+            TbOrderShipping tbOrderShipping = new TbOrderShipping();
+            tbOrderShipping.setReceiverName(receiverName);
+            tbOrderShipping.setReceiverMobile(receiverMobile);
+            tbOrderShipping.setReceiverAddress(receiverAddress);
+            TbOrderShippingExample example2 = new TbOrderShippingExample();
+            TbOrderShippingExample.Criteria criteria2 = example2.createCriteria();
+            criteria2.andOrderIdEqualTo(orderId);
+            i+=tbOrderShippingDao.updateByExampleSelective(tbOrderShipping,example2);
+
         } catch (Exception e) {
             logger.error(e.getMessage(), e);
             e.printStackTrace();

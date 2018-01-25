@@ -15,23 +15,23 @@ public interface OrderService {
 
     /**
      * 删除选中的订单
-     * @param oids
+     * @param ids
      * @return
      */
-    int deleteOrders(List<String> oids);
+    int deleteOrderItems(List<String> ids);
 
     /**
      * 根据ID查询订单
-     * @param itemid
+     * @param id
      * @return
      */
 
-    TbOrdersCustom getOrderById(String itemid);
+    TbOrdersCustom getOrderById(String id);
 
     /**
      * 修改订单
      * @param
      * @return
      */
-    int editOrder(TbOrder orders,String oid,String itemid, Integer count,Double subtotal);
+    int editOrder(String title ,String id,String orderId, String num,String totalFee,String receiverName,String receiverMobile,String receiverAddress);
 }

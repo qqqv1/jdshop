@@ -15,8 +15,8 @@ public interface TbOrdersCustomMapper {
 
     /**
      * 根据itemi查订单
-     * @param itemid
+     * @param id
      * @return
      */
-    TbOrdersCustom selectOrderById(String itemid);
+    TbOrdersCustom selectOrderById(String id);
 }

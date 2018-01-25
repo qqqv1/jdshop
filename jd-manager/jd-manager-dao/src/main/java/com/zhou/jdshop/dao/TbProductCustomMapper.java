@@ -1,5 +1,6 @@
 package com.zhou.jdshop.dao;
 
+import com.zhou.jdshop.dto.TbSearchTbProductCustom;
 import com.zhou.jdshop.pojo.vo.TbProductCustom;
 import org.apache.ibatis.annotations.Param;
 
@@ -14,4 +15,8 @@ public interface TbProductCustomMapper {
     int total(@Param("cname") String cname,@Param("pname") String pname);
 
     TbProductCustom selectProductById(Long pid);
+
+    //查找商品索引
+    List<TbSearchTbProductCustom> getSearchProducts();
+    //
 }
