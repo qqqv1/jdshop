@@ -32,8 +32,8 @@
 <b class="line"></b>
 <div class="search">
     <div class="search-list">
-        <jsp:include page="banner.jsp"/>
 
+        <jsp:include page="banner.jsp"/>
 
         <div class="am-g am-g-fixed">
             <div class="am-u-sm-12 am-u-md-12">
@@ -104,10 +104,10 @@
                 </div>
                 <div class="search-content">
                     <div class="sort">
-                        <li class="first"><a title="综合">综合排序</a></li>
-                        <li><a title="销量">销量排序</a></li>
-                        <li><a title="价格">价格优先</a></li>
-                        <li class="big"><a title="评价" href="#">评价为主</a></li>
+                        <li class="first"><a title="综合" href="javascript:">综合排序</a></li>
+                        <li><a title="销量" href="javascript:">销量排序</a></li>
+                        <li><a title="价格" href="javascript:">价格优先</a></li>
+                        <li class="big"><a title="评价" href="javascript:">评价为主</a></li>
                     </div>
                     <div class="clear"></div>
 
@@ -351,7 +351,7 @@
 <script>
     window.jQuery || document.write('<script src="basic/js/jquery-1.9.min.js"><\/script>');
     $(function () {
-        $('#searchInput').val(${param.pname});
+        $('#searchInput').val('${param.pname}');
         displayCategory();
         pagination('');
         displayProduct(1,'');
@@ -373,7 +373,7 @@
                 $.each(categorys,function (i,category) {
                     $dd=$('<dd><a href="javascript:void(0)">'+category.cname+'</a></dd>');
                     $div.append($dd);
-                })
+                });
                 $("#select2 dd").click(function() {
                     $(this).addClass("selected").siblings().removeClass("selected");
                     if ($(this).hasClass("select-all")) {
@@ -449,7 +449,7 @@
                        window.location.href='product-portal-info?pid='+product.pid;
                     });
                     $div=$('<div class="i-pic limit">');
-                    $img=$('<div style="padding: 35px"><img src="'+product.pimage+'" style="width: 148px;height: 148px"/></div>'+
+                    $img=$('<div style="padding: 35px"><img src="'+product.pimage+'" style="width: 148px;height: 148px" alt="暂缺"/></div>'+
                         '                        <p class="title fl">'+product.pname+'</p>\n' +
                         '                        <p class="price fl">\n' +
                         '                        <b>¥</b>\n' +

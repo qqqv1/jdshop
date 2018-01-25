@@ -54,14 +54,10 @@
             <div class="bundle  bundle-last ">
                 <div class="clear"></div>
                 <div class="bundle-main">
-<<<<<<< HEAD
 
 
-                    <table width="100%" border="0" cellspacing="0" id="cart" class="table table-striped table-hover">
                         <%--<table width="100%" border="0" cellspacing="0" id="cart" class="table table-striped table-hover">--%>
-=======
                     <table width="100%" id="cart" class="table table-striped">
->>>>>>> origin/branch_zhou
                         <c:forEach items="${cart.items }" var="entry">
                             <tr>
                                 <td></td>
@@ -72,32 +68,18 @@
                                 <td width="17%">${entry.value.product.shopPrice}</td>
                                 <td width="25%">
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<<<<<<< HEAD
                                     <input class="min am-btn btn btn-danger" name="" type="button" value="-"
                                            onclick="reduce(${entry.value.product.pid},this)"/>
                                     <input class="text_box" disabled="disabled" name="" type="text" id="count" value="${entry.value.count }"
                                            style="width:30px;"/>
                                     <input class="add am-btn btn btn-success btn-lg " name="" type="button" value="+"
-=======
-                                    <input class="min am-btn" name="" type="button" value="-"
-                                           onclick="reduce(${entry.value.product.pid},this)"/>
-                                    <input class="text_box" name="" type="text" id="count" value="${entry.value.count }"
-                                           style="width:30px;"/>
-                                    <input class="add am-btn" name="" type="button" value="+"
->>>>>>> origin/branch_zhou
                                            onclick="add(${entry.value.product.pid },this)"/>
                                 </td>
                                 <td width="12%">${entry.value.subTotal }</td>
 
                                 <td width="8%">&nbsp;&nbsp;&nbsp;&nbsp;
-<<<<<<< HEAD
-                                    <a href="javascript:deleteProductFromCart(${entry.value.product.pid })"
-                                       data-point-url="#" class="delete">删除</a>
-=======
                                     <a href="${pageContext.request.contextPath}/deleteProductFromCart?pid=${entry.value.product.pid}">
                                         删除</a>
-                                    <input type="hidden" value="${entry.value.product.pid}">
->>>>>>> origin/branch_zhou
                                 </td>
                             </tr>
                         </c:forEach>
@@ -234,70 +216,9 @@
     </div>
 
     <jsp:include page="bottom.jsp"/>
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/branch_zhou
-
 </div>
 
 <script>
-<<<<<<< HEAD
-    <%--根据ID删除商品--%>
-
-    /*$(function () {
-        $(".delete").each(function (){
-            var that =this;
-            $(this).on("click", function(){
-                var rows=that.parentNode.parentNode.rowIndex;
-                var pid=$('#cart tr:eq('+rows+') td:eq(6) input').val();
-                console.log(pid);
-                console.log(valueOf(pid))
-                window.location.href="${pageContext.request.contextPath}/deleteProductFromCart?pid="+pid;
-        });
-    })
-})*/
-
-
-    /* function deleteProductFromCart(pid){
-         console.log(pid)
-         window.location.href="${pageContext.request.contextPath}/deleteProductFromCart?pid="+pid;
-        console.log(123)
-
-    }*/
-    function deleteProductFromCart(pid) {
-        window.location.href = "${pageContext.request.contextPath}/deleteProductFromCart?pid=" + pid;
-    }
-
-    //    继续购物
-
-    function goonShopping() {
-        window.location.href="${pageContext.request.contextPath}/product-portal-list";
-        <%--window.location.href = "${pageContext.request.contextPath}/product2";--%>
-    }
-
-    //    选中一种
-    function reduce(pid, elm) {
-        var rows1 = elm.parentNode.parentNode.rowIndex;
-        if (parseInt($('#cart tr:eq(' + rows1 + ') td:eq(4) ').find('input[class*=text_box]').val()) != 0) {
-            $.ajax({
-                url: "reduceProductFromCart",
-                data: {'pid': pid},
-                type: 'post',
-                success: function (data) {
-//                debugger;
-//                $('#subtotal').val(11);
-                    console.log(data);
-//                $('#subtotal').text(data.subTotal);
-//                $('#price').text(data.total);
-
-                    var rows = elm.parentNode.parentNode.rowIndex;
-//                td:eq(5)
-                    /*$('#cart tr:eq('+rows+') td:eq(5) ').html((data.subTotal).toFixed(1));
-                    $('#price').text((data.total).toFixed(1));*/
-                    $('#cart tr:eq(' + rows + ') td:eq(5) ').html((data.subTotal).toFixed(1));
-=======
-
     // 继续购物
 
     function goonShopping(){
@@ -314,32 +235,12 @@
                 success:function (data) {
                     var rows = elm.parentNode.parentNode.rowIndex;
                     $('#cart').find('tr:eq(' + rows + ') td:eq(5) ').html((data.subTotal).toFixed(1));
->>>>>>> origin/branch_zhou
                     $('#price').text((data.total).toFixed(1));
                 }
             });
         }
     }
 
-<<<<<<< HEAD
-    function add(pid, elm) {
-//        console.log(pid)
-        $.ajax({
-            url: "addProductOneToCart",
-            data: {'pid': pid},
-            type: 'post',
-            success: function (data) {
-//                debugger;
-//                $('#subtotal').val(11);
-                console.log(data);
-//                $('#subtotal').text(data.subTotal);
-//                $('#price').text(data.total);
-                var rows = elm.parentNode.parentNode.rowIndex;
-//                td:eq(5)
-                /*$('#cart tr:eq('+rows+') td:eq(5) ').html((data.subTotal).toFixed(1));
-                $('#price').text((data.total).toFixed(1));*/
-                $('#cart tr:eq(' + rows + ') td:eq(5) ').html((data.subTotal).toFixed(1));
-=======
     function add(pid,elm){
         $.ajax({
             url:"addProductOneToCart",
@@ -348,7 +249,6 @@
             success:function (data) {
                 var rows=elm.parentNode.parentNode.rowIndex;
                 $('#cart').find('tr:eq('+rows+') td:eq(5) ').html((data.subTotal).toFixed(1));
->>>>>>> origin/branch_zhou
                 $('#price').text((data.total).toFixed(1));
             }
         });

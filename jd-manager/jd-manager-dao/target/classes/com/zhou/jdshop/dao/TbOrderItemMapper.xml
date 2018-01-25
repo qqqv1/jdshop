@@ -3,12 +3,12 @@
 <mapper namespace="com.zhou.jdshop.dao.TbOrderItemMapper" >
   <resultMap id="BaseResultMap" type="com.zhou.jdshop.pojo.po.TbOrderItem" >
     <id column="id" property="id" jdbcType="VARCHAR" />
-    <result column="item_id" property="itemId" jdbcType="VARCHAR" />
+    <result column="item_id" property="itemId" jdbcType="BIGINT" />
     <result column="order_id" property="orderId" jdbcType="VARCHAR" />
     <result column="num" property="num" jdbcType="INTEGER" />
     <result column="title" property="title" jdbcType="VARCHAR" />
-    <result column="price" property="price" jdbcType="BIGINT" />
-    <result column="total_fee" property="totalFee" jdbcType="BIGINT" />
+    <result column="price" property="price" jdbcType="DOUBLE" />
+    <result column="total_fee" property="totalFee" jdbcType="DOUBLE" />
     <result column="pic_path" property="picPath" jdbcType="VARCHAR" />
   </resultMap>
   <sql id="Example_Where_Clause" >
@@ -106,8 +106,8 @@
     insert into tb_order_item (id, item_id, order_id, 
       num, title, price, total_fee, 
       pic_path)
-    values (#{id,jdbcType=VARCHAR}, #{itemId,jdbcType=VARCHAR}, #{orderId,jdbcType=VARCHAR}, 
-      #{num,jdbcType=INTEGER}, #{title,jdbcType=VARCHAR}, #{price,jdbcType=BIGINT}, #{totalFee,jdbcType=BIGINT}, 
+    values (#{id,jdbcType=VARCHAR}, #{itemId,jdbcType=BIGINT}, #{orderId,jdbcType=VARCHAR},
+      #{num,jdbcType=INTEGER}, #{title,jdbcType=VARCHAR}, #{price,jdbcType=DOUBLE}, #{totalFee,jdbcType=DOUBLE},
       #{picPath,jdbcType=VARCHAR})
   </insert>
   <insert id="insertSelective" parameterType="com.zhou.jdshop.pojo.po.TbOrderItem" >
@@ -143,7 +143,7 @@
         #{id,jdbcType=VARCHAR},
       </if>
       <if test="itemId != null" >
-        #{itemId,jdbcType=VARCHAR},
+        #{itemId,jdbcType=BIGINT},
       </if>
       <if test="orderId != null" >
         #{orderId,jdbcType=VARCHAR},
@@ -155,10 +155,10 @@
         #{title,jdbcType=VARCHAR},
       </if>
       <if test="price != null" >
-        #{price,jdbcType=BIGINT},
+        #{price,jdbcType=DOUBLE},
       </if>
       <if test="totalFee != null" >
-        #{totalFee,jdbcType=BIGINT},
+        #{totalFee,jdbcType=DOUBLE},
       </if>
       <if test="picPath != null" >
         #{picPath,jdbcType=VARCHAR},
@@ -178,7 +178,7 @@
         id = #{record.id,jdbcType=VARCHAR},
       </if>
       <if test="record.itemId != null" >
-        item_id = #{record.itemId,jdbcType=VARCHAR},
+        item_id = #{record.itemId,jdbcType=BIGINT},
       </if>
       <if test="record.orderId != null" >
         order_id = #{record.orderId,jdbcType=VARCHAR},
@@ -190,10 +190,10 @@
         title = #{record.title,jdbcType=VARCHAR},
       </if>
       <if test="record.price != null" >
-        price = #{record.price,jdbcType=BIGINT},
+        price = #{record.price,jdbcType=DOUBLE},
       </if>
       <if test="record.totalFee != null" >
-        total_fee = #{record.totalFee,jdbcType=BIGINT},
+        total_fee = #{record.totalFee,jdbcType=DOUBLE},
       </if>
       <if test="record.picPath != null" >
         pic_path = #{record.picPath,jdbcType=VARCHAR},
@@ -206,12 +206,12 @@
   <update id="updateByExample" parameterType="map" >
     update tb_order_item
     set id = #{record.id,jdbcType=VARCHAR},
-      item_id = #{record.itemId,jdbcType=VARCHAR},
+      item_id = #{record.itemId,jdbcType=BIGINT},
       order_id = #{record.orderId,jdbcType=VARCHAR},
       num = #{record.num,jdbcType=INTEGER},
       title = #{record.title,jdbcType=VARCHAR},
-      price = #{record.price,jdbcType=BIGINT},
-      total_fee = #{record.totalFee,jdbcType=BIGINT},
+      price = #{record.price,jdbcType=DOUBLE},
+      total_fee = #{record.totalFee,jdbcType=DOUBLE},
       pic_path = #{record.picPath,jdbcType=VARCHAR}
     <if test="_parameter != null" >
       <include refid="Update_By_Example_Where_Clause" />
@@ -221,7 +221,7 @@
     update tb_order_item
     <set >
       <if test="itemId != null" >
-        item_id = #{itemId,jdbcType=VARCHAR},
+        item_id = #{itemId,jdbcType=BIGINT},
       </if>
       <if test="orderId != null" >
         order_id = #{orderId,jdbcType=VARCHAR},
@@ -233,10 +233,10 @@
         title = #{title,jdbcType=VARCHAR},
       </if>
       <if test="price != null" >
-        price = #{price,jdbcType=BIGINT},
+        price = #{price,jdbcType=DOUBLE},
       </if>
       <if test="totalFee != null" >
-        total_fee = #{totalFee,jdbcType=BIGINT},
+        total_fee = #{totalFee,jdbcType=DOUBLE},
       </if>
       <if test="picPath != null" >
         pic_path = #{picPath,jdbcType=VARCHAR},
@@ -246,12 +246,12 @@
   </update>
   <update id="updateByPrimaryKey" parameterType="com.zhou.jdshop.pojo.po.TbOrderItem" >
     update tb_order_item
-    set item_id = #{itemId,jdbcType=VARCHAR},
+    set item_id = #{itemId,jdbcType=BIGINT},
       order_id = #{orderId,jdbcType=VARCHAR},
       num = #{num,jdbcType=INTEGER},
       title = #{title,jdbcType=VARCHAR},
-      price = #{price,jdbcType=BIGINT},
-      total_fee = #{totalFee,jdbcType=BIGINT},
+      price = #{price,jdbcType=DOUBLE},
+      total_fee = #{totalFee,jdbcType=DOUBLE},
       pic_path = #{picPath,jdbcType=VARCHAR}
     where id = #{id,jdbcType=VARCHAR}
   </update>

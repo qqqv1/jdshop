@@ -3,7 +3,7 @@ package com.zhou.jdshop.pojo.po;
 public class TbOrderItem {
     private String id;
 
-    private String itemId;
+    private Long itemId;
 
     private String orderId;
 
@@ -11,9 +11,9 @@ public class TbOrderItem {
 
     private String title;
 
-    private Long price;
+    private Double price;
 
-    private Long totalFee;
+    private Double totalFee;
 
     private String picPath;
 
@@ -25,12 +25,12 @@ public class TbOrderItem {
         this.id = id == null ? null : id.trim();
     }
 
-    public String getItemId() {
+    public Long getItemId() {
         return itemId;
     }
 
-    public void setItemId(String itemId) {
-        this.itemId = itemId == null ? null : itemId.trim();
+    public void setItemId(Long itemId) {
+        this.itemId = itemId;
     }
 
     public String getOrderId() {
@@ -57,19 +57,19 @@ public class TbOrderItem {
         this.title = title == null ? null : title.trim();
     }
 
-    public Long getPrice() {
+    public Double getPrice() {
         return price;
     }
 
-    public void setPrice(Long price) {
+    public void setPrice(Double price) {
         this.price = price;
     }
 
-    public Long getTotalFee() {
+    public Double getTotalFee() {
         return totalFee;
     }
 
-    public void setTotalFee(Long totalFee) {
+    public void setTotalFee(Double totalFee) {
         this.totalFee = totalFee;
     }
 
