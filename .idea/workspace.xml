@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d262294-80cb-456d-94c0-5c70f4aa3cf5" name="Default" comment="1.1" />
+    <list default="true" id="6d262294-80cb-456d-94c0-5c70f4aa3cf5" name="Default" comment="1.1">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/jd-manager-web.iml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/jd-parent/target/" />
     <ignored path="$PROJECT_DIR$/jd-manager/target/" />
     <ignored path="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/" />
@@ -12,6 +15,7 @@
     <ignored path="$PROJECT_DIR$/jd-common/target/" />
     <ignored path="$PROJECT_DIR$/jd-portal-web/target/" />
     <ignored path="$PROJECT_DIR$/jd-lucene/target/" />
+    <ignored path="$PROJECT_DIR$/jd-search-web/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/product-portal-list.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="4173">
-              <caret line="434" column="5" lean-forward="true" selection-start-line="434" selection-start-column="5" selection-end-line="434" selection-end-column="5" />
+              <caret line="434" column="5" lean-forward="false" selection-start-line="434" selection-start-column="5" selection-end-line="434" selection-end-column="5" />
               <folding>
                 <element signature="e#5195#12923#0#JSP" expanded="false" />
                 <marker date="1516868823671" expanded="true" signature="18168:18175" ph="«" />
@@ -83,7 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/java/com/zhou/jdshop/web/UserAction.java" />
         <option value="$PROJECT_DIR$/jd-manager/jd-manager-interface/src/main/java/com/zhou/jdshop/service/UserService.java" />
         <option value="$PROJECT_DIR$/jd-manager/jd-manager-dao/src/main/java/com/zhou/jdshop/dao/TbUserCustomMapper.java" />
         <option value="$PROJECT_DIR$/jd-manager/jd-manager-service/src/main/java/com/zhou/jdshop/service/impl/UserServiceImpl.java" />
@@ -134,6 +137,7 @@
         <option value="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/top.jsp" />
         <option value="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/product-portal-list.jsp" />
         <option value="$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/jd-manager/jd-manager-web/jd-manager-web.iml" />
       </list>
     </option>
   </component>
@@ -162,23 +166,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="jd-portal-web Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="jd-portal-web Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="jd-portal-web Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="tomcat7" type="36feed69:MavenProjectsStructure$PluginNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -472,7 +460,7 @@
       <workItem from="1516754282833" duration="9839000" />
       <workItem from="1516768349501" duration="22417000" />
       <workItem from="1516794177351" duration="5521000" />
-      <workItem from="1516841800023" duration="4134000" />
+      <workItem from="1516841800023" duration="4828000" />
     </task>
     <task id="LOCAL-00001" summary="1.1">
       <created>1515112940201</created>
@@ -493,7 +481,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="203638000" />
+    <option name="totallyTimeSpent" value="204332000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -506,7 +494,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -514,10 +501,10 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39973083" sideWeight="0.4133238" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24068768" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33109018" sideWeight="0.4670487" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24068768" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33109018" sideWeight="0.47707736" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33109018" sideWeight="0.5329513" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -593,20 +580,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.2.8.RELEASE/spring-webmvc-4.2.8.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="109" column="0" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.2.8.RELEASE/spring-webmvc-4.2.8.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="742" column="0" lean-forward="false" selection-start-line="742" selection-start-column="0" selection-end-line="742" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/commons-net/commons-net/3.3/commons-net-3.3-sources.jar!/org/apache/commons/net/ftp/FTPCmd.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
@@ -702,6 +675,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="70" column="39" lean-forward="false" selection-start-line="70" selection-start-column="39" selection-end-line="70" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -785,6 +759,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="42" column="29" lean-forward="false" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -890,6 +865,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="254">
           <caret line="96" column="36" lean-forward="false" selection-start-line="96" selection-start-column="36" selection-end-line="96" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -956,10 +932,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-web/jd-manager-web.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="56" column="26" lean-forward="false" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/product-portal-list.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4173">
-          <caret line="434" column="5" lean-forward="true" selection-start-line="434" selection-start-column="5" selection-end-line="434" selection-end-column="5" />
+          <caret line="434" column="5" lean-forward="false" selection-start-line="434" selection-start-column="5" selection-end-line="434" selection-end-column="5" />
           <folding>
             <element signature="e#5195#12923#0#JSP" expanded="false" />
             <marker date="1516868823671" expanded="true" signature="18168:18175" ph="«" />
