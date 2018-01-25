@@ -32,8 +32,8 @@
 <b class="line"></b>
 <div class="search">
     <div class="search-list">
-        <jsp:include page="banner.jsp"/>
 
+        <jsp:include page="banner.jsp"/>
 
         <div class="am-g am-g-fixed">
             <div class="am-u-sm-12 am-u-md-12">
@@ -351,7 +351,7 @@
 <script>
     window.jQuery || document.write('<script src="basic/js/jquery-1.9.min.js"><\/script>');
     $(function () {
-        $('#searchInput').val(${param.pname});
+        $('#searchInput').val('${param.pname}');
         displayCategory();
         pagination('');
         displayProduct(1,'');
@@ -373,7 +373,7 @@
                 $.each(categorys,function (i,category) {
                     $dd=$('<dd><a href="javascript:void(0)">'+category.cname+'</a></dd>');
                     $div.append($dd);
-                })
+                });
                 $("#select2 dd").click(function() {
                     $(this).addClass("selected").siblings().removeClass("selected");
                     if ($(this).hasClass("select-all")) {
@@ -449,7 +449,7 @@
                        window.location.href='product-portal-info?pid='+product.pid;
                     });
                     $div=$('<div class="i-pic limit">');
-                    $img=$('<div style="padding: 35px"><img src="'+product.pimage+'" style="width: 148px;height: 148px"/></div>'+
+                    $img=$('<div style="padding: 35px"><img src="'+product.pimage+'" style="width: 148px;height: 148px" alt="暂缺"/></div>'+
                         '                        <p class="title fl">'+product.pname+'</p>\n' +
                         '                        <p class="price fl">\n' +
                         '                        <b>¥</b>\n' +

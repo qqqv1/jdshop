@@ -51,9 +51,8 @@
 <script>
     $(function () {
         $('#ai-topsearch').on('click',function () {
-            window.location.href='product-portal-list?pname='+$('#searchInput').val();
+            window.location.href = 'product-portal-list?pname=' + $('#searchInput').val();
         })
     })
-
 
 </script>
