@@ -21,17 +21,17 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="jd-common" target="1.7" />
+      <module name="jd-common" target="1.8" />
       <module name="jd-lucene" target="1.7" />
-      <module name="jd-manager" target="1.7" />
-      <module name="jd-manager-dao" target="1.7" />
-      <module name="jd-manager-interface" target="1.7" />
-      <module name="jd-manager-pojo" target="1.7" />
-      <module name="jd-manager-service" target="1.7" />
-      <module name="jd-manager-web" target="1.7" />
-      <module name="jd-parent" target="1.7" />
-      <module name="jd-portal-web" target="1.7" />
-      <module name="jd-search-web" target="1.7" />
+      <module name="jd-manager" target="1.8" />
+      <module name="jd-manager-dao" target="1.8" />
+      <module name="jd-manager-interface" target="1.8" />
+      <module name="jd-manager-pojo" target="1.8" />
+      <module name="jd-manager-service" target="1.8" />
+      <module name="jd-manager-web" target="1.8" />
+      <module name="jd-parent" target="1.8" />
+      <module name="jd-portal-web" target="1.8" />
+      <module name="jd-search-web" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

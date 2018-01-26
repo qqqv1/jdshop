@@ -48,7 +48,7 @@
                     <h5>产品添加</h5>
                 </div>
                 <div class="ibox-content">
-                    <form class="form-horizontal" id="product" action="javascript:void(0)">
+                    <form class="form-horizontal" id="product">
                         <div class="form-group">
                             <label class="col-sm-3 control-label"><span style="color:red;">*</span>商品名称：</label>
                             <div class="col-sm-8">
@@ -89,8 +89,9 @@
                         <div class="form-group">
                             <label class="col-sm-3 control-label"><span style="color:red;"></span>图片：</label>
                             <div class="col-sm-8">
-                                <input type="file" id="pimage" name="pimage" value="选择图片"/>
+                                <input type="file" id="file" name="upfile" onchange="javascript:uploadFile()" value="选择图片"/>
                                 <span class="help-block m-b-none"></span>
+                                <input type="hidden" id="pimage" name="pimage" value="">
                             </div>
                         </div>
                         <div class="form-group">
@@ -102,7 +103,7 @@
                         </div>
                         <div class="form-group">
                             <div class="col-sm-offset-3 col-sm-8">
-                                <button id="submit" class="btn btn-sm btn-info" type="button">确认保存</button>
+                                <button class="btn btn-sm btn-info" type="submit">确认保存</button>
                             </div>
                         </div>
                     </form>
@@ -123,6 +124,8 @@
 <!-- jQuery Validation plugin javascript-->
 <script src="js/jquery.validate.min.js"></script>
 <script src="js/messages_zh.min.js"></script>
+
+<script src="js/ajaxfileupload.js"></script>
 
 <script src="js/form-validate-demo.js"></script>
 <!-- 百度富文本编辑器 -->
@@ -145,7 +148,7 @@
             }else {
                 return this._bkGetActionUrl.call(this, action);
             }
-        }
+        };
         //获取下拉列表
         $.ajax({
             url: "productCats",//写你自己的方法
@@ -169,7 +172,9 @@
         })
     });
     $(function() {
-        $("#submit").click(function () {
+        $("#product").submit(function (e) {
+            e.preventDefault();
+
             var pname = $("#pname").val();
             var marketPrice = $("#marketPrice").val();
             var shopPrice = $("#shopPrice").val();
@@ -191,14 +196,14 @@
                 alert("请输入商品分类");
                 return false;
             }
-            var data = $('#product').serialize();
-            //序列化获得表单数据，结果为：user_id=12&user_name=John&user_age=20
-            var submitData = decodeURIComponent(data, true);
-            //submitData是解码后的表单数据，结果同上
+//            var data = $('#product').serialize();
+//            var submitData = decodeURIComponent(data, true);
+            var form = $(this);
+            alert(form.serialize());
             $.ajax({
                 url: 'addproduct',
                 type: 'POST',
-                data: submitData,
+                data: form.serialize(),
                 dataType: "json",
                 cache:false,
                 success: function (result) {
@@ -220,7 +225,22 @@
             });
             return true;
         })
-    })
+    });
+    function uploadFile() {
+        $.ajaxFileUpload({
+            url : 'file/upload',
+            secureuri : false,
+            fileElementId : 'file',
+            dataType:'text',
+            error : function(data, status, e) {
+                alert(data);
+            },
+            success : function(data, status) {
+                data= $.parseJSON(data.replace(/<.*?>/ig,''));
+                $('#pimage').val('www.wyfei8.top/images'+data.url)
+            }
+        });
+    }
 </script>
 
 </body>

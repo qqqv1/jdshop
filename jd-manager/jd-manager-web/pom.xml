@@ -58,17 +58,10 @@
             <groupId>org.json</groupId>
             <artifactId>json</artifactId>
         </dependency>
-
-        <!-- solr客户端 -->
         <dependency>
-            <groupId>org.apache.solr</groupId>
-            <artifactId>solr-solrj</artifactId>
-        </dependency>
-
-        <!--处理百度富文本编辑器的工具包、加密工具包-->
-        <dependency>
-            <groupId>com.baidu</groupId>
-            <artifactId>ueditor</artifactId>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 

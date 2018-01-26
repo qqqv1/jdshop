@@ -8,13 +8,22 @@ import com.zhou.jdshop.pojo.po.TbProduct;
 import com.zhou.jdshop.pojo.po.TbProductExample;
 import com.zhou.jdshop.pojo.vo.TbProductCustom;
 import com.zhou.jdshop.service.ProductService;
+import com.zhou.jdshop.util.FtpUtils;
 import com.zhou.jdshop.util.IDUtils;
+import org.apache.commons.io.FileUtils;
+import org.apache.commons.net.ftp.FTP;
+import org.apache.commons.net.ftp.FTPClient;
+import org.apache.commons.net.ftp.FTPReply;
+import org.joda.time.DateTime;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -92,11 +101,14 @@ public class ProductServiceImpl implements ProductService {
     @Override
     public int saveProduct(TbProduct product) {
         int i = 0;
+//        FTPClient ftp = new FTPClient();
         try {
             Long pid = IDUtils.getItemId();
             product.setPid(pid);
             product.setPflag(1);
             product.setCreated(new Date());
+            product.setUpdated(new Date());
+
             i = productDao.insert(product);
         } catch (Exception e) {
             logger.error(e.getMessage(), e);

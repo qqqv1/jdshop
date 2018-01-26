@@ -1,0 +1,17 @@
+0:0:0:0:0:0:0:1 - - [26/Jan/2018:21:15:37 +0800] "GET /jdshop HTTP/1.1" 302 - http-bio-8081-exec-1 0
+0:0:0:0:0:0:0:1 - - [26/Jan/2018:21:15:40 +0800] "GET /jdshop/ HTTP/1.1" 200 4637 http-bio-8081-exec-7 3053
+0:0:0:0:0:0:0:1 - - [26/Jan/2018:21:15:50 +0800] "POST /jdshop/userLogin HTTP/1.1" 200 11 http-bio-8081-exec-9 1070
+0:0:0:0:0:0:0:1 - - [26/Jan/2018:21:15:50 +0800] "GET /jdshop/index HTTP/1.1" 200 8342 http-bio-8081-exec-10 316
+0:0:0:0:0:0:0:1 - - [26/Jan/2018:21:15:51 +0800] "GET /jdshop/welcome HTTP/1.1" 200 942 http-bio-8081-exec-6 226
+0:0:0:0:0:0:0:1 - - [26/Jan/2018:21:15:52 +0800] "GET /jdshop/css/images/calendar_prevmonth.gif HTTP/1.1" 404 949 http-bio-8081-exec-6 33
+0:0:0:0:0:0:0:1 - - [26/Jan/2018:21:15:53 +0800] "GET /jdshop/css/images/calendar_nextmonth.gif HTTP/1.1" 404 949 http-bio-8081-exec-3 26
+0:0:0:0:0:0:0:1 - - [26/Jan/2018:21:15:53 +0800] "GET /jdshop/css/images/calendar_prevyear.gif HTTP/1.1" 404 949 http-bio-8081-exec-3 11
+0:0:0:0:0:0:0:1 - - [26/Jan/2018:21:15:53 +0800] "GET /jdshop/css/images/calendar_nextyear.gif HTTP/1.1" 404 949 http-bio-8081-exec-9 3
+0:0:0:0:0:0:0:1 - - [26/Jan/2018:21:15:56 +0800] "GET /jdshop/product-add HTTP/1.1" 200 10993 http-bio-8081-exec-9 310
+0:0:0:0:0:0:0:1 - - [26/Jan/2018:21:15:56 +0800] "GET /jdshop/js/ajaxfileupload.js HTTP/1.1" 304 - http-bio-8081-exec-9 181
+0:0:0:0:0:0:0:1 - - [26/Jan/2018:21:15:57 +0800] "GET /jdshop/file/upload?action=config&&noCache=1516972557088 HTTP/1.1" 200 6203 http-bio-8081-exec-2 66
+0:0:0:0:0:0:0:1 - - [26/Jan/2018:21:15:57 +0800] "GET /jdshop/productCats HTTP/1.1" 200 2088 http-bio-8081-exec-9 329
+0:0:0:0:0:0:0:1 - - [26/Jan/2018:21:16:03 +0800] "POST /jdshop/file/upload HTTP/1.1" 200 165 http-bio-8081-exec-1 665
+0:0:0:0:0:0:0:1 - - [26/Jan/2018:21:16:12 +0800] "POST /jdshop/addproduct HTTP/1.1" 200 11 http-bio-8081-exec-4 97
+0:0:0:0:0:0:0:1 - - [26/Jan/2018:21:16:14 +0800] "GET /jdshop/product-list HTTP/1.1" 200 10041 http-bio-8081-exec-4 147
+0:0:0:0:0:0:0:1 - - [26/Jan/2018:21:16:14 +0800] "GET /jdshop/products?order=asc&limit=10&offset=0 HTTP/1.1" 200 1701 http-bio-8081-exec-4 40
