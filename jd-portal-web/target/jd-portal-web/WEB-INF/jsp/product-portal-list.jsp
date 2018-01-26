@@ -349,7 +349,7 @@
 <jsp:include page="guide.jsp"/>
 
 <script>
-    window.jQuery || document.write('<script src="basic/js/jquery-1.9.min.js"><\/script>');
+//    window.jQuery || document.write('<script src="basic/js/jquery-1.9.min.js"><\/script>');
     var productOption={
         'page':1,
         'pname':'',
@@ -360,14 +360,13 @@
     $(function () {
         $('#searchInput').val('${param.pname}');
         productOption.pname=$('#searchInput').val();
-        console.log(productOption);
+//        console.log(productOption);
         displayCategory();
         pagination(productOption);
-        displayProduct(productOption);
-//        $('#searchName').html($('#searchInput').text());
+//        displayProduct(productOption);
         $(".select-result dl p").on('click',function () {
             pagination(productOption);
-            displayProduct(productOption);
+//            displayProduct(productOption);
         });
     });
     // 查询全部分类
@@ -395,23 +394,21 @@
                             $(".select-result dl").append(copyThisB.attr("id", "selectB"));
                             $("#selectB a").on('click',function () {
                                 pagination(productOption);
-                                displayProduct(productOption);
+//                                displayProduct(productOption);
                             });
                         }
                     }
                     productOption.cname=$(this).text();
                     pagination(productOption);
-                    displayProduct(productOption);
+//                    displayProduct(productOption);
                 });
             }
         });
     }
     // 分页展示商品
     function pagination(productOption) {
-//        var $pname=$('#searchInput').val();
         $.ajax({
             url:'pageTotal',
-//            data:{'productOption':JSON.stringify(productOption)},
             data:JSON.stringify(productOption),
             type:'POST',
             dataType:'json',
@@ -447,10 +444,10 @@
                 });
             }
         });
+        displayProduct(productOption);
     }
     // 查询商品
     function displayProduct(productOption){
-//        var $pname=$('#searchInput').val();
         $.ajax({
             url:'productList',
             data:JSON.stringify(productOption),
@@ -472,7 +469,7 @@
                         '                        <strong>'+product.shopPrice+'</strong>\n' +
                         '                        </p>\n' +
                         '                        <p class="number fl">\n' +
-                        '                        销量<span>'+product.quantity+'</span>\n' +
+                        '                        销量<span>'+product.psold+'</span>\n' +
                         '                        </p>');
                     $div.append($img);
                     $li.append($div);

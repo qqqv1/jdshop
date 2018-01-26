@@ -363,10 +363,10 @@
 //        console.log(productOption);
         displayCategory();
         pagination(productOption);
-        displayProduct(productOption);
+//        displayProduct(productOption);
         $(".select-result dl p").on('click',function () {
             pagination(productOption);
-            displayProduct(productOption);
+//            displayProduct(productOption);
         });
     });
     // 查询全部分类
@@ -394,13 +394,13 @@
                             $(".select-result dl").append(copyThisB.attr("id", "selectB"));
                             $("#selectB a").on('click',function () {
                                 pagination(productOption);
-                                displayProduct(productOption);
+//                                displayProduct(productOption);
                             });
                         }
                     }
                     productOption.cname=$(this).text();
                     pagination(productOption);
-                    displayProduct(productOption);
+//                    displayProduct(productOption);
                 });
             }
         });
@@ -444,6 +444,7 @@
                 });
             }
         });
+        displayProduct(productOption);
     }
     // 查询商品
     function displayProduct(productOption){
