@@ -15,6 +15,7 @@
     <link href="css/hmstyle.css" rel="stylesheet" type="text/css"/>
     <link href="css/skin.css" rel="stylesheet" type="text/css" />
 
+    <script type="text/javascript" src="basic/js/jquery-1.7.min.js"></script>
 </head>
 
 <body>
@@ -2088,14 +2089,13 @@
 <script src="AmazeUI-2.4.2/assets/js/jquery.min.js"></script>
 <script src="AmazeUI-2.4.2/assets/js/amazeui.min.js"></script>
 <script>
-
     $(function () {
         $.ajax({
             url:'sildeshow',
             dataType:'json',
             success:function (data) {
                 $.each(data,function (i,v) {
-                    console.log(v);
+//                    console.log(v);
                     var $li=$('<li></li>');
                     var $a=$('<a name="sfbest_hp_hp_focus_'+i+'" target="_blank"></a>');
                     var $img=$('<img id="lunbo_1" alt="'+v.title+'" src="'+v.pic+'" />');

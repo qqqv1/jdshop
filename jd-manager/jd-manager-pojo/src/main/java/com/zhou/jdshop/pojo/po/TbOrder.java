@@ -5,11 +5,11 @@ import java.util.Date;
 public class TbOrder {
     private String orderId;
 
-    private String payment;
+    private Double payment;
 
     private Integer paymentType;
 
-    private String postFee;
+    private Double postFee;
 
     private Integer status;
 
@@ -45,12 +45,12 @@ public class TbOrder {
         this.orderId = orderId == null ? null : orderId.trim();
     }
 
-    public String getPayment() {
+    public Double getPayment() {
         return payment;
     }
 
-    public void setPayment(String payment) {
-        this.payment = payment == null ? null : payment.trim();
+    public void setPayment(Double payment) {
+        this.payment = payment;
     }
 
     public Integer getPaymentType() {
@@ -61,12 +61,12 @@ public class TbOrder {
         this.paymentType = paymentType;
     }
 
-    public String getPostFee() {
+    public Double getPostFee() {
         return postFee;
     }
 
-    public void setPostFee(String postFee) {
-        this.postFee = postFee == null ? null : postFee.trim();
+    public void setPostFee(Double postFee) {
+        this.postFee = postFee;
     }
 
     public Integer getStatus() {

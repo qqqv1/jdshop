@@ -32,8 +32,8 @@
 <b class="line"></b>
 <div class="search">
     <div class="search-list">
-        <jsp:include page="banner.jsp"/>
 
+        <jsp:include page="banner.jsp"/>
 
         <div class="am-g am-g-fixed">
             <div class="am-u-sm-12 am-u-md-12">
@@ -349,18 +349,42 @@
 <jsp:include page="guide.jsp"/>
 
 <script>
-    window.jQuery || document.write('<script src="basic/js/jquery-1.9.min.js"><\/script>');
+    //    window.jQuery || document.write('<script src="basic/js/jquery-1.9.min.js"><\/script>');
+
+    /**
+     * 商品搜索项
+     * @type {{page: number, pname: string, bname: string, cname: string, hname: string}}
+     * page 当前页
+     * pname 商品名
+     * bname 品牌名
+     * cname 分类名
+     * hname 热点名
+     */
+    var productOption={
+        'page':1,
+        'pname':'',
+        'bname':'',
+        'cname':'',
+        'hname':''
+    };
+
     $(function () {
-        $('#searchInput').val(${param.pname});
+        // 初始化搜索栏的值
+        $('#searchInput').val('${param.pname}');
+        productOption.pname=$('#searchInput').val();
+//        console.log(productOption);
+        // 初始化分类
         displayCategory();
-        pagination('');
-        displayProduct(1,'');
-//        $('#searchName').html($('#searchInput').text());
+        // 初始化商品列表
+        pagination(productOption);
+//        displayProduct(productOption);
+        // 为清除绑定初始化商品列表事件
         $(".select-result dl p").on('click',function () {
-            pagination('');
-            displayProduct(1,'');
+            pagination(productOption);
+//            displayProduct(productOption);
         });
     });
+
     // 查询全部分类
     function displayCategory() {
         $.ajax({
@@ -373,7 +397,7 @@
                 $.each(categorys,function (i,category) {
                     $dd=$('<dd><a href="javascript:void(0)">'+category.cname+'</a></dd>');
                     $div.append($dd);
-                })
+                });
                 $("#select2 dd").click(function() {
                     $(this).addClass("selected").siblings().removeClass("selected");
                     if ($(this).hasClass("select-all")) {
@@ -385,25 +409,27 @@
                         } else {
                             $(".select-result dl").append(copyThisB.attr("id", "selectB"));
                             $("#selectB a").on('click',function () {
-                                pagination('');
-                                displayProduct(1,'');
+                                pagination(productOption);
+//                                displayProduct(productOption);
                             });
                         }
                     }
-                    pagination($(this).text());
-                    displayProduct(1,$(this).text());
+                    productOption.cname=$(this).text();
+                    pagination(productOption);
+//                    displayProduct(productOption);
                 });
             }
         });
     }
-    // 分页展示商品
-    function pagination(cname) {
-        var $pname=$('#searchInput').val();
+
+    // 根据商品搜索项分页展示商品
+    function pagination(productOption) {
         $.ajax({
             url:'pageTotal',
-            data:{'cname':cname,'pname':$pname},
+            data:JSON.stringify(productOption),
             type:'POST',
             dataType:'json',
+            contentType:'application/json;charset=UTF-8',
             success:function(total){
                 var pageTotal=1;
                 if(total % 12 === 0) {
@@ -418,29 +444,34 @@
                     $li=$('<li>');
                     $a=$('<a href="javascript:void(0)">'+i+'</a>');
                     $a.on('click',function(){
-                        displayProduct($(this).text(),cname);
+                        productOption.page=$(this).text();
+                        displayProduct(productOption);
                     });
                     $li.append($a);
                     $('#page').append($li);
                 }
                 $('#page').append('<li><a href="javascript:void(0)" id="last">&raquo;</a></li>');
                 $('#first').on('click',function () {
-                    displayProduct(1,cname);
+                    productOption.page=1;
+                    displayProduct(productOption);
                 });
                 $('#last').on('click',function () {
-                    displayProduct(pageTotal,cname);
+                    productOption.page=pageTotal;
+                    displayProduct(productOption);
                 });
             }
         });
+        displayProduct(productOption);
     }
-    // 查询商品
-    function displayProduct(page,cname){
-        var $pname=$('#searchInput').val();
+
+    // 根据商品搜索项展示商品
+    function displayProduct(productOption){
         $.ajax({
             url:'productList',
-            data:{'page':page,'cname':cname,'pname':$pname},
+            data:JSON.stringify(productOption),
             type:'POST',
             dataType:'json',
+            contentType:'application/json;charset=UTF-8',
             success:function (products) {
                 $('#product').empty();
                 $.each(products,function (i,product) {
@@ -449,14 +480,14 @@
                        window.location.href='product-portal-info?pid='+product.pid;
                     });
                     $div=$('<div class="i-pic limit">');
-                    $img=$('<div style="padding: 35px"><img src="'+product.pimage+'" style="width: 148px;height: 148px"/></div>'+
+                    $img=$('<div style="padding: 35px"><img src="'+product.pimage+'" style="width: 148px;height: 148px" alt="暂缺"/></div>'+
                         '                        <p class="title fl">'+product.pname+'</p>\n' +
                         '                        <p class="price fl">\n' +
                         '                        <b>¥</b>\n' +
                         '                        <strong>'+product.shopPrice+'</strong>\n' +
                         '                        </p>\n' +
                         '                        <p class="number fl">\n' +
-                        '                        销量<span>'+product.quantity+'</span>\n' +
+                        '                        销量<span>'+product.psold+'</span>\n' +
                         '                        </p>');
                     $div.append($img);
                     $li.append($div);
@@ -466,6 +497,7 @@
         })
     }
 </script>
+
 <script type="text/javascript" src="basic/js/quick_links.js"></script>
 
 <div class="theme-popover-mask"></div>

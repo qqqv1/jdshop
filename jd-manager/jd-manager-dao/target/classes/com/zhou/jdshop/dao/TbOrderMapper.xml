@@ -3,9 +3,9 @@
 <mapper namespace="com.zhou.jdshop.dao.TbOrderMapper" >
   <resultMap id="BaseResultMap" type="com.zhou.jdshop.pojo.po.TbOrder" >
     <id column="order_id" property="orderId" jdbcType="VARCHAR" />
-    <result column="payment" property="payment" jdbcType="VARCHAR" />
+    <result column="payment" property="payment" jdbcType="DOUBLE" />
     <result column="payment_type" property="paymentType" jdbcType="INTEGER" />
-    <result column="post_fee" property="postFee" jdbcType="VARCHAR" />
+    <result column="post_fee" property="postFee" jdbcType="DOUBLE" />
     <result column="status" property="status" jdbcType="INTEGER" />
     <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
     <result column="update_time" property="updateTime" jdbcType="TIMESTAMP" />
@@ -120,8 +120,8 @@
       end_time, close_time, shipping_name, 
       shipping_code, user_id, buyer_message, 
       buyer_nick, buyer_rate)
-    values (#{orderId,jdbcType=VARCHAR}, #{payment,jdbcType=VARCHAR}, #{paymentType,jdbcType=INTEGER}, 
-      #{postFee,jdbcType=VARCHAR}, #{status,jdbcType=INTEGER}, #{createTime,jdbcType=TIMESTAMP}, 
+    values (#{orderId,jdbcType=VARCHAR}, #{payment,jdbcType=DOUBLE}, #{paymentType,jdbcType=INTEGER},
+      #{postFee,jdbcType=DOUBLE}, #{status,jdbcType=INTEGER}, #{createTime,jdbcType=TIMESTAMP},
       #{updateTime,jdbcType=TIMESTAMP}, #{paymentTime,jdbcType=TIMESTAMP}, #{consignTime,jdbcType=TIMESTAMP}, 
       #{endTime,jdbcType=TIMESTAMP}, #{closeTime,jdbcType=TIMESTAMP}, #{shippingName,jdbcType=VARCHAR}, 
       #{shippingCode,jdbcType=VARCHAR}, #{userId,jdbcType=BIGINT}, #{buyerMessage,jdbcType=VARCHAR}, 
@@ -187,13 +187,13 @@
         #{orderId,jdbcType=VARCHAR},
       </if>
       <if test="payment != null" >
-        #{payment,jdbcType=VARCHAR},
+        #{payment,jdbcType=DOUBLE},
       </if>
       <if test="paymentType != null" >
         #{paymentType,jdbcType=INTEGER},
       </if>
       <if test="postFee != null" >
-        #{postFee,jdbcType=VARCHAR},
+        #{postFee,jdbcType=DOUBLE},
       </if>
       <if test="status != null" >
         #{status,jdbcType=INTEGER},
@@ -249,13 +249,13 @@
         order_id = #{record.orderId,jdbcType=VARCHAR},
       </if>
       <if test="record.payment != null" >
-        payment = #{record.payment,jdbcType=VARCHAR},
+        payment = #{record.payment,jdbcType=DOUBLE},
       </if>
       <if test="record.paymentType != null" >
         payment_type = #{record.paymentType,jdbcType=INTEGER},
       </if>
       <if test="record.postFee != null" >
-        post_fee = #{record.postFee,jdbcType=VARCHAR},
+        post_fee = #{record.postFee,jdbcType=DOUBLE},
       </if>
       <if test="record.status != null" >
         status = #{record.status,jdbcType=INTEGER},
@@ -304,9 +304,9 @@
   <update id="updateByExample" parameterType="map" >
     update tb_order
     set order_id = #{record.orderId,jdbcType=VARCHAR},
-      payment = #{record.payment,jdbcType=VARCHAR},
+      payment = #{record.payment,jdbcType=DOUBLE},
       payment_type = #{record.paymentType,jdbcType=INTEGER},
-      post_fee = #{record.postFee,jdbcType=VARCHAR},
+      post_fee = #{record.postFee,jdbcType=DOUBLE},
       status = #{record.status,jdbcType=INTEGER},
       create_time = #{record.createTime,jdbcType=TIMESTAMP},
       update_time = #{record.updateTime,jdbcType=TIMESTAMP},
@@ -328,13 +328,13 @@
     update tb_order
     <set >
       <if test="payment != null" >
-        payment = #{payment,jdbcType=VARCHAR},
+        payment = #{payment,jdbcType=DOUBLE},
       </if>
       <if test="paymentType != null" >
         payment_type = #{paymentType,jdbcType=INTEGER},
       </if>
       <if test="postFee != null" >
-        post_fee = #{postFee,jdbcType=VARCHAR},
+        post_fee = #{postFee,jdbcType=DOUBLE},
       </if>
       <if test="status != null" >
         status = #{status,jdbcType=INTEGER},
@@ -380,9 +380,9 @@
   </update>
   <update id="updateByPrimaryKey" parameterType="com.zhou.jdshop.pojo.po.TbOrder" >
     update tb_order
-    set payment = #{payment,jdbcType=VARCHAR},
+    set payment = #{payment,jdbcType=DOUBLE},
       payment_type = #{paymentType,jdbcType=INTEGER},
-      post_fee = #{postFee,jdbcType=VARCHAR},
+      post_fee = #{postFee,jdbcType=DOUBLE},
       status = #{status,jdbcType=INTEGER},
       create_time = #{createTime,jdbcType=TIMESTAMP},
       update_time = #{updateTime,jdbcType=TIMESTAMP},

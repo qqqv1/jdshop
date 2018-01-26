@@ -1,5 +1,6 @@
 package com.zhou.jdshop.dao;
 
+import com.zhou.jdshop.dto.ProductOption;
 import com.zhou.jdshop.dto.TbSearchTbProductCustom;
 import com.zhou.jdshop.pojo.vo.TbProductCustom;
 import org.apache.ibatis.annotations.Param;
@@ -10,9 +11,9 @@ public interface TbProductCustomMapper {
 
     List<TbProductCustom> listProducts();
 
-    List<TbProductCustom> productList(@Param("offset") Integer offset, @Param("cname") String cname, @Param("pname") String pname);
+    List<TbProductCustom> productList(ProductOption productOption);
 
-    int total(@Param("cname") String cname,@Param("pname") String pname);
+    int total(ProductOption productOption);
 
     TbProductCustom selectProductById(Long pid);
 

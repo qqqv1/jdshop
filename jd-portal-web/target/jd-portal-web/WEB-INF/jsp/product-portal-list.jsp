@@ -32,8 +32,8 @@
 <b class="line"></b>
 <div class="search">
     <div class="search-list">
-        <jsp:include page="banner.jsp"/>
 
+        <jsp:include page="banner.jsp"/>
 
         <div class="am-g am-g-fixed">
             <div class="am-u-sm-12 am-u-md-12">
@@ -104,10 +104,10 @@
                 </div>
                 <div class="search-content">
                     <div class="sort">
-                        <li class="first"><a title="综合">综合排序</a></li>
-                        <li><a title="销量">销量排序</a></li>
-                        <li><a title="价格">价格优先</a></li>
-                        <li class="big"><a title="评价" href="#">评价为主</a></li>
+                        <li class="first"><a title="综合" href="javascript:">综合排序</a></li>
+                        <li><a title="销量" href="javascript:">销量排序</a></li>
+                        <li><a title="价格" href="javascript:">价格优先</a></li>
+                        <li class="big"><a title="评价" href="javascript:">评价为主</a></li>
                     </div>
                     <div class="clear"></div>
 
@@ -349,16 +349,24 @@
 <jsp:include page="guide.jsp"/>
 
 <script>
-    window.jQuery || document.write('<script src="basic/js/jquery-1.9.min.js"><\/script>');
+//    window.jQuery || document.write('<script src="basic/js/jquery-1.9.min.js"><\/script>');
+    var productOption={
+        'page':1,
+        'pname':'',
+        'bname':'',
+        'cname':'',
+        'hname':''
+    }
     $(function () {
-        $('#searchInput').val(${param.pname});
+        $('#searchInput').val('${param.pname}');
+        productOption.pname=$('#searchInput').val();
+//        console.log(productOption);
         displayCategory();
-        pagination('');
-        displayProduct(1,'');
-//        $('#searchName').html($('#searchInput').text());
+        pagination(productOption);
+//        displayProduct(productOption);
         $(".select-result dl p").on('click',function () {
-            pagination('');
-            displayProduct(1,'');
+            pagination(productOption);
+//            displayProduct(productOption);
         });
     });
     // 查询全部分类
@@ -373,7 +381,7 @@
                 $.each(categorys,function (i,category) {
                     $dd=$('<dd><a href="javascript:void(0)">'+category.cname+'</a></dd>');
                     $div.append($dd);
-                })
+                });
                 $("#select2 dd").click(function() {
                     $(this).addClass("selected").siblings().removeClass("selected");
                     if ($(this).hasClass("select-all")) {
@@ -385,25 +393,26 @@
                         } else {
                             $(".select-result dl").append(copyThisB.attr("id", "selectB"));
                             $("#selectB a").on('click',function () {
-                                pagination('');
-                                displayProduct(1,'');
+                                pagination(productOption);
+//                                displayProduct(productOption);
                             });
                         }
                     }
-                    pagination($(this).text());
-                    displayProduct(1,$(this).text());
+                    productOption.cname=$(this).text();
+                    pagination(productOption);
+//                    displayProduct(productOption);
                 });
             }
         });
     }
     // 分页展示商品
-    function pagination(cname) {
-        var $pname=$('#searchInput').val();
+    function pagination(productOption) {
         $.ajax({
             url:'pageTotal',
-            data:{'cname':cname,'pname':$pname},
+            data:JSON.stringify(productOption),
             type:'POST',
             dataType:'json',
+            contentType:'application/json;charset=UTF-8',
             success:function(total){
                 var pageTotal=1;
                 if(total % 12 === 0) {
@@ -418,29 +427,33 @@
                     $li=$('<li>');
                     $a=$('<a href="javascript:void(0)">'+i+'</a>');
                     $a.on('click',function(){
-                        displayProduct($(this).text(),cname);
+                        productOption.page=$(this).text();
+                        displayProduct(productOption);
                     });
                     $li.append($a);
                     $('#page').append($li);
                 }
                 $('#page').append('<li><a href="javascript:void(0)" id="last">&raquo;</a></li>');
                 $('#first').on('click',function () {
-                    displayProduct(1,cname);
+                    productOption.page=1;
+                    displayProduct(productOption);
                 });
                 $('#last').on('click',function () {
-                    displayProduct(pageTotal,cname);
+                    productOption.page=pageTotal;
+                    displayProduct(productOption);
                 });
             }
         });
+        displayProduct(productOption);
     }
     // 查询商品
-    function displayProduct(page,cname){
-        var $pname=$('#searchInput').val();
+    function displayProduct(productOption){
         $.ajax({
             url:'productList',
-            data:{'page':page,'cname':cname,'pname':$pname},
+            data:JSON.stringify(productOption),
             type:'POST',
             dataType:'json',
+            contentType:'application/json;charset=UTF-8',
             success:function (products) {
                 $('#product').empty();
                 $.each(products,function (i,product) {
@@ -449,14 +462,14 @@
                        window.location.href='product-portal-info?pid='+product.pid;
                     });
                     $div=$('<div class="i-pic limit">');
-                    $img=$('<div style="padding: 35px"><img src="'+product.pimage+'" style="width: 148px;height: 148px"/></div>'+
+                    $img=$('<div style="padding: 35px"><img src="'+product.pimage+'" style="width: 148px;height: 148px" alt="暂缺"/></div>'+
                         '                        <p class="title fl">'+product.pname+'</p>\n' +
                         '                        <p class="price fl">\n' +
                         '                        <b>¥</b>\n' +
                         '                        <strong>'+product.shopPrice+'</strong>\n' +
                         '                        </p>\n' +
                         '                        <p class="number fl">\n' +
-                        '                        销量<span>'+product.quantity+'</span>\n' +
+                        '                        销量<span>'+product.psold+'</span>\n' +
                         '                        </p>');
                     $div.append($img);
                     $li.append($div);

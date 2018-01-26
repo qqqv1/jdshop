@@ -1,5 +1,6 @@
 package com.zhou.jdshop.service;
 
+import com.zhou.jdshop.dto.ProductOption;
 import com.zhou.jdshop.pojo.po.TbProduct;
 import com.zhou.jdshop.pojo.vo.TbProductCustom;
 
@@ -18,9 +19,9 @@ public interface ProductService {
 
     int editProduct(TbProduct product);
 
-    int total(String cname,String pname);
+    int total(ProductOption productOption);
 
-    List<TbProductCustom> productList(Integer page, String cname, String pname);
+    List<TbProductCustom> productList(ProductOption productOption);
 
     TbProductCustom findProductById(Long pid);
 }

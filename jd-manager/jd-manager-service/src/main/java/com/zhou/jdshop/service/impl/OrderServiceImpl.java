@@ -16,7 +16,7 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 
 @Service
-public class OrderServiceImpl implements OrderService{
+public class OrderServiceImpl implements OrderService {
     private Logger logger = LoggerFactory.getLogger(this.getClass());
 
     @Autowired
@@ -26,21 +26,23 @@ public class OrderServiceImpl implements OrderService{
     private TbOrdersCustomMapper ordersCustomDao;
 
     @Autowired
-    private  TbOrderItemMapper tbOrderItemDao;
+    private TbOrderItemMapper tbOrderItemDao;
 
     @Autowired
     private TbOrderShippingMapper tbOrderShippingDao;
 
     /**
      * 查询所有订单
-     * @return     */
+     *
+     * @return
+     */
     @Override
     public List<TbOrder> listOrders() {
-        List<TbOrder> list=null;
+        List<TbOrder> list = null;
         try {
             list = ordersCustomDao.selectByExample(null);
-        }catch (Exception e){
-            logger.error(e.getMessage(),e);
+        } catch (Exception e) {
+            logger.error(e.getMessage(), e);
             e.printStackTrace();
         }
         return list;
@@ -49,6 +51,7 @@ public class OrderServiceImpl implements OrderService{
 
     /**
      * 删除选中订单
+     *
      * @param ids 选中的订单详情ID
      * @return
      */
@@ -61,8 +64,7 @@ public class OrderServiceImpl implements OrderService{
             TbOrderItemExample example = new TbOrderItemExample();
             TbOrderItemExample.Criteria criteria = example.createCriteria();
             criteria.andIdIn(ids);
-            i=tbOrderItemDao.updateByExampleSelective(tbOrderItem,example);
-
+            i = tbOrderItemDao.updateByExampleSelective(tbOrderItem, example);
          /*   TbOrder order =new TbOrder();
             order.setStatus(0);
             TbOrderExample example = new TbOrderExample();
@@ -78,6 +80,7 @@ public class OrderServiceImpl implements OrderService{
 
     /**
      * 根据ID查询订单
+     *
      * @param id
      * @return
      */
@@ -86,8 +89,8 @@ public class OrderServiceImpl implements OrderService{
         TbOrdersCustom ordersCustom = null;
         try {
             ordersCustom = ordersCustomDao.selectOrderById(id);
-        }catch (Exception e){
-            logger.error(e.getMessage(),e);
+        } catch (Exception e) {
+            logger.error(e.getMessage(), e);
             e.printStackTrace();
         }
         return ordersCustom;
@@ -95,12 +98,13 @@ public class OrderServiceImpl implements OrderService{
 
     /**
      * 修改订单
+     *
      * @param
      * @return
      */
     @Transactional
     @Override
-    public int editOrder(String title ,String id,String orderId, String num,String totalFee,String receiverName,String receiverMobile,String receiverAddress) {
+    public int editOrder(String title, String id, String orderId, String num, String totalFee, String receiverName, String receiverMobile, String receiverAddress) {
         int i = 0;
         try {
             //存放3张表,订单表和订单详情表和tb_order_shipping
@@ -109,16 +113,15 @@ public class OrderServiceImpl implements OrderService{
             TbOrderExample.Criteria criteria = example.createCriteria();
             criteria.andOrderIdEqualTo(orderId);
             i=ordersDao.updateByExampleSelective(orders,example);*/
-
-         //   tb_order_item
+            //   tb_order_item
             TbOrderItem tbOrderItem = new TbOrderItem();
             tbOrderItem.setNum(Integer.parseInt(num));
-            tbOrderItem.setTotalFee(Long.parseLong(totalFee));
+            tbOrderItem.setTotalFee(Double.parseDouble(totalFee));
             tbOrderItem.setTitle(title);
             TbOrderItemExample example1 = new TbOrderItemExample();
-            TbOrderItemExample.Criteria criteria1 =example1.createCriteria();
+            TbOrderItemExample.Criteria criteria1 = example1.createCriteria();
             criteria1.andIdEqualTo(id);
-            i+=tbOrderItemDao.updateByExampleSelective(tbOrderItem,example1);
+            i += tbOrderItemDao.updateByExampleSelective(tbOrderItem, example1);
 
             //tb_order_shipping
             TbOrderShipping tbOrderShipping = new TbOrderShipping();
@@ -128,12 +131,23 @@ public class OrderServiceImpl implements OrderService{
             TbOrderShippingExample example2 = new TbOrderShippingExample();
             TbOrderShippingExample.Criteria criteria2 = example2.createCriteria();
             criteria2.andOrderIdEqualTo(orderId);
-            i+=tbOrderShippingDao.updateByExampleSelective(tbOrderShipping,example2);
+            i += tbOrderShippingDao.updateByExampleSelective(tbOrderShipping, example2);
 
         } catch (Exception e) {
             logger.error(e.getMessage(), e);
             e.printStackTrace();
         }
         return i;
+    }
+
+    @Override
+    public int insert(TbOrder record) {
+        System.out.println("Hello");
+        return 0;
+    }
+
+    @Override
+    public void insertOrderItem(TbOrderItem orderitem) {
+
     }
 }
