@@ -34,12 +34,12 @@ public class ProductIndexServiceImpl implements ProductIndexService {
             //创建docement
             SolrInputDocument document = new SolrInputDocument();
             //转TbSearchTbProductCustom---》SolrInputDocument
-            document.addField("pid",productCustom.getPid());
-            document.addField("pname",productCustom.getPname());
-            document.addField("pdesc",productCustom.getPdesc());
-            document.addField("shop_price",productCustom.getPrice());
-            document.addField("pimage",productCustom.getPimage());
-            document.addField("cname",productCustom.getCname());
+            document.addField("id",productCustom.getId());
+            document.addField("product_pname",productCustom.getPname());
+            document.addField("product_pdesc",productCustom.getPdesc());
+            document.addField("product_price",productCustom.getPrice());
+            document.addField("product_pimage",productCustom.getPimage());
+            document.addField("product_cname",productCustom.getCname());
             //拿到装配好的document存放到索引库中
             try {
                 solrServer.add(document);

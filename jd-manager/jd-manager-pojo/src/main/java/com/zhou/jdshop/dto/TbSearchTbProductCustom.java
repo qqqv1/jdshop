@@ -1,20 +1,22 @@
 package com.zhou.jdshop.dto;
 
 public class TbSearchTbProductCustom {
-    private String pid;
+    private String id;
     private String pname;//
     private String pdesc;//
     private Long price;//
     private String pimage;//
     private String cname;//
 
-    public String getPid() {
-        return pid;
+    public String getId() {
+        return id;
     }
 
-    public void setPid(String pid) {
-        this.pid = pid;
+    public void setId(String id) {
+        this.id = id;
     }
+
+
 
     public String getPname() {
         return pname;
