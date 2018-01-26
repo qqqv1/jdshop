@@ -2,6 +2,8 @@ package com.zhou.jdshop.service.impl;
 
 import com.zhou.jdshop.dao.TbProductCustomMapper;
 import com.zhou.jdshop.dao.TbProductMapper;
+import com.zhou.jdshop.dto.ProductOption;
+import com.zhou.jdshop.pojo.po.Product;
 import com.zhou.jdshop.pojo.po.TbProduct;
 import com.zhou.jdshop.pojo.po.TbProductExample;
 import com.zhou.jdshop.pojo.vo.TbProductCustom;
@@ -148,10 +150,10 @@ public class ProductServiceImpl implements ProductService {
     }
 
     @Override
-    public int total(String cname,String pname) {
+    public int total(ProductOption productOption) {
         int total=0;
         try {
-            total=productCustomDao.total(cname,pname);
+            total=productCustomDao.total(productOption);
         } catch (Exception e) {
             logger.error(e.getMessage(), e);
             e.printStackTrace();
@@ -160,11 +162,10 @@ public class ProductServiceImpl implements ProductService {
     }
 
     @Override
-    public List<TbProductCustom> productList(Integer page, String cname, String pname) {
+    public List<TbProductCustom> productList(ProductOption productOption) {
         List<TbProductCustom> list=new ArrayList<>();
         try {
-            int offset=(page-1)*12;
-            list=productCustomDao.productList(offset,cname,pname);
+            list=productCustomDao.productList(productOption);
         } catch (Exception e) {
             logger.error(e.getMessage(), e);
             e.printStackTrace();

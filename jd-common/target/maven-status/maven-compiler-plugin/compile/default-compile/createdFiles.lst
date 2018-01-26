@@ -11,5 +11,6 @@ com\zhou\jdshop\util\Prop.class
 com\zhou\jdshop\util\JsonUtils.class
 com\zhou\jdshop\util\HashKit.class
 com\zhou\jdshop\dto\Page.class
+com\zhou\jdshop\dto\ProductOption.class
 com\zhou\jdshop\util\Const.class
 com\zhou\jdshop\util\IDUtils.class

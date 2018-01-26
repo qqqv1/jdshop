@@ -349,16 +349,25 @@
 <jsp:include page="guide.jsp"/>
 
 <script>
-    window.jQuery || document.write('<script src="basic/js/jquery-1.9.min.js"><\/script>');
+//    window.jQuery || document.write('<script src="basic/js/jquery-1.9.min.js"><\/script>');
+    var productOption={
+        'page':1,
+        'pname':'',
+        'bname':'',
+        'cname':'',
+        'hname':''
+    }
     $(function () {
         $('#searchInput').val('${param.pname}');
+        productOption.pname=$('#searchInput').val();
+        console.log(productOption);
         displayCategory();
-        pagination('');
-        displayProduct(1,'');
+        pagination(productOption);
+        displayProduct(productOption);
 //        $('#searchName').html($('#searchInput').text());
         $(".select-result dl p").on('click',function () {
-            pagination('');
-            displayProduct(1,'');
+            pagination(productOption);
+            displayProduct(productOption);
         });
     });
     // 查询全部分类
@@ -385,25 +394,28 @@
                         } else {
                             $(".select-result dl").append(copyThisB.attr("id", "selectB"));
                             $("#selectB a").on('click',function () {
-                                pagination('');
-                                displayProduct(1,'');
+                                pagination(productOption);
+                                displayProduct(productOption);
                             });
                         }
                     }
-                    pagination($(this).text());
-                    displayProduct(1,$(this).text());
+                    productOption.cname=$(this).text();
+                    pagination(productOption);
+                    displayProduct(productOption);
                 });
             }
         });
     }
     // 分页展示商品
-    function pagination(cname) {
-        var $pname=$('#searchInput').val();
+    function pagination(productOption) {
+//        var $pname=$('#searchInput').val();
         $.ajax({
             url:'pageTotal',
-            data:{'cname':cname,'pname':$pname},
+//            data:{'productOption':JSON.stringify(productOption)},
+            data:JSON.stringify(productOption),
             type:'POST',
             dataType:'json',
+            contentType:'application/json;charset=UTF-8',
             success:function(total){
                 var pageTotal=1;
                 if(total % 12 === 0) {
@@ -418,29 +430,33 @@
                     $li=$('<li>');
                     $a=$('<a href="javascript:void(0)">'+i+'</a>');
                     $a.on('click',function(){
-                        displayProduct($(this).text(),cname);
+                        productOption.page=$(this).text();
+                        displayProduct(productOption);
                     });
                     $li.append($a);
                     $('#page').append($li);
                 }
                 $('#page').append('<li><a href="javascript:void(0)" id="last">&raquo;</a></li>');
                 $('#first').on('click',function () {
-                    displayProduct(1,cname);
+                    productOption.page=1;
+                    displayProduct(productOption);
                 });
                 $('#last').on('click',function () {
-                    displayProduct(pageTotal,cname);
+                    productOption.page=pageTotal;
+                    displayProduct(productOption);
                 });
             }
         });
     }
     // 查询商品
-    function displayProduct(page,cname){
-        var $pname=$('#searchInput').val();
+    function displayProduct(productOption){
+//        var $pname=$('#searchInput').val();
         $.ajax({
             url:'productList',
-            data:{'page':page,'cname':cname,'pname':$pname},
+            data:JSON.stringify(productOption),
             type:'POST',
             dataType:'json',
+            contentType:'application/json;charset=UTF-8',
             success:function (products) {
                 $('#product').empty();
                 $.each(products,function (i,product) {
@@ -456,7 +472,7 @@
                         '                        <strong>'+product.shopPrice+'</strong>\n' +
                         '                        </p>\n' +
                         '                        <p class="number fl">\n' +
-                        '                        销量<span>'+product.quantity+'</span>\n' +
+                        '                        销量<span>'+product.psold+'</span>\n' +
                         '                        </p>');
                     $div.append($img);
                     $li.append($div);
