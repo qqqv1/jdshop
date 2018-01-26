@@ -360,11 +360,10 @@
     $(function () {
         $('#searchInput').val('${param.pname}');
         productOption.pname=$('#searchInput').val();
-        console.log(productOption);
+//        console.log(productOption);
         displayCategory();
         pagination(productOption);
         displayProduct(productOption);
-//        $('#searchName').html($('#searchInput').text());
         $(".select-result dl p").on('click',function () {
             pagination(productOption);
             displayProduct(productOption);
@@ -408,10 +407,8 @@
     }
     // 分页展示商品
     function pagination(productOption) {
-//        var $pname=$('#searchInput').val();
         $.ajax({
             url:'pageTotal',
-//            data:{'productOption':JSON.stringify(productOption)},
             data:JSON.stringify(productOption),
             type:'POST',
             dataType:'json',
@@ -450,7 +447,6 @@
     }
     // 查询商品
     function displayProduct(productOption){
-//        var $pname=$('#searchInput').val();
         $.ajax({
             url:'productList',
             data:JSON.stringify(productOption),
