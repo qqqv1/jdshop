@@ -22,6 +22,11 @@ public class ProductPortalAction {
     @Autowired
     private ProductService productService;
 
+    /**
+     * 根据搜索项查询分页总数
+     * @param productOption 商品搜索项
+     * @return 分页总数
+     */
     @ResponseBody
     @RequestMapping("pageTotal")
     public int total(@RequestBody ProductOption productOption){
@@ -35,6 +40,11 @@ public class ProductPortalAction {
         return total;
     }
 
+    /**
+     * 根据搜索项商品并分页显示
+     * @param productOption 商品搜索项
+     * @return 商品集合
+     */
     @ResponseBody
     @RequestMapping("productList")
     public List<TbProductCustom> productList(@RequestBody ProductOption productOption){
@@ -53,6 +63,11 @@ public class ProductPortalAction {
         return list;
     }
 
+    /**
+     * 根据id查询商品
+     * @param pid 商品id
+     * @return 对应id商品
+     */
     @ResponseBody
     @RequestMapping("product")
     public TbProductCustom findProductById(@RequestParam("pid") Long pid){

@@ -349,26 +349,42 @@
 <jsp:include page="guide.jsp"/>
 
 <script>
-//    window.jQuery || document.write('<script src="basic/js/jquery-1.9.min.js"><\/script>');
+    //    window.jQuery || document.write('<script src="basic/js/jquery-1.9.min.js"><\/script>');
+
+    /**
+     * 商品搜索项
+     * @type {{page: number, pname: string, bname: string, cname: string, hname: string}}
+     * page 当前页
+     * pname 商品名
+     * bname 品牌名
+     * cname 分类名
+     * hname 热点名
+     */
     var productOption={
         'page':1,
         'pname':'',
         'bname':'',
         'cname':'',
         'hname':''
-    }
+    };
+
     $(function () {
+        // 初始化搜索栏的值
         $('#searchInput').val('${param.pname}');
         productOption.pname=$('#searchInput').val();
 //        console.log(productOption);
+        // 初始化分类
         displayCategory();
+        // 初始化商品列表
         pagination(productOption);
 //        displayProduct(productOption);
+        // 为清除绑定初始化商品列表事件
         $(".select-result dl p").on('click',function () {
             pagination(productOption);
 //            displayProduct(productOption);
         });
     });
+
     // 查询全部分类
     function displayCategory() {
         $.ajax({
@@ -405,7 +421,8 @@
             }
         });
     }
-    // 分页展示商品
+
+    // 根据商品搜索项分页展示商品
     function pagination(productOption) {
         $.ajax({
             url:'pageTotal',
@@ -446,7 +463,8 @@
         });
         displayProduct(productOption);
     }
-    // 查询商品
+
+    // 根据商品搜索项展示商品
     function displayProduct(productOption){
         $.ajax({
             url:'productList',
@@ -479,6 +497,7 @@
         })
     }
 </script>
+
 <script type="text/javascript" src="basic/js/quick_links.js"></script>
 
 <div class="theme-popover-mask"></div>
