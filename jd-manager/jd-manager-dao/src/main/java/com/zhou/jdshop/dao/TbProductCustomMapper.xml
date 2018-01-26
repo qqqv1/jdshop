@@ -65,6 +65,7 @@
     <select id="getSearchProducts" resultType="com.zhou.jdshop.dto.TbSearchTbProductCustom">
 
          SELECT
+         p.pid AS id,
     p.pname,
     p.pdesc,
     p.shop_price AS  price ,
