@@ -19,5 +19,6 @@ com\zhou\jdshop\dao\TbBrandMapper.class
 com\zhou\jdshop\dao\TbLunBoMapper.class
 com\zhou\jdshop\dao\TbContentMapper.class
 com\zhou\jdshop\dao\TbOrderItemMapper.class
+com\zhou\jdshop\dao\SearchProductDao.class
 com\zhou\jdshop\dao\TbUserCustomMapper.class
 com\zhou\jdshop\dao\TbAdministratorMapper.class

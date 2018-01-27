@@ -176,7 +176,7 @@ public class OrderManagerAction {
         currOrder.setStatus(2);
         orderService.insert(currOrder);
         map.put("success", "支付成功!订单编号为: " + r6_Order + " 付款金额为: " + r3_Amt);
-        return "person/success";
+        return "success";
     }
 
     //确认收货

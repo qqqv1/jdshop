@@ -26,9 +26,8 @@
 </head>
 
 <body>
-<jsp:include page="../top.jsp"/>
+<jsp:include page="top.jsp"/>
 
-<div class="clear"></div>
 <div class="concent">
     <!--地址 -->
     <div class="paycont">
@@ -418,7 +417,7 @@
     <div class="clear"></div>
 </div>
 
-<jsp:include page="../bottom.jsp"/>
+<jsp:include page="bottom.jsp"/>
 
 <div class="theme-popover-mask"></div>
 <div class="theme-popover">

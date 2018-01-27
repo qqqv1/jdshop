@@ -97,6 +97,7 @@ com\zhou\jdshop\pojo\vo\Cart.class
 com\zhou\jdshop\pojo\po\TbProductCat.class
 com\zhou\jdshop\pojo\po\TbShippingAddressExample$Criteria.class
 com\zhou\jdshop\pojo\po\CategoryExample$GeneratedCriteria.class
+com\zhou\jdshop\dto\TbSearchProductResult.class
 com\zhou\jdshop\pojo\po\OrdersExample$GeneratedCriteria.class
 com\zhou\jdshop\pojo\po\TbLunBo.class
 com\zhou\jdshop\pojo\po\TbShippingAddressExample$Criterion.class
