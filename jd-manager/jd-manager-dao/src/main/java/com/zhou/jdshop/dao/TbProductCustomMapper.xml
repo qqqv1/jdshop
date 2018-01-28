@@ -70,7 +70,8 @@
     p.pdesc,
     p.shop_price AS  price ,
     p.pimage,
-    c.cname
+    c.cname,
+    p.psold
 
     FROM
     tb_product p

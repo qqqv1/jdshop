@@ -40,6 +40,7 @@ public class ProductIndexServiceImpl implements ProductIndexService {
             document.addField("product_price",productCustom.getPrice());
             document.addField("product_pimage",productCustom.getPimage());
             document.addField("product_cname",productCustom.getCname());
+            document.addField("product_psold",productCustom.getPsold());
             //拿到装配好的document存放到索引库中
             try {
                 solrServer.add(document);

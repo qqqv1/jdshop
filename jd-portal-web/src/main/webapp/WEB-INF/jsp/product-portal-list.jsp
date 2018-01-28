@@ -385,7 +385,7 @@
         });
     });
 
-    // 查询全部分类
+    // 查询全部分类,动态拉出所有商品分类
     function displayCategory() {
         $.ajax({
             url:'categoryList',
@@ -422,7 +422,7 @@
         });
     }
 
-    // 根据商品搜索项分页展示商品
+    // 根据商品搜索项分页展示商品，动态拉出分页的按钮
     function pagination(productOption) {
         $.ajax({
             url:'pageTotal',

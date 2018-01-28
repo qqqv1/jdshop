@@ -247,9 +247,9 @@
                 $("#receiverMobile").val(data.receiverMobile);
                 $("#receiverAddress").val(data.receiverAddress);
 //                $("#ordertime").val(data.ordertime);
-                ue.ready(function(){
-                    ue.setContent(data.pdesc);
-                })
+//                ue.ready(function(){
+//                    ue.setContent(data.pdesc);
+//                })
             }
         })
     });

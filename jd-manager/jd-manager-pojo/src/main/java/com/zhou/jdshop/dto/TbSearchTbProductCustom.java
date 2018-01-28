@@ -7,6 +7,7 @@ public class TbSearchTbProductCustom {
     private Long price;//
     private String pimage;//
     private String cname;//
+    private Long psold;
 
     public String getId() {
         return id;
@@ -56,5 +57,13 @@ public class TbSearchTbProductCustom {
 
     public void setCname(String cname) {
         this.cname = cname;
+    }
+
+    public Long getPsold() {
+        return psold;
+    }
+
+    public void setPsold(Long psold) {
+        this.psold = psold;
     }
 }

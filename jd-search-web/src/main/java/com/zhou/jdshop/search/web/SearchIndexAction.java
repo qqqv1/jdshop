@@ -15,18 +15,22 @@ public class SearchIndexAction {
     @Autowired
     private SearchService searchService;
 
+  /*  //留着
     @RequestMapping(value = "/", method = RequestMethod.GET)
-    public String index(String keyword, @RequestParam(defaultValue = "1") Integer page, Model model) {
-        if (StrKit.notBlank(keyword)) {
+    public String index(String pname, @RequestParam(defaultValue = "1") Integer page, Model model) {
+        if (StrKit.notBlank(pname)) {
             //调用业务逻辑层的方法进行分页查询
-            TbSearchProductResult result = searchService.search(keyword, page, 60);
+            TbSearchProductResult result = searchService.search(pname, page, 12);
+
             //用于回显的数据
-            model.addAttribute("query", keyword);
+            //搜索
+            model.addAttribute("query", pname);
             model.addAttribute("totalPages", result.getTotalPages());
             model.addAttribute("recordCount", result.getRecordCount());
             model.addAttribute("itemList", result.getItemList());
             model.addAttribute("page", page);
         }
         return "product-portal-list";
-    }
+//        return "index";
+    }*/
 }

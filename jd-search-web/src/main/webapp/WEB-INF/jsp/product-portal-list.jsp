@@ -371,7 +371,12 @@
     $(function () {
         // 初始化搜索栏的值
         $('#searchInput').val('${param.pname}');
-        productOption.pname=$('#searchInput').val();
+        if($('#searchInput').val()==null){
+            productOption.pname='';
+        }else {
+            productOption.pname=$('#searchInput').val();
+        }
+
 //        console.log(productOption);
         // 初始化分类
         displayCategory();
@@ -385,7 +390,7 @@
         });
     });
 
-    // 查询全部分类
+    // 查询全部分类,动态拉出所有商品分类
     function displayCategory() {
         $.ajax({
             url:'categoryList',
@@ -422,7 +427,7 @@
         });
     }
 
-    // 根据商品搜索项分页展示商品
+    // 根据商品搜索项分页展示商品，动态拉出分页的按钮
     function pagination(productOption) {
         $.ajax({
             url:'pageTotal',
@@ -477,14 +482,14 @@
                 $.each(products,function (i,product) {
                     $li=$('<li>');
                     $li.on('click',function () {
-                       window.location.href='product-portal-info?pid='+product.pid;
+                       window.location.href='product-portal-info?pid='+product.id;
                     });
                     $div=$('<div class="i-pic limit">');
                     $img=$('<div style="padding: 35px"><img src="'+product.pimage+'" style="width: 148px;height: 148px" alt="暂缺"/></div>'+
                         '                        <p class="title fl">'+product.pname+'</p>\n' +
                         '                        <p class="price fl">\n' +
                         '                        <b>¥</b>\n' +
-                        '                        <strong>'+product.shopPrice+'</strong>\n' +
+                        '                        <strong>'+product.price+'</strong>\n' +
                         '                        </p>\n' +
                         '                        <p class="number fl">\n' +
                         '                        销量<span>'+product.psold+'</span>\n' +

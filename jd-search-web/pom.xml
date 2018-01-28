@@ -37,6 +37,11 @@
             <groupId>javax.servlet</groupId>
             <artifactId>jstl</artifactId>
         </dependency>
+        <!-- 文件上传组件 -->
+        <dependency>
+            <groupId>commons-fileupload</groupId>
+            <artifactId>commons-fileupload</artifactId>
+        </dependency>
     </dependencies>
     <build>
         <finalName>jd-search-web</finalName>
@@ -46,7 +51,7 @@
                 <artifactId>tomcat7-maven-plugin</artifactId>
                 <configuration>
                     <port>8083</port>
-                    <path>/jdshopshop</path>
+                    <path>/jdshop</path>
                     <uriEncoding>UTF-8</uriEncoding>
                 </configuration>
             </plugin>

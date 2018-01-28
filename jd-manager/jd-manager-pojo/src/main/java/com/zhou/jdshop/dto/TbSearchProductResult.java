@@ -1,8 +1,11 @@
 package com.zhou.jdshop.dto;
 
+import com.zhou.jdshop.pojo.po.TbProduct;
+
 import java.util.List;
 
-public class TbSearchProductResult {
+public class TbSearchProductResult extends TbProduct {
+
     private long recordCount;
     private int totalPages;
     private List<TbSearchTbProductCustom> itemList;

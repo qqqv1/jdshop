@@ -8,6 +8,7 @@
 
     $(function (){
         $('#import').click(function () {
+            $('#importmsg').html('正在导入，请稍后！')
             $.post(
                 'product/index',
                 function (data) {
