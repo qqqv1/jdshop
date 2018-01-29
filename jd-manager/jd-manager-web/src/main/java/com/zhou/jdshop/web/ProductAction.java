@@ -1,19 +1,19 @@
 package com.zhou.jdshop.web;
 
+import com.zhou.jdshop.dto.MessageResult;
 import com.zhou.jdshop.pojo.po.TbProduct;
 import com.zhou.jdshop.pojo.vo.TbProductCustom;
-import com.zhou.jdshop.service.FileService;
 import com.zhou.jdshop.service.ProductService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jms.core.JmsTemplate;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.multipart.MultipartFile;
 
-import javax.servlet.http.HttpServletResponse;
+import javax.annotation.Resource;
+import javax.jms.*;
 import java.util.List;
-import java.util.Map;
 
 @Controller
 public class ProductAction {
@@ -21,10 +21,13 @@ public class ProductAction {
     private Logger logger= LoggerFactory.getLogger(this.getClass());
 
     @Autowired
-    private ProductService productService;
+    private JmsTemplate jmsTemplate;
+
+    @Resource
+    private Destination topicDestination;
 
     @Autowired
-    private FileService fileService;
+    private ProductService productService;
 
 //    @ResponseBody
 //    @RequestMapping(value = "/products",method = RequestMethod.GET)
@@ -59,15 +62,18 @@ public class ProductAction {
 
     @ResponseBody
     @RequestMapping("/addproduct")
-    public int saveProduct(TbProduct product){
-        int i = 0;
+    public MessageResult saveProduct(TbProduct product){
+        MessageResult ms = new MessageResult();
         try {
-            i = productService.saveProduct(product);
+            Long pid = productService.saveProduct(product);
+            jmsTemplate.send(topicDestination, (Session session) -> session.createTextMessage(pid + ""));
+            ms.setSuccess(true);
+            ms.setMessage("新增1个商品成功");
         } catch (Exception e) {
             logger.error(e.getMessage(), e);
             e.printStackTrace();
         }
-        return i;
+        return ms;
     }
 
     @ResponseBody

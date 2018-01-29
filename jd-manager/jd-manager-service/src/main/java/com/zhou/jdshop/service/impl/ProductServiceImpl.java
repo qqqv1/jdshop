@@ -99,22 +99,22 @@ public class ProductServiceImpl implements ProductService {
      */
     @Transactional
     @Override
-    public int saveProduct(TbProduct product) {
-        int i = 0;
+    public Long saveProduct(TbProduct product) {
+        Long pid = 0L;
 //        FTPClient ftp = new FTPClient();
         try {
-            Long pid = IDUtils.getItemId();
+            pid=IDUtils.getItemId();
             product.setPid(pid);
             product.setPflag(1);
             product.setCreated(new Date());
             product.setUpdated(new Date());
 
-            i = productDao.insert(product);
+            productDao.insert(product);
         } catch (Exception e) {
             logger.error(e.getMessage(), e);
             e.printStackTrace();
         }
-        return i;
+        return pid;
     }
 
     /**

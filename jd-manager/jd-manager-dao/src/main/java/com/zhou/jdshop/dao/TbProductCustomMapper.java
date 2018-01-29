@@ -19,5 +19,7 @@ public interface TbProductCustomMapper {
 
     //查找商品索引
     List<TbProductCustom> getSearchProducts();
+
+    TbProductCustom SearchProductById(Long pid);
     //
 }
