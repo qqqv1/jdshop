@@ -55,8 +55,8 @@ public class SearchServiceImpl implements SearchService {
 
     @Override
 //    public TbSearchProductResult search(String keyword, Integer pageNumber, int pageSize) {
-    public List<TbSearchTbProductCustom> search(String keyword, Integer pageNumber, int pageSize) {
-        List<TbSearchTbProductCustom> result = null;
+    public TbSearchProductResult search(String keyword, Integer pageNumber, int pageSize) {
+        TbSearchProductResult result=new TbSearchProductResult();
         try {
             //创建solr查询对象
             SolrQuery query = new SolrQuery();
@@ -77,9 +77,9 @@ public class SearchServiceImpl implements SearchService {
             //recordCount,list
             result = searchProductDao.search(query);
             //计算总页数
-            /*long recordCount = result.getRecordCount();
+            long recordCount = result.getRecordCount();
             int totalPages = ((int)recordCount+pageSize-1)/pageSize;
-            result.setTotalPages(totalPages);*/
+            result.setTotalPages(totalPages);
         } catch (Exception e) {
             logger.error(e.getMessage(), e);
         }

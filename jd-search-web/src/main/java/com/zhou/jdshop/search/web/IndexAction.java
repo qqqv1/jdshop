@@ -20,7 +20,7 @@ public class IndexAction {
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String index() {
-        return "product-portal-list";
+        return "index";
     }
 
     @RequestMapping(value = "/{page}",method = RequestMethod.GET)

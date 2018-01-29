@@ -1,55 +1,11 @@
 package com.zhou.jdshop.dto;
 
-public class TbSearchTbProductCustom {
+import com.zhou.jdshop.pojo.po.TbProduct;
+
+public class TbSearchTbProductCustom extends TbProduct{
+    private String cname;
     private String id;
-    private String pname;//
-    private String pdesc;//
-    private Long price;//
-    private String pimage;//
-    private String cname;//
-    private Long psold;
-
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
-    }
-
-
-
-    public String getPname() {
-        return pname;
-    }
-
-    public void setPname(String pname) {
-        this.pname = pname;
-    }
-
-    public String getPdesc() {
-        return pdesc;
-    }
-
-    public void setPdesc(String pdesc) {
-        this.pdesc = pdesc;
-    }
-
-    public Long getPrice() {
-        return price;
-    }
-
-    public void setPrice(Long price) {
-        this.price = price;
-    }
-
-    public String getPimage() {
-        return pimage;
-    }
-
-    public void setPimage(String pimage) {
-        this.pimage = pimage;
-    }
+    private String price;
 
     public String getCname() {
         return cname;
@@ -59,11 +15,19 @@ public class TbSearchTbProductCustom {
         this.cname = cname;
     }
 
-    public Long getPsold() {
-        return psold;
+    public String getId() {
+        return id;
     }
 
-    public void setPsold(Long psold) {
-        this.psold = psold;
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getPrice() {
+        return price;
+    }
+
+    public void setPrice(String price) {
+        this.price = price;
     }
 }

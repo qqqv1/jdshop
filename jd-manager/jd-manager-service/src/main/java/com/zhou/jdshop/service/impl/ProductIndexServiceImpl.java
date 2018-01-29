@@ -2,6 +2,7 @@ package com.zhou.jdshop.service.impl;
 
 import com.zhou.jdshop.dao.TbProductCustomMapper;
 import com.zhou.jdshop.dto.TbSearchTbProductCustom;
+import com.zhou.jdshop.pojo.vo.TbProductCustom;
 import com.zhou.jdshop.service.ProductIndexService;
 import org.apache.solr.client.solrj.SolrServer;
 import org.apache.solr.client.solrj.SolrServerException;
@@ -27,10 +28,10 @@ public class ProductIndexServiceImpl implements ProductIndexService {
     @Override
     public boolean importAll() {
         //1.采集数据
-        List<TbSearchTbProductCustom> searchList =tbProductCustomDao.getSearchProducts();
+        List<TbProductCustom> searchList =tbProductCustomDao.getSearchProducts();
         //2 创建索引库
         //.遍历集合
-        for(TbSearchTbProductCustom productCustom : searchList){
+        for(TbProductCustom productCustom : searchList){
             //创建docement
             SolrInputDocument document = new SolrInputDocument();
             //转TbSearchTbProductCustom---》SolrInputDocument

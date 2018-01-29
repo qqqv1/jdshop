@@ -371,21 +371,26 @@
     $(function () {
         // 初始化搜索栏的值
         $('#searchInput').val('${param.pname}');
-        productOption.pname=$('#searchInput').val();
+        if($('#searchInput').val()==null){
+            productOption.pname='';
+        }else {
+            productOption.pname=$('#searchInput').val();
+        }
+
 //        console.log(productOption);
         // 初始化分类
         displayCategory();
         // 初始化商品列表
-        pagination(productOption);
-//        displayProduct(productOption);
+//        pagination(productOption);
+        displayProduct(productOption);
         // 为清除绑定初始化商品列表事件
         $(".select-result dl p").on('click',function () {
-            pagination(productOption);
-//            displayProduct(productOption);
+//            pagination(productOption);
+            displayProduct(productOption);
         });
     });
 
-    // 查询全部分类
+    // 查询全部分类,动态拉出所有商品分类
     function displayCategory() {
         $.ajax({
             url:'categoryList',
@@ -409,21 +414,22 @@
                         } else {
                             $(".select-result dl").append(copyThisB.attr("id", "selectB"));
                             $("#selectB a").on('click',function () {
-                                pagination(productOption);
-//                                displayProduct(productOption);
+//                                pagination(productOption);
+                                displayProduct(productOption);
                             });
                         }
                     }
                     productOption.cname=$(this).text();
-                    pagination(productOption);
-//                    displayProduct(productOption);
+//                    pagination(productOption);
+                    displayProduct(productOption);
                 });
             }
         });
     }
 
-    // 根据商品搜索项分页展示商品
-    function pagination(productOption) {
+    // 根据商品搜索项分页展示商品，动态拉出分页的按钮
+    /*function pagination(productOption) {
+        console.log(productOption);
         $.ajax({
             url:'pageTotal',
             data:JSON.stringify(productOption),
@@ -431,6 +437,7 @@
             dataType:'json',
             contentType:'application/json;charset=UTF-8',
             success:function(total){
+                alert(total)
                 var pageTotal=1;
                 if(total % 12 === 0) {
                     pageTotal = parseInt(total / 12);
@@ -462,7 +469,7 @@
             }
         });
         displayProduct(productOption);
-    }
+    }*/
 
     // 根据商品搜索项展示商品
     function displayProduct(productOption){
@@ -472,19 +479,42 @@
             type:'POST',
             dataType:'json',
             contentType:'application/json;charset=UTF-8',
-            success:function (products) {
+            success:function (data) {
+                console.log(data);
+                $('#searchNum').html(data.recordCount);
+                $('#page').empty();
+                $('#page').append('<li><a href="javascript:void(0)" id="first">&laquo;</a></li>');
+                for(var i = 1;i <= data.totalPages;i++){
+                    $li=$('<li>');
+                    $a=$('<a href="javascript:void(0)">'+i+'</a>');
+                    $a.on('click',function(){
+                        productOption.page=$(this).text();
+                        displayProduct(productOption);
+                    });
+                    $li.append($a);
+                    $('#page').append($li);
+                }
+                $('#page').append('<li><a href="javascript:void(0)" id="last">&raquo;</a></li>');
+                $('#first').on('click',function () {
+                    productOption.page=1;
+                    displayProduct(productOption);
+                });
+                $('#last').on('click',function () {
+                    productOption.page=data.totalPages;
+                    displayProduct(productOption);
+                });
                 $('#product').empty();
-                $.each(products,function (i,product) {
+                $.each(data.itemList,function (i,product) {
                     $li=$('<li>');
                     $li.on('click',function () {
-                       window.location.href='product-portal-info?pid='+product.pid;
+                       window.location.href='product-portal-info?pid='+product.id;
                     });
                     $div=$('<div class="i-pic limit">');
                     $img=$('<div style="padding: 35px"><img src="'+product.pimage+'" style="width: 148px;height: 148px" alt="暂缺"/></div>'+
                         '                        <p class="title fl">'+product.pname+'</p>\n' +
                         '                        <p class="price fl">\n' +
                         '                        <b>¥</b>\n' +
-                        '                        <strong>'+product.shopPrice+'</strong>\n' +
+                        '                        <strong>'+product.price+'</strong>\n' +
                         '                        </p>\n' +
                         '                        <p class="number fl">\n' +
                         '                        销量<span>'+product.psold+'</span>\n' +

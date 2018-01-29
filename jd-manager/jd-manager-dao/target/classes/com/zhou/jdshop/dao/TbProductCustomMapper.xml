@@ -62,7 +62,7 @@
         and pid=#{pid}
     </select>
 
-    <select id="getSearchProducts" resultType="com.zhou.jdshop.dto.TbSearchTbProductCustom">
+    <select id="getSearchProducts" resultType="com.zhou.jdshop.pojo.vo.TbProductCustom">
 
          SELECT
          p.pid AS id,
@@ -70,7 +70,8 @@
     p.pdesc,
     p.shop_price AS  price ,
     p.pimage,
-    c.cname
+    c.cname,
+    p.psold
 
     FROM
     tb_product p

@@ -71,9 +71,9 @@ public class SearchProductDao {
     }*/
 
 
-    public List<TbSearchTbProductCustom> search(SolrQuery query) {
-//        List<TbProductCustom> result = null;
-        List<TbSearchTbProductCustom> searchProductCustomList = new ArrayList<TbSearchTbProductCustom>();
+    public TbSearchProductResult search(SolrQuery query) {
+        TbSearchProductResult result = new TbSearchProductResult();
+        List<TbProductCustom> searchProductCustomList = new ArrayList<TbProductCustom>();
         try {
             //通过查询条件执行DAO查询方法
             //recordCount,list
@@ -82,9 +82,9 @@ public class SearchProductDao {
             //获取查询结果集
             SolrDocumentList solrDocumentList = queryResponse.getResults();
             //获取总记录数
-//            long numFound = solrDocumentList.getNumFound();
+            long numFound = solrDocumentList.getNumFound();
             //获得了recordCount
-//            result.setRecordCount(numFound);
+            result.setRecordCount(numFound);
 
             //获取高亮的列表
             Map<String, Map<String, List<String>>> highlighting = queryResponse.getHighlighting();
@@ -92,13 +92,13 @@ public class SearchProductDao {
             //遍历solrDocumentList形成List<TbSearchItemCustom>
             //solrDocumentList---List<TbSearchItemCustom>
             for (SolrDocument document:solrDocumentList) {
-                TbSearchTbProductCustom item = new TbSearchTbProductCustom();
+                TbProductCustom item = new TbProductCustom();
                 item.setId((String) document.get("id"));
                 item.setCname((String) document.get("product_cname"));
                 item.setPimage((String) document.get("product_pimage"));
                 item.setPrice((long) document.get("product_price"));
                 item.setPdesc((String) document.get("product_pdesc"));
-                item.setPsold((long) document.get("product_psold"));
+                item.setPsold((int) document.get("product_psold"));
 //                System.out.println(item.getPsold()+"dddddddddddddddddddddddd"+123);
 
                 //获取高亮列表的值
@@ -113,10 +113,10 @@ public class SearchProductDao {
                 //获得了list
                 searchProductCustomList.add(item);
             }
-//            result.setItemList(searchProductCustomList);
+            result.setItemList(searchProductCustomList);
         } catch (Exception e) {
             logger.error(e.getMessage(), e);
         }
-        return searchProductCustomList;//recordCount,list
+        return result;//recordCount,list
     }
 }
