@@ -14,21 +14,20 @@
 
     <title>结算页面</title>
 
-    <link href="AmazeUI-2.4.2/assets/css/amazeui.css" rel="stylesheet" type="text/css" />
+    <link href="../../AmazeUI-2.4.2/assets/css/amazeui.css" rel="stylesheet" type="text/css" />
 
-    <link href="basic/css/demo.css" rel="stylesheet" type="text/css" />
-    <link href="css/cartstyle.css" rel="stylesheet" type="text/css" />
+    <link href="../../basic/css/demo.css" rel="stylesheet" type="text/css" />
+    <link href="../../css/cartstyle.css" rel="stylesheet" type="text/css" />
 
-    <link href="css/jsstyle.css" rel="stylesheet" type="text/css" />
+    <link href="../../css/jsstyle.css" rel="stylesheet" type="text/css" />
 
-    <script type="text/javascript" src="js/address.js"></script>
+    <script type="text/javascript" src="../../js/address.js"></script>
 
 </head>
 
 <body>
 <jsp:include page="top.jsp"/>
 
-<div class="clear"></div>
 <div class="concent">
     <!--地址 -->
     <div class="paycont">
@@ -137,9 +136,9 @@
         <div class="logistics">
             <h3>选择支付方式</h3>
             <ul class="pay-list">
-                <li class="pay card"><img src="images/wangyin.jpg" />银联<span></span></li>
-                <li class="pay qq"><img src="images/weizhifu.jpg" />微信<span></span></li>
-                <li class="pay taobao"><img src="images/zhifubao.jpg" />支付宝<span></span></li>
+                <li class="pay card"><img src="../../images/wangyin.jpg" />银联<span></span></li>
+                <li class="pay qq"><img src="../../images/weizhifu.jpg" />微信<span></span></li>
+                <li class="pay taobao"><img src="../../images/zhifubao.jpg" />支付宝<span></span></li>
             </ul>
         </div>
         <div class="clear"></div>
@@ -180,7 +179,7 @@
                                     <li class="td td-item">
                                         <div class="item-pic">
                                             <a href="#" class="J_MakePoint">
-                                                <img src="images/kouhong.jpg_80x80.jpg" class="itempic J_ItemImg"></a>
+                                                <img src="../../images/kouhong.jpg_80x80.jpg" class="itempic J_ItemImg"></a>
                                         </div>
                                         <div class="item-info">
                                             <div class="item-basic-info">
@@ -244,7 +243,7 @@
                                 <li class="td td-item">
                                     <div class="item-pic">
                                         <a href="#" class="J_MakePoint">
-                                            <img src="images/kouhong.jpg_80x80.jpg" class="itempic J_ItemImg"></a>
+                                            <img src="../../images/kouhong.jpg_80x80.jpg" class="itempic J_ItemImg"></a>
                                     </div>
                                     <div class="item-info">
                                         <div class="item-basic-info">

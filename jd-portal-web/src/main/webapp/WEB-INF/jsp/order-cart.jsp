@@ -14,21 +14,21 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>订单结算页 -京东商城</title>
 	<!--结算页面样式-->	
-	<link rel="stylesheet" type="text/css" href="/css/base.css" media="all" />
-    <link type="text/css" rel="stylesheet"  href="/css/order-commons.css" source="widget"/>	
-	<script type="text/javascript" src="/js/jquery-1.6.4.js"></script>
-	<script type="text/javascript" src="/js/base.js"></script>	
-	<script type="text/javascript" src="/js/order.common.js"></script>
-	<script type="text/javascript" src="/js/jquery.checkout.js"></script>
+	<link rel="stylesheet" type="text/css" href="../../css/base.css" media="all" />
+    <link type="text/css" rel="stylesheet" href="../../css/order-commons.css" source="widget"/>
+	<script type="text/javascript" src="../../js/jquery-1.6.4.js"></script>
+	<script type="text/javascript" src="../../js/base.js"></script>
+	<script type="text/javascript" src="../../js/order.common.js"></script>
+	<script type="text/javascript" src="../../js/jquery.checkout.js"></script>
 </head>	<body id="mainframe">
-<jsp:include page="commons/shortcut.jsp" />
+<jsp:include page="../../commons/shortcut.jsp" />
 <!--shortcut end-->
 
 <div class="w w1 header clearfix">
-    <div id="logo"><a href="/"><img src="/images/jd-logo.png" alt="京东商城"></a></div>
+    <div id="logo"><a href="/"><img src="../../images/jd-logo.png" alt="京东商城"></a></div>
 </div>
 
-<form id="orderForm" class="hide" action="/order/create.html" method="post">
+<form id="orderForm" class="hide" action="order/create" method="post">
 		<input type="hidden" name="paymentType" value="1"/>
 		<c:forEach items="${cartList }" var="cart" varStatus="status">
 			<c:set var="totalPrice"  value="${ totalPrice + (cart.price * cart.num)}"/>
@@ -315,6 +315,6 @@
 </div>
 
 <!-- /main -->
-	<jsp:include page="commons/footer.jsp" />
+	<jsp:include page="../../commons/footer.jsp" />
 	</body>
 </html>

@@ -2,6 +2,7 @@
   <dictionary name="Administrator">
     <words>
       <w>addproduct</w>
+      <w>ajaxfileupload</w>
       <w>amazeui</w>
       <w>cids</w>
       <w>clockpicker</w>
@@ -26,6 +27,7 @@
       <w>psold</w>
       <w>pstock</w>
       <w>regist</w>
+      <w>secureuri</w>
       <w>silde</w>
       <w>sildeshow</w>
       <w>solrj</w>

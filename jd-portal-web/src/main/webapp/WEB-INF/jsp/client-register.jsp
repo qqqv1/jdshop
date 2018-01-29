@@ -23,22 +23,22 @@
         }
     </style>
 
-    <link rel="stylesheet" href="AmazeUI-2.4.2/assets/css/amazeui.min.css" type="text/css" />
-    <link rel="stylesheet" href="css/dlstyle.css" type="text/css">
+    <link rel="stylesheet" href="../../AmazeUI-2.4.2/assets/css/amazeui.min.css" type="text/css" />
+    <link rel="stylesheet" href="../../css/dlstyle.css" type="text/css">
 
-    <script type="text/javascript" src="AmazeUI-2.4.2/assets/js/jquery.min.js"></script>
-    <script type="text/javascript" src="AmazeUI-2.4.2/assets/js/amazeui.min.js"></script>
+    <script type="text/javascript" src="../../AmazeUI-2.4.2/assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../../AmazeUI-2.4.2/assets/js/amazeui.min.js"></script>
 </head>
 
 <body>
 
     <div class="login-boxtitle">
-        <a href="index"><img alt="" src="images/logobig.png" /></a>
+        <a href="index"><img alt="" src="../../images/logobig.png" /></a>
     </div>
 
     <div class="res-banner">
     <div class="res-main">
-        <div class="login-banner-bg"><span></span><img src="images/big.jpg" /></div>
+        <div class="login-banner-bg"><span></span><img src="../../images/big.jpg" /></div>
         <div class="login-box">
             <div class="am-tabs" data-am-tabs>
                 <ul class="am-tabs-nav am-nav am-nav-tabs am-nav-justify">
@@ -117,7 +117,7 @@
     <!--底部-->
     <jsp:include page="bottom.jsp"/>
 
-<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="../../js/jquery-1.7.2.min.js"></script>
 <script type="text/javascript">
     $(function() {
         $("#sub1").click(function(){

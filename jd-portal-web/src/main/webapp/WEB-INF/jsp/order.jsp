@@ -15,20 +15,20 @@
 
     <title>订单管理</title>
 
-    <link href="css/bootstrap.min.css?v=3.3.6" rel="stylesheet">
-    <link href="css/bootstrap-table.css" rel="stylesheet">
+    <link href="../../css/bootstrap.min.css?v=3.3.6" rel="stylesheet">
+    <link href="../../css/bootstrap-table.css" rel="stylesheet">
 
-    <link href="AmazeUI-2.4.2/assets/css/admin.css" rel="stylesheet" type="text/css">
-    <link href="AmazeUI-2.4.2/assets/css/amazeui.css" rel="stylesheet" type="text/css">
+    <link href="../../AmazeUI-2.4.2/assets/css/admin.css" rel="stylesheet" type="text/css">
+    <link href="../../AmazeUI-2.4.2/assets/css/amazeui.css" rel="stylesheet" type="text/css">
 
-    <link href="basic/css/demo.css" rel="stylesheet" type="text/css" />
-    <link href="css/personal.css" rel="stylesheet" type="text/css">
-    <link href="css/orstyle.css" rel="stylesheet" type="text/css">
+    <link href="../../basic/css/demo.css" rel="stylesheet" type="text/css" />
+    <link href="../../css/personal.css" rel="stylesheet" type="text/css">
+    <link href="../../css/orstyle.css" rel="stylesheet" type="text/css">
 
 
 
-    <script src="AmazeUI-2.4.2/assets/js/jquery.min.js"></script>
-    <script src="AmazeUI-2.4.2/assets/js/amazeui.js"></script>
+    <script src="../../AmazeUI-2.4.2/assets/js/jquery.min.js"></script>
+    <script src="../../AmazeUI-2.4.2/assets/js/amazeui.js"></script>
 
 </head>
 
@@ -71,11 +71,11 @@
 </div>
 <%--</div>--%>
         <!-- 全局js -->
-        <script src="js/jquery.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/bootstrap-table.min.js"></script>
-        <script src="js/bootstrap-table-zh-CN.js"></script>
-        <script src="moment/moment-with-locales.js"></script>
+        <script src="../../js/jquery.min.js"></script>
+        <script src="../../js/bootstrap.min.js"></script>
+        <script src="../../js/bootstrap-table.min.js"></script>
+        <script src="../../js/bootstrap-table-zh-CN.js"></script>
+        <script src="../../moment/moment-with-locales.js"></script>
         <script>
             moment.locale();
         </script>

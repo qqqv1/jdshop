@@ -28,7 +28,6 @@
 <body>
 <jsp:include page="top.jsp"/>
 
-<div class="clear"></div>
 <b class="line"></b>
 <div class="search">
     <div class="search-list">

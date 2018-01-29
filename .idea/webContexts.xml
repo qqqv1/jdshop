@@ -19,6 +19,14 @@
         <entry key="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/client-register.jsp" value="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp" />
         <entry key="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/index.jsp" value="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp" />
         <entry key="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/order.jsp" value="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp" />
+        <entry key="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/person/bonus.jsp" value="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp" />
+        <entry key="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/person/client-login.jsp" value="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp" />
+        <entry key="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/person/client-register.jsp" value="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp" />
+        <entry key="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/person/coupon.jsp" value="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp" />
+        <entry key="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/person/order-cart.jsp" value="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp" />
+        <entry key="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/person/order.jsp" value="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp" />
+        <entry key="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/person/pay.jsp" value="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp" />
+        <entry key="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/person/success.jsp" value="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp" />
         <entry key="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/product-info.jsp" value="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp" />
         <entry key="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/product-portal-info.jsp" value="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp" />
         <entry key="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/product-portal-list.jsp" value="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp" />
@@ -26,6 +34,7 @@
         <entry key="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/search.jsp" value="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp" />
         <entry key="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/shopcart.jsp" value="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp" />
         <entry key="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/shoppingcart.jsp" value="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp" />
+        <entry key="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/top.jsp" value="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp" />
       </map>
     </option>
   </component>

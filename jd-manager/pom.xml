@@ -34,7 +34,7 @@
 
         <!--4: Spring相关 -->
         <!--Spring核心依赖 -->
-        <dependency>
+        <!--<dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-core</artifactId>
         </dependency>
@@ -46,7 +46,7 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
         </dependency>
-        <!--Spring DAO层的依赖 -->
+        &lt;!&ndash;Spring DAO层的依赖 &ndash;&gt;
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-jdbc</artifactId>
@@ -55,7 +55,7 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-tx</artifactId>
         </dependency>
-        <!--Spring WEB层的依赖 -->
+        &lt;!&ndash;Spring WEB层的依赖 &ndash;&gt;
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-web</artifactId>
@@ -64,25 +64,25 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
         </dependency>
-        <!--Spring Test的依赖 -->
+        &lt;!&ndash;Spring Test的依赖 &ndash;&gt;
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-test</artifactId>
             <scope>test</scope>
         </dependency>
 
-        <!-- mysql -->
+        &lt;!&ndash; mysql &ndash;&gt;
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
-        <!-- 连接池 -->
+        &lt;!&ndash; 连接池 &ndash;&gt;
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>druid</artifactId>
         </dependency>
 
-        <!-- mybatis包和桥接包-->
+        &lt;!&ndash; mybatis包和桥接包&ndash;&gt;
         <dependency>
             <groupId>org.mybatis</groupId>
             <artifactId>mybatis</artifactId>
@@ -92,21 +92,21 @@
             <artifactId>mybatis-spring</artifactId>
         </dependency>
 
-        <!--slf4j是日志接口(日志规范)，logback是日志实现-->
+        &lt;!&ndash;slf4j是日志接口(日志规范)，logback是日志实现&ndash;&gt;
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
         </dependency>
-        <!--logback的基础模块-->
+        &lt;!&ndash;logback的基础模块&ndash;&gt;
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-core</artifactId>
         </dependency>
-        <!--slf4j的实现并整合，是log4j的改良版本-->
+        &lt;!&ndash;slf4j的实现并整合，是log4j的改良版本&ndash;&gt;
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
-        </dependency>
+        </dependency>-->
 
     </dependencies>
 

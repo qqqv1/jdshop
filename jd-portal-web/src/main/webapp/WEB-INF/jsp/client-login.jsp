@@ -23,10 +23,10 @@
         }
     </style>
 
-    <link rel="stylesheet" href="AmazeUI-2.4.2/assets/css/amazeui.css" type="text/css"/>
-    <link rel="stylesheet" href="css/dlstyle.css" type="text/css">
+    <link rel="stylesheet" href="../../AmazeUI-2.4.2/assets/css/amazeui.css" type="text/css"/>
+    <link rel="stylesheet" href="../../css/dlstyle.css" type="text/css">
 </head>
-<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="../../js/jquery-1.7.2.min.js"></script>
 <script type="text/javascript">
     $(function(){
         $("#submit").click(function () {
@@ -68,12 +68,12 @@
 <body>
 
 <div class="login-boxtitle">
-    <a href="index"><img alt="logo" src="images/logobig.png" /></a>
+    <a href="index"><img alt="logo" src="../../images/logobig.png" /></a>
 </div>
 
 <div class="login-banner">
     <div class="login-main">
-        <div class="login-banner-bg"><span></span><img src="images/big.jpg" /></div>
+        <div class="login-banner-bg"><span></span><img src="../../images/big.jpg" /></div>
         <div class="login-box">
 
             <h3 class="title">登录商城</h3>
