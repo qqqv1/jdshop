@@ -106,6 +106,7 @@ public class ProductServiceImpl implements ProductService {
             pid=IDUtils.getItemId();
             product.setPid(pid);
             product.setPflag(1);
+            product.setPsold(0);
             product.setCreated(new Date());
             product.setUpdated(new Date());
 

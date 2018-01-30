@@ -63,22 +63,21 @@
     </select>
 
     <select id="getSearchProducts" resultType="com.zhou.jdshop.pojo.vo.TbProductCustom">
+        SELECT
+        p.pid AS id,
+        p.pname,
+        p.pdesc,
+        p.shop_price AS  price ,
+        p.pimage,
+        c.cname,
+        p.psold
 
-         SELECT
-         p.pid AS id,
-    p.pname,
-    p.pdesc,
-    p.shop_price AS  price ,
-    p.pimage,
-    c.cname,
-    p.psold
-
-    FROM
-    tb_product p
-    LEFT JOIN tb_product_cat c ON p.cid = c.cid
-    WHERE
-    p.pflag != 0
-    order by p.pid desc
+        FROM
+        tb_product p
+        LEFT JOIN tb_product_cat c ON p.cid = c.cid
+        WHERE
+        p.pflag != 0
+        order by p.pid desc
     </select>
 
     <select id="SearchProductById" resultType="com.zhou.jdshop.pojo.vo.TbProductCustom">
@@ -86,7 +85,7 @@
         p.pid AS id,
         p.pname,
         p.pdesc,
-        p.shop_price AS  price ,
+        p.shop_price AS price ,
         p.pimage,
         c.cname,
         p.psold
