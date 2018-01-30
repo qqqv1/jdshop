@@ -196,41 +196,16 @@
                 alert("请输入商品分类");
                 return false;
             }
-//            var data = $('#product').serialize();
-//            var submitData = decodeURIComponent(data, true);
-            if($('#file').val()!=''){
-                uploadFile();
-            }
             var form = $(this);
-//            alert(form.serialize());
-            $.ajax({
-                url: 'addproduct',
-                type: 'POST',
-                data: form.serialize(),
-                dataType: "json",
-                cache:false,
-                success: function (result) {
-                    console.log(result);
-                    //请求成功时
-                    if (result) {
-                        alert("新增商品成功！");
-                        location.href = 'product-list';
-                        return true;
-                    } else {
-                        alert("新增商品失败！");
-                        return false;
-                    }
-                },
-                error: function () {
-                    //请求失败时
-                    alert("error");
-                    return false;
-                }
-            });
+            if($('#file').val()!=''){
+                uploadFile(form);
+            }else {
+                submitProduct(form);
+            }
             return true;
         })
     });
-    function uploadFile() {
+    function uploadFile(form) {
         $.ajaxFileUpload({
             url : 'file/upload',
             secureuri : false,
@@ -241,7 +216,34 @@
             },
             success : function(data, status) {
                 data= $.parseJSON(data.replace(/<.*?>/ig,''));
-                $('#pimage').val('www.wyfei8.top/images'+data.url)
+                $('#pimage').val('www.wyfei8.top/images'+data.url);
+                submitProduct(form);
+            }
+        });
+    }
+    function submitProduct(form) {
+        $.ajax({
+            url: 'addproduct',
+            type: 'POST',
+            data: form.serialize(),
+            dataType: "json",
+            cache:false,
+            success: function (result) {
+                console.log(result);
+                //请求成功时
+                if (result) {
+                    alert("新增商品成功！");
+                    location.href = 'product-list';
+                    return true;
+                } else {
+                    alert("新增商品失败！");
+                    return false;
+                }
+            },
+            error: function () {
+                //请求失败时
+                alert("error");
+                return false;
             }
         });
     }

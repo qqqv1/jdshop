@@ -2,8 +2,60 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d262294-80cb-456d-94c0-5c70f4aa3cf5" name="Default" comment="1.1">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/src/main/java/com/zhou/jdshop/dao/TbProductCustomMapper.xml" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-dao/src/main/java/com/zhou/jdshop/dao/TbProductCustomMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-service/src/main/java/com/zhou/jdshop/service/impl/ProductServiceImpl.java" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-service/src/main/java/com/zhou/jdshop/service/impl/ProductServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/products/1/556d64fcNf28f90d0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/products/1/c_0001.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/products/1/c_0002.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/products/1/c_0003.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/products/1/c_0004.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/products/1/c_0005.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/products/1/c_0006.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/products/1/c_0007.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/products/1/c_0008.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/products/1/c_0009.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/products/1/c_0010.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/products/1/c_0011.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/products/1/c_0012.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/products/1/c_0013.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/products/1/c_0014.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/products/1/c_0015.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/products/1/c_0016.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/products/1/c_0017.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/products/1/c_0018.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/products/1/c_0019.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/products/1/c_0020.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/products/1/c_0021.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/products/1/c_0022.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/products/1/c_0023.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/products/1/c_0024.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/products/1/c_0025.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/products/1/c_0026.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/products/1/c_0027.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/products/1/c_0028.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/products/1/c_0029.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/products/1/c_0030.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/products/1/c_0031.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/products/1/c_0032.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/products/1/c_0033.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/products/1/c_0034.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/products/1/c_0035.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/products/1/c_0036.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/products/1/c_0037.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/products/1/c_0038.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/products/1/c_0039.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/products/1/c_0040.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/products/1/c_0041.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/products/1/c_0042.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/products/1/c_0043.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/products/1/c_0044.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/products/1/c_0045.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/products/1/c_0046.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/products/1/c_0047.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/products/1/c_0048.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/products/1/c_0049.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/products/1/c_0050.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/product-add.jsp" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/product-add.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/product-edit.jsp" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/product-edit.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/jd-parent/target/" />
     <ignored path="$PROJECT_DIR$/jd-manager/target/" />
@@ -38,47 +90,7 @@
     <favorites_list name="jdshop" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ProductAction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/java/com/zhou/jdshop/web/ProductAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="68" column="42" lean-forward="false" selection-start-line="68" selection-start-column="42" selection-end-line="68" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductAddMessageListener.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/listener/ProductAddMessageListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="37" column="67" lean-forward="true" selection-start-line="37" selection-start-column="67" selection-end-line="37" selection-end-column="67" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TbProductCustomMapper.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-dao/src/main/java/com/zhou/jdshop/dao/TbProductCustomMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="88" column="17" lean-forward="true" selection-start-line="88" selection-start-column="17" selection-end-line="88" selection-end-column="17" />
-              <folding>
-                <marker date="1517300698345" expanded="true" signature="1518:1670" ph="select from tb_product" />
-                <marker date="1517300698345" expanded="true" signature="1750:2085" ph="select from tb_product" />
-                <marker date="1517300698345" expanded="true" signature="2150:2431" ph="select count... tb_product" />
-                <marker date="1517300698345" expanded="true" signature="2517:2692" ph="select from tb_product" />
-                <marker date="1517300698345" expanded="true" signature="2805:3100" ph="SELECT p.pid... tb_product" />
-                <marker date="1517300698345" expanded="true" signature="3213:3524" ph="SELECT p.pid... tb_product" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -131,7 +143,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jd-common/src/main/java/com/zhou/jdshop/dto/ProductOption.java" />
         <option value="$PROJECT_DIR$/jd-portal-web/src/main/resources/spring/spring-mvc.xml" />
         <option value="$PROJECT_DIR$/jd-portal-web/src/main/java/com/zhou/jdshop/web/ProductPortalAction.java" />
         <option value="$PROJECT_DIR$/jd-portal-web/pom.xml" />
@@ -179,9 +190,10 @@
         <option value="$PROJECT_DIR$/jd-search-web/src/main/resources/spring/spring-activemq.xml" />
         <option value="$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/listener/ProductAddMessageListener.java" />
         <option value="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/java/com/zhou/jdshop/web/ProductAction.java" />
-        <option value="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/product-add.jsp" />
         <option value="$PROJECT_DIR$/jd-manager/jd-manager-service/src/main/java/com/zhou/jdshop/service/impl/ProductServiceImpl.java" />
         <option value="$PROJECT_DIR$/jd-manager/jd-manager-dao/src/main/java/com/zhou/jdshop/dao/TbProductCustomMapper.xml" />
+        <option value="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/product-edit.jsp" />
+        <option value="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/product-add.jsp" />
       </list>
     </option>
   </component>
@@ -210,7 +222,17 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="jd-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="jd-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -252,117 +274,16 @@
             <path>
               <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="jd-manager-dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="jd-manager-dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="jd-manager-dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="jd-manager-dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="jd-manager-dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="jd-manager-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="jd-manager-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="jd-manager-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="jd-manager-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="jd-manager-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
               <item name="jd-manager-web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="jd-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-parent" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="jd-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-parent" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="jd-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="jd-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jdshop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="jd-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jdshop" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
@@ -384,33 +305,7 @@
               <item name="jd-search-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jd-search-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jd-search-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
-              <item name="listener" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jd-search-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -432,7 +327,12 @@
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\jdshop\jd-portal-web\src\main\webapp\WEB-INF\jsp" />
+      <recent name="E:\IdeaProjects\jdshop\jd-portal-web\src\main\webapp\WEB-INF\jsp\person" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\jdshop\jd-manager\jd-manager-web\src\main\webapp" />
       <recent name="E:\IdeaProjects\jdshop\jd-manager\jd-manager-service\src\main\java\com\zhou\jdshop\service\impl" />
       <recent name="E:\IdeaProjects\jdshop\jd-manager\jd-manager-interface\src\main\java\com\zhou\jdshop\service" />
       <recent name="E:\IdeaProjects\jdshop\jd-portal-web\src\main\java\com\zhou\jdshop\web" />
@@ -451,10 +351,6 @@
       <recent name="E:\IdeaProjects\jdshop\jd-manager\jd-manager-dao\src\main\java\com\zhou\jdshop\dao" />
       <recent name="E:\IdeaProjects\jdshop\jd-manager\jd-manager-pojo\src\main\java\com\zhou\jdshop\pojo\po" />
       <recent name="E:\IdeaProjects\jdshop\jd-manager\jd-manager-web\src\main\webapp\WEB-INF" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\IdeaProjects\jdshop\jd-portal-web\src\main\webapp\WEB-INF\jsp" />
-      <recent name="E:\IdeaProjects\jdshop\jd-portal-web\src\main\webapp\WEB-INF\jsp\person" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -673,7 +569,7 @@
       <workItem from="1516946493436" duration="20151000" />
       <workItem from="1517016246679" duration="9911000" />
       <workItem from="1517187596037" duration="31749000" />
-      <workItem from="1517272696513" duration="10487000" />
+      <workItem from="1517272696513" duration="13893000" />
     </task>
     <task id="LOCAL-00001" summary="1.1">
       <created>1515112940201</created>
@@ -694,7 +590,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="305658000" />
+    <option name="totallyTimeSpent" value="309064000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -714,15 +610,15 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33109018" sideWeight="0.48424068" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24140401" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33109018" sideWeight="0.48710603" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15329513" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.510745" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33109018" sideWeight="0.5157593" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33109018" sideWeight="0.512894" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24856733" sideWeight="0.487214" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24856733" sideWeight="0.487214" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3144699" sideWeight="0.5070422" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2256447" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -820,41 +716,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/ShoppingCartPortalAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2959">
-          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/solr/solr-solrj/4.10.3/solr-solrj-4.10.3.jar!/org/apache/solr/client/solrj/SolrQuery.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="673" column="21" lean-forward="false" selection-start-line="673" selection-start-column="21" selection-end-line="673" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/product-portal-list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5074">
-          <caret line="28" column="20" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-common/src/main/java/com/zhou/jdshop/dto/ProductOption.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="21" column="18" lean-forward="false" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/solr/solr-solrj/4.10.3/solr-solrj-4.10.3.jar!/org/apache/solr/client/solrj/response/QueryResponse.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="422" column="28" lean-forward="false" selection-start-line="422" selection-start-column="28" selection-end-line="422" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Java/jdk1.8.0_101/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -960,6 +821,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
           <caret line="532" column="38" lean-forward="false" selection-start-line="532" selection-start-column="38" selection-end-line="532" selection-end-column="38" />
+          <folding>
+            <marker date="1517220176622" expanded="true" signature="18971:18978" ph="«" />
+            <marker date="1517220176622" expanded="true" signature="19505:19512" ph="»" />
+            <marker date="1517220176622" expanded="true" signature="20453:20460" ph="«" />
+            <marker date="1517220176622" expanded="true" signature="20993:21000" ph="»" />
+            <marker date="1517220176622" expanded="true" signature="21745:21758" ph="..." />
+            <marker date="1517220176622" expanded="true" signature="21797:21823" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -974,6 +843,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2565">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1115,14 +985,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/product-add.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="202" column="13" lean-forward="false" selection-start-line="202" selection-start-column="13" selection-end-line="202" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/ProductPortalAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-354">
@@ -1228,6 +1090,54 @@
             <marker date="1517300698345" expanded="true" signature="2805:3100" ph="SELECT p.pid... tb_product" />
             <marker date="1517300698345" expanded="true" signature="3213:3524" ph="SELECT p.pid... tb_product" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/resources/spring/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-570">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/product-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1710">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-web/jd-manager-web.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/product-add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="92" column="67" lean-forward="true" selection-start-line="92" selection-start-column="67" selection-end-line="92" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/webapp/WEB-INF/jsp/product-edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="185" column="52" lean-forward="true" selection-start-line="185" selection-start-column="52" selection-end-line="185" selection-end-column="52" />
+          <folding />
         </state>
       </provider>
     </entry>
