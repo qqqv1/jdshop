@@ -89,7 +89,7 @@
                         <div class="form-group">
                             <label class="col-sm-3 control-label"><span style="color:red;"></span>图片：</label>
                             <div class="col-sm-8">
-                                <input type="file" id="file" name="upfile" onchange="javascript:uploadFile()" value="选择图片"/>
+                                <input type="file" id="file" name="upfile" value="选择图片"/>
                                 <span class="help-block m-b-none"></span>
                                 <input type="hidden" id="pimage" name="pimage" value="">
                             </div>
@@ -198,8 +198,11 @@
             }
 //            var data = $('#product').serialize();
 //            var submitData = decodeURIComponent(data, true);
+            if($('#file').val()!=''){
+                uploadFile();
+            }
             var form = $(this);
-            alert(form.serialize());
+//            alert(form.serialize());
             $.ajax({
                 url: 'addproduct',
                 type: 'POST',
@@ -207,8 +210,9 @@
                 dataType: "json",
                 cache:false,
                 success: function (result) {
+                    console.log(result);
                     //请求成功时
-                    if (result > 0) {
+                    if (result) {
                         alert("新增商品成功！");
                         location.href = 'product-list';
                         return true;
