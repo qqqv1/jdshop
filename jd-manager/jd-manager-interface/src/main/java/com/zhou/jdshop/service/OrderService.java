@@ -7,7 +7,7 @@ import com.zhou.jdshop.pojo.vo.TbOrdersCustom;
 import java.util.List;
 
 public interface OrderService extends  OrderManagerService{
-
+    //继承接口
     /**
      * 查询所有订单
      *

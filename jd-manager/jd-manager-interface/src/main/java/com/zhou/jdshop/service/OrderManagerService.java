@@ -4,6 +4,6 @@ import com.zhou.jdshop.pojo.OrderInfo;
 import com.zhou.jdshop.util.JdResult;
 
 public interface OrderManagerService {
-
+	//返回jdResult
 	JdResult createOrder(OrderInfo orderInfo);
 }

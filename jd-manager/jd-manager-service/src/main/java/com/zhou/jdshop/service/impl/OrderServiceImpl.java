@@ -117,10 +117,7 @@ public class OrderServiceImpl implements OrderService {
         try {
             //存放3张表,订单表和订单详情表和tb_order_shipping
             //tb_orders
-           /* TbOrderExample example = new TbOrderExample();
-            TbOrderExample.Criteria criteria = example.createCriteria();
-            criteria.andOrderIdEqualTo(orderId);
-            i=ordersDao.updateByExampleSelective(orders,example);*/
+
             //   tb_order_item
             TbOrderItem tbOrderItem = new TbOrderItem();
             tbOrderItem.setNum(Integer.parseInt(num));

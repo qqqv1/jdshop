@@ -6,7 +6,7 @@ import com.zhou.jdshop.pojo.po.TbOrderShipping;
 
 import java.io.Serializable;
 import java.util.List;
-
+//TbOrder ,TbOrderItem, TbOrderShipping合在一个pojo
 public class OrderInfo extends TbOrder implements Serializable{
 
     private List<TbOrderItem> orderItems;

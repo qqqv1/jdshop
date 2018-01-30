@@ -78,7 +78,7 @@ public class OrderManagerAction {
 		DateTime dateTime = new DateTime();
 		dateTime = dateTime.plusDays(3);
 		model.addAttribute("date", dateTime.toString("yyyy-MM-dd"));
-		
+		//返回success视图
 		return "success";
 	}
 }
