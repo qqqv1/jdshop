@@ -1,9 +1,13 @@
 package com.zhou.jdshop.service;
 
-import com.zhou.jdshop.pojo.OrderInfo;
-import com.zhou.jdshop.util.JdResult;
+import com.zhou.jdshop.pojo.vo.Cart;
+import javax.servlet.http.HttpSession;
+import java.util.List;
 
 public interface OrderManagerService {
-	//返回jdResult
-	JdResult createOrder(OrderInfo orderInfo);
+	//生成订单
+	int createOrder(HttpSession session);
+
+	//查询订单
+	List<Cart> selectOrder();
 }
