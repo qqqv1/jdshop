@@ -1,0 +1,6 @@
+com\zhou\jdshop\web\CategoryPortalAction.class
+com\zhou\jdshop\web\OrderManagerAction.class
+com\zhou\jdshop\web\ProductPortalAction.class
+com\zhou\jdshop\web\UserPortalAction.class
+com\zhou\jdshop\web\ShoppingCartPortalAction.class
+com\zhou\jdshop\web\IndexAction.class
