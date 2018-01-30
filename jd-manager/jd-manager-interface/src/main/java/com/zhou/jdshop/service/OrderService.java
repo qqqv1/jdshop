@@ -6,7 +6,7 @@ import com.zhou.jdshop.pojo.vo.TbOrdersCustom;
 
 import java.util.List;
 
-public interface OrderService {
+public interface OrderService extends  OrderManagerService{
 
     /**
      * 查询所有订单
@@ -38,10 +38,4 @@ public interface OrderService {
      * @return
      */
     int editOrder(String title, String id, String orderId, String num, String totalFee, String receiverName, String receiverMobile, String receiverAddress);
-
-
-    //业务层保存订单的方法
-    int insert(TbOrder record);
-
-    void insertOrderItem(TbOrderItem orderitem);
 }

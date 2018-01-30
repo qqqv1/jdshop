@@ -4,15 +4,21 @@ import com.zhou.jdshop.dao.TbOrderItemMapper;
 import com.zhou.jdshop.dao.TbOrderMapper;
 import com.zhou.jdshop.dao.TbOrderShippingMapper;
 import com.zhou.jdshop.dao.TbOrdersCustomMapper;
+import com.zhou.jdshop.pojo.OrderInfo;
 import com.zhou.jdshop.pojo.po.*;
 import com.zhou.jdshop.pojo.vo.TbOrdersCustom;
 import com.zhou.jdshop.service.OrderService;
+import com.zhou.jdshop.util.CommonsUtils;
+import com.zhou.jdshop.util.IDUtils;
+import com.zhou.jdshop.util.JdResult;
+import com.zhou.jdshop.util.UUIDUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.Date;
 import java.util.List;
 
 @Service
@@ -100,6 +106,8 @@ public class OrderServiceImpl implements OrderService {
      * 修改订单
      *
      * @param
+     * @param id
+     * @param orderId
      * @return
      */
     @Transactional
@@ -140,14 +148,41 @@ public class OrderServiceImpl implements OrderService {
         return i;
     }
 
+
+    //生成订单
     @Override
-    public int insert(TbOrder record) {
-        System.out.println("Hello");
-        return 0;
+    public JdResult createOrder(OrderInfo orderInfo) {
+        //生成订单id
+        String orderId = CommonsUtils.getUUID();
+        //向订单表插入数据，需要补全pojo的属性
+        orderInfo.setOrderId(orderId);
+        //免邮费
+        orderInfo.setPostFee(1.0);
+        //1、未付款，2、已付款，3、未发货，4、已发货，5、交易成功，6、交易关闭
+        orderInfo.setStatus(1);
+        //订单创建时间
+        orderInfo.setCreateTime(new Date());
+        orderInfo.setUpdateTime(new Date());
+        //向订单 表插入数据
+        ordersDao.insert(orderInfo);
+        //向订单明细表插入数据。
+        List<TbOrderItem> orderItems = orderInfo.getOrderItems();
+        for (TbOrderItem tbOrderItem : orderItems) {
+            //获得明细主键
+            String oid = CommonsUtils.getUUID(); //生成订单详情表id
+            tbOrderItem.setId(oid);
+            tbOrderItem.setOrderId(orderId);
+            //插入明细数据
+            tbOrderItemDao.insert(tbOrderItem);
+        }
+        //向订单物流表插入数据
+        TbOrderShipping orderShipping = orderInfo.getOrderShipping();
+        orderShipping.setOrderId(orderId);
+        orderShipping.setCreated(new Date());
+        orderShipping.setUpdated(new Date());
+        tbOrderShippingDao.insert(orderShipping);
+        //返回订单号
+        return JdResult.ok(orderId);
     }
 
-    @Override
-    public void insertOrderItem(TbOrderItem orderitem) {
-
-    }
 }
