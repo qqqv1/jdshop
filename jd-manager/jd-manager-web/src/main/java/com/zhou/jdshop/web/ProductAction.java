@@ -8,6 +8,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jms.core.JmsTemplate;
+import org.springframework.jms.core.MessageCreator;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
@@ -66,7 +67,13 @@ public class ProductAction {
         MessageResult ms = new MessageResult();
         try {
             Long pid = productService.saveProduct(product);
-            jmsTemplate.send(topicDestination, (Session session) -> session.createTextMessage(pid + ""));
+            jmsTemplate.send(topicDestination, new MessageCreator() {
+                @Override
+                public Message createMessage(Session session) throws JMSException {
+                    TextMessage textMessage = session.createTextMessage(pid + "");
+                    return textMessage;
+                }
+            });
             ms.setSuccess(true);
             ms.setMessage("新增1个商品成功");
         } catch (Exception e) {
