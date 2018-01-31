@@ -208,7 +208,7 @@
             </div>
 
             <div class="btn-area">
-                <a href="pay.html" id="J_Go" class="submit-btn submit-btn-disabled" aria-label="请注意如果没有选择宝贝，将无法结算">
+                <a href="javascript:toOrder()" id="J_Go" class="submit-btn submit-btn-disabled" aria-label="请注意如果没有选择宝贝，将无法结算">
                     <span>结&nbsp;算</span>
                 </a>
             </div>
@@ -222,7 +222,7 @@
     // 继续购物
 
     function goonShopping(){
-        window.location.href="${pageContext.request.contextPath}/product-portal-list";
+        window.location.href="${pageContext.request.contextPath}/product-portal-list?keyword=手机";
     }
 
     //    选中一种
@@ -252,6 +252,15 @@
                 $('#price').text((data.total).toFixed(1));
             }
         });
+    }
+
+    function toOrder() {
+        if('${sessionUser}'!=''){
+            window.location.href='${pageContext.request.contextPath}/order/cartList';
+        }else {
+            alert('请先登录！');
+            window.location.href='client-login';
+        }
     }
 </script>
 </body>

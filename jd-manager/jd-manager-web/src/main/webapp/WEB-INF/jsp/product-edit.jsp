@@ -186,7 +186,7 @@
                 $("#shopPrice").val(data.shopPrice);
                 $("#pstock").val(data.pstock);
                 $("#cid").val(data.cid);
-                $("#pic").append('<img src=http://'+data.pimage+' style="height:150px;width:150px"/>');
+                $("#pic").append('<img src='+data.pimage+' style="height:150px;width:150px"/>');
                 ue.ready(function(){
                     ue.setContent(data.pdesc);
                 })
@@ -260,7 +260,7 @@
             },
             success : function(data, status) {
                 data= $.parseJSON(data.replace(/<.*?>/ig,''));
-                $('#pimage').val('www.wyfei8.top/images'+data.url)
+                $('#pimage').val('http://www.wyfei8.top/images'+data.url)
             }
         });
     }

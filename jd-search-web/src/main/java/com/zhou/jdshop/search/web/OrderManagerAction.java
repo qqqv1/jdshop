@@ -1,4 +1,4 @@
-package com.zhou.jdshop.web;
+package com.zhou.jdshop.search.web;
 
 import com.zhou.jdshop.pojo.vo.Cart;
 import com.zhou.jdshop.service.OrderManagerService;
@@ -20,12 +20,11 @@ public class OrderManagerAction {
 
 	@RequestMapping("/order/addOrder")
 	public String saveOrder(Cart order,HttpSession session) {
-		int j=0;
-		j=orderManagerService.createOrder(order,session);
-		if(j>0) {
-			session.removeAttribute("cart");
-			session.removeAttribute("order");
-		}
+		//从session中取购物车商品列表
+		int i=0;
+        i=orderManagerService.createOrder(order,session);
+        session.removeAttribute("cart");
+        session.removeAttribute("order");
 		return "redirect:/pay";
 	}
 

@@ -502,27 +502,29 @@
                 $('#last').on('click',function () {
                     productOption.page=data.totalPages;
                     displayProduct(productOption);
-                });
+                });i
                 $('#product').empty();
-                $.each(data.itemList,function (i,product) {
-                    $li=$('<li>');
-                    $li.on('click',function () {
-                       window.location.href='product-portal-info?pid='+product.id;
-                    });
-                    $div=$('<div class="i-pic limit">');
-                    $img=$('<div style="padding: 35px"><img src="'+product.pimage+'" style="width: 148px;height: 148px" alt="暂缺"/></div>'+
-                        '                        <p class="title fl">'+product.pname+'</p>\n' +
-                        '                        <p class="price fl">\n' +
-                        '                        <b>¥</b>\n' +
-                        '                        <strong>'+product.price+'</strong>\n' +
-                        '                        </p>\n' +
-                        '                        <p class="number fl">\n' +
-                        '                        销量<span>'+product.psold+'</span>\n' +
-                        '                        </p>');
-                    $div.append($img);
-                    $li.append($div);
-                    $('#product').append($li);
-                })
+                if(data.itemList!=null) {
+                    $.each(data.itemList, function (i, product) {
+                        $li = $('<li>');
+                        $li.on('click', function () {
+                            window.location.href = 'product-portal-info?pid=' + product.id;
+                        });
+                        $div = $('<div class="i-pic limit">');
+                        $img = $('<div style="padding: 35px"><img src="' + product.pimage + '" style="width: 148px;height: 148px" alt="暂缺"/></div>' +
+                            '                        <p class="title fl">' + product.pname + '</p>\n' +
+                            '                        <p class="price fl">\n' +
+                            '                        <b>¥</b>\n' +
+                            '                        <strong>' + product.price + '</strong>\n' +
+                            '                        </p>\n' +
+                            '                        <p class="number fl">\n' +
+                            '                        销量<span>' + product.psold + '</span>\n' +
+                            '                        </p>');
+                        $div.append($img);
+                        $li.append($div);
+                        $('#product').append($li);
+                    })
+                }
             }
         })
     }

@@ -216,7 +216,7 @@
             },
             success : function(data, status) {
                 data= $.parseJSON(data.replace(/<.*?>/ig,''));
-                $('#pimage').val('www.wyfei8.top/images'+data.url);
+                $('#pimage').val('http://www.wyfei8.top/images'+data.url);
                 submitProduct(form);
             }
         });

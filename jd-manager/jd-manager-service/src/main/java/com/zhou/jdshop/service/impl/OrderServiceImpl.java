@@ -145,13 +145,14 @@ public class OrderServiceImpl implements OrderService {
 
 
     //生成订单
+    @Transactional
     @Override
-    public int createOrder(HttpSession session) {
+    public int createOrder(Cart order,HttpSession session) {
         int i=0;
+        int j=0;
         //生成订单id
         String orderId = CommonsUtils.getUUID();
         //向订单表插入数据，需要补全pojo的属性
-        Cart cart = (Cart)session.getAttribute("cart");
         TbUser tbUser = (TbUser)session.getAttribute("sessionUser");
         TbOrder tbOrder = new TbOrder();
         tbOrder.setOrderId(orderId);
@@ -160,18 +161,21 @@ public class OrderServiceImpl implements OrderService {
         tbOrder.setCreateTime(new Date());
         tbOrder.setUpdateTime(new Date());
         tbOrder.setUserId(tbUser.getUid());
-        i+=ordersDao.insert(tbOrder);
-        for(CartItem cartItem : cart.getItems().values()){
+        i +=ordersDao.insert(tbOrder);
+        for(CartItem orderItem : order.getItems().values()){
             TbOrderItem tbOrderItem=new TbOrderItem();
             tbOrderItem.setOrderId(orderId);
-            tbOrderItem.setItemId(cartItem.getProduct().getPid());
-            tbOrderItem.setPrice(cartItem.getProduct().getShopPrice());
-            tbOrderItem.setNum(cartItem.getCount());
-            tbOrderItem.setPicPath(cartItem.getProduct().getPimage());
-            tbOrderItem.setTotalFee(cartItem.getSubTotal());
+            tbOrderItem.setItemId(orderItem.getProduct().getPid());
+            tbOrderItem.setPrice(orderItem.getProduct().getShopPrice());
+            tbOrderItem.setNum(orderItem.getCount());
+            tbOrderItem.setPicPath(orderItem.getProduct().getPimage());
+            tbOrderItem.setTotalFee(orderItem.getSubTotal());
             tbOrderItem.setTitle("1");
             tbOrderItem.setId(CommonsUtils.getUUID());
-            i+=tbOrderItemDao.insert(tbOrderItem);
+            j=tbOrderItemDao.insert(tbOrderItem);
+            if(j<1){
+                return 0;
+            }
         }
         return i;
     }
