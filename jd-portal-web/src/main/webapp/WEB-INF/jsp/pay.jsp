@@ -9,17 +9,18 @@
 <html>
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 ,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0 ,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
     <title>结算页面</title>
 
-    <link href="../../AmazeUI-2.4.2/assets/css/amazeui.css" rel="stylesheet" type="text/css" />
+    <link href="../../AmazeUI-2.4.2/assets/css/amazeui.css" rel="stylesheet" type="text/css"/>
 
-    <link href="../../basic/css/demo.css" rel="stylesheet" type="text/css" />
-    <link href="../../css/cartstyle.css" rel="stylesheet" type="text/css" />
+    <link href="../../basic/css/demo.css" rel="stylesheet" type="text/css"/>
+    <link href="../../css/cartstyle.css" rel="stylesheet" type="text/css"/>
 
-    <link href="../../css/jsstyle.css" rel="stylesheet" type="text/css" />
+    <link href="../../css/jsstyle.css" rel="stylesheet" type="text/css"/>
 
     <script type="text/javascript" src="../../js/address.js"></script>
 
@@ -40,31 +41,28 @@
             <ul>
                 <div class="per-border"></div>
                 <li class="user-addresslist defaultAddr">
-
                     <div class="address-left">
                         <div class="user DefaultAddr">
-
-										<span class="buy-address-detail">
-                   <span class="buy-user">艾迪 </span>
-										<span class="buy-phone">15888888888</span>
-										</span>
+                            <span class="buy-address-detail">
+                                <span class="buy-user">艾迪 </span>
+                                <span class="buy-phone">15888888888</span>
+                            </span>
                         </div>
                         <div class="default-address DefaultAddr">
                             <span class="buy-line-title buy-line-title-type">收货地址：</span>
                             <span class="buy--address-detail">
-								   <span class="province">湖北</span>省
-										<span class="city">武汉</span>市
-										<span class="dist">洪山</span>区
-										<span class="street">雄楚大道666号(中南财经政法大学)</span>
-										</span>
-
+                                <span class="province">湖北</span>省
+                                <span class="city">武汉</span>市
+                                <span class="dist">洪山</span>区
+                                <span class="street">雄楚大道666号(中南财经政法大学)</span>
                             </span>
                         </div>
                         <ins class="deftip">默认地址</ins>
                     </div>
                     <div class="address-right">
                         <a href="#">
-                            <span class="am-icon-angle-right am-icon-lg"></span></a>
+                            <span class="am-icon-angle-right am-icon-lg"></span>
+                        </a>
                     </div>
                     <div class="clear"></div>
 
@@ -81,21 +79,18 @@
                 <li class="user-addresslist">
                     <div class="address-left">
                         <div class="user DefaultAddr">
-
-										<span class="buy-address-detail">
-                   <span class="buy-user">艾迪 </span>
-										<span class="buy-phone">15877777777</span>
-										</span>
+                            <span class="buy-address-detail">
+                                <span class="buy-user">艾迪 </span>
+                                <span class="buy-phone">15877777777</span>
+                            </span>
                         </div>
                         <div class="default-address DefaultAddr">
                             <span class="buy-line-title buy-line-title-type">收货地址：</span>
                             <span class="buy--address-detail">
-								   <span class="province">湖北</span>省
-										<span class="city">武汉</span>市
-										<span class="dist">武昌</span>区
-										<span class="street">东湖路75号众环大厦9栋9层999</span>
-										</span>
-
+                                <span class="province">湖北</span>省
+                                <span class="city">武汉</span>市
+                                <span class="dist">武昌</span>区
+                                <span class="street">东湖路75号众环大厦9栋9层999</span>
                             </span>
                         </div>
                         <ins class="deftip hidden">默认地址</ins>
@@ -110,7 +105,7 @@
                         <span class="new-addr-bar">|</span>
                         <a href="#">编辑</a>
                         <span class="new-addr-bar">|</span>
-                        <a href="javascript:void(0);"  onclick="delClick(this);">删除</a>
+                        <a href="javascript:void(0);" onclick="delClick(this);">删除</a>
                     </div>
 
                 </li>
@@ -123,11 +118,21 @@
         <div class="logistics">
             <h3>选择物流方式</h3>
             <ul class="op_express_delivery_hot">
-                <li data-value="yuantong" class="OP_LOG_BTN  "><i class="c-gap-right" style="background-position:0px -468px"></i>圆通<span></span></li>
-                <li data-value="shentong" class="OP_LOG_BTN  "><i class="c-gap-right" style="background-position:0px -1008px"></i>申通<span></span></li>
-                <li data-value="yunda" class="OP_LOG_BTN  "><i class="c-gap-right" style="background-position:0px -576px"></i>韵达<span></span></li>
-                <li data-value="zhongtong" class="OP_LOG_BTN op_express_delivery_hot_last "><i class="c-gap-right" style="background-position:0px -324px"></i>中通<span></span></li>
-                <li data-value="shunfeng" class="OP_LOG_BTN  op_express_delivery_hot_bottom"><i class="c-gap-right" style="background-position:0px -180px"></i>顺丰<span></span></li>
+                <li data-value="yuantong" class="OP_LOG_BTN  "><i class="c-gap-right"
+                                                                  style="background-position:0px -468px"></i>圆通<span></span>
+                </li>
+                <li data-value="shentong" class="OP_LOG_BTN  "><i class="c-gap-right"
+                                                                  style="background-position:0px -1008px"></i>申通<span></span>
+                </li>
+                <li data-value="yunda" class="OP_LOG_BTN  "><i class="c-gap-right"
+                                                               style="background-position:0px -576px"></i>韵达<span></span>
+                </li>
+                <li data-value="zhongtong" class="OP_LOG_BTN op_express_delivery_hot_last "><i class="c-gap-right"
+                                                                                               style="background-position:0px -324px"></i>中通<span></span>
+                </li>
+                <li data-value="shunfeng" class="OP_LOG_BTN  op_express_delivery_hot_bottom"><i class="c-gap-right"
+                                                                                                style="background-position:0px -180px"></i>顺丰<span></span>
+                </li>
             </ul>
         </div>
         <div class="clear"></div>
@@ -136,9 +141,9 @@
         <div class="logistics">
             <h3>选择支付方式</h3>
             <ul class="pay-list">
-                <li class="pay card"><img src="../../images/wangyin.jpg" />银联<span></span></li>
-                <li class="pay qq"><img src="../../images/weizhifu.jpg" />微信<span></span></li>
-                <li class="pay taobao"><img src="../../images/zhifubao.jpg" />支付宝<span></span></li>
+                <li class="pay card"><img src="../../images/wangyin.jpg"/>银联<span></span></li>
+                <li class="pay qq"><img src="../../images/weizhifu.jpg"/>微信<span></span></li>
+                <li class="pay taobao"><img src="../../images/zhifubao.jpg"/>支付宝<span></span></li>
             </ul>
         </div>
         <div class="clear"></div>
@@ -179,11 +184,14 @@
                                     <li class="td td-item">
                                         <div class="item-pic">
                                             <a href="#" class="J_MakePoint">
-                                                <img src="../../images/kouhong.jpg_80x80.jpg" class="itempic J_ItemImg"></a>
+                                                <img src="../../images/kouhong.jpg_80x80.jpg" class="itempic J_ItemImg">
+                                            </a>
                                         </div>
                                         <div class="item-info">
                                             <div class="item-basic-info">
-                                                <a href="#" class="item-title J_MakePoint" data-point="tbcart.8.11">美康粉黛醉美唇膏 持久保湿滋润防水不掉色</a>
+                                                <a href="#" class="item-title J_MakePoint" data-point="tbcart.8.11">美康粉黛醉美唇膏
+                                                    持久保湿滋润防水不掉色
+                                                </a>
                                             </div>
                                         </div>
                                     </li>
@@ -206,9 +214,10 @@
                                         <div class="item-amount ">
                                             <span class="phone-title">购买数量</span>
                                             <div class="sl">
-                                                <input class="min am-btn" name="" type="button" value="-" />
-                                                <input class="text_box" name="" type="text" value="3" style="width:30px;" />
-                                                <input class="add am-btn" name="" type="button" value="+" />
+                                                <input class="min am-btn" name="" type="button" value="-"/>
+                                                <input class="text_box" name="" type="text" value="3"
+                                                       style="width:30px;"/>
+                                                <input class="add am-btn" name="" type="button" value="+"/>
                                             </div>
                                         </div>
                                     </div>
@@ -243,11 +252,15 @@
                                 <li class="td td-item">
                                     <div class="item-pic">
                                         <a href="#" class="J_MakePoint">
-                                            <img src="../../images/kouhong.jpg_80x80.jpg" class="itempic J_ItemImg"></a>
+                                            <img src="../../images/kouhong.jpg_80x80.jpg" class="itempic J_ItemImg">
+                                        </a>
                                     </div>
                                     <div class="item-info">
                                         <div class="item-basic-info">
-                                            <a href="#" target="_blank" title="美康粉黛醉美唇膏 持久保湿滋润防水不掉色" class="item-title J_MakePoint" data-point="tbcart.8.11">美康粉黛醉美唇膏 持久保湿滋润防水不掉色</a>
+                                            <a href="#" target="_blank" title="美康粉黛醉美唇膏 持久保湿滋润防水不掉色"
+                                               class="item-title J_MakePoint" data-point="tbcart.8.11">美康粉黛醉美唇膏
+                                                持久保湿滋润防水不掉色
+                                            </a>
                                         </div>
                                     </div>
                                 </li>
@@ -271,9 +284,9 @@
                                     <div class="item-amount ">
                                         <span class="phone-title">购买数量</span>
                                         <div class="sl">
-                                            <input class="min am-btn" name="" type="button" value="-" />
-                                            <input class="text_box" name="" type="text" value="3" style="width:30px;" />
-                                            <input class="add am-btn" name="" type="button" value="+" />
+                                            <input class="min am-btn" name="" type="button" value="-"/>
+                                            <input class="text_box" name="" type="text" value="3" style="width:30px;"/>
+                                            <input class="add am-btn" name="" type="button" value="+"/>
                                         </div>
                                     </div>
                                 </div>
@@ -305,7 +318,8 @@
                 <div class="order-user-info">
                     <div id="holyshit257" class="memo">
                         <label>买家留言：</label>
-                        <input type="text" title="选填,对本次交易的说明（建议填写已经和卖家达成一致的说明）" placeholder="选填,建议填写和卖家达成一致的说明" class="memo-input J_MakePoint c2c-text-default memo-close">
+                        <input type="text" title="选填,对本次交易的说明（建议填写已经和卖家达成一致的说明）" placeholder="选填,建议填写和卖家达成一致的说明"
+                               class="memo-input J_MakePoint c2c-text-default memo-close">
                         <div class="msg hidden J-msg">
                             <p class="error">最多输入500个字符</p>
                         </div>
@@ -378,8 +392,9 @@
                 <div class="box">
                     <div tabindex="0" id="holyshit267" class="realPay"><em class="t">实付款：</em>
                         <span class="price g_price ">
-                                    <span>¥</span> <em class="style-large-bold-red " id="J_ActualFee">244.00</em>
-											</span>
+                            <span>¥</span>
+                            <em class="style-large-bold-red " id="J_ActualFee">244.00</em>
+                        </span>
                     </div>
 
                     <div id="holyshit268" class="pay-address">
@@ -387,19 +402,18 @@
                         <p class="buy-footer-address">
                             <span class="buy-line-title buy-line-title-type">寄送至：</span>
                             <span class="buy--address-detail">
-								   <span class="province">湖北</span>省
-												<span class="city">武汉</span>市
-												<span class="dist">洪山</span>区
-												<span class="street">雄楚大道666号(中南财经政法大学)</span>
-												</span>
+                                <span class="province">湖北</span>省
+                                <span class="city">武汉</span>市
+                                <span class="dist">洪山</span>区
+                                <span class="street">雄楚大道666号(中南财经政法大学)</span>
                             </span>
                         </p>
                         <p class="buy-footer-address">
                             <span class="buy-line-title">收货人：</span>
                             <span class="buy-address-detail">
-                                         <span class="buy-user">艾迪 </span>
-												<span class="buy-phone">15871145629</span>
-												</span>
+                                <span class="buy-user">艾迪 </span>
+                                <span class="buy-phone">15871145629</span>
+                            </span>
                         </p>
                     </div>
                 </div>
@@ -424,7 +438,9 @@
 
     <!--标题 -->
     <div class="am-cf am-padding">
-        <div class="am-fl am-cf"><strong class="am-text-danger am-text-lg">新增地址</strong> / <small>Add address</small></div>
+        <div class="am-fl am-cf"><strong class="am-text-danger am-text-lg">新增地址</strong> /
+            <small>Add address</small>
+        </div>
     </div>
     <hr/>
 
