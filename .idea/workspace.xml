@@ -2,48 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d262294-80cb-456d-94c0-5c70f4aa3cf5" name="Default" comment="1.1">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-consumer-web/jd-consumer-web.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-provider-web/jd-provider-web.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-ws-client/jd-ws-client.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-ws-publisher/jd-ws-publisher.iml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-service/src/main/java/com/zhou/jdshop/service/impl/CategoryServiceImpl.java" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-service/src/main/java/com/zhou/jdshop/service/impl/CategoryServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-service/src/main/java/com/zhou/jdshop/service/impl/FileServiceImpl.java" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-service/src/main/java/com/zhou/jdshop/service/impl/FileServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-service/src/main/java/com/zhou/jdshop/service/impl/OrderServiceImpl.java" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-service/src/main/java/com/zhou/jdshop/service/impl/OrderServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-service/src/main/java/com/zhou/jdshop/service/impl/ProductIndexServiceImpl.java" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-service/src/main/java/com/zhou/jdshop/service/impl/ProductIndexServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-service/src/main/java/com/zhou/jdshop/service/impl/ProductServiceImpl.java" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-service/src/main/java/com/zhou/jdshop/service/impl/ProductServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-service/src/main/java/com/zhou/jdshop/service/impl/SearchServiceImpl.java" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-service/src/main/java/com/zhou/jdshop/service/impl/SearchServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-service/src/main/java/com/zhou/jdshop/service/impl/TbContentServiceImpl.java" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-service/src/main/java/com/zhou/jdshop/service/impl/TbContentServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-service/src/main/java/com/zhou/jdshop/service/impl/TbLunBoServiceImpl.java" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-service/src/main/java/com/zhou/jdshop/service/impl/TbLunBoServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-service/src/main/java/com/zhou/jdshop/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-service/src/main/java/com/zhou/jdshop/service/impl/UserServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/java/com/zhou/jdshop/web/CategoryAction.java" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/java/com/zhou/jdshop/web/CategoryAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/java/com/zhou/jdshop/web/FileAction.java" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/java/com/zhou/jdshop/web/FileAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/java/com/zhou/jdshop/web/OrderAction.java" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/java/com/zhou/jdshop/web/OrderAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/java/com/zhou/jdshop/web/ProductAction.java" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/java/com/zhou/jdshop/web/ProductAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/java/com/zhou/jdshop/web/ProductIndexAction.java" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/java/com/zhou/jdshop/web/ProductIndexAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/java/com/zhou/jdshop/web/UserAction.java" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/java/com/zhou/jdshop/web/UserAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-portal-web/src/main/java/com/zhou/jdshop/web/CategoryPortalAction.java" afterPath="$PROJECT_DIR$/jd-portal-web/src/main/java/com/zhou/jdshop/web/CategoryPortalAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-portal-web/src/main/java/com/zhou/jdshop/web/IndexAction.java" afterPath="$PROJECT_DIR$/jd-portal-web/src/main/java/com/zhou/jdshop/web/IndexAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-portal-web/src/main/java/com/zhou/jdshop/web/OrderManagerAction.java" afterPath="$PROJECT_DIR$/jd-portal-web/src/main/java/com/zhou/jdshop/web/OrderManagerAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-portal-web/src/main/java/com/zhou/jdshop/web/ProductPortalAction.java" afterPath="$PROJECT_DIR$/jd-portal-web/src/main/java/com/zhou/jdshop/web/ProductPortalAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-portal-web/src/main/java/com/zhou/jdshop/web/ShoppingCartPortalAction.java" afterPath="$PROJECT_DIR$/jd-portal-web/src/main/java/com/zhou/jdshop/web/ShoppingCartPortalAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-portal-web/src/main/java/com/zhou/jdshop/web/UserPortalAction.java" afterPath="$PROJECT_DIR$/jd-portal-web/src/main/java/com/zhou/jdshop/web/UserPortalAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/CategoryPortalAction.java" afterPath="$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/CategoryPortalAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/IndexAction.java" afterPath="$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/IndexAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/OrderManagerAction.java" afterPath="$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/OrderManagerAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/ProductPortalAction.java" afterPath="$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/ProductPortalAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/SearchIndexAction.java" afterPath="$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/SearchIndexAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/ShoppingCartPortalAction.java" afterPath="$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/ShoppingCartPortalAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/UserPortalAction.java" afterPath="$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/UserPortalAction.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-interface/src/main/java/com/zhou/jdshop/dubbo/service/CategoryService.java" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-interface/src/main/java/com/zhou/jdshop/service/CategoryService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-interface/src/main/java/com/zhou/jdshop/dubbo/service/FileService.java" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-interface/src/main/java/com/zhou/jdshop/service/FileService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-interface/src/main/java/com/zhou/jdshop/dubbo/service/OrderService.java" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-interface/src/main/java/com/zhou/jdshop/service/OrderService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-interface/src/main/java/com/zhou/jdshop/dubbo/service/ProductIndexService.java" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-interface/src/main/java/com/zhou/jdshop/service/ProductIndexService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-interface/src/main/java/com/zhou/jdshop/dubbo/service/ProductService.java" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-interface/src/main/java/com/zhou/jdshop/service/ProductService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-interface/src/main/java/com/zhou/jdshop/dubbo/service/SearchService.java" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-interface/src/main/java/com/zhou/jdshop/service/SearchService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-interface/src/main/java/com/zhou/jdshop/dubbo/service/TbContentService.java" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-interface/src/main/java/com/zhou/jdshop/service/TbContentService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-interface/src/main/java/com/zhou/jdshop/dubbo/service/TbLunBoService.java" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-interface/src/main/java/com/zhou/jdshop/service/TbLunBoService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-interface/src/main/java/com/zhou/jdshop/dubbo/service/UserService.java" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-interface/src/main/java/com/zhou/jdshop/service/UserService.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_8_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jms_4_3_8_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_4_3_8_RELEASE.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/jd_manager_web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/jd_manager_web_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/jd_portal_web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/jd_portal_web_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/jd_search_web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/jd_search_web_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-common/jd-common.iml" afterPath="$PROJECT_DIR$/jd-common/jd-common.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/jd-manager-dao.iml" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-dao/jd-manager-dao.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-interface/jd-manager-interface.iml" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-interface/jd-manager-interface.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/jd-manager-pojo.iml" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/jd-manager-pojo.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-service/jd-manager-service.iml" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-service/jd-manager-service.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/jd-manager-web.iml" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/jd-manager-web.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager.iml" afterPath="$PROJECT_DIR$/jd-manager/jd-manager.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-portal-web/jd-portal-web.iml" afterPath="$PROJECT_DIR$/jd-portal-web/jd-portal-web.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-search-web/jd-search-web.iml" afterPath="$PROJECT_DIR$/jd-search-web/jd-search-web.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/jd-parent/target/" />
     <ignored path="$PROJECT_DIR$/jd-manager/target/" />
@@ -259,6 +237,14 @@
               <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
               <item name="jd-manager-interface" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jd-ws-client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jd-ws-publisher" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -531,7 +517,7 @@
       <workItem from="1517187596037" duration="31749000" />
       <workItem from="1517272696513" duration="17507000" />
       <workItem from="1517445945018" duration="248000" />
-      <workItem from="1517472481830" duration="226000" />
+      <workItem from="1517472481830" duration="254000" />
     </task>
     <task id="LOCAL-00001" summary="1.1">
       <created>1515112940201</created>
@@ -552,7 +538,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="349246000" />
+    <option name="totallyTimeSpent" value="349274000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -574,13 +560,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33109018" sideWeight="0.48710603" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15329513" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32974428" sideWeight="0.510745" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32974428" sideWeight="0.510745" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33109018" sideWeight="0.512894" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.252149" sideWeight="0.487214" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.252149" sideWeight="0.487214" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3144699" sideWeight="0.5070422" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2256447" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
