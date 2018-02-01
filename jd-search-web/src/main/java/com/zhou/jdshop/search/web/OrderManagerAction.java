@@ -3,11 +3,8 @@ package com.zhou.jdshop.search.web;
 import com.zhou.jdshop.pojo.po.TbProduct;
 import com.zhou.jdshop.pojo.vo.Cart;
 import com.zhou.jdshop.pojo.vo.CartItem;
-<<<<<<< HEAD
+import com.zhou.jdshop.service.OrderService;
 import com.zhou.jdshop.service.ProductService;
-=======
-import com.zhou.jdshop.service.OrderManagerService;
->>>>>>> 8bdc5e9255f8d133d862e72234035e2e896168e3
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -23,7 +20,7 @@ import java.util.Map;
 public class OrderManagerAction {
 
 	@Autowired
-	private OrderManagerService orderManagerService;
+	private OrderService orderService;
 
 	@Autowired
 	private ProductService productService;
@@ -32,7 +29,7 @@ public class OrderManagerAction {
 	public String saveOrder(Cart order,HttpSession session) {
 		//从session中取购物车商品列表
 		int i=0;
-        i=orderManagerService.createOrder(order,session);
+        i=orderService.createOrder(order,session);
         session.removeAttribute("cart");
         session.removeAttribute("order");
 		return "redirect:/pay";
@@ -42,7 +39,7 @@ public class OrderManagerAction {
 	@RequestMapping("/order/orderList")
 	public List<Cart> listOrder(){
 		List<Cart> list =null;
-		list=orderManagerService.selectOrder();
+		list=orderService.selectOrder();
 		return list;
 	}
 

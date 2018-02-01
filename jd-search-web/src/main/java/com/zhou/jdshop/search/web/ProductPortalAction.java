@@ -1,6 +1,7 @@
 package com.zhou.jdshop.search.web;
 
 import com.zhou.jdshop.dto.ProductOption;
+import com.zhou.jdshop.dto.TbSearchProductResult;
 import com.zhou.jdshop.pojo.vo.TbProductCustom;
 import com.zhou.jdshop.service.ProductService;
 import com.zhou.jdshop.service.SearchService;

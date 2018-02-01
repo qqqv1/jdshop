@@ -1,10 +1,7 @@
 package com.zhou.jdshop.web;
 
 import com.zhou.jdshop.pojo.vo.Cart;
-<<<<<<< HEAD
-=======
-import com.zhou.jdshop.service.OrderManagerService;
->>>>>>> 8bdc5e9255f8d133d862e72234035e2e896168e3
+import com.zhou.jdshop.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -17,12 +14,12 @@ import java.util.List;
 public class OrderManagerAction {
 
 	@Autowired
-	private OrderManagerService orderManagerService;
+	private OrderService orderService;
 
 	@RequestMapping("/order/addOrder")
 	public String saveOrder(Cart order,HttpSession session) {
 		int j=0;
-		j=orderManagerService.createOrder(order,session);
+		j=orderService.createOrder(order,session);
 		if(j>0) {
 			session.removeAttribute("cart");
 			session.removeAttribute("order");
@@ -34,7 +31,7 @@ public class OrderManagerAction {
 	@RequestMapping("/order/orderList")
 	public List<Cart> listOrder(){
 		List<Cart> list =null;
-		list=orderManagerService.selectOrder();
+		list=orderService.selectOrder();
 		return list;
 	}
 

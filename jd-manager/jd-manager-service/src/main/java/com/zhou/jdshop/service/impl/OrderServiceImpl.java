@@ -8,11 +8,8 @@ import com.zhou.jdshop.pojo.po.*;
 import com.zhou.jdshop.pojo.vo.Cart;
 import com.zhou.jdshop.pojo.vo.CartItem;
 import com.zhou.jdshop.pojo.vo.TbOrdersCustom;
-<<<<<<< HEAD
 import com.zhou.jdshop.service.OrderService;
-=======
 import com.zhou.jdshop.util.CommonsUtils;
->>>>>>> 8bdc5e9255f8d133d862e72234035e2e896168e3
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
