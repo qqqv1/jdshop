@@ -11,7 +11,7 @@ public interface ProductService {
 
     List<TbProductCustom> listProducts();
 
-    int saveProduct(TbProduct product);
+    Long saveProduct(TbProduct product);
 
     int updateProduct(List<Long> pids,Integer pflag);
 
@@ -24,4 +24,6 @@ public interface ProductService {
     List<TbProductCustom> productList(ProductOption productOption);
 
     TbProductCustom findProductById(Long pid);
+
+    List<TbProduct> findProductByIds(List<Long> pids);
 }

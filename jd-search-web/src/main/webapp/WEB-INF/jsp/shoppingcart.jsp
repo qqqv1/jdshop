@@ -60,7 +60,9 @@
                     <table width="100%" id="cart" class="table table-striped">
                         <c:forEach items="${cart.items }" var="entry">
                             <tr>
-                                <td></td>
+                                <td><input class="check" id="check" name="check" checked="checked"  type="checkbox"></td>
+                                <td style="display:none">${entry.value.product.pid}</td>
+                                <td style="display:none">${entry.value.count }</td>
                                 <td width="15%"><img style="width:60px;height:60px;" alt=""
                                                      src="${entry.value.product.pimage}"></td>
                                 <td width="23%">${entry.value.product.pname }</td>
@@ -172,10 +174,10 @@
 
     <%--结算那一行--%>
     <div class="float-bar-wrapper">
-        <%--<div id="J_SelectAll2" class="select-all J_SelectAll">
+        <div id="J_SelectAll2" class="select-all J_SelectAll">
             <div class="cart-checkbox">
-                <input class="check-all check" id="J_SelectAllCbx2" name="select-all" value="true" type="checkbox">
-                <label for="J_SelectAllCbx2"></label>
+                <input class="check-all check" id="allCheck" name="select-all" checked="checked" type="checkbox">
+                <label for="allCheck"></label>
             </div>
             <span>全选</span>
         </div>
@@ -183,7 +185,7 @@
             <a href="#" hidefocus="true" class="deleteAll">删除</a>
             <a href="#" hidefocus="true" class="J_BatchFav">移入收藏夹</a>
 
-        </div>--%>
+        </div>
 
         <div class="float-bar-right">
             <div class="amount-sum">
@@ -196,9 +198,9 @@
             </div>
 
             <div class="price-sum">
-                <span class="txt">合计:</span>
+                <span class="txt">总计:</span>
                 <strong class="price">&nbsp;&nbsp;¥</strong>
-                <strong class="price" id="price">${cart.total }<em id="J_Total"></em></strong>
+                <strong class="price" id="price"><em id="J_Total"></em></strong>
             </div>
 
             <div class="btn-area">
@@ -208,7 +210,7 @@
             </div>
 
             <div class="btn-area">
-                <a href="pay.html" id="J_Go" class="submit-btn submit-btn-disabled" aria-label="请注意如果没有选择宝贝，将无法结算">
+                <a href="javascript:toOrder()" id="J_Go" class="submit-btn submit-btn-disabled" aria-label="请注意如果没有选择宝贝，将无法结算">
                     <span>结&nbsp;算</span>
                 </a>
             </div>
@@ -219,10 +221,31 @@
 </div>
 
 <script>
+    $(function () {
+        //全选框
+        $("#allCheck").click(function(){
+            if($(this).attr("checked")){
+                $("input[name='check']").attr("checked",true);
+            }else{
+                $("input[name='check']").attr("checked",false);
+            }
+            getTotal();
+        });
+        //单选框
+        $("input[name='check']").change(function(){
+            if($("input[name='check']").not("input:checked").size() <= 0){
+                $("#allCheck").attr("checked",true);
+            }else{
+                $("#allCheck").attr("checked",false);
+            }
+            getTotal();
+        });
+        getTotal();
+    });
     // 继续购物
 
     function goonShopping(){
-        window.location.href="${pageContext.request.contextPath}/product-portal-list";
+        window.location.href="${pageContext.request.contextPath}/product-portal-list?keyword=手机";
     }
 
     //    选中一种
@@ -234,8 +257,9 @@
                 type:'post',
                 success:function (data) {
                     var rows = elm.parentNode.parentNode.rowIndex;
-                    $('#cart').find('tr:eq(' + rows + ') td:eq(5) ').html((data.subTotal).toFixed(1));
-                    $('#price').text((data.total).toFixed(1));
+                    $('#cart').find('tr:eq(' + rows + ') td:eq(2) ').html(data.count);
+                    $('#cart').find('tr:eq(' + rows + ') td:eq(7) ').html((data.subTotal).toFixed(1));
+                    getTotal();
                 }
             });
         }
@@ -248,10 +272,58 @@
             type:'post',
             success:function (data) {
                 var rows=elm.parentNode.parentNode.rowIndex;
-                $('#cart').find('tr:eq('+rows+') td:eq(5) ').html((data.subTotal).toFixed(1));
-                $('#price').text((data.total).toFixed(1));
+                $('#cart').find('tr:eq(' + rows + ') td:eq(2) ').html(data.count);
+                $('#cart').find('tr:eq(' + rows + ') td:eq(7) ').html((data.subTotal).toFixed(1));
+                getTotal();
             }
         });
+    }
+
+    function getTotal() {
+        var totalPrice=0.0;
+        $("table :checkbox").each(function(i,v) {
+            if ($(v).prop('checked')) {
+                totalPrice+=parseFloat($('#cart').find('tr:eq(' + i + ') td:eq(7) ').text());
+            }
+        });
+        $('#price').text(totalPrice.toFixed(1));
+    }
+
+    function toOrder() {
+        if('${sessionUser}'!=''){
+            if($("input[name='check']").not("input:checked").size()!= $("input[name='check']").size()){
+                var pids=[];
+                var pns=[];
+                var $cart = document.getElementById('cart');
+                $("table :checkbox").each(function(i,v) {
+                    if ($(v).prop('checked')) {
+                        pids.push($cart.rows[i].cells[1].innerText);
+                        pns.push($cart.rows[i].cells[2].innerText);
+                    }
+                });
+                $.ajax({
+                    type:"POST",
+                    cache: false,
+                    async: false,
+                    dataType: "json",
+                    url: "order/toOrder",
+                    data: {"pids[]": pids,"pns[]":pns,"total":$('#price').text()},
+                    success: function (data) {
+                        if(data){
+                            window.location.href='order-cart';
+                        }else {
+                            return false;
+                        }
+                    }
+                });
+            }else {
+                alert('请选择购买商品!');
+                return false;
+            }
+        }else {
+            alert('请先登录！');
+            window.location.href='client-login';
+        }
     }
 </script>
 </body>

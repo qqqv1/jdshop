@@ -53,8 +53,8 @@ public class ProductPortalAction {
      */
     @ResponseBody
     @RequestMapping("productList")
-    public List<TbSearchTbProductCustom>  productList(@RequestBody ProductOption productOption, Model model){
-        List<TbSearchTbProductCustom> result=null;
+    public TbSearchProductResult  productList(@RequestBody ProductOption productOption, Model model){
+        TbSearchProductResult result=null;
 //        if (StrKit.notBlank(productOption.getPname())) {
             //调用业务逻辑层的方法进行分页查询
              result = searchService.search(productOption.getPname(), productOption.getPage(), 12);

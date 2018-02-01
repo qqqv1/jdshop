@@ -1,6 +1,7 @@
 package com.zhou.jdshop.dto;
 
 import com.zhou.jdshop.pojo.po.TbProduct;
+import com.zhou.jdshop.pojo.vo.TbProductCustom;
 
 import java.util.List;
 
@@ -8,7 +9,7 @@ public class TbSearchProductResult extends TbProduct {
 
     private long recordCount;
     private int totalPages;
-    private List<TbSearchTbProductCustom> itemList;
+    private List<TbProductCustom> itemList;
 
     public long getRecordCount() {
         return recordCount;
@@ -26,11 +27,11 @@ public class TbSearchProductResult extends TbProduct {
         this.totalPages = totalPages;
     }
 
-    public List<TbSearchTbProductCustom> getItemList() {
+    public List<TbProductCustom> getItemList() {
         return itemList;
     }
 
-    public void setItemList(List<TbSearchTbProductCustom> itemList) {
+    public void setItemList(List<TbProductCustom> itemList) {
         this.itemList = itemList;
     }
 }

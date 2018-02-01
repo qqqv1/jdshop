@@ -16,7 +16,6 @@
         <module>../jd-search-web</module>
         <module>../jd-provider-web</module>
         <module>../jd-consumer-web</module>
-        <module>../jd-dubbo-manager</module>
         <module>../jd-ws-publisher</module>
         <module>../jd-ws-client</module>
     </modules>

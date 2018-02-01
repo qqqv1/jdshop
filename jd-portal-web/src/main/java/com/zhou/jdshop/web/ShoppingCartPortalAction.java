@@ -249,7 +249,6 @@ public class ShoppingCartPortalAction {
             session.setMaxInactiveInterval(15*24*3600);
 
             Cookie cookie=new Cookie("JSESSIONID",session.getId());
-
             cookie.setMaxAge(15*24*3600);
             response.addCookie(cookie);
 

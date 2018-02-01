@@ -94,8 +94,8 @@
                         </div>
                         <div class="form-group">
                             <label class="col-sm-3 control-label"><span style="color:red;"></span>图片：</label>
-                            <div class="col-sm-8">
-                                <input type="file" id="pimage" name="pimage" value="选择图片"/>
+                            <div class="col-sm-8" id="pic">
+                                <input type="file" id="file" name="upfile" value="选择图片"/>
                                 <span class="help-block m-b-none"></span>
                             </div>
                         </div>
@@ -130,6 +130,8 @@
 <!-- jQuery Validation plugin javascript-->
 <script src="js/jquery.validate.min.js"></script>
 <script src="js/messages_zh.min.js"></script>
+
+<script src="js/ajaxfileupload.js"></script>
 
 <script src="js/form-validate-demo.js"></script>
 <!-- 百度富文本编辑器 -->
@@ -184,7 +186,7 @@
                 $("#shopPrice").val(data.shopPrice);
                 $("#pstock").val(data.pstock);
                 $("#cid").val(data.cid);
-                $("#pimage").val(data.pimage);
+                $("#pic").append('<img src='+data.pimage+' style="height:150px;width:150px"/>');
                 ue.ready(function(){
                     ue.setContent(data.pdesc);
                 })
@@ -213,6 +215,9 @@
             }else if(!cid){
                 alert("请输入商品分类");
                 return false;
+            }
+            if($('#file').val()!=''){
+                uploadFile();
             }
             var data = $('#product').serialize();
             //序列化获得表单数据
@@ -243,7 +248,22 @@
             });
             return true;
         });
-    })
+    });
+    function uploadFile() {
+        $.ajaxFileUpload({
+            url : 'file/upload',
+            secureuri : false,
+            fileElementId : 'file',
+            dataType:'text',
+            error : function(data, status, e) {
+                alert(data);
+            },
+            success : function(data, status) {
+                data= $.parseJSON(data.replace(/<.*?>/ig,''));
+                $('#pimage').val('http://www.wyfei8.top/images'+data.url)
+            }
+        });
+    }
 </script>
 </body>
 </html>

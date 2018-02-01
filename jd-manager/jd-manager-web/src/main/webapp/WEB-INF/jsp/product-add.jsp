@@ -89,7 +89,7 @@
                         <div class="form-group">
                             <label class="col-sm-3 control-label"><span style="color:red;"></span>图片：</label>
                             <div class="col-sm-8">
-                                <input type="file" id="file" name="upfile" onchange="javascript:uploadFile()" value="选择图片"/>
+                                <input type="file" id="file" name="upfile" value="选择图片"/>
                                 <span class="help-block m-b-none"></span>
                                 <input type="hidden" id="pimage" name="pimage" value="">
                             </div>
@@ -196,37 +196,16 @@
                 alert("请输入商品分类");
                 return false;
             }
-//            var data = $('#product').serialize();
-//            var submitData = decodeURIComponent(data, true);
             var form = $(this);
-            alert(form.serialize());
-            $.ajax({
-                url: 'addproduct',
-                type: 'POST',
-                data: form.serialize(),
-                dataType: "json",
-                cache:false,
-                success: function (result) {
-                    //请求成功时
-                    if (result > 0) {
-                        alert("新增商品成功！");
-                        location.href = 'product-list';
-                        return true;
-                    } else {
-                        alert("新增商品失败！");
-                        return false;
-                    }
-                },
-                error: function () {
-                    //请求失败时
-                    alert("error");
-                    return false;
-                }
-            });
+            if($('#file').val()!=''){
+                uploadFile(form);
+            }else {
+                submitProduct(form);
+            }
             return true;
         })
     });
-    function uploadFile() {
+    function uploadFile(form) {
         $.ajaxFileUpload({
             url : 'file/upload',
             secureuri : false,
@@ -237,7 +216,34 @@
             },
             success : function(data, status) {
                 data= $.parseJSON(data.replace(/<.*?>/ig,''));
-                $('#pimage').val('www.wyfei8.top/images'+data.url)
+                $('#pimage').val('http://www.wyfei8.top/images'+data.url);
+                submitProduct(form);
+            }
+        });
+    }
+    function submitProduct(form) {
+        $.ajax({
+            url: 'addproduct',
+            type: 'POST',
+            data: form.serialize(),
+            dataType: "json",
+            cache:false,
+            success: function (result) {
+                console.log(result);
+                //请求成功时
+                if (result) {
+                    alert("新增商品成功！");
+                    location.href = 'product-list';
+                    return true;
+                } else {
+                    alert("新增商品失败！");
+                    return false;
+                }
+            },
+            error: function () {
+                //请求失败时
+                alert("error");
+                return false;
             }
         });
     }

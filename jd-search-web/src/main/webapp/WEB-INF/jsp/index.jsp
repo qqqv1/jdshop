@@ -695,7 +695,7 @@
                 <h4>开年福利篇</h4>
             </div>
             <div class="recommendationMain one">
-                <a href="introduction.html"><img src="images/tj.png "></img></a>
+                <a href="product-portal-info"><img src="images/tj.png "></img></a>
             </div>
         </div>
         <div class="am-u-sm-4 am-u-lg-3 ">

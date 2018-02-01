@@ -51,7 +51,11 @@
 <script>
     $(function () {
         $('#ai-topsearch').on('click',function () {
-            window.location.href = 'product-portal-list?pname=' + $('#searchInput').val();
+            if($('#searchInput').val().trim()==''){
+                window.location.href = 'product-portal-list?keyword=手机' ;
+            }else {
+                window.location.href = 'product-portal-list?keyword=' + $('#searchInput').val();
+            }
         })
     })
 

@@ -5,15 +5,23 @@ import com.zhou.jdshop.dao.TbOrderMapper;
 import com.zhou.jdshop.dao.TbOrderShippingMapper;
 import com.zhou.jdshop.dao.TbOrdersCustomMapper;
 import com.zhou.jdshop.pojo.po.*;
+import com.zhou.jdshop.pojo.vo.Cart;
+import com.zhou.jdshop.pojo.vo.CartItem;
 import com.zhou.jdshop.pojo.vo.TbOrdersCustom;
+<<<<<<< HEAD
 import com.zhou.jdshop.dubbo.service.OrderService;
+=======
+import com.zhou.jdshop.service.OrderService;
+import com.zhou.jdshop.util.CommonsUtils;
+>>>>>>> 8bdc5e9255f8d133d862e72234035e2e896168e3
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.util.List;
+import javax.servlet.http.HttpSession;
+import java.util.*;
 
 @Service
 public class OrderServiceImpl implements OrderService {
@@ -100,6 +108,8 @@ public class OrderServiceImpl implements OrderService {
      * 修改订单
      *
      * @param
+     * @param id
+     * @param orderId
      * @return
      */
     @Transactional
@@ -109,10 +119,7 @@ public class OrderServiceImpl implements OrderService {
         try {
             //存放3张表,订单表和订单详情表和tb_order_shipping
             //tb_orders
-           /* TbOrderExample example = new TbOrderExample();
-            TbOrderExample.Criteria criteria = example.createCriteria();
-            criteria.andOrderIdEqualTo(orderId);
-            i=ordersDao.updateByExampleSelective(orders,example);*/
+
             //   tb_order_item
             TbOrderItem tbOrderItem = new TbOrderItem();
             tbOrderItem.setNum(Integer.parseInt(num));
@@ -140,14 +147,73 @@ public class OrderServiceImpl implements OrderService {
         return i;
     }
 
+
+    //生成订单
+    @Transactional
     @Override
-    public int insert(TbOrder record) {
-        System.out.println("Hello");
-        return 0;
+    public int createOrder(Cart order,HttpSession session) {
+        int i=0;
+        int j=0;
+        //生成订单id
+        String orderId = CommonsUtils.getUUID();
+        //向订单表插入数据，需要补全pojo的属性
+        TbUser tbUser = (TbUser)session.getAttribute("sessionUser");
+        TbOrder tbOrder = new TbOrder();
+        tbOrder.setOrderId(orderId);
+        tbOrder.setPaymentType(1);
+        tbOrder.setStatus(1);
+        tbOrder.setCreateTime(new Date());
+        tbOrder.setUpdateTime(new Date());
+        tbOrder.setUserId(tbUser.getUid());
+        i +=ordersDao.insert(tbOrder);
+        for(CartItem orderItem : order.getItems().values()){
+            TbOrderItem tbOrderItem=new TbOrderItem();
+            tbOrderItem.setOrderId(orderId);
+            tbOrderItem.setItemId(orderItem.getProduct().getPid());
+            tbOrderItem.setPrice(orderItem.getProduct().getShopPrice());
+            tbOrderItem.setNum(orderItem.getCount());
+            tbOrderItem.setPicPath(orderItem.getProduct().getPimage());
+            tbOrderItem.setTotalFee(orderItem.getSubTotal());
+            tbOrderItem.setTitle("1");
+            tbOrderItem.setId(CommonsUtils.getUUID());
+            j=tbOrderItemDao.insert(tbOrderItem);
+            if(j<1){
+                return 0;
+            }
+        }
+        return i;
     }
 
+    //查询订单
     @Override
-    public void insertOrderItem(TbOrderItem orderitem) {
-
+    public List<Cart> selectOrder() {
+        List<Cart> list = new ArrayList<>();
+        TbOrderExample example=new TbOrderExample();
+        TbOrderExample.Criteria criteria = example.createCriteria();
+        criteria.andStatusNotEqualTo(0);
+        List<TbOrder> orders=ordersDao.selectByExample(example);
+        for(TbOrder order:orders){
+            Cart cart = new Cart();
+            Map<Long,CartItem> map=new HashMap<>();
+            TbOrderItemExample itemExample=new TbOrderItemExample();
+            TbOrderItemExample.Criteria itemCriteria = itemExample.createCriteria();
+            itemCriteria.andOrderIdEqualTo(order.getOrderId());
+            List<TbOrderItem> orderItems=tbOrderItemDao.selectByExample(itemExample);
+            for (TbOrderItem orderItem:orderItems){
+                CartItem cartItem=new CartItem();
+                TbProduct product=new TbProduct();
+                product.setPid(orderItem.getItemId());
+                product.setShopPrice(orderItem.getPrice());
+                product.setPimage(orderItem.getPicPath());
+                cartItem.setProduct(product);
+                cartItem.setCount(orderItem.getNum());
+                cartItem.setSubTotal(orderItem.getTotalFee());
+                map.put(orderItem.getItemId(),cartItem);
+            }
+            cart.setItems(map);
+            cart.setTotal(order.getPayment());
+            list.add(cart);
+        }
+        return list;
     }
 }

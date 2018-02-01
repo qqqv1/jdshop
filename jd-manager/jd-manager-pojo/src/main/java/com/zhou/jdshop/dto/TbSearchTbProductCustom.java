@@ -1,5 +1,6 @@
 package com.zhou.jdshop.dto;
 
+<<<<<<< HEAD
 public class TbSearchTbProductCustom {
     private String id;
     private String pname;//
@@ -17,31 +18,39 @@ public class TbSearchTbProductCustom {
         this.id = id;
     }
 
+=======
+import com.zhou.jdshop.pojo.po.TbProduct;
+>>>>>>> 8bdc5e9255f8d133d862e72234035e2e896168e3
 
+public class TbSearchTbProductCustom extends TbProduct{
+    private String cname;
+    private String id;
+    private String price;
 
-    public String getPname() {
-        return pname;
+    public String getCname() {
+        return cname;
     }
 
-    public void setPname(String pname) {
-        this.pname = pname;
+    public void setCname(String cname) {
+        this.cname = cname;
     }
 
-    public String getPdesc() {
-        return pdesc;
+    public String getId() {
+        return id;
     }
 
-    public void setPdesc(String pdesc) {
-        this.pdesc = pdesc;
+    public void setId(String id) {
+        this.id = id;
     }
 
-    public Long getPrice() {
+    public String getPrice() {
         return price;
     }
 
-    public void setPrice(Long price) {
+    public void setPrice(String price) {
         this.price = price;
     }
+<<<<<<< HEAD
 
     public String getPimage() {
         return pimage;
@@ -66,4 +75,6 @@ public class TbSearchTbProductCustom {
     public void setPsold(Integer psold) {
         this.psold = psold;
     }
+=======
+>>>>>>> 8bdc5e9255f8d133d862e72234035e2e896168e3
 }

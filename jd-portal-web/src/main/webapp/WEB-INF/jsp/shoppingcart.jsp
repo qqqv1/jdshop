@@ -231,7 +231,7 @@
     // 继续购物
 
     function goonShopping(){
-        window.location.href="${pageContext.request.contextPath}/product-portal-list";
+        window.location.href="${pageContext.request.contextPath}/product-portal-list?keyword=";
     }
 
     //    选中一种
