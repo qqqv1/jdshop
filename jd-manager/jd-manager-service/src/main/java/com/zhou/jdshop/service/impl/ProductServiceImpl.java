@@ -197,4 +197,20 @@ public class ProductServiceImpl implements ProductService {
         }
         return productCustom;
     }
+
+    @Override
+    public List<TbProduct> findProductByIds(List<Long> pids) {
+        List<TbProduct> list =new ArrayList<>();
+        try{
+            TbProductExample example=new TbProductExample();
+            TbProductExample.Criteria criteria = example.createCriteria();
+            criteria.andPidIn(pids);
+            criteria.andPflagNotEqualTo(3);
+            list= productDao.selectByExample(example);
+        }catch(Exception e){
+            logger.error(e.getMessage(),e);
+            e.printStackTrace();
+        }
+        return list;
+    }
 }

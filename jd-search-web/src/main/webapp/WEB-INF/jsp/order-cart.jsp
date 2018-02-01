@@ -310,7 +310,7 @@
                                     提交订单
                                 </button>
                                 <span class="total">应付总额：<strong id="payPriceId">￥<fmt:formatNumber
-                                        value="${totalPrice / 100}" maxFractionDigits="2" minFractionDigits="2"
+                                        value="${totalPrice}" maxFractionDigits="2" minFractionDigits="2"
                                         groupingUsed="true"/></strong>
                                 </span>
                                 <span id="checkCodeDiv"></span>
@@ -335,5 +335,11 @@
 
 <!-- /main -->
 <jsp:include page="commons/footer.jsp"/>
+
+<script type="text/javascript">
+    function use_NewConsignee() {
+
+    }
+</script>
 </body>
 </html>

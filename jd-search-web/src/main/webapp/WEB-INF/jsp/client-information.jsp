@@ -28,16 +28,7 @@
 
 <body>
 <!--头 -->
-<header>
-    <article>
-        <div class="mt-logo">
-
-            <jsp:include page="top.jsp"/>
-
-            <div class="clear"></div>
-        </div>
-    </article>
-</header>
+<jsp:include page="top.jsp"/>
 <div class="nav-table">
     <div class="long-title"><span class="all-goods">全部分类</span></div>
     <div class="nav-cont">
@@ -99,7 +90,7 @@
                         <div class="am-form-group">
                             <label for="username" class="am-form-label">昵称</label>
                             <div class="am-form-content">
-                                <input type="text" id="username" value="${sessionUser.username}" placeholder="nickname">
+                                <input type="text" id="username" value="${sessionUser.uname}" placeholder="nickname">
 
                             </div>
                         </div>
@@ -107,7 +98,7 @@
                         <div class="am-form-group">
                             <label for="name" class="am-form-label">姓名</label>
                             <div class="am-form-content">
-                                <input type="text" id="name" value="${sessionUser.name}">
+                                <input type="text" id="name" value="${sessionUser.truename}">
 
                             </div>
                         </div>

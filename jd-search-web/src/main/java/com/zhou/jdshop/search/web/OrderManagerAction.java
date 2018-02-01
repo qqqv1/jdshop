@@ -1,22 +1,31 @@
 package com.zhou.jdshop.search.web;
 
+import com.zhou.jdshop.pojo.po.TbProduct;
 import com.zhou.jdshop.pojo.vo.Cart;
+import com.zhou.jdshop.pojo.vo.CartItem;
 import com.zhou.jdshop.service.OrderManagerService;
+import com.zhou.jdshop.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpSession;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 @Controller
 public class OrderManagerAction {
 
 	@Autowired
 	private OrderManagerService orderManagerService;
+
+	@Autowired
+	private ProductService productService;
 
 	@RequestMapping("/order/addOrder")
 	public String saveOrder(Cart order,HttpSession session) {
@@ -36,11 +45,21 @@ public class OrderManagerAction {
 		return list;
 	}
 
-	@RequestMapping("order/cartList")
-	public String listCart(HttpSession session){
-		Cart cart=(Cart)session.getAttribute("cart");
-		Cart order=cart;
+	@ResponseBody
+	@RequestMapping("/order/toOrder")
+	public Cart toOrder(@RequestParam("pids[]") List<Long> pids,@RequestParam("pns[]") List<Integer> pns,@RequestParam("total") double total , HttpSession session){
+		Cart order=new Cart();
+		order.setTotal(total);
+		List<TbProduct> products=productService.findProductByIds(pids);
+		Map<Long,CartItem> map=new HashMap<>();
+		for (int i=0;i<products.size();i++){
+			CartItem cartItem =new CartItem();
+			cartItem.setProduct(products.get(i));
+			cartItem.setCount(pns.get(i));
+			map.put(pids.get(i),cartItem);
+		}
+		order.setItems(map);
 		session.setAttribute("order",order);
-		return "redirect:/order-cart";
+		return order;
 	}
 }

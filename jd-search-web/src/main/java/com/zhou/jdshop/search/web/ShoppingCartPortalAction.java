@@ -190,7 +190,7 @@ public class ShoppingCartPortalAction {
                     cart.setTotal(Math.round((cart.getTotal()+cartItem.getProduct().getShopPrice())*10)/10);
 
                     cartOne.setTotal(cart.getTotal());
-
+                    cartOne.setCount(cartItem.getCount());
 //                    System.out.println(cart.getTotal());
                 }
             }
@@ -238,7 +238,7 @@ public class ShoppingCartPortalAction {
                     cart.setTotal(Math.round((cart.getTotal()-cartItem.getProduct().getShopPrice())*10)/10);
 
                     cartOne.setTotal(cart.getTotal()*100/100);
-
+                    cartOne.setCount(cartItem.getCount());
 //                    System.out.println(cart.getTotal());
                     }
 

@@ -24,4 +24,6 @@ public interface ProductService {
     List<TbProductCustom> productList(ProductOption productOption);
 
     TbProductCustom findProductById(Long pid);
+
+    List<TbProduct> findProductByIds(List<Long> pids);
 }
