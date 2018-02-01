@@ -3,31 +3,20 @@ package com.zhou.jdshop.service.impl;
 import com.zhou.jdshop.dao.TbProductCustomMapper;
 import com.zhou.jdshop.dao.TbProductMapper;
 import com.zhou.jdshop.dto.ProductOption;
-import com.zhou.jdshop.pojo.po.Product;
 import com.zhou.jdshop.pojo.po.TbProduct;
 import com.zhou.jdshop.pojo.po.TbProductExample;
 import com.zhou.jdshop.pojo.vo.TbProductCustom;
-import com.zhou.jdshop.service.ProductService;
-import com.zhou.jdshop.util.FtpUtils;
+import com.zhou.jdshop.dubbo.service.ProductService;
 import com.zhou.jdshop.util.IDUtils;
-import org.apache.commons.io.FileUtils;
-import org.apache.commons.net.ftp.FTP;
-import org.apache.commons.net.ftp.FTPClient;
-import org.apache.commons.net.ftp.FTPReply;
-import org.joda.time.DateTime;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-import java.util.UUID;
 
 @Service
 public class ProductServiceImpl implements ProductService {

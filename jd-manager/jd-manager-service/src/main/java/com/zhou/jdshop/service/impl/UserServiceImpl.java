@@ -4,9 +4,7 @@ import com.zhou.jdshop.dao.TbUserCustomMapper;
 import com.zhou.jdshop.dao.TbUserMapper;
 import com.zhou.jdshop.pojo.po.TbUser;
 import com.zhou.jdshop.pojo.po.TbUserExample;
-import com.zhou.jdshop.pojo.po.User;
-import com.zhou.jdshop.pojo.po.UserExample;
-import com.zhou.jdshop.service.UserService;
+import com.zhou.jdshop.dubbo.service.UserService;
 import com.zhou.jdshop.util.IDUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -16,7 +14,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.UUID;
 
 @Service
 public class UserServiceImpl implements UserService {

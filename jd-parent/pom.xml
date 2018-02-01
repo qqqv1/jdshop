@@ -14,6 +14,11 @@
         <module>../jd-portal-web</module>
         <module>../jd-lucene</module>
         <module>../jd-search-web</module>
+        <module>../jd-provider-web</module>
+        <module>../jd-consumer-web</module>
+        <module>../jd-dubbo-manager</module>
+        <module>../jd-ws-publisher</module>
+        <module>../jd-ws-client</module>
     </modules>
 
     <properties>
@@ -44,8 +49,8 @@
         <commons-fileupload.version>1.3.1</commons-fileupload.version>
         <jedis.version>2.7.2</jedis.version>
         <solrj.version>4.10.3</solrj.version>
-        <dubbo.version>2.5.3</dubbo.version>
-        <zookeeper.version>3.4.6</zookeeper.version>
+        <dubbo.version>2.6.0</dubbo.version>
+        <zookeeper.version>3.4.11</zookeeper.version>
         <zkclient.version>0.1</zkclient.version>
         <activemq.version>5.15.2</activemq.version>
         <freemarker.version>2.3.23</freemarker.version>

@@ -1,11 +1,10 @@
 package com.zhou.jdshop.service.impl;
 
-import com.zhou.jdshop.dao.TbContentCustomMapper;
 import com.zhou.jdshop.dao.TbContentMapper;
 import com.zhou.jdshop.jedis.JedisClient;
 import com.zhou.jdshop.pojo.po.TbContent;
 import com.zhou.jdshop.pojo.po.TbContentExample;
-import com.zhou.jdshop.service.TbContentService;
+import com.zhou.jdshop.dubbo.service.TbContentService;
 import com.zhou.jdshop.util.JsonUtils;
 import com.zhou.jdshop.util.StrKit;
 import org.springframework.beans.factory.annotation.Autowired;

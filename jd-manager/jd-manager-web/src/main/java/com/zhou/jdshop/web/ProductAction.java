@@ -2,18 +2,15 @@ package com.zhou.jdshop.web;
 
 import com.zhou.jdshop.pojo.po.TbProduct;
 import com.zhou.jdshop.pojo.vo.TbProductCustom;
-import com.zhou.jdshop.service.FileService;
-import com.zhou.jdshop.service.ProductService;
+import com.zhou.jdshop.dubbo.service.FileService;
+import com.zhou.jdshop.dubbo.service.ProductService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.multipart.MultipartFile;
 
-import javax.servlet.http.HttpServletResponse;
 import java.util.List;
-import java.util.Map;
 
 @Controller
 public class ProductAction {

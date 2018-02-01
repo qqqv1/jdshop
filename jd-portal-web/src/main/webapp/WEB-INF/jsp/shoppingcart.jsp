@@ -56,13 +56,15 @@
 
 
                         <%--<table width="100%" border="0" cellspacing="0" id="cart" class="table table-striped table-hover">--%>
-                    <table width="100%" id="cart" class="table table-striped">
+                    <table width="100%" id="cart" class="table table-striped table-hover">
                         <c:forEach items="${cart.items }" var="entry">
                             <tr>
-                                <td></td>
+                                <td> <input class="check" id="check" name="check"  type="checkbox"></td>
+                                <td style="display:none">${entry.value.product.pid}</td>
+                                <td style="display:none">${entry.value.count }</td>
                                 <td width="15%"><img style="width:60px;height:60px;" alt=""
                                                      src="${entry.value.product.pimage}"></td>
-                                <td width="23%">${entry.value.product.pname }</td>
+                                <td width="23%"><a href="${pageContext.request.contextPath}/product-portal-info?pid=${entry.value.product.pid}" style="color:blue" >${entry.value.product.pname }</a></td>
 
                                 <td width="17%">${entry.value.product.shopPrice}</td>
                                 <td width="25%">
@@ -87,7 +89,7 @@
             </div>
         </tr>
         <div class="clear"></div>
-        <%-- <tr class="item-list">
+         <%--<tr class="item-list">
              <div class="bundle  bundle-last ">
                  <div class="bundle-hd">
                      <div class="bd-promos">
@@ -171,18 +173,18 @@
 
     <%--结算那一行--%>
     <div class="float-bar-wrapper">
-        <%--<div id="J_SelectAll2" class="select-all J_SelectAll">
+        <div id="J_SelectAll2" class="select-all J_SelectAll">
             <div class="cart-checkbox">
-                <input class="check-all check" id="J_SelectAllCbx2" name="select-all" value="true" type="checkbox">
-                <label for="J_SelectAllCbx2"></label>
+                <input class="check-all check" id="allCheck" checked="checked"  name="select-all" value="true" type="checkbox" style=" width:25px">
+                <label for="allCheck"></label>
             </div>
-            <span>全选</span>
+            <span style="padding-left: 8px">全选</span>
         </div>
         <div class="operations">
-            <a href="#" hidefocus="true" class="deleteAll">删除</a>
-            <a href="#" hidefocus="true" class="J_BatchFav">移入收藏夹</a>
+            <a href="javascript:return false;" hidefocus="true" class="deleteAll" style="opacity:0.2">删除</a>
+            <a href="javascript:return false;" hidefocus="true" class="J_BatchFav" style="opacity:0.2">移入收藏夹</a>
 
-        </div>--%>
+        </div>
 
         <div class="float-bar-right">
             <div class="amount-sum">
@@ -207,7 +209,8 @@
             </div>
 
             <div class="btn-area">
-                <a href="pay.html" id="J_Go" class="submit-btn submit-btn-disabled" aria-label="请注意如果没有选择宝贝，将无法结算">
+                <%--href="javascript:void(0)"--%>
+                <a  onclick="toOrder()" id="J_Go" class="submit-btn submit-btn-disabled" aria-label="请注意如果没有选择宝贝，将无法结算">
                     <span>结&nbsp;算</span>
                 </a>
             </div>
@@ -217,6 +220,13 @@
     <jsp:include page="bottom.jsp"/>
 </div>
 
+
+
+<!-- 全局js -->
+<script src="js/jquery-ui-1.10.4.min.js"></script>
+<%--<script src="js/bootstrap.min.js?v=3.3.6"></script>--%>
+<script src="js/bootstrap-table.min.js"></script>
+<script src="js/bootstrap-table-zh-CN.js"></script>
 <script>
     // 继续购物
 
@@ -233,7 +243,7 @@
                 type:'post',
                 success:function (data) {
                     var rows = elm.parentNode.parentNode.rowIndex;
-                    $('#cart').find('tr:eq(' + rows + ') td:eq(5) ').html((data.subTotal).toFixed(1));
+                    $('#cart').find('tr:eq(' + rows + ') td:eq(7) ').html((data.subTotal).toFixed(1));
                     $('#price').text((data.total).toFixed(1));
                 }
             });
@@ -247,11 +257,133 @@
             type:'post',
             success:function (data) {
                 var rows=elm.parentNode.parentNode.rowIndex;
-                $('#cart').find('tr:eq('+rows+') td:eq(5) ').html((data.subTotal).toFixed(1));
+                $('#cart').find('tr:eq('+rows+') td:eq(7) ').html((data.subTotal).toFixed(1));
                 $('#price').text((data.total).toFixed(1));
             }
         });
     }
+
+    if($("#allCheck").attr("checked")){
+        $("input[name='check']").attr("checked",true);
+    }
+    //全选框
+    $("#allCheck").click(function(){
+        if($(this).attr("checked")){
+            $("input[name='check']").attr("checked",true);
+
+            $.ajax({
+                url:"allSelect",
+                type:'post',
+                success:function (data) {
+                    $('#price').text((data.total).toFixed(1));
+                }
+            });
+        }else{
+            $("input[name='check']").attr("checked",false);
+            $.ajax({
+                url:"unAllSelect",
+                type:'post',
+                success:function (data) {
+                    $('#price').text((data.total).toFixed(1));
+                }
+            });
+//            $('#price').text(Math.round(0*10)/10);
+
+        }
+    })
+    //单选框
+    $("input[name='check']").change(function(){
+        if($("input[name='check']").not("input:checked").size() <= 0){
+            $("#allCheck").attr("checked",true);
+
+            $.ajax({
+                url:"allSelect",
+                type:'post',
+                success:function (data) {
+                    $('#price').text((data.total).toFixed(1));
+                }
+            });
+
+        }else {
+            $("#allCheck").attr("checked", false);
+
+            if ($("input[name='check']").not("input:checked").size() == $("input[name='check']").size()) {
+                $.ajax({
+                    url:"unAllSelect",
+                    type:'post',
+                    success:function (data) {
+                        $('#price').text((data.total).toFixed(1));
+                    }
+                });
+
+            } else {
+                var itemId = [];
+                var $cart = document.getElementById('cart');
+                $("table :checkbox").each(function (key, value) {
+                    if ($(value).prop('checked')) {
+//                        alert($cart.rows[key].cells[2].innerText)
+                        itemId.push($cart.rows[key].cells[1].innerText);
+                        console.log(itemId)
+
+                        $.ajax({
+                            type: "POST",
+                            cache: false,
+                            url: "someSelect",
+                            data: {"itemId[]": itemId},
+                            success: function (data) {
+                                $('#price').text((data.total).toFixed(1));
+                            }
+                        });
+
+                    }
+                })
+            }
+        }
+    })
+
+    function toOrder() {
+        if($("input[name='check']").not("input:checked").size() == $("input[name='check']").size()){
+
+            alert('请选择购买商品!');
+        }else {
+//            var $table=$("#cart");
+//            var selRow = $table.bootstrapTable('getSelections');
+            var  itemId=[];
+            var num=[];
+           /* if(selRow.length>0){
+                console.log(selRow);
+                for (var i = 0; i < selRow.length; i++) {
+                    itemId.push(i)
+                    console.log(itemId)
+                }*/
+
+                var $cart = document.getElementById('cart');
+                $("table :checkbox").each(function(key,value){
+                    if($(value).prop('checked')){
+//                        alert($cart.rows[key].cells[2].innerText)
+                        itemId.push($cart.rows[key].cells[1].innerText);
+                        console.log(itemId)
+                        num.push($cart.rows[key].cells[2].innerText);
+                        console.log(num)
+//                        alert($cart.rows[key].cells[3].innerHTML);
+                        ;
+
+                           /*  $.ajax({
+                                type:"POST",
+                                cache: false,
+                                async: false,
+                                dataType: "json",
+                                url: "toOrder",
+                                data: {"itemId[]": itemId,"num[]":num},
+                                success: function (data) {
+                                    location.href='pay';
+                                }
+                            });*/
+
+        }
+    })
+        }}
+
 </script>
 </body>
 </html>

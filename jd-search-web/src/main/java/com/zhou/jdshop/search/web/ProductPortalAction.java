@@ -1,12 +1,10 @@
 package com.zhou.jdshop.search.web;
 
 import com.zhou.jdshop.dto.ProductOption;
-import com.zhou.jdshop.dto.TbSearchProductResult;
 import com.zhou.jdshop.dto.TbSearchTbProductCustom;
 import com.zhou.jdshop.pojo.vo.TbProductCustom;
-import com.zhou.jdshop.service.ProductService;
-import com.zhou.jdshop.service.SearchService;
-import com.zhou.jdshop.util.StrKit;
+import com.zhou.jdshop.dubbo.service.ProductService;
+import com.zhou.jdshop.dubbo.service.SearchService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

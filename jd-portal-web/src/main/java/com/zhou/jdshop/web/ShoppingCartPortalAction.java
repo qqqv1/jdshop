@@ -4,8 +4,8 @@ import com.zhou.jdshop.pojo.po.TbProduct;
 import com.zhou.jdshop.pojo.vo.Cart;
 import com.zhou.jdshop.pojo.vo.CartItem;
 import com.zhou.jdshop.pojo.vo.CartOne;
-import com.zhou.jdshop.service.OrderService;
-import com.zhou.jdshop.service.ProductService;
+import com.zhou.jdshop.dubbo.service.OrderService;
+import com.zhou.jdshop.dubbo.service.ProductService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,6 +18,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
+import java.util.List;
 import java.util.Map;
 
 @Controller
@@ -251,6 +252,87 @@ public class ShoppingCartPortalAction {
 
             cookie.setMaxAge(15*24*3600);
             response.addCookie(cookie);
+
+        }catch (Exception e){
+            logger.error(e.getMessage(),e);
+            e.printStackTrace();
+
+        }
+        return cartOne;
+    }
+
+    //一个也没有选
+    @RequestMapping(value="/unAllSelect",method = RequestMethod.POST)
+    @ResponseBody
+    public CartOne unAllSelect( HttpSession session, HttpServletResponse response){
+
+        CartOne cartOne = new CartOne();
+        try{
+            cartOne.setTotal(Math.round((0)*10)/10);
+        }catch (Exception e){
+            logger.error(e.getMessage(),e);
+            e.printStackTrace();
+
+        }
+        return cartOne;
+    }
+
+    //全部商品选中
+    @RequestMapping(value="/allSelect",method = RequestMethod.POST)
+    @ResponseBody
+    public CartOne allSelect( HttpSession session, HttpServletResponse response){
+
+        CartOne cartOne = new CartOne();
+        try{
+            //取出购物车
+            Cart cart = (Cart) session.getAttribute("cart");
+
+            if(cart!=null){
+
+                    //重新计算总计
+                cartOne.setTotal(Math.round(cart.getTotal()*10)/10);
+                }
+
+        }catch (Exception e){
+            logger.error(e.getMessage(),e);
+            e.printStackTrace();
+
+        }
+        return cartOne;
+    }
+
+    //部分商品选中
+    @RequestMapping(value="/someSelect",method = RequestMethod.POST)
+    @ResponseBody
+    public CartOne someSelect(@RequestParam("itemId[]") List<Long> pids, HttpSession session, HttpServletResponse response){
+
+        CartOne cartOne = new CartOne();
+        try{
+//            System.out.println(pid+" ");
+
+            //取出购物车
+            Cart cart = (Cart) session.getAttribute("cart");
+
+            if(cart!=null){
+                //取出map
+                Map<Long, CartItem> map = cart.getItems();
+                for(Long pid:pids){
+
+
+                if(map.containsKey(pid)){
+                    CartItem cartItem = map.get(pid);
+
+                    cartItem.setSubTotal(Math.round(cartItem.getSubTotal()*10)/10);
+
+                    cartOne.setTotal(cartOne.getTotal()+cartItem.getSubTotal());
+
+                    //重新计算总计
+//                    cart.setTotal(Math.round((cart.getTotal()-cartItem.getProduct().getShopPrice())*10)/10);
+
+
+                }
+                }
+            }
 
         }catch (Exception e){
             logger.error(e.getMessage(),e);

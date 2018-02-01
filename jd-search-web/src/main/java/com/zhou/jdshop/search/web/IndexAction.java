@@ -1,7 +1,7 @@
 package com.zhou.jdshop.search.web;
 
 import com.zhou.jdshop.pojo.po.TbContent;
-import com.zhou.jdshop.service.TbContentService;
+import com.zhou.jdshop.dubbo.service.TbContentService;
 import com.zhou.jdshop.util.PropKit;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

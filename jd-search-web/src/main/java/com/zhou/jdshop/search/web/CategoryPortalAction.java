@@ -1,7 +1,7 @@
 package com.zhou.jdshop.search.web;
 
 import com.zhou.jdshop.pojo.po.TbProductCat;
-import com.zhou.jdshop.service.CategoryService;
+import com.zhou.jdshop.dubbo.service.CategoryService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
