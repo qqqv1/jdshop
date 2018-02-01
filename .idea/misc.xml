@@ -14,6 +14,8 @@
         <option value="$PROJECT_DIR$/jd-parent/pom.xml" />
         <option value="$PROJECT_DIR$/jd-manager/pom.xml" />
         <option value="$PROJECT_DIR$/jd-common/pom.xml" />
+        <option value="$PROJECT_DIR$/java-cxf-publisher/pom.xml" />
+        <option value="$PROJECT_DIR$/java-cxf-caller/pom.xml" />
       </list>
     </option>
   </component>
