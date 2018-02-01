@@ -9,6 +9,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="java-cxf-caller" />
+        <module name="java-cxf-publisher" />
         <module name="jd-common" />
         <module name="jd-consumer-web" />
         <module name="jd-lucene" />
@@ -25,6 +27,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="java-cxf-caller" target="1.8" />
+      <module name="java-cxf-publisher" target="1.8" />
       <module name="jd-common" target="1.8" />
       <module name="jd-consumer-web" target="1.8" />
       <module name="jd-lucene" target="1.8" />

@@ -51,24 +51,12 @@ public class ProductPortalAction {
      */
     @ResponseBody
     @RequestMapping("productList")
-    public TbSearchProductResult  productList(@RequestBody ProductOption productOption, Model model){
+    public TbSearchProductResult  productList(@RequestBody ProductOption productOption){
         TbSearchProductResult result=null;
-//        if (StrKit.notBlank(productOption.getPname())) {
-            //调用业务逻辑层的方法进行分页查询
-             result = searchService.search(productOption.getPname(), productOption.getPage(), 12);
-
-
-            //用于回显的数据.待完成
-            //搜索
-         /*   model.addAttribute("query", productOption.getPname());
-            model.addAttribute("totalPages", result.getTotalPages());
-            model.addAttribute("recordCount", result.getRecordCount());
-            model.addAttribute("itemList", result.getItemList());
-            model.addAttribute("page", productOption.getPage());*/
-//        }
+        //调用业务逻辑层的方法进行分页查询
+        result = searchService.search(productOption.getPname(), productOption.getPage(), 12);
 
         return result;
-
 
        /* List<TbProductCustom> list=null;
         try{
