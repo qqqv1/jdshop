@@ -1,6 +1,7 @@
 package com.zhou.jdshop.service.impl;
 
 import com.zhou.jdshop.dao.SearchProductDao;
+import com.zhou.jdshop.dto.TbSearchProductResult;
 import com.zhou.jdshop.service.SearchService;
 import org.apache.solr.client.solrj.SolrQuery;
 import org.slf4j.Logger;

@@ -1,11 +1,8 @@
 package com.zhou.jdshop.service.impl;
 
 import com.zhou.jdshop.dao.TbProductCustomMapper;
-<<<<<<< HEAD
 import com.zhou.jdshop.service.ProductIndexService;
-=======
 import com.zhou.jdshop.pojo.vo.TbProductCustom;
->>>>>>> 8bdc5e9255f8d133d862e72234035e2e896168e3
 import org.apache.solr.client.solrj.SolrServer;
 import org.apache.solr.client.solrj.SolrServerException;
 import org.apache.solr.common.SolrInputDocument;
