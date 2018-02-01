@@ -1,4 +1,4 @@
-package com.zhou.jdshop.dubbo.service;
+package com.zhou.jdshop.service;
 
 import com.zhou.jdshop.pojo.po.TbOrder;
 import com.zhou.jdshop.pojo.po.TbOrderItem;

@@ -1,6 +1,6 @@
 package com.zhou.jdshop.search.web;
 
-import com.zhou.jdshop.dubbo.service.SearchService;
+import com.zhou.jdshop.service.SearchService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 

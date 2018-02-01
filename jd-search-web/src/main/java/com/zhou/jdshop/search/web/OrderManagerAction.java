@@ -4,22 +4,17 @@ import com.zhou.jdshop.pojo.po.TbProduct;
 import com.zhou.jdshop.pojo.vo.Cart;
 import com.zhou.jdshop.pojo.vo.CartItem;
 <<<<<<< HEAD
-import com.zhou.jdshop.dubbo.service.OrderService;
-import com.zhou.jdshop.dubbo.service.ProductService;
-import com.zhou.jdshop.util.CommonsUtils;
+import com.zhou.jdshop.service.ProductService;
 =======
 import com.zhou.jdshop.service.OrderManagerService;
-import com.zhou.jdshop.service.ProductService;
 >>>>>>> 8bdc5e9255f8d133d862e72234035e2e896168e3
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpSession;
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;

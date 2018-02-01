@@ -1,4 +1,4 @@
-package com.zhou.jdshop.dubbo.service;
+package com.zhou.jdshop.service;
 
 import org.springframework.web.multipart.MultipartFile;
 

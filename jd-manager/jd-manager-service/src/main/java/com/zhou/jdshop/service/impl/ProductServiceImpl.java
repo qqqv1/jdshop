@@ -6,7 +6,7 @@ import com.zhou.jdshop.dto.ProductOption;
 import com.zhou.jdshop.pojo.po.TbProduct;
 import com.zhou.jdshop.pojo.po.TbProductExample;
 import com.zhou.jdshop.pojo.vo.TbProductCustom;
-import com.zhou.jdshop.dubbo.service.ProductService;
+import com.zhou.jdshop.service.ProductService;
 import com.zhou.jdshop.util.IDUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

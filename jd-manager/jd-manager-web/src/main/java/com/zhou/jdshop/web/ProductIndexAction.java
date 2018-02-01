@@ -1,7 +1,7 @@
 package com.zhou.jdshop.web;
 
 import com.zhou.jdshop.dto.MessageResult;
-import com.zhou.jdshop.dubbo.service.ProductIndexService;
+import com.zhou.jdshop.service.ProductIndexService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -1,4 +1,4 @@
-package com.zhou.jdshop.dubbo.service;
+package com.zhou.jdshop.service;
 
 import com.zhou.jdshop.dto.TbSearchProductResult;
 import com.zhou.jdshop.dto.TbSearchTbProductCustom;

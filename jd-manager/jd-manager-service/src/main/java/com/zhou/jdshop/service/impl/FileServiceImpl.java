@@ -1,6 +1,6 @@
 package com.zhou.jdshop.service.impl;
 
-import com.zhou.jdshop.dubbo.service.FileService;
+import com.zhou.jdshop.service.FileService;
 import com.zhou.jdshop.util.FtpUtils;
 import com.zhou.jdshop.util.IDUtils;
 import org.joda.time.DateTime;
