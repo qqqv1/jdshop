@@ -4,7 +4,7 @@ import com.zhou.jdshop.dao.TbUserCustomMapper;
 import com.zhou.jdshop.dao.TbUserMapper;
 import com.zhou.jdshop.pojo.po.TbUser;
 import com.zhou.jdshop.pojo.po.TbUserExample;
-import com.zhou.jdshop.dubbo.service.UserService;
+import com.zhou.jdshop.service.UserService;
 import com.zhou.jdshop.util.IDUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

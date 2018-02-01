@@ -1,6 +1,6 @@
 package com.zhou.jdshop.web;
 
-import com.zhou.jdshop.dubbo.service.FileService;
+import com.zhou.jdshop.service.FileService;
 import org.apache.commons.io.IOUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

@@ -3,12 +3,7 @@ package com.zhou.jdshop.web;
 import com.zhou.jdshop.dto.MessageResult;
 import com.zhou.jdshop.pojo.po.TbProduct;
 import com.zhou.jdshop.pojo.vo.TbProductCustom;
-<<<<<<< HEAD
-import com.zhou.jdshop.dubbo.service.FileService;
-import com.zhou.jdshop.dubbo.service.ProductService;
-=======
 import com.zhou.jdshop.service.ProductService;
->>>>>>> 8bdc5e9255f8d133d862e72234035e2e896168e3
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,11 +12,8 @@ import org.springframework.jms.core.MessageCreator;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
-<<<<<<< HEAD
-=======
 import javax.annotation.Resource;
 import javax.jms.*;
->>>>>>> 8bdc5e9255f8d133d862e72234035e2e896168e3
 import java.util.List;
 
 @Controller

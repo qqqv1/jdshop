@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/java-cxf-caller/java-cxf-caller.iml" filepath="$PROJECT_DIR$/java-cxf-caller/java-cxf-caller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-cxf-publisher/java-cxf-publisher.iml" filepath="$PROJECT_DIR$/java-cxf-publisher/java-cxf-publisher.iml" />
       <module fileurl="file://$PROJECT_DIR$/jd-common/jd-common.iml" filepath="$PROJECT_DIR$/jd-common/jd-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jd-consumer-web/jd-consumer-web.iml" filepath="$PROJECT_DIR$/jd-consumer-web/jd-consumer-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/jd-lucene/jd-lucene.iml" filepath="$PROJECT_DIR$/jd-lucene/jd-lucene.iml" />
       <module fileurl="file://$PROJECT_DIR$/jd-manager/jd-manager.iml" filepath="$PROJECT_DIR$/jd-manager/jd-manager.iml" />
       <module fileurl="file://$PROJECT_DIR$/jd-manager/jd-manager-dao/jd-manager-dao.iml" filepath="$PROJECT_DIR$/jd-manager/jd-manager-dao/jd-manager-dao.iml" />
@@ -12,7 +15,10 @@
       <module fileurl="file://$PROJECT_DIR$/jd-manager/jd-manager-web/jd-manager-web.iml" filepath="$PROJECT_DIR$/jd-manager/jd-manager-web/jd-manager-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/jd-parent/jd-parent.iml" filepath="$PROJECT_DIR$/jd-parent/jd-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/jd-portal-web/jd-portal-web.iml" filepath="$PROJECT_DIR$/jd-portal-web/jd-portal-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jd-provider-web/jd-provider-web.iml" filepath="$PROJECT_DIR$/jd-provider-web/jd-provider-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/jd-search-web/jd-search-web.iml" filepath="$PROJECT_DIR$/jd-search-web/jd-search-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jd-ws-client/jd-ws-client.iml" filepath="$PROJECT_DIR$/jd-ws-client/jd-ws-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jd-ws-publisher/jd-ws-publisher.iml" filepath="$PROJECT_DIR$/jd-ws-publisher/jd-ws-publisher.iml" />
     </modules>
   </component>
 </project>

@@ -1,15 +1,13 @@
 package com.zhou.jdshop.service.impl;
 
 import com.zhou.jdshop.dao.SearchProductDao;
-import com.zhou.jdshop.dto.TbSearchTbProductCustom;
-import com.zhou.jdshop.dubbo.service.SearchService;
+import com.zhou.jdshop.dto.TbSearchProductResult;
+import com.zhou.jdshop.service.SearchService;
 import org.apache.solr.client.solrj.SolrQuery;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import java.util.List;
 
 @Service
 public class SearchServiceImpl implements SearchService {

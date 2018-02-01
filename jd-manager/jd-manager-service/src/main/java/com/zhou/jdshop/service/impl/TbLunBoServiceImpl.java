@@ -1,7 +1,7 @@
 package com.zhou.jdshop.service.impl;
 
 import com.zhou.jdshop.dao.TbLunBoMapper;
-import com.zhou.jdshop.dubbo.service.TbLunBoService;
+import com.zhou.jdshop.service.TbLunBoService;
 import com.zhou.jdshop.jedis.JedisClient;
 import com.zhou.jdshop.pojo.po.TbLunBo;
 import com.zhou.jdshop.util.JsonUtils;

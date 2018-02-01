@@ -9,6 +9,8 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
+        <module>../java-cxf-caller</module>
+        <module>../java-cxf-publisher</module>
         <module>../jd-common</module>
         <module>../jd-manager</module>
         <module>../jd-portal-web</module>

@@ -1,10 +1,10 @@
 package com.zhou.jdshop.search.web;
 
 import com.zhou.jdshop.dto.ProductOption;
-import com.zhou.jdshop.dto.TbSearchTbProductCustom;
+import com.zhou.jdshop.dto.TbSearchProductResult;
 import com.zhou.jdshop.pojo.vo.TbProductCustom;
-import com.zhou.jdshop.dubbo.service.ProductService;
-import com.zhou.jdshop.dubbo.service.SearchService;
+import com.zhou.jdshop.service.ProductService;
+import com.zhou.jdshop.service.SearchService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,8 +14,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
-
-import java.util.List;
 
 @Controller
 public class ProductPortalAction {
@@ -53,24 +51,12 @@ public class ProductPortalAction {
      */
     @ResponseBody
     @RequestMapping("productList")
-    public TbSearchProductResult  productList(@RequestBody ProductOption productOption, Model model){
+    public TbSearchProductResult  productList(@RequestBody ProductOption productOption){
         TbSearchProductResult result=null;
-//        if (StrKit.notBlank(productOption.getPname())) {
-            //调用业务逻辑层的方法进行分页查询
-             result = searchService.search(productOption.getPname(), productOption.getPage(), 12);
-
-
-            //用于回显的数据.待完成
-            //搜索
-         /*   model.addAttribute("query", productOption.getPname());
-            model.addAttribute("totalPages", result.getTotalPages());
-            model.addAttribute("recordCount", result.getRecordCount());
-            model.addAttribute("itemList", result.getItemList());
-            model.addAttribute("page", productOption.getPage());*/
-//        }
+        //调用业务逻辑层的方法进行分页查询
+        result = searchService.search(productOption.getPname(), productOption.getPage(), 12);
 
         return result;
-
 
        /* List<TbProductCustom> list=null;
         try{

@@ -47,13 +47,11 @@
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.3.5" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.3" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpmime:4.3.1" />
-          <element id="library" level="project" name="Maven: org.apache.zookeeper:zookeeper:3.4.6" />
+          <element id="library" level="project" name="Maven: org.apache.zookeeper:zookeeper:3.4.11" />
+          <element id="library" level="project" name="Maven: org.apache.yetus:audience-annotations:0.5.0" />
           <element id="library" level="project" name="Maven: org.codehaus.woodstox:wstx-asl:3.2.7" />
           <element id="library" level="project" name="Maven: org.noggit:noggit:0.5" />
           <element id="library" level="project" name="Maven: org.apache.activemq:activemq-all:5.15.2" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-context-support:4.3.8.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-jms:4.3.8.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-messaging:4.3.8.RELEASE" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.7.3" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.7.0" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.7.3" />
