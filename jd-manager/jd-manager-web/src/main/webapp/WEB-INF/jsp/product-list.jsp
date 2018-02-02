@@ -148,10 +148,10 @@
                         $.ajax({
                             type:"POST",
                             dataType: "json",
-                            url: "deleteCat",
-                            data: {"pids": pids},
+                            url: "updateproduct",
+                            data: {"pids": pids,"pflag":3},
                             success: function (data) {
-                                if (data > 0) {
+                                if (data) {
                                     $table.bootstrapTable('refresh');
                                 }
                             }
@@ -186,7 +186,7 @@
                 url: "updateproduct",
                 data: {"pids": pids,"pflag":3},
                 success: function (data) {
-                    if (data > 0) {
+                    if (data) {
                         $table.bootstrapTable('refresh');
                     }
                 }
@@ -216,7 +216,7 @@
                 url: "updateproduct",
                 data: {"pids": pids,"pflag":1},
                 success: function (data) {
-                    if (data > 0) {
+                    if (data) {
                         $table.bootstrapTable('refresh');
                     }
                 }
@@ -246,7 +246,7 @@
                 url: "updateproduct",
                 data: {"pids": pids,"pflag":2},
                 success: function (data) {
-                    if (data > 0) {
+                    if (data) {
                         $table.bootstrapTable('refresh');
                     }
                 }

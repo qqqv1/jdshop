@@ -115,13 +115,13 @@ public class ProductServiceImpl implements ProductService {
     @Transactional
     @Override
     public int editProduct(TbProduct product) {
-        int i = 0;
+        int i=0;
         try {
             product.setUpdated(new Date());
             TbProductExample example=new TbProductExample();
             TbProductExample.Criteria criteria = example.createCriteria();
             criteria.andPidEqualTo(product.getPid());
-            i = productDao.updateByExampleSelective(product,example);
+            i=productDao.updateByExampleSelective(product,example);
         } catch (Exception e) {
             logger.error(e.getMessage(), e);
             e.printStackTrace();
