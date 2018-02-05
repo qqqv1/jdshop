@@ -70,7 +70,7 @@ public class ProductAction {
             jmsTemplate.send(topicDestination, new MessageCreator() {
                 @Override
                 public Message createMessage(Session session) throws JMSException {
-                    TextMessage textMessage = session.createTextMessage(pid + "");
+                    TextMessage textMessage = session.createTextMessage( "addProduct?"+pid );
                     return textMessage;
                 }
             });
@@ -85,27 +85,51 @@ public class ProductAction {
 
     @ResponseBody
     @RequestMapping("/editproduct")
-    public int editProduct(TbProduct product){
-        int i = 0;
+    public MessageResult editProduct(TbProduct product){
+        MessageResult ms = new MessageResult();
+        int i=0;
         try {
-            i = productService.editProduct(product);
+            i=productService.editProduct(product);
+            if(i>0) {
+                jmsTemplate.send(topicDestination, new MessageCreator() {
+                    @Override
+                    public Message createMessage(Session session) throws JMSException {
+                        TextMessage textMessage = session.createTextMessage(  "editProduct?"+product.getPid());
+                        return textMessage;
+                    }
+                });
+                ms.setSuccess(true);
+                ms.setMessage("新增1个商品成功");
+            }
         } catch (Exception e) {
             logger.error(e.getMessage(), e);
             e.printStackTrace();
         }
-        return i;
+        return ms;
     }
 
     @ResponseBody
     @RequestMapping("/updateproduct")
-    public int deleteProduct(@RequestParam("pids[]") List<Long> pids,@RequestParam("pflag") Integer pflag){
-        int i = 0;
+    public MessageResult deleteProduct(@RequestParam("pids[]") List<Long> pids,@RequestParam("pflag") Integer pflag){
+        MessageResult ms = new MessageResult();
+        int i=0;
         try {
-            i = productService.updateProduct(pids,pflag);
+            i=productService.updateProduct(pids,pflag);
+            if(i>0){
+                jmsTemplate.send(topicDestination, new MessageCreator() {
+                    @Override
+                    public Message createMessage(Session session) throws JMSException {
+                        TextMessage textMessage = session.createTextMessage( "updateProduct?"+pids );
+                        return textMessage;
+                    }
+                });
+                ms.setSuccess(true);
+                ms.setMessage("新增1个商品成功");
+            }
         } catch (Exception e) {
             logger.error(e.getMessage(), e);
             e.printStackTrace();
         }
-        return i;
+        return ms;
     }
 }

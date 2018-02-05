@@ -1,10 +1,3 @@
-
-
-
-
-
-
-
 <!--_meta 作为公共模版分离出去-->
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
@@ -194,7 +187,6 @@
                                 <input type="text" name="receiverAddress"  placeholder=" 请输入地址" value="" maxlength="20" id="receiverAddress" class="form-control">
                             </div>
                         </div>
-
                      <%--   <div class="form-group">
                             <label class="col-sm-3 control-label"><span style="color:red;" >*</span>创建时间：</label>
                             <div class="col-sm-8" >
@@ -212,13 +204,6 @@
 
                             </div>
                         </div>--%>
-
-
-
-
-
-
-
                         <div class="form-group">
                             <div class="col-sm-offset-3 col-sm-8">
                                 <button id="submit" class="btn btn-sm btn-info" type="submit">确认保存</button>
