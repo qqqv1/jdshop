@@ -1,6 +1,8 @@
 package com.zhou.jdshop.pojo.po;
 
-public class TbAdministrator {
+import java.io.Serializable;
+
+public class TbAdministrator implements Serializable {
     private Long adminId;
 
     private String adminName;

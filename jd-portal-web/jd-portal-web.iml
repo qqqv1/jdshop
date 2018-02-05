@@ -31,7 +31,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="jd-manager-service" />
+    <orderEntry type="library" name="Maven: com.zhou:jd-manager-com.zhou.jdshop.search.service:1.0-SNAPSHOT" level="project" />
     <orderEntry type="module" module-name="jd-manager-dao" />
     <orderEntry type="module" module-name="jd-manager-pojo" />
     <orderEntry type="module" module-name="jd-manager-interface" />

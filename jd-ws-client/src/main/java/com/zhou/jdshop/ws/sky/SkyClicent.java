@@ -21,7 +21,7 @@ public class SkyClicent {
         QName qName =new QName("http://WebXml.com.cn/", "MobileCodeWS");
         Service service = Service.create(url, qName);
         // 2.获取服务实现类
-       /* WeatherWebServiceSoap mobileCodeWSSoap = service.getPort(WeatherWebServiceSoap.class);
+       /* WeatherWebServiceSoap mobileCodeWSSoap = com.zhou.jdshop.search.service.getPort(WeatherWebServiceSoap.class);
         // 3.调用查询方法
         String result = mobileCodeWSSoap.getMobileCodeInfo("18888888888", "");
         System.out.println(result);*/

@@ -1,10 +1,11 @@
 package com.zhou.jdshop.pojo.po;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-public class TbProductCatParamExample {
+public class TbProductCatParamExample implements Serializable {
     protected String orderByClause;
 
     protected boolean distinct;

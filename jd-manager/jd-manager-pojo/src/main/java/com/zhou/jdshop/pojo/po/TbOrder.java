@@ -1,8 +1,9 @@
 package com.zhou.jdshop.pojo.po;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class TbOrder {
+public class TbOrder implements Serializable {
     private String orderId;
 
     private Double payment;

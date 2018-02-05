@@ -17,7 +17,7 @@ import javax.xml.ws.ResponseWrapper;
  * Generated source version: 2.2
  * 
  */
-@WebService(name = "WeatherInterfaceImpl", targetNamespace = "http://impl.service.ws.jdshop.zhou.com/")
+@WebService(name = "WeatherInterfaceImpl", targetNamespace = "http://impl.com.zhou.jdshop.search.service.ws.jdshop.zhou.com/")
 @XmlSeeAlso({
     ObjectFactory.class
 })
@@ -32,9 +32,9 @@ public interface WeatherInterfaceImpl {
      */
     @WebMethod
     @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "queryWeather", targetNamespace = "http://impl.service.ws.jdshop.zhou.com/", className = "com.zhou.jdshop.ws.service.impl.QueryWeather")
-    @ResponseWrapper(localName = "queryWeatherResponse", targetNamespace = "http://impl.service.ws.jdshop.zhou.com/", className = "com.zhou.jdshop.ws.service.impl.QueryWeatherResponse")
-    @Action(input = "http://impl.service.ws.jdshop.zhou.com/WeatherInterfaceImpl/queryWeatherRequest", output = "http://impl.service.ws.jdshop.zhou.com/WeatherInterfaceImpl/queryWeatherResponse")
+    @RequestWrapper(localName = "queryWeather", targetNamespace = "http://impl.com.zhou.jdshop.search.service.ws.jdshop.zhou.com/", className = "com.zhou.jdshop.ws.com.zhou.jdshop.search.service.impl.QueryWeather")
+    @ResponseWrapper(localName = "queryWeatherResponse", targetNamespace = "http://impl.com.zhou.jdshop.search.service.ws.jdshop.zhou.com/", className = "com.zhou.jdshop.ws.com.zhou.jdshop.search.service.impl.QueryWeatherResponse")
+    @Action(input = "http://impl.com.zhou.jdshop.search.service.ws.jdshop.zhou.com/WeatherInterfaceImpl/queryWeatherRequest", output = "http://impl.com.zhou.jdshop.search.service.ws.jdshop.zhou.com/WeatherInterfaceImpl/queryWeatherResponse")
     public String queryWeather(
             @WebParam(name = "arg0", targetNamespace = "")
                     String arg0);

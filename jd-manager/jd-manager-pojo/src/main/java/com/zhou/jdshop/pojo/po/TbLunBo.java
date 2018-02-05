@@ -1,4 +1,6 @@
 package com.zhou.jdshop.pojo.po;
 
-public class TbLunBo {
+import java.io.Serializable;
+
+public class TbLunBo implements Serializable {
 }

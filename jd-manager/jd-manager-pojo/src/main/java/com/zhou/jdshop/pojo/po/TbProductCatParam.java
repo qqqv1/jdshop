@@ -1,8 +1,9 @@
 package com.zhou.jdshop.pojo.po;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class TbProductCatParam {
+public class TbProductCatParam implements Serializable {
     private Long id;
 
     private Long cid;

@@ -120,7 +120,7 @@
 .strengthB b{background:url(../images/pwdstrength.gif) no-repeat 0 -13px;}
 .strengthC b{background:url(../images/pwdstrength.gif) no-repeat 0 -26px;}
 
-/*service*/
+/*com.zhou.jdshop.search.service*/
 .service{overflow:hidden;zoom:1;margin-bottom:13px;padding:15px;background:#F7F7F7;}
 .service li{float:left;overflow:hidden;height:14px;padding:0 17px;border-left:1px solid #ccc;background-image:url(../images/bg20110922.png);background-repeat:no-repeat;font-size:0;line-height:100px;}
 .service li.fore{border:none;}

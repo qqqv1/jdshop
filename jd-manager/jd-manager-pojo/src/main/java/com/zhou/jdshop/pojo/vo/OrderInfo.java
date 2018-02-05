@@ -1,4 +1,4 @@
-package com.zhou.jdshop.pojo;
+package com.zhou.jdshop.pojo.vo;
 
 import com.zhou.jdshop.pojo.po.TbOrder;
 import com.zhou.jdshop.pojo.po.TbOrderItem;

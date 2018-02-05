@@ -1,6 +1,8 @@
 package com.zhou.jdshop.pojo.po;
 
-public class TbBoard {
+import java.io.Serializable;
+
+public class TbBoard implements Serializable {
     private Long boardId;
 
     private String boardName;

@@ -1,6 +1,8 @@
 package com.zhou.jdshop.pojo.vo;
 
-public class CartOne {
+import java.io.Serializable;
+
+public class CartOne implements Serializable {
     private double subTotal;
     private double total;
     private int count;

@@ -19,7 +19,7 @@ public class UserAction {
     private Logger logger= LoggerFactory.getLogger(this.getClass());
 
     @Autowired
-    private UserService us;
+    private UserService userService;
 
     @ResponseBody
     @RequestMapping(value = "/users",method = RequestMethod.GET)
@@ -27,7 +27,7 @@ public class UserAction {
 
         List<TbUser> list=null;
         try {
-            list = us.listUsers();
+            list = userService.listUsers();
         }catch (Exception e){
             logger.error(e.getMessage(),e);
             e.printStackTrace();
@@ -38,7 +38,7 @@ public class UserAction {
     @ResponseBody
     @RequestMapping(value = "/user/{uid}", method = RequestMethod.GET)
     public TbUser getItemById(@PathVariable("uid") Long uid) {
-        return us.getUserById(uid);
+        return userService.getUserById(uid);
     }
 
     @ResponseBody
@@ -46,7 +46,7 @@ public class UserAction {
     public int saveProduct(TbUser user){
         int i = 0;
         try {
-            i = us.saveProduct(user);
+            i = userService.saveProduct(user);
         } catch (Exception e) {
             logger.error(e.getMessage(), e);
             e.printStackTrace();
@@ -59,7 +59,7 @@ public class UserAction {
     public int editProduct(TbUser user){
         int i = 0;
         try {
-            i = us.editUser(user);
+            i = userService.editUser(user);
         } catch (Exception e) {
             logger.error(e.getMessage(), e);
             e.printStackTrace();
@@ -72,7 +72,7 @@ public class UserAction {
     public int deleteProduct(@RequestParam("uids[]") List<Long> uids, @RequestParam("state") Integer state){
         int i = 0;
         try {
-            i = us.updateUser(uids,state);
+            i = userService.updateUser(uids,state);
         } catch (Exception e) {
             logger.error(e.getMessage(), e);
             e.printStackTrace();
@@ -84,7 +84,7 @@ public class UserAction {
     @RequestMapping("/userLogin")
     public int userLogin(HttpSession session, HttpServletResponse response, String username, String password){
         int flag=0;
-        TbUser user= us.findUserByUsernameAndPassword(username,password);
+        TbUser user= userService.findUserByUsernameAndPassword(username,password);
         Cookie cookie=new Cookie("JSESSIONID",session.getId());
         cookie.setMaxAge(15*24*3600);
         response.addCookie(cookie);

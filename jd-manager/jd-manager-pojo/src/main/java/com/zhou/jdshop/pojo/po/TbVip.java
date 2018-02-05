@@ -1,6 +1,8 @@
 package com.zhou.jdshop.pojo.po;
 
-public class TbVip {
+import java.io.Serializable;
+
+public class TbVip implements Serializable {
     private Integer userLevel;
 
     private Double userDiscount;

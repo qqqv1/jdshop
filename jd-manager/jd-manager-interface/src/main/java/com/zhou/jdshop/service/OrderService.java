@@ -1,11 +1,10 @@
 package com.zhou.jdshop.service;
 
 import com.zhou.jdshop.pojo.po.TbOrder;
-import com.zhou.jdshop.pojo.po.TbOrderItem;
+import com.zhou.jdshop.pojo.po.TbUser;
 import com.zhou.jdshop.pojo.vo.Cart;
 import com.zhou.jdshop.pojo.vo.TbOrdersCustom;
 
-import javax.servlet.http.HttpSession;
 import java.util.List;
 
 public interface OrderService {
@@ -48,7 +47,7 @@ public interface OrderService {
 //    void insertOrderItem(TbOrderItem orderitem);
 
     //生成订单
-    int createOrder(Cart order, HttpSession session);
+    int createOrder(Cart order,TbUser user);
 
     //查询订单
     List<Cart> selectOrder();

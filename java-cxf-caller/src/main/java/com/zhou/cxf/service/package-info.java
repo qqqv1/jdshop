@@ -1,2 +1,2 @@
-@javax.xml.bind.annotation.XmlSchema(namespace = "http://service.cxf.zhou.com/")
+@javax.xml.bind.annotation.XmlSchema(namespace = "http://com.zhou.jdshop.search.service.cxf.zhou.com/")
 package com.zhou.cxf.service;

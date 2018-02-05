@@ -1,6 +1,8 @@
 package com.zhou.jdshop.pojo.po;
 
-public class Orderitem {
+import java.io.Serializable;
+
+public class Orderitem implements Serializable {
     private String itemid;
 
     private Integer count;

@@ -1,8 +1,9 @@
 package com.zhou.jdshop.pojo.po;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class TbNew {
+public class TbNew implements Serializable {
     private Long newId;
 
     private String newTitle;

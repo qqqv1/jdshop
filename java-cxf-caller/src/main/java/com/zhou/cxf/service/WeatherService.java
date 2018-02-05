@@ -14,13 +14,13 @@ import javax.xml.ws.ResponseWrapper;
  * Generated source version: 3.2.1
  * 
  */
-@WebService(targetNamespace = "http://service.cxf.zhou.com/", name = "WeatherService")
+@WebService(targetNamespace = "http://com.zhou.jdshop.search.service.cxf.zhou.com/", name = "WeatherService")
 @XmlSeeAlso({ObjectFactory.class})
 public interface WeatherService {
 
     @WebMethod
-    @RequestWrapper(localName = "queryWeather", targetNamespace = "http://service.cxf.zhou.com/", className = "com.zhou.cxf.service.QueryWeather")
-    @ResponseWrapper(localName = "queryWeatherResponse", targetNamespace = "http://service.cxf.zhou.com/", className = "com.zhou.cxf.service.QueryWeatherResponse")
+    @RequestWrapper(localName = "queryWeather", targetNamespace = "http://com.zhou.jdshop.search.service.cxf.zhou.com/", className = "com.zhou.cxf.com.zhou.jdshop.search.service.QueryWeather")
+    @ResponseWrapper(localName = "queryWeatherResponse", targetNamespace = "http://com.zhou.jdshop.search.service.cxf.zhou.com/", className = "com.zhou.cxf.com.zhou.jdshop.search.service.QueryWeatherResponse")
     @WebResult(name = "return", targetNamespace = "")
     public String queryWeather(
             @WebParam(name = "arg0", targetNamespace = "")

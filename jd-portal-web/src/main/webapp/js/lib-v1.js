@@ -59,7 +59,7 @@ function clothingAbTest() {
     var a = location.hostname;
     return /360buy.com/.test(a) ? "360buy.com" : "jd.com"
 }), function() {
-    var a = $("#service-2013 a[href='http://en.360buy.com/']");
+    var a = $("#com.zhou.jdshop.search.service-2013 a[href='http://en.360buy.com/']");
     a.length && a.attr("href", "http://help.en.360buy.com/help/question-2.html")
 }(), function() {
     var a = $("#footer-2013 a[href='http://about.58.com/fqz/index.html']");
@@ -1351,7 +1351,7 @@ var category = {OBJ: $("#_JD_ALLSORT"),
         /blogPin/.test(location.href) && (f.blogPin = g.param.blogPin), 1 == a && (c = "\u964d\u4ef7\u901a\u77e5", d = this._saleNotify, e = 250), 2 == a && (c = "\u5230\u8d27\u901a\u77e5", d = this._stockNotify, e = 210, f.storeAddressId = readCookie("ipLoc-djd") || "0-0-0"), d += b ? b : $.param(f), $.jdThickBox({type: "iframe",source: decodeURIComponent(d) + "&nocache=" + +new Date,width: 500,height: e,title: c,_box: "notify_box",_con: "notify_con",_title: "notify_title"})
     }};
 !function() {
-    pageConfig.FN_ImgError(document), $("img[data-lazyload]").Jlazyload({type: "image",placeholderClass: "err-product"}), category.FN_Init(), document.getElementById("shortcut") ? $("#shortcut .menu").Jdropdown({delay: 50}) : ($("#biz-service").Jdropdown({delay: 50}, function() {
+    pageConfig.FN_ImgError(document), $("img[data-lazyload]").Jlazyload({type: "image",placeholderClass: "err-product"}), category.FN_Init(), document.getElementById("shortcut") ? $("#shortcut .menu").Jdropdown({delay: 50}) : ($("#biz-com.zhou.jdshop.search.service").Jdropdown({delay: 50}, function() {
         $.ajax({url: "http://www.jd.com/hotwords.aspx?position=new-index-002",dataType: "script",scriptCharset: "gb2312",cache: !0})
     }), $("#site-nav").Jdropdown({delay: 50}, function() {
         $.ajax({url: "http://www.jd.com/hotwords.aspx?position=new-index-003",dataType: "script",scriptCharset: "gb2312",cache: !0})

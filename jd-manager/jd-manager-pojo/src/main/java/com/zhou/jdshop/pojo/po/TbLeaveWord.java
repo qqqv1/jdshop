@@ -1,8 +1,9 @@
 package com.zhou.jdshop.pojo.po;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class TbLeaveWord {
+public class TbLeaveWord implements Serializable {
     private Long leaveWordId;
 
     private Long uid;

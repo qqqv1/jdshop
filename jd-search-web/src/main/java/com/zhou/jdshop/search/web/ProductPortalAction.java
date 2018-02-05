@@ -8,8 +8,8 @@ import com.zhou.jdshop.service.SearchService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -20,11 +20,18 @@ public class ProductPortalAction {
 
     private Logger logger= LoggerFactory.getLogger(this.getClass());
 
-    @Autowired
+//    @Autowired
     private SearchService searchService;
 
-    @Autowired
+//    @Autowired
     private ProductService productService;
+
+    {
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("spring/spring-dubbo-consumer.xml");
+        context.start();
+        productService=(ProductService)context.getBean("productService");
+        searchService=(SearchService)context.getBean("searchService");
+    }
 
     /**
      * 根据搜索项查询分页总数
@@ -54,7 +61,7 @@ public class ProductPortalAction {
     public TbSearchProductResult  productList(@RequestBody ProductOption productOption){
         TbSearchProductResult result=null;
         //调用业务逻辑层的方法进行分页查询
-        result = searchService.search(productOption.getPname(), productOption.getPage(), 12);
+        result = searchService.search(productOption);
 
         return result;
 

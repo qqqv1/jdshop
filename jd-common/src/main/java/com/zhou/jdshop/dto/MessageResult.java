@@ -1,6 +1,8 @@
 package com.zhou.jdshop.dto;
 
-public class MessageResult {
+import java.io.Serializable;
+
+public class MessageResult implements Serializable {
     //是否成功
     private boolean success;
     //文本

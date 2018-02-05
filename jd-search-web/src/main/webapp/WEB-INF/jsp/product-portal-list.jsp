@@ -362,6 +362,7 @@
      */
     var productOption={
         'page':1,
+        'pageSize':12,
         'pname':'',
         'bname':'',
         'cname':'',

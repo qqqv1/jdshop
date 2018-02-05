@@ -16,7 +16,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import javax.servlet.http.HttpSession;
 import java.util.*;
 
 @Service
@@ -147,13 +146,14 @@ public class OrderServiceImpl implements OrderService {
     //生成订单
     @Transactional
     @Override
-    public int createOrder(Cart order,HttpSession session) {
+    public int createOrder(Cart order,TbUser user) {
         int i=0;
         int j=0;
         //生成订单id
         String orderId = CommonsUtils.getUUID();
         //向订单表插入数据，需要补全pojo的属性
-        TbUser tbUser = (TbUser)session.getAttribute("sessionUser");
+
+        TbUser tbUser = user;
         TbOrder tbOrder = new TbOrder();
         tbOrder.setOrderId(orderId);
         tbOrder.setPaymentType(1);

@@ -1,9 +1,10 @@
 package com.zhou.jdshop.pojo.po;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TbBrandExample {
+public class TbBrandExample implements Serializable {
     protected String orderByClause;
 
     protected boolean distinct;

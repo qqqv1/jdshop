@@ -706,7 +706,7 @@ SEARCH.get_im_info = function(a, b) {
         }})
 };
 SEARCH.get_shop_name = function() {
-    var e = this, c = $("#plist").find("div.service,div.shop-name").not('[done="1"]').filter("[shop_id]"), d = c.length;
+    var e = this, c = $("#plist").find("div.com.zhou.jdshop.search.service,div.shop-name").not('[done="1"]').filter("[shop_id]"), d = c.length;
     if (!d) {
         return false
     }

@@ -2,10 +2,12 @@ package com.zhou.jdshop.pojo.vo;
 
 import com.zhou.jdshop.pojo.po.TbProduct;
 
+import java.io.Serializable;
+
 /**
  * 购物项
  */
-public class CartItem {
+public class CartItem implements Serializable {
     /**
      * 商品
      */

@@ -13,9 +13,9 @@
 2. 使用JDK的wsimport命令产生相关类文件
     * wsimport -s . http://xxx/xxx?wsdl
 3. 创建调用者工程（web java）
-4. 创建包（包的路径要与targetNamespace = "http://impl.service.ws.jdshop.zhou.com/"）
+4. 创建包（包的路径要与targetNamespace = "http://impl.com.zhou.jdshop.search.service.ws.jdshop.zhou.com/"）
 5. 创建测试类
-    * 创建service：<service name="WeatherInterfaceImplService">
+    * 创建service：<com.zhou.jdshop.search.service name="WeatherInterfaceImplService">
     * 获取接口：<portType name="WeatherInterfaceImpl">（getPort）
     * 调用方法打印 queryWeather(cityName)
 

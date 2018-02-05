@@ -2,7 +2,9 @@ package com.zhou.jdshop.pojo.vo;
 
 import com.zhou.jdshop.pojo.po.TbOrder;
 
-public class TbOrdersCustom extends TbOrder {
+import java.io.Serializable;
+
+public class TbOrdersCustom extends TbOrder implements Serializable {
 
 
     private String itemid;

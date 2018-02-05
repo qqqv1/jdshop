@@ -1,6 +1,7 @@
 package com.zhou.jdshop.search.web;
 
 import com.zhou.jdshop.pojo.po.TbProduct;
+import com.zhou.jdshop.pojo.po.TbUser;
 import com.zhou.jdshop.pojo.vo.Cart;
 import com.zhou.jdshop.pojo.vo.CartItem;
 import com.zhou.jdshop.service.OrderService;
@@ -29,7 +30,8 @@ public class OrderManagerAction {
 	public String saveOrder(Cart order,HttpSession session) {
 		//从session中取购物车商品列表
 		int i=0;
-        i=orderService.createOrder(order,session);
+		TbUser user =(TbUser)session.getAttribute("sessionUser");
+        i=orderService.createOrder(order,user);
         session.removeAttribute("cart");
         session.removeAttribute("order");
 		return "redirect:/pay";

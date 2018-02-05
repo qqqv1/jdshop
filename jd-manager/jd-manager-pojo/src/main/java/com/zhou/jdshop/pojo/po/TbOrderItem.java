@@ -1,6 +1,8 @@
 package com.zhou.jdshop.pojo.po;
 
-public class TbOrderItem {
+import java.io.Serializable;
+
+public class TbOrderItem implements Serializable {
     private String id;
 
     private Long itemId;

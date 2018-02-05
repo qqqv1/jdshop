@@ -10,7 +10,7 @@ import javax.xml.namespace.QName;
 /**
  * This object contains factory methods for each 
  * Java content interface and Java element interface 
- * generated in the com.zhou.jdshop.ws.service.impl package. 
+ * generated in the com.zhou.jdshop.ws.com.zhou.jdshop.search.service.impl package.
  * <p>An ObjectFactory allows you to programatically 
  * construct new instances of the Java representation 
  * for XML content. The Java representation of XML 
@@ -24,11 +24,11 @@ import javax.xml.namespace.QName;
 @XmlRegistry
 public class ObjectFactory {
 
-    private final static QName _QueryWeather_QNAME = new QName("http://impl.service.ws.jdshop.zhou.com/", "queryWeather");
-    private final static QName _QueryWeatherResponse_QNAME = new QName("http://impl.service.ws.jdshop.zhou.com/", "queryWeatherResponse");
+    private final static QName _QueryWeather_QNAME = new QName("http://impl.com.zhou.jdshop.search.service.ws.jdshop.zhou.com/", "queryWeather");
+    private final static QName _QueryWeatherResponse_QNAME = new QName("http://impl.com.zhou.jdshop.search.service.ws.jdshop.zhou.com/", "queryWeatherResponse");
 
     /**
-     * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: com.zhou.jdshop.ws.service.impl
+     * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: com.zhou.jdshop.ws.com.zhou.jdshop.search.service.impl
      * 
      */
     public ObjectFactory() {
@@ -54,7 +54,7 @@ public class ObjectFactory {
      * Create an instance of {@link JAXBElement }{@code <}{@link QueryWeather }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://impl.service.ws.jdshop.zhou.com/", name = "queryWeather")
+    @XmlElementDecl(namespace = "http://impl.com.zhou.jdshop.search.service.ws.jdshop.zhou.com/", name = "queryWeather")
     public JAXBElement<QueryWeather> createQueryWeather(QueryWeather value) {
         return new JAXBElement<QueryWeather>(_QueryWeather_QNAME, QueryWeather.class, null, value);
     }
@@ -63,7 +63,7 @@ public class ObjectFactory {
      * Create an instance of {@link JAXBElement }{@code <}{@link QueryWeatherResponse }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://impl.service.ws.jdshop.zhou.com/", name = "queryWeatherResponse")
+    @XmlElementDecl(namespace = "http://impl.com.zhou.jdshop.search.service.ws.jdshop.zhou.com/", name = "queryWeatherResponse")
     public JAXBElement<QueryWeatherResponse> createQueryWeatherResponse(QueryWeatherResponse value) {
         return new JAXBElement<QueryWeatherResponse>(_QueryWeatherResponse_QNAME, QueryWeatherResponse.class, null, value);
     }

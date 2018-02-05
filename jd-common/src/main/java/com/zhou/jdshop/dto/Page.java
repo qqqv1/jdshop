@@ -1,6 +1,8 @@
 package com.zhou.jdshop.dto;
 
-public class Page {
+import java.io.Serializable;
+
+public class Page implements Serializable {
     private int page;
     private int rows;
 

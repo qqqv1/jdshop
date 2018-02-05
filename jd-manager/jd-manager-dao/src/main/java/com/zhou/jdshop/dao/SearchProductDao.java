@@ -99,6 +99,8 @@ public class SearchProductDao {
                 item.setPrice((long) document.get("product_price"));
                 item.setPdesc((String) document.get("product_pdesc"));
                 item.setPsold((int) document.get("product_psold"));
+                item.setBname((String) document.get("product_bname"));
+                item.setHname((String) document.get("product_hname"));
 //                System.out.println(item.getPsold()+"dddddddddddddddddddddddd"+123);
 
                 //获取高亮列表的值

@@ -231,7 +231,7 @@
                 cache:false,
                 success: function (result) {
                     //请求成功时
-                    if(result> 0){
+                    if(result){
                         alert("修改商品成功！");
                         location.href='product-list';
                         return true;

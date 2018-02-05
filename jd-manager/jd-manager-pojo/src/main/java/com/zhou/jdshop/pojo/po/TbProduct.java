@@ -1,8 +1,9 @@
 package com.zhou.jdshop.pojo.po;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class TbProduct {
+public class TbProduct implements Serializable {
     private Long pid;
 
     private String pname;

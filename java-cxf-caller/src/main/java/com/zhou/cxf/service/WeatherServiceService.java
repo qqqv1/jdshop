@@ -16,13 +16,13 @@ import javax.xml.ws.Service;
  */
 @WebServiceClient(name = "WeatherServiceService", 
                   wsdlLocation = "http://127.0.0.1:98/weather?wsdl",
-                  targetNamespace = "http://service.cxf.zhou.com/") 
+                  targetNamespace = "http://com.zhou.jdshop.search.service.cxf.zhou.com/")
 public class WeatherServiceService extends Service {
 
     public final static URL WSDL_LOCATION;
 
-    public final static QName SERVICE = new QName("http://service.cxf.zhou.com/", "WeatherServiceService");
-    public final static QName WeatherServicePort = new QName("http://service.cxf.zhou.com/", "WeatherServicePort");
+    public final static QName SERVICE = new QName("http://com.zhou.jdshop.search.service.cxf.zhou.com/", "WeatherServiceService");
+    public final static QName WeatherServicePort = new QName("http://com.zhou.jdshop.search.service.cxf.zhou.com/", "WeatherServicePort");
     static {
         URL url = null;
         try {

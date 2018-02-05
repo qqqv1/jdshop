@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/java-cxf-caller/src/main/java/com/zhou/cxf/service/QueryWeatherResponse.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/jd-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jd-consumer-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jd-lucene" charset="UTF-8" />
@@ -15,6 +16,7 @@
     <file url="file://$PROJECT_DIR$/jd-provider-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jd-search-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jd-ws-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jd-ws-client/src/main/java/com/zhou/jdshop/ws/qq/impl/QqCheckOnline.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/jd-ws-publisher" charset="UTF-8" />
   </component>
 </project>

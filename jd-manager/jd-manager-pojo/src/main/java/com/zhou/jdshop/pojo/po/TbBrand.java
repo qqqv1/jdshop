@@ -1,6 +1,8 @@
 package com.zhou.jdshop.pojo.po;
 
-public class TbBrand {
+import java.io.Serializable;
+
+public class TbBrand implements Serializable {
     private Long bid;
 
     private String bname;

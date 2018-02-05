@@ -17,14 +17,14 @@ import javax.xml.ws.WebServiceFeature;
  * Generated source version: 2.2
  * 
  */
-@WebServiceClient(name = "WeatherInterfaceImplService", targetNamespace = "http://impl.service.ws.jdshop.zhou.com/", wsdlLocation = "http://127.0.0.1:90/weather?wsdl")
+@WebServiceClient(name = "WeatherInterfaceImplService", targetNamespace = "http://impl.com.zhou.jdshop.search.service.ws.jdshop.zhou.com/", wsdlLocation = "http://127.0.0.1:90/weather?wsdl")
 public class WeatherInterfaceImplService
     extends Service
 {
 
     private final static URL WEATHERINTERFACEIMPLSERVICE_WSDL_LOCATION;
     private final static WebServiceException WEATHERINTERFACEIMPLSERVICE_EXCEPTION;
-    private final static QName WEATHERINTERFACEIMPLSERVICE_QNAME = new QName("http://impl.service.ws.jdshop.zhou.com/", "WeatherInterfaceImplService");
+    private final static QName WEATHERINTERFACEIMPLSERVICE_QNAME = new QName("http://impl.com.zhou.jdshop.search.service.ws.jdshop.zhou.com/", "WeatherInterfaceImplService");
 
     static {
         URL url = null;
@@ -69,7 +69,7 @@ public class WeatherInterfaceImplService
      */
     @WebEndpoint(name = "WeatherInterfaceImplPort")
     public WeatherInterfaceImpl getWeatherInterfaceImplPort() {
-        return super.getPort(new QName("http://impl.service.ws.jdshop.zhou.com/", "WeatherInterfaceImplPort"), WeatherInterfaceImpl.class);
+        return super.getPort(new QName("http://impl.com.zhou.jdshop.search.service.ws.jdshop.zhou.com/", "WeatherInterfaceImplPort"), WeatherInterfaceImpl.class);
     }
 
     /**
@@ -81,7 +81,7 @@ public class WeatherInterfaceImplService
      */
     @WebEndpoint(name = "WeatherInterfaceImplPort")
     public WeatherInterfaceImpl getWeatherInterfaceImplPort(WebServiceFeature... features) {
-        return super.getPort(new QName("http://impl.service.ws.jdshop.zhou.com/", "WeatherInterfaceImplPort"), WeatherInterfaceImpl.class, features);
+        return super.getPort(new QName("http://impl.com.zhou.jdshop.search.service.ws.jdshop.zhou.com/", "WeatherInterfaceImplPort"), WeatherInterfaceImpl.class, features);
     }
 
     private static URL __getWsdlLocation() {

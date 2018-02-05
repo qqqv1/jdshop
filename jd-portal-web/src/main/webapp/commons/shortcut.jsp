@@ -18,7 +18,7 @@
 				<s></s><i></i><span class="outline"></span><span class="blank"></span>
 				<a href="http://app.jd.com/" target="_blank">手机淘淘</a><b></b>
 			</li>
-			<li class="fore4 ld menu" id="biz-service" data-widget="dropdown" clstag="homepage|keycount|home2013|01e">
+			<li class="fore4 ld menu" id="biz-com.zhou.jdshop.search.service" data-widget="dropdown" clstag="homepage|keycount|home2013|01e">
 				<s></s>
 				<span class="outline"></span>
 				<span class="blank"></span>
@@ -29,7 +29,7 @@
 					<div><a href="http://myjd.jd.com/repair/orderlist.action" target="_blank" rel="nofollow">售后服务</a></div>
 					<div><a href="http://chat.jd.com/jdchat/custom.action" target="_blank" rel="nofollow">在线客服</a></div>
 					<div><a href="http://myjd.jd.com/opinion/list.action" target="_blank" rel="nofollow">投诉中心</a></div>
-					<div><a href="http://www.jd.com/contact/service.html" target="_blank">客服邮箱</a></div>
+					<div><a href="http://www.jd.com/contact/com.zhou.jdshop.search.service.html" target="_blank">客服邮箱</a></div>
 				</div>
 			</li>
 			<li class="fore5 ld menu" id="site-nav" data-widget="dropdown" clstag="homepage|keycount|home2013|01f">

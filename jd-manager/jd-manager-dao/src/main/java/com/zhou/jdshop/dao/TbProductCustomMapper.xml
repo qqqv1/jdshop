@@ -88,11 +88,15 @@
         p.shop_price AS price ,
         p.pimage,
         c.cname,
-        p.psold
+        p.psold,
+        b.bname,
+        h.hname
 
         FROM
         tb_product p
         LEFT JOIN tb_product_cat c ON p.cid = c.cid
+        LEFT JOIN tb_brand b ON p.bid=b.bid
+        LEFT JOIN tb_product_hot h on p.pid=h.pid
         WHERE
         p.pid=#{pid} and p.pflag != 0
         order by p.pid desc
@@ -106,11 +110,15 @@
         p.shop_price AS price ,
         p.pimage,
         c.cname,
-        p.psold
+        p.psold,
+        b.bname,
+        h.hname
 
         FROM
         tb_product p
         LEFT JOIN tb_product_cat c ON p.cid = c.cid
+        LEFT JOIN tb_brand b ON p.bid=b.bid
+        LEFT JOIN tb_product_hot h on p.pid=h.pid
         WHERE
         p.pid in (${pids}) and p.pflag != 0
         order by p.pid desc

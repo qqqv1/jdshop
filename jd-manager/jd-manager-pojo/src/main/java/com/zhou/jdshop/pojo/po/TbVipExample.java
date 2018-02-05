@@ -1,9 +1,10 @@
 package com.zhou.jdshop.pojo.po;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TbVipExample {
+public class TbVipExample implements Serializable {
     protected String orderByClause;
 
     protected boolean distinct;

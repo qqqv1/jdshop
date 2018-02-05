@@ -48,6 +48,8 @@ public class ProductEditMessageListener implements MessageListener {
                 document.addField("product_pimage", product.getPimage());
                 document.addField("product_pdesc", product.getPdesc());
                 document.addField("product_psold", product.getPsold());
+                document.addField("product_bname",product.getBname());
+                document.addField("product_hname",product.getHname());
                 //把文档写入索引库
                 solrServer.add(document);
                 //提交

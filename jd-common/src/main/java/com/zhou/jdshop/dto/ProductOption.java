@@ -1,7 +1,10 @@
 package com.zhou.jdshop.dto;
 
-public class ProductOption {
+import java.io.Serializable;
+
+public class ProductOption implements Serializable {
     private Integer page;
+    private Integer pageSize;
     private String pname;
     private String bname;
     private String cname;
@@ -17,6 +20,14 @@ public class ProductOption {
 
     public void setPage(Integer page) {
         this.page = page;
+    }
+
+    public Integer getPageSize() {
+        return pageSize;
+    }
+
+    public void setPageSize(Integer pageSize) {
+        this.pageSize = pageSize;
     }
 
     public String getPname() {

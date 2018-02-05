@@ -1,6 +1,8 @@
 package com.zhou.jdshop.pojo.po;
 
-public class TbShippingAddress {
+import java.io.Serializable;
+
+public class TbShippingAddress implements Serializable {
     private Long aid;
 
     private String shippingAddr;

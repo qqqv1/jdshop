@@ -11,7 +11,7 @@
         http://www.springframework.org/schema/tx/spring-tx.xsd">
 
     <!--1 扫描SERVICE层下注解类,可以扫描到base-package的当前包以及子包的所有注解类-->
-    <context:component-scan base-package="com.zhou.jdshop.service.impl"/>
+    <context:component-scan base-package="com.zhou.jdshop.com.zhou.jdshop.search.service.impl"/>
     <!--2 事务管理器-->
     <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
         <!--注入数据源属性-->

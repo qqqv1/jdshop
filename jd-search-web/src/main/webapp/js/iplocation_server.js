@@ -640,15 +640,15 @@ $.getDeliver = function(p){
         iconDesc = '<span id="promise-ico">支持：'+iconDesc+'</span>';
     }
     if(pageConfig.product.skuid<1000000000){
-//        $("#summary-service").html("");
+//        $("#summary-com.zhou.jdshop.search.service").html("");
 //        if (p.PopType==999||p.Ext.indexOf("factoryShip")!=-1){
-//            $("<div class='dt'>服\u3000\u3000务：</div><div class='dd'>由厂家或供应商提供和配送。"+iconDesc+"</div>").appendTo("#summary-service");
+//            $("<div class='dt'>服\u3000\u3000务：</div><div class='dd'>由厂家或供应商提供和配送。"+iconDesc+"</div>").appendTo("#summary-com.zhou.jdshop.search.service");
 //        }else{
 //            var upenCheckStr = "";
 //            if (p.code==1&&openCheck&&!iconDesc&&!checkApecialAttr("YuShou")){
 //                upenCheckStr = "，支持货到付款、开箱验机";
 //            }
-//            $("<div class='dt'>服\u3000\u3000务：</div><div class='dd'>由 京东 发货并提供售后服务"+upenCheckStr+"。"+iconDesc+"</div>").appendTo("#summary-service");
+//            $("<div class='dt'>服\u3000\u3000务：</div><div class='dd'>由 京东 发货并提供售后服务"+upenCheckStr+"。"+iconDesc+"</div>").appendTo("#summary-com.zhou.jdshop.search.service");
 //        }
     }
     if (pageConfig.product.skuid>1000000000){   
@@ -706,8 +706,8 @@ function showVenderServiceInfo(r){
 //        currentVenderInfoJson = r;
 //        var unshowtypes = "0,1,2,4,5";
 //        if (unshowtypes.indexOf(r.type) != -1){
-//                if($("#summary-service").length==0){$("<li id='summary-service'></li>").insertAfter("#summary-stock");}
-//                $("#summary-service").html("");
+//                if($("#summary-com.zhou.jdshop.search.service").length==0){$("<li id='summary-com.zhou.jdshop.search.service'></li>").insertAfter("#summary-stock");}
+//                $("#summary-com.zhou.jdshop.search.service").html("");
 //                var key=r.id+"_"+r.type;
 //                var dfinfo=(r.vid.length!=7&&r.df&&r.df!="null")?("从 "+r.df+" "):"负责";
 //                var shinfo=r.po=="false"?"京东提供售后服务。":"并提供售后服务。"; //sop & sopl
@@ -716,33 +716,33 @@ function showVenderServiceInfo(r){
 //						requestDeliveCash = true;
 //						getPOPDeliveCash();
 //					}
-//					$("<div class='dt'>服\u3000\u3000务：</div><div class='dd'>由 京东 负责发货，<a href='#none'>"+r.vender+"</a> 完成售后服务。"+iconDesc+"</div>").appendTo("#summary-service");
+//					$("<div class='dt'>服\u3000\u3000务：</div><div class='dd'>由 京东 负责发货，<a href='#none'>"+r.vender+"</a> 完成售后服务。"+iconDesc+"</div>").appendTo("#summary-com.zhou.jdshop.search.service");
 //				}
 //				else{
 //					if(r.type==0){
 //						if(pageConfig.product.isLOC){
 //							$("<div class='dt'>服\u3000\u3000务：</div><div class='dd'><span id='promise-ico'><a class='"+(pageConfig.product.isLOC2?"pico-onlineserver":"shouhoudaojia")+"' href='#none'></a></span>由<a href='"+$.getShopUrl(r)+"' target='_blank' clstag='shangpin|keycount|product|bbtn' class='hl_red'>"+r.vender+"</a>提供服务和售后"
-//							+"<span id='loc_enddate'>"+(locSkuEndDate?("，"+locSkuEndDate):"。")+"</span>"+"</div>").appendTo("#summary-service");
+//							+"<span id='loc_enddate'>"+(locSkuEndDate?("，"+locSkuEndDate):"。")+"</span>"+"</div>").appendTo("#summary-com.zhou.jdshop.search.service");
 //						}
 //						else{
 //							requestDeliveCash = true;
 //							getPOPDeliveCash();
 //							$("<div class='dt'>服\u3000\u3000务：</div><div class='dd'>由<a href='"+$.getShopUrl(r)+"' target='_blank' clstag='shangpin|keycount|product|bbtn' class='hl_red'>"+r.vender+"</a>"+dfinfo+"发货，"
-//							+shinfo+iconDesc+"</div>").appendTo("#summary-service");
+//							+shinfo+iconDesc+"</div>").appendTo("#summary-com.zhou.jdshop.search.service");
 //						}
 //					}
 //					else if(r.type==1){
-//						$("<div class='dt'>服\u3000\u3000务：</div><div class='dd'>由 京东 发货并提供售后服务。"+iconDesc+"</div>").appendTo("#summary-service");
+//						$("<div class='dt'>服\u3000\u3000务：</div><div class='dd'>由 京东 发货并提供售后服务。"+iconDesc+"</div>").appendTo("#summary-com.zhou.jdshop.search.service");
 //					}
 //					else if(r.type==2){
-//						$("<div class='dt'>服\u3000\u3000务：</div><div class='dd'>由<a href='"+$.getShopUrl(r)+"' "+(pageConfig.product.isFlashPurchase?"":"target='_blank'")+" clstag='shangpin|keycount|product|bbtn' class='hl_red'>"+r.vender+"</a>"+dfinfo+"发货，京东提供售后服务。"+iconDesc+"</div>").appendTo("#summary-service");
+//						$("<div class='dt'>服\u3000\u3000务：</div><div class='dd'>由<a href='"+$.getShopUrl(r)+"' "+(pageConfig.product.isFlashPurchase?"":"target='_blank'")+" clstag='shangpin|keycount|product|bbtn' class='hl_red'>"+r.vender+"</a>"+dfinfo+"发货，京东提供售后服务。"+iconDesc+"</div>").appendTo("#summary-com.zhou.jdshop.search.service");
 //					}
 //					else if(r.type==5){
-//						$("<div class='dt'>服\u3000\u3000务：</div><div class='dd'>由<a href='"+$.getShopUrl(r)+"' "+(pageConfig.product.isFlashPurchase?"":"target='_blank'")+" clstag='shangpin|keycount|product|bbtn' class='hl_red'>"+r.vender+"</a>"+dfinfo+"发货，"+shinfo+iconDesc+"</div>").appendTo("#summary-service");
+//						$("<div class='dt'>服\u3000\u3000务：</div><div class='dd'>由<a href='"+$.getShopUrl(r)+"' "+(pageConfig.product.isFlashPurchase?"":"target='_blank'")+" clstag='shangpin|keycount|product|bbtn' class='hl_red'>"+r.vender+"</a>"+dfinfo+"发货，"+shinfo+iconDesc+"</div>").appendTo("#summary-com.zhou.jdshop.search.service");
 //					}
 //				}
-//                if(pageConfig.product.yfinfo&&pageConfig.product.yfinfo.service){
-//                    $("<div class='dt'>\u3000\u3000</div><div class='dd'>"+pageConfig.product.yfinfo.service+"</div>").appendTo("#summary-service");
+//                if(pageConfig.product.yfinfo&&pageConfig.product.yfinfo.com.zhou.jdshop.search.service){
+//                    $("<div class='dt'>\u3000\u3000</div><div class='dd'>"+pageConfig.product.yfinfo.com.zhou.jdshop.search.service+"</div>").appendTo("#summary-com.zhou.jdshop.search.service");
 //                }
 //                if(r.type!=4){
 //                    if($("#product-intro .itemover-title button").length==0&&$("#product-intro .itemover-title h3").length>0)$("<button type='button' clstag='shangpin|keycount|product|bbtn'>进入卖家店铺</button>").appendTo("#product-intro .itemover-title h3");
@@ -1297,7 +1297,7 @@ function aboutSelfDeliveCash(type,flag){
                     }
                 }
                 else{
-                    $('<span id="promise-ico">支持：<a href="http://help.jd.com/help/question-892.html#help2215" target="_blank" class="free_delivery" title="了解配送费收取标准"></a></span>').appendTo("#summary-service .dd");
+                    $('<span id="promise-ico">支持：<a href="http://help.jd.com/help/question-892.html#help2215" target="_blank" class="free_delivery" title="了解配送费收取标准"></a></span>').appendTo("#summary-com.zhou.jdshop.search.service .dd");
                 }
             }
         }

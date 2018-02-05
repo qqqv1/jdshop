@@ -1,12 +1,13 @@
 package com.zhou.jdshop.pojo.vo;
 
+import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
 
 /**
  * 购物车
  */
-public class Cart {
+public class Cart implements Serializable {
 
     /**
      * 购物项

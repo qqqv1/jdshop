@@ -2,7 +2,9 @@ package com.zhou.jdshop.dto;
 
 import com.zhou.jdshop.pojo.po.TbProduct;
 
-public class TbSearchTbProductCustom extends TbProduct {
+import java.io.Serializable;
+
+public class TbSearchTbProductCustom extends TbProduct implements Serializable {
     private String cname;
     private String id;
     private String price;

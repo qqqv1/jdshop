@@ -1,5 +1,6 @@
 package com.zhou.jdshop.web;
 
+import com.zhou.jdshop.pojo.po.TbUser;
 import com.zhou.jdshop.pojo.vo.Cart;
 import com.zhou.jdshop.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,7 +20,8 @@ public class OrderManagerAction {
 	@RequestMapping("/order/addOrder")
 	public String saveOrder(Cart order,HttpSession session) {
 		int j=0;
-		j=orderService.createOrder(order,session);
+		TbUser user=(TbUser)session.getAttribute("sessionUser");
+		j=orderService.createOrder(order,user);
 		if(j>0) {
 			session.removeAttribute("cart");
 			session.removeAttribute("order");
