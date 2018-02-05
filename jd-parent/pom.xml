@@ -16,8 +16,8 @@
         <module>../jd-portal-web</module>
         <module>../jd-lucene</module>
         <module>../jd-search-web</module>
-        <module>../jd-provider-web</module>
-        <module>../jd-consumer-web</module>
+        <!--<module>../jd-provider-web</module>
+        <module>../jd-consumer-web</module>-->
         <module>../jd-ws-publisher</module>
         <module>../jd-ws-client</module>
     </modules>
