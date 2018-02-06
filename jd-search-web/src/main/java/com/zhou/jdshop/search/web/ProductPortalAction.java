@@ -15,23 +15,27 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import javax.annotation.Resource;
+
 @Controller
 public class ProductPortalAction {
 
     private Logger logger= LoggerFactory.getLogger(this.getClass());
 
 //    @Autowired
+    @Resource
     private SearchService searchService;
 
 //    @Autowired
+    @Resource
     private ProductService productService;
 
-    {
+    /*{
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("spring/spring-dubbo-consumer.xml");
         context.start();
         productService=(ProductService)context.getBean("productService");
         searchService=(SearchService)context.getBean("searchService");
-    }
+    }*/
 
     /**
      * 根据搜索项查询分页总数
@@ -58,7 +62,7 @@ public class ProductPortalAction {
      */
     @ResponseBody
     @RequestMapping("productList")
-    public TbSearchProductResult  productList(@RequestBody ProductOption productOption){
+    public TbSearchProductResult productList(@RequestBody ProductOption productOption){
         TbSearchProductResult result=null;
         //调用业务逻辑层的方法进行分页查询
         result = searchService.search(productOption);

@@ -20,6 +20,7 @@
         <module>../jd-consumer-web</module>
         <module>../jd-ws-publisher</module>
         <module>../jd-ws-client</module>
+        <module>../jd-sso-web</module>
     </modules>
 
     <properties>

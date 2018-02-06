@@ -11,19 +11,21 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import javax.annotation.Resource;
 import java.util.List;
 
 @Controller
 public class IndexAction {
 
 //    @Autowired
+    @Resource
     private TbContentService tbContentService;
 
-    {
+    /*{
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("spring/spring-dubbo-consumer.xml");
         context.start();
         tbContentService=(TbContentService)context.getBean("tbContentService");
-    }
+    }*/
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String index() {

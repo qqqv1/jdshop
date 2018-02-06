@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import javax.annotation.Resource;
 import javax.servlet.http.HttpSession;
 
 @Controller
@@ -19,13 +20,14 @@ public class UserPortalAction {
     private Logger logger= LoggerFactory.getLogger(this.getClass());
 
 //    @Autowired
+    @Resource
     private UserService userService;
 
-    {
+    /*{
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("spring/spring-dubbo-consumer.xml");
         context.start();
         userService=(UserService)context.getBean("userService");
-    }
+    }*/
 
     /**
      *  用户登录 注册 个人信息

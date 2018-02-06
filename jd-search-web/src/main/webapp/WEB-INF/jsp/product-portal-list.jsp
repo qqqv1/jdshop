@@ -421,6 +421,9 @@
                         }
                     }
                     productOption.cname=$(this).text();
+                    if(productOption.cname=='全部'){
+                        productOption.cname='';
+                    }
 //                    pagination(productOption);
                     displayProduct(productOption);
                 });

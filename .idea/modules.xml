@@ -17,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/jd-portal-web/jd-portal-web.iml" filepath="$PROJECT_DIR$/jd-portal-web/jd-portal-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/jd-provider-web/jd-provider-web.iml" filepath="$PROJECT_DIR$/jd-provider-web/jd-provider-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/jd-search-web/jd-search-web.iml" filepath="$PROJECT_DIR$/jd-search-web/jd-search-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jd-sso-web/jd-sso-web.iml" filepath="$PROJECT_DIR$/jd-sso-web/jd-sso-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/jd-ws-client/jd-ws-client.iml" filepath="$PROJECT_DIR$/jd-ws-client/jd-ws-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/jd-ws-publisher/jd-ws-publisher.iml" filepath="$PROJECT_DIR$/jd-ws-publisher/jd-ws-publisher.iml" />
     </modules>

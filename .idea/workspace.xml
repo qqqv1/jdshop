@@ -2,13 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d262294-80cb-456d-94c0-5c70f4aa3cf5" name="Default" comment="1.1">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/jd_sso_web_war.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/jd_sso_web_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/jd-sso-web.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-lucene/jd-lucene.iml" afterPath="$PROJECT_DIR$/jd-lucene/jd-lucene.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/dto/TbSearchProductResult.java" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/dto/TbSearchProductResult.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/dto/TbSearchTbProductCustom.java" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/dto/TbSearchTbProductCustom.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/resources/spring/spring-dubbo-provider.xml" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/resources/spring/spring-dubbo-provider.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-parent/pom.xml" afterPath="$PROJECT_DIR$/jd-parent/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-search-web/jd-search-web.iml" afterPath="$PROJECT_DIR$/jd-search-web/jd-search-web.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/CategoryPortalAction.java" afterPath="$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/CategoryPortalAction.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/IndexAction.java" afterPath="$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/IndexAction.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/OrderManagerAction.java" afterPath="$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/OrderManagerAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/SearchIndexAction.java" afterPath="$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/SearchIndexAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/ProductPortalAction.java" afterPath="$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/ProductPortalAction.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/ShoppingCartPortalAction.java" afterPath="$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/ShoppingCartPortalAction.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/UserPortalAction.java" afterPath="$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/UserPortalAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-search-web/src/main/resources/spring/spring-dubbo-consumer.xml" afterPath="$PROJECT_DIR$/jd-search-web/src/main/resources/spring/spring-dubbo-consumer.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-search-web/src/main/webapp/WEB-INF/jsp/product-portal-list.jsp" afterPath="$PROJECT_DIR$/jd-search-web/src/main/webapp/WEB-INF/jsp/product-portal-list.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-search-web/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/jd-search-web/src/main/webapp/WEB-INF/web.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/jd-parent/target/" />
     <ignored path="$PROJECT_DIR$/jd-manager/target/" />
@@ -27,6 +46,7 @@
     <ignored path="$PROJECT_DIR$/jd-ws-publisher/target/" />
     <ignored path="$PROJECT_DIR$/java-cxf-publisher/target/" />
     <ignored path="$PROJECT_DIR$/java-cxf-caller/target/" />
+    <ignored path="$PROJECT_DIR$/jd-sso-web/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,68 +74,47 @@
     <favorites_list name="jdshop" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="SearchIndexAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/SearchIndexAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="41">
+              <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ProductPortalAction.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/ProductPortalAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserPortalAction.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/UserPortalAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+            <state relative-caret-position="-836">
+              <caret line="10" column="73" lean-forward="false" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShoppingCartPortalAction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/ShoppingCartPortalAction.java">
+      <file leaf-file-name="SearchServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-service/src/main/java/com/zhou/jdshop/service/impl/SearchServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="39" column="5" lean-forward="true" selection-start-line="35" selection-start-column="4" selection-end-line="39" selection-end-column="5" />
+            <state relative-caret-position="70">
+              <caret line="62" column="53" lean-forward="false" selection-start-line="62" selection-start-column="53" selection-end-line="62" selection-end-column="53" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CategoryPortalAction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/CategoryPortalAction.java">
+      <file leaf-file-name="product-portal-list.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jd-search-web/src/main/webapp/WEB-INF/jsp/product-portal-list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OrderManagerAction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/OrderManagerAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="34" column="5" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
+            <state relative-caret-position="355">
+              <caret line="424" column="47" lean-forward="false" selection-start-line="424" selection-start-column="47" selection-end-line="424" selection-end-column="47" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IndexAction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/IndexAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="19" column="15" lean-forward="true" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <marker date="1517923108821" expanded="true" signature="20597:20604" ph="«" />
+                <marker date="1517923108821" expanded="true" signature="21137:21144" ph="»" />
+                <marker date="1517923108821" expanded="true" signature="21974:21987" ph="..." />
+                <marker date="1517923108821" expanded="true" signature="22030:22056" ph="..." />
               </folding>
             </state>
           </provider>
@@ -181,19 +180,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/TbProductCatParam.java" />
-        <option value="$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/TbProductCatParamExample.java" />
-        <option value="$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/TbProductExample.java" />
-        <option value="$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/TbProductParam.java" />
-        <option value="$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/TbShippingAddress.java" />
-        <option value="$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/TbProductParamExample.java" />
-        <option value="$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/TbShippingAddressExample.java" />
-        <option value="$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/TbUser.java" />
-        <option value="$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/TbUserExample.java" />
-        <option value="$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/TbVip.java" />
-        <option value="$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/TbVipExample.java" />
-        <option value="$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/User.java" />
-        <option value="$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/UserExample.java" />
         <option value="$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/TbOrderShippingExample.java" />
         <option value="$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/TbOrderShipping.java" />
         <option value="$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/TbOrderItemExample.java" />
@@ -226,12 +212,25 @@
         <option value="$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/CategoryExample.java" />
         <option value="$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/Category.java" />
         <option value="$PROJECT_DIR$/jd-common/src/main/java/com/zhou/jdshop/dto/Page.java" />
-        <option value="$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/OrderManagerAction.java" />
-        <option value="$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/CategoryPortalAction.java" />
-        <option value="$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/IndexAction.java" />
-        <option value="$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/ShoppingCartPortalAction.java" />
         <option value="$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/SearchIndexAction.java" />
+        <option value="$PROJECT_DIR$/jd-portal-web/src/main/java/com/zhou/jdshop/web/CategoryPortalAction.java" />
+        <option value="$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/IndexAction.java" />
+        <option value="$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/OrderManagerAction.java" />
+        <option value="$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/ShoppingCartPortalAction.java" />
         <option value="$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/UserPortalAction.java" />
+        <option value="$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/CategoryPortalAction.java" />
+        <option value="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/resources/spring/spring-dubbo-provider.xml" />
+        <option value="$PROJECT_DIR$/jd-sso-web/pom.xml" />
+        <option value="$PROJECT_DIR$/jd-search-web/src/main/resources/spring/spring-dubbo-consumer.xml" />
+        <option value="$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/dto/TbSearchTbProductCustom.java" />
+        <option value="$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/dto/TbSearchProductResult.java" />
+        <option value="$PROJECT_DIR$/jd-common/src/main/java/com/zhou/jdshop/dto/ProductOption.java" />
+        <option value="$PROJECT_DIR$/jd-search-web/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/jd-manager/jd-manager-service/src/main/java/com/zhou/jdshop/service/impl/ProductServiceImpl.java" />
+        <option value="$PROJECT_DIR$/jd-manager/jd-manager-interface/src/main/java/com/zhou/jdshop/service/ProductService.java" />
+        <option value="$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/ProductPortalAction.java" />
+        <option value="$PROJECT_DIR$/jd-manager/jd-manager-service/src/main/java/com/zhou/jdshop/service/impl/SearchServiceImpl.java" />
+        <option value="$PROJECT_DIR$/jd-search-web/src/main/webapp/WEB-INF/jsp/product-portal-list.jsp" />
       </list>
     </option>
   </component>
@@ -260,7 +259,61 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="jd-manager-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="jd-manager-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="jd-manager-web Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="jd-manager-web Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="jd-manager-web Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="tomcat7" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="jd-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="jd-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="jd-search-web Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="jd-search-web Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="jd-search-web Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="jd-search-web Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="tomcat7" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -288,9 +341,55 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
+            <path>
+              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-manager-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-manager-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-manager-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-manager-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-manager-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jd-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-manager-web" type="462c0819:PsiDirectoryNode" />
+            </path>
             <path>
               <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="jd-search-web" type="462c0819:PsiDirectoryNode" />
@@ -330,14 +429,51 @@
               <item name="search" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jd-search-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jd-search-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jd-search-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jd-search-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jdshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jd-search-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -349,22 +485,13 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="Profi&#9;PSI&#9;JAVA://sun.java2d.cmm.Profile&#10;jd-m&#9;FILE&#9;file://E:/IdeaProjects/jdshop/jd-manager/jd-manager-service/pom.xml&#10;org.springframework.aop.framework.AopProxyUtils&#9;PSI&#9;JAVA://org.springframework.aop.framework.AopProxyUtils" />
+    <property name="SearchEverywhereHistoryKey" value="com.zhou.jdshop.service.impl.SearchServiceImpl.search&#9;PSI&#9;JAVA://com.zhou.jdshop.service.impl.SearchServiceImpl#search&#10;productOption&#9;null&#9;null&#10;productOp&#9;null&#9;null&#10;setCname&#9;PSI&#9;JAVA://com.zhou.jdshop.pojo.vo.TbProductCustom#setCname&#10;ServletInvocableHandlerMethod&#9;PSI&#9;JAVA://org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod&#10;Profi&#9;PSI&#9;JAVA://sun.java2d.cmm.Profile&#10;jd-m&#9;FILE&#9;file://E:/IdeaProjects/jdshop/jd-manager/jd-manager-service/pom.xml&#10;org.springframework.aop.framework.AopProxyUtils&#9;PSI&#9;JAVA://org.springframework.aop.framework.AopProxyUtils" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\IdeaProjects\jdshop\jd-portal-web\src\main\webapp\WEB-INF\jsp" />
-      <recent name="E:\IdeaProjects\jdshop\jd-portal-web\src\main\webapp\WEB-INF\jsp\person" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.zhou.jdshop.search.main" />
-      <recent name="com.zhou.jdshop.main" />
-      <recent name="com.zhou.jdshop.search.filter" />
-      <recent name="com.zhou.jdshop.search.web" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\jdshop\jd-sso-web\src\main\webapp" />
       <recent name="E:\IdeaProjects\jdshop\jd-search-web\src\main\java\com\zhou\jdshop\service" />
       <recent name="E:\IdeaProjects\jdshop\jd-search-web\src\main\java" />
       <recent name="E:\IdeaProjects\jdshop\jd-search-web\src\main\resources\spring" />
@@ -387,6 +514,16 @@
       <recent name="E:\IdeaProjects\jdshop\jd-manager\jd-manager-dao\src\main\java\com\zhou\jdshop\dao" />
       <recent name="E:\IdeaProjects\jdshop\jd-manager\jd-manager-pojo\src\main\java\com\zhou\jdshop\pojo\po" />
       <recent name="E:\IdeaProjects\jdshop\jd-manager\jd-manager-web\src\main\webapp\WEB-INF" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zhou.jdshop.search.main" />
+      <recent name="com.zhou.jdshop.main" />
+      <recent name="com.zhou.jdshop.search.filter" />
+      <recent name="com.zhou.jdshop.search.web" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\jdshop\jd-portal-web\src\main\webapp\WEB-INF\jsp" />
+      <recent name="E:\IdeaProjects\jdshop\jd-portal-web\src\main\webapp\WEB-INF\jsp\person" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -612,7 +749,8 @@
       <workItem from="1517532123870" duration="19241000" />
       <workItem from="1517618994088" duration="2694000" />
       <workItem from="1517791145813" duration="22370000" />
-      <workItem from="1517877603957" duration="499000" />
+      <workItem from="1517877603957" duration="20759000" />
+      <workItem from="1517916313817" duration="6822000" />
     </task>
     <task id="LOCAL-00001" summary="1.1">
       <created>1515112940201</created>
@@ -633,7 +771,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="406556000" />
+    <option name="totallyTimeSpent" value="433638000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -646,7 +784,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -655,63 +792,65 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33647376" sideWeight="0.106017195" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17550144" sideWeight="0.49103138" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1704871" sideWeight="0.49103138" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33647376" sideWeight="0.8939828" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.510745" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33647376" sideWeight="0.8939828" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26432666" sideWeight="0.47644684" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20057307" sideWeight="0.47644684" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3144699" sideWeight="0.5070422" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2256447" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.260745" sideWeight="0.5235532" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39973083" sideWeight="0.58667624" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.260745" sideWeight="0.5235532" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="FLOATING" visible="false" show_stripe_button="false" weight="0.32974428" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="22" y="307" width="1396" height="245" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32839838" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21203439" sideWeight="0.5089686" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
+      <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="FLOATING" visible="false" show_stripe_button="false" weight="0.32974428" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="22" y="307" width="1396" height="245" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39973083" sideWeight="0.4133238" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23997134" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33647376" sideWeight="0.106017195" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17550144" sideWeight="0.49103138" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295129" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2256447" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39973083" sideWeight="0.58667624" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33109018" sideWeight="0.47707736" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.254298" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.510745" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33647376" sideWeight="0.8939828" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21203439" sideWeight="0.5089686" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26432666" sideWeight="0.47644684" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3144699" sideWeight="0.5070422" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.260745" sideWeight="0.5235532" order="7" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -752,7 +891,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="24" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="26" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -761,376 +908,432 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/TbProductCatParamExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="61" lean-forward="false" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/TbProductExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="53" lean-forward="false" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/TbProductParam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="51" lean-forward="false" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/TbShippingAddress.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="4" column="54" lean-forward="false" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/TbProductParamExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="58" lean-forward="false" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/TbShippingAddressExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="6" column="61" lean-forward="false" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/TbUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="43" lean-forward="false" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/TbUserExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="8" column="50" lean-forward="false" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/TbVip.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="4" column="42" lean-forward="false" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/TbVipExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="6" column="49" lean-forward="false" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="41" lean-forward="false" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/UserExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="8" column="48" lean-forward="false" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/TbOrderShippingExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="59" lean-forward="false" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/TbOrderShipping.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="52" lean-forward="false" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/TbOrderItemExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="6" column="55" lean-forward="false" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/TbOrderItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="4" column="48" lean-forward="false" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/TbOrderExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="51" lean-forward="false" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/TbNoticeExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/TbOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/TbNotice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/TbNewExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="49" lean-forward="false" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/TbNew.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="42" lean-forward="false" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/TbLunBo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="44" lean-forward="false" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/TbLeaveWordExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="55" lean-forward="false" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/TbLeaveWord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="48" lean-forward="false" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/TbContentExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="53" lean-forward="false" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/TbContentCategoryExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="61" lean-forward="false" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/TbContentCategory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="54" lean-forward="false" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/TbContent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="46" lean-forward="false" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/TbBrandExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="6" column="51" lean-forward="false" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/TbBrand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="44" lean-forward="false" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/TbBoardExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="6" column="51" lean-forward="false" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/TbBoard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="4" column="44" lean-forward="false" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/TbAdministratorExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="6" column="59" lean-forward="false" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/TbAdministrator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="4" column="52" lean-forward="false" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/ProductExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="8" column="51" lean-forward="false" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/OrdersExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="50" lean-forward="false" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/Orders.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="43" lean-forward="false" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/Orderitem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="4" column="46" lean-forward="false" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/OrderitemExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="6" column="53" lean-forward="false" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/CategoryExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="6" column="52" lean-forward="false" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/Category.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="45" lean-forward="false" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-common/src/main/java/com/zhou/jdshop/dto/Page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="4" column="41" lean-forward="false" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/CategoryPortalAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/IndexAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="19" column="15" lean-forward="true" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/OrderManagerAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="34" column="5" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/SearchIndexAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/ProductPortalAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="228">
+          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/ShoppingCartPortalAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="39" column="5" lean-forward="true" selection-start-line="35" selection-start-column="4" selection-end-line="39" selection-end-column="5" />
+        <state relative-caret-position="285">
+          <caret line="41" column="7" lean-forward="false" selection-start-line="37" selection-start-column="4" selection-end-line="41" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/UserPortalAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+        <state relative-caret-position="323">
+          <caret line="29" column="7" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="29" selection-end-column="7" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/CategoryPortalAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="24" column="6" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="28" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-search-web/target/classes/com/zhou/jdshop/search/web/OrderManagerAction.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-ws-client/src/main/java/com/zhou/jdshop/ws/sky/SkyClicent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3">
+          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-ws-publisher/src/main/java/com/zhou/jdshop/ws/main/WeatherServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-ws-publisher/src/main/java/com/zhou/jdshop/ws/service/WeatherInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-ws-client/src/main/java/com/zhou/jdshop/ws/service/impl/QueryWeather.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-ws-client/src/main/java/com/zhou/jdshop/ws/service/impl/QueryWeatherResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-ws-client/src/main/java/com/zhou/jdshop/ws/service/impl/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-ws-client/src/main/java/com/zhou/jdshop/ws/service/impl/WeatherInterfaceImplService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-ws-client/src/main/java/com/zhou/jdshop/ws/service/main/WeatherClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-ws-client/src/main/java/com/zhou/jdshop/ws/service/impl/WeatherInterfaceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="23" column="17" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-ws-publisher/src/main/java/com/zhou/jdshop/ws/service/impl/WeatherInterfaceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-consumer-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="21" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="19" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-sso-web/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-sso-web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-consumer-web/jd-consumer-web.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-456">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-sso-web/jd-sso-web.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-sso-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="44" column="17" lean-forward="false" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-search-web/target/classes/com/zhou/jdshop/search/filter/LoginFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#1405#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/filter/LoginFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-search-web/target/classes/com/zhou/jdshop/search/web/CategoryPortalAction.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/resources/spring/spring-dubbo-provider.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-search-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="43" column="21" lean-forward="true" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.8.RELEASE/spring-webmvc-4.3.8.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#7260#0" expanded="true" />
+            <element signature="e#1542#1543#0" expanded="true" />
+            <element signature="e#1578#1579#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-parent/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="29" column="33" lean-forward="false" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-760">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0-sources.jar!/javax/servlet/http/HttpServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="646" column="0" lean-forward="false" selection-start-line="646" selection-start-column="0" selection-end-line="646" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-manager/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2052">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/TbProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-266">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/vo/TbProductCustom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="40" lean-forward="false" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+          <folding>
+            <element signature="e#450#451#0" expanded="false" />
+            <element signature="e#484#485#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/dto/TbSearchTbProductCustom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/product-portal-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="361" column="8" lean-forward="false" selection-start-line="361" selection-start-column="8" selection-end-line="361" selection-end-column="8" />
+          <folding>
+            <marker date="1517195702022" expanded="true" signature="18766:18773" ph="«" />
+            <marker date="1517195702022" expanded="true" signature="19300:19307" ph="»" />
+            <marker date="1517195702022" expanded="true" signature="20427:20440" ph="..." />
+            <marker date="1517195702022" expanded="true" signature="20479:20505" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/TbProductCat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="42" column="16" lean-forward="false" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+          <folding>
+            <element signature="e#731#732#0" expanded="false" />
+            <element signature="e#795#796#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/pojo/po/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="16" lean-forward="false" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+          <folding>
+            <element signature="e#415#416#0" expanded="false" />
+            <element signature="e#479#480#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-search-web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="839">
+          <caret line="56" column="10" lean-forward="false" selection-start-line="56" selection-start-column="10" selection-end-line="56" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-interface/src/main/java/com/zhou/jdshop/service/ProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-service/src/main/java/com/zhou/jdshop/service/impl/ProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="154" column="34" lean-forward="false" selection-start-line="154" selection-start-column="21" selection-end-line="154" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-common/src/main/java/com/zhou/jdshop/dto/ProductOption.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="52" column="18" lean-forward="false" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
+          <folding>
+            <element signature="e#1000#1001#0" expanded="true" />
+            <element signature="e#1034#1035#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-interface/src/main/java/com/zhou/jdshop/service/SearchService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-search-web/src/main/resources/spring/spring-dubbo-consumer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="22" column="77" lean-forward="true" selection-start-line="22" selection-start-column="77" selection-end-line="22" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/dto/TbSearchProductResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/SearchIndexAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-search-web/target/classes/com/zhou/jdshop/search/web/ProductPortalAction.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/ProductPortalAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-836">
+          <caret line="10" column="73" lean-forward="false" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-service/target/classes/com/zhou/jdshop/service/impl/SearchServiceImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="37" column="26" lean-forward="false" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#2484#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-manager/jd-manager-service/src/main/java/com/zhou/jdshop/service/impl/SearchServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="62" column="53" lean-forward="false" selection-start-line="62" selection-start-column="53" selection-end-line="62" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-search-web/src/main/webapp/WEB-INF/jsp/product-portal-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="424" column="47" lean-forward="false" selection-start-line="424" selection-start-column="47" selection-end-line="424" selection-end-column="47" />
+          <folding>
+            <marker date="1517923108821" expanded="true" signature="20597:20604" ph="«" />
+            <marker date="1517923108821" expanded="true" signature="21137:21144" ph="»" />
+            <marker date="1517923108821" expanded="true" signature="21974:21987" ph="..." />
+            <marker date="1517923108821" expanded="true" signature="22030:22056" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1140,7 +1343,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>jd-lucene:war exploded</last-edited>
+          <last-edited>jd-sso-web:war exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1188,7 +1391,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>jd-search-web</last-edited>
+          <last-edited>jd-sso-web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

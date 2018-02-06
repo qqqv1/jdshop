@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import javax.annotation.Resource;
 import javax.servlet.http.HttpSession;
 import java.util.HashMap;
 import java.util.List;
@@ -22,17 +23,19 @@ import java.util.Map;
 public class OrderManagerAction {
 
 //	@Autowired
+	@Resource
 	private OrderService orderService;
 
 //	@Autowired
+	@Resource
 	private ProductService productService;
 
-	{
+	/*{
 		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("spring/spring-dubbo-consumer.xml");
 		context.start();
 		productService=(ProductService)context.getBean("productService");
 		orderService=(OrderService)context.getBean("orderService");
-	}
+	}*/
 
 	@RequestMapping("/order/addOrder")
 	public String saveOrder(Cart order,HttpSession session) {

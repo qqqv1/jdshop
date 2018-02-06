@@ -22,6 +22,7 @@
         <module name="jd-portal-web" />
         <module name="jd-provider-web" />
         <module name="jd-search-web" />
+        <module name="jd-sso-web" />
         <module name="jd-ws-client" />
         <module name="jd-ws-publisher" />
       </profile>
@@ -42,6 +43,7 @@
       <module name="jd-portal-web" target="1.8" />
       <module name="jd-provider-web" target="1.8" />
       <module name="jd-search-web" target="1.8" />
+      <module name="jd-sso-web" target="1.8" />
       <module name="jd-ws-client" target="1.8" />
       <module name="jd-ws-publisher" target="1.8" />
     </bytecodeTargetLevel>

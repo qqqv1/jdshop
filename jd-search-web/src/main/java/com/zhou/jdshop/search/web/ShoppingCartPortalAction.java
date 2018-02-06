@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import javax.annotation.Resource;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
@@ -31,13 +32,14 @@ public class ShoppingCartPortalAction {
 //    private OrderService orderService;
 
 //    @Autowired
+    @Resource
     private ProductService productService;
 
-    {
+    /*{
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("spring/spring-dubbo-consumer.xml");
         context.start();
         productService=(ProductService)context.getBean("productService");
-    }
+    }*/
 
     /**
      * 增加商品到购物车，EL表达式，1.0版本

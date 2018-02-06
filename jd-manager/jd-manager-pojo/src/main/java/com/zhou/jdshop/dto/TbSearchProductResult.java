@@ -6,7 +6,7 @@ import com.zhou.jdshop.pojo.vo.TbProductCustom;
 import java.io.Serializable;
 import java.util.List;
 
-public class TbSearchProductResult extends TbProduct implements Serializable {
+public class TbSearchProductResult extends TbProduct {
 
     private long recordCount;
     private int totalPages;
