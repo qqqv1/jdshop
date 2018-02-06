@@ -6,8 +6,8 @@ import org.springframework.stereotype.Controller;
 
 @Controller
 public class SearchIndexAction {
-    @Autowired
-    private SearchService searchService;
+//    @Autowired
+//    private SearchService searchService;
 
   /*  //留着
     @RequestMapping(value = "/", method = RequestMethod.GET)

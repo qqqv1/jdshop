@@ -5,6 +5,7 @@ import com.zhou.jdshop.service.CategoryService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -16,8 +17,14 @@ public class CategoryPortalAction {
 
     private Logger logger= LoggerFactory.getLogger(this.getClass());
 
-    @Autowired
+//    @Autowired
     private CategoryService categoryService;
+
+    {
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("spring/spring-dubbo-consumer.xml");
+        context.start();
+        categoryService=(CategoryService)context.getBean("categoryService");
+    }
 
     @ResponseBody
     @RequestMapping("/categoryList")

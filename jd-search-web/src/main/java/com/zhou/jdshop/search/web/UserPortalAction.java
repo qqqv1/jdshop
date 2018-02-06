@@ -5,6 +5,7 @@ import com.zhou.jdshop.service.UserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -17,8 +18,14 @@ public class UserPortalAction {
 
     private Logger logger= LoggerFactory.getLogger(this.getClass());
 
-    @Autowired
-    private UserService us;
+//    @Autowired
+    private UserService userService;
+
+    {
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("spring/spring-dubbo-consumer.xml");
+        context.start();
+        userService=(UserService)context.getBean("userService");
+    }
 
     /**
      *  用户登录 注册 个人信息
@@ -33,7 +40,7 @@ public class UserPortalAction {
         System.err.println(user.toString());
         int list = 0;
         try {
-            list = us.insertGUIDUser(user);
+            list = userService.insertGUIDUser(user);
             System.err.println(list);
         }catch (Exception e){
             logger.error(e.getMessage(),e);
@@ -49,7 +56,7 @@ public class UserPortalAction {
     public int insertUserByTelephone(TbUser user){
         int list = 0;
         try {
-            list = us.insertGUIDUser(user);
+            list = userService.insertGUIDUser(user);
         }catch (Exception e){
             logger.error(e.getMessage(),e);
             e.printStackTrace();
@@ -63,7 +70,7 @@ public class UserPortalAction {
     @RequestMapping(value ="/clientLogin",method = RequestMethod.POST)
     public int userUserLogin(HttpSession session, String username, String password){
         int flag=0;
-        TbUser user= us.findUserByUsernameAndPassword(username,password);
+        TbUser user= userService.findUserByUsernameAndPassword(username,password);
         if(user!=null){
             session.setAttribute("sessionUser",user);
             flag=1;
@@ -77,7 +84,7 @@ public class UserPortalAction {
     @RequestMapping("/findByUserName")
     public int findByUserName(TbUser user){
         int flag=0;
-        TbUser user1= us.findByUsername(user.getUname());
+        TbUser user1= userService.findByUsername(user.getUname());
         if(user1!=null){
             flag=1;
         }
@@ -93,8 +100,8 @@ public class UserPortalAction {
         int i = 0;
         TbUser u = null;
         try {
-            i = us.updateByUser(user);
-            u = us.findByUsername(user.getUname());
+            i = userService.updateByUser(user);
+            u = userService.findByUsername(user.getUname());
             session.setAttribute("User",user);
         } catch (Exception e) {
             logger.error(e.getMessage(), e);

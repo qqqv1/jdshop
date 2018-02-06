@@ -9,6 +9,7 @@ import com.zhou.jdshop.service.ProductService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -26,11 +27,17 @@ public class ShoppingCartPortalAction {
 
     private Logger logger = LoggerFactory.getLogger(this.getClass());
 
-    @Autowired
-    private OrderService orderService;
+//    @Autowired
+//    private OrderService orderService;
 
-    @Autowired
+//    @Autowired
     private ProductService productService;
+
+    {
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("spring/spring-dubbo-consumer.xml");
+        context.start();
+        productService=(ProductService)context.getBean("productService");
+    }
 
     /**
      * 增加商品到购物车，EL表达式，1.0版本
