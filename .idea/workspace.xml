@@ -1,34 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d262294-80cb-456d-94c0-5c70f4aa3cf5" name="Default" comment="1.1">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/jd_sso_web_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/jd_sso_web_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/jd-sso-web.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-lucene/jd-lucene.iml" afterPath="$PROJECT_DIR$/jd-lucene/jd-lucene.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/dto/TbSearchProductResult.java" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/dto/TbSearchProductResult.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/dto/TbSearchTbProductCustom.java" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/src/main/java/com/zhou/jdshop/dto/TbSearchTbProductCustom.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/resources/spring/spring-dubbo-provider.xml" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/src/main/resources/spring/spring-dubbo-provider.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-parent/pom.xml" afterPath="$PROJECT_DIR$/jd-parent/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-search-web/jd-search-web.iml" afterPath="$PROJECT_DIR$/jd-search-web/jd-search-web.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/CategoryPortalAction.java" afterPath="$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/CategoryPortalAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/IndexAction.java" afterPath="$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/IndexAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/OrderManagerAction.java" afterPath="$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/OrderManagerAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/ProductPortalAction.java" afterPath="$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/ProductPortalAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/ShoppingCartPortalAction.java" afterPath="$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/ShoppingCartPortalAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/UserPortalAction.java" afterPath="$PROJECT_DIR$/jd-search-web/src/main/java/com/zhou/jdshop/search/web/UserPortalAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-search-web/src/main/resources/spring/spring-dubbo-consumer.xml" afterPath="$PROJECT_DIR$/jd-search-web/src/main/resources/spring/spring-dubbo-consumer.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-search-web/src/main/webapp/WEB-INF/jsp/product-portal-list.jsp" afterPath="$PROJECT_DIR$/jd-search-web/src/main/webapp/WEB-INF/jsp/product-portal-list.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-search-web/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/jd-search-web/src/main/webapp/WEB-INF/web.xml" />
-    </list>
+    <list default="true" id="6d262294-80cb-456d-94c0-5c70f4aa3cf5" name="Default" comment="1.1" />
     <ignored path="$PROJECT_DIR$/jd-parent/target/" />
     <ignored path="$PROJECT_DIR$/jd-manager/target/" />
     <ignored path="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/" />
@@ -317,7 +290,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="142" />
     <option name="y" value="56" />
     <option name="width" value="1346" />
@@ -750,7 +723,7 @@
       <workItem from="1517618994088" duration="2694000" />
       <workItem from="1517791145813" duration="22370000" />
       <workItem from="1517877603957" duration="20759000" />
-      <workItem from="1517916313817" duration="6822000" />
+      <workItem from="1517916313817" duration="7080000" />
     </task>
     <task id="LOCAL-00001" summary="1.1">
       <created>1515112940201</created>
@@ -771,7 +744,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="433638000" />
+    <option name="totallyTimeSpent" value="433896000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -783,7 +756,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -792,8 +765,8 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33647376" sideWeight="0.106017195" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1704871" sideWeight="0.49103138" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33647376" sideWeight="0.8939828" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1704871" sideWeight="0.49103138" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33647376" sideWeight="0.8939828" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.510745" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
