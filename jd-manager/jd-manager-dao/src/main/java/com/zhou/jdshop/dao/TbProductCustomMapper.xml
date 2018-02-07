@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.zhou.jdshop.dao.TbProductCustomMapper">
-    <resultMap id="BaseResultMap" type="com.zhou.jdshop.pojo.vo.TbProductCustom">
+<mapper namespace="TbProductCustomMapper">
+    <resultMap id="BaseResultMap" type="com.zhou.TbProductCustom">
         <id column="pid" jdbcType="BIGINT" property="pid"/>
         <result column="pname" property="pname" jdbcType="VARCHAR"/>
         <result column="cid" property="cid" jdbcType="BIGINT"/>
@@ -62,7 +62,7 @@
         and pid=#{pid}
     </select>
 
-    <select id="getSearchProducts" resultType="com.zhou.jdshop.pojo.vo.TbProductCustom">
+    <select id="getSearchProducts" resultType="com.zhou.TbProductCustom">
         SELECT
         p.pid AS id,
         p.pname,
@@ -80,7 +80,7 @@
         order by p.pid desc
     </select>
 
-    <select id="searchProductById" resultType="com.zhou.jdshop.pojo.vo.TbProductCustom">
+    <select id="searchProductById" resultType="com.zhou.TbProductCustom">
         SELECT
         p.pid AS id,
         p.pname,
@@ -102,7 +102,7 @@
         order by p.pid desc
     </select>
 
-    <select id="searchProductByIds" resultType="com.zhou.jdshop.pojo.vo.TbProductCustom">
+    <select id="searchProductByIds" resultType="com.zhou.TbProductCustom">
         SELECT
         p.pid AS id,
         p.pname,

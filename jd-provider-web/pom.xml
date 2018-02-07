@@ -12,6 +12,11 @@
     <name>jd-provider-web Maven Webapp</name>
     <url>http://maven.apache.org</url>
     <dependencies>
+        <dependency>
+            <groupId>com.zhou</groupId>
+            <artifactId>jd-manager-service</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
         <!--单元测试-->
         <dependency>
             <groupId>junit</groupId>

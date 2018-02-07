@@ -3,6 +3,7 @@ package com.zhou.jdshop.dao;
 import com.zhou.jdshop.pojo.po.TbProduct;
 import com.zhou.jdshop.pojo.po.TbProductExample;
 import java.util.List;
+
 import org.apache.ibatis.annotations.Param;
 
 public interface TbProductMapper {

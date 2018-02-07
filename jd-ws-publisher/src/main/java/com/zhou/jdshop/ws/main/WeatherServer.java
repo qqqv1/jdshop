@@ -15,6 +15,7 @@ public class WeatherServer {
         //第一个参数是指发布的地址，不是wsdl
         //第二个参数是指实现类
         Endpoint.publish("http://127.0.0.1:90/weather",new WeatherInterfaceImpl());
+//        Endpoint.publish("http://139.196.79.132:8080/weather",new WeatherInterfaceImpl());
 //        Endpoint.publish("http://139.196.79.132:80/weather",new WeatherInterfaceImpl());
 
     }

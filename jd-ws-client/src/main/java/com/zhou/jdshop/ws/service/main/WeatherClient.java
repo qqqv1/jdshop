@@ -1,7 +1,7 @@
 package com.zhou.jdshop.ws.service.main;
 
-import com.zhou.jdshop.ws.service.impl.WeatherInterfaceImpl ;
-import com.zhou.jdshop.ws.service.impl.WeatherInterfaceImplService ;
+import com.zhou.jdshop.ws.service.impl.WeatherInterfaceImpl;
+import com.zhou.jdshop.ws.service.impl.WeatherInterfaceImplService;
 
 /**
  * User: DHC

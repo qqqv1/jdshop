@@ -4,6 +4,7 @@ import com.zhou.jdshop.dao.TbOrderItemMapper;
 import com.zhou.jdshop.dao.TbOrderMapper;
 import com.zhou.jdshop.dao.TbOrderShippingMapper;
 import com.zhou.jdshop.dao.TbOrdersCustomMapper;
+import com.zhou.jdshop.dubbo.pojo.po.*;
 import com.zhou.jdshop.pojo.po.*;
 import com.zhou.jdshop.pojo.vo.Cart;
 import com.zhou.jdshop.pojo.vo.CartItem;
@@ -146,7 +147,7 @@ public class OrderServiceImpl implements OrderService {
     //生成订单
     @Transactional
     @Override
-    public int createOrder(Cart order,TbUser user) {
+    public int createOrder(Cart order, TbUser user) {
         int i=0;
         int j=0;
         //生成订单id

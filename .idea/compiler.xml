@@ -32,6 +32,12 @@
       <module name="java-cxf-publisher" target="1.8" />
       <module name="jd-common" target="1.8" />
       <module name="jd-consumer-web" target="1.8" />
+      <module name="jd-dubbo" target="1.8" />
+      <module name="jd-dubbo-dao" target="1.8" />
+      <module name="jd-dubbo-interface" target="1.8" />
+      <module name="jd-dubbo-pojo" target="1.8" />
+      <module name="jd-dubbo-provider" target="1.8" />
+      <module name="jd-dubbo-service" target="1.8" />
       <module name="jd-lucene" target="1.8" />
       <module name="jd-manager" target="1.8" />
       <module name="jd-manager-dao" target="1.8" />

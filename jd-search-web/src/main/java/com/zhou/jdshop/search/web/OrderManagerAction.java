@@ -6,8 +6,6 @@ import com.zhou.jdshop.pojo.vo.Cart;
 import com.zhou.jdshop.pojo.vo.CartItem;
 import com.zhou.jdshop.service.OrderService;
 import com.zhou.jdshop.service.ProductService;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -38,7 +36,7 @@ public class OrderManagerAction {
 	}*/
 
 	@RequestMapping("/order/addOrder")
-	public String saveOrder(Cart order,HttpSession session) {
+	public String saveOrder(Cart order, HttpSession session) {
 		//从session中取购物车商品列表
 		int i=0;
 		TbUser user =(TbUser)session.getAttribute("sessionUser");

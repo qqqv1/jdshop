@@ -47,7 +47,7 @@
 
   <!--<filter>
     <filter-name>LoginFilter</filter-name>
-    <filter-class>com.zhou.jdshop.search.filter.LoginFilter</filter-class>
+    <filter-class>LoginFilter</filter-class>
   </filter>
   <filter-mapping>
     <filter-name>LoginFilter</filter-name>

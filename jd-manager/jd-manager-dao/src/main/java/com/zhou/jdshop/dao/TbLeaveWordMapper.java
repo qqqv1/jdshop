@@ -2,7 +2,9 @@ package com.zhou.jdshop.dao;
 
 import com.zhou.jdshop.pojo.po.TbLeaveWord;
 import com.zhou.jdshop.pojo.po.TbLeaveWordExample;
+
 import java.util.List;
+
 import org.apache.ibatis.annotations.Param;
 
 public interface TbLeaveWordMapper {

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.zhou.jdshop.dao.TbLeaveWordMapper" >
-  <resultMap id="BaseResultMap" type="com.zhou.jdshop.pojo.po.TbLeaveWord" >
+<mapper namespace="TbLeaveWordMapper" >
+  <resultMap id="BaseResultMap" type="com.zhou.TbLeaveWord" >
     <id column="leave_word_id" property="leaveWordId" jdbcType="BIGINT" />
     <result column="uid" property="uid" jdbcType="BIGINT" />
     <result column="caption" property="caption" jdbcType="VARCHAR" />
@@ -76,7 +76,7 @@
     leave_word_id, uid, caption, content, time, replies, views, final_reply, whether_top, 
     whether_elite, board_name
   </sql>
-  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.zhou.jdshop.pojo.po.TbLeaveWordExample" >
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.zhou.TbLeaveWordExample" >
     select
     <if test="distinct" >
       distinct
@@ -100,13 +100,13 @@
     delete from tb_leave_word
     where leave_word_id = #{leaveWordId,jdbcType=BIGINT}
   </delete>
-  <delete id="deleteByExample" parameterType="com.zhou.jdshop.pojo.po.TbLeaveWordExample" >
+  <delete id="deleteByExample" parameterType="com.zhou.TbLeaveWordExample" >
     delete from tb_leave_word
     <if test="_parameter != null" >
       <include refid="Example_Where_Clause" />
     </if>
   </delete>
-  <insert id="insert" parameterType="com.zhou.jdshop.pojo.po.TbLeaveWord" >
+  <insert id="insert" parameterType="com.zhou.TbLeaveWord" >
     insert into tb_leave_word (leave_word_id, uid, caption, 
       content, time, replies, 
       views, final_reply, whether_top, 
@@ -116,7 +116,7 @@
       #{views,jdbcType=INTEGER}, #{finalReply,jdbcType=VARCHAR}, #{whetherTop,jdbcType=INTEGER},
       #{whetherElite,jdbcType=INTEGER}, #{boardName,jdbcType=VARCHAR})
   </insert>
-  <insert id="insertSelective" parameterType="com.zhou.jdshop.pojo.po.TbLeaveWord" >
+  <insert id="insertSelective" parameterType="com.zhou.TbLeaveWord" >
     insert into tb_leave_word
     <trim prefix="(" suffix=")" suffixOverrides="," >
       <if test="leaveWordId != null" >
@@ -189,7 +189,7 @@
       </if>
     </trim>
   </insert>
-  <select id="countByExample" parameterType="com.zhou.jdshop.pojo.po.TbLeaveWordExample" resultType="java.lang.Integer" >
+  <select id="countByExample" parameterType="com.zhou.TbLeaveWordExample" resultType="java.lang.Integer" >
     select count(*) from tb_leave_word
     <if test="_parameter != null" >
       <include refid="Example_Where_Clause" />
@@ -253,7 +253,7 @@
       <include refid="Update_By_Example_Where_Clause" />
     </if>
   </update>
-  <update id="updateByPrimaryKeySelective" parameterType="com.zhou.jdshop.pojo.po.TbLeaveWord" >
+  <update id="updateByPrimaryKeySelective" parameterType="com.zhou.TbLeaveWord" >
     update tb_leave_word
     <set >
       <if test="uid != null" >
@@ -289,7 +289,7 @@
     </set>
     where leave_word_id = #{leaveWordId,jdbcType=BIGINT}
   </update>
-  <update id="updateByPrimaryKey" parameterType="com.zhou.jdshop.pojo.po.TbLeaveWord" >
+  <update id="updateByPrimaryKey" parameterType="com.zhou.TbLeaveWord" >
     update tb_leave_word
     set uid = #{uid,jdbcType=BIGINT},
       caption = #{caption,jdbcType=VARCHAR},

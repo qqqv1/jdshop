@@ -1,7 +1,7 @@
 package com.zhou.jdshop.pojo.vo;
 
-import com.zhou.jdshop.pojo.po.TbOrder;
 import com.zhou.jdshop.pojo.po.TbOrderItem;
+import com.zhou.jdshop.pojo.po.TbOrder;
 import com.zhou.jdshop.pojo.po.TbOrderShipping;
 
 import java.io.Serializable;

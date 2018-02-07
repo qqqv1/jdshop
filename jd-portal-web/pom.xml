@@ -14,7 +14,7 @@
     <dependencies>
         <dependency>
             <groupId>com.zhou</groupId>
-            <artifactId>jd-manager-com.zhou.jdshop.search.service</artifactId>
+            <artifactId>jd-manager-service</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>

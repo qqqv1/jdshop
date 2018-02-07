@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.zhou.jdshop.dao.TbUserCustomMapper">
-  <select id="selectByUsernameAndPassword" parameterType="com.zhou.jdshop.pojo.po.TbUser" resultType="com.zhou.jdshop.pojo.po.TbUser">
+<mapper namespace="TbUserCustomMapper">
+  <select id="selectByUsernameAndPassword" parameterType="com.zhou.TbUser" resultType="com.zhou.TbUser">
     select * from tb_user where uname=#{username} and password=#{password};
   </select>
   <!-- 插入 -->
@@ -11,7 +11,7 @@
   </insert>
 
   <!-- 模糊查询 -->
-  <select id="selectByDim" resultType="com.zhou.jdshop.pojo.po.TbUser" parameterType="com.zhou.jdshop.pojo.po.TbUser">
+  <select id="selectByDim" resultType="com.zhou.TbUser" parameterType="com.zhou.TbUser">
     select * from tb_user where
     uname like concat('%',#{username}, '%') and
     truename like concat('%',#{name}, '%') and
@@ -35,11 +35,11 @@
   </delete>
 
   <!--查询所有-->
-  <select id="selectAll" resultType="com.zhou.jdshop.pojo.po.TbUser">
+  <select id="selectAll" resultType="com.zhou.TbUser">
     select * from tb_user
   </select>
   <!---->
-  <select id="selectByUsername" parameterType="java.lang.String" resultType="com.zhou.jdshop.pojo.po.TbUser">
+  <select id="selectByUsername" parameterType="java.lang.String" resultType="com.zhou.TbUser">
     select * from tb_user where uname=#{username};
   </select>
 </mapper>

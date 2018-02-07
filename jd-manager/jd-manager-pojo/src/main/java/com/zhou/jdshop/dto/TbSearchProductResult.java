@@ -3,7 +3,6 @@ package com.zhou.jdshop.dto;
 import com.zhou.jdshop.pojo.po.TbProduct;
 import com.zhou.jdshop.pojo.vo.TbProductCustom;
 
-import java.io.Serializable;
 import java.util.List;
 
 public class TbSearchProductResult extends TbProduct {

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.zhou.jdshop.dao.TbOrdersCustomMapper">
+<mapper namespace="TbOrdersCustomMapper">
 
 
 
@@ -39,7 +39,7 @@
   <!--WHEN 4 THEN '已完成'-->
   <!--ELSE '未知' END as status-->
 
-  <select id="selectByExample" resultType="com.zhou.jdshop.pojo.vo.TbOrdersCustom">
+  <select id="selectByExample" resultType="com.zhou.TbOrdersCustom">
 
     select
     <include refid="Base_Column_List" />
@@ -53,7 +53,7 @@
   </select>
 
 
-    <select id="selectOrderById" resultType="com.zhou.jdshop.pojo.vo.TbOrdersCustom">
+    <select id="selectOrderById" resultType="com.zhou.TbOrdersCustom">
 
         select
         <include refid="Base_Column_List" />

@@ -1,7 +1,6 @@
 package com.zhou.jdshop.dao;
 
 import com.zhou.jdshop.dto.TbSearchProductResult;
-import com.zhou.jdshop.dto.TbSearchTbProductCustom;
 import com.zhou.jdshop.pojo.vo.TbProductCustom;
 import org.apache.solr.client.solrj.SolrQuery;
 import org.apache.solr.client.solrj.SolrServer;

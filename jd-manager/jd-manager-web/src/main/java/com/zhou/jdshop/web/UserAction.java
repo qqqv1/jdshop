@@ -1,7 +1,7 @@
 package com.zhou.jdshop.web;
 
-import com.zhou.jdshop.pojo.po.TbUser;
 import com.zhou.jdshop.service.UserService;
+import com.zhou.jdshop.pojo.po.TbUser;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

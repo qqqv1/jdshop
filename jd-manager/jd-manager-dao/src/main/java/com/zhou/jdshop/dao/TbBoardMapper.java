@@ -2,7 +2,9 @@ package com.zhou.jdshop.dao;
 
 import com.zhou.jdshop.pojo.po.TbBoard;
 import com.zhou.jdshop.pojo.po.TbBoardExample;
+
 import java.util.List;
+
 import org.apache.ibatis.annotations.Param;
 
 public interface TbBoardMapper {

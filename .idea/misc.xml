@@ -2,6 +2,7 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/jd-consumer-web" />
+    <file type="web" url="file://$PROJECT_DIR$/jd-dubbo/jd-dubbo-provider" />
     <file type="web" url="file://$PROJECT_DIR$/jd-lucene" />
     <file type="web" url="file://$PROJECT_DIR$/jd-manager/jd-manager-web" />
     <file type="web" url="file://$PROJECT_DIR$/jd-portal-web" />
@@ -18,6 +19,17 @@
         <option value="$PROJECT_DIR$/java-cxf-publisher/pom.xml" />
         <option value="$PROJECT_DIR$/java-cxf-caller/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/jd-dubbo-pojo/pom.xml" />
+        <option value="$PROJECT_DIR$/jd-dubbo/jd-dubbo-dao/pom.xml" />
+        <option value="$PROJECT_DIR$/jd-dubbo/jd-dubbo-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/jd-dubbo/jd-dubbo-pojo/pom.xml" />
+        <option value="$PROJECT_DIR$/jd-dubbo/jd-dubbo-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/jd-dubbo/jd-dubbo-service/pom.xml" />
+        <option value="$PROJECT_DIR$/jd-dubbo/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />

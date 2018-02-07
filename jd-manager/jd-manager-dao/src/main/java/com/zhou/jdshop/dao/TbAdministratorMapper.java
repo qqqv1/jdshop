@@ -3,6 +3,7 @@ package com.zhou.jdshop.dao;
 import com.zhou.jdshop.pojo.po.TbAdministrator;
 import com.zhou.jdshop.pojo.po.TbAdministratorExample;
 import java.util.List;
+
 import org.apache.ibatis.annotations.Param;
 
 public interface TbAdministratorMapper {

@@ -32,8 +32,8 @@ public interface QqOnlineWebServiceSoap {
      */
     @WebMethod(action = "http://WebXml.com.cn/qqCheckOnline")
     @WebResult(name = "qqCheckOnlineResult", targetNamespace = "http://WebXml.com.cn/")
-    @RequestWrapper(localName = "qqCheckOnline", targetNamespace = "http://WebXml.com.cn/", className = "com.zhou.jdshop.ws.qq.impl.QqCheckOnline")
-    @ResponseWrapper(localName = "qqCheckOnlineResponse", targetNamespace = "http://WebXml.com.cn/", className = "com.zhou.jdshop.ws.qq.impl.QqCheckOnlineResponse")
+    @RequestWrapper(localName = "qqCheckOnline", targetNamespace = "http://WebXml.com.cn/", className = "QqCheckOnline")
+    @ResponseWrapper(localName = "qqCheckOnlineResponse", targetNamespace = "http://WebXml.com.cn/", className = "QqCheckOnlineResponse")
     public String qqCheckOnline(
             @WebParam(name = "qqCode", targetNamespace = "http://WebXml.com.cn/")
                     String qqCode);

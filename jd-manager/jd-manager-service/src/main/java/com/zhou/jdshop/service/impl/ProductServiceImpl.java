@@ -4,10 +4,10 @@ import com.zhou.jdshop.dao.TbProductCustomMapper;
 import com.zhou.jdshop.dao.TbProductMapper;
 import com.zhou.jdshop.dto.ProductOption;
 import com.zhou.jdshop.pojo.po.TbProduct;
-import com.zhou.jdshop.pojo.po.TbProductExample;
 import com.zhou.jdshop.pojo.vo.TbProductCustom;
 import com.zhou.jdshop.service.ProductService;
 import com.zhou.jdshop.util.IDUtils;
+import com.zhou.jdshop.pojo.po.TbProductExample;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.slf4j.Logger;
@@ -92,7 +92,7 @@ public class ProductServiceImpl implements ProductService {
         Long pid = 0L;
 //        FTPClient ftp = new FTPClient();
         try {
-            pid=IDUtils.getItemId();
+            pid= IDUtils.getItemId();
             product.setPid(pid);
             product.setPflag(1);
             product.setPsold(0);

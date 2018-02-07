@@ -1,6 +1,6 @@
 package com.zhou.jdshop.ws.service.impl;
 
-import com.zhou.jdshop.ws.service.WeatherInterface ;
+import com.zhou.jdshop.ws.service.WeatherInterface;
 
 import javax.jws.WebService;
 

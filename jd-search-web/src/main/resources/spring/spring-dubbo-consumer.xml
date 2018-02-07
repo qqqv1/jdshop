@@ -14,17 +14,17 @@
     <!-- 使用multicast广播注册中心暴露发现服务地址 -->
     <dubbo:registry  protocol="zookeeper" address="zookeeper://www.wyfei8.top:2181"/>
     <!-- 生成远程服务代理，可以和本地bean一样使用categoryService -->
-    <dubbo:reference id="categoryService" interface="com.zhou.jdshop.service.CategoryService" timeout="3000"/>
+    <dubbo:reference id="categoryService" interface="CategoryService" timeout="3000"/>
     <!-- 生成远程服务代理，可以和本地bean一样使用productService -->
-    <dubbo:reference id="productService" interface="com.zhou.jdshop.service.ProductService" timeout="3000"/>
+    <dubbo:reference id="productService" interface="ProductService" timeout="3000"/>
     <!-- 生成远程服务代理，可以和本地bean一样使用orderService -->
-    <dubbo:reference id="orderService" interface="com.zhou.jdshop.service.OrderService" timeout="3000"/>
+    <dubbo:reference id="orderService" interface="OrderService" timeout="3000"/>
     <!-- 生成远程服务代理，可以和本地bean一样使用searchService -->
-    <dubbo:reference id="searchService" interface="com.zhou.jdshop.service.SearchService" timeout="3000"/>
+    <dubbo:reference id="searchService" interface="SearchService" timeout="3000"/>
     <!-- 生成远程服务代理，可以和本地bean一样使用tbContentService -->
-    <dubbo:reference id="tbContentService" interface="com.zhou.jdshop.service.TbContentService" timeout="3000"/>
+    <dubbo:reference id="tbContentService" interface="TbContentService" timeout="3000"/>
     <!-- 生成远程服务代理，可以和本地bean一样使用orderService -->
-    <dubbo:reference id="userService" interface="com.zhou.jdshop.service.UserService" timeout="3000"/>
+    <dubbo:reference id="userService" interface="UserService" timeout="3000"/>
 
     <!--<dubbo:annotation package="com.zhou.jdshop.service"/>-->
 

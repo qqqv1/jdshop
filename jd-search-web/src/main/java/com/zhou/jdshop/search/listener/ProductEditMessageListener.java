@@ -2,13 +2,8 @@ package com.zhou.jdshop.search.listener;
 
 import com.zhou.jdshop.dao.TbProductCustomMapper;
 import com.zhou.jdshop.pojo.vo.TbProductCustom;
-import org.apache.solr.client.solrj.SolrQuery;
 import org.apache.solr.client.solrj.SolrServer;
-import org.apache.solr.client.solrj.response.QueryResponse;
-import org.apache.solr.common.SolrDocument;
-import org.apache.solr.common.SolrDocumentList;
 import org.apache.solr.common.SolrInputDocument;
-import org.apache.solr.common.params.SolrParams;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import javax.jms.Message;

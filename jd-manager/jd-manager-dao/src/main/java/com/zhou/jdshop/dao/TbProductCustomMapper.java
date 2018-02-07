@@ -1,9 +1,7 @@
 package com.zhou.jdshop.dao;
 
 import com.zhou.jdshop.dto.ProductOption;
-import com.zhou.jdshop.dto.TbSearchTbProductCustom;
 import com.zhou.jdshop.pojo.vo.TbProductCustom;
-import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.zhou.jdshop.dao.TbShippingAddressMapper" >
-  <resultMap id="BaseResultMap" type="com.zhou.jdshop.pojo.po.TbShippingAddress" >
+<mapper namespace="TbShippingAddressMapper" >
+  <resultMap id="BaseResultMap" type="com.zhou.TbShippingAddress" >
     <id column="aid" property="aid" jdbcType="BIGINT" />
     <result column="shipping_addr" property="shippingAddr" jdbcType="VARCHAR" />
     <result column="zip_code" property="zipCode" jdbcType="INTEGER" />
@@ -68,7 +68,7 @@
   <sql id="Base_Column_List" >
     aid, shipping_addr, zip_code, receiver_phone
   </sql>
-  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.zhou.jdshop.pojo.po.TbShippingAddressExample" >
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.zhou.TbShippingAddressExample" >
     select
     <if test="distinct" >
       distinct
@@ -92,19 +92,19 @@
     delete from tb_shipping_address
     where aid = #{aid,jdbcType=BIGINT}
   </delete>
-  <delete id="deleteByExample" parameterType="com.zhou.jdshop.pojo.po.TbShippingAddressExample" >
+  <delete id="deleteByExample" parameterType="com.zhou.TbShippingAddressExample" >
     delete from tb_shipping_address
     <if test="_parameter != null" >
       <include refid="Example_Where_Clause" />
     </if>
   </delete>
-  <insert id="insert" parameterType="com.zhou.jdshop.pojo.po.TbShippingAddress" >
+  <insert id="insert" parameterType="com.zhou.TbShippingAddress" >
     insert into tb_shipping_address (aid, shipping_addr, zip_code, 
       receiver_phone)
     values (#{aid,jdbcType=BIGINT}, #{shippingAddr,jdbcType=VARCHAR}, #{zipCode,jdbcType=INTEGER}, 
       #{receiverPhone,jdbcType=VARCHAR})
   </insert>
-  <insert id="insertSelective" parameterType="com.zhou.jdshop.pojo.po.TbShippingAddress" >
+  <insert id="insertSelective" parameterType="com.zhou.TbShippingAddress" >
     insert into tb_shipping_address
     <trim prefix="(" suffix=")" suffixOverrides="," >
       <if test="aid != null" >
@@ -135,7 +135,7 @@
       </if>
     </trim>
   </insert>
-  <select id="countByExample" parameterType="com.zhou.jdshop.pojo.po.TbShippingAddressExample" resultType="java.lang.Integer" >
+  <select id="countByExample" parameterType="com.zhou.TbShippingAddressExample" resultType="java.lang.Integer" >
     select count(*) from tb_shipping_address
     <if test="_parameter != null" >
       <include refid="Example_Where_Clause" />
@@ -171,7 +171,7 @@
       <include refid="Update_By_Example_Where_Clause" />
     </if>
   </update>
-  <update id="updateByPrimaryKeySelective" parameterType="com.zhou.jdshop.pojo.po.TbShippingAddress" >
+  <update id="updateByPrimaryKeySelective" parameterType="com.zhou.TbShippingAddress" >
     update tb_shipping_address
     <set >
       <if test="shippingAddr != null" >
@@ -186,7 +186,7 @@
     </set>
     where aid = #{aid,jdbcType=BIGINT}
   </update>
-  <update id="updateByPrimaryKey" parameterType="com.zhou.jdshop.pojo.po.TbShippingAddress" >
+  <update id="updateByPrimaryKey" parameterType="com.zhou.TbShippingAddress" >
     update tb_shipping_address
     set shipping_addr = #{shippingAddr,jdbcType=VARCHAR},
       zip_code = #{zipCode,jdbcType=INTEGER},

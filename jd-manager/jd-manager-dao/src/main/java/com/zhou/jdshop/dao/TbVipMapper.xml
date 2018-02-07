@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.zhou.jdshop.dao.TbVipMapper" >
-  <resultMap id="BaseResultMap" type="com.zhou.jdshop.pojo.po.TbVip" >
+<mapper namespace="TbVipMapper" >
+  <resultMap id="BaseResultMap" type="com.zhou.TbVip" >
     <id column="user_level" property="userLevel" jdbcType="INTEGER" />
     <result column="user_discount" property="userDiscount" jdbcType="DOUBLE" />
     <result column="up_limit" property="upLimit" jdbcType="INTEGER" />
@@ -68,7 +68,7 @@
   <sql id="Base_Column_List" >
     user_level, user_discount, up_limit, down_limit
   </sql>
-  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.zhou.jdshop.pojo.po.TbVipExample" >
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.zhou.TbVipExample" >
     select
     <if test="distinct" >
       distinct
@@ -92,19 +92,19 @@
     delete from tb_vip
     where user_level = #{userLevel,jdbcType=INTEGER}
   </delete>
-  <delete id="deleteByExample" parameterType="com.zhou.jdshop.pojo.po.TbVipExample" >
+  <delete id="deleteByExample" parameterType="com.zhou.TbVipExample" >
     delete from tb_vip
     <if test="_parameter != null" >
       <include refid="Example_Where_Clause" />
     </if>
   </delete>
-  <insert id="insert" parameterType="com.zhou.jdshop.pojo.po.TbVip" >
+  <insert id="insert" parameterType="com.zhou.TbVip" >
     insert into tb_vip (user_level, user_discount, up_limit, 
       down_limit)
     values (#{userLevel,jdbcType=INTEGER}, #{userDiscount,jdbcType=DOUBLE}, #{upLimit,jdbcType=INTEGER}, 
       #{downLimit,jdbcType=INTEGER})
   </insert>
-  <insert id="insertSelective" parameterType="com.zhou.jdshop.pojo.po.TbVip" >
+  <insert id="insertSelective" parameterType="com.zhou.TbVip" >
     insert into tb_vip
     <trim prefix="(" suffix=")" suffixOverrides="," >
       <if test="userLevel != null" >
@@ -135,7 +135,7 @@
       </if>
     </trim>
   </insert>
-  <select id="countByExample" parameterType="com.zhou.jdshop.pojo.po.TbVipExample" resultType="java.lang.Integer" >
+  <select id="countByExample" parameterType="com.zhou.TbVipExample" resultType="java.lang.Integer" >
     select count(*) from tb_vip
     <if test="_parameter != null" >
       <include refid="Example_Where_Clause" />
@@ -171,7 +171,7 @@
       <include refid="Update_By_Example_Where_Clause" />
     </if>
   </update>
-  <update id="updateByPrimaryKeySelective" parameterType="com.zhou.jdshop.pojo.po.TbVip" >
+  <update id="updateByPrimaryKeySelective" parameterType="com.zhou.TbVip" >
     update tb_vip
     <set >
       <if test="userDiscount != null" >
@@ -186,7 +186,7 @@
     </set>
     where user_level = #{userLevel,jdbcType=INTEGER}
   </update>
-  <update id="updateByPrimaryKey" parameterType="com.zhou.jdshop.pojo.po.TbVip" >
+  <update id="updateByPrimaryKey" parameterType="com.zhou.TbVip" >
     update tb_vip
     set user_discount = #{userDiscount,jdbcType=DOUBLE},
       up_limit = #{upLimit,jdbcType=INTEGER},

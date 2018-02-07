@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.zhou.jdshop.dao.TbUserMapper" >
-  <resultMap id="BaseResultMap" type="com.zhou.jdshop.pojo.po.TbUser" >
+<mapper namespace="TbUserMapper" >
+  <resultMap id="BaseResultMap" type="com.zhou.TbUser" >
     <id column="uid" property="uid" jdbcType="BIGINT" />
     <result column="uname" property="uname" jdbcType="VARCHAR" />
     <result column="password" property="password" jdbcType="VARCHAR" />
@@ -83,7 +83,7 @@
     uid, uname, password, truename, sex, birthday, email, telephone, institution, city, 
     address, regist_time, integral, user_level, safety_problem, answer, aid, state
   </sql>
-  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.zhou.jdshop.pojo.po.TbUserExample" >
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.zhou.TbUserExample" >
     select
     <if test="distinct" >
       distinct
@@ -107,13 +107,13 @@
     delete from tb_user
     where uid = #{uid,jdbcType=BIGINT}
   </delete>
-  <delete id="deleteByExample" parameterType="com.zhou.jdshop.pojo.po.TbUserExample" >
+  <delete id="deleteByExample" parameterType="com.zhou.TbUserExample" >
     delete from tb_user
     <if test="_parameter != null" >
       <include refid="Example_Where_Clause" />
     </if>
   </delete>
-  <insert id="insert" parameterType="com.zhou.jdshop.pojo.po.TbUser" >
+  <insert id="insert" parameterType="com.zhou.TbUser" >
     insert into tb_user (uid, uname, password, 
       truename, sex, birthday, 
       email, telephone, institution, 
@@ -127,7 +127,7 @@
       #{integral,jdbcType=INTEGER}, #{userLevel,jdbcType=INTEGER}, #{safetyProblem,jdbcType=VARCHAR}, 
       #{answer,jdbcType=VARCHAR}, #{aid,jdbcType=BIGINT}, #{state,jdbcType=INTEGER})
   </insert>
-  <insert id="insertSelective" parameterType="com.zhou.jdshop.pojo.po.TbUser" >
+  <insert id="insertSelective" parameterType="com.zhou.TbUser" >
     insert into tb_user
     <trim prefix="(" suffix=")" suffixOverrides="," >
       <if test="uid != null" >
@@ -242,7 +242,7 @@
       </if>
     </trim>
   </insert>
-  <select id="countByExample" parameterType="com.zhou.jdshop.pojo.po.TbUserExample" resultType="java.lang.Integer" >
+  <select id="countByExample" parameterType="com.zhou.TbUserExample" resultType="java.lang.Integer" >
     select count(*) from tb_user
     <if test="_parameter != null" >
       <include refid="Example_Where_Clause" />
@@ -334,7 +334,7 @@
       <include refid="Update_By_Example_Where_Clause" />
     </if>
   </update>
-  <update id="updateByPrimaryKeySelective" parameterType="com.zhou.jdshop.pojo.po.TbUser" >
+  <update id="updateByPrimaryKeySelective" parameterType="com.zhou.TbUser" >
     update tb_user
     <set >
       <if test="uname != null" >
@@ -391,7 +391,7 @@
     </set>
     where uid = #{uid,jdbcType=BIGINT}
   </update>
-  <update id="updateByPrimaryKey" parameterType="com.zhou.jdshop.pojo.po.TbUser" >
+  <update id="updateByPrimaryKey" parameterType="com.zhou.TbUser" >
     update tb_user
     set uname = #{uname,jdbcType=VARCHAR},
       password = #{password,jdbcType=VARCHAR},

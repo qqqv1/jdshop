@@ -7,7 +7,9 @@
           <element id="module-output" name="jd-portal-web" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="Maven: com.zhou:jd-manager-com.zhou.jdshop.search.service:1.0-SNAPSHOT" />
+          <element id="archive" name="jd-manager-service-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="jd-manager-service" />
+          </element>
           <element id="archive" name="jd-manager-dao-1.0-SNAPSHOT.jar">
             <element id="module-output" name="jd-manager-dao" />
           </element>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.zhou.jdshop.dao.TbProductCatMapper" >
-  <resultMap id="BaseResultMap" type="com.zhou.jdshop.pojo.po.TbProductCat" >
+<mapper namespace="TbProductCatMapper" >
+  <resultMap id="BaseResultMap" type="com.zhou.TbProductCat" >
     <id column="cid" property="cid" jdbcType="BIGINT" />
     <result column="parent_id" property="parentId" jdbcType="BIGINT" />
     <result column="cname" property="cname" jdbcType="VARCHAR" />
@@ -72,7 +72,7 @@
   <sql id="Base_Column_List" >
     cid, parent_id, cname, is_parent, sort_order, cflag, created, updated
   </sql>
-  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.zhou.jdshop.pojo.po.TbProductCatExample" >
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.zhou.TbProductCatExample" >
     select
     <if test="distinct" >
       distinct
@@ -96,13 +96,13 @@
     delete from tb_product_cat
     where cid = #{cid,jdbcType=BIGINT}
   </delete>
-  <delete id="deleteByExample" parameterType="com.zhou.jdshop.pojo.po.TbProductCatExample" >
+  <delete id="deleteByExample" parameterType="com.zhou.TbProductCatExample" >
     delete from tb_product_cat
     <if test="_parameter != null" >
       <include refid="Example_Where_Clause" />
     </if>
   </delete>
-  <insert id="insert" parameterType="com.zhou.jdshop.pojo.po.TbProductCat" >
+  <insert id="insert" parameterType="com.zhou.TbProductCat" >
     insert into tb_product_cat (cid, parent_id, cname, 
       is_parent, sort_order, cflag, 
       created, updated)
@@ -110,7 +110,7 @@
       #{isParent,jdbcType=INTEGER}, #{sortOrder,jdbcType=INTEGER}, #{cflag,jdbcType=INTEGER},
       #{created,jdbcType=TIMESTAMP}, #{updated,jdbcType=TIMESTAMP})
   </insert>
-  <insert id="insertSelective" parameterType="com.zhou.jdshop.pojo.po.TbProductCat" >
+  <insert id="insertSelective" parameterType="com.zhou.TbProductCat" >
     insert into tb_product_cat
     <trim prefix="(" suffix=")" suffixOverrides="," >
       <if test="cid != null" >
@@ -165,7 +165,7 @@
       </if>
     </trim>
   </insert>
-  <select id="countByExample" parameterType="com.zhou.jdshop.pojo.po.TbProductCatExample" resultType="java.lang.Integer" >
+  <select id="countByExample" parameterType="com.zhou.TbProductCatExample" resultType="java.lang.Integer" >
     select count(*) from tb_product_cat
     <if test="_parameter != null" >
       <include refid="Example_Where_Clause" />
@@ -217,7 +217,7 @@
       <include refid="Update_By_Example_Where_Clause" />
     </if>
   </update>
-  <update id="updateByPrimaryKeySelective" parameterType="com.zhou.jdshop.pojo.po.TbProductCat" >
+  <update id="updateByPrimaryKeySelective" parameterType="com.zhou.TbProductCat" >
     update tb_product_cat
     <set >
       <if test="parentId != null" >
@@ -244,7 +244,7 @@
     </set>
     where cid = #{cid,jdbcType=BIGINT}
   </update>
-  <update id="updateByPrimaryKey" parameterType="com.zhou.jdshop.pojo.po.TbProductCat" >
+  <update id="updateByPrimaryKey" parameterType="com.zhou.TbProductCat" >
     update tb_product_cat
     set parent_id = #{parentId,jdbcType=BIGINT},
       cname = #{cname,jdbcType=VARCHAR},

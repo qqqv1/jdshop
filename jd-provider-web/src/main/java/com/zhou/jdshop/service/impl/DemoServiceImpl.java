@@ -1,6 +1,7 @@
 package com.zhou.jdshop.service.impl;
 
 import com.zhou.jdshop.dubbo.service.DemoService;
+import com.zhou.jdshop.dubbo.service.DemoService;
 
 /**
  * User: DHC

@@ -10,23 +10,23 @@
         ">
 
     <!-- service接口的实现类 -->
-    <bean id="categoryService" class="com.zhou.jdshop.service.impl.CategoryServiceImpl" />
+    <bean id="categoryService" class="CategoryServiceImpl" />
     <!-- service接口的实现类 -->
-    <bean id="fileService" class="com.zhou.jdshop.service.impl.FileServiceImpl" />
+    <bean id="fileService" class="FileServiceImpl" />
     <!-- service接口的实现类 -->
-    <bean id="orderService" class="com.zhou.jdshop.service.impl.OrderServiceImpl" />
+    <bean id="orderService" class="OrderServiceImpl" />
     <!-- service接口的实现类 -->
-    <bean id="productIndexService" class="com.zhou.jdshop.service.impl.ProductIndexServiceImpl" />
+    <bean id="productIndexService" class="ProductIndexServiceImpl" />
     <!-- service接口的实现类 -->
-    <bean id="productService" class="com.zhou.jdshop.service.impl.ProductServiceImpl" />
+    <bean id="productService" class="ProductServiceImpl" />
     <!-- service接口的实现类 -->
-    <bean id="searchService" class="com.zhou.jdshop.service.impl.SearchServiceImpl" />
+    <bean id="searchService" class="SearchServiceImpl" />
     <!-- service接口的实现类 -->
-    <bean id="tbContentService" class="com.zhou.jdshop.service.impl.TbContentServiceImpl" />
+    <bean id="tbContentService" class="TbContentServiceImpl" />
     <!-- service接口的实现类 -->
-    <bean id="tbLunBoService" class="com.zhou.jdshop.service.impl.TbLunBoServiceImpl" />
+    <bean id="tbLunBoService" class="TbLunBoServiceImpl" />
     <!-- service接口的实现类 -->
-    <bean id="userService" class="com.zhou.jdshop.service.impl.UserServiceImpl" />
+    <bean id="userService" class="UserServiceImpl" />
     <!-- 提供方应用信息，用于计算依赖关系 -->
     <dubbo:application name="zhou_provider" />
     <!-- 使用zookeeper注册中心暴露服务地址 -->
@@ -34,22 +34,22 @@
     <!-- 用dubbo协议在20880端口暴露服务 -->
     <dubbo:protocol name="dubbo" port="20880" />
     <!-- 声明需要暴露的服务接口 --><!--多行-->
-    <dubbo:service interface="com.zhou.jdshop.service.CategoryService" ref="categoryService" timeout="3000"/>
+    <dubbo:service interface="CategoryService" ref="categoryService" timeout="3000"/>
     <!-- 声明需要暴露的服务接口 --><!--多行-->
-    <dubbo:service interface="com.zhou.jdshop.service.FileService" ref="fileService" timeout="3000"/>
+    <dubbo:service interface="FileService" ref="fileService" timeout="3000"/>
     <!-- 声明需要暴露的服务接口 --><!--多行-->
-    <dubbo:service interface="com.zhou.jdshop.service.OrderService" ref="orderService" timeout="3000"/>
+    <dubbo:service interface="OrderService" ref="orderService" timeout="3000"/>
     <!-- 声明需要暴露的服务接口 --><!--多行-->
-    <dubbo:service interface="com.zhou.jdshop.service.ProductIndexService" ref="productIndexService" timeout="3000"/>
+    <dubbo:service interface="ProductIndexService" ref="productIndexService" timeout="3000"/>
     <!-- 声明需要暴露的服务接口 --><!--多行-->
-    <dubbo:service interface="com.zhou.jdshop.service.ProductService" ref="productService" timeout="3000"/>
+    <dubbo:service interface="ProductService" ref="productService" timeout="3000"/>
     <!-- 声明需要暴露的服务接口 --><!--多行-->
-    <dubbo:service interface="com.zhou.jdshop.service.SearchService" ref="searchService" timeout="3000"/>
+    <dubbo:service interface="SearchService" ref="searchService" timeout="3000"/>
     <!-- 声明需要暴露的服务接口 --><!--多行-->
-    <dubbo:service interface="com.zhou.jdshop.service.TbContentService" ref="tbContentService" timeout="3000"/>
+    <dubbo:service interface="TbContentService" ref="tbContentService" timeout="3000"/>
     <!-- 声明需要暴露的服务接口 --><!--多行-->
-    <dubbo:service interface="com.zhou.jdshop.service.TbLunBoService" ref="tbLunBoService" timeout="3000"/>
+    <dubbo:service interface="TbLunBoService" ref="tbLunBoService" timeout="3000"/>
     <!-- 声明需要暴露的服务接口 --><!--多行-->
-    <dubbo:service interface="com.zhou.jdshop.service.UserService" ref="userService" timeout="3000"/>
+    <dubbo:service interface="UserService" ref="userService" timeout="3000"/>
 
 </beans>

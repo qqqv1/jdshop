@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.zhou.jdshop.dao.TbNoticeMapper" >
-  <resultMap id="BaseResultMap" type="com.zhou.jdshop.pojo.po.TbNotice" >
+<mapper namespace="TbNoticeMapper" >
+  <resultMap id="BaseResultMap" type="com.zhou.TbNotice" >
     <id column="notice_id" property="noticeId" jdbcType="BIGINT" />
     <result column="notice_title" property="noticeTitle" jdbcType="VARCHAR" />
     <result column="notice_content" property="noticeContent" jdbcType="VARCHAR" />
@@ -68,7 +68,7 @@
   <sql id="Base_Column_List" >
     notice_id, notice_title, notice_content, notice_time
   </sql>
-  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.zhou.jdshop.pojo.po.TbNoticeExample" >
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.zhou.TbNoticeExample" >
     select
     <if test="distinct" >
       distinct
@@ -92,19 +92,19 @@
     delete from tb_notice
     where notice_id = #{noticeId,jdbcType=BIGINT}
   </delete>
-  <delete id="deleteByExample" parameterType="com.zhou.jdshop.pojo.po.TbNoticeExample" >
+  <delete id="deleteByExample" parameterType="com.zhou.TbNoticeExample" >
     delete from tb_notice
     <if test="_parameter != null" >
       <include refid="Example_Where_Clause" />
     </if>
   </delete>
-  <insert id="insert" parameterType="com.zhou.jdshop.pojo.po.TbNotice" >
+  <insert id="insert" parameterType="com.zhou.TbNotice" >
     insert into tb_notice (notice_id, notice_title, notice_content, 
       notice_time)
     values (#{noticeId,jdbcType=BIGINT}, #{noticeTitle,jdbcType=VARCHAR}, #{noticeContent,jdbcType=VARCHAR}, 
       #{noticeTime,jdbcType=TIMESTAMP})
   </insert>
-  <insert id="insertSelective" parameterType="com.zhou.jdshop.pojo.po.TbNotice" >
+  <insert id="insertSelective" parameterType="com.zhou.TbNotice" >
     insert into tb_notice
     <trim prefix="(" suffix=")" suffixOverrides="," >
       <if test="noticeId != null" >
@@ -135,7 +135,7 @@
       </if>
     </trim>
   </insert>
-  <select id="countByExample" parameterType="com.zhou.jdshop.pojo.po.TbNoticeExample" resultType="java.lang.Integer" >
+  <select id="countByExample" parameterType="com.zhou.TbNoticeExample" resultType="java.lang.Integer" >
     select count(*) from tb_notice
     <if test="_parameter != null" >
       <include refid="Example_Where_Clause" />
@@ -171,7 +171,7 @@
       <include refid="Update_By_Example_Where_Clause" />
     </if>
   </update>
-  <update id="updateByPrimaryKeySelective" parameterType="com.zhou.jdshop.pojo.po.TbNotice" >
+  <update id="updateByPrimaryKeySelective" parameterType="com.zhou.TbNotice" >
     update tb_notice
     <set >
       <if test="noticeTitle != null" >
@@ -186,7 +186,7 @@
     </set>
     where notice_id = #{noticeId,jdbcType=BIGINT}
   </update>
-  <update id="updateByPrimaryKey" parameterType="com.zhou.jdshop.pojo.po.TbNotice" >
+  <update id="updateByPrimaryKey" parameterType="com.zhou.TbNotice" >
     update tb_notice
     set notice_title = #{noticeTitle,jdbcType=VARCHAR},
       notice_content = #{noticeContent,jdbcType=VARCHAR},
