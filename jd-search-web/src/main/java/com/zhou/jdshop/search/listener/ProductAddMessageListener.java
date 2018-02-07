@@ -48,6 +48,8 @@ public class ProductAddMessageListener implements MessageListener {
                 solrServer.add(document);
                 //提交
                 solrServer.commit();
+                //优化索引
+                solrServer.optimize();
             }
         } catch (Exception e) {
             e.printStackTrace();

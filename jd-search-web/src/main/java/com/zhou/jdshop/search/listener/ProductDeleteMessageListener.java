@@ -1,6 +1,5 @@
 package com.zhou.jdshop.search.listener;
 
-import org.apache.solr.client.solrj.SolrQuery;
 import org.apache.solr.client.solrj.SolrServer;
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -29,6 +28,8 @@ public class ProductDeleteMessageListener implements MessageListener {
                 }
                 //提交
                 solrServer.commit();
+                //优化索引
+                solrServer.optimize();
             }
         } catch (Exception e) {
             e.printStackTrace();
