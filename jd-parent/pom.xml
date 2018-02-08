@@ -21,6 +21,7 @@
         <module>../jd-ws-publisher</module>
         <module>../jd-ws-client</module>
         <module>../jd-sso-web</module>
+        <module>../jd-dubbo</module>
     </modules>
 
     <properties>

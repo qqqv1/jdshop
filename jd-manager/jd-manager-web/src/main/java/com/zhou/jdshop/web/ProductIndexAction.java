@@ -8,9 +8,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import javax.annotation.Resource;
+
 @Controller
 public class ProductIndexAction {
-    @Autowired
+//    @Autowired
+@Resource
     private ProductIndexService productIndexService;
 
     @ResponseBody

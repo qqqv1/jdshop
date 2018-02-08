@@ -1,6 +1,6 @@
 package com.zhou.jdshop.dubbo.main;
 
-import com.zhou.jdshop.dubbo.service.DemoService ;
+import com.zhou.jdshop.dubbo.service.DemoService;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**

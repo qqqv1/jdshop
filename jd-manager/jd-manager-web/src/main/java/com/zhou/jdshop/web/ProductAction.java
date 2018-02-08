@@ -27,7 +27,8 @@ public class ProductAction {
     @Resource
     private Destination topicDestination;
 
-    @Autowired
+//    @Autowired
+@Resource
     private ProductService productService;
 
 //    @ResponseBody
