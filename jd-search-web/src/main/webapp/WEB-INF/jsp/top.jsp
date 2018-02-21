@@ -11,7 +11,7 @@
     <ul class="message-l">
         <div class="topMessage">
             <div class="menu-hd">
-                <a href="client-login" target="_top" class="h">亲，请登录</a>
+                <a href="http://127.0.0.1:8083/jdshop/shiro-cas" target="_top" class="h">亲，请登录</a>
                 <a href="client-register" target="_top">免费注册</a>
             </div>
         </div>

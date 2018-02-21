@@ -23,8 +23,10 @@
     <dubbo:reference id="searchService" interface="com.zhou.jdshop.service.SearchService" timeout="6000"/>
     <!-- 生成远程服务代理，可以和本地bean一样使用tbContentService -->
     <dubbo:reference id="tbContentService" interface="com.zhou.jdshop.service.TbContentService" timeout="6000"/>
-    <!-- 生成远程服务代理，可以和本地bean一样使用orderService -->
+    <!-- 生成远程服务代理，可以和本地bean一样使用userService -->
     <dubbo:reference id="userService" interface="com.zhou.jdshop.service.UserService" timeout="6000"/>
+    <!-- 生成远程服务代理，可以和本地bean一样使用roleService -->
+    <dubbo:reference id="roleService" interface="com.zhou.jdshop.service.RoleService" timeout="6000"/>
 
     <!--<dubbo:annotation package="com.zhou.jdshop.service"/>-->
 

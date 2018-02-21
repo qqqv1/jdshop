@@ -22,7 +22,6 @@
             <artifactId>jackson-databind</artifactId>
         </dependency>
 
-
         <!-- 文件上传组件 -->
         <dependency>
             <groupId>commons-fileupload</groupId>
@@ -30,7 +29,7 @@
         </dependency>
         <!--处理百度富文本编辑器的工具包、加密工具包-->
         <dependency>
-            <groupId>com.baidu</groupId>
+            <groupId>com.blingblingbang</groupId>
             <artifactId>ueditor</artifactId>
         </dependency>
         <dependency>
@@ -67,6 +66,33 @@
             <artifactId>zkclient</artifactId>
         </dependency>
 
+        <!-- apache shiro 相关jar -->
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-aspectj</artifactId>
+            <version>${shiro.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-spring</artifactId>
+            <version>${shiro.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-core</artifactId>
+            <version>${shiro.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-cas</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>javax.servlet</groupId>
+                    <artifactId>servlet-api</artifactId>
+                </exclusion>
+            </exclusions>
+            <version>${shiro.version}</version>
+        </dependency>
     </dependencies>
 
 

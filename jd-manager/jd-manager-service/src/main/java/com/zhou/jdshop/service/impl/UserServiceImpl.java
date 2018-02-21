@@ -41,6 +41,11 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
+    public TbUser getUserByAccount(String account) {
+        return null;
+    }
+
+    @Override
     public TbUser getUserById(Long uid) {
         TbUser user=new TbUser();
         try {
@@ -168,4 +173,6 @@ public class UserServiceImpl implements UserService {
     public TbUser findByUsername(String username){
         return userCustomDao.selectByUsername(username);
     }
+
+
 }

@@ -1,0 +1,6 @@
+2018-02-21 22:01:18,015 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-02-21 22:01:18,045 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 2 services.
+2018-02-21 22:03:18,047 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-02-21 22:03:18,099 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 2 services.
+2018-02-21 22:05:18,156 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-02-21 22:05:18,283 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 2 services.

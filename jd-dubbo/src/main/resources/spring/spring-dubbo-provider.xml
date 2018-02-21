@@ -27,6 +27,8 @@
     <bean id="tbLunBoService" class="com.zhou.jdshop.service.impl.TbLunBoServiceImpl" />
     <!-- service接口的实现类 -->
     <bean id="userService" class="com.zhou.jdshop.service.impl.UserServiceImpl" />
+    <!-- service接口的实现类 -->
+    <bean id="roleService" class="com.zhou.jdshop.service.impl.RoleServiceImpl" />
     <!-- 提供方应用信息，用于计算依赖关系 -->
     <dubbo:application name="zhou_provider" />
     <!-- 使用zookeeper注册中心暴露服务地址 -->
@@ -51,5 +53,6 @@
     <dubbo:service interface="com.zhou.jdshop.service.TbLunBoService" ref="tbLunBoService" timeout="3000"/>
     <!-- 声明需要暴露的服务接口 --><!--多行-->
     <dubbo:service interface="com.zhou.jdshop.service.UserService" ref="userService" timeout="3000"/>
-
+    <!-- 声明需要暴露的服务接口 --><!--多行-->
+    <dubbo:service interface="com.zhou.jdshop.service.RoleService" ref="roleService" timeout="3000"/>
 </beans>

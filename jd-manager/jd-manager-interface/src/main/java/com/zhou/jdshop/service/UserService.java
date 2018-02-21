@@ -33,4 +33,6 @@ public interface UserService {
     int editUser(TbUser user);
 
     int updateUser(List<Long> uids, Integer state);
+
+    TbUser getUserByAccount(String account);
 }

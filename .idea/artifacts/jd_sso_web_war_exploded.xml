@@ -7,6 +7,18 @@
           <element id="module-output" name="jd-sso-web" />
         </element>
         <element id="directory" name="lib">
+          <element id="archive" name="jd-manager-service-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="jd-manager-service" />
+          </element>
+          <element id="archive" name="jd-manager-dao-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="jd-manager-dao" />
+          </element>
+          <element id="archive" name="jd-manager-pojo-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="jd-manager-pojo" />
+          </element>
+          <element id="archive" name="jd-manager-interface-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="jd-manager-interface" />
+          </element>
           <element id="archive" name="jd-common-1.0-SNAPSHOT.jar">
             <element id="module-output" name="jd-common" />
           </element>

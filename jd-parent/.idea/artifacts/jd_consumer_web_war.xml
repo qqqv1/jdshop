@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jd-consumer-web:war">
+    <output-path>$PROJECT_DIR$/../jd-consumer-web/target</output-path>
+    <root id="archive" name="jd-consumer-web.war">
+      <element id="artifact" artifact-name="jd-consumer-web:war exploded" />
+    </root>
+  </artifact>
+</component>

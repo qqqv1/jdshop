@@ -21,7 +21,7 @@
         </dependency>
         <dependency>
             <groupId>com.zhou</groupId>
-            <artifactId>jd-common</artifactId>
+            <artifactId>jd-manager-service</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <!--JSP相关jar-->

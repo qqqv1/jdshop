@@ -29,8 +29,7 @@ public class FileAction {
     @ResponseBody
     public void config(HttpServletRequest request, HttpServletResponse response) throws IOException {
         request.setCharacterEncoding("UTF-8");
-        response.setCharacterEncoding("UTF-8");
-        response.setContentType("application/json");
+        response.setContentType("application/json;charset=utf-8");
 
         String action = request.getParameter("action");
         if("config".equals(action)){

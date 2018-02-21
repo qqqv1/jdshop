@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/cas-server-webapp/cas-server-webapp.iml" filepath="$PROJECT_DIR$/cas-server-webapp/cas-server-webapp.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-cxf-caller/java-cxf-caller.iml" filepath="$PROJECT_DIR$/java-cxf-caller/java-cxf-caller.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-cxf-publisher/java-cxf-publisher.iml" filepath="$PROJECT_DIR$/java-cxf-publisher/java-cxf-publisher.iml" />
       <module fileurl="file://$PROJECT_DIR$/jd-common/jd-common.iml" filepath="$PROJECT_DIR$/jd-common/jd-common.iml" />
