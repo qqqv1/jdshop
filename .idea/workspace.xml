@@ -1,154 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d262294-80cb-456d-94c0-5c70f4aa3cf5" name="Default" comment="1.1">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/i/app-icon72x72@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/i/examples/admin-chrome.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/i/examples/admin-firefox.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/i/examples/admin-ie.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/i/examples/admin-opera.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/i/examples/admin-safari.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/i/examples/adminPage.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/i/examples/blogPage.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/i/examples/landing.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/i/examples/landingPage.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/i/examples/loginPage.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/i/examples/sidebarPage.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/i/favicon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/i/startup-640x1096.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-common/src/main/java/com/zhou/jdshop/util/CookieUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/java/com/zhou/jdshop/sso/web/SSOIndexAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/resources/db.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/resources/logback.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/resources/mybatis/mybatis-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/resources/spring/spring-dao.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/resources/spring/spring-jedis.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/resources/spring/spring-mvc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/resources/spring/spring-service.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/resources/spring/spring-solr.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/css/admin.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/css/amazeui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/css/amazeui.flat.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/css/amazeui.flat.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/css/amazeui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/css/app.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/js/amazeui.ie8polyfill.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/js/amazeui.ie8polyfill.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/js/amazeui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/js/amazeui.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/js/amazeui.widgets.helper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/js/amazeui.widgets.helper.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/js/handlebars.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/WEB-INF/jsp/bottom.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/WEB-INF/jsp/login.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/css/addstyle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/css/appstyle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/css/base.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/css/bilstyle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/css/blogstyle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/css/blstyle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/css/bootstrap-table.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/css/bostyle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/css/cartstyle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/css/cmstyle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/css/colstyle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/css/cpstyle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/css/dlstyle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/css/footstyle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/css/hmstyle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/css/infstyle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/css/jsstyle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/css/login.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/css/lostyle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/css/myjd.commentImg.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/css/myjd.common.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/css/myjd.info.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/css/myjd.order.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/css/newstyle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/css/optstyle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/css/order-commons.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/css/orstyle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/css/passport.base.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/css/personal.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/css/pop_compare.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/css/psearch.onebox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/css/psearch20131008.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/css/pshow.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/css/purchase.2012.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/css/purchase.base.2012.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/css/purchase.checkout.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/css/purchase.sop.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/css/refstyle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/css/regist.personal.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/css/seastyle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/css/skin.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/css/sortstyle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/css/stepstyle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/css/sustyle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/css/systyle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/css/taotao.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/js/CommentStar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/js/address.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/js/base-2011.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/js/base-v1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/js/base.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/js/bootstrap-table-zh-CN.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/js/bootstrap-table.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/js/calendar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/js/cart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/js/home.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/js/iplocation_server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/js/jTips.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/js/jquery-1.6.4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/js/jquery-1.7.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/js/jquery-extend.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/js/jquery.checkout.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/js/jquery.cookie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/js/jquery.flexslider.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/js/jquery.hashchange.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/js/jquery.imagezoom.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/js/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/js/jquery.price_format.2.0.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/js/lib-v1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/js/list.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/js/order.common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/js/product.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/js/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/js/search_main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/js/taotao.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/index.jsp" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/jd_manager_web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/jd_manager_web_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/jd_sso_web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/jd_sso_web_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/webContexts.xml" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-common/jd-common.iml" afterPath="$PROJECT_DIR$/jd-common/jd-common.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-common/pom.xml" afterPath="$PROJECT_DIR$/jd-common/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-dao/jd-manager-dao.iml" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-dao/jd-manager-dao.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-interface/jd-manager-interface.iml" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-interface/jd-manager-interface.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-interface/src/main/java/com/zhou/jdshop/service/UserService.java" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-interface/src/main/java/com/zhou/jdshop/service/UserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/jd-manager-pojo.iml" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-pojo/jd-manager-pojo.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-service/jd-manager-service.iml" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-service/jd-manager-service.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-service/src/main/java/com/zhou/jdshop/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-service/src/main/java/com/zhou/jdshop/service/impl/UserServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/jd-manager-web.iml" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/jd-manager-web.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager-web/pom.xml" afterPath="$PROJECT_DIR$/jd-manager/jd-manager-web/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-manager/jd-manager.iml" afterPath="$PROJECT_DIR$/jd-manager/jd-manager.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-search-web/src/main/webapp/WEB-INF/jsp/top.jsp" afterPath="$PROJECT_DIR$/jd-search-web/src/main/webapp/WEB-INF/jsp/top.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-sso-web/jd-sso-web.iml" afterPath="$PROJECT_DIR$/jd-sso-web/jd-sso-web.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-sso-web/pom.xml" afterPath="$PROJECT_DIR$/jd-sso-web/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/jd-sso-web/src/main/webapp/WEB-INF/web.xml" />
-    </list>
+    <list default="true" id="6d262294-80cb-456d-94c0-5c70f4aa3cf5" name="Default" comment="1.1" />
     <ignored path="$PROJECT_DIR$/jd-parent/target/" />
     <ignored path="$PROJECT_DIR$/jd-manager/target/" />
     <ignored path="$PROJECT_DIR$/jd-manager/jd-manager-dao/target/" />
@@ -417,7 +270,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="80" />
     <option name="y" value="35" />
     <option name="width" value="1346" />
@@ -745,7 +598,7 @@
       <workItem from="1517963879652" duration="19116000" />
       <workItem from="1518053560781" duration="9724000" />
       <workItem from="1518136889567" duration="4205000" />
-      <workItem from="1519606644725" duration="528000" />
+      <workItem from="1519606644725" duration="913000" />
     </task>
     <task id="LOCAL-00001" summary="1.1">
       <created>1515112940201</created>
@@ -766,7 +619,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="467531000" />
+    <option name="totallyTimeSpent" value="467916000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -778,7 +631,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -789,12 +642,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34724092" sideWeight="0.11604585" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24212034" sideWeight="0.49103138" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.510745" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34724092" sideWeight="0.88395417" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34724092" sideWeight="0.88395417" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20630373" sideWeight="0.47644684" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20630373" sideWeight="0.47644684" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3144699" sideWeight="0.5070422" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2256447" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
