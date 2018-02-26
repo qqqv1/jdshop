@@ -36,6 +36,7 @@
         <entry key="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/shoppingcart.jsp" value="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp" />
         <entry key="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp/WEB-INF/jsp/top.jsp" value="file://$PROJECT_DIR$/jd-portal-web/src/main/webapp" />
         <entry key="file://$PROJECT_DIR$/jd-search-web/src/main/webapp/WEB-INF/jsp/client-information.jsp" value="file://$PROJECT_DIR$/jd-search-web/src/main/webapp" />
+        <entry key="file://$PROJECT_DIR$/jd-sso-web/src/main/webapp/WEB-INF/jsp/login.jsp" value="file://$PROJECT_DIR$/jd-sso-web/src/main/webapp" />
       </map>
     </option>
   </component>

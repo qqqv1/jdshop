@@ -1,5 +1,6 @@
 package com.zhou.jdshop.service;
 
+import com.zhou.jdshop.dto.MessageResult;
 import com.zhou.jdshop.pojo.po.TbUser;
 
 import java.util.List;
@@ -33,4 +34,6 @@ public interface UserService {
     int editUser(TbUser user);
 
     int updateUser(List<Long> uids, Integer state);
+
+    MessageResult userLogin(String username, String password);
 }
