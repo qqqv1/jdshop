@@ -21,6 +21,7 @@
         <module>../jd-ws-publisher</module>
         <module>../jd-ws-client</module>
         <module>../jd-sso-web</module>
+        <module>../jd-dubbo</module>
     </modules>
 
     <properties>
@@ -59,7 +60,7 @@
         <quartz.version>2.2.2</quartz.version>
         <lucene.version>4.10.3</lucene.version>
         <IKAnalyzer.version>2012FF_u1</IKAnalyzer.version>
-
+        <shiro.version>1.2.3</shiro.version>
     </properties>
     <!--依赖的统一管理声明-->
     <dependencyManagement>
@@ -107,7 +108,7 @@
             </dependency>
             <!--处理百度富文本编辑器的工具包、加密工具包-->
             <dependency>
-                <groupId>com.baidu</groupId>
+                <groupId>com.blingblingbang</groupId>
                 <artifactId>ueditor</artifactId>
                 <version>${baidu-ueditor.version}</version>
             </dependency>

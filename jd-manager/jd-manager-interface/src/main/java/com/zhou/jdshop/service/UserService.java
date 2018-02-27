@@ -36,4 +36,6 @@ public interface UserService {
     int updateUser(List<Long> uids, Integer state);
 
     MessageResult userLogin(String username, String password);
+
+    TbUser getUserByAccount(String account);
 }

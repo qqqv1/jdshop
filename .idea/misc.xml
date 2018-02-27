@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../cas-4.1.x/cas-server-webapp" />
+    <file type="web" url="file://$PROJECT_DIR$/cas-server-webapp" />
+    <file type="web" url="file://$PROJECT_DIR$/cas/web/META-INF/maven/org.jasig.cas/cas-server-webapp" />
     <file type="web" url="file://$PROJECT_DIR$/jd-consumer-web" />
+    <file type="web" url="file://$PROJECT_DIR$/jd-dubbo" />
     <file type="web" url="file://$PROJECT_DIR$/jd-lucene" />
     <file type="web" url="file://$PROJECT_DIR$/jd-manager/jd-manager-web" />
     <file type="web" url="file://$PROJECT_DIR$/jd-portal-web" />
@@ -17,6 +21,7 @@
         <option value="$PROJECT_DIR$/jd-common/pom.xml" />
         <option value="$PROJECT_DIR$/java-cxf-publisher/pom.xml" />
         <option value="$PROJECT_DIR$/java-cxf-caller/pom.xml" />
+        <option value="$PROJECT_DIR$/cas-server-webapp/pom.xml" />
       </list>
     </option>
   </component>

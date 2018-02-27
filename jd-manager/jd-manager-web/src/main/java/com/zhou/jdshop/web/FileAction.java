@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
 
+import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
@@ -20,15 +21,15 @@ import java.util.Map;
 @Controller
 public class FileAction {
 
-    @Autowired
+//    @Autowired
+@Resource
     private FileService fileService;
 
     @RequestMapping(value = "/file/upload",method = RequestMethod.GET)
     @ResponseBody
     public void config(HttpServletRequest request, HttpServletResponse response) throws IOException {
         request.setCharacterEncoding("UTF-8");
-        response.setCharacterEncoding("UTF-8");
-        response.setContentType("application/json");
+        response.setContentType("application/json;charset=utf-8");
 
         String action = request.getParameter("action");
         if("config".equals(action)){

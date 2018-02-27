@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AjcSettings">
+    <option name="ajcPath" value="$MAVEN_REPOSITORY$/org/aspectj/aspectjtools/1.8.6/aspectjtools-1.8.6.jar" />
+    <option name="delegateToJavac" value="true" />
+  </component>
   <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="ajc" />
     <excludeFromCompile>
       <file url="file://$PROJECT_DIR$/.idea/workspace.xml" />
     </excludeFromCompile>
@@ -9,10 +14,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="cas-server-webapp" />
         <module name="java-cxf-caller" />
         <module name="java-cxf-publisher" />
         <module name="jd-common" />
         <module name="jd-consumer-web" />
+        <module name="jd-dubbo" />
         <module name="jd-lucene" />
         <module name="jd-manager-dao" />
         <module name="jd-manager-interface" />
@@ -28,10 +35,12 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="cas-server-webapp" target="1.7" />
       <module name="java-cxf-caller" target="1.8" />
       <module name="java-cxf-publisher" target="1.8" />
       <module name="jd-common" target="1.8" />
       <module name="jd-consumer-web" target="1.8" />
+      <module name="jd-dubbo" target="1.8" />
       <module name="jd-lucene" target="1.8" />
       <module name="jd-manager" target="1.8" />
       <module name="jd-manager-dao" target="1.8" />

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.jasig.cas:cas-server-webapp-support:4.1.11-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jasig/cas/cas-server-webapp-support/4.1.11-SNAPSHOT/cas-server-webapp-support-4.1.11-20170301.155512-7.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jasig/cas/cas-server-webapp-support/4.1.11-SNAPSHOT/cas-server-webapp-support-4.1.11-20170301.155512-7-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jasig/cas/cas-server-webapp-support/4.1.11-SNAPSHOT/cas-server-webapp-support-4.1.11-20170301.155512-7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

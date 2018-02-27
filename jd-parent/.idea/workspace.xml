@@ -1,0 +1,961 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f030dac9-3fbd-428a-9202-f7b95f8bdf7e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.." />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/i/app-icon72x72@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/i/examples/admin-chrome.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/i/examples/admin-firefox.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/i/examples/admin-ie.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/i/examples/admin-opera.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/i/examples/admin-safari.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/i/examples/adminPage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/i/examples/blogPage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/i/examples/landing.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/i/examples/landingPage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/i/examples/loginPage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/i/examples/sidebarPage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/i/favicon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/i/startup-640x1096.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/-0-saturn_solar.jpg_220x220.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/0-item_pic.jpg_220x220.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/01_mid.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/01_small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/02_mid.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/02_small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/03_mid.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/03_small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/1-item_pic.jpg_220x220.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/15.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/17.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/18.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/1_160x160.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/20111221C.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/20120112B.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/20120209D.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/20130330A.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/20130330A_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/20130330B_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/20130330C.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/20130415i.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/20130606B (1).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/20130606B.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/20130725.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/2013100701.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/2013100702.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/2016.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/22.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/28.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/360_flash.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/360_video.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/3CoOkxrFOP.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/537b084eN94336622.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/541f893aN662da9bc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/541fdd63Nab1b3c63.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/54238aaaN17189794.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/543b4d75N686689d7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/5440b1e4N8ff6d0fd.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/5440b1e7N1ade375b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/5440ce68Na00d019e.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/544a11d3Na5a3d566.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/547e6a57N75c2f016.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/549d03d0N59b1f026.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/556.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/557.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/559.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/566.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/566fda5cN4b8a1675.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/62988.jpg_80x80.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/65.jpg_120x120xz.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/72h.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/88.jpg_120x120xz.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/T13iv.XiFdXXa94Hfd-32-32.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/TB102.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/TB1SSK7JpXXXXXCXXXXXXXXXXXX-800-600.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/TB1_pic.jpg_200x200.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/TJ.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/TJ2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/YXARdXxj5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/act1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/act2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/act3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/activity.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/activity1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/activity2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/activity3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/ad1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/ad2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/ad3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/ad4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/ad5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/ad6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/ad7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/ad8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/addbg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/addicon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/addicon1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/addicon2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/advTip.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/backpanel20140708.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/bamboo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/bamboo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/bg20110922.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/bg_hotsale.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/bg_prompt.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/bg_thickbox.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/big.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/blog01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/blog02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/blog03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/blog04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/blog05.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/blog06.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/blog07.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/blog08.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/blog09.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/bonus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/browse1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/btn-again.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/btn-bg-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/btn-check-20140627.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/btn-submit-new.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/btn-submit.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/cake.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/cake.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/candy.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/candy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/cardbg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/cart_corner_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/checkbox.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/checkout-title.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/chocolate.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/chocolate.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/chongzhi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/cicon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/clockbg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/combo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/comment.jpg_400x400.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/comment.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/commstar.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/control-icon-20140521.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/cookies.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/cookies.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/coupon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/coupon2015.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/coupon20150805.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/couponli.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/cp.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/cp2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/cue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/day-to.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/defaultImgs/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/defaultImgs/10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/defaultImgs/11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/defaultImgs/12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/defaultImgs/13.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/defaultImgs/14.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/defaultImgs/15.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/defaultImgs/16.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/defaultImgs/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/defaultImgs/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/defaultImgs/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/defaultImgs/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/defaultImgs/6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/defaultImgs/7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/defaultImgs/8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/defaultImgs/9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/error-3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/error-jd.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/errordog.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/extra.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/fish.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/fish.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/floor-sort20131202.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/flow.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/footprint-arr.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/getAvatar.do.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/gift_intro_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/gift_stamp_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/gift_stamp_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/gift_stamp_21.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/gift_stamp_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/gift_stamp_31.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/header-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/header-bg1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/hover-btn.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/huismall.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/hwbn40x40.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/ibar_sprites.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/icon-sale.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/icon48.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/iconadd.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/iconbig.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/iconfont-bad.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/iconfont-badon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/iconfont-evaluate.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/iconfont-good.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/iconfont-middle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/iconsmall.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/iconsmall0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/iconsmall1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/iconsmall2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/iconsmall3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/im20131028.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/image.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/imgsearch1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/index-jd-wx-qrcode.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/index.showcase.tg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/index_ico_png32.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/item-pic.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/jd-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/kouhong.jpg_80x80.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/kuaidi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/layer-credit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/list1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/listsmall1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/loading-jd.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/login-all-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/logo-201305.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/logo1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/logobig.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/logobig1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/logobig2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/m-buy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/mansmall.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/mask.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/meat.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/meat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/moneysmall.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/more-slide.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/my_cart_title.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/mygift_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/myjd-bg2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/myjd-common-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/myjd-new-ico.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/navce.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/navsmall.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/newicon20140417.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/no-img_mid_.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/nut.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/nut.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/one4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/one5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/one6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/order-icon-20140811.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/p-btns-20140611.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/package.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/package.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/pay.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/peraddbg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/peraddress.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/peraddressbg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/perfect_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/phone-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/promise20141021.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/purchase-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/pwdstrength.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/qr-code-sao.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/qr-code-sao02.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/rBEhV1I2yiUIAAAAAADKL7RWKf8AADQDQOQekkAAMpH341.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/rBEhV1NXYLYIAAAAAADGO8-wV-UAAMfdgNi-BAAAMZT367.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/rank-sh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/rank2014.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/receive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/refund.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/regist-btn.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/regist-word.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/return-process-cd.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/row1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/row2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/row3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/row4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/sale-t.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/sale-t_clock.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/sale1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/sale2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/sale3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/scoll1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/scoll2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/send.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/share.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/side.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/songzi.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/step1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/step2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/sucess.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/swfupload.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/sys_item_selected.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/tab.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/taotao-logo.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/tea.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/tea.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/thickbox_close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/tip-arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/tip-cue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/tj.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/tj1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/tj2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/toggler-arrow.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/tw1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/tw2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/tw3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/tw4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/tw5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/tw6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/tw7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/update.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/user_purchase.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/vip.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/virtuals-20140606.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/virtuals-cat-ico20140826.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/wait-btn.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/wallet.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/wangyin.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/wdsc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/weixin_code_145.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/weizhifu.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/yzm.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/zhifubao.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/images/图标.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_blingblingbang_ueditor_1_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/java/com/zhou/jdshop/sso/web/IndexAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/java/com/zhou/jdshop/sso/web/LoginAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/resources/db.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/resources/logback.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/resources/mybatis/mybatis-config.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/resources/spring/spring-dao.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/resources/spring/spring-mvc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/resources/spring/spring-service.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/css/admin.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/css/amazeui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/css/amazeui.flat.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/css/amazeui.flat.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/css/amazeui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/css/app.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/js/amazeui.ie8polyfill.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/js/amazeui.ie8polyfill.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/js/amazeui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/js/amazeui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/js/amazeui.widgets.helper.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/js/amazeui.widgets.helper.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/js/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/js/handlebars.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/AmazeUI-2.4.2/assets/js/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/WEB-INF/jsp/bottom.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/WEB-INF/jsp/login.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/WEB-INF/jsp/top.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/css/addstyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/css/appstyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/css/base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/css/bilstyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/css/blogstyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/css/blstyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/css/bootstrap-table.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/css/bostyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/css/cartstyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/css/cmstyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/css/colstyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/css/cpstyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/css/dlstyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/css/footstyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/css/hmstyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/css/infstyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/css/jsstyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/css/login.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/css/lostyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/css/myjd.commentImg.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/css/myjd.common.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/css/myjd.info.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/css/myjd.order.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/css/newstyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/css/optstyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/css/order-commons.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/css/orstyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/css/passport.base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/css/personal.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/css/pop_compare.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/css/psearch.onebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/css/psearch20131008.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/css/pshow.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/css/purchase.2012.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/css/purchase.base.2012.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/css/purchase.checkout.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/css/purchase.sop.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/css/refstyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/css/regist.personal.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/css/seastyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/css/skin.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/css/sortstyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/css/stepstyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/css/sustyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/css/systyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/css/taotao.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/js/CommentStar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/js/address.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/js/base-2011.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/js/base-v1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/js/base.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/js/bootstrap-table-zh-CN.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/js/bootstrap-table.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/js/calendar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/js/cart.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/js/home.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/js/iplocation_server.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/js/jTips.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/js/jquery-1.6.4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/js/jquery-1.7.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/js/jquery-extend.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/js/jquery-ui-1.10.4.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/js/jquery.checkout.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/js/jquery.cookie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/js/jquery.flexslider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/js/jquery.hashchange.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/js/jquery.imagezoom.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/js/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/js/jquery.price_format.2.0.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/js/lib-v1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/js/list.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/js/order.common.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/js/product.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/js/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/js/search_main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/js/taotao.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__com_baidu_ueditor_1_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__com_zhou_jd_manager_service_1_0_SNAPSHOT.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../java-cxf-caller/java-cxf-caller.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../java-cxf-publisher/java-cxf-publisher.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../jd-common/jd-common.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../jd-consumer-web/jd-consumer-web.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../jd-dubbo/jd-dubbo.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../jd-lucene/jd-lucene.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../jd-manager/jd-manager-dao/jd-manager-dao.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../jd-manager/jd-manager-interface/jd-manager-interface.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../jd-manager/jd-manager-pojo/jd-manager-pojo.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../jd-manager/jd-manager-service/jd-manager-service.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../jd-manager/jd-manager-web/jd-manager-web.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../jd-manager/jd-manager.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jd-parent.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../jd-portal-web/jd-portal-web.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../jd-provider-web/jd-provider-web.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../jd-search-web/jd-search-web.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../jd-sso-web/jd-sso-web.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../jd-ws-client/jd-ws-client.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../jd-ws-publisher/jd-ws-publisher.iml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/artifacts/jd_dubbo_war_exploded.xml" afterPath="$PROJECT_DIR$/../.idea/artifacts/jd_dubbo_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/artifacts/jd_manager_web_war_exploded.xml" afterPath="$PROJECT_DIR$/../.idea/artifacts/jd_manager_web_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/artifacts/jd_sso_web_war_exploded.xml" afterPath="$PROJECT_DIR$/../.idea/artifacts/jd_sso_web_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/modules.xml" afterPath="$PROJECT_DIR$/../.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/vcs.xml" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jd-dubbo/pom.xml" afterPath="$PROJECT_DIR$/../jd-dubbo/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jd-manager/jd-manager-web/pom.xml" afterPath="$PROJECT_DIR$/../jd-manager/jd-manager-web/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jd-sso-web/pom.xml" afterPath="$PROJECT_DIR$/../jd-sso-web/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/../jd-sso-web/src/main/webapp/WEB-INF/web.xml" />
+    </list>
+    <ignored path="$PROJECT_DIR$/../jd-dubbo/target/" />
+    <ignored path="$PROJECT_DIR$/../jd-ws-publisher/target/" />
+    <ignored path="$PROJECT_DIR$/../jd-ws-client/target/" />
+    <ignored path="$PROJECT_DIR$/../jd-manager/jd-manager-pojo/target/" />
+    <ignored path="$PROJECT_DIR$/../java-cxf-publisher/target/" />
+    <ignored path="$PROJECT_DIR$/../jd-consumer-web/target/" />
+    <ignored path="$PROJECT_DIR$/../jd-portal-web/target/" />
+    <ignored path="$PROJECT_DIR$/../jd-search-web/target/" />
+    <ignored path="$PROJECT_DIR$/../jd-sso-web/target/" />
+    <ignored path="$PROJECT_DIR$/../jd-lucene/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/../jd-common/target/" />
+    <ignored path="$PROJECT_DIR$/../jd-manager/jd-manager-dao/target/" />
+    <ignored path="$PROJECT_DIR$/../jd-manager/jd-manager-web/target/" />
+    <ignored path="$PROJECT_DIR$/../jd-manager/jd-manager-interface/target/" />
+    <ignored path="$PROJECT_DIR$/../java-cxf-caller/target/" />
+    <ignored path="$PROJECT_DIR$/../jd-manager/target/" />
+    <ignored path="$PROJECT_DIR$/../jd-provider-web/target/" />
+    <ignored path="$PROJECT_DIR$/../jd-manager/jd-manager-service/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="C:/迅雷下载/cas-5.2.2/cas-5.2.2/webapp/cas-server-webapp">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../../cas-server-webapp">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../cas-server-webapp">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$/.." source="branch_zhou" />
+              </list>
+            </value>
+          </entry>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$/.." source="origin/branch_zhou" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$/.." source="master" />
+              </list>
+            </value>
+          </entry>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$/.." source="origin/master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="C:/迅雷下载/cas-5.2.2/cas-5.2.2/build.gradle" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="80" />
+    <option name="y" value="35" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="jd-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cas-server-webapp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f030dac9-3fbd-428a-9202-f7b95f8bdf7e" name="Default" comment="" />
+      <created>1519143205019</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1519143205019</updated>
+      <workItem from="1519143214119" duration="205000" />
+      <workItem from="1519144110396" duration="5127000" />
+      <workItem from="1519150585253" duration="4162000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="9494000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25718608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../../cas-server-webapp/build.gradle" />
+    <entry file="file://C:/迅雷下载/cas-5.2.2/cas-5.2.2/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="20" column="56" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="20" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/迅雷下载/cas-5.2.2/cas-5.2.2/webapp/cas-server-webapp/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/迅雷下载/cas-5.2.2/cas-5.2.2/webapp/cas-server-webapp/build/tmp/war/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>jd-consumer-web:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring|jd-provider-web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.40516385" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.1.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

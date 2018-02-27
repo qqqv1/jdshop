@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/cas-server-webapp/cas-server-webapp.iml" filepath="$PROJECT_DIR$/cas-server-webapp/cas-server-webapp.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-cxf-caller/java-cxf-caller.iml" filepath="$PROJECT_DIR$/java-cxf-caller/java-cxf-caller.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-cxf-publisher/java-cxf-publisher.iml" filepath="$PROJECT_DIR$/java-cxf-publisher/java-cxf-publisher.iml" />
       <module fileurl="file://$PROJECT_DIR$/jd-common/jd-common.iml" filepath="$PROJECT_DIR$/jd-common/jd-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/jd-consumer-web/jd-consumer-web.iml" filepath="$PROJECT_DIR$/jd-consumer-web/jd-consumer-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jd-dubbo/jd-dubbo.iml" filepath="$PROJECT_DIR$/jd-dubbo/jd-dubbo.iml" />
       <module fileurl="file://$PROJECT_DIR$/jd-lucene/jd-lucene.iml" filepath="$PROJECT_DIR$/jd-lucene/jd-lucene.iml" />
       <module fileurl="file://$PROJECT_DIR$/jd-manager/jd-manager.iml" filepath="$PROJECT_DIR$/jd-manager/jd-manager.iml" />
       <module fileurl="file://$PROJECT_DIR$/jd-manager/jd-manager-dao/jd-manager-dao.iml" filepath="$PROJECT_DIR$/jd-manager/jd-manager-dao/jd-manager-dao.iml" />

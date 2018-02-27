@@ -41,14 +41,14 @@
             }
             if (flag) {
                 $.ajax({
-                    url: "user/login",
+                    url: "clientLogin",
                     data: {"username": uname, "password": upwd},
                     dataType: "json",
                     type:"post",
                     cache: "false",
                     success: function (data) {
-                        if (data) {
-                            location.href = "http://localhost:8083/jdshop";
+                        if (data > 0) {
+                            location.href = "http://localhost:8083/jdshop/client-information";
                         } else {
                             $("#sp").html("用户名或者密码错误");
                         }
