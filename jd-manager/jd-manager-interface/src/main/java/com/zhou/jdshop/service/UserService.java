@@ -19,7 +19,7 @@ public interface UserService {
 
     List<TbUser> selectAll();
 
-    int updateUserByState(List<Long> uids, Integer state);
+    int updateUserByState(List<Long> uids, String state);
 
     TbUser findByUsername(String username);
 
@@ -29,11 +29,11 @@ public interface UserService {
 
     TbUser getUserById(Long uid);
 
-    int saveProduct(TbUser user);
+    int saveUser(TbUser user);
 
     int editUser(TbUser user);
 
-    int updateUser(List<Long> uids, Integer state);
+    int updateUser(List<Long> uids, String state);
 
     MessageResult userLogin(String username, String password);
 

@@ -1,9 +1,8 @@
 package com.zhou.jdshop.pojo.po;
 
-import java.io.Serializable;
 import java.util.Date;
 
-public class TbUser implements Serializable {
+public class TbUser {
     private Long uid;
 
     private String uname;
@@ -38,7 +37,9 @@ public class TbUser implements Serializable {
 
     private Long aid;
 
-    private Integer state;
+    private String status;
+
+    private String account;
 
     public Long getUid() {
         return uid;
@@ -176,11 +177,19 @@ public class TbUser implements Serializable {
         this.aid = aid;
     }
 
-    public Integer getState() {
-        return state;
+    public String getStatus() {
+        return status;
     }
 
-    public void setState(Integer state) {
-        this.state = state;
+    public void setStatus(String status) {
+        this.status = status == null ? null : status.trim();
+    }
+
+    public String getAccount() {
+        return account;
+    }
+
+    public void setAccount(String account) {
+        this.account = account == null ? null : account.trim();
     }
 }

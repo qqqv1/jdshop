@@ -19,7 +19,8 @@
     <result column="safety_problem" property="safetyProblem" jdbcType="VARCHAR" />
     <result column="answer" property="answer" jdbcType="VARCHAR" />
     <result column="aid" property="aid" jdbcType="BIGINT" />
-    <result column="state" property="state" jdbcType="INTEGER" />
+    <result column="status" property="status" jdbcType="VARCHAR" />
+    <result column="account" property="account" jdbcType="VARCHAR" />
   </resultMap>
   <sql id="Example_Where_Clause" >
     <where >
@@ -81,7 +82,8 @@
   </sql>
   <sql id="Base_Column_List" >
     uid, uname, password, truename, sex, birthday, email, telephone, institution, city, 
-    address, regist_time, integral, user_level, safety_problem, answer, aid, state
+    address, regist_time, integral, user_level, safety_problem, answer, aid, status, 
+    account
   </sql>
   <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.zhou.jdshop.pojo.po.TbUserExample" >
     select
@@ -119,13 +121,15 @@
       email, telephone, institution, 
       city, address, regist_time, 
       integral, user_level, safety_problem, 
-      answer, aid, state)
+      answer, aid, status, 
+      account)
     values (#{uid,jdbcType=BIGINT}, #{uname,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR}, 
       #{truename,jdbcType=VARCHAR}, #{sex,jdbcType=INTEGER}, #{birthday,jdbcType=DATE}, 
       #{email,jdbcType=VARCHAR}, #{telephone,jdbcType=VARCHAR}, #{institution,jdbcType=VARCHAR}, 
       #{city,jdbcType=VARCHAR}, #{address,jdbcType=VARCHAR}, #{registTime,jdbcType=DATE}, 
       #{integral,jdbcType=INTEGER}, #{userLevel,jdbcType=INTEGER}, #{safetyProblem,jdbcType=VARCHAR}, 
-      #{answer,jdbcType=VARCHAR}, #{aid,jdbcType=BIGINT}, #{state,jdbcType=INTEGER})
+      #{answer,jdbcType=VARCHAR}, #{aid,jdbcType=BIGINT}, #{status,jdbcType=VARCHAR}, 
+      #{account,jdbcType=VARCHAR})
   </insert>
   <insert id="insertSelective" parameterType="com.zhou.jdshop.pojo.po.TbUser" >
     insert into tb_user
@@ -181,8 +185,11 @@
       <if test="aid != null" >
         aid,
       </if>
-      <if test="state != null" >
-        state,
+      <if test="status != null" >
+        status,
+      </if>
+      <if test="account != null" >
+        account,
       </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides="," >
@@ -237,8 +244,11 @@
       <if test="aid != null" >
         #{aid,jdbcType=BIGINT},
       </if>
-      <if test="state != null" >
-        #{state,jdbcType=INTEGER},
+      <if test="status != null" >
+        #{status,jdbcType=VARCHAR},
+      </if>
+      <if test="account != null" >
+        #{account,jdbcType=VARCHAR},
       </if>
     </trim>
   </insert>
@@ -302,8 +312,11 @@
       <if test="record.aid != null" >
         aid = #{record.aid,jdbcType=BIGINT},
       </if>
-      <if test="record.state != null" >
-        state = #{record.state,jdbcType=INTEGER},
+      <if test="record.status != null" >
+        status = #{record.status,jdbcType=VARCHAR},
+      </if>
+      <if test="record.account != null" >
+        account = #{record.account,jdbcType=VARCHAR},
       </if>
     </set>
     <if test="_parameter != null" >
@@ -329,7 +342,8 @@
       safety_problem = #{record.safetyProblem,jdbcType=VARCHAR},
       answer = #{record.answer,jdbcType=VARCHAR},
       aid = #{record.aid,jdbcType=BIGINT},
-      state = #{record.state,jdbcType=INTEGER}
+      status = #{record.status,jdbcType=VARCHAR},
+      account = #{record.account,jdbcType=VARCHAR}
     <if test="_parameter != null" >
       <include refid="Update_By_Example_Where_Clause" />
     </if>
@@ -385,8 +399,11 @@
       <if test="aid != null" >
         aid = #{aid,jdbcType=BIGINT},
       </if>
-      <if test="state != null" >
-        state = #{state,jdbcType=INTEGER},
+      <if test="status != null" >
+        status = #{status,jdbcType=VARCHAR},
+      </if>
+      <if test="account != null" >
+        account = #{account,jdbcType=VARCHAR},
       </if>
     </set>
     where uid = #{uid,jdbcType=BIGINT}
@@ -409,7 +426,8 @@
       safety_problem = #{safetyProblem,jdbcType=VARCHAR},
       answer = #{answer,jdbcType=VARCHAR},
       aid = #{aid,jdbcType=BIGINT},
-      state = #{state,jdbcType=INTEGER}
+      status = #{status,jdbcType=VARCHAR},
+      account = #{account,jdbcType=VARCHAR}
     where uid = #{uid,jdbcType=BIGINT}
   </update>
 </mapper>

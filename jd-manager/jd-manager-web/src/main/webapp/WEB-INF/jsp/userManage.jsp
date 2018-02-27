@@ -124,7 +124,7 @@
                 async: true,
                 dataType: "json",
                 url: "updateUser",
-                data: {"uids": pids,"state":0},
+                data: {"uids": pids,"state":"delete"},
                 success: function (data) {
                     if (data > 0) {
                         $table.bootstrapTable('refresh');

@@ -130,7 +130,7 @@
           class="org.jasig.cas.adaptors.jdbc.QueryDatabaseAuthenticationHandler"
           p:dataSource-ref="dataSource"
           p:passwordEncoder-ref="passwordEncoder"
-          p:sql="select password from t_user where account=? and status = 'active'" />
+          p:sql="select password from tb_user where account=? and status = 'active'" />
 
     <!-- Required for proxy ticket mechanism -->
     <bean id="proxyPrincipalResolver"

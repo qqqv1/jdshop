@@ -48,7 +48,7 @@ public class UserAction {
     public int saveProduct(TbUser user){
         int i = 0;
         try {
-            i = userService.saveProduct(user);
+            i = userService.saveUser(user);
         } catch (Exception e) {
             logger.error(e.getMessage(), e);
             e.printStackTrace();
@@ -71,7 +71,7 @@ public class UserAction {
 
     @ResponseBody
     @RequestMapping("/updateUser")
-    public int deleteProduct(@RequestParam("uids[]") List<Long> uids, @RequestParam("state") Integer state){
+    public int deleteProduct(@RequestParam("uids[]") List<Long> uids, @RequestParam("state") String state){
         int i = 0;
         try {
             i = userService.updateUser(uids,state);
